@@ -1,0 +1,84 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+
+//圣痕卡槽列表
+message m_soul_list_tos {  //1140001
+
+}
+
+message m_soul_list_toc {  //1140001
+	map<int32, p_item> souls = 1;     //key:位置， value:p_item
+}
+
+
+//装备圣痕
+message m_soul_puton_tos {  //1140002
+	required int32 pos = 1;     //卡槽位置
+	required int32 uid = 2;     //背包唯一id
+}
+
+message m_soul_puton_toc {  //1140002
+
+}
+
+
+//取下
+message m_soul_putoff_tos {  //1140003
+	required int32 pos = 1;
+}
+
+message m_soul_putoff_toc {  //1140003
+	repeated int32 pos = 1;
+}
+
+
+//升级
+message m_soul_uplevel_tos { //1140004
+	required int32 pos = 1;
+}
+
+message m_soul_uplevel_toc { //1140004
+	required int32 pos = 1;
+}
+
+
+//分解
+message m_soul_decompose_tos { //1140005
+	repeated int32 uid = 1;          //背包唯一id
+}
+
+message m_soul_decompose_toc { //1140005
+
+}
+
+
+//获取自动分解设置
+message m_soul_get_set_tos {     //1140006
+
+}
+
+message m_soul_get_set_toc {     //1140006
+	optional int32 auto = 1;        //是否自动分解（0-否，1-是）
+	optional int32 color = 2;       //分解颜色品质
+}
+
+//自动分解设置
+message m_soul_decompose_set_tos {  //1140007
+	optional int32 auto = 1;        //是否自动分解（0-否，1-是）
+	optional int32 color = 2;       //分解颜色品质
+}
+
+message m_soul_decompose_set_toc {  //1140007
+
+}
+
+
+//融合
+message m_soul_combine_tos {     //1140008
+	required int32 r_item_id = 1;     //结果id
+}
+
+message m_soul_combine_toc {     //1140008
+
+}

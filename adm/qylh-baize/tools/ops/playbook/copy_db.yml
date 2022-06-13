@@ -1,0 +1,15 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: copy db lastest backup file
+    copy:
+      src: "{{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+      dest: "{{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+      force: yes
+

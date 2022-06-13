@@ -1,0 +1,44 @@
+syntax = "proto2";
+
+// 活动开始
+message m_activity_start_toc { //1600001
+	required int32 id    = 1; // 活动id
+	required int32 stime = 2; // 开始时间
+	required int32 etime = 3; // 结束时间
+}
+
+// 活动结束
+message m_activity_stop_toc { //1600002
+	required int32 id = 1; // 活动id
+}
+
+// 活动预告
+message m_activity_predict_toc { //1600003
+	required int32 id    = 1; // 活动id
+	required int32 stime = 2; // 开始时间
+}
+
+// 当前开启的活动列表
+message m_activity_list_tos { //1600004
+
+}
+
+message m_activity_list_toc { //1600004
+	repeated p_activity activities = 1;
+}
+
+// 全部活动列表
+message m_activity_all_tos { //1600005
+
+}
+
+message m_activity_all_toc { //1600005
+	repeated p_activity activities = 1;
+}
+
+message p_activity {
+	required int32 id    = 1; // 活动id
+	required int32 stime = 2; // 开始时间
+	required int32 etime = 3; // 结束时间
+	required int32 state = 4; // 活动状态
+}

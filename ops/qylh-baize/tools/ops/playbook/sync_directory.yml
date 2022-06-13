@@ -1,0 +1,33 @@
+---
+
+- hosts: "{{ machines }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: create dest directory
+    file:
+      path: "{{ dst }}"
+      state: directory
+      owner: "{{ own }}"
+      group: "{{ grp }}"
+      mode: 0755
+
+  - name: sync directory
+    synchronize:
+      src: "{{ src }}"
+      dest: "{{ dst }}"
+      mode: "{{ mode }}"
+      recursive: yes
+      rsync_opts:
+        - "--exclude=.svn"
+
+  - name: change owner and group
+    file:
+      path: "{{ dst }}"
+      state: directory
+      owner: "{{ own }}"
+      group: "{{ grp }}"
+      recurse: yes

@@ -1,0 +1,38 @@
+syntax = "proto2";
+
+//活动投资
+message m_actinvest_info_tos { //1145001
+    
+}
+
+message m_actinvest_info_toc { //1145001
+    repeated p_actinvest   acts = 1;
+}
+
+// 投资
+message m_actinvest_buy_tos { //1145002
+    required int32      act_id = 1;
+}
+
+message m_actinvest_buy_toc { //1145002
+    required int32      act_id  = 1;
+}
+
+//领取活动累充奖励
+message m_actinvest_reward_tos { //1145003
+    required int32      act_id  = 1;
+    required int32      day     = 2; //领取第几天奖励
+}
+
+message m_actinvest_reward_toc { //1145003
+    required int32      act_id  = 1;
+    required int32      day     = 2; //领取第几天奖励
+}
+
+message p_actinvest {
+    required int32      act_id   = 1; //活动ID
+    required int32      day      = 2; //当前第几天
+    repeated int32      fetch    = 3; //领奖过的记录
+    required int32      stime    = 4; //开始时间
+    required int32      etime    = 5; //结束时间
+}

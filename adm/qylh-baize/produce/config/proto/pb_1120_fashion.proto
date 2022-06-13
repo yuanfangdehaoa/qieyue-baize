@@ -1,0 +1,56 @@
+syntax = "proto2";
+
+message p_fashion {
+	required int32 id = 1;
+	required int32 star = 2;
+	optional int32 end_time = 3;        //过期事件
+}
+
+//获取时装信息
+message m_fashion_info_tos {  //1120001
+
+}
+
+message m_fashion_info_toc {  //1120001
+	map<int32, p_fashion> fashions = 1;      //激活时装 key=item.id value=p_fashion
+	map<int32, int32> puton_id = 2;            //穿戴id key=部位, val=id
+}
+
+
+//激活
+message m_fashion_active_tos { //1120002
+	required int32 id = 1;      //item.id
+}
+
+message m_fashion_active_toc { //1120002
+
+}
+
+//升星
+message m_fashion_upstar_tos { //1120003
+	required int32 id = 1;      //item.id
+}
+
+message m_fashion_upstar_toc { //1120003
+
+}
+
+//穿戴
+message m_fashion_puton_tos {  //1120004
+	required int32 id = 1;
+}
+
+message m_fashion_puton_toc {  //1120004
+
+}
+
+//脱下
+message m_fashion_putoff_tos {  //1120005
+	required int32 id = 1;
+}
+
+message m_fashion_putoff_toc {  //1120005
+	required int32 id = 1;
+}
+
+

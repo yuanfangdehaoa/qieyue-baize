@@ -1,0 +1,157 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+
+
+
+//刷新品质
+message m_escort_refresh_tos {  //1601001
+
+}
+
+message m_escort_refresh_toc {  //1601001
+	required int32 quality = 1;             //品质
+	optional int32 escort_count = 2;        //护送次数
+	optional int32 rob_count = 3;           //劫掠次数
+	optional int32 refresh_count = 4;       //刷新次数
+}
+
+//开始护送
+message m_escort_start_tos {     //1601005
+
+}
+
+message m_escort_start_toc {     //1601005
+
+}
+
+//获取护送信息
+message m_escort_info_tos {  //1601006
+
+}
+
+message m_escort_info_toc {  //1601006
+	optional int32 quality = 1;             //品质
+	optional p_role_base supporter = 2;     //援助者
+	optional int32 progress = 3;            //进度
+	optional int32 end_time = 4;            //护送结束时间
+	optional int32 level = 5;
+	optional int32 is_double = 6;           //是否双倍
+	optional int32 escort_count = 7;        //护送次数
+	optional int32 refresh_count = 8;       //刷新次数
+}
+
+
+//提交护送
+message m_escort_finish_tos {     //1601009
+	required int32 progress = 1;
+}
+
+message m_escort_finish_toc {     //1601009
+	required int32 result = 1;           //结果（0-失败，1-成功）
+	optional int32 progress = 2;
+	map<int32, int32> rewards = 3;    //奖励
+}
+
+message m_escort_count_toc {     //1601013
+	required int32 escort_count = 1;       //更新护送次数          
+}
+
+
+
+
+
+message p_escort {
+	required p_role_base role = 1;        //护送人
+	required int32 quality = 2;           //品质
+	required int32 level = 3;             //刷新时等级
+}
+
+message p_escort_record {    //劫掠记录
+	required p_role_base role = 1;            //劫掠人/被劫掠人
+	required int32 quality = 2;               //品质
+	required int32 level = 3;                 //等级
+	required int32 rob_count = 4;             //劫掠次数
+	required int32 is_success = 5;            //是否成功(0-失败，1-成功)
+}
+
+
+//申请支援
+message m_escort_support_tos {  //1601002
+	required fixed64 role_id = 1;
+}
+
+message m_escort_support_toc {  //1601002
+	required fixed64 role_id = 1;
+}
+
+//被请求者收到请求
+message m_escort_request_support_toc {   //1601003
+	required p_role_base sender = 1;        //申请者
+	required int32 quality = 2;             //品质
+}
+
+//处理请求
+message m_escort_handle_request_tos{   //1601004
+	required fixed64 role_id = 1;           //请求人id
+	required int32 is_accept = 2;           //接受或拒绝(0-拒绝，1-接受)
+}
+
+//处理请求回包
+message m_escort_handle_request_toc{   //1601004
+	required fixed64 role_id = 1;           //请求人id
+	required int32 is_accept = 2;           //接受或拒绝(0-拒绝，1-接受)
+}
+
+
+//获取护送列表
+message m_escort_list_tos {     //1601007
+
+}
+
+message m_escort_list_toc {     //1601007
+	repeated p_escort escorts = 1;
+}
+
+//劫掠
+message m_escort_rob_tos {       //1601008
+	required fixed64 role_id = 1;         //被抢劫人id
+}
+
+message m_escort_rob_toc {       //1601008
+
+}
+
+
+//获取被劫记录
+message m_escort_robbed_record_tos {    //1601010
+
+}
+
+message m_escort_robbed_record_toc {    //1601010
+	repeated p_escort_record records = 1;
+}
+
+//获取劫掠记录
+message m_escort_rob_record_tos {      //1601011
+
+}
+
+message m_escort_rob_record_toc {      //1601011
+	repeated p_escort_record records = 1;
+}
+
+//获取位置
+message m_escort_get_pos_tos {        //1601012
+	required fixed64 role_id = 1;      //被抢劫人id
+}
+
+message m_escort_get_pos_toc {        //1601012
+	required fixed64 role_id = 1;      //被抢劫人id
+	required int32 scene = 2;          //场景id
+	required int32 x = 3;              //位置
+	required int32 y = 4;              //位置
+}
+
+
+

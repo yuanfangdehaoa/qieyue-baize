@@ -1,0 +1,92 @@
+import "pb_comm.proto";
+
+// 神器列表
+message m_artifact_list_tos { //1149001
+
+}
+
+message m_artifact_list_toc { //1149001
+	repeated p_artifact artis = 1; // 神器列表
+}
+
+// 元素列表
+message m_artielem_list_tos { //1149002
+	required int32      type  = 1; // 神器类型
+}
+
+message m_artielem_list_toc { //1149002
+	required int32      type  = 1; // 神器类型
+	repeated p_artielem elems = 2; // 元素列表
+}
+
+// 元素升级
+message m_artielem_upgrade_tos { //1149003
+	required int32 arti_type = 1; // 神器类型
+	required int32 elem_id   = 2; // 元素id
+}
+
+message m_artielem_upgrade_toc { //1149003
+	required int32 arti_type = 1; // 神器类型
+	required int32 elem_id   = 2; // 元素id
+	required bool  is_unlock = 3; // 是否解锁神器
+}
+
+// 神器强化
+message m_artifact_reinf_tos { //1149004
+	required int32 arti_id   = 1; // 神器id
+	repeated int32 materials = 2; // 强化材料
+}
+
+message m_artifact_reinf_toc { //1149004
+	required int32 arti_id   = 1; // 神器id
+	required int32 reinf_lv  = 2;
+	required int32 reinf_exp = 3;
+}
+
+// 穿戴装备
+message m_artifact_puton_tos { //1149005
+	required int32 arti_id  = 1; // 神器id
+	required int32 item_uid = 2; // 道具uid
+}
+
+message m_artifact_puton_toc { //1149005
+	required int32 arti_id   = 1; // 神器id
+	required int32 slot_id   = 2; // 装备位置
+	required bool  is_unlock = 3; // 是否解锁附灵
+}
+
+// 卸下装备
+message m_artifact_putoff_tos { //1149006
+	required int32 arti_id = 1; // 神器id
+	required int32 slot_id = 2; // 装备位置
+}
+
+message m_artifact_putoff_toc { //1149006
+	required int32 arti_id = 1; // 神器id
+	required int32 slot_id = 2; // 装备位置
+}
+
+// 附灵
+message m_artifact_enchant_tos { //1149007
+	required int32 arti_id = 1; // 神器id
+}
+
+message m_artifact_enchant_toc { //1149007
+	required int32    arti_id = 1; // 神器id
+	map<int32,int32>  enchant = 2; // 附灵属性 k=AttrCode, v=AttrVal
+}
+
+// 神器
+message p_artifact {
+	required int32      id        = 1;
+	required int32      reinf_lv  = 2; // 强化等级
+	required int32      reinf_exp = 3; // 强化经验
+	map<int32,p_item>   equips    = 4; // 神器装备 k=ItemSType, v=#p_item
+	map<int32,int32>    enchant   = 5; // 附灵属性 k=AttrCode, v=AttrVal
+}
+
+// 元素
+message p_artielem {
+	required int32 id    = 1;
+	required int32 level = 2;
+}

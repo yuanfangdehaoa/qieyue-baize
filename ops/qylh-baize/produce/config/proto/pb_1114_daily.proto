@@ -1,0 +1,72 @@
+syntax = "proto2";
+
+// 日常活跃度
+message m_daily_info_tos { //1114001
+
+}
+
+message m_daily_info_toc { //1114001
+    repeated p_daily    list     = 1;
+    repeated int32      rewarded = 2; //已领奖的ID
+    required int32      total    = 3; //累计完成的活跃度
+}
+
+// 推送活跃度更新
+message m_daily_update_toc { //1114002
+    required p_daily    daily   = 1;
+    required int32      total   = 2; //累计完成的活跃度
+}
+
+// 领取奖励
+message m_daily_reward_tos { //1114003
+    required int32      id      = 1; //奖励ID
+}
+
+message m_daily_reward_toc { //1114003
+    required int32      id      = 1; //领取成功
+}
+
+// 查询幻化
+message m_daily_illusion_tos { //1114004
+
+}
+
+message m_daily_illusion_toc { //1114004
+    required int32      level   = 1;
+    required int32      exp     = 2;
+    required int32      show_id = 3;
+    required bool       show    = 4; //true：显示
+}
+
+// 升级幻化
+message m_daily_illusion_upgrade_tos { //1114005
+
+}
+
+message m_daily_illusion_upgrade_toc { //1114005
+    required int32      level   = 1;
+    required int32      exp     = 2;
+    required int32      show_id = 3;
+}
+
+// 隐藏、显示幻化
+message m_daily_illusion_show_tos { //1114006
+    required bool      show    = 1; //true：显示
+}
+
+message m_daily_illusion_show_toc { //1114006
+}
+
+// 切换幻化形象
+message m_daily_illusion_select_tos { //1114007
+    required int32      show_id    = 1; //形象ID
+}
+
+message m_daily_illusion_select_toc { //1114007
+    required int32      show_id    = 1; //形象ID
+}
+
+message p_daily {
+    required int32      id       = 1;
+    required int32      progress = 2; //完成的次数
+}

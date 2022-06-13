@@ -1,0 +1,83 @@
+syntax = "proto2";
+
+
+//获取红包
+message m_guild_redenvelope_list_tos {  //1404001
+	
+}
+
+message m_guild_redenvelope_list_toc { //1404001
+	repeated p_redenvelope redenvelopes = 1;     //红包列表
+	repeated p_redenvelope guild_redenvelopes=2; //帮会红包列表
+}
+
+//发红包
+message m_guild_redenvelope_send_tos { //1404002
+	required int32 num = 1;        //红包个数
+	optional fixed64 uid = 2;        //红包唯一id
+	required int32 id = 3;         //红包id
+	optional int32 money = 4;      //金额
+	optional string desc = 5;      //描述
+}
+
+message m_guild_redenvelope_send_toc { //1404002
+	required fixed64 uid = 1;
+}
+
+//抢红包
+message m_guild_redenvelope_snatch_tos { //1404003
+	required fixed64 uid = 1;       //红包唯一id
+}
+
+message m_guild_redenvelope_snatch_toc { //1404003
+	required fixed64 uid = 1; 
+}
+
+//获取红包记录
+message m_guild_redenvelope_record_tos {  //1404004
+	
+}
+
+message m_guild_redenvelope_record_toc {  //1404004
+	repeated p_redenvelope_record records = 1;
+}
+
+//更新红包
+message m_guild_redenvelope_update_toc {  //1404005
+	required p_redenvelope redenvelope = 1; 
+}
+
+
+//红包结构
+message p_redenvelope {
+	required fixed64 uid = 1;        //红包唯一id
+	required int32 id = 2;         //红包id
+	required p_rn_role role = 3;   //角色信息
+	required int32 num = 4;        //红包总数
+	map<int32, int32> money = 5;   //红包总额key=item.id, val=总额
+	repeated p_redenvelope_got gots = 6; //红包领取列表
+	required int32 time = 7;       //时间（秒）
+	required int32 state = 8;      //状态
+	optional string desc = 9;      //描述
+}
+
+//领取红包结构
+message p_redenvelope_got {
+	required p_rn_role role = 1;    //角色信息
+	required int32 money = 2;      //领取的货币
+	required int32 time = 3;       //领取时间
+}
+
+message p_redenvelope_record {
+	required string role_name = 1;  //角色名
+	required int32 id = 2;          //红包id
+	map<int32, int32> money = 3;    //红包总额key=item.id, val=总额
+	required int32 time = 4;        //时间戳（秒）
+}
+
+message p_rn_role {
+	required fixed64 id = 1;        //角色id
+	required string name = 2;     //角色名字
+	required int32 gender = 3;    //性别
+}
+

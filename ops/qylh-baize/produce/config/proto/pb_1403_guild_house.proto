@@ -1,0 +1,77 @@
+syntax = "proto2";
+
+
+
+//获取题目
+message m_guild_house_question_tos { //1403001
+
+}
+
+message m_guild_house_question_toc { //1403001
+	required int32 id = 1;       //题目id
+	required int32 num = 2;      //当前第x题
+	required int32 end_time = 3; //答题结束时间
+	optional int32 score = 4;    //总积分
+}
+
+//答题
+message m_guild_house_answer_tos {   //1403002
+	required int32 answer = 1;   //答案
+}
+
+message m_guild_house_answer_toc {   //1403002
+	optional bool is_right = 1;   //是否正确
+	optional int32 score = 2;     //总积分
+	optional int32 answer = 3;    
+}
+
+//召唤boss
+message m_guild_house_callboss_tos {   //1403003
+	required int32 id = 1;
+}
+
+message m_guild_house_callboss_toc {  //1403003
+	
+}
+
+//更新获得总经验
+message m_guild_house_exp_toc { //1403004
+	required int32 exp = 1;
+}
+
+//首位答对玩家
+message m_guild_question_first_toc {  //1403005
+	required string name = 1;
+}
+
+//答题结算
+message m_guild_question_result_toc { //1403006
+	required int32 rank = 1;        //排名
+	required int32 score = 2;       //积分
+	map<int32, int32> rewards = 3;  //奖励key=itemid, val=num
+}
+
+//获取积分
+message m_guild_house_score_tos {    //1403007
+
+}
+
+message m_guild_house_score_toc {    //1403007
+	required int32 score = 2;     //总积分
+}
+
+//获取boss出生时间
+message m_guild_house_boss_time_tos{ //1403008
+
+}
+
+//boss召唤时间
+message m_guild_house_callboss_bc_toc {  //1403008
+	required int32 start_time = 1;     //召唤时间
+}
+
+//boss死亡或清除
+message m_guild_house_boss_finish_toc {  //1403009
+
+}
+

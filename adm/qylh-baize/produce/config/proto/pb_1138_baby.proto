@@ -1,0 +1,205 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+//获取信息
+message m_baby_info_tos {  //1138001
+	
+}
+
+message m_baby_info_toc {  //1138001
+	optional bool is_hide = 1;       //是否隐藏
+	repeated p_baby babies = 2;      //宝宝
+	map<int32, int32> progress = 3;  //宝宝出生进度
+}
+
+//培养
+message m_baby_uplevel_tos {  //1138002
+	required int32 gender = 1;    //宝宝性别
+}
+
+message m_baby_uplevel_toc {  //1138002
+	
+}
+
+//逗宝宝
+message m_baby_play_tos {    //1138003
+	required int32 gender = 1;
+}
+
+message m_baby_play_toc {    //1138003
+	
+}
+
+//获取进阶信息
+message m_baby_order_info_tos {  //1138004
+
+}
+
+message m_baby_order_info_toc {  //1138004
+	repeated p_baby_order babies = 1;
+	optional int32 figure = 2;          //显示的宝宝id
+}
+
+
+//进阶
+message m_baby_up_order_tos{  //1138005
+	required int32 id = 1;		  //宝宝id
+	required int32 item_id = 2;       //使用道具id
+}
+
+message m_baby_up_order_toc{  //1138005
+	
+}
+
+//宝宝激活
+message m_baby_active_tos{  //1138006
+	required int32 id = 1;           //宝宝id
+}
+
+message m_baby_active_toc{  //1138006
+	
+}
+
+//宝宝幻化
+message m_baby_figure_tos{  //1138007
+	required int32 id = 1;      //宝宝id
+}
+
+message m_baby_figure_toc{  //1138007
+	
+}
+
+//是否隐藏
+message m_baby_hide_tos {   //1138008
+	required bool hide = 1;    //是否隐藏
+}
+
+message m_baby_hide_toc {   //1138008
+	
+}
+
+//点赞
+message m_baby_like_tos {  //1138009
+	required fixed64 role_id = 1;
+}
+
+message m_baby_like_toc {  //1138009
+	required fixed64 role_id = 1;
+	required bool add_count=2;    //是否增加点赞数
+}
+
+//获取记录
+message m_baby_like_records_tos { //1138010
+	
+}
+
+message m_baby_like_records_toc { //1138010
+	repeated p_baby_like records = 1;
+}
+
+//获取装备列表
+message m_baby_equips_tos {  //1138011
+
+}
+
+message m_baby_equips_toc {  //1138011
+	repeated p_item equips = 1;
+}
+
+//穿戴
+message m_baby_equip_puton_tos {  //1138012
+	required int32 uid = 1;
+}
+
+message m_baby_equip_puton_toc {  //1138012
+	required int32 slot = 1;   //部位
+}
+
+//强化
+message m_baby_equip_uplevel_tos { //1138013
+	required int32 slot = 1;   //部位
+}
+
+message m_baby_equip_uplevel_toc { //1138013
+	required int32 slot = 1;   //部位
+}
+
+//分解
+message m_baby_equip_decompose_tos{  //1138014
+	repeated int32 uid=1;
+}
+
+message m_baby_equip_decompose_toc{  //1138014
+	
+}
+
+//获取点赞信息
+message m_baby_like_info_tos{  //1138015
+	required fixed64 role_id = 1;
+}
+
+message m_baby_like_info_toc{  //1138015
+	required int32 count = 1;       //点赞数量
+	required p_baby_order baby = 2; //宝宝信息
+	required fixed64 role_id = 3;
+	required string role_name = 4;
+	required int32 wing_id = 5;     //幻化翅膀id
+}
+
+message m_baby_like_record_toc { //1138016
+	required p_baby_like record = 1;
+}
+
+//子女翅膀
+message m_baby_wing_tos {   //1138017
+
+}
+
+message m_baby_wing_toc {   //1138017
+	map<int32, int32> ids = 1;   //key翅膀id, val=等级
+	required int32 show_id = 2;  //幻化id
+}
+
+//子女翅膀升级
+message m_baby_wing_uplevel_tos {   //1138018
+	required int32 id = 1;      //翅膀id
+}
+
+message m_baby_wing_uplevel_toc {   //1138018
+	required int32 id = 1;      //翅膀id
+}
+
+//子女翅膀幻化
+message m_baby_wing_show_tos {   //1138019
+	required int32 id = 1;     //翅膀id
+}
+
+message m_baby_wing_show_toc {   //1138019
+	required int32 id = 1;     //翅膀id
+}
+
+
+
+message p_baby {
+	required int32 gender = 1;    //宝宝性别
+	optional int32 level = 2;     //养育等级
+	optional int32 play = 3;      //逗宝宝次数
+	optional int32 exp = 4;       //当前经验值
+}
+
+message p_baby_order {
+	required int32 id = 1;         //宝宝id
+	required int32 order = 2;      //阶
+	required int32 exp = 3;        //经验值
+	required int32 blood_type = 4; //血型
+	required int32 constellation = 5; //星座
+}
+
+//点赞记录
+message p_baby_like {
+	required fixed64 role_id = 1;
+	required string role_name = 2;
+	required int32 time = 3;
+	optional int32 state = 4;  //0-未点赞，1-点赞
+}
+

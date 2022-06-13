@@ -1,0 +1,28 @@
+syntax = "proto2";
+
+//活动累充
+message m_actpay_info_tos { //1143001
+    
+}
+
+message m_actpay_info_toc { //1143001
+    repeated p_actpay   acts = 1;
+}
+
+//领取活动累充奖励
+message m_actpay_reward_tos { //1143002
+    required int32      act_id  = 1;
+    required int32      day     = 2; //领取第几天奖励
+}
+
+message m_actpay_reward_toc { //1143002
+    required int32      act_id  = 1;
+    required int32      day     = 2; //领取第几天奖励
+}
+
+message p_actpay {
+    required int32      act_id   = 1; //活动ID
+    required int32      day      = 2; //累充成功第几天
+    repeated int32      fetch    = 3; //领奖过的记录
+}
+

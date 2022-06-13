@@ -1,0 +1,61 @@
+syntax = "proto2";
+
+
+//获取当前觉醒信息
+message m_wake_info_tos {  //1117001
+
+}
+
+message m_wake_info_toc {  //1117001
+	required int32 wake_times = 1;
+}
+
+//获取觉醒任务进度
+message m_wake_task_tos {   //1117002
+
+}
+
+message m_wake_task_toc {   //1117002
+	required int32 cur_step = 1;    //当前觉醒任务阶段
+	map<int32, int32> tasks = 2;    //任务进度key:任务id，value:完成次数
+}
+
+//觉醒
+message m_wake_start_tos {  //1117003
+	optional int32 wake_type = 1;    //觉醒类型（1-一键觉醒，其他为正常觉醒）
+}
+
+message m_wake_start_toc {  //1117003
+
+}
+
+//进入下一阶段
+message m_wake_next_step_tos {  //1117004
+
+}
+
+message m_wake_next_step_toc {  //1117004
+
+}
+
+//点亮格子
+message m_wake_active_grid_tos {  //1117005
+	required int32 grid_id = 1;
+}
+
+message m_wake_active_grid_toc {  //1117005
+	required int32 grid_id = 1;
+}
+
+//获取点亮格子进度
+message m_wake_get_grids_tos {   //1117006
+
+}
+
+//更新格子进度
+message m_wake_get_grids_toc { //1117006
+	required int32 grid_id = 2;        //当前激活的格子id
+}
+
+
+

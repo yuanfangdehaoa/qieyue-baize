@@ -1,0 +1,161 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+//预约面板 
+message m_wedding_appointment_info_tos { //1135001
+    
+}
+
+message m_wedding_appointment_info_toc { //1135001
+    repeated p_wedding_appointment  appointments = 1; //当前预约了的
+    required int32                  remain_times = 2; //剩余预约次数
+}
+
+//预约
+message m_wedding_appointment_book_tos { //1135002
+    required int32 start_time = 1;
+    required int32 end_time   = 2;
+}
+
+message m_wedding_appointment_book_toc { //1135002
+
+}
+
+// 已邀请的宾客列表
+message m_wedding_guest_list_tos { //1135003
+    
+}
+
+message m_wedding_guest_list_toc { //1135003
+    repeated p_role_base    guests     = 1;
+    required int32          max_invite = 2; //邀请上限
+}
+
+// 邀请宾客
+message m_wedding_guest_invite_tos { //1135004
+    required fixed64    id  = 1;
+}
+
+message m_wedding_guest_invite_toc { //1135004
+    required p_role_base    guest = 1;
+}
+
+// 查询当前将要或者正在举行的婚礼(根据activity协议通知的预告或者start才去查询)
+message m_wedding_notice_tos { //1135008
+    
+}
+
+message m_wedding_notice_toc { //1135008
+    required p_wedding    wedding = 1;
+}
+
+// 索要邀请
+message m_wedding_invitation_request_tos { //1135009
+    required int32        start_time = 1;
+    required int32        end_time   = 2;
+}
+
+message m_wedding_invitation_request_toc { //1135009
+    
+}
+
+// 推送玩家的索要申请
+message m_wedding_invitation_apply_toc { //1135007
+    required p_role_base    guest = 1;
+}
+
+// 宾客索要管理
+message m_wedding_invitation_request_list_tos { //1135010
+    
+}
+
+message m_wedding_invitation_request_list_toc { //1135010
+    repeated    p_role_base     guests        = 1;  
+    required    int32           remain_invite = 2;  // 剩余的邀请人数
+}
+
+// 同意索要
+message m_wedding_invitation_request_accept_tos { //1135011
+    repeated    fixed64         ids    = 1; 
+}
+
+message m_wedding_invitation_request_accept_toc { //1135011
+    repeated    fixed64         ids    = 1;  //已同意的宾客
+}
+
+message m_wedding_invitation_request_refuse_tos { //1135012
+    required    fixed64         id    = 1;
+}
+
+message m_wedding_invitation_request_refuse_toc { //1135012
+    required    fixed64         id    = 1;
+}
+
+// 增加请柬
+message m_wedding_invitation_add_tos { //1135013
+    
+}
+
+message m_wedding_invitation_add_toc { //1135013
+    required int32          max_invite = 1; //邀请上限
+}
+
+// 场景数据
+message m_wedding_party_info_tos { //1135017
+    
+}
+
+message m_wedding_party_info_toc { //1135017
+    required int32      etime   = 1; //副本结束时间
+    required fixed64    exp     = 2;
+    required int32      food    = 3;
+    required int32      candy   = 4;
+    required int32      hot     = 5; //当前热度
+    repeated int32      fetch   = 6; //已经领取的热度奖励
+    required bool       refresh = 7; //喜从天降是否刷新
+}
+
+// 定时请求经验
+message m_wedding_party_exp_tos { //1135018
+    
+}
+
+message m_wedding_party_exp_toc { //1135018
+    required fixed64    exp   = 1;
+}
+
+// 推送热度更新
+message m_wedding_party_hot_toc { //1135019
+    required int32    hot   = 1;
+}
+
+message m_wedding_party_fetch_tos { //1135020
+    required int32      hot = 1; //领取的热度档位
+}
+
+message m_wedding_party_fetch_toc { //1135020
+    repeated int32      fetch = 5; //已经领取的热度奖励
+}
+
+// 当前婚礼信息，预约情况
+message m_wedding_info_tos { //1135021
+    
+}
+
+message m_wedding_info_toc { //1135021
+    optional p_wedding_appointment appointment = 1;
+    required bool                  has_request = 2; //是否有索要
+}
+
+
+message p_wedding_appointment {
+    required int32        start_time = 1;
+    required int32        end_time   = 2;
+    repeated p_role_base  couple     = 3;
+}
+
+message p_wedding {
+    required int32        start_time = 1;
+    required int32        end_time   = 2;
+    repeated p_role_base  couple     = 3;
+}

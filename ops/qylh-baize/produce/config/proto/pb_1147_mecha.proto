@@ -1,0 +1,88 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+message m_mecha_list_tos { //1147001
+    
+}
+
+message m_mecha_list_toc { //1147001
+    repeated p_mecha mechas = 1;
+    required int32     use_id   = 2; // 当前出战的id
+}
+
+// 升星
+message m_mecha_upstar_tos { //1147002
+    required int32 id      = 1;
+}
+
+message m_mecha_upstar_toc { //1147002
+    required p_mecha mecha   = 1;
+}
+
+// 升级
+message m_mecha_upgrade_tos { //1147003
+    required int32 id      = 1;
+    required int32 item_id = 2;
+}
+
+message m_mecha_upgrade_toc { //1147003
+    required p_mecha mecha   = 1;
+}
+
+// 出战
+message m_mecha_select_tos { //1147004
+    required int32      id = 1;
+}
+
+message m_mecha_select_toc { //1147004
+    required int32      id = 1;
+}
+
+//获取装备列表
+message m_mecha_equip_tos {  //1147005
+	required int32 id = 1;   //机甲id
+}
+
+message m_mecha_equip_toc {  //1147005
+	repeated p_item equips = 1;
+	map<int32, int32> slots = 2;   //部位是否解锁 key=slot, val=状态(0-解锁，1-未解锁)
+	required int32 id = 3;         //机甲id
+}
+
+//穿戴
+message m_mecha_equip_puton_tos {  //1147006
+	required int32 id = 1;     //机甲id
+	required int32 uid = 2;    //装备uid
+}
+
+message m_mecha_equip_puton_toc {  //1147006
+	required int32 slot = 1;   //部位
+	required int32 id = 2;     //机甲id
+}
+
+//强化
+message m_mecha_equip_uplevel_tos { //1147007
+	required int32 slot = 1;   //部位
+	required int32 id = 2;     //机甲id
+}
+
+message m_mecha_equip_uplevel_toc { //1147007
+	required int32 slot = 1;   //部位
+	required int32 id = 2;     //机甲id
+}
+
+//分解
+message m_mecha_equip_decompose_tos{  //1147008
+	repeated int32 uid=1;
+}
+
+message m_mecha_equip_decompose_toc{  //1147008
+	
+}
+
+message p_mecha {
+    required int32      id    = 1;
+    required int32      star  = 2;
+    required int32      level = 3;
+    required int32      exp   = 4;
+}

@@ -1,0 +1,170 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 面板信息
+message m_compete_panel_tos { //1607001
+
+}
+
+message m_compete_panel_toc { //1607001
+	required int32 act_id       = 1;  // 当前活动id
+	required int32 cur_period   = 2;  // 当前阶段
+	required int32 power_rank   = 3;  // 战力排行
+	required bool  is_enroll    = 4;  // 是否已报名
+	required int32 enroll_num   = 5;  // 报名人数
+	required int32 enroll_stime = 6;  // 报名开始时间
+	required int32 enroll_etime = 7;  // 报名结束时间
+	required int32 select_stime = 8;  // 海选赛开始时间
+	required int32 select_etime = 9;  // 海选赛结束时间
+	required int32 rank_stime   = 10; // 争霸赛开始时间
+	required int32 rank_etime   = 11; // 争霸赛结束时间
+}
+
+// 报名
+message m_compete_enroll_tos { //1607002
+	required int32 act_id = 1; // 活动id
+}
+
+message m_compete_enroll_toc { //1607002
+	required int32 act_id = 1; // 活动id
+}
+
+// 备战信息
+message m_compete_prepare_tos { //1607003
+
+}
+
+message m_compete_prepare_toc { //1607003
+	required int32    exp    = 1; // 累计经验
+	required int32    rank   = 2; // 当前排名
+	required int32    period = 3; // 活动阶段 COMPETE_PERIOD_XXX
+	required int32    round  = 4; // 第几轮
+	required int32    phase  = 5; // 当前阶段 COMPETE_PHASE_XXX
+	required int32    next   = 6; // 下一轮战斗开始时间
+	required bool     miss   = 7; // 是否轮空
+	map<int32, int32> reward = 8; // 已获得奖励
+}
+
+// 战场信息
+message m_compete_battle_tos { //1607004
+
+}
+
+message m_compete_battle_toc { //1607004
+	required int32 etime = 1; // 战斗结束时间
+}
+
+// 购买buff
+message m_compete_buff_tos { //1607005
+	required int32 buff_id = 1;
+}
+
+message m_compete_buff_toc { //1607005
+	required int32 buff_id = 1;
+}
+
+// 战场结算
+message m_compete_stat_toc { //1607006
+	required bool     is_win = 1; // 是否胜利
+	map<int32, int32> reward = 2; // 奖励
+}
+
+// 匹配信息
+message m_compete_match_tos { //1607007
+	required int32 type = 1;
+}
+
+message m_compete_match_toc { //1607007
+	required int32           type        = 1;
+	required int32           round       = 2;
+	repeated p_compete_group groups      = 3;
+	required int32           guess_stime = 4;
+	required int32           guess_etime = 5;
+}
+
+// 竞猜
+message m_compete_guess_tos { //1607008
+	required int32 act_id = 1; // 当前活动id
+	required int32 group  = 2;
+	required int64 role   = 3;
+	required int32 type   = 4; // 下注类型
+	required int32 rank   = 5; // 榜单类型 COMPETE_BATTLE_XXX
+}
+
+message m_compete_guess_toc { //1607008
+	required int32 act_id = 1;  // 当前活动id
+	required int32 group  = 2;
+	required int64 role   = 3;
+	required int32 type   = 4; // 下注类型
+	required int32 rank   = 5; // 榜单类型 COMPETE_BATTLE_XXX
+}
+
+// 往期战报
+message m_compete_history_tos { //1607009
+
+}
+
+message m_compete_history_toc { //1607009
+	repeated p_compete_history history = 1;
+}
+
+// 开始战斗
+message m_compete_fight_tos { //1607010
+
+}
+
+message m_compete_fight_toc { //1607010
+	required int32   index = 1; // 1=左边; 2=右边
+}
+
+// 排行榜
+message m_compete_ranking_tos { //1607011
+}
+
+message m_compete_ranking_toc { //1607011
+	repeated p_compete_ranking ranking  = 1;
+	required int32             my_rank  = 2;
+	required int32             my_score = 3;
+}
+
+// 对战
+message m_compete_versus_toc { //1607012
+	required p_compete_vsrole role1 = 1;
+	required p_compete_vsrole role2 = 2;
+}
+
+message p_compete_group {
+	required int32            id     = 1; // 分组id
+	repeated p_compete_versus vs     = 2; // 对战双方
+	required fixed64          guess  = 3; // 猜的谁赢(未竞猜为0)
+	required fixed64          winner = 4; // 胜利者id
+}
+
+message p_compete_versus {
+	required int32       pos  = 1; // 位置
+	required p_role_base role = 2; // 玩家
+}
+
+message p_compete_history {
+	required int32     season  = 1; // 期数
+	repeated p_ranking ranking = 2; // 排行榜
+}
+
+message p_compete_ranking {
+	required fixed64 role  = 1;
+	required string  name  = 2;
+	required int32   score = 3;
+	required int32   rank  = 4;
+}
+
+message p_compete_vsrole {
+	required fixed64 id     = 1;
+	required int32   gender = 2;
+	required string  name   = 3;
+	required int32   level  = 4;
+	required int32   suid   = 5;
+	required int32   power  = 6;
+	required int32   win    = 7;
+	required int32   lose   = 8;
+	required int32   score  = 9;
+}

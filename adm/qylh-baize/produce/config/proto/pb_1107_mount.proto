@@ -1,0 +1,61 @@
+syntax = "proto2";
+
+// 坐骑信息
+message m_mount_info_tos { //1107001
+	required int32 type = 1;
+}
+
+message m_mount_info_toc { //1107001
+	required int32    type   = 1;
+	required int32    order  = 2; // 阶位
+	required int32    level  = 3; // 星级
+	required int32    exp    = 4; // 祝福值
+	map<int32, int32> train  = 5; // 培养数据, key=ItemID, val=Num
+	required int32    figure = 6; // 当前使用的哪一阶的形象
+}
+
+// 坐骑升级
+message m_mount_upgrade_tos { //1107002
+	required int32 type    = 1;
+	required int32 item_id = 2; // 道具id
+}
+
+message m_mount_upgrade_toc { //1107002
+	required int32 type  = 1;
+	required int32 order = 2; // 新的阶位
+	required int32 level = 3; // 新的星级
+	required int32 exp   = 4; // 新的祝福值
+}
+
+// 坐骑培养
+message m_mount_train_tos { //1107003
+	required int32 type    = 1;
+	required int32 item_id = 2; // 道具id
+}
+
+message m_mount_train_toc { //1107003
+	required int32 type    = 1;
+	required int32 item_id = 2; // 道具id
+	required int32 num     = 3; // 新的数量
+}
+
+// 切换形象
+message m_mount_figure_tos { //1107004
+	required int32    type  = 1;
+	required int32    order = 2; // 阶位
+}
+
+message m_mount_figure_toc { //1107004
+	required int32    type  = 1;
+	required int32    order = 2; // 阶位
+	required int32    res   = 3; // 资源id
+}
+
+// 上下坐骑
+message m_mount_ride_tos { //1107005
+	required int32 type = 1; // 1=骑乘; 2=下马
+}
+
+message m_mount_ride_toc { //1107005
+	required int32 type = 1; // 1=骑乘; 2=下马
+}

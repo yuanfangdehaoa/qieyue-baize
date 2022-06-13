@@ -1,0 +1,48 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 交友大厅
+message m_dating_hall_tos { //1133001
+    required int32          page = 1;
+}
+
+message m_dating_hall_toc { //1133001
+    required p_dating       mine = 1; 
+    repeated p_dating       list = 2; 
+    required int32          page = 3;
+}
+
+// 设置标签
+message m_dating_tag_tos { //1133002
+    repeated int32          tags = 1;
+}
+
+message m_dating_tag_toc { //1133002
+    repeated int32          tags = 1;
+}
+
+// 撩
+message m_dating_flirt_tos { //1133003
+    required fixed64 role_id = 1;
+}
+
+message m_dating_flirt_toc { //1133003
+    
+}
+
+// 匹配
+message m_dating_match_tos { //1133004
+
+}
+
+message m_dating_match_toc { //1133004
+    required p_role_base    role = 1; //匹配成功的对象
+}
+
+
+message p_dating {
+    required p_role_base    base    = 1;
+    repeated int32          tags    = 2;
+    required int32          flirted = 3; //被撩次数
+    map<int32, int32>       flowers = 4; //收到各档次花数量 <花ID,数量>
+}

@@ -1,0 +1,32 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 背包信息
+message m_bag_info_tos { //1101001
+	required int32 bag_id = 1; // 背包id
+}
+
+message m_bag_info_toc { //1101001
+	required int32       bag_id = 1; // 背包id
+	required int32       opened = 2; // 已开启格子数
+	repeated p_item_base items  = 3;
+}
+
+// 开启格子
+message m_bag_open_tos { //1101002
+	required int32 bag_id = 1; // 背包id
+	required int32 num    = 2; // 开启数量
+}
+
+message m_bag_open_toc { //1101002
+	required int32 bag_id = 1; // 背包id
+	required int32 num    = 2; // 开启数量
+}
+
+// 背包更新
+message m_bag_update_toc { //1101003
+	repeated p_item_base add = 1;
+	repeated int32       del = 2;
+	map<int32, int32>    chg = 3; // key=CellID, val=NewNum
+	required int32       way = 4; // 获得方式
+}

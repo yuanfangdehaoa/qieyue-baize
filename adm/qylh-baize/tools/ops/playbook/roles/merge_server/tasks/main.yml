@@ -1,0 +1,6 @@
+---
+
+- name: merge server
+  shell: sh xctl merge {{ suids }}
+  args:
+    chdir: "{{ serv_path }}"

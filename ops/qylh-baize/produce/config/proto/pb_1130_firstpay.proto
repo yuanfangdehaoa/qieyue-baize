@@ -1,0 +1,31 @@
+syntax = "proto2";
+
+//首充数据
+message m_firstpay_info_tos { //1130001
+
+}
+
+message m_firstpay_info_toc { //1130001
+    required bool       is_payed = 1; //是否首充了
+    required int32      day      = 2; //首充成功第几天
+    repeated int32      fetch    = 3; //领奖过的记录
+}
+
+//领取首充奖励
+message m_firstpay_reward_tos { //1130002
+    required int32      day     = 1; //领取第几天奖励
+}
+
+message m_firstpay_reward_toc { //1130002
+
+}
+
+message m_firstpay_superinfo_tos { //1130003
+
+}
+
+message m_firstpay_superinfo_toc { //1130003
+	required int32 pay_num  = 1; // 充值金额
+	required bool  is_fetch = 2; // 是否已领取
+}
+

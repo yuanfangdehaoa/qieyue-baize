@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+
+ToolsDir=$(cd $(dirname $0); pwd)
+ScriptDir=${ToolsDir}/relx
+
+function doc()
+{
+	local Script=${1}
+	echo $(cat ${ScriptDir}/${Script}.sh | grep "@doc" | cut -d" " -f3)
+}
+
+function usage()
+{
+	echo -ne "\e[31m"
+    cat <<EOF
+usage: $(basename $0) command [args]
+command
+	initool   $(doc init_tool)
+	config    $(doc config_server)
+	build     $(doc build_project)
+	pack      $(doc pack_server)
+	patch     $(doc patch_server)
+	switch    $(doc switch_version)
+	buildtime $(doc build_time)
+	checkout
+		branch    $(doc checkout_branch)
+		version   $(doc checkout_version)
+	publish
+		release   $(doc publish_release)
+		branch    $(doc publish_branch)
+EOF
+    echo -ne "\e[0m"
+    exit 1
+}
+
+function run()
+{
+	local Script=${1}
+	shift
+	cd ${ScriptDir}/
+	./${Script}.sh $@
+	if [ $? -ne 0 ]; then
+		exit 1
+	fi
+	cd - 1> /dev/null
+}
+
+case "${1}" in
+	initool )
+		shift
+		case "${1}" in
+			"twft" )
+				run init_tool_twft
+				;;
+			"twtw" )
+				run init_tool_twtw
+				;;
+			"twen" )
+				run init_tool_twen
+				;;
+			"twkr" )
+				run init_tool_twkr
+				;;
+			"jh" )
+				run init_tool_jh
+				;;
+			"yg" )
+				run init_tool_yg
+				;;
+			"xwen" )
+				run init_tool_xwen
+				;;
+			"bt" )
+				run init_tool_bt
+				;;
+		  "r2vn" )
+				run init_tool_r2vn
+				;;
+                  "baize" )
+                                run init_tool_baize
+                                ;;
+			* )
+				run init_tool $@
+		esac
+		;;
+	config )
+		shift
+		run config_server $@
+		;;
+	build )
+		shift
+		run build_project $@
+		;;
+	pack )
+		shift
+		run pack_server $@
+		;;
+	patch )
+		shift
+		run patch_server $@
+		;;
+	switch )
+		shift
+		run switch_version $@
+		;;
+	buildtime )
+		shift
+		run build_time $@
+		;;
+	checkout )
+		shift
+		case "${1}" in
+			"branch" )
+				shift
+				run checkout_branch $@
+				;;
+			"version" )
+				shift
+				run checkout_version $@
+				;;
+			* )
+				usage
+		esac
+		;;
+	publish )
+		shift
+		case "${1}" in
+			"release" )
+				shift
+				run publish_release $@
+				;;
+			"branch" )
+				shift
+				run publish_branch $@
+				;;
+			* )
+				usage
+		esac
+		;;
+	* )
+		usage
+esac

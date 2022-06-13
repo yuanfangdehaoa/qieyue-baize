@@ -1,0 +1,305 @@
+#!/usr/bin/env bash
+
+ulimit -c unlimited
+ulimit -SHn 51200
+
+ServPath=$(cd $(dirname $0); pwd)
+
+function print()
+{
+    echo -ne "\e[32m"
+    echo ${1}
+    echo -ne "\e[0m"
+}
+
+function fatal()
+{
+	echo -e "\e[31m"
+    echo $1
+    echo -e "\e[0m"
+    exit 1
+}
+
+function usage()
+{
+    echo -e "\e[31m"
+    cat <<EOF
+Usage: $(basename $0) command [args]
+
+    start   启动服务器
+    console 启动服务器
+    stop    关闭服务器
+    migrate 数据库迁移
+    list    服务器列表
+    ping    连接测试
+    debug   调试
+    hot     热更
+    run     运行函数
+EOF
+    echo -e "\e[0m"
+    exit 1
+}
+
+SysConfig=${ServPath}/etc/sys.config
+VsnFile=${ServPath}/etc/version.txt
+
+if [ ! -f ${SysConfig} ]; then
+    fatal "${SysConfig}不存在"
+fi
+
+## 获取配置字段
+function get_config()
+{
+    grep "\b$1\b" ${SysConfig} | \
+    awk -F", " '{print $2}' | \
+    awk -F} '{print $1}' | \
+    xargs echo
+}
+
+ServID=$(get_config suid)
+ServType=$(get_config type)
+ServPort=$(get_config port)
+
+## 服务器节点名
+if [ "${ServType}" == "server" ]; then
+    ServNode=$(get_config name)_${ServType}_$(get_config plat)_${ServID}@$(get_config host)
+else
+    ServNode=$(get_config name)_${ServType}_${ServID}@$(get_config host)
+fi
+
+Version=$(cat ${VsnFile} | cut -d. -f1,2)
+
+## 通用参数
+CommArgs="-pa ${ServPath}/ebin \
+-pa ${ServPath}/deps \
+-setcookie '$(get_config cookie)' \
+-node ${ServNode}"
+
+## 启动参数
+StartArgs="${CommArgs} \
++P 204800 \
++K true \
++spp true \
+-hidden \
+-connect_all false \
+-config ${SysConfig} \
+-boot start_sasl \
+-sdir ${ServPath} \
+-name ${ServNode} \
+-suid ${ServID} \
+-type ${ServType} \
+-port ${ServPort}"
+
+## 启动服务器
+function start_server()
+{
+    erl ${StartArgs} -vsn ${Version} -noinput -detached -s game_ctl start
+    if [ $? -ne 0 ]; then
+    	fatal "服务器启动失败"
+    fi
+}
+
+function start_console()
+{
+    erl ${StartArgs} -vsn ${Version} -s game_ctl start
+    if [ $? -ne 0 ]; then
+    	fatal "服务器启动失败"
+    fi
+}
+
+## 调试
+function debug_server()
+{
+    erl ${CommArgs} -name debug_${ServNode} -remsh ${ServNode}
+}
+
+AttachArgs="${CommArgs} \
+-noinput \
+-s init stop"
+
+## 关闭服务器
+function stop_server()
+{
+    erl ${AttachArgs} -name stop_${ServNode} -s game_ctl stop
+    if [ $? -ne 0 ]; then
+    	fatal "服务器关闭失败"
+    fi
+}
+
+## 服务器列表
+function list_server()
+{
+    local ServList=$(ps -ef | grep beam | grep $(get_config name) | grep -v "grep")
+    local OldIFS=${IFS}
+    local IFS=$'\n'
+    local Format="%-10s %-50s %-10s %-50s\n"
+    printf ${Format} Pid Name Port Path
+    printf "=========================================================================================\n"
+    for Serv in ${ServList}; do
+        local Pid=$(echo ${Serv} | awk '{print $2}')
+        local Name=$(echo ${Serv} | grep -E -o "\-name \S+" | cut -d" " -f2)
+        local Port=$(echo ${Serv} | grep -E -o "\-port \S+" | cut -d" " -f2)
+        local Path=$(echo ${Serv} | grep -E -o "\-sdir \S+" | cut -d" " -f2)
+        printf ${Format} ${Pid} ${Name} ${Port} ${Path}
+    done
+    IFS=${OldIFS}
+}
+
+## 测试连接
+function ping_server()
+{
+    erl ${CommArgs} -noinput -name ping_${ServNode} -s game_ctl ping
+    echo $?
+}
+
+## 热更
+function hot_update()
+{
+    erl ${AttachArgs} -name hot_${ServNode} -s game_ctl hot -mod $@
+    if [ $? -ne 0 ]; then
+    	fatal "热更失败"
+    fi
+}
+
+## 执行函数
+function run_func()
+{
+    erl ${AttachArgs} -name run_${ServNode} -s game_ctl run -mod $1 -func $2
+    if [ $? -ne 0 ]; then
+    	fatal "执行失败"
+    fi
+}
+
+## 执行mnesia更新脚本
+function mnesia_migrate()
+{
+    local Vsn=${1}
+    erl ${StartArgs} -vsn ${Vsn} -noinput -s game_ctl migrate -s init stop
+    if [ $? -ne 0 ]; then
+        fatal "mnesia更新失败"
+    fi
+}
+
+## 备份mnesia
+function mnesia_backup()
+{
+    erl ${StartArgs} -noinput -s game_ctl backup -s init stop
+    if [ $? -ne 0 ]; then
+        fatal "mnesia备份失败"
+    fi
+}
+
+## 合服
+function mnesia_merge()
+{
+    local SUIDs=$(echo "$@" | sed 's/,/ /g')
+    erl ${StartArgs} -noinput -s game_ctl merge -suids ${SUIDs} -s init stop
+    if [ $? -ne 0 ]; then
+        fatal "合服失败"
+    fi
+}
+
+## 合服2
+function mnesia_merge2()
+{
+  local SUIDs=$(echo "$@" | sed 's/,/ /g')
+  erl ${StartArgs} -noinput -s game_ctl merge2 -suids ${SUIDs} -s init stop
+  if [ $? -ne 0 ]; then
+      fatal "合服失败"
+  fi
+}
+
+## 生成schema文件
+function create_schema()
+{
+    rm -f data/*
+    erl ${StartArgs} -noinput -s game_ctl schema -s init stop
+    if [ $? -ne 0 ]; then
+        fatal "schema文件生成失败"
+    fi
+}
+
+case "${1}" in
+	# 启动服务器
+	start )
+		start_server
+		;;
+	console )
+		start_console
+		;;
+	# 关闭服务器
+	stop )
+		stop_server
+		;;
+    # 服务器列表
+    list )
+        list_server
+        ;;
+    ping )
+        ping_server
+        ;;
+	# 调试
+	debug )
+		debug_server
+		;;
+	# 热更 3 分钟内编译过的文件
+	hotall )
+        FileList=`find ${ServPath}/ebin/ \
+            -amin -3 \
+            -name "*.beam" \
+            -exec basename {} .beam \;`
+		hot_update ${FileList}
+		;;
+	# 热更
+	hot )
+	    shift
+        if [ $# -eq 0 ]; then
+            FileList=$(echo $(cat etc/update.txt))
+            hot_update ${FileList}
+        else
+            hot_update $@
+        fi
+	    ;;
+	# 运行函数
+	run )
+	    if [ $# -ne 3 ]; then
+			fatal "usage: $0 $1 Module Method"
+		fi
+	    shift
+	    run_func $@
+	    ;;
+    # 执行mnesia更新脚本
+    migrate )
+        if [ $# -ne 2 ]; then
+            fatal "usage: $0 $1 Version"
+        fi
+        shift
+        mnesia_migrate $@
+        ;;
+    # 备份mnesia
+    backup )
+        mnesia_backup
+        ;;
+    # 合服
+    merge )
+        if [ $# -lt 2 ]; then
+            fatal "usage: $0 $1 SUIDs"
+        fi
+        shift
+        mnesia_merge $@
+        ;;
+    merge2 )
+        if [ $# -lt 2 ]; then
+            fatal "usage: $0 $1 SUIDs"
+        fi
+        shift
+        mnesia_merge2 $@
+        ;;
+    # 生成schema文件
+    schema )
+        create_schema
+        ;;
+    * )
+        usage
+        ;;
+esac

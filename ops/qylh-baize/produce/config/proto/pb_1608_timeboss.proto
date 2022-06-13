@@ -1,0 +1,117 @@
+syntax = "proto2";
+
+// boss列表
+message m_timeboss_list_tos { //1608001
+}
+
+message m_timeboss_list_toc { //1608001
+	repeated p_timeboss bosses = 1;
+}
+
+
+// 伤害排名
+message m_timeboss_ranking_tos { //1608002
+
+}
+
+message m_timeboss_ranking_toc { //1608002
+	repeated p_timeboss_ranking ranking = 1;
+	required int32              my_rank = 2; // 我的排名
+	required int32              my_dmg  = 3; // 我的伤害
+}
+
+// 掷骰子通知
+message m_timeboss_dice_toc { //1608003
+	required int32  etime = 1; // 结束时间
+}
+
+// 掷骰子
+message m_timeboss_dicing_tos { //1608004
+
+}
+
+message m_timeboss_dicing_toc { //1608004
+	required int32  score   = 1; // 分数
+	required int32  highest = 2; // 最高分
+	required string owner   = 3; // 奖励所有者
+}
+
+// 宝箱信息
+message m_timeboss_boxinfo_tos { //1608005
+
+}
+
+message m_timeboss_boxinfo_toc { //1608005
+	repeated string summoner = 1; // 召唤者列表
+	repeated int32  suids    = 2; // 可开启的服务器列表
+	required bool   can_open = 3; // 是否可开启
+	required int32  remain   = 4; // 剩余次数
+	required int32  boss_id  = 5;
+}
+
+// 宝箱开启
+message m_timeboss_boxopen_tos { //1608006
+	required int32 type  = 1; // 1=普通开启; 2=至尊开启
+	required int32 boss  = 2; // BossID
+	required int32 times = 3; // 第几次开启
+}
+
+
+message m_timeboss_boxopen_toc { //1608006
+	required int32   type   = 1;
+	map<int32,int32> reward = 2;
+}
+
+// 关注boss
+message m_timeboss_care_tos { //1608007
+	required int32 id   = 1; // BossID
+	required int32 op   = 2; // 1=关注; 2=取消关注
+	required int32 type = 3; // BossType
+}
+
+message m_timeboss_care_toc { //1608007
+	required int32 id   = 1; // BossID
+	required int32 op   = 2; // 1=关注; 2=取消关注
+	required int32 type = 3; // BossType
+}
+
+// 刷新提醒
+message m_timeboss_remind_toc { //1608008
+	required int32 id = 1; // BossID
+}
+
+// 掉落记录
+message m_timeboss_dropped_tos { //1608009
+}
+
+message m_timeboss_dropped_toc { //1608009
+	repeated p_timeboss_dropped logs = 1; // 掉落日志
+}
+
+message p_timeboss {
+	required int32 id    = 1; // BossID
+	required int32 born  = 2; // 出生时间戳
+	required int32 floor = 3; // 层数
+	required int32 role  = 4; // 场景人数
+	required bool  box   = 5; // 是否有宝箱
+	required bool  care  = 6; // 是否关注
+}
+
+message p_timeboss_ranking {
+	required int32   rank    = 1; // 名次
+	required bool    is_team = 2; // 是否组队1
+	required fixed64 captain = 3;
+	required string  name    = 4;
+	required int32 	 damage  = 5; // 伤害万分比
+	optional int32   team    = 6; // 队伍id
+}
+
+message p_timeboss_dropped {
+	required int32   time        = 1; // 掉落时间
+	required int32   scene       = 2; // 场景id
+	required fixed64 picker_id   = 3; // 拾取者id
+	required string  picker_name = 4; // 拾取者名称
+	required string  boss        = 5; // Boss名称
+	required int32   item_id     = 6; // 道具id
+	required int32   cache_id    = 7; // 道具缓存id
+}

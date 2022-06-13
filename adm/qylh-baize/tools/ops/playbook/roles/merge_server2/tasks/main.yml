@@ -1,0 +1,16 @@
+---
+
+- name: merge server
+  shell: sh xctl merge2 {{ suids }}
+  args:
+    chdir: "{{ serv_path }}"
+
+- name: remove dir {{ serv_path }}/data_{{ suid_from }}/
+  file:
+    path: "{{ serv_path }}/data_{{ suid_from }}/"
+    state: absent
+
+- name: remove dir {{ serv_path }}/data_{{ serv_id }}/
+  file:
+    path: "{{ serv_path }}/data_{{ serv_id }}/"
+    state: absent

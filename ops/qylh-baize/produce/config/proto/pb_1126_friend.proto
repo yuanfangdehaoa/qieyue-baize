@@ -1,0 +1,174 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+//最近联系
+message m_friend_contact_tos { //1126001
+}
+
+message m_friend_contact_toc { //1126001
+	repeated p_friend friends = 1;
+}
+
+//新增联系人
+message m_friend_contact_update_tos { //1126018
+	required fixed64 role_id = 1;
+}
+
+message m_friend_contact_update_toc { //1126018
+	required p_friend add = 1;
+}
+
+// 好友列表 (返回所有，包含好友，仇人，黑名单)
+message m_friend_list_tos { //1126002
+}
+
+message m_friend_list_toc { //1126002
+	repeated p_friend friends = 1;
+}
+
+// 好友请求
+message m_friend_request_tos { //1126003
+	required fixed64 role_id = 1;
+}
+
+message m_friend_request_toc { //1126003
+}
+
+// 好友请求列表
+message m_friend_request_list_tos { //1126004
+
+}
+
+message m_friend_request_list_toc { //1126004
+	repeated p_role_base lists = 1;
+}
+
+// 授受请求
+message m_friend_accept_tos { //1126005
+	required fixed64 role_id = 1; //0：表示全部同意；
+}
+
+message m_friend_accept_toc { //1126005
+	repeated fixed64 role_ids = 1; // 添加成功
+	repeated fixed64 fail_ids = 2; // 对方好友已满，添加失败的
+}
+
+// 授受拒绝
+message m_friend_refuse_tos { //1126006
+	required fixed64 role_id = 1; //0：全部拒绝
+}
+
+message m_friend_refuse_toc { //1126006
+	repeated fixed64 role_ids = 1;
+}
+
+// 删除好友
+message m_friend_delete_tos { //1126007
+	repeated fixed64 role_ids = 1;
+}
+
+message m_friend_delete_toc { //1126007
+	repeated fixed64 role_ids = 1;
+}
+
+// 拉黑
+message m_friend_addblack_tos { //1126008
+	required fixed64 role_id = 1;
+}
+
+message m_friend_addblack_toc { //1126008
+	required fixed64 role_id = 1;
+}
+
+// 移出黑名单
+message m_friend_delblack_tos { //1126009
+	required fixed64 role_id = 1;
+}
+
+message m_friend_delblack_toc { //1126009
+	required fixed64 role_id = 1;
+}
+
+// 删除仇人
+message m_friend_delenemy_tos { //1126010
+	required fixed64 role_id = 1;
+}
+
+message m_friend_delenemy_toc { //1126010
+	required fixed64 role_id = 1;
+}
+
+//推荐好友
+message m_friend_recommend_tos { //1126011
+
+}
+
+message m_friend_recommend_toc { //1126011
+	repeated p_role_base roles = 1;
+}
+
+//搜索好友
+message m_friend_search_tos { //1126012
+	required string name = 1;
+}
+
+message m_friend_search_toc { //1126012
+	required p_role_base base = 1;
+}
+
+//好友信息更新
+message m_friend_update_toc { //1126013
+	repeated p_friend 	 add = 1; //更新或新加
+	repeated fixed64     del = 2;
+}
+
+//收花
+message m_friend_receive_flower_toc { //1126014
+	required p_role_base sender   = 1;
+	required int32 		 flower   = 3; // item.id
+}
+
+//回吻
+message m_friend_feedback_tos { //1126015
+	required fixed64 	role_id = 1;
+	required int32 		type 	= 2; // 1：回吻；2：好人卡
+}
+
+message m_friend_feedback_toc { //1126015
+	required bool 		 to_self = 1; // true:通知回吻方发送成功；false：对方接收的
+	optional p_role_base base 	 = 2; // 回吻方
+	optional int32 		 type 	 = 3;
+}
+
+// 上下线通知
+message m_friend_online_toc { //1126016
+	required fixed64 	role_id 	= 1;
+	required string 	name 		= 2; // 玩家名
+	required bool 		is_online 	= 3; // 是否在线
+}
+
+//送花
+message m_friend_send_flower_tos { //1126017
+	required fixed64 	role_id 	= 1;
+	required int32 		item_id 	= 2;
+}
+
+message m_friend_send_flower_toc { //1126017
+
+}
+
+//广播鲜花特效
+message m_friend_flower_toc { //1126019
+	required int32 		 flower   = 1; // item.id
+}
+
+message p_friend {
+	required p_role_base base           = 1;
+	required bool  		 is_online      = 2; // 是否在线
+	required int32 		 relation       = 3; // 关系，RELATION_XXXX
+	required bool 		 is_enemy 		= 4; // 是否为仇人
+	required int32 		 login          = 5; // 上次登录时间
+	required int32 		 logout         = 6; // 上次登出时间
+	optional int32 		 last_chat_time = 7; // 最近通信时间
+	optional int32 		 intimacy 		= 8; // 亲密度
+}

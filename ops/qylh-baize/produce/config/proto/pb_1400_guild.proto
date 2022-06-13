@@ -1,0 +1,318 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 帮派列表
+message m_guild_list_tos { //1400001
+
+}
+
+message m_guild_list_toc { //1400001
+	repeated p_guild_base guilds = 1;
+}
+
+// 帮派查询
+message m_guild_query_tos { //1400002
+	required fixed64 guild_id = 1;
+}
+
+message m_guild_query_toc { //1400002
+	required fixed64        guild_id = 1;
+	required string         name     = 2; // 帮派名称
+	required int32          rank     = 3; // 排名
+	required int32          level    = 4; // 等级
+	required int32          power    = 5; // 战力
+	repeated p_guild_member members  = 6; // 成员列表
+}
+
+// 帮派信息
+message m_guild_info_tos { //1400003
+
+}
+
+message m_guild_info_toc { //1400003
+	required fixed64        guild_id = 1;
+	required string         name     = 2;  // 帮派名称
+	required int32          rank     = 3;  // 排名
+	required int32          level    = 4;  // 等级
+	required int32          power    = 5;  // 战力
+	required int32          fund     = 6;  // 资金
+	required string         notice   = 7;  // 公告
+	required int32          modify   = 8;  // 公告修改次数
+	repeated p_guild_member members  = 9;  // 成员列表
+	map<int32, int32>       welfare  = 10; // key=GUILD_WELCARE_XXX val=已领取次数
+	required bool           impeach  = 11; // 是否能弹劾帮主
+}
+
+// 创建帮派
+message m_guild_create_tos { //1400004
+	required string name  = 1; // 帮派名
+	required int32  level = 2; // 等级
+}
+
+message m_guild_create_toc { //1400004
+	required fixed64 guild_id = 1;
+}
+
+// 解散帮派
+message m_guild_disband_tos { //1400005
+}
+
+message m_guild_disband_toc { //1400005
+}
+
+// 转让帮主
+message m_guild_demise_tos { //1400006
+	required fixed64 to = 1; // 转让给谁
+}
+
+message m_guild_demise_toc { //1400006
+	required fixed64 from = 1;
+	required fixed64 to   = 2; // 转让给谁
+}
+
+// 申请加入
+message m_guild_apply_tos { //1400007
+	required fixed64 guild_id = 1;
+}
+
+message m_guild_apply_toc { //1400007
+	optional fixed64       guild_id = 1;
+	optional p_guild_apply appliant = 2;
+}
+
+// 取消入帮申请
+message m_guild_cancel_tos { //1400008
+	required fixed64 guild_id = 1;
+}
+
+message m_guild_cancel_toc { //1400008
+	optional fixed64 guild_id = 1;
+	optional fixed64 role_id  = 2;
+}
+
+// 同意入帮申请
+message m_guild_approve_tos { //1400009
+	required fixed64 role_id = 1; // 0表示同意所有
+}
+
+message m_guild_approve_toc { //1400009
+	required p_guild_member member = 1;
+}
+
+// 拒绝入帮申请
+message m_guild_reject_tos { //1400010
+	required fixed64 role_id = 1; // 0表示拒绝所有
+}
+
+message m_guild_reject_toc { //1400010
+	optional fixed64 role_id  = 1; // 拒绝谁
+	optional fixed64 guild_id = 2; // 被哪个帮派拒绝
+}
+
+// 加入帮派
+message m_guild_join_toc { //1400011
+	required fixed64 guild_id = 1;
+}
+
+// 退出帮派
+message m_guild_quit_tos { //1400012
+}
+
+message m_guild_quit_toc { //1400012
+	optional fixed64 role_id = 1; // 谁退出
+}
+
+// 踢出帮派
+message m_guild_kickout_tos { //1400013
+	required fixed64 role_id = 1;
+}
+
+message m_guild_kickout_toc { //1400013
+	required fixed64 role_id = 1;
+}
+
+// 职位任命
+message m_guild_appoint_tos { //1400014
+	required fixed64 role_id = 1;
+	required int32   post    = 2;
+}
+
+message m_guild_appoint_toc { //1400014
+	required fixed64 role_id = 1;
+	required int32   post    = 2;
+}
+
+// 解除职位
+message m_guild_dismiss_tos { //1400015
+	required fixed64 role_id = 1;
+}
+
+message m_guild_dismiss_toc { //1400015
+	required fixed64 role_id = 1;
+}
+
+// 职位竞选
+message m_guild_runfor_tos { //1400016
+	required int32 post = 1;
+}
+
+message m_guild_runfor_toc { //1400016
+	optional int32         post     = 1;
+	optional p_guild_apply appliant = 2;
+}
+
+// 同意职位申请
+message m_guild_agree_tos { //1400017
+	required fixed64 role_id = 1;
+}
+
+message m_guild_agree_toc { //1400017
+	required fixed64 role_id = 1;
+	required int32   post    = 2;
+}
+
+// 拒绝职位申请
+message m_guild_refuse_tos { //1400018
+	required fixed64 role_id = 1;
+}
+
+message m_guild_refuse_toc { //1400018
+	required fixed64 role_id = 1;
+}
+
+// 帮派升级
+message m_guild_upgrade_tos { //1400020
+}
+
+message m_guild_upgrade_toc { //1400020
+	required int32 level = 1; // 新的等级
+}
+
+// 帮派改名
+message m_guild_rename_tos { //1400021
+	required string name = 1;
+}
+
+message m_guild_rename_toc { //1400021
+	required string name = 1;
+}
+
+// 修改公告
+message m_guild_notice_tos { //1400022
+	required string notice = 1;
+	required bool   inform = 2; // 是否通知帮派成员
+}
+
+message m_guild_notice_toc { //1400022
+	required string notice = 1;
+	required bool   inform = 2; // 是否通知帮派成员
+}
+
+// 弹劾
+message m_guild_impeach_tos { //1400023
+	required int32 type = 1; // 1=发起; 2=同意; 3=拒绝
+}
+
+message m_guild_impeach_toc { //1400023
+	required int32   type    = 1; // 1=发起; 2=同意; 3=拒绝
+	optional fixed64 role_id = 2; // 发起人id
+}
+
+// 领取福利
+message m_guild_welfare_tos { //1400024
+	required int32 type = 1; // GUILD_WELCARE_XXX
+}
+
+message m_guild_welfare_toc { //1400024
+	required int32 type = 1; // GUILD_WELCARE_XXX
+}
+
+// 申请人信息
+message m_guild_appliants_tos { //1400025
+}
+
+message m_guild_appliants_toc { //1400025
+	repeated p_guild_apply appliants = 2;
+}
+
+// 帮派日志
+message m_guild_log_tos { //1400026
+
+}
+
+message m_guild_log_toc { //1400026
+	repeated p_guild_log logs = 1;
+}
+
+// 帮派设置信息
+message m_guild_setting_tos { //1400027
+
+}
+
+message m_guild_setting_toc { //1400027
+	required bool  auto  = 1; // 是否自动通过
+	required int32 level = 2; // 入帮等级
+	required int32 power = 3; // 入帮战力
+}
+
+// 帮派设置
+message m_guild_setup_tos { //1400028
+	required bool  auto  = 1; // 是否自动通过
+	required int32 level = 2; // 入帮等级
+	required int32 power = 3; // 入帮战力
+}
+
+message m_guild_setup_toc { //1400028
+	required bool  auto  = 1; // 是否自动通过
+	required int32 level = 2; // 入帮等级
+	required int32 power = 3; // 入帮战力
+}
+
+// 帮派成员
+message m_guild_members_tos { //1400029
+}
+
+message m_guild_members_toc { //1400029
+	repeated p_guild_member members = 1;
+}
+
+
+// 帮派基本信息
+message p_guild_base {
+	required fixed64   id    = 1; // 帮派id
+	required string    name  = 2; // 帮派名称
+	required string    chief = 3; // 帮主名称
+	required int32     level = 4; // 帮派等级
+	required int32     num   = 5; // 帮派人数
+	required int32     power = 6; // 帮派战力
+	required int32     rank  = 7; // 帮派排名
+	required bool      apply = 8; // 是否已申请
+	map<string, int32> reqs  = 9; // 加入条件 key=level|power
+	map<string, int32> ext   = 10; // 其他数据
+}
+// ext
+// guild_war_field : 帮派争霸所在赛区
+
+// 帮派成员
+message p_guild_member {
+	required p_role_base base   = 1;
+	required int32       post   = 2; // 职位
+	required bool        online = 3; // 是否在线
+	required int32       ctrb   = 4; // 帮派贡献
+	required int32       logout = 5; // 离线时间
+}
+
+// 帮派申请
+message p_guild_apply {
+	required p_role_base base = 1;
+	required int32       post = 2; // 职位
+	required int32       time = 3; // 申请时间
+}
+
+// 帮派日志
+message p_guild_log {
+	required int32       log  = 1; // GUILD_LOG_XXX
+	required int32       time = 2; // 日志时间
+	optional p_role_base base = 3;
+	optional int32       post = 4; // 职位
+}

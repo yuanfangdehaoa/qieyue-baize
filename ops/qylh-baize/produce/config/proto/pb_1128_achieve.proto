@@ -1,0 +1,25 @@
+syntax = "proto2";
+
+//挂机信息
+message m_achieve_info_tos{   //1128001
+	
+}
+
+message m_achieve_info_toc {  //1128001
+	repeated p_achieve achieves = 1;       //成就列表
+}
+
+//领取奖励
+message m_achieve_reward_tos {  //1128002
+	required int32 id = 1;     //成就id
+}
+
+message m_achieve_reward_toc { //1128002
+	required int32 id = 1;
+}
+
+message p_achieve {
+	required int32 id = 1;    //成就id
+	required int32 num = 2;   //进度
+	required int32 state = 3; //状态(1-已完成，2-已领取)
+}

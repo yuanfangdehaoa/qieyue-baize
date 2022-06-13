@@ -1,0 +1,13 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: run function
+    shell: sh xctl run {{ module }} {{ method }}
+    args:
+      chdir: "{{ serv_path }}"

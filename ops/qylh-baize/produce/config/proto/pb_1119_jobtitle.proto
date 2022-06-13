@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+
+//头衔升级
+message m_jobtitle_uplevel_tos {  //1119001
+
+}
+
+message m_jobtitle_uplevel_toc {  //1119001
+	required int32 id = 1;
+}
+

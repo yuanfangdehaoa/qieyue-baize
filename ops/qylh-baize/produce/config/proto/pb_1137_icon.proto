@@ -1,0 +1,19 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 设置头像
+message m_icon_setpic_tos { //1137001
+	required string pic = 1;
+	required string md5 = 2;
+}
+
+message m_icon_setpic_toc { //1137001
+	required string pic = 1;
+	required string md5 = 2;
+}
+
+// 头像更新
+message m_icon_update_toc { //1137002
+	optional int32  frame  = 1; // 头像框
+	optional int32  bubble = 2; // 聊天气泡
+}

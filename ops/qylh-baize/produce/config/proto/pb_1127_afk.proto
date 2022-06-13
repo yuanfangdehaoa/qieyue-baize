@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+//挂机信息
+message m_afk_info_tos { //1127001
+    
+}
+
+message m_afk_info_toc { //1127001
+    required int32      time = 1; //剩余的挂机时长
+}
+
+//挂机结算
+message m_afk_settle_toc { //1127002
+    required int32      afk_time    = 1; //本次挂机时长
+    map<int32, int32>   rewards     = 2;
+    required int32      smelt_old   = 3; //吞噬前等级
+    required int32      smelt_new   = 4; //吞噬后等级
+    map<int32, int32>   smelts      = 5; //吞噬的装备
+}

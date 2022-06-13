@@ -1,0 +1,48 @@
+syntax = "proto2";
+
+// 培养信息
+message m_train_info_tos { //1109001
+	required int32 type = 1;
+}
+
+message m_train_info_toc { //1109001
+	required p_train train = 1;
+}
+
+// 升级
+message m_train_upgrade_tos { //1109002
+	required int32 type    = 1;
+	required int32 item_id = 2;
+}
+
+message m_train_upgrade_toc { //1109002
+	required p_train train = 1;
+}
+
+// 切换形象
+message m_train_figure_tos { //1109003
+	required int32 type = 1;
+}
+
+message m_train_figure_toc { //1109003
+	required int32 type = 1;
+}
+
+// 属性培养
+message m_train_attr_tos { //1109004
+	required int32 type    = 1;
+	required int32 item_id = 2;
+}
+
+message m_train_attr_toc { //1109004
+	required int32 type    = 1;
+	required int32 item_id = 2;
+	required int32 level   = 3; // 新的培养等级
+}
+
+message p_train {
+	required int32    type  = 1;
+	required int32    level = 2;
+	required int32    exp   = 3;
+	map<int32, int32> train = 4; // 属性丹培养 key=ItemID, val=Level
+}

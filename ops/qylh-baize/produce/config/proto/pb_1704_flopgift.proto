@@ -1,0 +1,39 @@
+syntax = "proto2";
+
+message p_flop_data {
+	required int32 pos = 1; // 牌的位置1-8显示的位置
+	required int32 item_id = 2; // 道具ID
+	required int32 item_count = 3; // 道具数量
+}
+
+message p_flop_round_data {
+	required int32   round  = 1; // 当前轮数
+	repeated p_flop_data   fetch  = 2; // 已抽取的奖励 [p_flop_data]
+}
+
+// 当前轮翻牌信息
+message m_flopgift_info_tos { //1704001
+}
+
+message m_flopgift_info_toc { //1704001
+	required int32   level  = 1; // 玩家等级
+	required int32  cur_round = 2; // 当前轮数
+	repeated p_flop_round_data flop_round_data = 3; // 每轮已抽取的奖励信息
+}
+
+// 翻牌
+message m_flopgift_turn_tos { //1704002
+	required int32 pos = 1; // 翻牌位置
+}
+
+message m_flopgift_turn_toc { //1704002
+	required p_flop_data flop_data = 1; // 翻牌信息
+}
+
+// 刷新轮数
+message m_flopgift_next_round_tos { //1704003
+}
+
+message m_flopgift_next_round_toc { //1704003
+	required int32 round = 1; // 当前轮数
+}

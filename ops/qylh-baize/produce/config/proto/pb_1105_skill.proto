@@ -1,0 +1,76 @@
+syntax = "proto2";
+
+// 技能列表
+message m_skill_list_tos { //1105001
+
+}
+
+message m_skill_list_toc { //1105001
+	repeated p_skill skills = 1;
+}
+
+//技能面板配置
+message m_skill_auto_use_tos {  //1105002
+
+}
+
+message m_skill_auto_use_toc {  //1105002
+	map<int32, int32> auto_use = 1;  //自动释放 key=id, value=0/1(0-自动释放，1-不自动释放)
+}
+
+//技能装配
+message m_skill_puton_tos {   //1105003
+	required int32 id = 1;       //技能id
+	required int32 pos = 2;      //技能槽位置
+}
+
+message m_skill_puton_toc {   //1105003
+
+}
+
+
+//设置自动释放
+message m_skill_set_auto_use_tos {    //1105004
+	required int32 id = 1;          //技能id
+	required int32 auto_use = 2;    //0-自动释放，1-不自动释放
+}
+
+message m_skill_set_auto_use_toc{    //1105004
+	required int32 id = 1;       //技能id
+	required int32 auto_use = 3;
+}
+
+//设置推荐技能
+message m_skill_set_recommend_tos {  //1105005
+	required int32 id = 1;
+}
+
+message m_skill_set_recommend_toc {  //1105005
+	required int32 id = 1;
+}
+
+
+//获得技能
+message m_skill_get_skill_toc {      //1105006
+	required p_skill skill = 1;
+}
+
+//删除技能
+message m_skill_remove_skills_toc {  //1105007
+	repeated int32 skill_ids = 1;
+}
+
+//更新技能CD
+message m_skill_update_cds_toc { //1105008
+	map<int32, int32> cds = 1;      //技能cd, key=skillid, val=cd
+}
+
+// 技能
+message p_skill {
+	required int32  id       = 1; // 技能id
+	required int32  lv       = 2; // 等级
+	required uint64 cd       = 3; // cd结束时间(毫秒)
+	required int32  pos      = 4; // 技能槽位置
+	optional int32  auto_use = 5; // 自动释放
+}
+

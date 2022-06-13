@@ -1,0 +1,115 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 道具详情
+// 查看背包物品 pos=BagID, id=p_item.uid
+// 查看装备     pos=1, id=SlotID
+// 查看神兽装备 pos=2, id=SlotID(神兽id*100+部位id)
+message m_item_detail_tos { //1102001
+	required int32 pos = 1;
+	required int32 id  = 2;
+}
+
+message m_item_detail_toc { //1102001
+	required p_item item = 1;
+	required int32  pos  = 2;
+}
+
+// 使用道具
+message m_item_use_tos { //1102002
+	required int32 uid  = 1; // CellID
+	required int32 num  = 2;
+	repeated int32 args = 3; // 道具使用时的额外参数列表
+}
+
+message m_item_use_toc { //1102002
+	required int32 uid 		= 1;
+	required int32 id  		= 2; //p_item.id
+	required int32 num 		= 3;
+	map<int32, int32> items = 4; // key=#p_item.id, val=Num
+}
+
+// 丢弃道具
+message m_item_chuck_tos { //1102003
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+message m_item_chuck_toc { //1102003
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+// 出售道具
+message m_item_sell_tos { //1102004
+	map<int32, int32> items = 1; // key=#p_item.uid, val=Num
+}
+
+message m_item_sell_toc { //1102004
+	map<int32, int32> gain = 1; // key=货币道具, val=数量
+	map<int32, int32> cost = 2; // key=#p_item.uid, val=Num
+}
+
+// // 拆分道具
+// message m_item_split_tos { //1102005
+// 	required int32 uid = 1;
+// 	required int32 num = 2;
+// }
+
+// message m_item_split_toc { //1102005
+// 	required int32 uid = 1;
+// 	required int32 num = 2;
+// }
+
+// 合成道具
+message m_item_compose_tos { //1102006
+	required int32    formula   = 1; // 配方id
+	map<int32, int32> materials = 2; // key=ItemID, val=Num
+}
+
+message m_item_compose_toc { //1102006
+	required int32 type_id = 1;
+	required int32 num     = 2;
+}
+
+// 分解道具
+message m_item_resolve_tos { //1102007
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+message m_item_resolve_toc { //1102007
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+// 存到仓库
+message m_item_store_tos { //1102008
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+message m_item_store_toc { //1102008
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+// 从仓库取回
+message m_item_fetch_tos { //1102009
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+message m_item_fetch_toc { //1102009
+	required int32 uid = 1;
+	required int32 num = 2;
+}
+
+// 道具查询
+message m_item_query_tos { //1102010
+	required int32  id = 1;
+}
+
+message m_item_query_toc { //1102010
+	required p_item item = 1;
+}

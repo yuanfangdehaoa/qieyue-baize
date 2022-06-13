@@ -1,0 +1,19 @@
+---
+
+- name: start server
+  shell: sh xctl start
+  args:
+    chdir: "{{ serv_path }}"
+
+- name: wait for start
+  shell: sleep 5
+
+- name: ensure started
+  shell: sh xctl ping
+  args:
+    chdir: "{{ serv_path }}"
+  register: res
+
+- fail:
+    msg: start fail
+  when: res.stdout != "0"

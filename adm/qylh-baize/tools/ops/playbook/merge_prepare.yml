@@ -1,0 +1,12 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  roles:
+    - stop_server
+    - backup_mnesia
+    - mnesia_backup

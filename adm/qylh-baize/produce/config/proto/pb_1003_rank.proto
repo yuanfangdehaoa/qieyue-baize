@@ -1,0 +1,16 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 榜单列表
+message m_rank_list_tos { //1003001
+	required int32     id   = 1; // 排行榜id RANK_ID_XXX
+	required int32     page = 2; // 分页
+}
+
+message m_rank_list_toc { //1003001
+	required int32     id    = 1;
+	required int32     total = 2; // 总页数
+	required int32     page  = 3; // 分页
+	repeated p_ranking list  = 4;
+	required p_ranking mine  = 5; // 自己的排名数据
+}

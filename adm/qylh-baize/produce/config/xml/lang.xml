@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 多语言 -->
+<confs>
+    <conf name="item.xlsx" fields="name,desc" />
+</confs>

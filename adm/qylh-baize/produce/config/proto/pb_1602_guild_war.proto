@@ -1,0 +1,97 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 赛区信息
+message m_guild_war_fields_tos { //1602001
+
+}
+
+message m_guild_war_fields_toc { //1602001
+	repeated p_gw_field  fields = 1;
+	optional p_role_base role   = 2; // 主宰帮派帮主
+}
+
+// 战场信息
+message m_guild_war_battle_toc { //1602002
+	repeated p_gw_battle battle = 1;
+}
+
+// 排行榜
+message m_guild_war_ranklist_tos { //1602003
+
+}
+
+message m_guild_war_ranklist_toc { //1602003
+	required bool         is_win   = 1; // 是否胜利
+	repeated p_gw_ranking ranklist = 2;
+	optional p_gw_ranking my_rank  = 3; // 我的排名
+}
+
+// 主宰公会
+message m_guild_war_winner_tos { //1602004
+
+}
+
+message m_guild_war_winner_toc { //1602004
+	required uint64      guild   = 1; // 主宰帮派id
+	required int32       victory = 2; // 连胜次数
+	required int32       breakup = 3; // 击败连胜次数
+	repeated p_role_base roles   = 4; //
+	required bool        fetch   = 5; // 奖励是否已领取
+	required bool        v_allot = 6; // 连胜奖励是否已分配
+	required bool        b_allot = 7; // 击败奖励是否已分配
+}
+
+// 分配奖励
+message m_guild_war_allot_tos { //1602005
+	required uint64  role = 1;
+	required int32   type = 2; // 1=连胜; 2=击败
+}
+
+message m_guild_war_allot_toc { //1602005
+	required uint64  role = 1;
+	required int32   type = 2; // 1=连胜; 2=击败
+}
+
+// 领取奖励
+message m_guild_war_fetch_tos { //1602006
+}
+
+message m_guild_war_fetch_toc { //1602006
+	map<int32, int32> reward = 1;
+}
+
+
+message p_gw_field {
+	required int32       id = 1; // 赛区id
+	repeated p_gw_versus vs = 2; // 对战信息
+}
+
+message p_gw_versus {
+	repeated p_gw_guild guilds = 1; // 对战帮派
+	required uint64     winner = 2; // 胜利帮派
+}
+
+message p_gw_guild {
+	required uint64  id   = 1; // 帮派id
+	required string  name = 2; // 帮派名
+}
+
+message p_gw_battle {
+	required uint64  guild  = 1; // 帮派id
+	required int32   group  = 2; // 分组id(1=蓝,2=红)
+	required int32   role   = 3; // 人数
+	required int32   score  = 4; // 积分
+	repeated int32   crysts = 5; // 水晶列表 [CreepID]
+	optional p_coord coord  = 6; // 出生点坐标(临时)
+}
+
+message p_gw_ranking {
+	required int32   rank      = 1; // 排名
+	required uint64  role_id   = 2;
+	required string  role_name = 3;
+	required string  gname     = 4; // 帮派名称
+	required int32   kill      = 5; // 击杀数量
+	required int32   occupy    = 6; // 占领数量
+	required int32   contrib   = 7; // 获得贡献
+}

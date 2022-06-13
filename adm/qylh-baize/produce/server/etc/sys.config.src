@@ -1,0 +1,193 @@
+[
+%% 服务器配置
+{game_env, [
+    % 游戏id
+    {guid, {{ game_id }}},
+
+    % 游戏名称
+    {name, {{ game_name }}},
+
+    % 平台名称
+    {plat, {{ plat_name }}},
+
+    % 平台id [10-99]
+    {puid, {{ plat_id }}},
+
+    % 服务器类型[server | center | cross]
+    {type, {{ serv_type }}},
+
+    % 游戏服id[平台id(2位)+区服id(5位)]
+    {suid, {{ serv_id }}},
+
+    % 服务器地址
+    {host, "{{ serv_host }}"},
+
+    % 游戏服端口[9001-9099]
+    {port, {{ serv_port }}},
+
+    % 开服时间
+    {opened, {{ open_time }}},
+
+    % 游戏运行 token
+    {token, "{{ token }}"},
+
+    % Erlang cookie
+    {cookie, "{{ cookie }}"},
+
+    % 配置本地管理后台目录，用于生成道具日志等等
+    {web_dir, "/root/work/admin"},
+
+    % 中心服
+    {center, '{{ center }}'},
+
+    % 管理后台地址
+    {admin_host, "{{ admin_host }}"},
+
+    % 请求后台的Key
+    {admin_key, "G&D7aXA^rSz42HqCC8khy1St1wv62115"},
+
+    % 君海日志上传url
+    {junhai_upload, "{{ junhai_upload }}"}
+]},
+
+{mnesia, [
+    {dir, "data"},
+    {dump_log_write_threshold, 100000},
+    {no_table_loaders, 100}
+]},
+
+{web, [
+    % web 端口[9101-9199]
+    {port, {{ web_port }}}
+]},
+
+{log, [
+    {virtual_host, {{ virtual_host }}},
+    {rabbit_host, "{{ rabbit_host }}"},
+    {username, {{ username }}},
+    {password, {{ password }}}
+]},
+
+{kernel, [
+    {inet_dist_listen_min, 9201},
+    {inet_dist_listen_max, 9299},
+    {shell_history, true}
+]},
+
+{sasl, [
+    {errlog_type, error}
+]},
+
+{lager, [
+    {suppress_application_start_stop, true},
+
+    {colored, true},
+
+    {crash_log, "crash.log"},
+
+    % 日志根目录
+    {log_root, "log"},
+
+    {handlers, [
+        {lager_console_backend, [{level, info}]},
+
+        {lager_file_backend, [
+            {file, "debug.log"},
+            {size, 0},
+            {rotator, lager_rotator_daily},
+            {level, debug},
+            {formatter_config, [
+                severity, "|",
+                date, " ", time, "|",
+                pid, "|",
+                module, "|",
+                line, "|",
+                message, "\n"
+            ]},
+            {date, "$D0"},
+            {count, 7}
+        ]},
+
+        {lager_file_backend, [
+            {file, "info.log"},
+            {size, 0},
+            {rotator, lager_rotator_daily},
+            {level, '=info'},
+            {formatter_config, [
+                severity, "|",
+                date, " ", time, "|",
+                pid, "|",
+                module, "|",
+                line, "|",
+                message, "\n"
+            ]},
+            {date, "$D0"}
+        ]},
+
+        {lager_file_backend, [
+            {file, "notice.log"},
+            {size, 0},
+            {rotator, lager_rotator_daily},
+            {level, '=notice'},
+            {formatter_config, [
+                severity, "|",
+                date, " ", time, "|",
+                pid, "|",
+                module, "|",
+                line, "|",
+                message, "\n"
+            ]},
+            {date, "$D0"}
+        ]},
+
+        {lager_file_backend, [
+            {file, "warn.log"},
+            {size, 0},
+            {rotator, lager_rotator_daily},
+            {level, warning},
+            {formatter_config, [
+                severity, "|",
+                date, " ", time, "|",
+                pid, "|",
+                module, "|",
+                line, "|",
+                message, "\n"
+            ]},
+            {date, "$D0"}
+        ]},
+
+        {lager_file_backend, [
+            {file, "error.log"},
+            {size, 0},
+            {rotator, lager_rotator_daily},
+            {level, error},
+            {formatter_config, [
+                severity, "|",
+                date, " ", time, "|",
+                pid, "|",
+                module, "|",
+                line, "|",
+                message, "\n"
+            ]},
+            {date, "$D0"}
+        ]},
+
+        {lager_file_backend, [
+            {file, "fatal.log"},
+            {size, 0},
+            {rotator, lager_rotator_daily},
+            {level, emergency},
+            {formatter_config, [
+                severity, "|",
+                date, " ", time, "|",
+                pid, "|",
+                module, "|",
+                line, "|",
+                message, "\n"
+            ]},
+            {date, "$D0"}
+        ]}
+    ]}
+]}
+
+].

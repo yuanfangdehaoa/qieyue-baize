@@ -1,0 +1,45 @@
+---
+
+- name: check if need backup
+  stat:
+    path: "{{ serv_path }}/data/"
+  register: p
+
+- name: get timestamp
+  shell: "date +%Y%m%d%H%M%S"
+  register: tstamp
+
+- name: set variables
+  set_fact:
+    backup_current: "{{ backup_path }}/{{ serv_type }}-{{ plat_name }}-{{ serv_id }}-{{ tstamp.stdout[0:10] }}.tar.gz.{{ tstamp.stdout }}"
+    backup_lastest: "{{ backup_path }}/{{ serv_type }}-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+    current_hour: "{{ tstamp.stdout[8:10] }}"
+
+- name: create backup path and backup mnesia
+  block:
+  - name: create backup path
+    file:
+      path: "{{ backup_path }}"
+      state: directory
+      owner: root
+      group: root
+
+  - name: backup mnesia
+    archive:
+      path: "{{ serv_path }}/data/*"
+      dest: "{{ backup_current }}"
+      format: gz
+
+  - name: change lastest backup
+    copy:
+      src: "{{ backup_current }}"
+      dest: "{{ backup_lastest }}"
+      remote_src: yes
+  when: p.stat.isdir is defined and p.stat.isdir
+
+- name: backup to ops machine
+  fetch:
+    src: "{{ backup_current }}"
+    dest: "{{ backup_path }}/"
+    flat: yes
+  when: p.stat.isdir is defined and p.stat.isdir and current_hour == "03"

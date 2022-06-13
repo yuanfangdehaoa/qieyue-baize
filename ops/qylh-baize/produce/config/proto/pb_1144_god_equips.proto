@@ -1,0 +1,42 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+//获取装备列表
+message m_god_equip_tos {  //1144001
+
+}
+
+message m_god_equip_toc {  //1144001
+	repeated p_item equips = 1;
+	map<int32, int32> slots = 2;   //部位是否解锁 key=slot, val=状态(0-解锁，1-未解锁)
+}
+
+//穿戴
+message m_god_equip_puton_tos {  //1144002
+	required int32 uid = 1;
+}
+
+message m_god_equip_puton_toc {  //1144002
+	required int32 slot = 1;   //部位
+}
+
+//强化
+message m_god_equip_uplevel_tos { //1144003
+	required int32 slot = 1;   //部位
+}
+
+message m_god_equip_uplevel_toc { //1144003
+	required int32 slot = 1;   //部位
+}
+
+//分解
+message m_god_equip_decompose_tos{  //1144004
+	repeated int32 uid=1;
+}
+
+message m_god_equip_decompose_toc{  //1144004
+	
+}
+
+
+

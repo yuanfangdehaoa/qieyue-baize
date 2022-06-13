@@ -1,0 +1,40 @@
+syntax = "proto2";
+
+
+message p_target_task {
+	required int32 id = 1;        //id
+	repeated int32 finished = 2;  //已完成目标
+	required int32 status = 3;    //状态(0-已接，1-已完成，2-已领取)
+}
+
+
+//获取完成进度
+message m_target_info_tos {  //1122001
+
+}
+
+message m_target_info_toc {  //1122001
+	map<int32, p_target_task> tasks = 1;    //key=task.id, val=p_target_task
+	map<int32, int32> targets = 2;          //key=target.id, val=目标状态（0-未完成，1-已完成，2-已领取）
+}
+
+//领取技能
+message m_target_get_skill_tos {  //1122002
+	required int32 id = 1;
+}
+
+message m_target_get_skill_toc {  //1122002
+
+}
+
+//领取任务奖励
+message m_target_get_reward_tos {  //1122003
+	required int32 id = 1;
+}
+
+message m_target_get_reward_toc {  //1122003
+	required int32 id = 1;
+}
+
+
+

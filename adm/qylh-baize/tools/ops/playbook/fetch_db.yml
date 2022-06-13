@@ -1,0 +1,15 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: fetch db lastest backup file
+    fetch:
+      src: "{{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+      dest: "{{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+      flat: yes
+      force: yes

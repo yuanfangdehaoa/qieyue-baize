@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Automatically generated, do not edit -->
+
+<npcs>
+
+    <npc id="1100" name="阿丽莎" avatar="110000" figure="model_NPC_10010" />
+
+    <npc id="1101" name="塔莉亚" avatar="110001" figure="model_NPC_10001" />
+
+    <npc id="1102" name="普洛托" avatar="110002" figure="model_NPC_10003" />
+
+    <npc id="1103" name="哈里波波" avatar="110003" figure="model_NPC_10007" />
+
+    <npc id="1104" name="钓鱼仙人" avatar="110004" figure="model_NPC_10005" />
+
+    <npc id="1105" name="咪咕" avatar="110005" figure="model_NPC_10004" />
+
+    <npc id="1106" name="哆哆小鸡" avatar="110007" figure="model_mount_10001" />
+
+    <npc id="1107" name="伊里丝" avatar="110007" figure="model_NPC_10002" />
+
+    <npc id="1108" name="卡尔" avatar="110008" figure="model_NPC_10006" />
+
+    <npc id="1109" name="帕拉姆" avatar="120002" figure="model_NPC_10008" />
+
+    <npc id="1110" name="阿丽莎" avatar="110010" figure="model_NPC_10010" />
+
+    <npc id="1111" name="电气轰龙" avatar="100024" figure="model_monster_50409" />
+
+    <npc id="1112" name="霜毒蜘蛛" avatar="110010" figure="model_monster_50304" />
+
+    <npc id="1200" name="普洛托" avatar="120000" figure="model_NPC_10003" />
+
+    <npc id="1201" name="塔莉亚" avatar="120001" figure="model_NPC_10001" />
+
+    <npc id="1202" name="帕拉姆" avatar="120002" figure="model_NPC_10008" />
+
+    <npc id="1203" name="帕拉姆" avatar="120003" figure="model_NPC_10008" />
+
+    <npc id="1204" name="钓鱼仙人" avatar="120004" figure="model_NPC_10005" />
+
+    <npc id="1205" name="波芙" avatar="120005" figure="model_NPC_10009" />
+
+    <npc id="1206" name="安格尼丝" avatar="120006" figure="model_NPC_10011" />
+
+    <npc id="1207" name="普洛托" avatar="120007" figure="model_NPC_10003" />
+
+    <npc id="1208" name="幻灵" avatar="120008" figure="model_NPC_51001" />
+
+    <npc id="1209" name="猫又" avatar="120008" figure="model_pet_10001" />
+
+    <npc id="1300" name="马可波罗" avatar="100011" figure="model_NPC_10015" />
+
+    <npc id="1301" name="耶梦加得" avatar="100012" figure="model_NPC_10012" />
+
+    <npc id="1302" name="真实卡尔" avatar="100013" figure="model_NPC_10006" />
+
+    <npc id="1303" name="杰森" avatar="100014" figure="model_NPC_10013" />
+
+    <npc id="1304" name="凯撒" avatar="100015" figure="model_NPC_10014" />
+
+    <npc id="1305" name="波利多里" avatar="100017" figure="model_NPC_10016" />
+
+    <npc id="1306" name="阿丽莎" avatar="100018" figure="model_NPC_10010" />
+
+    <npc id="1307" name="伪装卡尔" avatar="100022" figure="model_NPC_10006" />
+
+    <npc id="1308" name="咪咕" avatar="100023" figure="model_NPC_10004" />
+
+    <npc id="1309" name="塔莉亚" avatar="100024" figure="model_NPC_10001" />
+
+    <npc id="1310" name="波芙" avatar="100024" figure="model_NPC_10009" />
+
+    <npc id="1311" name="卡尔" avatar="100024" figure="model_NPC_10006" />
+
+    <npc id="1312" name="伊里丝" avatar="100024" figure="model_NPC_10002" />
+
+    <npc id="1313" name="普洛托" avatar="120007" figure="model_NPC_10003" />
+
+    <npc id="1400" name="伊里丝" avatar="100024" figure="model_NPC_10002" />
+
+    <npc id="1401" name="波利多里" avatar="100017" figure="model_NPC_10016" />
+
+    <npc id="1402" name="哈里波波" avatar="100024" figure="model_NPC_10007" />
+
+    <npc id="1403" name="塔莉亚" avatar="100024" figure="model_NPC_10001" />
+
+    <npc id="1404" name="魔瞳莉子" avatar="100024" figure="model_NPC_10017" />
+
+    <npc id="1405" name="咪咕" avatar="100024" figure="model_NPC_10004" />
+
+    <npc id="1406" name="帕拉姆" avatar="100024" figure="model_NPC_10008" />
+
+    <npc id="1407" name="阿丽莎" avatar="100024" figure="model_NPC_10010" />
+
+    <npc id="1408" name="受伤的美人鱼" avatar="100024" figure="model_pet_20005" />
+
+    <npc id="1409" name="魔化齿轮" avatar="100024" figure="model_monster_50201" />
+
+    <npc id="1410" name="电气轰龙" avatar="100024" figure="model_monster_50409" />
+
+    <npc id="1411" name="魔瞳莉子" avatar="100024" figure="model_NPC_10017" />
+
+    <npc id="1500" name="伊里丝" avatar="100024" figure="model_NPC_10002" />
+
+    <npc id="1501" name="普洛托" avatar="100024" figure="model_NPC_10003" />
+
+    <npc id="1502" name="伊里丝" avatar="100024" figure="model_NPC_10002" />
+
+    <npc id="1503" name="雪域领主" avatar="100024" figure="model_monster_50406" />
+
+    <npc id="1504" name="波芙" avatar="100024" figure="model_NPC_10009" />
+
+    <npc id="1505" name="安格尼丝" avatar="100024" figure="model_NPC_10011" />
+
+    <npc id="1506" name="塔莉亚" avatar="100024" figure="model_NPC_10001" />
+
+    <npc id="1507" name="远古冰龙" avatar="100024" figure="model_monster_50407" />
+
+    <npc id="1508" name="一条鲨鱼" avatar="100024" figure="model_monster_50306" />
+
+    <npc id="1509" name="史莱姆国王" avatar="100024" figure="model_monster_39905" />
+
+    <npc id="1601" name="商队保镖" avatar="100017" figure="model_NPC_10016" />
+
+    <npc id="1602" name="阿丽莎" avatar="100018" figure="model_NPC_10010" />
+
+    <npc id="1603" name="队长卡尔" avatar="100022" figure="model_NPC_10006" />
+
+    <npc id="1604" name="旅行仙人" avatar="120004" figure="model_NPC_10005" />
+
+    <npc id="1605" name="宝藏猎人" avatar="100014" figure="model_NPC_10013" />
+
+    <npc id="1701" name="讨厌的喵" avatar="100023" figure="model_NPC_10004" />
+
+    <npc id="1702" name="塔莉亚" avatar="100024" figure="model_NPC_10001" />
+
+    <npc id="1703" name="钓鱼仙人" avatar="110004" figure="model_NPC_10005" />
+
+    <npc id="1704" name="海之精灵" avatar="120006" figure="model_NPC_10011" />
+
+    <npc id="1705" name="杰克船长" avatar="120006" figure="model_NPC_10018" />
+
+    <npc id="1706" name="伤心的公主" avatar="100012" figure="model_NPC_10012" />
+
+    <npc id="1801" name="神殿守卫" avatar="100024" figure="model_NPC_10015" />
+
+    <npc id="1802" name="神殿守卫" avatar="100024" figure="model_NPC_10015" />
+
+    <npc id="1803" name="考古家帕姆" avatar="120002" figure="model_NPC_10008" />
+
+    <npc id="1804" name="水元素法师" avatar="110003" figure="model_NPC_10007" />
+
+    <npc id="1805" name="玩耍的精灵" avatar="100024" figure="model_NPC_10009" />
+
+    <npc id="1806" name="珍珠商人" avatar="100024" figure="model_NPC_10004" />
+
+    <npc id="1901" name="接引战士" avatar="100024" figure="model_NPC_10015" />
+
+    <npc id="1902" name="流浪猫又" avatar="110007" figure="model_pet_10001" />
+
+    <npc id="1903" name="哈里波波" avatar="100024" figure="model_NPC_10007" />
+
+    <npc id="1904" name="远征的凯撒" avatar="100015" figure="model_NPC_10014" />
+
+    <npc id="1905" name="恶魔史利丹" avatar="110010" figure="model_NPC_51002" />
+
+    <npc id="2001" name="普洛托" avatar="100024" figure="model_NPC_10003" />
+
+    <npc id="2002" name="哈里波波" avatar="100024" figure="model_NPC_10007" />
+
+    <npc id="2003" name="恶魔领主" avatar="110010" figure="model_NPC_51002" />
+
+    <npc id="2004" name="耶梦加得" avatar="100012" figure="model_NPC_10012" />
+
+    <npc id="2005" name="马可波罗" avatar="100024" figure="model_NPC_10015" />
+
+    <npc id="2006" name="远征的凯撒" avatar="100015" figure="model_NPC_10014" />
+
+    <npc id="2101" name="巴特利" avatar="100024" figure="model_NPC_10017" />
+
+    <npc id="2102" name="人族公主" avatar="100012" figure="model_NPC_10012" />
+
+    <npc id="2103" name="小小法师" avatar="110003" figure="model_NPC_10007" />
+
+    <npc id="2104" name="猫猫女" avatar="100024" figure="model_NPC_10002" />
+
+    <npc id="2105" name="精灵女王" avatar="100024" figure="model_NPC_10011" />
+
+    <npc id="2106" name="大地精灵" avatar="100024" figure="model_monster_50104" />
+
+    <npc id="2201" name="巴特利" avatar="100024" figure="model_NPC_10017" />
+
+    <npc id="2202" name="人族公主" avatar="100012" figure="model_NPC_10012" />
+
+    <npc id="2203" name="小小法师" avatar="110003" figure="model_NPC_10007" />
+
+    <npc id="2204" name="猫猫女" avatar="100024" figure="model_NPC_10002" />
+
+    <npc id="2205" name="精灵女王" avatar="100024" figure="model_NPC_10011" />
+
+    <npc id="2206" name="大地精灵" avatar="100024" figure="model_monster_50104" />
+
+    <npc id="2301" name="哈里波波" avatar="100024" figure="model_NPC_10007" />
+
+    <npc id="2302" name="阿丽莎" avatar="110010" figure="model_NPC_10010" />
+
+    <npc id="2303" name="波利多里" avatar="100017" figure="model_NPC_10016" />
+
+    <npc id="2304" name="讨厌的喵" avatar="100023" figure="model_NPC_10004" />
+
+    <npc id="2305" name="耶梦加得" avatar="100012" figure="model_NPC_10012" />
+
+    <npc id="2306" name="远征的凯撒" avatar="100015" figure="model_NPC_10014" />
+
+    <npc id="1500001" name="青春木精灵" avatar="120008" figure="model_monster_39922" />
+
+    <npc id="1500002" name="温柔水精灵" avatar="120008" figure="model_monster_39923" />
+
+    <npc id="1500003" name="热情火精灵" avatar="120008" figure="model_monster_39921" />
+
+    <npc id="1500004" name="潇洒风精灵" avatar="120008" figure="model_monster_39924" />
+
+    <npc id="60001" name="护送NPC" avatar="100000" figure="model_NPC_10006" />
+
+    <npc id="60002" name="护送NPC2" avatar="100000" figure="model_NPC_10006" />
+
+    <npc id="60003" name="护送NPC3" avatar="100000" figure="model_NPC_10006" />
+
+    <npc id="2050101" name="小小勇士" avatar="120003" figure="model_NPC_10008" />
+
+    <npc id="2050102" name="迷路的少女" avatar="120005" figure="model_NPC_10009" />
+
+    <npc id="2050103" name="冒险者" avatar="120007" figure="model_NPC_10003" />
+
+    <npc id="2051101" name="小小勇士" avatar="120003" figure="model_NPC_10008" />
+
+    <npc id="2051102" name="迷路的少女" avatar="120005" figure="model_NPC_10009" />
+
+    <npc id="2051103" name="冒险者" avatar="120007" figure="model_NPC_10003" />
+
+    <npc id="2051201" name="小小勇士" avatar="120003" figure="model_NPC_10008" />
+
+    <npc id="2051202" name="迷路的少女" avatar="120005" figure="model_NPC_10009" />
+
+    <npc id="2051203" name="冒险者" avatar="120007" figure="model_NPC_10003" />
+
+    <npc id="2051301" name="小小勇士" avatar="120003" figure="model_NPC_10008" />
+
+    <npc id="2051302" name="迷路的少女" avatar="120005" figure="model_NPC_10009" />
+
+    <npc id="2051303" name="冒险者" avatar="120007" figure="model_NPC_10003" />
+
+</npcs>

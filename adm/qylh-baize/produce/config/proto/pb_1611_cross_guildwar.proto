@@ -1,0 +1,91 @@
+syntax = "proto2";
+
+// 面板信息
+message m_cgw_panel_tos { //1611001
+
+}
+
+message m_cgw_panel_toc { //1611001
+	required int32 period = 1; // 当前阶段
+	required int32 next   = 2; // 下次分配时间
+}
+
+// 参赛列表
+message m_cgw_guilds_tos { //1611002
+
+}
+
+message m_cgw_guilds_toc { //1611002
+	repeated p_cgw_guild guilds    = 1; // 参赛公会列表
+	required int32       my_rank   = 2; // 所在公会排名
+	required int32       my_score  = 3; // 所在公会积分
+	required int32       booktimes = 4; // 预约次数
+	required int32       my_book   = 5; // 我预约的公会
+}
+
+// 预约
+message m_cgw_book_tos { //1611003
+	required fixed64 guild_id = 1;
+}
+
+message m_cgw_book_toc { //1611003
+	required fixed64 guild_id = 1;
+}
+
+// 排行榜
+message m_cgw_ranking_tos { //1611004
+}
+message m_cgw_ranking_toc { //1611004
+	repeated p_cgw_rank ranking = 1;
+}
+
+// 比赛信息
+message m_cgw_match_tos { //1611005
+
+}
+
+message m_cgw_match_toc { //1611005
+	repeated p_cgw_match round1 = 1;
+	repeated p_cgw_match round2 = 2;
+}
+
+// 结算
+message m_cgw_result_toc { //1611006
+	required bool result = 1;
+}
+
+message p_cgw_guild {
+	required fixed64 id         = 1; // 帮派id
+	required string  name       = 2; // 帮派名称
+	required string  chief      = 3; // 帮主名称
+	required int32   score      = 4; // 积分
+	required fixed64 book       = 6; // 被预约公会id  0未预约
+	required int32   book_times = 7; // 被预约次数
+	required int32   book_time  = 8; // 被预约时间
+	required string  book_guild = 9; // 预约公会名称
+	required int32   book_score = 10; // 预约消耗积分
+}
+
+message p_cgw_rank {
+	required fixed64 id    = 1; // 帮派id
+	required string  name  = 2; // 帮派名称
+	required string  chief = 3; // 帮主名称
+	required int32   score = 4; // 积分
+	required int32   rank  = 5; // 排名
+}
+
+message p_cgw_match {
+	required fixed64 atk_id   = 1; // 攻方id
+	required string  atk_name = 2; // 攻方名称
+	required fixed64 def_id   = 3; // 守方id
+	required string  def_name = 4; // 守方名称
+	required fixed64 winner   = 5; // 胜方id
+}
+
+message p_cgw_result {
+	required fixed64 id    = 1; // 玩家id
+	required string  name  = 2; // 玩家名称
+	required int32   rank  = 3; // 排名
+	required int32   kill  = 4; // 击杀数
+	required int32   score = 5; // 积分
+}

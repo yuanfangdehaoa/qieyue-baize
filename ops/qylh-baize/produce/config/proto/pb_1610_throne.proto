@@ -1,0 +1,71 @@
+syntax = "proto2";
+
+// 星之王座
+// 面板信息
+message m_throne_panel_tos { //1610001
+
+}
+
+message m_throne_panel_toc { //1610001
+	map<int32, int32> roles  = 1; // 人数
+	required bool     unlock = 2; // 是否解锁下一张地图
+}
+
+// boss列表
+message m_throne_boss_tos { //1610002
+}
+
+message m_throne_boss_toc { //1610002
+	repeated p_throne_boss  bosses = 1;
+}
+
+// boss更新
+message m_throne_boss_update_toc { //1610003
+	required int32 id   = 1; // BossID
+	required int32 born = 2; // 出生时间戳
+}
+
+// 伤害排名
+message m_throne_damage_tos { //1610004
+	required int32           boss_id = 1;
+}
+
+message m_throne_damage_toc { //1610004
+	required int32           boss_id = 1;
+	repeated p_throne_damage ranking = 2;
+}
+
+// 积分排名
+message m_throne_score_tos { //1610005
+}
+
+message m_throne_score_toc { //1610005
+	repeated p_throne_score  ranking = 1;
+}
+
+// 地图是否解锁
+message m_throne_is_unlock_tos { //1610006
+
+}
+
+message m_throne_is_unlock_toc { //1610006
+	required bool unlock = 1;
+}
+
+message p_throne_boss {
+	required int32 id    = 1;
+	required int32 born  = 2; //出生时间戳
+	required int32 level = 3;
+}
+
+message p_throne_damage {
+	required int32  id     = 1; // 服务器id
+	required int32  damage = 2; // 伤害万分比
+	required int32  rank   = 3; // 排名
+}
+
+message p_throne_score {
+	required int32  id     = 1; // 服务器id
+	required int32  score  = 2; // 积分
+	required int32  rank   = 3; // 排名
+}

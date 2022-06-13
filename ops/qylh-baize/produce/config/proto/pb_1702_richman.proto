@@ -1,0 +1,52 @@
+syntax = "proto2";
+
+// 大富豪信息
+message m_richman_info_tos { //1702001
+}
+
+message m_richman_info_toc { //1702001
+	required int32   curr_round  = 1; // 当前圈数
+	required int32   curr_grid   = 2; // 当前格子
+	repeated int32   lucky_fetch = 3; // 已领取的幸运卡奖励 [ID]
+	repeated int32   round_fetch = 4; // 已领取的圈数奖励 [Round]
+	required int32   lucky_round = 5; // 第几轮幸运卡奖励
+	map<int32,int32> dice_gain   = 6; // 骰子获取数量 key=第几天, val=数量
+	required int32   dice_mend   = 7; // 当前补签了几个
+	required int32   act_id      = 8; // 活动id
+}
+
+// 掷骰子
+message m_richman_dice_tos { //1702002
+	required int32 type  = 1; // 骰子类型 1=随机;2=固定
+	optional int32 point = 2;
+}
+
+message m_richman_dice_toc { //1702002
+	required int32   type   = 1;
+	required int32   point  = 2;
+	required int32   result = 3; // 3:道具奖励 4:幸运卡 5:倒退×格 6:再掷一次 7:遥控骰子 8:空格子
+	map<int32,int32> reward = 4;
+}
+
+// 领取圈数奖励
+message m_richman_fetch_tos { //1702003
+	required int32 round = 1;
+}
+
+message m_richman_fetch_toc { //1702003
+	required int32    round  = 1;
+	map<int32, int32> reward = 2;
+}
+
+// 补签
+message m_richman_mend_tos { //1702004
+
+}
+
+message m_richman_mend_toc { //1702004
+	required int32 num = 1; // 补签获得多少枚
+}
+
+// 刷新
+message m_richman_refrech_toc { //1702005
+}

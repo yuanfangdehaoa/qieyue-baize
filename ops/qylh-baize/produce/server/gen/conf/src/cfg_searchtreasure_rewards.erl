@@ -1,0 +1,3694 @@
+% Automatically generated, do not edit
+-module(cfg_searchtreasure_rewards).
+
+-compile([export_all]).
+-compile(nowarn_export_all).
+
+-include("search_treasure.hrl").
+
+find(1) -> #cfg_searchtreasure_rewards{
+	id           = 1,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070415,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2) -> #cfg_searchtreasure_rewards{
+	id           = 2,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53101,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(3) -> #cfg_searchtreasure_rewards{
+	id           = 3,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070515,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(4) -> #cfg_searchtreasure_rewards{
+	id           = 4,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,50}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(5) -> #cfg_searchtreasure_rewards{
+	id           = 5,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,50}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(6) -> #cfg_searchtreasure_rewards{
+	id           = 6,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,200}],
+	rewards      = {10503,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(7) -> #cfg_searchtreasure_rewards{
+	id           = 7,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,400}],
+	rewards      = {10502,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(8) -> #cfg_searchtreasure_rewards{
+	id           = 8,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,1200}],
+	rewards      = {100032,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(9) -> #cfg_searchtreasure_rewards{
+	id           = 9,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,1200}],
+	rewards      = {100041,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(10) -> #cfg_searchtreasure_rewards{
+	id           = 10,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(11) -> #cfg_searchtreasure_rewards{
+	id           = 11,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(12) -> #cfg_searchtreasure_rewards{
+	id           = 12,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(13) -> #cfg_searchtreasure_rewards{
+	id           = 13,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(14) -> #cfg_searchtreasure_rewards{
+	id           = 14,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,40}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(15) -> #cfg_searchtreasure_rewards{
+	id           = 15,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,40}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(16) -> #cfg_searchtreasure_rewards{
+	id           = 16,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(17) -> #cfg_searchtreasure_rewards{
+	id           = 17,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,10}],
+	rewards      = {11140,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(18) -> #cfg_searchtreasure_rewards{
+	id           = 18,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,800}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(19) -> #cfg_searchtreasure_rewards{
+	id           = 19,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11060125,12060125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(20) -> #cfg_searchtreasure_rewards{
+	id           = 20,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11060115,12060115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(21) -> #cfg_searchtreasure_rewards{
+	id           = 21,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11060225,12060225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(22) -> #cfg_searchtreasure_rewards{
+	id           = 22,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11060215,12060215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(23) -> #cfg_searchtreasure_rewards{
+	id           = 23,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11060625,12060625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(24) -> #cfg_searchtreasure_rewards{
+	id           = 24,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11060615,12060615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(25) -> #cfg_searchtreasure_rewards{
+	id           = 25,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11060725,12060725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(26) -> #cfg_searchtreasure_rewards{
+	id           = 26,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11060715,12060715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(27) -> #cfg_searchtreasure_rewards{
+	id           = 27,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11060825,12060825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(28) -> #cfg_searchtreasure_rewards{
+	id           = 28,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11060815,12060815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(29) -> #cfg_searchtreasure_rewards{
+	id           = 29,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11060925,12060925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(30) -> #cfg_searchtreasure_rewards{
+	id           = 30,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11060915,12060915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(31) -> #cfg_searchtreasure_rewards{
+	id           = 31,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,21}],
+	rewards      = {[11061025,12061025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(32) -> #cfg_searchtreasure_rewards{
+	id           = 32,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,100}],
+	rewards      = {[11061015,12061015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(33) -> #cfg_searchtreasure_rewards{
+	id           = 33,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,1350}],
+	rewards      = {50000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(34) -> #cfg_searchtreasure_rewards{
+	id           = 34,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,50}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(35) -> #cfg_searchtreasure_rewards{
+	id           = 35,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(36) -> #cfg_searchtreasure_rewards{
+	id           = 36,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,50}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(37) -> #cfg_searchtreasure_rewards{
+	id           = 37,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,200}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(38) -> #cfg_searchtreasure_rewards{
+	id           = 38,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,200}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(39) -> #cfg_searchtreasure_rewards{
+	id           = 39,
+	type_id      = 1,
+	batch_id     = 1,
+	prob         = [{0,560,900}],
+	rewards      = {10001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(40) -> #cfg_searchtreasure_rewards{
+	id           = 40,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070415,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(41) -> #cfg_searchtreasure_rewards{
+	id           = 41,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53101,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(42) -> #cfg_searchtreasure_rewards{
+	id           = 42,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070515,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(43) -> #cfg_searchtreasure_rewards{
+	id           = 43,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,50}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(44) -> #cfg_searchtreasure_rewards{
+	id           = 44,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,50}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(45) -> #cfg_searchtreasure_rewards{
+	id           = 45,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,200}],
+	rewards      = {10503,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(46) -> #cfg_searchtreasure_rewards{
+	id           = 46,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,400}],
+	rewards      = {10502,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(47) -> #cfg_searchtreasure_rewards{
+	id           = 47,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,1200}],
+	rewards      = {100032,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(48) -> #cfg_searchtreasure_rewards{
+	id           = 48,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,1200}],
+	rewards      = {100041,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(49) -> #cfg_searchtreasure_rewards{
+	id           = 49,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(50) -> #cfg_searchtreasure_rewards{
+	id           = 50,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(51) -> #cfg_searchtreasure_rewards{
+	id           = 51,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(52) -> #cfg_searchtreasure_rewards{
+	id           = 52,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(53) -> #cfg_searchtreasure_rewards{
+	id           = 53,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,40}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(54) -> #cfg_searchtreasure_rewards{
+	id           = 54,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,40}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(55) -> #cfg_searchtreasure_rewards{
+	id           = 55,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(56) -> #cfg_searchtreasure_rewards{
+	id           = 56,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,10}],
+	rewards      = {11140,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(57) -> #cfg_searchtreasure_rewards{
+	id           = 57,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,800}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(58) -> #cfg_searchtreasure_rewards{
+	id           = 58,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11070125,12070125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(59) -> #cfg_searchtreasure_rewards{
+	id           = 59,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11070115,12070115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(60) -> #cfg_searchtreasure_rewards{
+	id           = 60,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11070225,12070225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(61) -> #cfg_searchtreasure_rewards{
+	id           = 61,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11070215,12070215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(62) -> #cfg_searchtreasure_rewards{
+	id           = 62,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11070625,12070625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(63) -> #cfg_searchtreasure_rewards{
+	id           = 63,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11070615,12070615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(64) -> #cfg_searchtreasure_rewards{
+	id           = 64,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11070725,12070725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(65) -> #cfg_searchtreasure_rewards{
+	id           = 65,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11070715,12070715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(66) -> #cfg_searchtreasure_rewards{
+	id           = 66,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11070825,12070825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(67) -> #cfg_searchtreasure_rewards{
+	id           = 67,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11070815,12070815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(68) -> #cfg_searchtreasure_rewards{
+	id           = 68,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11070925,12070925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(69) -> #cfg_searchtreasure_rewards{
+	id           = 69,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11070915,12070915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(70) -> #cfg_searchtreasure_rewards{
+	id           = 70,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,21}],
+	rewards      = {[11071025,12071025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(71) -> #cfg_searchtreasure_rewards{
+	id           = 71,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,100}],
+	rewards      = {[11071015,12071015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(72) -> #cfg_searchtreasure_rewards{
+	id           = 72,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,1350}],
+	rewards      = {50000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(73) -> #cfg_searchtreasure_rewards{
+	id           = 73,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,50}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(74) -> #cfg_searchtreasure_rewards{
+	id           = 74,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(75) -> #cfg_searchtreasure_rewards{
+	id           = 75,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,50}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(76) -> #cfg_searchtreasure_rewards{
+	id           = 76,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,200}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(77) -> #cfg_searchtreasure_rewards{
+	id           = 77,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,200}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(78) -> #cfg_searchtreasure_rewards{
+	id           = 78,
+	type_id      = 1,
+	batch_id     = 2,
+	prob         = [{0,560,900}],
+	rewards      = {10001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(79) -> #cfg_searchtreasure_rewards{
+	id           = 79,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070415,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(80) -> #cfg_searchtreasure_rewards{
+	id           = 80,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53101,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(81) -> #cfg_searchtreasure_rewards{
+	id           = 81,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070515,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(82) -> #cfg_searchtreasure_rewards{
+	id           = 82,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,50}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(83) -> #cfg_searchtreasure_rewards{
+	id           = 83,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,50}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(84) -> #cfg_searchtreasure_rewards{
+	id           = 84,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,200}],
+	rewards      = {10503,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(85) -> #cfg_searchtreasure_rewards{
+	id           = 85,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,400}],
+	rewards      = {10502,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(86) -> #cfg_searchtreasure_rewards{
+	id           = 86,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,1200}],
+	rewards      = {100032,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(87) -> #cfg_searchtreasure_rewards{
+	id           = 87,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,1200}],
+	rewards      = {100041,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(88) -> #cfg_searchtreasure_rewards{
+	id           = 88,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(89) -> #cfg_searchtreasure_rewards{
+	id           = 89,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(90) -> #cfg_searchtreasure_rewards{
+	id           = 90,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(91) -> #cfg_searchtreasure_rewards{
+	id           = 91,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(92) -> #cfg_searchtreasure_rewards{
+	id           = 92,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,40}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(93) -> #cfg_searchtreasure_rewards{
+	id           = 93,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,40}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(94) -> #cfg_searchtreasure_rewards{
+	id           = 94,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(95) -> #cfg_searchtreasure_rewards{
+	id           = 95,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,10}],
+	rewards      = {11140,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(96) -> #cfg_searchtreasure_rewards{
+	id           = 96,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,800}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(97) -> #cfg_searchtreasure_rewards{
+	id           = 97,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11080125,12080125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(98) -> #cfg_searchtreasure_rewards{
+	id           = 98,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11080115,12080115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(99) -> #cfg_searchtreasure_rewards{
+	id           = 99,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11080225,12080225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(100) -> #cfg_searchtreasure_rewards{
+	id           = 100,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11080215,12080215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(101) -> #cfg_searchtreasure_rewards{
+	id           = 101,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11080625,12080625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(102) -> #cfg_searchtreasure_rewards{
+	id           = 102,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11080615,12080615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(103) -> #cfg_searchtreasure_rewards{
+	id           = 103,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11080725,12080725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(104) -> #cfg_searchtreasure_rewards{
+	id           = 104,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11080715,12080715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(105) -> #cfg_searchtreasure_rewards{
+	id           = 105,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11080825,12080825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(106) -> #cfg_searchtreasure_rewards{
+	id           = 106,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11080815,12080815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(107) -> #cfg_searchtreasure_rewards{
+	id           = 107,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11080925,12080925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(108) -> #cfg_searchtreasure_rewards{
+	id           = 108,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11080915,12080915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(109) -> #cfg_searchtreasure_rewards{
+	id           = 109,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,21}],
+	rewards      = {[11081025,12081025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(110) -> #cfg_searchtreasure_rewards{
+	id           = 110,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,100}],
+	rewards      = {[11081015,12081015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(111) -> #cfg_searchtreasure_rewards{
+	id           = 111,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,1350}],
+	rewards      = {50000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(112) -> #cfg_searchtreasure_rewards{
+	id           = 112,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,50}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(113) -> #cfg_searchtreasure_rewards{
+	id           = 113,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(114) -> #cfg_searchtreasure_rewards{
+	id           = 114,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,50}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(115) -> #cfg_searchtreasure_rewards{
+	id           = 115,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,200}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(116) -> #cfg_searchtreasure_rewards{
+	id           = 116,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,200}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(117) -> #cfg_searchtreasure_rewards{
+	id           = 117,
+	type_id      = 1,
+	batch_id     = 3,
+	prob         = [{0,560,900}],
+	rewards      = {10001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(118) -> #cfg_searchtreasure_rewards{
+	id           = 118,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070415,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(119) -> #cfg_searchtreasure_rewards{
+	id           = 119,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53101,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(120) -> #cfg_searchtreasure_rewards{
+	id           = 120,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070515,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(121) -> #cfg_searchtreasure_rewards{
+	id           = 121,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,50}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(122) -> #cfg_searchtreasure_rewards{
+	id           = 122,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,50}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(123) -> #cfg_searchtreasure_rewards{
+	id           = 123,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,200}],
+	rewards      = {10503,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(124) -> #cfg_searchtreasure_rewards{
+	id           = 124,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,400}],
+	rewards      = {10502,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(125) -> #cfg_searchtreasure_rewards{
+	id           = 125,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,1200}],
+	rewards      = {100032,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(126) -> #cfg_searchtreasure_rewards{
+	id           = 126,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,1200}],
+	rewards      = {100041,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(127) -> #cfg_searchtreasure_rewards{
+	id           = 127,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(128) -> #cfg_searchtreasure_rewards{
+	id           = 128,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(129) -> #cfg_searchtreasure_rewards{
+	id           = 129,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(130) -> #cfg_searchtreasure_rewards{
+	id           = 130,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(131) -> #cfg_searchtreasure_rewards{
+	id           = 131,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,40}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(132) -> #cfg_searchtreasure_rewards{
+	id           = 132,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,40}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(133) -> #cfg_searchtreasure_rewards{
+	id           = 133,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(134) -> #cfg_searchtreasure_rewards{
+	id           = 134,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,10}],
+	rewards      = {11140,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(135) -> #cfg_searchtreasure_rewards{
+	id           = 135,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,800}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(136) -> #cfg_searchtreasure_rewards{
+	id           = 136,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11090125,12090125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(137) -> #cfg_searchtreasure_rewards{
+	id           = 137,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11090115,12090115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(138) -> #cfg_searchtreasure_rewards{
+	id           = 138,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11090225,12090225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(139) -> #cfg_searchtreasure_rewards{
+	id           = 139,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11090215,12090215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(140) -> #cfg_searchtreasure_rewards{
+	id           = 140,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11090625,12090625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(141) -> #cfg_searchtreasure_rewards{
+	id           = 141,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11090615,12090615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(142) -> #cfg_searchtreasure_rewards{
+	id           = 142,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11090725,12090725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(143) -> #cfg_searchtreasure_rewards{
+	id           = 143,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11090715,12090715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(144) -> #cfg_searchtreasure_rewards{
+	id           = 144,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11090825,12090825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(145) -> #cfg_searchtreasure_rewards{
+	id           = 145,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11090815,12090815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(146) -> #cfg_searchtreasure_rewards{
+	id           = 146,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11090925,12090925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(147) -> #cfg_searchtreasure_rewards{
+	id           = 147,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11090915,12090915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(148) -> #cfg_searchtreasure_rewards{
+	id           = 148,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,21}],
+	rewards      = {[11091025,12091025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(149) -> #cfg_searchtreasure_rewards{
+	id           = 149,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,100}],
+	rewards      = {[11091015,12091015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(150) -> #cfg_searchtreasure_rewards{
+	id           = 150,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,1350}],
+	rewards      = {50000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(151) -> #cfg_searchtreasure_rewards{
+	id           = 151,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,50}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(152) -> #cfg_searchtreasure_rewards{
+	id           = 152,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(153) -> #cfg_searchtreasure_rewards{
+	id           = 153,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,50}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(154) -> #cfg_searchtreasure_rewards{
+	id           = 154,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,200}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(155) -> #cfg_searchtreasure_rewards{
+	id           = 155,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,200}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(156) -> #cfg_searchtreasure_rewards{
+	id           = 156,
+	type_id      = 1,
+	batch_id     = 4,
+	prob         = [{0,560,900}],
+	rewards      = {10001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(157) -> #cfg_searchtreasure_rewards{
+	id           = 157,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070415,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(158) -> #cfg_searchtreasure_rewards{
+	id           = 158,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53101,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(159) -> #cfg_searchtreasure_rewards{
+	id           = 159,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {11070515,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(160) -> #cfg_searchtreasure_rewards{
+	id           = 160,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,50}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(161) -> #cfg_searchtreasure_rewards{
+	id           = 161,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,50}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(162) -> #cfg_searchtreasure_rewards{
+	id           = 162,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,200}],
+	rewards      = {10503,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(163) -> #cfg_searchtreasure_rewards{
+	id           = 163,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,400}],
+	rewards      = {10502,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(164) -> #cfg_searchtreasure_rewards{
+	id           = 164,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,1200}],
+	rewards      = {100032,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(165) -> #cfg_searchtreasure_rewards{
+	id           = 165,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,1200}],
+	rewards      = {100041,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(166) -> #cfg_searchtreasure_rewards{
+	id           = 166,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(167) -> #cfg_searchtreasure_rewards{
+	id           = 167,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(168) -> #cfg_searchtreasure_rewards{
+	id           = 168,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(169) -> #cfg_searchtreasure_rewards{
+	id           = 169,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(170) -> #cfg_searchtreasure_rewards{
+	id           = 170,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,40}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(171) -> #cfg_searchtreasure_rewards{
+	id           = 171,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,40}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(172) -> #cfg_searchtreasure_rewards{
+	id           = 172,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(173) -> #cfg_searchtreasure_rewards{
+	id           = 173,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,10}],
+	rewards      = {11140,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(174) -> #cfg_searchtreasure_rewards{
+	id           = 174,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,800}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(175) -> #cfg_searchtreasure_rewards{
+	id           = 175,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11100125,12100125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(176) -> #cfg_searchtreasure_rewards{
+	id           = 176,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11100115,12100115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(177) -> #cfg_searchtreasure_rewards{
+	id           = 177,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11100225,12100225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(178) -> #cfg_searchtreasure_rewards{
+	id           = 178,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11100215,12100215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(179) -> #cfg_searchtreasure_rewards{
+	id           = 179,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11100625,12100625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(180) -> #cfg_searchtreasure_rewards{
+	id           = 180,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11100615,12100615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(181) -> #cfg_searchtreasure_rewards{
+	id           = 181,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11100725,12100725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(182) -> #cfg_searchtreasure_rewards{
+	id           = 182,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11100715,12100715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(183) -> #cfg_searchtreasure_rewards{
+	id           = 183,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11100825,12100825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(184) -> #cfg_searchtreasure_rewards{
+	id           = 184,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11100815,12100815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(185) -> #cfg_searchtreasure_rewards{
+	id           = 185,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11100925,12100925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(186) -> #cfg_searchtreasure_rewards{
+	id           = 186,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11100915,12100915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(187) -> #cfg_searchtreasure_rewards{
+	id           = 187,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,21}],
+	rewards      = {[11101025,12101025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(188) -> #cfg_searchtreasure_rewards{
+	id           = 188,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,100}],
+	rewards      = {[11101015,12101015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(189) -> #cfg_searchtreasure_rewards{
+	id           = 189,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,1350}],
+	rewards      = {50000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(190) -> #cfg_searchtreasure_rewards{
+	id           = 190,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,50}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(191) -> #cfg_searchtreasure_rewards{
+	id           = 191,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(192) -> #cfg_searchtreasure_rewards{
+	id           = 192,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,50}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(193) -> #cfg_searchtreasure_rewards{
+	id           = 193,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,200}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(194) -> #cfg_searchtreasure_rewards{
+	id           = 194,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,200}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(195) -> #cfg_searchtreasure_rewards{
+	id           = 195,
+	type_id      = 1,
+	batch_id     = 5,
+	prob         = [{0,560,900}],
+	rewards      = {10001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(196) -> #cfg_searchtreasure_rewards{
+	id           = 196,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {13107,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(197) -> #cfg_searchtreasure_rewards{
+	id           = 197,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53104,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(198) -> #cfg_searchtreasure_rewards{
+	id           = 198,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {13108,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(199) -> #cfg_searchtreasure_rewards{
+	id           = 199,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(200) -> #cfg_searchtreasure_rewards{
+	id           = 200,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(201) -> #cfg_searchtreasure_rewards{
+	id           = 201,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,200}],
+	rewards      = {10502,3,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(202) -> #cfg_searchtreasure_rewards{
+	id           = 202,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,400}],
+	rewards      = {10500,8,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(203) -> #cfg_searchtreasure_rewards{
+	id           = 203,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {15158,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(204) -> #cfg_searchtreasure_rewards{
+	id           = 204,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,250}],
+	rewards      = {15159,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(205) -> #cfg_searchtreasure_rewards{
+	id           = 205,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(206) -> #cfg_searchtreasure_rewards{
+	id           = 206,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(207) -> #cfg_searchtreasure_rewards{
+	id           = 207,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(208) -> #cfg_searchtreasure_rewards{
+	id           = 208,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(209) -> #cfg_searchtreasure_rewards{
+	id           = 209,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,60}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(210) -> #cfg_searchtreasure_rewards{
+	id           = 210,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,60}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(211) -> #cfg_searchtreasure_rewards{
+	id           = 211,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(212) -> #cfg_searchtreasure_rewards{
+	id           = 212,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {11140,2,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(213) -> #cfg_searchtreasure_rewards{
+	id           = 213,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,900}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(214) -> #cfg_searchtreasure_rewards{
+	id           = 214,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11100125,12100125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(215) -> #cfg_searchtreasure_rewards{
+	id           = 215,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11100115,12100115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(216) -> #cfg_searchtreasure_rewards{
+	id           = 216,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11100225,12100225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(217) -> #cfg_searchtreasure_rewards{
+	id           = 217,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11100215,12100215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(218) -> #cfg_searchtreasure_rewards{
+	id           = 218,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11100625,12100625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(219) -> #cfg_searchtreasure_rewards{
+	id           = 219,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11100615,12100615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(220) -> #cfg_searchtreasure_rewards{
+	id           = 220,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11100725,12100725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(221) -> #cfg_searchtreasure_rewards{
+	id           = 221,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11100715,12100715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(222) -> #cfg_searchtreasure_rewards{
+	id           = 222,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11100825,12100825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(223) -> #cfg_searchtreasure_rewards{
+	id           = 223,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11100815,12100815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(224) -> #cfg_searchtreasure_rewards{
+	id           = 224,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11100925,12100925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(225) -> #cfg_searchtreasure_rewards{
+	id           = 225,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11100915,12100915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(226) -> #cfg_searchtreasure_rewards{
+	id           = 226,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,24}],
+	rewards      = {[11101025,12101025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(227) -> #cfg_searchtreasure_rewards{
+	id           = 227,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {[11101015,12101015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(228) -> #cfg_searchtreasure_rewards{
+	id           = 228,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,1300}],
+	rewards      = {50000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(229) -> #cfg_searchtreasure_rewards{
+	id           = 229,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(230) -> #cfg_searchtreasure_rewards{
+	id           = 230,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(231) -> #cfg_searchtreasure_rewards{
+	id           = 231,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(232) -> #cfg_searchtreasure_rewards{
+	id           = 232,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,700}],
+	rewards      = {13136,2,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(233) -> #cfg_searchtreasure_rewards{
+	id           = 233,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,100}],
+	rewards      = {13137,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(234) -> #cfg_searchtreasure_rewards{
+	id           = 234,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,150}],
+	rewards      = {11141,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(235) -> #cfg_searchtreasure_rewards{
+	id           = 235,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,250}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(236) -> #cfg_searchtreasure_rewards{
+	id           = 236,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,250}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(237) -> #cfg_searchtreasure_rewards{
+	id           = 237,
+	type_id      = 2,
+	batch_id     = 21,
+	prob         = [{0,560,1200}],
+	rewards      = {15160,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(238) -> #cfg_searchtreasure_rewards{
+	id           = 238,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {13107,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(239) -> #cfg_searchtreasure_rewards{
+	id           = 239,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,99,2},{100,199,4},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53104,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(240) -> #cfg_searchtreasure_rewards{
+	id           = 240,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {13108,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(241) -> #cfg_searchtreasure_rewards{
+	id           = 241,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(242) -> #cfg_searchtreasure_rewards{
+	id           = 242,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(243) -> #cfg_searchtreasure_rewards{
+	id           = 243,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,200}],
+	rewards      = {10502,3,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(244) -> #cfg_searchtreasure_rewards{
+	id           = 244,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,400}],
+	rewards      = {10500,8,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(245) -> #cfg_searchtreasure_rewards{
+	id           = 245,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {15158,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(246) -> #cfg_searchtreasure_rewards{
+	id           = 246,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,250}],
+	rewards      = {15159,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(247) -> #cfg_searchtreasure_rewards{
+	id           = 247,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,300}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(248) -> #cfg_searchtreasure_rewards{
+	id           = 248,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,300}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(249) -> #cfg_searchtreasure_rewards{
+	id           = 249,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(250) -> #cfg_searchtreasure_rewards{
+	id           = 250,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(251) -> #cfg_searchtreasure_rewards{
+	id           = 251,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,60}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(252) -> #cfg_searchtreasure_rewards{
+	id           = 252,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,60}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(253) -> #cfg_searchtreasure_rewards{
+	id           = 253,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(254) -> #cfg_searchtreasure_rewards{
+	id           = 254,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {11140,2,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(255) -> #cfg_searchtreasure_rewards{
+	id           = 255,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,900}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(256) -> #cfg_searchtreasure_rewards{
+	id           = 256,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11110125,12110125],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(257) -> #cfg_searchtreasure_rewards{
+	id           = 257,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11110115,12110115],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(258) -> #cfg_searchtreasure_rewards{
+	id           = 258,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11110225,12110225],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(259) -> #cfg_searchtreasure_rewards{
+	id           = 259,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11110215,12110215],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(260) -> #cfg_searchtreasure_rewards{
+	id           = 260,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11110625,12110625],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(261) -> #cfg_searchtreasure_rewards{
+	id           = 261,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11110615,12110615],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(262) -> #cfg_searchtreasure_rewards{
+	id           = 262,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11110725,12110725],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(263) -> #cfg_searchtreasure_rewards{
+	id           = 263,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11110715,12110715],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(264) -> #cfg_searchtreasure_rewards{
+	id           = 264,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11110825,12110825],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(265) -> #cfg_searchtreasure_rewards{
+	id           = 265,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11110815,12110815],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(266) -> #cfg_searchtreasure_rewards{
+	id           = 266,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11110925,12110925],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(267) -> #cfg_searchtreasure_rewards{
+	id           = 267,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11110915,12110915],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(268) -> #cfg_searchtreasure_rewards{
+	id           = 268,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,24}],
+	rewards      = {[11111025,12111025],1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(269) -> #cfg_searchtreasure_rewards{
+	id           = 269,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {[11111015,12111015],1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(270) -> #cfg_searchtreasure_rewards{
+	id           = 270,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,1300}],
+	rewards      = {50000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(271) -> #cfg_searchtreasure_rewards{
+	id           = 271,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(272) -> #cfg_searchtreasure_rewards{
+	id           = 272,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,1350}],
+	rewards      = {55000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(273) -> #cfg_searchtreasure_rewards{
+	id           = 273,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(274) -> #cfg_searchtreasure_rewards{
+	id           = 274,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,700}],
+	rewards      = {13136,2,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(275) -> #cfg_searchtreasure_rewards{
+	id           = 275,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,100}],
+	rewards      = {13137,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(276) -> #cfg_searchtreasure_rewards{
+	id           = 276,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,150}],
+	rewards      = {11141,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(277) -> #cfg_searchtreasure_rewards{
+	id           = 277,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,250}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(278) -> #cfg_searchtreasure_rewards{
+	id           = 278,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,250}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(279) -> #cfg_searchtreasure_rewards{
+	id           = 279,
+	type_id      = 2,
+	batch_id     = 22,
+	prob         = [{0,560,1200}],
+	rewards      = {15160,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1001) -> #cfg_searchtreasure_rewards{
+	id           = 1001,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {15296,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1002) -> #cfg_searchtreasure_rewards{
+	id           = 1002,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,99,1},{100,199,2},{200,299,3},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {15295,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1003) -> #cfg_searchtreasure_rewards{
+	id           = 1003,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {15297,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1004) -> #cfg_searchtreasure_rewards{
+	id           = 1004,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,200}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1005) -> #cfg_searchtreasure_rewards{
+	id           = 1005,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,200}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1006) -> #cfg_searchtreasure_rewards{
+	id           = 1006,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,350}],
+	rewards      = {55006,1,1},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1007) -> #cfg_searchtreasure_rewards{
+	id           = 1007,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,350}],
+	rewards      = {55008,1,1},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1008) -> #cfg_searchtreasure_rewards{
+	id           = 1008,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,350}],
+	rewards      = {54110,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1009) -> #cfg_searchtreasure_rewards{
+	id           = 1009,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,350}],
+	rewards      = {54112,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1010) -> #cfg_searchtreasure_rewards{
+	id           = 1010,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,200}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1011) -> #cfg_searchtreasure_rewards{
+	id           = 1011,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,500}],
+	rewards      = {15273,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1012) -> #cfg_searchtreasure_rewards{
+	id           = 1012,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,500}],
+	rewards      = {57002,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1013) -> #cfg_searchtreasure_rewards{
+	id           = 1013,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,500}],
+	rewards      = {57001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1014) -> #cfg_searchtreasure_rewards{
+	id           = 1014,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,200}],
+	rewards      = {100035,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1015) -> #cfg_searchtreasure_rewards{
+	id           = 1015,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,200}],
+	rewards      = {100044,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1016) -> #cfg_searchtreasure_rewards{
+	id           = 1016,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,500}],
+	rewards      = {100034,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1017) -> #cfg_searchtreasure_rewards{
+	id           = 1017,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,500}],
+	rewards      = {100043,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1018) -> #cfg_searchtreasure_rewards{
+	id           = 1018,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,400}],
+	rewards      = {100033,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1019) -> #cfg_searchtreasure_rewards{
+	id           = 1019,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,400}],
+	rewards      = {100042,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1020) -> #cfg_searchtreasure_rewards{
+	id           = 1020,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,500}],
+	rewards      = {10503,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1021) -> #cfg_searchtreasure_rewards{
+	id           = 1021,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,1000}],
+	rewards      = {10502,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1022) -> #cfg_searchtreasure_rewards{
+	id           = 1022,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,600}],
+	rewards      = {50000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1023) -> #cfg_searchtreasure_rewards{
+	id           = 1023,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,300}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1024) -> #cfg_searchtreasure_rewards{
+	id           = 1024,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,600}],
+	rewards      = {55000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(1025) -> #cfg_searchtreasure_rewards{
+	id           = 1025,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,300}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 1
+};
+find(1026) -> #cfg_searchtreasure_rewards{
+	id           = 1026,
+	type_id      = 3,
+	batch_id     = 31,
+	prob         = [{0,560,900}],
+	rewards      = {10302,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2001) -> #cfg_searchtreasure_rewards{
+	id           = 2001,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {13105,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2002) -> #cfg_searchtreasure_rewards{
+	id           = 2002,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,99,1},{100,199,2},{200,299,6},{300,399,8},{400,499,14},{500,560,30}],
+	rewards      = {53105,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2003) -> #cfg_searchtreasure_rewards{
+	id           = 2003,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,99,4},{100,199,8},{200,299,12},{300,399,16},{400,499,28},{500,560,60}],
+	rewards      = {13106,1,2},
+	is_rare      = 1,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2004) -> #cfg_searchtreasure_rewards{
+	id           = 2004,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,9}],
+	rewards      = {13104,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2005) -> #cfg_searchtreasure_rewards{
+	id           = 2005,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,200}],
+	rewards      = {54107,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2006) -> #cfg_searchtreasure_rewards{
+	id           = 2006,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,200}],
+	rewards      = {54109,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2007) -> #cfg_searchtreasure_rewards{
+	id           = 2007,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,200}],
+	rewards      = {10502,3,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2008) -> #cfg_searchtreasure_rewards{
+	id           = 2008,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,400}],
+	rewards      = {10500,8,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2009) -> #cfg_searchtreasure_rewards{
+	id           = 2009,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,100}],
+	rewards      = {15158,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2010) -> #cfg_searchtreasure_rewards{
+	id           = 2010,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,250}],
+	rewards      = {15159,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2011) -> #cfg_searchtreasure_rewards{
+	id           = 2011,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,300}],
+	rewards      = {101002,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2012) -> #cfg_searchtreasure_rewards{
+	id           = 2012,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,300}],
+	rewards      = {102002,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2013) -> #cfg_searchtreasure_rewards{
+	id           = 2013,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,150}],
+	rewards      = {101003,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2014) -> #cfg_searchtreasure_rewards{
+	id           = 2014,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,150}],
+	rewards      = {102003,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2015) -> #cfg_searchtreasure_rewards{
+	id           = 2015,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,100}],
+	rewards      = {101004,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2016) -> #cfg_searchtreasure_rewards{
+	id           = 2016,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,100}],
+	rewards      = {102004,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2017) -> #cfg_searchtreasure_rewards{
+	id           = 2017,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,100}],
+	rewards      = {10016,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2018) -> #cfg_searchtreasure_rewards{
+	id           = 2018,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,200}],
+	rewards      = {11140,2,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2019) -> #cfg_searchtreasure_rewards{
+	id           = 2019,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,1000}],
+	rewards      = {10302,1,1},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2020) -> #cfg_searchtreasure_rewards{
+	id           = 2020,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,1500}],
+	rewards      = {50000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2021) -> #cfg_searchtreasure_rewards{
+	id           = 2021,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,300}],
+	rewards      = {50001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2022) -> #cfg_searchtreasure_rewards{
+	id           = 2022,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,1500}],
+	rewards      = {55000,5,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2023) -> #cfg_searchtreasure_rewards{
+	id           = 2023,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,150}],
+	rewards      = {55001,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2024) -> #cfg_searchtreasure_rewards{
+	id           = 2024,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,800}],
+	rewards      = {13136,2,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2025) -> #cfg_searchtreasure_rewards{
+	id           = 2025,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,300}],
+	rewards      = {13137,1,2},
+	is_rare      = 0,
+	is_broadcast = 1,
+	channel      = 0,
+	is_notice    = 1
+};
+find(2026) -> #cfg_searchtreasure_rewards{
+	id           = 2026,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,300}],
+	rewards      = {11141,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2027) -> #cfg_searchtreasure_rewards{
+	id           = 2027,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,250}],
+	rewards      = {55006,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2028) -> #cfg_searchtreasure_rewards{
+	id           = 2028,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,250}],
+	rewards      = {55008,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(2029) -> #cfg_searchtreasure_rewards{
+	id           = 2029,
+	type_id      = 4,
+	batch_id     = 41,
+	prob         = [{0,560,780}],
+	rewards      = {15160,1,2},
+	is_rare      = 0,
+	is_broadcast = 0,
+	channel      = 0,
+	is_notice    = 0
+};
+find(_) -> undefined.
+
+find_ids_by_batchid(1) -> [14,25,29,30,32,35,36,2,4,12,19,20,24,26,31,34,1,5,11,38,22,39,7,8,13,18,23,27,28,15,16,33,6,9,21,3,10,17,37];
+find_ids_by_batchid(2) -> [52,59,68,44,53,54,56,70,72,73,41,58,66,76,78,45,64,75,77,63,43,46,47,49,51,60,74,40,50,67,48,61,62,65,69,42,57,71,55];
+find_ids_by_batchid(3) -> [84,97,102,82,85,95,81,96,101,90,103,109,117,112,79,87,88,89,93,99,104,86,91,100,107,110,111,114,83,92,98,106,115,80,94,105,108,113,116];
+find_ids_by_batchid(4) -> [128,132,133,145,155,120,121,134,137,138,139,151,118,140,141,143,148,124,125,144,146,149,150,119,130,136,153,122,131,154,152,156,123,126,127,129,135,142,147];
+find_ids_by_batchid(5) -> [170,189,173,183,158,159,160,166,167,177,179,185,186,162,163,171,175,178,187,193,195,164,174,180,184,191,165,168,169,181,182,157,161,194,172,176,188,190,192];
+find_ids_by_batchid(21) -> [197,201,209,229,234,232,196,219,227,230,231,224,225,198,199,204,207,214,222,233,235,203,208,213,215,218,236,237,202,205,226,200,206,210,212,216,211,223,228,217,220,221];
+find_ids_by_batchid(22) -> [255,263,268,277,239,244,256,242,250,253,261,264,275,247,245,246,248,257,266,279,240,267,273,254,252,260,269,276,278,249,258,259,265,270,271,243,241,251,262,272,274,238];
+find_ids_by_batchid(31) -> [1003,1004,1006,1010,1012,1013,1016,1002,1022,1017,1009,1015,1019,1024,1008,1014,1021,1007,1005,1011,1018,1020,1023,1025,1026,1001];
+find_ids_by_batchid(41) -> [2018,2019,2021,2023,2002,2017,2010,2022,2015,2020,2024,2029,2004,2014,2028,2005,2016,2001,2003,2009,2013,2027,2006,2007,2012,2025,2026,2008,2011];
+find_ids_by_batchid(_) -> [].

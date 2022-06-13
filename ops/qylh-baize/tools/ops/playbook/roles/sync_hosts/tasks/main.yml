@@ -1,0 +1,15 @@
+---
+
+- name: create directory
+  file:
+    path: "{{ hosts_dir }}"
+    state: directory
+    owner: root
+    group: root
+
+- name: sync hosts
+  synchronize:
+    src: "{{ admin_dir }}/storage/app/hosts/"
+    dest: "{{ hosts_dir }}/"
+    mode: pull
+    recursive: yes

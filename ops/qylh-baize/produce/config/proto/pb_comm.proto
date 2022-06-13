@@ -1,0 +1,307 @@
+syntax = "proto2";
+
+// 角色基本信息
+message p_role_base {
+	required fixed64      id     = 1;  // 角色id
+	required string       name   = 2;  // 角色名
+	required int32        career = 3;  // 职业
+	required int32        gender = 4;  // 性别
+	required int32        level  = 5;  // 角色等级
+	required int32        viplv  = 6;  // vip等级
+	required int32        power  = 7;  // 战力
+	map<string, p_aspect> figure = 8;  // 形象
+	required uint64       guild  = 9;  // 帮派id
+	required string       gname  = 10; // 帮派名称
+	required int32 	      charm  = 11; // 魅力值
+	required int32 	      wake   = 12; // 觉醒等级
+	required int32        gpost  = 13; // 帮派职位
+	required int32        marry  = 14; // 结婚对象
+	required string       mname  = 15; // 结婚对象名字
+	required int32        mtype  = 16; // 结婚类型
+	optional p_icon       icon   = 17; // 玩家头像
+	required int32        suid   = 18; // 服务器id
+	required int32        zoneid = 19; // 区服id
+	required fixed64      team   = 20; // 队伍id
+}
+
+// 外观
+message p_aspect {
+	optional int32 model = 1; // 模型id
+	optional int32 skin  = 2; // 贴图id
+	optional bool  show  = 3; // 是否显示
+}
+
+// 属性
+message p_attr {
+	optional int32 hp        = 1[default=0];  // 生命
+	optional int32 hpmax     = 2[default=0];  // 生命上限
+	optional int32 speed     = 3[default=0];  // 速度
+	optional int32 att       = 4[default=0];  // 攻击
+	optional int32 def       = 5[default=0];  // 防御
+	optional int32 wreck     = 6[default=0];  // 破甲
+	optional int32 hit       = 7[default=0];  // 命中
+	optional int32 miss      = 8[default=0];  // 闪避
+	optional int32 crit      = 9[default=0];  // 暴击
+	optional int32 tough     = 10[default=0]; // 坚韧
+	optional int32 holy_att  = 11[default=0]; // 魔法攻击
+	optional int32 holy_def  = 12[default=0]; // 魔法防御
+
+	optional int32 abs_att   = 13[default=0]; // 绝对攻击
+	optional int32 abs_miss  = 14[default=0]; // 绝对闪避
+	optional int32 dmg_amp   = 15[default=0]; // 伤害加深 amplify
+	optional int32 dmg_red   = 16[default=0]; // 伤害减免 reduce
+	optional int32 hit_pro   = 17[default=0]; // 命中几率 prob
+	optional int32 miss_pro  = 18[default=0]; // 闪避几率
+	optional int32 armor_pro = 19[default=0]; // 护甲
+	optional int32 armor_str = 20[default=0]; // 护甲穿透 strike
+	optional int32 block_pro = 21[default=0]; // 格挡
+	optional int32 block_str = 22[default=0]; // 格挡穿透
+	optional int32 crit_pro  = 23[default=0]; // 暴击几率
+	optional int32 crit_res  = 24[default=0]; // 暴击抵抗 resist
+	optional int32 heart_pro = 25[default=0]; // 会心几率
+	optional int32 heart_res = 26[default=0]; // 会心抵抗
+	optional int32 crit_dmg  = 27[default=0]; // 暴击伤害
+	optional int32 crit_red  = 28[default=0]; // 暴伤减免
+	optional int32 heart_dmg = 29[default=0]; // 会心伤害
+	optional int32 heart_red = 30[default=0]; // 会心减免
+	optional int32 skill_amp = 31[default=0]; // 技能增伤
+	optional int32 skill_red = 32[default=0]; // 技能减伤
+	optional int32 thump_pro = 33[default=0]; // 重击几率
+	optional int32 weak_pro  = 34[default=0]; // 虚弱几率
+	optional int32 skill_att_power = 35[default=0]; // 攻击侧技能战力
+	optional int32 skill_def_power = 36[default=0]; // 防御侧技能战力
+
+	optional int32 hew_amp   = 37[default=0]; // 普攻增伤
+	optional int32 block_red = 38[default=0]; // 格挡免伤
+	optional int32 boss_amp  = 39[default=0]; // boss增伤
+	optional int32 creep_amp = 40[default=0]; // 怪物增伤
+
+	optional int32 pvp_red       = 41[default=0]; // pvp免伤
+	optional int32 pvp_armor_pro = 42[default=0]; // pvp护甲几率
+	optional int32 pvp_armor_str = 43[default=0]; // pvp护甲穿透
+
+	optional int32 exp_per     = 44[default=0]; // 经验加成
+	optional int32 gold_drop   = 45[default=0]; // 金币掉率
+	optional int32 item_drop   = 46[default=0]; // 物品掉率
+	optional int32 equip_def   = 47[default=0]; // 每3级增加防御
+	optional int32 equip_hpmax = 48[default=0]; // 每3级增加生命
+	optional int32 equip_att   = 49[default=0]; // 每3级增加攻击
+	optional int32 power       = 50[default=0]; // 战力
+
+	// 全局百分比
+	optional int32 all_gp      = 51[default=0]; // 全属性百分比(全局)
+	optional int32 hpmax_gp    = 52[default=0]; // 生命加成(全局)
+	optional int32 att_gp      = 53[default=0]; // 攻击加成(全局)
+	optional int32 def_gp      = 54[default=0]; // 防御加成(全局)
+	optional int32 wreck_gp    = 55[default=0]; // 破甲加成(全局)
+	optional int32 hit_gp      = 56[default=0]; // 命中百分比(全局)
+	optional int32 miss_gp     = 57[default=0]; // 闪避百分比(全局)
+	optional int32 crit_gp     = 58[default=0]; // 暴击百分比(全局)
+	optional int32 tough_gp    = 59[default=0]; // 坚韧百分比(全局)
+	optional int32 holy_att_gp = 60[default=0]; // 魔法攻击百分比(全局)
+	optional int32 holy_def_gp = 61[default=0]; // 魔法防御百分比(全局)
+
+	optional int32 hpmax_bp    = 62[default=0]; // 基础生命
+	optional int32 att_bp      = 63[default=0]; // 基础攻击
+	optional int32 def_bp      = 64[default=0]; // 基础防御
+	optional int32 wreck_bp    = 65[default=0]; // 基础破甲
+}
+
+// 道具基本信息
+message p_item_base {
+	required int32    uid    = 1; // 唯一id
+	required int32    id     = 2; // 道具id
+	required int32    num    = 3; // 数量
+	required int32    bag    = 4; // 当前所在背包
+	required bool     bind   = 5; // 是否绑定
+	required int32    etime  = 6; // 过期时间(时间戳)
+	required int32    gender = 7; // 性别
+	optional int32    score  = 8; // 评分
+	optional int32    extra  = 9; // 附加数据(物品自定义使用:魔法卡强化等级)
+	map<string,int32> misc   = 10; // 其他数据
+}
+
+// 道具详细信息
+message p_item {
+	required int32      uid        = 1; // 唯一id
+	required int32      id         = 2; // 道具id
+	required int32      num        = 3; // 数量
+	required int32      bag        = 4; // 当前所在背包
+	required bool       bind       = 5; // 是否绑定
+	required int32      etime      = 6; // 过期时间(时间戳)
+	required int32      gender     = 7; // 性别(1=男;2=女;0=无限制)
+	optional int32      score      = 8; // 评分
+	optional p_equip    equip      = 9; // 装备数据
+	optional p_pet      pet 	   = 10;// 宠物数据
+	optional int32      extra      = 11;// 附加数据(物品自定义使用:魔法卡强化等级)
+}
+
+// 装备数据
+message p_equip {
+	required p_attr   	base        = 1;  // 基础属性
+	optional p_attr   	rare1       = 2;  // 蓝色极品属性
+	optional p_attr   	rare2       = 3;  // 紫色极品属性
+	optional p_attr   	rare3       = 4;  // 橙色极品属性
+	optional p_marriage marriage    = 5;  // 结婚数据
+	required int32    	stren_phase = 6;  // 强化段
+	required int32    	stren_lv    = 7;  // 强化等级
+	map<int32, int32> 	stones      = 8;  // 孔位对应宝石id key=hole, val=stone id
+	required int32    	power       = 9;  // 战斗力
+	optional int32      cast        = 10; // 铸造等级
+	repeated p_refine   refine      = 11; // 洗练属性
+	map<int32, int32>   suite       = 12; // 套装 key=套装id, val=激活件数
+	repeated p_item     combine     = 13; // 合成数据
+}
+
+//道具宠物数据
+message p_pet {
+	required p_attr   base   = 1; // 基础属性
+	optional p_attr   rare1  = 2; // 蓝色极品属性
+	optional p_attr   rare2  = 3; // 紫色极品属性
+	optional p_attr   rare3  = 4; // 橙色极品属性
+	required int32    cross  = 5; // 超越阶段
+	map<int32, int32> strong = 6; // 训练属性
+	required int32    power  = 7; // 战力
+}
+
+//道具的结婚数据
+message p_marriage {
+	optional fixed64 	husband_id = 1;
+	optional string 	husband    = 2;
+	optional fixed64 	wife_id    = 3;
+	optional string 	wife       = 4;
+	optional p_attr 	rare       = 5;
+}
+
+//装备的洗练
+message p_refine {
+	required int32    attr  = 1;  //属性id
+	required int32    value = 2;  //属性值
+	required int32    min   = 3;  //最小值
+	required int32    max   = 4;  //最大值
+	required int32    color = 5;  //颜色
+}
+
+
+// 场景对象
+message p_actor {
+	required uint64    uid    = 1; // 唯一id
+	required string    name   = 2; // 名称
+	required int32     type   = 3; // 类型 ACTOR_TYPE_XXX
+	required p_coord   coord  = 4; // 坐标
+	required int32     state  = 5; // 状态 ACTOR_STATE_XXX
+	map<int32,string>  stargs = 6; // 状态参数
+	optional p_role    role   = 7; // 玩家数据
+	optional p_creep   creep  = 8; // 怪物数据
+	optional p_drop    drop   = 9; // 掉落数据
+}
+
+message p_role {
+	required int32        career = 1;  // 职业
+	required int32        gender = 2;  // 性别
+	required int32        level  = 3;  // 等级
+	required int32        viplv  = 4;  // vip等级
+	map<string, p_aspect> figure = 5;  // 形象
+	required int32        suid   = 6;  // 服务器id
+	required uint64       guild  = 7;  // 帮派id
+	required string       gname  = 8;  // 帮派名称
+	required int32        hp     = 9;  // 当前血量
+	required int32        hpmax  = 10; // 最大血量p
+	required int32        speed  = 11; // 速度
+	repeated p_buff       buffs  = 12; // buff列表
+	required int32        power  = 13; // 战力
+	required int32        pkmode = 14; // pk模式
+	required int32        crime  = 15; // 罪恶值
+	required double       dir    = 16; // 朝向
+	required p_coord      dest   = 17; // 行走目的地
+	required int32        group  = 18; // 分组id
+	required fixed64      team   = 19; // 组队id
+	required int32		  marry  = 20; // 结婚对象
+	required string 	  mname  = 21; // 结婚对象名字
+	required int32 		  mtype  = 22; // 结婚类型
+	required int32        zoneid = 23; // 区服id
+	map<string, int32>    ext    = 24; // 扩展参数
+	optional p_icon       icon   = 25; // 玩家头像
+}
+
+message p_creep {
+	required int32      id     = 1;  // 怪物id
+	required fixed64    owner  = 2;  // 主人
+	required int32      hp     = 3;  // 当前血量
+	required int32      hpmax  = 4;  // 最大血量
+	required int32      speed  = 5;  // 速度
+	repeated p_buff     buffs  = 6;  // buff列表
+	required int32      dir    = 7;  // 朝向
+	required p_coord    dest   = 8;  // 行走目的地
+	required int32      group  = 9;  // 分组id
+	required int32      level  = 10; // 等级
+	map<string, uint64> ext    = 11; // 扩展参数
+}
+// 扩展参数说明
+// boss_reborn  : boss重生时间戳
+// belong_role  : boss归属于哪个玩家(ActorID)
+// belong_team  : boss归属于哪个队伍
+// disappear    : 消失时间戳
+// 怪物分裂
+// fission_id
+// fission_x
+// fission_y
+
+message p_npc {
+    required int32   id    = 1; // NPC id
+    required p_coord coord = 2;
+}
+
+message p_drop {
+	required int32   id     = 1; // #cfg_item.id
+	required int32   num    = 2;
+	optional int32   mode   = 3; // drop_mode
+	optional uint64  from   = 4; // 从哪只怪掉出来的 #p_actor.uid
+	optional p_coord coord  = 5; // 虚拟掉落才需要
+	repeated fixed64 belong = 6; // 归属，空列表表示属于所有人
+	optional int32   unlock = 7; // 掉落保护到期时间
+}
+
+message p_buff {
+	required int32  id     = 1; // #cfg_buff.id
+	required int32  type   = 2; // BUFF_TYPE_XXX
+	required int32  origin = 3; // buff 初始值
+	required int32  value  = 4; // buff 当前值
+	required int32  eff    = 5; // BUFF_EFFECT_XXX
+	required int32  etime  = 6; // 过期时间
+	required int32  group  = 7; // buff 分组
+	repeated int32  attrs  = 8; // 该 buff 增加/减少的属性 [{Code, Val}]
+}
+
+// 坐标
+message p_coord {
+    required double x = 1;
+    required double y = 2;
+}
+
+// 玩家头像
+message p_icon {
+	required string pic    = 1;
+	required string md5    = 2;
+	required int32  frame  = 3; // 头像框
+	required int32  bubble = 4; // 聊天气泡
+}
+
+// 排行数据
+message p_ranking {
+	optional p_role_base base = 1; // 基本数据
+	required int32       rank = 2; // 名次
+	required int32       sort = 3; // 排序字段的值
+	map<string, int32>   data = 4; // 其他数据
+}
+
+// 掉落记录
+message p_dropped {
+	required int32   time        = 1; // 掉落时间
+	required int32   scene       = 2; // 场景id
+	required fixed64 picker_id   = 3; // 拾取者id
+	required string  picker_name = 4; // 拾取者名称
+	required string  boss        = 5; // Boss名称
+	required int32   item_id     = 6; // 道具id
+	required int32   cache_id    = 7; // 道具缓存id
+}

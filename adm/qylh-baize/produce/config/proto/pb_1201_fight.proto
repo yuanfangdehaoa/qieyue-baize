@@ -1,0 +1,135 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 攻击
+message m_fight_attack_tos { //1201001
+    required int32   unit  = 1; // 攻击单位(0=角色,1=宠物)
+    required int32   skill = 2; // 技能id
+    required double  dir   = 3; // 攻击方向
+    required uint64  defid = 4; // 锁定对象
+    required p_coord coord = 5; // 对象坐标
+    required int32   seq   = 6; // 序号(前端用)
+}
+
+message m_fight_attack_toc { //1201001
+    required uint64   atkid = 1; // 攻击方id
+    required int32    unit  = 2; // 攻击单位
+    required int32    skill = 3; // 技能id
+    required uint64   cd    = 4; // cd结束时间
+    required int32    level = 5; // 技能等级
+    required double   dir   = 6; // 攻击方向
+    repeated p_damage dmgs1 = 7; // 受击结果
+    required int32    combo = 8; // 连击技能id
+    repeated p_damage dmgs2 = 9; // 连击结果
+    required int32    seq   = 10; // 序号(前端用)
+    optional p_coord  coord = 11; // 攻击方位置
+}
+
+// 复活
+message m_fight_revive_tos { //1201002
+    required int32 type = 1; // 复活类型 REVIVE_TYPE_XXX
+}
+
+message m_fight_revive_toc { //1201002
+    required uint64  uid   = 1;
+    required int32   type  = 2;
+    required p_coord dest  = 3; // 复活后的位置
+}
+
+// 切换pk模式
+message m_fight_pkmode_tos { //1201003
+    required int32 pkmode = 1;
+}
+
+message m_fight_pkmode_toc { //1201003
+    required int32 pkmode = 1;
+}
+
+// 采集
+message m_fight_collect_tos { //1201004
+    required uint64 uid  = 1; // 采集物
+    required int32  type = 2; // 1=开始采集; 2=完成采集
+}
+
+message m_fight_collect_toc { //1201004
+    required uint64 uid  = 1; // 采集物
+    required int32  type = 2; // 1=开始采集; 2=完成采集; 3=中断采集
+}
+
+// 拾取
+message m_fight_pickup_tos { //1201005
+    required uint64 uid   = 1;
+    required int32  scene = 2; // 场景id
+}
+
+message m_fight_pickup_toc { //1201005
+    required uint64 uid   = 1;
+    required int32  scene = 2; // 场景id
+}
+
+// 死亡协议
+message m_fight_dead_toc { //1201006
+    required uint64     uid  = 1; // 谁死了
+    required int32      type = 2; // 死亡类型 DEAD_TYPE_XXX
+    required string     who  = 3; // 被谁杀死
+    map<string, string> args = 4; // 其他参数
+}
+// 参数说明
+// auto_revive 自动复活时间戳
+
+// 新手打怪
+message m_fight_newbie_tos { //1201007
+    required uint64  uid   = 1;
+    required int32   id    = 2; // 怪物id
+    required int32   skill = 3; // 技能id
+    required double  dir   = 4; // 攻击方向
+    required int32   seq   = 5; // 序号(前端用)
+}
+
+// 自动拾取
+message m_fight_autopick_tos { //1201008
+    repeated uint64 uids  = 1;
+    required int32  scene = 2; // 场景id
+}
+
+message m_fight_autopick_toc { //1201008
+    repeated uint64 uids  = 1;
+    required int32  scene = 2; // 场景id
+}
+
+// 非战斗流程更新血量
+message m_fight_damage_toc { //1201009
+    repeated p_damage dmgs  = 1; // 受击结果
+    optional p_coord  coord = 2; // 伤害来源的坐标
+}
+
+// 敌对列表
+message m_fight_enemies_tos { //1201010
+
+}
+
+message m_fight_enemies_toc { //1201010
+    map<int32, bool> enemies = 1; // key=SUID, val=IsEnemy
+}
+
+// 设置敌对
+message m_fight_enemy_tos { //1201011
+    required int32 suid = 1; // 服务器id
+    required int32 type = 2; // 1=设置; 2=取消
+}
+
+message m_fight_enemy_toc { //1201011
+    required int32 suid = 1; // 服务器id
+    required int32 type = 2; // 1=设置; 2=取消
+}
+
+// 攻击结果
+message p_damage {
+    required uint64  uid   = 1; // #p_actor.uid
+    required int32   unit  = 2; // 攻击单位
+    required p_coord coord = 3; // 受击后的坐标
+    required int32   hp    = 4; // 新的血量
+    required int32   type  = 5; // 伤害类型
+    required int32   value = 6; // 伤害值
+    required int32   state = 7; // 状态
+}

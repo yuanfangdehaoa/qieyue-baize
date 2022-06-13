@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fea4a85-edfe-47f8-82fb-c66910fc64f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1dwXcocoQC1XD6LnJeKKc9KmZX7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xw01_wai/bt/server" />
+    <property name="settings.editor.selected.configurable" value="orchideLicense" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\tools\ops\playbook" />
+      <recent name="E:\Work\tools\ops\playbook\roles" />
+      <recent name="E:\Work\tools\ops" />
+      <recent name="E:\Work\tools\ops\playbook\vars" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\tools\ops" />
+      <recent name="E:\Work\tools\ops\playbook" />
+    </key>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\zjy\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fea4a85-edfe-47f8-82fb-c66910fc64f8" name="Default Changelist" comment="" />
+      <created>1593337210925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593337210925</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2323" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618997305945">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2323" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1618997305945" />
+    <state x="2698" y="271" key="FileChooserDialogImpl" timestamp="1616656276822">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2698" y="271" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1616656276822" />
+    <state x="2526" y="280" width="776" height="722" key="find.popup" timestamp="1618890000944">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="948" y="93" width="763" height="891" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610613932729" />
+    <state x="2526" y="280" width="776" height="722" key="find.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1618890000944" />
+    <state x="2536" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1618886019887">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="173" width="672" height="676" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1618886019887" />
+  </component>
+</project>

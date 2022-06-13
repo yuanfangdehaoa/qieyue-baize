@@ -1,0 +1,13 @@
+---
+
+- name: create backup path
+  file:
+    path: "{{ merge_path }}"
+    state: directory
+    owner: root
+    group: root
+
+- name: mnesia backup
+  shell: sh xctl backup
+  args:
+    chdir: "{{ serv_path }}"

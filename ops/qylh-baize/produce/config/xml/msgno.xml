@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 消息 -->
+<!--
+<msg
+	name="枚举名"
+	code="消息id00"
+	type="消息类型"
+		1=聊天消息
+		2=弹窗消息
+		3=系统公告(只能出现在系统频道)
+	chan="聊天频道"
+		1=出现在系统频道
+		0=不出现
+	desc="描述"
+</msg>
+
+white ="#ffffff",
+    green ="#6ce19b",
+    blue ="#3ec5fe",
+    purple ="#9c48f2",
+    orage ="#e08225",
+    red ="#e63232",
+    pink ="#d622e6",
+    yellow ="#ffcc00",
+	redtrue
+	bluetrue
+	greentrue
+
+	角色名字：聊天面板，不管是大面板还是小面板，颜色值都是写死的
+
+	跳转的有2种格式：
+	1，固定跳转(如固定跳转到页面）：greentrue{panel{'value=130@1'立即前往}}
+	2，服务端传参数跳转（如世界BOSS)：greentrue{panel{%s我也要买}}
+
+-->
+
+<msgs>
+
+<msg name="MSG_CHANGE_TIME" code="1" type="3" chan="1"  desc="%s改了服务器时间" />
+
+<msg name="MSG_TEAM_MEMBER_KICKOUT" code="150001" type="2" chan="0"  desc="你被%s踢出队伍" />
+<msg name="MSG_TEAM_APPLY_REJECTED" code="150002" type="2" chan="0"  desc="%s拒绝了您的入队申请" />
+<msg name="MSG_TEAM_APPLY_ACCEPTED" code="150003" type="2" chan="0"  desc="%s通过了您的入队申请" />
+<msg name="MSG_TEAM_CHANGE_TARGET"  code="150004" type="2" chan="0"  desc="队长已经将目标修改为bluetrue{%s}" />
+<msg name="MSG_TEAM_JOIN_TEAM"      code="150005" type="2" chan="0"  desc="%s加入了您的队伍" />
+<msg name="MSG_TEAM_CAPTAIN_CHANGE" code="150006" type="2" chan="0"  desc="队长变更为bluetrue{%s}" />
+<msg name="MSG_TEAM_JOIN_TEAM_SUC"  code="150007" type="2" chan="0"  desc="加入队伍成功" />
+<msg name="MSG_TEAM_LEVEL_LIMIT"    code="150008" type="2" chan="0"  desc="%s等级不满足进入该副本" />
+<msg name="MSG_TEAM_NO_ENTER_DUNGE" code="150009" type="2" chan="0"  desc="%s不同意进入副本" />
+<msg name="MSG_TEAM_NOT_IN_MAIN"    code="150010" type="2" chan="0"  desc="%s在bluetrue{%s}场景中，不能进入副本" />
+<msg name="MSG_TEAM_INVITE_SUCCESS" code="150011" type="2" chan="0"  desc="邀请入队成功" />
+<msg name="MSG_TEAM_REJECT_INVITE"  code="150012" type="2" chan="0"  desc="%s拒绝了您的入队邀请" />
+<msg name="MSG_TEAM_HAD_INVITED"    code="150013" type="2" chan="0"  desc="%s已邀请过或已有队伍" />
+<msg name="MSG_TEAM_DUNGE_MAX_TIMES" code="150014" type="2" chan="0"  desc="%s已达到最大进入次数" />
+<msg name="MSG_TEAM_MEMBER_OFFLINE" code="150015" type="2" chan="0"  desc="%s不在线，无法进入副本" />
+
+<msg name="MSG_VIP_MCARD_BUY" code="111001" type="3" chan="1" desc="%s成功激活了月卡，立即获得投资成本：orage{%s绑钻}，每天还能领绑钻！greentrue{panel{'value=401@2@3'我也要买}}" />
+<msg name="MSG_VIP_INVEST_BUY" code="111002" type="3" chan="1" desc="%s购买了%s钻石的投资计划，再也不怕绑钻不足！greentrue{panel{'value=401@2@4'我也要买}}" />
+<msg name="MSG_VIP_ACTIVE" code="111003" type="3" chan="1" desc="精明的%s激活了%s，开启了bluetrue{个人首领、首领之家}，从此装备无忧！" />
+
+<msg name="MSG_SEARCHTREASURE_BROADCAST"    code="112401" type="3"  chan="1"  desc="恭喜%s在装备寻宝中，幸运爆棚，欧皇降临，获得了物品%s，真是令人羡慕啊！" />
+<msg name="MSG_SEARCHTREASURE_BAG_FULL"     code="112402" type="2"  chan="0"  desc="包已满，请整理包裹！" />
+<msg name="MSG_SEARCHTREASURE_YY_BROADCAST" code="112403" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=875@1'我也要}}" />
+<msg name="MSG_SEARCHTREASURE_BROADCAST2"   code="112404" type="3"  chan="1"  desc="恭喜%s在巅峰寻宝中，幸运爆棚，欧皇降临，获得了物品%s，真是令人羡慕啊！" />
+<msg name="MSG_TARGET_LOTTERY1"              code="112405" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@1@true'我也要}}" />
+<msg name="MSG_TARGET_LOTTERY2"              code="112406" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@2@true'我也要}}" />
+<msg name="MSG_TARGET_LOTTERY3"              code="112407" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@3@true'我也要}}" />
+<msg name="MSG_TARGET_LOTTERY4"              code="112408" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@4@true'我也要}}" />
+<msg name="MSG_TARGET_LOTTERY5"              code="112409" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@5@true'我也要}}" />
+<msg name="MSG_TARGET_LOTTERY6"              code="112410" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@6@true'我也要}}" />
+<msg name="MSG_TARGET_LOTTERY7"              code="112411" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=876@7@true'我也要}}" />
+<msg name="MSG_SEARCHTREASURE_BROADCAST3"   code="112412" type="3"  chan="1"  desc="恭喜%s在机甲寻宝中，幸运爆棚，欧皇降临，获得了物品%s，真是令人羡慕啊！" />
+<msg name="MSG_SEARCHTREASURE_BROADCAST4"   code="112413" type="3"  chan="1"  desc="恭喜%s在至尊寻宝中，幸运爆棚，欧皇降临，获得了物品%s，真是令人羡慕啊！" />
+<msg name="MSG_TIME_LIMITED_RUSH" code="112414" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=5@11'我也要}}" />
+<msg name="MSG_FLOP_GIFT" code="112415" type="3"  chan="1"  desc="恭喜%s在翻牌好礼活动中，获得了珍稀奖励:%s，greentrue{panel{'value=1190@1'我也要}}" />
+
+<msg name="MSG_MALL_BUY_GM_ITEM"      code="112500" type="3"  chan="1"  desc="%s用orage{%s折}购买了orage{%s}，实力大增！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_BUY_ITEM"      code="112501" type="3"  chan="1"  desc="%s用orage{%s折}购买了orage{%s}，获得了：%s，实力大增！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_BUY_INTEGRAL"  code="112502" type="3"  chan="1"  desc="%s在寻宝积分商城中用orage{%s积分}兑换了：%s，实力大增！greentrue{panel{%s我也想要}}" />
+<msg name="MSG_MALL_BEAST_REWARD1" code="112503" type="3"  chan="1" desc="震惊！%s达到了350级，购买了异兽限时礼包的%s，获得海量道具，快人一步，马上成型！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_BEAST_REWARD2" code="112504" type="3"  chan="1" desc="震惊！%s达到了350级，购买了异兽限时礼包的%s，获得绝版称号，战力飙升，爆发小宇宙了！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_BEAST_REWARD3" code="112505" type="3"  chan="1" desc="震惊！%s达到了350级，购买了异兽限时礼包的%s，获得木灵树人，激活可增加50W+战力！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_BEAST_REWARD4" code="112506" type="3"  chan="1" desc="震惊！%s达到了350级，购买了异兽限时礼包的%s，获得灾厄梦魇，飙升百万战力，就问还有谁！greentrue{panel{%s我也要买}}" />
+
+<msg name="MSG_MALL_MACHE_REWARD1" code="112507" type="3"  chan="1" desc="震惊！%s达到了180级，购买了机甲限时礼包的%s，获得守护之剑，会心伤害可与暴击叠加，输出爆炸！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_MACHE_REWARD2" code="112508" type="3"  chan="1" desc="震惊！%s达到了180级，购买了机甲限时礼包的%s，获得守护之剑·核心(红)，战力飙升，爆发小宇宙了！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_MACHE_REWARD3" code="112509" type="3"  chan="1" desc="震惊！%s达到了180级，购买了机甲限时礼包的%s，获得海量神装材料，战力暴涨！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_MACHE_REWARD4" code="112510" type="3"  chan="1" desc="震惊！%s达到了180级，购买了机甲限时礼包的%s，获得海量机甲升级材料，快人一步，马上成型！greentrue{panel{%s我也要买}}" />
+
+<msg name="MSG_MALL_PET_EQUIP1" code="112511" type="3"  chan="1" desc="震惊！%s，购买了宠物装备限时礼包的%s，获得秘钥项圈！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_PET_EQUIP2" code="112512" type="3"  chan="1" desc="震惊！%s，购买了宠物装备限时礼包的%s，获得暗影之爪！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_PET_EQUIP3" code="112513" type="3"  chan="1" desc="震惊！%s，购买了宠物装备限时礼包的%s，获得海量神装材料，战力暴涨！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_PET_EQUIP4" code="112514" type="3"  chan="1" desc="震惊！%s，购买了宠物装备限时礼包的%s，获得海量宠物装备升级材料，快人一步，马上成型！greentrue{panel{%s我也要买}}" />
+
+<msg name="MSG_MALL_ARTIFACT_LIMIT1" code="112515" type="3"  chan="1" desc="震惊！%s达到了410级，购买了神器限时礼包的%s，获得解锁材料，神器先锋，优先获取！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_ARTIFACT_LIMIT2" code="112516" type="3"  chan="1" desc="震惊！%s达到了410级，购买了神器限时礼包的%s，获得神器橙装，立即解锁，极品附灵！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_ARTIFACT_LIMIT3" code="112517" type="3"  chan="1" desc="震惊！%s达到了410级，购买了神器限时礼包的%s，获得附灵石，更多属性，战力飙升！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_ARTIFACT_LIMIT4" code="112518" type="3"  chan="1" desc="震惊！%s达到了410级，购买了神器限时礼包的%s，获得神器红装，红色神装，战力暴涨！greentrue{panel{%s我也要买}}" />
+
+<msg name="MSG_MALL_TOTEMS_LIMIT1" code="112519" type="3"  chan="1" desc="震惊！%s达到了450级，购买了图腾限时礼包的%s，获得海量道具，快人一步，马上成型！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_TOTEMS_LIMIT2" code="112520" type="3"  chan="1" desc="震惊！%s达到了450级，购买了图腾限时礼包的%s，获得绝版称号，战力飙升，爆发小宇宙了！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_TOTEMS_LIMIT3" code="112521" type="3"  chan="1" desc="震惊！%s达到了450级，购买了图腾限时礼包的%s，获得海量橙色图腾装备，战力飙升！greentrue{panel{%s我也要买}}" />
+<msg name="MSG_MALL_TOTEMS_LIMIT4" code="112522" type="3"  chan="1" desc="震惊！%s达到了450级，购买了图腾限时礼包的%s，获得海量红色图腾装备，战力飙升！greentrue{panel{%s我也要买}}" />
+
+<msg name="MSG_BOSS_BORN" code="120401" type="3" chan="1"  desc="red{%s}携带大量珍贵宝物，现身bluetrue{%s}，击杀可获得丰厚奖励 ！greentrue{panel{%s立即前往}}" />
+<msg name="MSG_BOSS_DROP" code="120402" type="3" chan="1"  desc="%s大显身手，在bluetrue{%s}与redtrue{%s}大战三百回合，获得极品%s" />
+<msg name="MSG_BOSS_EVOLVE" code="120403" type="3" chan="1"  desc="bluetrue{魔兽城堡%d层}，redtrue{%s}刷新到%s品质，greentrue{panel{'value=160@1@3@1@7@true'立即前往}}" />
+
+<msg name="MSG_EQUIP_INHERIT_SUITE"  code="110601" type="2" chan="0" desc="已自动转移所有套装石" />
+<msg name="MSG_EQUIP_INHERIT_STRONG" code="110602" type="2" chan="0" desc="已自动继承强化等级" />
+<msg name="MSG_EQUIP_SMELT_NOTICE"   code="110603" type="3" chan="1" desc="%s将熔炼提升到orage{%s级}，战力大幅提升，一时风头无二！" />
+<msg name="MSG_EQUIP_COMPOSE_NOTICE" code="110604" type="3" chan="1" desc="恭喜%s成功合成%s，巅峰战力更进一步！" />
+<msg name="MSG_EQUIP_STRONG_NOTICE"  code="110605" type="3" chan="1" desc="恭喜%s成功将%s强化到orage{%s段}，战斗力大增！" />
+<msg name="MSG_EQUIP_SUITE_NOTICE"   code="110606" type="3" chan="1" desc="恭喜%s成功激活orage{%s·%s}套装orage{%s件套}的效果，巅峰战力更进一步！" />
+<msg name="MSG_EQUIP_CAST_NOTICE"    code="110607" type="3" chan="1" desc="恭喜%s把%s铸造为orage{%s}，战斗力大增！" />
+<msg name="MSG_EQUIP_REFINE_NOTICE"  code="110608" type="3" chan="1" desc="%s幸运爆棚，%s洗出一条%s属性！" />
+
+
+<msg name="MSG_MOUNT_UPGRADE"   code="110701" type="3" chan="1" desc="%s将坐骑进阶到bluetrue{%d阶}，激活技能bluetrue{%s}，战力飙升拉都拉不住！greentrue{panel{'value=130@1'立即前往}}" />
+<msg name="MSG_OFFHAND_UPGRADE"   code="110702" type="3" chan="1" desc="%s将副手进阶到bluetrue{%d阶}，激活技能bluetrue{%s}，战力飙升拉都拉不住！greentrue{panel{'value=130@2'立即前往}}" />
+
+<msg name="MSG_MORPH_MOUNT_UPSTAR"   code="11081001" type="3" chan="1" desc="%s将坐骑bluetrue{%s}升到bluetrue{%d阶}，获得技能bluetrue{%s}，一时风头无两！greentrue{panel{'value=130@1'立即前往}}" />
+<msg name="MSG_MORPH_MOUNT_ACTIVE"   code="11081002" type="3" chan="1" desc="%s激活坐骑bluetrue{%s}！greentrue{panel{'value=130@1'我要激活}}" />
+
+<msg name="MSG_MORPH_OFFHAND_UPSTAR"   code="11082001" type="3" chan="1" desc="%s将副手bluetrue{%s}升到bluetrue{%d阶}，获得技能bluetrue{%s}，一时风头无两！greentrue{panel{'value=130@6'立即前往}}" />
+<msg name="MSG_MORPH_OFFHAND_ACTIVE"   code="11082002" type="3" chan="1" desc="%s激活副手bluetrue{%s}！greentrue{panel{'value=130@6'我要激活}}" />
+
+<msg name="MSG_MORPH_WING_UPSTAR"    code="11083001" type="3" chan="1" desc="%s将bluetrue{%s}提升至bluetrue{%d星}，战力一飞冲天，睥睨天下！" />
+<msg name="MSG_MORPH_WING_ACTIVE"    code="11083002" type="3" chan="1" desc="%s成功激活bluetrue{%s}，魅力四射，战力大增！" />
+<msg name="MSG_MORPH_WEAPON_UPSTAR"  code="11084001" type="3" chan="1" desc="%s将bluetrue{%s}提升至bluetrue{%d星}，战力一飞冲天，睥睨天下！" />
+<msg name="MSG_MORPH_WEAPON_ACTIVE"  code="11084002" type="3" chan="1" desc="%s成功激活bluetrue{%s}，魅力四射，战力大增！" />
+<msg name="MSG_MORPH_TALIS_UPSTAR"   code="11085001" type="3" chan="1" desc="%s将bluetrue{%s}提升至bluetrue{%d星}，战力一飞冲天，睥睨天下！" />
+<msg name="MSG_MORPH_TALIS_ACTIVE"   code="11085002" type="3" chan="1" desc="%s成功激活bluetrue{%s}，魅力四射，战力大增！" />
+<msg name="MSG_MORPH_GOD_UPSTAR"   code="11086001" type="3" chan="1" desc="%s将%s升到了bluetrue{%d星}，战力一飞冲天，睥睨天下！" />
+<msg name="MSG_MORPH_GOD_ACTIVE"   code="11086002" type="3" chan="1" desc="%s激活了神灵%s，魅力四射，战力大增！" />
+
+<msg name="MSG_TRAIN_WING_UPGRADE1"   code="110911" type="3" chan="1" desc="%s将翅膀升到bluetrue{%d}级，战力飙升所向披靡！" />
+<msg name="MSG_TRAIN_WING_UPGRADE2"   code="110912" type="3" chan="1" desc="%s将翅膀升到bluetrue{%d}级，激活技能bluetrue{%s}，战力飙升所向披靡！" />
+<msg name="MSG_TRAIN_WEAPON_UPGRADE1" code="110921" type="3" chan="1" desc="%s将神兵升到bluetrue{%d}级，战力飙升所向披靡！" />
+<msg name="MSG_TRAIN_WEAPON_UPGRADE2" code="110922" type="3" chan="1" desc="%s将神兵升到bluetrue{%d}级，激活技能bluetrue{%s}，战力飙升所向披靡！" />
+<msg name="MSG_TRAIN_TALIS_UPGRADE1"  code="110931" type="3" chan="1" desc="%s将法宝升到bluetrue{%d}级，战力飙升所向披靡！" />
+<msg name="MSG_TRAIN_TALIS_UPGRADE2"  code="110932" type="3" chan="1" desc="%s将法宝升到bluetrue{%d}级，激活技能bluetrue{%s}，战力飙升所向披靡！" />
+<msg name="MSG_TRAIN_GOD_UPGRADE1"  code="110933" type="3" chan="1" desc="%s将神灵升到bluetrue{%d}级，战力飙升所向披靡！" />
+
+
+<msg name="MSG_MAGICCARD_STRENGTH_NOTICE" code="111801" type="3" chan="1" desc="%s成功将%s升到blue{%s级}，战力大增！" />
+<msg name="MSG_MAGICCARD_UPSTAR_NOTICE"   code="111802" type="3" chan="1" desc="%s如有神助，将%s升到blue{%s星}，战力飙升，一飞冲天" />
+<msg name="MSG_MAGICCARD_COMPOSE_NOTICE"  code="111803" type="3" chan="1" desc="%s一掷千金，合成%s魂卡，真是财大气粗" />
+<msg name="MSG_MAGICCARD_BUY_NOTICE"      code="111804" type="3" chan="1" desc="%s财大气粗，在魂卡商店兑换了%s,greentrue{panel{%s我也要兑换}}" />
+<msg name="MSG_MAGICCARD_SUITE_NOTICE"    code="111805" type="3" chan="1" desc="%s激活了魂卡技能red{%s}，战力飙升拉都拉不住！" />
+
+
+<msg name="MSG_ITEM_GIFT_GAIN" code="110201" type="2" chan="0" desc="%s运气爆棚，从bluetrue{%s}中获得%s" />
+<msg name="MSG_ITEM_DUNGE_EQUIP_GAIN"  code="110201" type="3" chan="1" desc="%s在bluetrue{%s}中，幸运满格，福缘深厚，获得了%s" />
+
+<msg name="MSG_ITEM_MCHUNT_GAIN"  code="111101" type="3" chan="1" desc="%s在魂卡寻宝中，幸运爆棚，获得审判主宰赐予的%s！greentrue{panel{'value=230@1'立即前往}}" />
+
+<msg name="MSG_TARGET_GET_SKILL"  code="112201" type="3" chan="1" desc="恭喜%s在技能宝库中获得了技能：orage{%s}，实力大增greentrue{panel{'value=260'我也要获得}}" />
+
+<msg name="MSG_WELFARE_GRAIL"     code="112301" type="3" chan="1" desc="%s在天天祈福中获得了翻倍经验，共：orage{%s}，greentrue{panel{'value=500@1@500'我也要祈福}}" />
+
+<msg name="MSG_WAKE_NOTICE"       code="1117001"  type="3" chan="1" desc="恭喜%s完成了greentrue{%s次觉醒}，可穿戴更高阶的装备，解锁新外形，战力大幅提高！" />
+
+<msg name="MSG_FRIEND_SEND_FLOWER"     code="112601" type="3" chan="1" desc="%s情窦初开，羞羞的往%s手上塞了%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER2"     code="112602" type="3" chan="1" desc="热情是火，%s按奈不住内心的骚动，给%s送上了%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER3"     code="112603" type="3" chan="1" desc="情意浓浓的%s想在%s面表现出来，捧上了%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER4"     code="112604" type="3" chan="1" desc="%s大声向着天空说：我陪你，我养你，永远不变。%s感动不已，送上是最好的礼物%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER5"     code="112605" type="3" chan="1" desc="%s去了一趟小卖部，忍不住买了很多零食，挥手给%s送了%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER6"     code="112606" type="3" chan="1" desc="%s对着%s举起双手，比了一个%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER7"     code="112607" type="3" chan="1" desc="%s对着%s说，多喝喝%s反正你怎么喝都不胖" />
+<msg name="MSG_FRIEND_SEND_FLOWER8"     code="112608" type="3" chan="1" desc="%s对着%s举起双手，在空气中画了两天弧线，用手指%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER9"     code="112609" type="3" chan="1" desc="含蓄一笑%s指着%s说：你是一名名副其实的%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER10"     code="112610" type="3" chan="1" desc="普天同庆，独乐了不如众乐乐，%s为%s送了点燃了浪漫%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER11"     code="112611" type="3" chan="1" desc="%s挥金如土，直接给%s送了%s" />
+<msg name="MSG_FRIEND_SEND_FLOWER12"     code="112612" type="3" chan="1" desc="%s老板威武，老板豪气，随手给%s送上了%s" />
+
+<msg name="MSG_PET_GET_NOTICE"        code="1129001" type="3" chan="1" desc="%s在开启%s时，得到锦鲤保佑，获得了极品宠物%s" />
+<msg name="MSG_PET_COMPOSE_NOTICE"    code="1129002" type="3" chan="1" desc="%s在bluetrue{融合宠物}时，运气爆棚，成功融合出：%s，真是令人羡慕！" />
+<msg name="MSG_PET_EQUIP_UPORDER"     code="1129003" type="3" chan="1" desc="%s将%s进阶到bluetrue{%s阶},战力大幅提升！" />
+<msg name="MSG_PET_EQUIP_REINF"       code="1129004" type="3" chan="1" desc="%s将%s升到bluetrue{%s级},战力大幅提升！" />
+<msg name="MSG_PET_EQUIP_COMPOSE"     code="1129005" type="3" chan="1" desc="%s成功合成%s星bluetrue{%s}！" />
+
+<msg name="MSG_BABY_BORN"      code="113801" type="3" chan="1" desc="随着一阵巨响，%s的%s横空出世，从此欢声笑语惹人羡，可喜可贺！" />
+<msg name="MSG_BABY_UPLEVEL"   code="113802" type="3" chan="1" desc="%s把%s养育到了%s级，战力大幅提高！" />
+<msg name="MSG_BABY_UPORDER"   code="113803" type="3" chan="1" desc="%s将%s进阶到了%s阶，激活了技能，战力大幅提高！" />
+<msg name="MSG_BABY_WING_ACTIVE"   code="113804" type="3" chan="1" desc="%s成功激活了宝宝翅膀·%s，可爱炸了！" />
+<msg name="MSG_BABY_WING_UPLEVEL"  code="113805" type="3" chan="1" desc="%s成功将宝宝翅膀·%s升到greentrue{%s}星，战力大幅提高！" />
+
+<msg name="MSG_SOUL_UPLEVEL_NOTICE" code="114001" type="3" chan="1" desc="%s如有神助，将%s升到blue{%s级}" />
+<msg name="MSG_SOUL_COMPOSE_NOTICE" code="114002" type="3" chan="1" desc="%s一掷千金，合成%s，真是财大气粗！" />
+
+<msg name="MSG_GUILD_CREATE"   code="140001" type="3" chan="1" desc="%s创建了%s，赶紧加入一起玩吧，一起繁荣强大！greentrue{panel{'value=210@1'我要加入}}" />
+<msg name="MSG_GUILD_UPGRADE"  code="140002" type="3" chan="1" desc="%s经过成员的团结努力，升至%d级，实力更进一步" />
+<msg name="MSG_GUILD_UPSKILL"  code="140003" type="3" chan="1" desc="%s将%s升到%d级，巅峰战力再进一步！" />
+<msg name="MSG_GUILD_JOIN"     code="140004" type="1" chan="6" desc="恭喜%s加入公会，一起共建和谐强大的公会，快来一起愉快的玩耍吧！greentrue{panel{'value=280@1'向他打招呼}}" />
+<msg name="MSG_GUILD_APPOINT"  code="140005" type="1" chan="6" desc="%s的职位变为%s" />
+<msg name="MSG_GUILD_KILL"     code="140006" type="3" chan="1" desc="greentrue{%s}公会的%s%s勇猛无双，在bluetrue{%s}击杀了greentrue{%s}公会的%s%s，名震天下！" />
+<msg name="MSG_GUILD_HELLO"     code="140007" type="3" chan="1" desc="大家好，我是%s，很高兴加入公会，请大家多多关照" />
+<msg name="MSG_GUILD_SAYHELLO"     code="140008" type="3" chan="1" desc="我观%s名字奇特，骨骼惊奇，将来必定是一方豪杰，英雄，咱们做朋友吧！" />
+
+
+<msg name="MSG_GUILDHOUSE_RANK"         code="140301" type="3" chan="1" desc="%s聪明绝顶，在公会盛会答题活动中获得%s积分，获得第%s名" />
+<msg name="MSG_GUILDHOUSE_BOSS_START"   code="140302" type="3" chan="1" desc="公会首领活动已开启，请速来召唤击败首领把！redtrue{panel{'value=560@2'前往召唤}}" />
+<msg name="MSG_GUILDHOUSE_BOSS_CALL"    code="140303" type="1" chan="6" desc="%s召唤出了%s，公会的小伙伴赶紧来击败！redtrue{panel{'value=560@2'前往击败}}" />
+<msg name="MSG_GUILDHOUSE_BOSS_PICKUP"  code="140304" type="3" chan="1" desc="%s幸运满格，击败公会首领后，幸运获得%s" />
+
+<msg name="MSG_REDENVELOP_SEND"   code="140401" type="3" chan="1" desc="%s大手一挥，壕气冲天，向公会成员发出%s绑钻红包！" />
+
+<msg name="MSG_ESCORT_SUPPORT_MAX"    code="160101" type="2" chan="0" desc="%s的支援次数已满" />
+<msg name="MSG_ESCORT_NOT_SAME_GUILD" code="160102" type="2" chan="0" desc="你们不在同一个帮会" />
+<msg name="MSG_ESCORT_ACCEPT_SUPPORT" code="160103" type="2" chan="0" desc="%s同意了您的支援申请" />
+<msg name="MSG_ESCORT_REFUSE_SUPPORT" code="160104" type="2" chan="0" desc="%s拒绝了您的支援申请" />
+<msg name="MSG_ESCORT_HAVE_SUPPORT"   code="160105" type="2" chan="0" desc="%s已经有支援了" />
+<msg name="MSG_ESCORT_REFRESH_FAIL"   code="160106" type="2" chan="0" desc="提升失败" />
+
+<msg name="MSG_GUILDWAR_ROUND1_START" code="160201" type="3" chan="1" desc="bluetrue{公会争霸}greentrue{（第一轮）}开始，快来参加称霸全服" />
+<msg name="MSG_GUILDWAR_ROUND2_START" code="160202" type="3" chan="1" desc="bluetrue{公会争霸}greentrue{（第二轮）}开始，快来参加称霸全服" />
+<msg name="MSG_GUILDWAR_FIRST_RANK"   code="160203" type="3" chan="1" desc="恭喜greentrue{%s}公会，力压群雄，勇夺bluetrue{公会争霸}活动总冠军，会长greentrue{%s}成为主宰神殿霸主" />
+<msg name="MSG_GUILDWAR_OCCUPY_CRYST" code="160204" type="3" chan="1" desc="greentrue{%s}已被bluetrue{%s}公会占领了！" />
+<msg name="MSG_GUILDWAR_GUILD_SCORE"  code="160205" type="3" chan="1" desc="bluetrue{%s}气势如虹，争霸积分已经到达greentrue{%d}！！！" />
+
+<msg name="MSG_DUNGE_ASSIST_ADD_HONOUR"    code="120301" type="2" chan="0" desc="你此次助战获得了orage{%s荣誉值}" />
+<msg name="MSG_DUNGE_LOTO_REWARD"          code="120302" type="3" chan="1" desc="%s在魔法转盘中幸运爆棚，获得%s，可喜可贺！" />
+<msg name="MSG_DUNGE_CLEAR_REWARD"         code="120303" type="3" chan="1" desc="%s在bluetrue{审判之塔第%d关}中一脚踹翻了守关者时，守关者求饶时竟送上了一个%s！" />
+<msg name="MSG_DUNGE_CLEAR_FLOOR"          code="120304" type="3" chan="1" desc="%s神勇无双，英勇击杀bluetrue{审判之塔第%d关}守关魔兽！" />
+<msg name="MSG_DUNGE_GUILD_GUARD_WAVE"     code="120305" type="3" chan="1" desc="敌人发起了第%d波进攻，大家继续加油" />
+<msg name="MSG_DUNGE_GUILD_GUARD_ASSAULT"  code="120306" type="3" chan="1" desc="注意注意！！敌人发起了突袭！！他们的目标是光之领主！！" />
+<msg name="MSG_DUNGE_GUILD_GUARD_ATTACKED" code="120307" type="3" chan="1" desc="%s正在被怪物攻击，请速度支援！" />
+<msg name="MSG_DUNGE_SOUL_SUMMON_BOSS"     code="120308" type="3" chan="1" desc="携带珍宝的red{%s}已经召唤，不要让它逃走哦。" />
+<msg name="MSG_DUNGE_SOUL_START"           code="120309" type="3" chan="1" desc="怪物将波涛不绝的冲击防线，赶紧赶往前线守护秘境的安宁。" />
+<msg name="MSG_DUNGE_SOUL_BOSS_BORN"       code="120310" type="3" chan="1" desc="red{%s}正带领怪物军团冲击防线，赶紧前往阻止！" />
+<msg name="MSG_DUNGE_SOUL_DROP"            code="120311" type="3" chan="1" desc="%s在圣痕秘境中，坚守真理，击退red{%s}，获得%s" />
+
+<msg name="MSG_CANDYROOM_GIFT_1" code="160401" type="3" chan="0" desc="%s像献宝一样，把bluetrue{涂满果酱的甜甜圈}送给%s，笑若灿花" />
+<msg name="MSG_CANDYROOM_GIFT_2" code="160402" type="3" chan="0" desc="%s像变魔术一样，掏出一根bluetrue{色彩缤纷的棒棒糖}给%s" />
+<msg name="MSG_CANDYROOM_GIFT_3" code="160403" type="3" chan="0" desc="%s看着%s收下了bluetrue{代表友谊的巧克力}，心里一顿美滋滋。" />
+<msg name="MSG_CANDYROOM_GIFT_4" code="160404" type="3" chan="0" desc="%s把手里的bluetrue{大雪糕}递给了%s，大热天里心沁凉。" />
+<msg name="MSG_CANDYROOM_POP"    code="160405" type="3" chan="0" desc="%s魅力无穷，颠倒众生，在糖果屋中的人气值达到bluetrue{%s}" />
+<msg name="MSG_CANDYROOM_OVER"   code="160406" type="3" chan="1" desc="%s在此次糖果屋中获得其他玩家的一致认可，获得bluetrue{第%s名}" />
+
+<msg name="MSG_ACTIVITY_START" code="160001" type="3" chan="1" desc="bluetrue{%s}活动开始" />
+<msg name="MSG_ACTIVITY_STOP"  code="160002" type="3" chan="1" desc="bluetrue{%s}活动结束" />
+
+<msg name="MSG_MELEE_KILL"      code="160301" type="3" chan="1" desc="%s犹如战神下凡，连续击败bluetrue{%s}个玩家，积分已达greentrue{%s}" />
+<msg name="MSG_MELEE_BOSS_BORN" code="160302" type="3" chan="1" desc="red{%s}已出现，诸位英雄尽快前往降伏" />
+<msg name="MSG_MELEE_ROUND_END" code="160303" type="3" chan="1" desc="%s在这一轮总共夺得greentrue{%s}分，冠绝群英" />
+<msg name="MSG_MELEE_PRE_START" code="160304" type="3" chan="1" desc="red{%s}bluetrue{30s}后刷新，red{%s}刷新时结算当前积分排名。" />
+
+<msg name="MSG_WARRIOR_START"      code="160601" type="3" chan="1" desc="勇者圣坛活动开始了！赶紧进去寻找宝藏吧！" />
+<msg name="MSG_WARRIOR_FIRST_TOP"  code="160602" type="3" chan="1" desc="恭喜%s以迅雷不及掩耳之势首位登上勇者圣坛顶层！" />
+<msg name="MSG_WARRIOR_COLLECT"    code="160603" type="3" chan="1" desc="勇者宝箱已经被%s收入囊中，并且获得了%s积分！" />
+<msg name="MSG_WARRIOR_BOX_BORN"   code="160604" type="3" chan="1" desc="%s已刷新！" />
+
+<msg name="MSG_YYLOGIN_REWARD"   code="170101" type="3" chan="1" desc="恭喜%s领取到bluetrue{%s天}登录奖励：%s，真是羡煞旁人！greentrue{panel{'value=810@1'立即前往}}" />
+
+<msg name="MSG_FIRSTPAY_REWARD"   code="113001" type="3" chan="1" desc="恭喜%s完成了首充，获得了限定时装：orage{天空套}，实力大增！greentrue{panel{'value=840@1'我也要充值}}" />
+
+<msg name="MSG_YYGIFT_REWARD"    code="170001" type="3" chan="1" desc="震惊！%s购买了0元礼包的%s，获得海量道具不花一分钱！greentrue{panel{'value=850@1'我也要买}}" />
+<msg name="MSG_YUNYING_PAY"      code="170002" type="3" chan="1" desc="%s在bluetrue{%s}中，累计充值达到orage{%s钻石}，获得了：%s*%d，真是可喜可贺！greentrue{panel{%s我也要}}" />
+<msg name="MSG_YUNYING_MARRIAGE" code="170003" type="3" chan="1" desc="%s在bluetrue{完美情人}中活动中，获得了%s*%d，战力大幅提升！greentrue{panel{'value=870@2'我也要}}" />
+<msg name="MSG_YUNYING_VIPLV"    code="170004" type="3" chan="1" desc="恭喜%s贵族等级达到贵族5，免费领取了限定宠物幼体狼人，我也要" />
+<msg name="MSG_YUNYING_LOTTERY"  code="170005" type="3"  chan="1"  desc="恭喜%s在redtrue{%s}中，获得了珍稀奖励:%s，greentrue{panel{'value=%s'我也要}}" />
+<msg name="MSG_YUNYING_EXCH"     code="170006" type="3"  chan="1"  desc="%s在%s中，兑换了%s，真是令人羡慕！greentrue{panel{'value=900@5'我也要}}" />
+<msg name="MSG_YUNYING_EXCH2"    code="170007" type="3"  chan="1"  desc="%s在%s中，兑换了%s，真是令人羡慕！greentrue{panel{'value=890@1'我也要}}" />
+<msg name="MSG_YUNYING_PAY2"     code="170008" type="3" chan="1" desc="%s在bluetrue{%s}活动获得%s*%d，真是令人羡慕！{panel{%s我也要}}" />
+<msg name="MSG_YUNYING_PAY3"     code="170008" type="3" chan="1" desc="%s在bluetrue{%s}活动中，获得了珍稀道具：%s*%d" />
+
+
+<msg name="MSG_MARRIAGE_SUCC"     code="113401" type="3" chan="1" desc="恭喜%s与%s以orage{%s}结婚成功！柠檬树上柠檬果，柠檬树下你和我！" />
+<msg name="MSG_MARRIAGE_FIREWORK" code="113402" type="3" chan="1" desc="%s使用了%s为婚礼增加了%d点热度！" />
+<msg name="MSG_MARRIAGE_HOT"      code="113403" type="3" chan="1" desc="婚礼热度已达%d，可领取热度奖励，采集喜糖还有礼盒奖励！" />
+
+<msg name="MSG_WEDDING_START"    code="113501" type="3" chan="1" desc="%s与%s的婚礼正式开始，请各位来宾准时入场！" />
+<msg name="MSG_WEDDING_COLLECT"  code="113502" type="2" chan="0" desc="采集成功(%d/%d)" />
+
+
+<msg name="MSG_BEAST_ADD_SUMMON"      code="1112001" type="3" chan="1" desc="%s激活第bluetrue{%s}个异兽助战位，价值一个小目标！一时风光无双，吸引众人眼光" />
+<msg name="MSG_BEAST_EQUIP_REINFORCE" code="1112002" type="3" chan="1" desc="%s将%s强化到bluetrue{%s}级，战力飙升拉都拉不住。" />
+<msg name="MSG_BEAST_SUMMON"          code="1112003" type="3" chan="1" desc="%s获得了bluetrue{%s}助战，巅峰战力更进一步" />
+<msg name="MSG_BEAST_COLLECT"         code="1112004" type="2" chan="0" desc="采集成功(%d/%d)" />
+
+<msg name="MSG_TOTEMS_EQUIP_REINFORCE" code="1112101" type="3" chan="1" desc="%s将%s强化到bluetrue{%s}级，战力飙升拉都拉不住。" />
+<msg name="MSG_TOTEMS_SUMMON"          code="1112102" type="3" chan="1" desc="%s获得了bluetrue{%s}助战，巅峰战力更进一步" />
+
+<msg name="MSG_COMBAT1V1_KEEP_WIN"  code="1605001" type="3" chan="1" desc="恭喜%s已经超神了，获得了%s连胜！" />
+<msg name="MSG_COMBAT1V1_GRADE"     code="1605002" type="3" chan="1" desc="恭喜%s已经达到%s" />
+
+<msg name="MSG_COMPETE_ENROLL_STOP" code="1607001" type="3" chan="1" desc="钻石擂台报名已截止，进入海选赛的玩家已通过邮件通知，请注意查收哦！" />
+<msg name="MSG_COMPETE_BATTLE_NO1"  code="1607002" type="3" chan="1" desc="%s玩家，力压全雄，战胜众多挑战者，暂时高居积分排行榜第一名。" />
+<msg name="MSG_COMPETE_CHAMPION1"   code="1607003" type="3" chan="1" desc="本届钻石擂台赛已经结束，%s获得了天榜冠军，一起为冠军欢呼！" />
+<msg name="MSG_COMPETE_CHAMPION2"   code="1607004" type="3" chan="1" desc="本届钻石擂台赛已经结束，%s获得了地榜冠军，一起为冠军欢呼！" />
+
+<msg name="MSG_TIMEBOSS_KILL"   code="1608001" type="3" chan="1" desc="bluetrue{%s}的redtrue{%s}被bluetrue{%s}服的%s击杀，掉落满地珍稀灵器！" />
+<msg name="MSG_TIMEBOSS_REBORN" code="1608002" type="3" chan="1" desc="%s首领携带着大量珍宝出现在bluetrue{%s}场景！greentrue{panel{'value=160@14@1@3@%s@true'立即前往}}" />
+<msg name="MSG_TIMEBOSS_DICE"   code="1608003" type="3" chan="1" desc="%s投出了bluetrue{%d点}！" />
+<msg name="MSG_TIMEBOSS_SHIELD" code="1608004" type="3" chan="1" desc="%s幸运满格，获得此次的bluetrue{护盾奖励}！" />
+<msg name="MSG_TIMEBOSS_LOWHP"  code="1608005" type="3" chan="1" desc="跨服首领redtrue{%s}的血量低于redtrue{%d﹪}，greentrue{panel{'value=160@14@1@3@%s@true'立即前往}}" />
+<msg name="MSG_TIMEBOSS_DROP"   code="1608006" type="3" chan="1" desc="%s在击杀跨服首领redtrue{%s}时，获得%s" />
+<msg name="MSG_TIMEBOSS_BOX"    code="1608007" type="3" chan="1" desc="%s幸运爆棚，从跨服首领的bluetrue{珍宝宝箱}中获得%s" />
+
+<msg name="MSG_SIEGEWAR_REBORN"  code="1609001" type="3" chan="1" desc="bluetrue{%s}的首领已刷新!greentrue{panel{'value=160@16@true'立即前往}}" />
+<msg name="MSG_SIEGEWAR_KILL"    code="1609002" type="3" chan="1" desc="bluetrue{%s}的redtrue{%s}被bluetrue{%s服}的%s击杀，距离占领bluetrue{%s}又更接近！" />
+<msg name="MSG_SIEGEWAR_DROP"    code="1609003" type="3" chan="1" desc="%s击杀了bluetrue{%s}的redtrue{%s}，获得了bluetrue{%s}" />
+<msg name="MSG_SIEGEWAR_OCCUPY"  code="1609004" type="3" chan="1" desc="可喜可贺，经过bluetrue{%s}的玩家的全体努力，获得了bluetrue{%d}分，占领了bluetrue{%s}！" />
+<msg name="MSG_SIEGEWAR_LOWHP"   code="1609005" type="3" chan="1" desc="bluetrue{%s}的redtrue{%s}血量低于redtrue{%d﹪}，greentrue{panel{'value=160@16@1@3@%s@true'前去击杀}}" />
+<msg name="MSG_SIEGEWAR_OCCUPY2" code="1609006" type="3" chan="1" desc="可喜可贺，%s英勇无双，以一己之力获得了bluetrue{%d}分，攻破了bluetrue{%s}的城池！" />
+<msg name="MSG_SIEGEWAR_KILL2"   code="1609007" type="3" chan="1" desc="bluetrue{%s}的redtrue{%s}被%s击杀，距离占领bluetrue{%d}又更接近！" />
+
+<msg name="MSG_FASHION_ACTIVE"  code="1120001" type="3" chan="1" desc="%s激活了%s，greentrue{panel{'value=240@1'点击围观}}" />
+<msg name="MSG_FASHION_UPSTART" code="1120002" type="3" chan="1" desc="%s将%s升到%s星！greentrue{panel{'value=240@1'点击围观}}" />
+
+<msg name="MSG_ILLUSTRATION_UPSTAR"   code="114201" type="3" chan="1" desc="恭喜%s，把图鉴%s成功升至%s星，战力大增" />
+
+<msg name="MSG_ACTPAY_REWARD"   code="114301" type="3" chan="1" desc="恭喜%s在充点小钱中，获得了orage{%s}，实力大增！greentrue{panel{'value=1700@1'我也要充值}}" />
+
+<msg name="MSG_ACTINVEST_BUY"   code="114501" type="3" chan="1" desc="勇士%s足智多谋，精打细算，在投资活动中购买了%s。greentrue{panel{'value=%s'我也要}}" />
+
+<msg name="MSG_MECHA_ACTIVE"   code="1147001" type="3" chan="1" desc="%s激活了机甲%s，魅力四射，战力大增！" />
+<msg name="MSG_MECHA_UPSTAR"   code="1147002" type="3" chan="1" desc="%s将%s升到了bluetrue{%d星}，战力一飞冲天，睥睨天下！" />
+
+<msg name="MSG_THRONE_KILL"   code="1610001" type="3" chan="1" desc="%s服的%s击杀了bluetrue{%s}的redtrue{%s}，成功为本区夺得%s积分！" />
+<msg name="MSG_THRONE_KILL2"   code="1610001" type="3" chan="1" desc="%s服的%s击杀了bluetrue{%s}的redtrue{%s}，极品奖励掉落一地！" />
+<msg name="MSG_THRONE_UNLOCK" code="1610002" type="3" chan="1" desc="%s服率先达到100积分，率先解锁珀加索斯！" />
+<msg name="MSG_THRONE_DROP"   code="1610003" type="3" chan="1" desc="%s服的%s参与击杀bluetrue{%s}的redtrue{%s}，获得了bluetrue{%s}！" />
+
+<msg name="MSG_CGW_WEEKLY_TOP1"           code="1611001" type="3" chan="1" desc="经过2回合的战斗，在s%s服的%s的带领下，%s公会积分排名第一" />
+<msg name="MSG_CGW_MONTHLY_TOP1"          code="1611002" type="3" chan="1" desc="在s%d的%s的带领下，%s获得了跨服公会战的第%s名！" />
+<msg name="MSG_CGW_MONTHLY_DOUBLE_KILL"   code="1611003" type="3" chan="1" desc="%s的%s已连杀%s玩家，所向无敌" />
+<msg name="MSG_CGW_MONTHLY_BREAK_KILL"    code="1611004" type="3" chan="1" desc="%s的%s中断了%s的%s连杀，英勇无敌" />
+<msg name="MSG_CGW_MONTHLY_CRYST_DEAD"    code="1611005" type="3" chan="1" desc="%s/2水晶已被%s击破，请防守方注意" />
+<msg name="MSG_CGW_MONTHLY_LOW_HP"        code="1611006" type="3" chan="1" desc="雕像受到猛烈攻击，剩余血量不足%s，请尽快守护！" />
+<msg name="MSG_CGW_MONTHLY_FIRST_ATTACK"  code="1611007" type="3" chan="1" desc="%s率先攻击了%s" />
+<msg name="MSG_CGW_MONTHLY_CRYST_REPAIR"  code="1611008" type="3" chan="1" desc="%s将水晶成功修复" />
+<msg name="MSG_CGW_MONTHLY_CREEP_INJURE"  code="1611009" type="3" chan="1" desc="%s被攻击，请尽快回防！" />
+<msg name="MSG_CGW_ROUND1"  code="1611010" type="3" chan="1" desc="跨服公会战第一轮已开始！" />
+<msg name="MSG_CGW_ROUND2"  code="1611011" type="3" chan="1" desc="跨服公会战第二轮已开始！" />
+<msg name="MSG_CGW_CRYSTAL"  code="1611013" type="3" chan="1" desc="水晶受到猛烈攻击，剩余血量不足%s，请防守方注意！" />
+<msg name="MSG_CGW_STATUE"  code="1611014" type="3" chan="1" desc="雕像受到猛烈攻击，剩余血量不足%s，请防守方注意！" />
+
+<msg name="MSG_RICHMAN_LUCKY"   code="1702010" type="3" chan="1" desc="恭喜%s在大富豪幸运奖池中获得了bluetrue{%s}！" />
+<msg name="MSG_RICHMAN_ROUND"   code="1702011" type="3" chan="1" desc="恭喜%s，在大富豪活动中领取了圈数奖励获得了%s！" />
+<msg name ="MSG_ELEMENT"   code="1800001" type="3" chan="1" desc="恭喜%s,将%s的%s,突破到green{%s级}！" />
+<msg name="MSG_STRENGTHEN"   code="1800002" type="3" chan="1" desc="恭喜%s,将%s强化至green{%s级}！" />
+
+<msg name="MSG_TIMERIFT_START" code="160011" type="3" chan="1" desc="地动山摇，greentrue{时空裂缝}即将洞开，请各位勇士做好准备！" />
+<msg name="MSG_TIMERIFT_TREASURE" code="160012" type="3" chan="1" desc="轰隆一声巨响，greentrue{时空裂缝}大开，各种珍稀宝物正在等待各位勇士前往掠夺！greentrue{panel{'value=160@17'立即前往}}" />
+<msg name="MSG_TIMERIFT_HIDE_BOSS" code="160013" type="3" chan="1" desc="redtrue{隐藏BOSS}突然现身greentrue{时空裂缝} ，击杀可获得丰厚奖励！greentrue{panel{'value=160@17'立即前往}}" />
+
+</msgs>

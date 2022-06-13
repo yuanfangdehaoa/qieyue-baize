@@ -1,0 +1,2 @@
+[baize]
+baize_1 ansible_ssh_host=172.27.0.8 plat_name=baize plat_id=10 serv_type=server serv_id=1000001 serv_host=172.27.0.8 serv_port=10001 open_time="{ {2021,08,31},{08,00,00} }" center=qylh_center_9900001@172.27.0.8 web_port=10101 serv_path=/data/qylh/baize/server/s1000001 serv_wan=139.155.250.133 machine_id=1

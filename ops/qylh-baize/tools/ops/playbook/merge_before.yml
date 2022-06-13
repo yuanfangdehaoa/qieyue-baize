@@ -1,0 +1,70 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+    - name: remove dir {{ serv_path }}/data/
+      file:
+        path: "{{ serv_path }}/data/"
+        state: absent
+
+    - name: remove dir {{ serv_path }}/data_{{ suid_from }}/
+      file:
+        path: "{{ serv_path }}/data_{{ suid_from }}/"
+        state: absent
+
+    - name: remove dir {{ serv_path }}/data_{{ serv_id }}/
+      file:
+        path: "{{ serv_path }}/data_{{ serv_id }}/"
+        state: absent
+
+    - name: mkdir dir {{ serv_path }}/data/
+      file:
+        path: "{{ serv_path }}/data/"
+        state: directory
+
+    - name: mkdir dir {{ serv_path }}/data_{{ suid_from }}/
+      file:
+        path: "{{ serv_path }}/data_{{ suid_from }}/"
+        state: directory
+
+    - name: mkdir dir {{ serv_path }}/data_{{ serv_id }}/
+      file:
+        path: "{{ serv_path }}/data_{{ serv_id }}/"
+        state: directory
+
+    - name: create data schema
+      args:
+        chdir: "{{ serv_path }}"
+      shell: |
+        sh xctl schema
+
+    - name: unarchive {{ dir_backup }}/server-{{ plat_name }}-{{ suid_from }}-lastest.tar.gz to {{ serv_path }}/data_{{ suid_from }}
+      unarchive:
+        remote_src: yes
+        dest: "{{ serv_path }}/data_{{ suid_from }}"
+        src: "{{ dir_backup }}/server-{{ plat_name }}-{{ suid_from }}-lastest.tar.gz"
+
+    - name: unarchive {{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz to {{ serv_path }}/data_{{ serv_id }}
+      unarchive:
+        remote_src: yes
+        dest: "{{ serv_path }}/data_{{ serv_id }}"
+        src: "{{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+
+    - name: copy {{ serv_path }}/data/schema.DAT to {{ serv_path }}/data_{{ suid_from }}/
+      copy:
+        src: "{{ serv_path }}/data/schema.DAT"
+        dest: "{{ serv_path }}/data_{{ suid_from }}/"
+        remote_src: yes
+        force: yes
+
+    - name: copy {{ serv_path }}/data/schema.DAT to {{ serv_path }}/data_{{ serv_id }}/
+      copy:
+        src: "{{ serv_path }}/data/schema.DAT"
+        dest: "{{ serv_path }}/data_{{ serv_id }}/"
+        remote_src: yes
+        force: yes

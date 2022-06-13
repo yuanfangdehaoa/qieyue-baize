@@ -1,0 +1,58 @@
+syntax = "proto2";
+
+// 进入副本推送当前情况
+message m_melee_info_tos { //1603000
+    
+}
+
+message m_melee_info_toc { //1603000
+    required int32      activity_id  = 1; //活动ID
+    required int32      boss_refresh = 2; //下一次boss刷新时间戳
+    required int32      etime        = 3; //副本结束时间
+}
+
+// 推送玩家自己的数据
+message m_melee_self_toc { //1603001
+    required int32      rank  = 1;
+    required int32      score = 2;
+    required fixed64    exp   = 3;
+}
+
+// 伤害排名
+message m_melee_damage_rank_tos { //1603002
+    
+}
+
+message m_melee_damage_rank_toc { //1603002
+    repeated p_melee_rank     ranks = 1;
+}
+
+// 积分排名
+message m_melee_score_rank_tos { //1603003
+    
+}
+
+message m_melee_score_rank_toc { //1603003
+    repeated p_melee_rank     ranks = 1;
+}
+
+// 回合结束，开始倒计时
+message m_melee_round_end_toc { //1603004
+    required int32      boss_refresh = 1; //下一次boss刷新时间戳
+}
+
+// boss刷新了,下一回合开始，前端重置面板数据
+message m_melee_round_begin_toc { //1603005
+}
+
+// 结算
+message m_melee_reward_toc { //1603006
+    required int32      rank    = 1; //总排名
+    map<int32, fixed64> rewards = 2;
+}
+
+message p_melee_rank {
+    required int32          rank = 1;
+    required string         name = 2;
+    required int32          val  = 3; //表示伤害或者积分
+}

@@ -1,0 +1,187 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 切换场景
+// 从副本离开时，使用 scene_leave 协议
+message m_scene_change_tos { //1200002
+    required int32    scene  = 1; // 场景id
+    required int32    type   = 2; // 切换方式, 见 SCENE_CHANGE_XXX
+    optional p_coord  coord  = 3; // 坐标(小飞鞋需要传)
+    optional int32    portal = 4; // 传送阵id
+    optional int32    act_id = 5; // 活动id
+}
+
+message m_scene_change_toc { //1200002
+    required int32    scene   = 1; // 场景id
+    required int32    line    = 2; // 分线id
+    required p_actor  actor   = 3; // 玩家自己
+    repeated p_actor  actors  = 4; // 周围对象
+    repeated p_line   lines   = 5; // 场景分线
+    required int32    type    = 6; // 切换方式, 见 SCENE_CHANGE_XXX
+    required bool     relogin = 7; // 是否重登进入
+}
+
+// 离开副本/boss/活动
+message m_scene_leave_tos { //1200003
+    optional bool mchunt = 1[default=false]; // 是否前往寻宝场景
+}
+
+message m_scene_leave_toc { //1200003
+    required int32    scene  = 1; // 场景id
+}
+
+// 切换分线
+message m_scene_switch_tos { //1200004
+    required int32 line = 1;
+}
+
+message m_scene_switch_toc { //1200004
+    required int32 line = 1;
+}
+
+// 走向目标点
+message m_scene_dest_tos { //1200005
+    required p_coord dest  = 1; // 目标点
+    required int32   dir   = 2; // 朝向
+    required int32   state = 3; // 前端用的
+}
+
+message m_scene_dest_toc { //1200005
+    required uint64  uid   = 1; // #p_actor.uid
+    required p_coord dest  = 2;
+    required int32   dir   = 3; // 朝向
+    required int32   state = 4;
+}
+
+// 位置移动
+message m_scene_move_tos { //1200006
+    required double x = 1;
+    required double y = 2;
+}
+
+message m_scene_move_toc { //1200006
+    required double x = 1;
+    required double y = 2;
+}
+
+// 瞬移
+message m_scene_teleport_tos { //1200007
+    required int32    type = 1; // 瞬移方式 TELEPORT_XXX
+    required p_coord  dest = 2; // 目的地
+}
+
+message m_scene_teleport_toc { //1200007
+    required uint64   uid  = 1; // #p_actor.uid
+    required int32    type = 2; // 瞬移方式 TELEPORT_XXX
+    required p_coord  dest = 3; // 目的地
+}
+
+// 场景更新
+message m_scene_update_toc { //1200008
+    repeated p_actor add = 1; // 新增的场景对象 [#p_actor]
+    repeated uint64  del = 2; // 删除的场景对象 [#p_actor.uid]
+}
+
+// 场景对象更新
+message m_actor_update_toc { //1200010
+    required uint64       uid    = 1;
+    map<string, int32>    upint  = 2; // 更新整型类型的属性
+    map<string, string>   upstr  = 3; // 更新字符串类型的属性
+    map<string, p_aspect> aspect = 4; // 更新玩家形象
+    optional p_icon       icon   = 5; // 更新玩家头像
+}
+
+// buff列表更新
+message m_buff_update_toc { //1200011
+    required uint64 uid = 1; // #p_actor.uid
+    repeated p_buff add = 2; // 新增的buff [#p_buff]
+    repeated int32  del = 3; // 删除的buff [BuffID]
+    repeated p_buff chg = 4; // 改变的buff [#p_buff]
+}
+
+// 冲刺
+message m_scene_rush_tos { //1200012
+    required p_coord  coord = 1;
+}
+
+message m_scene_rush_toc { //1200012
+    required uint64   uid   = 1;
+    required p_coord  coord = 2;
+}
+
+// NPC 对话
+message m_scene_talk_tos { //1200013
+    required int32 npc_id  = 1;
+    required int32 task_id = 2;
+}
+
+message m_scene_talk_toc { //1200013
+    required int32 npc_id  = 1;
+    required int32 task_id = 2;
+}
+
+// 虚拟掉落
+message m_scene_drop_toc { //1200014
+    repeated p_drop drops = 1;
+}
+
+// 跳跃
+message m_scene_jump_tos { //1200015
+    required p_coord start = 1; // 起跳点
+    required p_coord dest  = 2; // 落地点
+    required int32   type  = 3; // 跳跃方式 JUMP_TYPE_XXX
+}
+
+message m_scene_jump_toc { //1200015
+    required p_coord start = 1; // 起跳点
+    required p_coord dest  = 2; // 落地点
+    required int32   type  = 3; // 跳跃方式
+    required uint64  uid   = 4;
+}
+
+// 强切位置
+message m_actor_chpos_toc { //1200016
+    required uint64  uid  = 1;
+    required p_coord dest = 2;
+}
+
+// 更新血量(不用于怪物头顶血量的更新，只用于像宠物副本右上角水晶血量的更新)
+message m_actor_updatehp_toc { //1200017
+    required uint64  uid   = 1;
+    required int32   hp    = 2; // 当前血量
+    required int32   hpmax = 3; // 最大血量
+}
+
+// 回血
+message m_actor_heal_toc { //1200018
+    required uint64  uid  = 1;
+    required int32   hp   = 2; // 当前血量
+    required int32   heal = 3; // 恢复血量
+    required int32   type = 4; //
+}
+
+message m_scene_enter_toc { //1200019
+    required int32    scene   = 1; // 场景id
+    required int32    line    = 2; // 分线id
+    required p_actor  actor   = 3; // 玩家自己
+    repeated p_actor  actors  = 4; // 周围对象
+    repeated p_line   lines   = 5; // 场景分线
+}
+
+// 客户端主动加buff
+message m_actor_add_buff_tos { //1200020
+    required int32  id  = 1;
+    optional int64  uid = 2;
+}
+
+// 客户端主动删buff
+message m_actor_del_buff_tos { //1200021
+    required int32  id  = 1;
+    optional int64  uid = 2;
+}
+
+// 场景分线
+message p_line {
+    required int32 id  = 1;
+    required int32 num = 2;
+}

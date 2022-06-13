@@ -1,0 +1,88 @@
+syntax = "proto2";
+
+
+//限时抢购
+message p_mall_limit_item {
+	required int32 id = 1;
+	required int32 left_num = 2;     //剩余可购买数
+	required int32 end_time = 3;     //结束时间
+	optional int32 buy_num = 4;      //已购买数量
+}
+
+//商品
+message p_mallitem {
+	required int32 id = 1;
+	required int32 order = 2;
+	required string item = 3;
+	required int32 discount = 4;
+	map<int32, int32> price = 5;    //key=itemid, val=num
+	required string original_price = 6; 
+	required int32 limit_num =7;
+	required int32 limit_vip = 8;
+	required string limit_other = 9;
+	required int32 limit_pre_id = 10;
+	required int32 limit_level = 11;
+	required int32 activity = 12;
+	required string name = 13;
+}
+
+//获取限购已购买的物品
+message m_mall_bought_tos {  //1125001
+
+}
+
+
+message m_mall_bought_toc {  //1125001
+	map<int32, int32> bought_items = 1;            //日，周限购的购买数
+}
+
+
+//购买商品
+message m_mall_buy_tos {      //1125002
+	required int32 id = 1;
+	required int32 num = 2;
+}
+
+message m_mall_buy_toc {      //1125002
+	required int32 id = 1;
+}
+
+
+message m_mall_getlimit_tos {      //1125003
+
+}
+
+//获取限时抢购
+message m_mall_getlimit_toc {    //1125003
+	repeated p_mall_limit_item limit_items = 1;    //限时抢购物品
+}
+
+//获取活动商品
+message m_mall_act_items_tos {    //1125004
+	required int32 act_id = 1;         //活动id
+}
+
+message m_mall_act_items_toc {    //1125004
+	required int32 act_id = 1;         //活动id
+	repeated p_mallitem items = 2;     //商品
+}
+
+//续期
+message m_mall_validate_tos {  //1125005
+	required int32 id = 1;        //商城id
+	required int32 uid = 2;       
+}
+
+message m_mall_validate_toc {  //1125005
+	required int32 id = 1;        //商城id
+}
+
+// 打包购买
+message m_mall_buy_pack_tos { //1125006
+	required int32 act_id = 1; // 活动id
+}
+
+message m_mall_buy_pack_toc { //1125006
+
+}
+

@@ -1,0 +1,46 @@
+syntax = "proto2";
+
+message p_title {
+	required int32 id = 1;
+	required int32 etime = 2;       //过期时间(秒)
+}
+
+//获取称号信息
+message m_title_info_tos {  //1121001
+
+}
+
+message m_title_info_toc {  //1121001
+	map<int32, p_title> titles = 1;      //已获得称号 key=item.id value=p_title
+	optional int32 puton_id = 2;         //当前穿戴的id
+}
+
+//穿戴
+message m_title_puton_tos {  //1121002
+	required int32 id = 1;
+}
+
+message m_title_puton_toc {  //1121002
+
+}
+
+//脱下
+message m_title_putoff_tos {  //1121003
+	required int32 id = 1;
+}
+
+message m_title_putoff_toc {  //1121003
+
+}
+
+//激活
+message m_title_active_tos { //1121004
+	required int32 id = 1;
+}
+
+message m_title_active_toc { //1121004
+
+}
+
+
+

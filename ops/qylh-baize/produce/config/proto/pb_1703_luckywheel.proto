@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+// 转盘信息
+message m_luckywheel_info_tos { //1703001
+}
+
+message m_luckywheel_info_toc { //1703001
+	required int32   act_id = 1; // 活动id
+	required int32   round  = 2; // 当前圈数
+	repeated int32   fetch  = 3; // 已领取的奖励 [GridID]
+}
+
+// 转盘转动
+message m_luckywheel_turn_tos { //1703002
+	required int32 type = 1; // 0=获取格子数;1=转动
+}
+
+message m_luckywheel_turn_toc { //1703002
+	required int32 type = 1; // 0=获取格子数;1=转动
+	required int32 grid = 2; // 停在哪个格子
+}

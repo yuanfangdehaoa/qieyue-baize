@@ -1,0 +1,34 @@
+syntax = "proto2";
+
+// 图鉴数据
+message m_illustration_info_tos { //1142001
+}
+
+message m_illustration_info_toc { //1142001
+    repeated p_illustration     list = 1; // 已激活的图鉴列表
+}
+
+// 激活、升星
+message m_illustration_upstar_tos { //1142002
+    required int32          id = 1; //图鉴id
+}
+
+message m_illustration_upstar_toc { //1142002
+    required p_illustration illustration = 1;
+}
+
+// 分解
+message m_illustration_decompose_tos { //1142003
+    repeated int32          uid = 1;
+}
+
+message m_illustration_decompose_toc { //1142003
+    
+}
+
+
+// 图鉴
+message p_illustration {
+    required int32          id   = 1;
+    required int32          star = 2;
+}

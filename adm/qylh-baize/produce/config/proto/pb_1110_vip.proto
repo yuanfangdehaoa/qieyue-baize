@@ -1,0 +1,148 @@
+syntax = "proto2";
+
+// vip 信息
+message m_vip_info_tos { //1110001
+
+}
+
+message m_vip_info_toc { //1110001
+	required bool  daily_exp   = 1; // 是否已领取每日经验
+	repeated int32 lv_reward   = 2; // 已领取的等级奖励
+	required bool  weekly_gift = 3; // 是否已领取周礼包
+	required bool  auto_fetch  = 4; // 是否自动领取vip经验
+}
+
+// 领取奖励
+message m_vip_fetch_tos { //1110002
+	required int32 type  = 1; // 1=每日经验; 2=等级奖励; 3=周礼包; 4=经验池
+	optional int32 level = 2;
+}
+
+message m_vip_fetch_toc { //1110002
+	required int32 type  = 1;
+	optional int32 level = 2;
+}
+
+// vip 激活
+message m_vip_active_tos { //1110003
+	required int32 type  = 1; //1=体验卡; 2=Vip1; 3=Vip2; 4=Vip4
+}
+
+message m_vip_active_toc { //1110003
+	required int32 type  = 1;
+}
+
+// 自动领取 vip
+message m_vip_auto_fetch_tos { //1110004
+	required bool is_auto = 1; // 是否自动领取vip经验
+}
+
+message m_vip_auto_fetch_toc { //1110004
+	required bool is_auto = 1; // 是否自动领取vip经验
+}
+
+// 经验池经验
+message m_vip_exp_pool_tos { //1110005
+
+}
+
+message m_vip_exp_pool_toc { //1110005
+	required int32 exp = 1; // 存储了多少经验
+}
+
+//月卡
+message m_vip_mcard_tos { //1110006
+
+}
+
+message m_vip_mcard_toc { //1110006
+	required bool 		buy   = 1; //是否购买月卡
+	map<int32, bool> 	fetch = 3; //第几天是否领取了
+}
+
+// 购买成功推送 m_vip_mcard_toc
+message m_vip_mcard_buy_tos { //1110007
+
+}
+
+// 领取成功推送 m_vip_mcard_toc
+message m_vip_mcard_fetch_tos { //1110008
+	required int32 		day = 2;
+}
+
+// 投资计划
+message m_vip_invest_tos { //1110009
+
+}
+
+message m_vip_invest_toc { //1110009
+	required int32 		type  = 1; //类型
+	required int32 		grade = 2; //购买的档次，默认为0
+	repeated p_invest   list  = 3; //返回已领取的，或者购买下一档位，补差额后状态改为可领取的
+}
+
+// 购买成功推送 m_vip_invest_toc
+message m_vip_invest_buy_tos { //1110010
+	required int32 		type  = 1; //类型
+	required int32 		grade = 2;
+}
+
+message m_vip_invest_buy_toc { //1110010
+
+}
+
+message m_vip_invest_fetch_tos { //1110011
+	required int32 		type  = 1; //类型
+	required int32 		id    = 2;
+}
+
+message m_vip_invest_fetch_toc { //1110011
+	required p_invest 	item = 1;
+}
+
+// 通知前端还有新的投资计划
+message m_vip_invest_next_toc { //1110012
+}
+
+// v4 返利信息
+message m_vip_rebate_info_tos { //1110013
+}
+
+message m_vip_rebate_info_toc { //1110013
+	required int32 time  = 1; // 返还时间
+	required bool  fetch = 2; // 是否已领取
+}
+
+// v4 领取返利
+message m_vip_rebate_fetch_tos { //1110014
+}
+
+message m_vip_rebate_fetch_toc { //1110014
+}
+
+// vip体验信息
+message m_vip_taste_info_tos { //1110015
+}
+
+message m_vip_taste_info_toc { //1110015
+	required int32 stime = 1; // 开始时间
+	required int32 etime = 2; // 结束时间
+}
+
+// 投资计划
+message m_vip_invest2_tos { //1110016
+	required int32 		type  = 1; //类型
+}
+
+message m_vip_invest2_toc { //1110016
+	required int32 		type  = 1; //类型
+	required int32 		grade = 2; //购买的档次，默认为0
+	repeated p_invest   list  = 3; //返回已领取的，或者购买下一档位，补差额后状态改为可领取的
+}
+
+
+message p_invest {
+	required int32 		id    = 1; //对应配置里的ID
+	required int32 		state = 3; //1：可领取，2：已领取
+	required int32 		bgold = 4; //可领取的钻石
+}

@@ -1,0 +1,246 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 装备列表
+message m_equip_list_tos { //1106001
+}
+
+message m_equip_list_toc { //1106001
+	repeated p_item equips = 1;
+}
+
+// 穿上装备
+message m_equip_puton_tos { //1106002
+	required int32 uid = 1;       //唯一id cellid
+}
+
+message m_equip_puton_toc { //1106002
+	required int32 slot = 1;      //部位
+}
+
+
+//获取强化套装
+message m_equip_getstrengthsuite_tos {  //1106003
+
+}
+
+//获取强化套装
+message m_equip_getstrengthsuite_toc {  //1106003
+	required int32 id = 1;      //强化套装id
+}
+
+//强化
+message m_equip_strength_tos {   //1106004
+	required int32 slot = 1;     //部位
+}
+
+message m_equip_strength_toc {   //1106004
+	required int32 slot = 1;     //部位
+	required int32 result = 2;   //结果：0-成功，1-失败
+}
+
+message m_equip_update_equip_toc {  //1106005
+	required p_item item = 1;  //更新装备属性
+}
+
+//宝石镶嵌
+message m_equip_stone_fillin_tos {  //1106006
+	required int32 slot = 1;    //装备部位
+	required int32 hole = 2;    //孔位
+	required int32 item_id = 3; //item.id
+}
+
+message m_equip_stone_fillin_toc {  //1106006
+	required int32 slot = 1;
+}
+
+//宝石卸下
+message m_equip_stone_takedown_tos {  //1106007
+	required int32 slot = 1;
+	required int32 hole = 2;
+}
+
+message m_equip_stone_takedown_toc {  //1106007
+	required int32 slot = 1;
+}
+
+//孔上的宝石升级
+message m_equip_stone_uplevel_tos {   //1106008
+	required int32 slot = 1;
+	required int32 hole = 2;
+	required int32 to_level = 3;    //升到多少级
+}
+
+message m_equip_stone_uplevel_toc {   //1106008
+	required int32 slot = 1;
+}
+
+
+//获取套装
+message m_equip_get_suite_tos {     //1106009
+	required int32 level = 1;     //装备等级(1-初级，2-进阶)
+}
+
+message m_equip_get_suite_toc {     //1106009
+	required int32 level = 1;
+	map<int32, int32> active = 2;    //已激活套装 key=套装id, value=激活件数
+	repeated int32 maked_slots = 3;  //已制作的部位
+}
+
+//套装制作
+message m_equip_suite_make_tos {     //1106010
+	required int32 level = 1;
+	required int32 slot = 2;
+}
+
+message m_equip_suite_make_toc {     //1106010
+
+}
+
+
+//合成
+message m_equip_combine_tos {       //1106011
+	required int32 item_id = 1;   //合成的道具id
+	map<int32, int32> cost = 2;   //不固定材料
+}
+
+message m_equip_combine_toc {       //1106011
+	required int32 result = 1;  //合成结果，0-成功，1-失败
+}
+
+//精灵卸下
+message m_equip_takedown_tos {       //1106012
+	required int32 slot = 1;    //部位
+}
+
+message m_equip_takedown_toc {       //1106012
+	required int32 slot = 1;    //部位
+}
+
+
+//熔炼
+message m_equip_smelt_tos {       //1106013
+	repeated int32 uids = 1;     //选中的道具格子id
+}
+
+message m_equip_smelt_toc {       //1106013
+
+}
+
+//获取熔炼信息
+message m_equip_smelt_info_tos { //1106014
+
+}
+
+message m_equip_smelt_info_toc { //1106014
+	required int32 id = 1;          //当前id
+	required int32 exp = 2;         //当前经验
+}
+
+
+//获取强化祝福值
+message m_equip_strong_bless_tos {  //1106015
+	required int32 slot = 1;        //部位
+}
+
+message m_equip_strong_bless_toc {  //1106015
+	required int32 slot = 1;       //部位
+	required int32 bless = 2;      //祝福值
+}
+
+//铸造
+message m_equip_cast_tos {    //1106016
+	required int32 slot = 1;      //部位
+}
+
+message m_equip_cast_toc {   //1106016
+
+}
+
+//解锁部位
+message m_equip_refine_unlock_tos {  //1106017
+	required int32 slot = 1;
+}
+
+message m_equip_refine_unlock_toc {  //1106017
+
+}
+
+
+//获取洗练信息
+message m_equip_refine_info_tos {  //1106018
+
+}
+
+message m_equip_refine_info_toc {  //1106018
+	repeated p_refine_slot slots = 1;
+	optional int32 free_count = 2;      //已使用免费洗练次数
+}
+
+//解锁孔位
+message m_equip_refine_unlock_hole_tos { //1106019
+	required int32 slot = 1;      //部位
+	required int32 hole = 2;      //孔位
+}
+
+message m_equip_refine_unlock_hole_toc { //1106019
+
+}
+
+//洗练
+message m_equip_refine_tos {  //1106020
+	required int32 slot = 1;
+	optional int32 itemid = 2;   //额外消耗道具id
+	repeated int32 locks = 3;    //锁定孔位
+}
+
+message m_equip_refine_toc { //1106020
+
+}
+
+//还原
+message m_equip_refine_back_tos { //1106021
+	required int32 slot = 1;
+}
+
+message m_equip_refine_back_toc { //1106021
+
+}
+
+//一键强化
+message m_equip_strength_all_tos {  //1106022
+	required int32 slot = 1;
+}
+
+message m_equip_strength_all_toc {  //1106022
+
+}
+
+//强化套装升级
+message m_equip_strong_suite_up_tos {  //1106023
+
+}
+
+message m_equip_strong_suite_up_toc {  //1106023
+
+}
+
+// 装备拆解
+message m_equip_decombine_tos { //1106024
+	required int32 item_uid = 1;
+}
+
+message m_equip_decombine_toc { //1106024
+	required int32    item_uid = 1;
+	map<int32, int32> refund   = 2; // 返还
+
+}
+
+
+//洗练解锁结构
+message p_refine_slot {
+	required int32 slot = 1;          //部位
+	map<int32, p_refine> holes = 2;   //洗练属性
+	map<int32, p_refine> old_holes = 3;  //原属性
+}
+

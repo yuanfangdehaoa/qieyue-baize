@@ -1,0 +1,63 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 寻宝信息
+message m_mchunt_info_tos { //1111001
+}
+
+message m_mchunt_info_toc { //1111001
+	required int32   type  = 1; // 1=寻宝1次; 2=寻宝10次
+	required int32   dig   = 2; // 1=劝服; 2=降服; 3=吸收
+	required int32   times = 3; // 已用次数
+	required int32   etime = 4; // 寻宝结束时间(0 表示未开始寻宝)
+	required int32   power = 5; // 星力值
+	required int32   scene = 6; // 场景id
+	repeated p_coord pos   = 7; // 坐标列表
+}
+
+// 寻宝
+message m_mchunt_hunt_tos { //1111002
+	required int32 type = 1; // 1=寻宝1次; 2=寻宝10次
+	optional bool  skip = 2; // 是否跳过
+}
+
+message m_mchunt_hunt_toc { //1111002
+	required int32   type  = 1; // 1=寻宝1次; 2=寻宝10次
+	required int32   etime = 2; // 寻宝结束时间(0 表示未开始寻宝)
+	required int32   scene = 3; // 场景id
+	repeated p_coord pos   = 4; // 坐标列表
+}
+
+// 挖宝
+message m_mchunt_dig_tos { //1111003
+	required int32 type = 1; // 1=劝服; 2=降服; 3=吸收
+	required int32 num  = 2; // 第几个
+}
+
+message m_mchunt_dig_toc { //1111003
+	required int32  type = 1; // 1=劝服; 2=降服; 3=吸收
+	required int32  num  = 2; // 第几个
+	optional uint64 uid  = 3; // 怪物id | 采集物id
+}
+
+// 结算
+message m_mchunt_stat_toc { //1111004
+	map<int32, int32> reward = 1; // 奖励
+}
+
+// 日志
+message m_mchunt_log_tos { //1111005
+}
+
+message m_mchunt_log_toc { //1111005
+	repeated p_mchunt_log logs = 1;
+}
+
+message p_mchunt_log {
+	required string name = 1; // 玩家名称
+	required int32  item = 2; // 道具id
+	required int32  num  = 3; // 道具数量
+	required int32  time = 4; // 时间
+}
+
+

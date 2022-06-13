@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+message m_wanted_info_tos { //1131001
+    
+}
+
+message m_wanted_info_toc { //1131001
+    optional p_wanted_task task = 1;   
+}
+
+
+// 领取奖励
+message m_wanted_reward_tos { //1131002
+    
+}
+
+message m_wanted_reward_toc { //1131002
+    optional p_wanted_task next = 1; //推送下一个任务或者更新当前最后一个任务
+}
+
+// 更新
+message m_wanted_update_toc { //1131003
+    required p_wanted_task task = 1; 
+}
+
+message p_wanted_task {
+    required int32      id       = 1;
+    required int32      progress = 2; //进度
+    required int32      state    = 3; 
+}

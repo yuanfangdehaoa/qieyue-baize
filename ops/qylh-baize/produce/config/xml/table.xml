@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 数据库定义 -->
+<!--
+<tab
+    name=数据表名称
+    type=bag|set(可选，默认为 set)
+    init=Mod|never(初始化模块，可选，默认为 name 对应的 record)
+    cache=true|false(是否需要缓存，默认为 false)
+>
+    <field
+        name=字段名
+        init=字段类型
+        desc=字段说明
+        init=初始值(可选)
+        cache=对应role_cache中的字段名
+    />
+</tab>
+-->
+
+<tabs>
+<!-- 角色表 -->
+<grp type="role">
+    <!-- 信息 -->
+    <tab name="role_info" cache="true">
+        <field name="id"     desc="角色id" />
+        <field name="userid" desc="账号id {GameChan, Account}" />
+        <field name="name"   desc="名称" cache="name" />
+        <field name="career" desc="职业" cache="career" />
+        <field name="gender" desc="性别" cache="gender" />
+        <field name="level"  desc="等级" cache="level" />
+        <field name="exp"    desc="经验" />
+        <field name="wake"   desc="觉醒等级" cache="wake" />
+        <field name="charm"  desc="魅力" cache="charm" />
+        <field name="figure" desc="形象 key=FIGURE_XXX,val=#p_aspect" cache="figure" />
+        <field name="icon"   desc="玩家头像 p_icon" cache="icon" />
+        <field name="pkmode" desc="PK模式" />
+        <field name="crime"  desc="罪恶值" />
+        <field name="login"  desc="上次登录时间" cache="login" />
+        <field name="logout" desc="上次登出时间" cache="logout" />
+        <field name="state"  desc="玩家状态" />
+        <field name="ctime"  desc="创角时间" />
+        <field name="zoneid" desc="区服id" />
+        <field name="team"   desc="队伍id" cache="team" />
+        <field name="suid"   desc="服务器id" />
+    </tab>
+
+    <!-- 属性 -->
+    <tab name="role_attr" cache="true">
+        <field name="id"    desc="角色id" />
+        <field name="buffs" desc="key=Group, val=#p_buff" />
+        <field name="attr"  desc="属性" />
+        <field name="power" desc="最高战力" cache="power" />
+    </tab>
+
+    <!-- 位置 -->
+    <tab name="role_site">
+        <field name="id"  desc="角色id" />
+        <field name="pre" desc="跳转前场景" />
+        <field name="cur" desc="当前场景" />
+    </tab>
+
+    <!-- 背包 -->
+    <tab name="role_bag" init="role_bag">
+        <field name="id"     desc="角色id" />
+        <field name="count"  desc="key={BagID,ItemID,Bind}, val=Num" />
+        <field name="group"  desc="key={BagID,ItemID,Bind}, val=[CellID]" />
+        <field name="cells"  desc="key=BagID, val=#cell" />
+        <field name="items"  desc="key=CellID, val=#p_item" />
+        <field name="money"  desc="key=ItemID, val=Num" />
+        <field name="exceed" desc="超过当天获得上限的钱币(key=ItemID, val=Num)" />
+    </tab>
+
+    <!-- 任务 -->
+    <tab name="role_task" init="role_task">
+        <field name="id"     init="0"   desc="角色id" />
+        <field name="listen" init="#{}" desc="key=Event, val=[TaskID]" />
+        <field name="accept" init="#{}" desc="key=TaskID, val=#task" />
+        <field name="submit" init="[]"  desc="已提交 [TaskID]" />
+        <field name="reward" init="[]"  desc="已领取奖励的章节 [ChapterID]" />
+        <field name="next"   init="0"   desc="下一个可接的主线任务" />
+    </tab>
+
+    <!-- 技能 -->
+    <tab name="role_skill" init="role_skill">
+        <field name="id"                desc="角色id" />
+        <field name="skills" init="#{}" desc="key=SkillID, val=Level" />
+        <field name="point"  init="0"   desc="技能点" />
+        <field name="puton"  init="#{}" desc="key=SkillID, val=Pos" />
+        <field name="endcd"  init="#{}" desc="key=SkillID, val=EndCD" />
+        <field name="auto"   init="[]"  desc="[SkillID]" />
+    </tab>
+
+    <!-- 装备 -->
+    <tab name="role_equip">
+        <field name="id"        init="0"   desc="角色id" />
+        <field name="equips"    init="#{}" desc="key=Locus, val=cell.id" />
+        <field name="strengths" init="#{}" desc="key=Locus, val=#equip_strength" />
+        <field name="stones"    init="#{}" desc="key=Locus, val=#{hole=>item.id}" />
+        <field name="strength_suite_id" init="0" desc="强化套装id" />
+        <field name="suites"    init="#{}" desc="key=套装等级, val=#suite" />
+        <field name="smelt"     init="1"   desc="熔炼id" />
+        <field name="smelt_exp" init="0"   desc="熔炼当前经验" />
+        <field name="suite_cost" init="#{}" desc="套装部位消耗, key=Slot,val={BList,List}"/>
+        <field name="casts"      init="#{}" desc="铸造, key=Locus, val=#equip_cast" />
+        <field name="refine"     init="#{}" desc="洗练, key=Locus, val=#p_refine_slot" />
+    </tab>
+
+    <!-- 副本 -->
+    <tab name="role_dunge">
+        <field name="id"    init="0"   desc="角色id" />
+        <field name="enter" init="#{}" desc="key=SType, val=EnterTime" />
+        <field name="star"  init="#{}" desc="评星 key=SType, val=any" />
+        <field name="misc"  init="#{}" desc="其他数据 key=SType, val=any" />
+    </tab>
+
+    <!-- 魔法塔副本 -->
+    <tab name="dunge_magic">
+        <field name="id"          init="0"     desc="角色id" />
+        <field name="clear_floor" init="0"     desc="已通关到第几层" />
+        <field name="loto_times"  init="0"     desc="可用转盘次数" />
+        <field name="loto_round"  init="1"     desc="第几轮" />
+        <field name="loto_hits"   init="[]"    desc="已中的奖励id [SeqID]" />
+        <field name="daily_gift"  init="false" desc="是否已领取每日礼包" />
+    </tab>
+
+    <!-- 在线信息 -->
+    <tab name="role_online" init="never">
+        <field name="id"    desc="角色id" />
+        <field name="today" desc="今日在线时长" />
+        <field name="total" desc="总在线时长" />
+    </tab>
+
+    <!-- 寻宝 -->
+    <tab name="role_searchtreasure">
+        <field name="id"                      init="0"   desc="角色id" />
+        <field name="searchtreaure_item_maps" init="#{}" desc="#searchtreaure_item" />
+        <field name="yy_rewards"              init="#{}" desc="主题抽奖已抽中物品,key=yyactid,val=[reward_id]" />
+        <field name="equips"                  init="[]"  desc="已抽中的装备（装备抽奖大奖记录）" />
+        <field name="get_key_timestamp"  init="0"  desc="记录领取寻宝钥匙的时间戳" />
+    </tab>
+
+    <!-- 商城 -->
+    <tab name="role_mall">
+        <field name="id"                init="0"   desc="角色id" />
+        <field name="refresh_type_maps" init="#{}" desc="#mall_bought" />
+        <field name="limit_maps"        init="#{}" desc="#m_mall_limit_item" />
+    </tab>
+
+    <!-- 培养系统 -->
+    <tab name="role_train">
+        <field name="id"     init="0"   desc="角色id" />
+        <field name="trains" init="#{}" desc="key=TrainType, val=#p_train" />
+        <field name="mounts" init="#{}" desc="key=TrainType, val=#mount" />
+        <field name="morphs" init="#{}" desc="key=TrainType, val=[#p_morph]" />
+        <field name="using"  init="#{}" desc="key=TrainType, val=TrainID" />
+    </tab>
+
+    <!-- vip -->
+    <tab name="role_vip" cache="true">
+        <field name="id"          init="0"     desc="角色id" />
+        <field name="level"       init="0"     desc="vip 等级" cache="viplv" />
+        <field name="exp"         init="0"     desc="vip 经验" />
+        <field name="etime"       init="0"     desc="vip 到期时间" cache="vipend" />
+        <field name="type"        init="0"     desc="vip 类型" cache="viptype" />
+        <field name="card"        init="0"     desc="激活卡id" />
+        <field name="pool"        init="0"     desc="经验池" />
+        <field name="fetch"       init="[]"    desc="已领取的等级奖励 [VipLv]" />
+        <field name="auto"        init="false" desc="是否自动领取 vip 经验" />
+        <field name="mcard"       init="false" desc="是否购买月卡" />
+        <field name="mfetch"      init="#{}"   desc="月卡领取, key=day, val=is_fetch" />
+        <field name="invest"      init="#{}"   desc="投资计划 key=type, val=#r_vip_invest" />
+        <field name="rebate"                   desc="vip返还 #r_vip_rebate" />
+        <field name="taste"                    desc="体验卡信息" />
+    </tab>
+
+    <!-- vip2 -->
+    <tab name="role_vip2" >
+        <field name="id"          init="0"     desc="角色id" />
+        <field name="level"       init="0"     desc="vip 等级" />
+        <field name="exp"         init="0"     desc="vip 经验" />
+        <field name="etime"       init="0"     desc="vip 到期时间" />
+        <field name="fetch"       init="[]"    desc="已领取的等级奖励 [VipLv]" />
+    </tab>
+
+    <!-- 觉醒 -->
+    <tab name="role_wake">
+        <field name="id"    init="0"   desc="角色id" />
+        <field name="step"  init="1"   desc="当前觉醒阶段" />
+        <field name="tasks" init="#{}" desc="任务进度" />
+        <field name="grid"  init="0"   desc="当前激活到的格子" />
+    </tab>
+
+    <!-- 魔法卡 -->
+    <tab name="role_magic_card">
+        <field name="id"       init="0"      desc="角色id" />
+        <field name="cards"    init="#{}"    desc="key=pos, val=uid" />
+        <field name="suite_id" init="0"      desc="套装id" />
+        <field name="auto"     init="1"      desc="是否自动分解(0-否，1-是)" />
+        <field name="colors"   init="[1,2]"  desc="自动分解颜色" />
+    </tab>
+
+    <!-- 帮派 -->
+    <tab name="role_guild" cache="true">
+        <field name="id"    init="0"  desc="角色id" />
+        <field name="guild" init="0"  desc="帮派id" cache="guild" />
+        <field name="post"  init="0"  desc="帮派职位" cache="gpost" />
+        <field name="apply" init="[]" desc="申请的帮派列表 [GuildID]" />
+        <field name="score" init="0"  desc="仓库积分" />
+    </tab>
+
+    <!-- 时装 -->
+    <tab name="role_fashion">
+        <field name="id"       init="0"   desc="角色id" />
+        <field name="fashions" init="#{}" desc="key=id, val=#p_fashion" />
+        <field name="putons"   init="#{}" desc="当前已穿戴的id, key=Locus, val=id" />
+    </tab>
+
+    <!-- 称号 -->
+    <tab name="role_title">
+        <field name="id"       init="0"   desc="角色id" />
+        <field name="titles"   init="#{}" desc="key=id, val=#p_title" />
+        <field name="puton_id" init="0"   desc="当前已穿戴的id" />
+    </tab>
+
+    <!-- 魔法卡寻宝 -->
+    <tab name="role_mchunt">
+        <field name="id"    init="0"  desc="角色id" />
+        <field name="times" init="0"  desc="今日次数" />
+        <field name="hunt"  init="0"  desc="寻宝类型(1=寻宝1次; 2=寻宝10次)" />
+        <field name="dig"   init="0"  desc="挖宝类型(1=劝服; 2=降服; 3=吸收)" />
+        <field name="etime" init="0"  desc="结束时间" />
+        <field name="scene" init="0"  desc="场景id" />
+        <field name="pos"   init="[]" desc="坐标列表 [#p_coord]" />
+        <field name="luck"  init="0"  desc="幸运值，每30次必出红卡" />
+    </tab>
+
+    <!-- 开服目标 -->
+    <tab name="role_target">
+        <field name="id"       init="0"   desc="角色id" />
+        <field name="tasks"    init="#{}" desc="key=task.id, val=#p_target_task" />
+        <field name="targets"  init="#{}" desc="key=id, val=领取状态(0-未完成，1-已完成，2-已领取)" />
+    </tab>
+
+    <!-- 福利 -->
+    <tab name="role_welfare" init="role_welfare">
+        <field name="id"       init="0"    desc="角色id" />
+        <field name="level"    init="[]"   desc="已领取的等级奖励" />
+        <field name="power"    init="[]"   desc="已领取的战力奖励" />
+        <field name="online"   init="[]"   desc="已领取的在线时长奖励" />
+        <field name="sign"     init="#{}"  desc="每日签到#welfare_sign" />
+        <field name="notice"   init="[]"   desc="已领取的公告奖励" />
+        <field name="res"      init="0"    desc="是否已领取资源大奖" />
+        <field name="misc"     init="#{}"  desc="其他福利" />
+        <field name="login_choose_reward"     init="[]"  desc="上线福利任意选" />
+    </tab>
+
+    <!-- 计数器 -->
+    <tab name="role_count">
+        <field name="id"      init="0"   desc="角色id" />
+        <field name="counter" init="#{}" desc="计数器" />
+        <field name="reset"   init="0"   desc="上次重置时间" />
+    </tab>
+
+    <!-- 杂项数据 -->
+    <tab name="role_misc">
+        <field name="id"          init="0"   desc="角色id" />
+        <field name="sys_opened"  init="[]"  desc="已开放的系统列表 [SysID]" />
+        <field name="offline_msg" init="[]"  desc="离线消息" />
+        <field name="enemy_suids" init="#{}" desc="敌对服务器" />
+    </tab>
+
+    <tab name="role_beast">
+        <field name="id"         init="0"    desc="角色id" />
+        <field name="beasts"     init="#{}"  desc="神兽" />
+        <field name="summon_max" init="3"    desc="助战最大数量" />
+    </tab>
+
+    <tab name="role_daily">
+        <field name="id"         init="0"    desc="角色id" />
+        <field name="list"       init="[]"   desc="进度" />
+        <field name="rewarded"   init="[]"   desc="领取过的奖励" />
+        <field name="total"      init="0"    desc="累计活跃度" />
+    </tab>
+
+    <tab name="role_illusion">
+        <field name="id"        init="0"    desc="角色id" />
+        <field name="level"     init="0"    desc="等级" />
+        <field name="exp"       init="0"    desc="经验" />
+        <field name="show_id"   init="0"    desc="形象ID" />
+        <field name="show"      init="true" desc="显示" />
+    </tab>
+
+    <tab name="role_weekly">
+        <field name="id"         init="0"    desc="角色id" />
+        <field name="list"       init="[]"   desc="进度" />
+        <field name="rewarded"   init="[]"   desc="领取过的奖励" />
+        <field name="total"      init="0"    desc="累计活跃度" />
+    </tab>
+
+    <!-- 护送 -->
+    <tab name="role_escort">
+        <field name="id"        init="0"    desc="角色id" />
+        <field name="quality"   init="0"    desc="品质" />
+        <field name="level"     init="0"    desc="刷新时的等级" />
+        <field name="progress"  init="0"    desc="进度" />
+        <field name="end_time"  init="0"    desc="护送结束时间" />
+        <field name="is_double" init="0"    desc="是否双倍护送" />
+    </tab>
+
+    <tab name="role_realname">
+        <field name="id"         init="0"    desc="角色id" />
+        <field name="is_first"   init="true" desc="是否首次" />
+        <field name="area_code"  init=""     desc="地区代码" />
+        <field name="id_card"    init=""     desc="证件号码" />
+        <field name="real_name"  init=""     desc="真实姓名" />
+    </tab>
+
+    <!-- 充值 -->
+    <tab name="role_pay" persist="now">
+        <field name="id"                 desc="玩家id" />
+        <field name="payments" init="[]" desc="充值信息" />
+    </tab>
+
+    <!-- 玩家道具获得监控 -->
+    <tab name="role_monitor">
+        <field name="id"                desc="玩家id" />
+        <field name="gain"   init="#{}" desc="获得(key={RuleID, val={ItemID, StartDT, EndDT, Num})" />
+    </tab>
+
+    <tab name="role_yylogin">
+        <field name="id"                desc="玩家id" />
+        <field name="days"  init="0"    desc="累计登录天数" />
+        <field name="list"  init="[]"   desc="领奖的天数" />
+    </tab>
+
+    <!-- 离线挂机 -->
+    <tab name="role_afk">
+        <field name="id"                desc="玩家id" />
+        <field name="time"  init="0"    desc="剩余离线时长" />
+    </tab>
+
+    <!-- 成就 -->
+    <tab name="role_achieve">
+        <field name="id"                      desc="玩家id" />
+        <field name="achieves"  init="#{}"    desc="成就状态(key=id,val=p_achieve)" />
+    </tab>
+
+    <!-- 宠物 -->
+    <tab name="role_pet">
+        <field name="id"                      desc="玩家id" />
+        <field name="pets"         init="#{}"   desc="宠物(key=order, val=uid)" />
+        <field name="strong"       init="#{}"   desc="宠物训练(key=order, val=训练阶段)" />
+        <field name="strong_attr"  init="#{}"   desc="宠物训练(key=order, val=训练加的属性)" />
+        <field name="fight"        init="0"     desc="出战的order" />
+        <field name="costs"        init="#{}"   desc="突破消耗,key=order,val={绑定物品，非绑定物品}" />
+        <field name="equips"       init="#{}"   desc="PetID=>(SlotID=>CellID)" />
+    </tab>
+
+    <!-- 首充 -->
+    <tab name="role_firstpay">
+        <field name="id"                         desc="玩家id" />
+        <field name="is_payed"   init="false"    desc="是否首充" />
+        <field name="time"                       desc="首充时间" />
+        <field name="fetch"      init="[]"       desc="领取奖励记录"/>
+    </tab>
+
+    <!-- 零元礼包 -->
+    <tab name="role_yy_gift">
+        <field name="id"                        desc="玩家" />
+        <field name="list"        init="#{}"    desc="活动数据 key=act_id, val=#p_yy_gift" />
+    </tab>
+
+    <!-- 悬赏令 -->
+    <tab name="role_wanted">
+        <field name="id"       desc="角色id" />
+        <field name="task"     desc="#p_wanted_task" />
+    </tab>
+
+    <!-- 竞技场 -->
+    <tab name="role_arena">
+        <field name="id"                desc="角色id" />
+        <field name="rank"  init="0"    desc="历史最高排名" />
+        <field name="fetch" init="[]"   desc="领取过的最高排名奖励" />
+    </tab>
+
+    <tab name="role_marriage">
+        <field name="id"                        desc="角色id" />
+        <field name="steps"      init="[]"      desc="结婚步骤 [#p_marriage_step{}]" />
+        <field name="ring"                      desc="婚戒信息 p_marriage_ring" />
+        <field name="history"    init="#{}"     desc="结婚各类型总次数" />
+    </tab>
+
+    <!-- 资源找回 -->
+    <tab name="role_findback">
+        <field name="id"                        desc="角色id" />
+        <field name="level"        init="0"     desc="用于找回的等级" />
+        <field name="lists"        init="[]"    desc="找回信息[p_findback]" />
+        <field name="floors"       init="#{}"   desc="副本通关层数key=stype, val=floor" />
+    </tab>
+
+    <!-- 子女 -->
+    <tab name="role_baby">
+        <field name="id"                        desc="角色id" />
+        <field name="progress" init="#{}"       desc="出生进度,key=gender, val=进度" />
+        <field name="baby"     init="#{}"       desc="子女培养,key=gender,val=#p_baby" />
+        <field name="order"    init="#{}"       desc="进阶,key=子女id,val=#p_baby_order" />
+        <field name="is_hide"  init="false"     desc="是否隐藏子女" />
+        <field name="figure"   init="0"         desc="当前显示的宝宝id" />
+        <field name="equips"   init="#{}"       desc="装备,key=位置，val=uid" />
+        <field name="likes"    init="[]"        desc="点赞过得角色id列表" />
+        <field name="wings"    init="#{}"       desc="翅膀" />
+        <field name="wing_id"  init="0"         desc="翅膀幻化id" />
+    </tab>
+
+    <!-- 运营活动抽奖 -->
+    <tab name="role_yy_lottery">
+        <field name="id"                        desc="角色id" />
+        <field name="acts" init="#{}"           desc="活动数据 key=act_id, val=#yy_lottery" />
+    </tab>
+
+    <!-- 铸造小屋 -->
+    <tab name="role_casthouse">
+        <field name="id"                        desc="角色id" />
+        <field name="grid" init="0"             desc="所在格子id" />
+        <field name="turn" init="1"             desc="当前轮数" />
+        <field name="num"  init="0"             desc="要走的步数" />
+    </tab>
+
+    <!-- 天赋技能 -->
+    <tab name="role_talent">
+        <field name="id"                        desc="角色id" />
+        <field name="total"  init="0"           desc="天赋点总数" />
+        <field name="remain" init="0"           desc="剩余天赋点" />
+        <field name="allot"  init="#{}"         desc="天赋点分配 #{Group=>Point}" />
+        <field name="skills" init="#{}"         desc="技能列表 #{SkillID=>SkillLv}" />
+    </tab>
+
+    <!-- 圣痕 -->
+    <tab name="role_soul">
+        <field name="id"       init="0"      desc="角色id" />
+        <field name="souls"    init="#{}"    desc="key=pos, val=uid" />
+        <field name="auto"     init="1"      desc="是否自动分解(0-否，1-是)" />
+        <field name="color"    init="3"      desc="自动分解颜色" />
+    </tab>
+
+    <!-- 合成次数记录 -->
+    <tab name="role_compose">
+        <field name="id"       init="0"      desc="角色id" />
+        <field name="counts"   init="#{}"    desc="key=记录主键, val=次数" />
+        <field name="keys"     init="[]"     desc="已合成过的列表" />
+    </tab>
+
+    <!-- 神灵副本 -->
+    <tab name="dunge_god">
+        <field name="id"       init="0"      desc="角色id" />
+        <field name="cur_wave" init="0"      desc="当前挑战波数" />
+        <field name="max_wave" init="0"      desc="历史最高波数" />
+        <field name="rewarded" init="[]"     desc="已领取的首通奖励" />
+        <field name="barriers" init="[]"     desc="障碍物" />
+    </tab>
+
+    <!-- 图鉴 -->
+    <tab name="role_illustration">
+        <field name="id"       init="0"      desc="角色id" />
+        <field name="list"     init="[]"     desc="图鉴列表" />
+    </tab>
+
+    <!-- 累充活动 -->
+    <tab name="role_actpay">
+        <field name="id"                         desc="玩家id" />
+        <field name="acts"     init="#{}"        desc="活动数据 p_actpay" />
+    </tab>
+
+    <!-- 神灵装备 -->
+    <tab name="role_god_equips">
+        <field name="id"                         desc="玩家id" />
+        <field name="equips"     init="#{}"      desc="key=位置,val=uid" />
+    </tab>
+
+    <!-- 活动投资 -->
+    <tab name="role_actinvest">
+        <field name="id"                         desc="玩家id" />
+        <field name="acts"     init="#{}"        desc="r_actinvest" />
+    </tab>
+
+    <!-- 机甲系统 -->
+    <tab name="role_mecha">
+        <field name="id"                         desc="玩家id" />
+        <field name="mechas"       init="#{}"    desc="p_mecha" />
+        <field name="use_id"       init="0"      desc="正在使用的机甲" />
+        <field name="equips"       init="#{}"    desc="机甲装备,key=机甲id, val=#{key=位置,val=uid}" />
+    </tab>
+
+    <!-- 子系统装备 -->
+    <tab name="role_sub_equips">
+        <field name="id"                         desc="玩家id" />
+        <field name="equips"     init="#{}"      desc="key=装备子类型,val=#{key=位置,val=uid}" />
+    </tab>
+
+    <!-- 夺城战 -->
+    <tab name="role_siegewar">
+        <field name="id"               desc="玩家id" />
+        <field name="medal"  init="0"  desc="勋章进度" />
+        <field name="fetch"  init="[]" desc="已领取奖励" />
+    </tab>
+
+    <!-- 大富豪 -->
+    <tab name="role_richman">
+        <field name="id"                      desc="玩家id" />
+        <field name="curr_round"  init="1"    desc="当前圈数" />
+        <field name="curr_grid"   init="1"    desc="当前格子" />
+        <field name="lucky_round" init="1"    desc="第几轮幸运奖励" />
+        <field name="lucky_fetch" init="[]"   desc="已领取幸运奖励" />
+        <field name="round_fetch" init="[]"   desc="已领取圈数奖励" />
+        <field name="dice_gain"   init="#{}"  desc="骰子获取情况" />
+        <field name="act_stime"   init="0"    desc="活动的开始时间" />
+        <field name="act_etime"   init="0"    desc="活动的结束时间" />
+    </tab>
+
+    <!-- 幸运转盘 -->
+    <tab name="role_luckywheel">
+        <field name="id"               desc="玩家id" />
+        <field name="round"  init="1"  desc="当前圈数" />
+        <field name="fetch"  init="[]" desc="已领取格子奖励" />
+        <field name="period" init="0"  desc="活动期数" />
+    </tab>
+
+    <!-- 神器 -->
+    <tab name="role_artifact">
+        <field name="id"                desc="玩家id" />
+        <field name="artis"  init="#{}" desc="神器 ArtiID => #p_artifact" />
+        <field name="elems"  init="#{}" desc="元素 ArtiType => [#p_artielem]" />
+    </tab>
+
+    <!-- 图腾 -->
+    <tab name="role_totem">
+        <field name="id"         init="0"    desc="角色id" />
+        <field name="totems"     init="#{}"  desc="图腾" />
+        <field name="summon_max" init="3"    desc="助战最大数量" />
+    </tab>
+
+    <!-- 翻牌好礼 -->
+    <tab name="role_flop_gift">
+        <field name="id"            init="0"    desc="角色id" />
+        <field name="level"         init="1"    desc="本次活动玩家等级，每次重置时获取玩家当前等级" />
+        <field name="last_secs"     init="0"    desc="上次参加时间戳" />
+        <field name="cur_round"     init="1"    desc="当前轮数" />
+        <field name="rewards_round" init="#{}"  desc="所有轮已抽取奖励信息 #{ Round => [{Pos, PosFlop, ItemID, Count}] }" />
+    </tab>
+</grp>
+
+<!-- 帮派表 -->
+<grp type="guild">
+    <!-- 帮派信息 -->
+    <tab name="guild_info">
+        <field name="id"      desc="帮派id" />
+        <field name="name"    desc="帮派名" />
+        <field name="ctime"   desc="创建时间" />
+        <field name="level"   desc="等级" />
+        <field name="fund"    desc="资金" />
+        <field name="notice"  desc="公告" />
+        <field name="modify"  desc="公告修改次数" />
+        <field name="membs"   desc="成员列表 [#guild_memb]" />
+        <field name="power"   desc="帮派战力" />
+        <field name="rank"    desc="帮派排名" />
+        <field name="apply"   desc="申请加入列表 [RoleID]" />
+        <field name="runfor"  desc="职位申请列表 [{RoleID, Post}]" />
+        <field name="impeach" desc="弹劾信息 {OriginID, [AgreeID]}" />
+        <field name="setting" desc="帮派设置 #{}" />
+    </tab>
+
+    <!-- 帮派仓库 -->
+    <tab name="guild_depot" init="guild_depot_handler">
+        <field name="id"     desc="帮派id" />
+        <field name="cells"  desc="空格子" />
+        <field name="items"  desc="道具列表 #{}" />
+    </tab>
+
+    <!-- 帮派红包 -->
+    <tab name="guild_redenvelope" init="guild_redenvelope_handler">
+        <field name="id"            desc="帮派id" />
+        <field name="red_envelopes" init="#{}" desc="红包" />
+        <field name="records"       inti="[]"  desc="记录" />
+    </tab>
+</grp>
+
+<!-- 全局表 -->
+<grp type="game">
+    <!-- 账号 -->
+    <tab name="game_user">
+        <field name="id"       desc="{GameChan, Account}" />
+        <field name="gamechan" desc="游戏渠道" />
+        <field name="account"  desc="渠道账号" />
+        <field name="platform" desc="平台名称" />
+        <field name="game_id"  desc="游戏id" />
+        <field name="chan_id"  desc="渠道id" />
+        <field name="type"     desc="账号类型(0=普通,1=GM)" />
+        <field name="regip"    desc="注册ip" />
+        <field name="ctime"    desc="注册时间" />
+        <field name="roles"    desc="角色id列表" />
+    </tab>
+
+    <!-- 排行榜 -->
+    <tab name="game_rank">
+        <field name="id"       desc="榜单id" />
+        <field name="ranklist" desc="榜单列表 [#rankitem]" />
+        <field name="alldata"  desc="榜单数据 key=RoleID, val=any" />
+    </tab>
+
+    <!-- 杂项 -->
+    <!-- role_id   : 玩家递增id -->
+    <!-- guild_id  : 帮派递增id -->
+    <!-- trade_id  : 交易递增id -->
+    <!-- game_ban  : 封号 #game_ban -->
+    <!-- merge     : 合服信息 [#merge] -->
+    <!-- post_merge : 合服后需要处理的函数 [{Mod,Fun}|{Mod,Fun,Args}] -->
+
+    <!-- boss_kill : 世界Boss击杀次数 #{BossID=>Times} -->
+    <!-- migration : [Version] -->
+    <!-- market    : #market{} -->
+    <!-- drop_rare : 珍稀掉落 #{ItemID=>Num} -->
+
+    <!-- gw_result : 公会战结果 -->
+
+    <!-- 跨服杂项数据 -->
+    <!-- {CrossGroupID, drop_rare} : 珍稀掉落 #{ItemID=>Num} -->
+    <!-- {CrossGroupID, boss_kill} : 世界Boss击杀次数 #{BossID=>Times} -->
+    <!-- {CrossGroupID, combat1v1_misc_season} : 巅峰1v1赛季 -->
+    <!-- {CrossGroupID, combat1v1_misc_mode}   : 巅峰1v1模式 -->
+    <!-- {CrossGroupID, combat1v1_misc_reward} : 巅峰1v1是否发奖 -->
+
+    <!-- 钻石擂台 -->
+    <!-- compete_season  : 钻石擂台赛季 Season -->
+    <!-- compete_roles   : 钻石擂台报名信息 [#compete_role] -->
+    <!-- compete_result  : 钻石擂台上期结果 [#compete_result] -->
+    <!-- compete_history : 钻石擂台往期战报 [#compete_role] -->
+
+    <!-- 跨服夺城战 -->
+    <!-- siegewar_divide_rule : 分组 -->
+    <tab name="game_misc">
+        <field name="key" desc="key" />
+        <field name="val" desc="val" />
+    </tab>
+
+    <!-- 邮箱 -->
+    <tab name="mailbox">
+        <field name="owner"  desc="角色id" />
+        <field name="mailid" desc="邮件递增id" />
+        <field name="mails"  desc="key=MailID, val=#mail" />
+    </tab>
+
+    <tab name="friend">
+        <field name="id"                    desc="role_id" />
+        <field name="applied"    init="[]"  desc="申请加自己好友的列表" />
+        <field name="friend_num" init="0"   desc="好友数量" />
+        <field name="roles"      init="#{}" desc="玩家信息" />
+    </tab>
+
+    <tab name="chat_contact">
+        <field name="id"                  desc="role_id" />
+        <field name="contacts" init="[]"  desc="role_id" />
+    </tab>
+
+    <!-- 市场交易物品 -->
+    <tab name="trade">
+        <field name="id"    desc="唯一id" />
+        <field name="type"  desc="1=市场交易; 2=指定交易" />
+        <field name="owner" desc="所有者" />
+        <field name="item"  desc="#p_item" />
+        <field name="time"  desc="上架时间" />
+        <field name="price" desc="单价" />
+        <field name="tax"   desc="税率" />
+    </tab>
+
+    <!-- 运营活动 -->
+    <!-- misc字段 -->
+    <!-- {global, YYActID} : 全局奖励限制 RewardID=>Times -->
+    <!-- {guild, YYActID}  : 公会活动 {GuildID,RewardID}=>Times -->
+    <tab name="yy_info">
+        <field name="id"                  desc="活动id" />
+        <field name="settle" init="false" desc="是否已结算" />
+        <field name="misc"   init="#{}"   desc="杂项数据" />
+    </tab>
+
+    <tab name="yy_role">
+        <field name="key"                 desc="{ActID, RoleID}" />
+        <field name="tasks"  init="#{}"   desc="key=TaskID, val=#yy_task" />
+        <field name="finish"              desc="完成该活动所有档次的时间" />
+        <field name="extra"  init="#{}"   desc="存放个人的活动数据" />
+    </tab>
+
+    <!-- 镜像 -->
+    <tab name="mirror">
+        <field name="id"            desc="role_id" />
+        <field name="name"          desc="" />
+        <field name="buffs"         desc="" />
+        <field name="attr"          desc="" />
+        <field name="skills"        desc="" />
+        <field name="power"         desc="" />
+        <field name="level"         desc="" />
+        <field name="career"        desc="" />
+        <field name="gender"        desc="" />
+        <field name="viplv"         desc="" />
+        <field name="figure"        desc="" />
+        <field name="guild"         desc="" />
+        <field name="gname"         desc="" />
+    </tab>
+
+    <!-- 竞技场 -->
+    <tab name="arena">
+        <field name="rank"      desc="排名" />
+        <field name="role_id"   desc="玩家ID" />
+    </tab>
+
+    <tab name="arena_misc">
+        <field name="id"                    desc="role_id" />
+        <field name="sti_times" init="0"    desc="激励次数" />
+        <field name="sti_date"              desc="激励日期" />
+    </tab>
+
+    <!-- 红包 -->
+    <tab name="redenvelope">
+        <field name="id"                desc="唯一id" />
+        <field name="red_envelope"      desc="#p_redenvelope" />
+    </tab>
+
+    <tab name="dating">
+        <field name="id"                    desc="role_id" />
+        <field name="tags"    init="[]"     desc="标签" />
+        <field name="flowers" init="#{}"    desc="收花" />
+        <field name="flirted" init="0"      desc="被撩次数" />
+    </tab>
+
+    <tab name="marriage">
+        <field name="id"                            desc="role_id" />
+        <field name="marry_with"    init="0"        desc="结婚对象" />
+        <field name="be_proposed"                   desc="被求婚 #marriage_proposal" />
+        <field name="propose_to"    init="0"        desc="向谁求婚" />
+        <field name="types"         init="#{}"      desc="结婚档次统计key=type, val=count" />
+        <field name="marry_date"                    desc="结婚日期" />
+        <field name="wcount"        init="0"        desc="举办婚礼次数" />
+        <field name="wtime"                         desc="婚礼时间" />
+        <field name="has_marry"     init="false"    desc="是否结过婚" />
+    </tab>
+
+    <tab name="wedding">
+        <field name="time"                      desc="{StartTime, EndTime}" />
+        <field name="couple"    init="[]"       desc="[role_id, role_id]" />
+        <field name="invite"    init="[]"       desc="已邀请" />
+        <field name="request"   init="[]"       desc="索要请柬" />
+        <field name="add"       init="0"        desc="增加上限" />
+        <field name="finish"    init="false"    desc="当前战场人数" />
+    </tab>
+
+    <!-- 帮派大战 -->
+    <tab name="gw_field">
+        <field name="id"      desc="FieldID" />
+        <field name="zoneid"  desc="赛区id(1=神; 2=圣; 3=天; 4=地; 5=凡)" />
+        <field name="guilds"  desc="对战帮派 [GuildID]" />
+        <field name="winner"  desc="胜利帮派 GuildID" />
+    </tab>
+
+    <tab name="gw_guild">
+        <field name="id"     desc="帮派id" />
+        <field name="field"  desc="FiledID" />
+        <field name="group"  desc="分组id(1=蓝方; 2=红方)" />
+        <field name="power"  desc="公会战力" />
+        <field name="roles"  desc="进入战场的玩家 [RoleID]" />
+        <field name="role"   desc="当前战场人数" />
+        <field name="score"  desc="公会积分" />
+        <field name="rank"   desc="排名(FieldID*10+Rank)" />
+    </tab>
+
+    <!-- 巅峰1v1 -->
+    <tab name="combat1v1_role">
+        <field name="id"                        desc="角色id" />
+        <field name="grade"        init="0"     desc="段位" />
+        <field name="score"        init="0"     desc="积分" />
+        <field name="today_merit"  init="0"     desc="今日功勋" />
+        <field name="merit"        init="0"     desc="功勋" />
+        <field name="join"         init="0"     desc="总参与次数" />
+        <field name="keep_win"     init="0"     desc="连续胜利次数" />
+        <field name="keep_lose"    init="0"     desc="连续输的次数" />
+        <field name="last_grade"   init="0"     desc="昨日段位" />
+        <field name="today_join"   init="0"     desc="今日参与场次" />
+        <field name="join_reward"  init="#{}"   desc="场次奖励#{场次=>是否领取}" />
+        <field name="merit_reward" init="[]"    desc="功勋奖励" />
+        <field name="buy_times"    init="0"     desc="购买次数" />
+    </tab>
+
+    <!-- 跨服云购 -->
+    <tab name="yy_shop_act">
+        <field name="act_id"                    desc="活动ID" />
+        <field name="world_lv"                  desc="开启时的世界等级" />
+        <field name="day"                       desc="活动第几天" />
+        <field name="shop"         init="#{}"   desc="Key=ShopID, Val=r_yy_shop" />
+        <field name="join_log"     init="[]"    desc="参与记录" />
+        <field name="reward_log"   init="[]"    desc="奖励记录" />
+    </tab>
+</grp>
+
+
+<grp type="cross">
+    <!-- 游戏服节点 -->
+    <tab name="cls_node">
+        <field name="suid"  desc="服务器id" />
+        <field name="type"  desc="服务器类型" />
+        <field name="name"  desc="节点名" />
+        <field name="otime" desc="开服时间" />
+        <field name="level" desc="世界等级" />
+        <field name="merge" desc="合服列表" />
+        <field name="conn"  desc="是否已连接" />
+        <field name="group" desc="#{Rule=>GroupID}" />
+    </tab>
+</grp>
+
+</tabs>

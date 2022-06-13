@@ -1,0 +1,1 @@
+{{ col . `all() -> [{'userid','gold'}].` }}

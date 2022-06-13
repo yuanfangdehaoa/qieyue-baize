@@ -1,0 +1,13 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: migrate mnesia
+    shell: sh xctl migrate {{ version }}
+    args:
+      chdir: "{{ serv_path }}"

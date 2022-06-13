@@ -1,0 +1,3945 @@
+% Automatically generated, do not edit
+-module(cfg_siegewar_boss).
+
+-compile([export_all]).
+-compile(nowarn_export_all).
+
+-include("siegewar.hrl").
+
+find(20801001) -> #cfg_siegewar_boss{
+	id    = 20801001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20801,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20801002) -> #cfg_siegewar_boss{
+	id    = 20801002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20801,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20801003) -> #cfg_siegewar_boss{
+	id    = 20801003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20801,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20801004) -> #cfg_siegewar_boss{
+	id    = 20801004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20801,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20801005) -> #cfg_siegewar_boss{
+	id    = 20801005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20801,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20801006) -> #cfg_siegewar_boss{
+	id    = 20801006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20801,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20801007) -> #cfg_siegewar_boss{
+	id    = 20801007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20801,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20801008) -> #cfg_siegewar_boss{
+	id    = 20801008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20801,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20801009) -> #cfg_siegewar_boss{
+	id    = 20801009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20801,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20801010) -> #cfg_siegewar_boss{
+	id    = 20801010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20801,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20802001) -> #cfg_siegewar_boss{
+	id    = 20802001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20802,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20802002) -> #cfg_siegewar_boss{
+	id    = 20802002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20802,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20802003) -> #cfg_siegewar_boss{
+	id    = 20802003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20802,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20802004) -> #cfg_siegewar_boss{
+	id    = 20802004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20802,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20802005) -> #cfg_siegewar_boss{
+	id    = 20802005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20802,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20802006) -> #cfg_siegewar_boss{
+	id    = 20802006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20802,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20802007) -> #cfg_siegewar_boss{
+	id    = 20802007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20802,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20802008) -> #cfg_siegewar_boss{
+	id    = 20802008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20802,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20802009) -> #cfg_siegewar_boss{
+	id    = 20802009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20802,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20802010) -> #cfg_siegewar_boss{
+	id    = 20802010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20802,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20803001) -> #cfg_siegewar_boss{
+	id    = 20803001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20803,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20803002) -> #cfg_siegewar_boss{
+	id    = 20803002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20803,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20803003) -> #cfg_siegewar_boss{
+	id    = 20803003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20803,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20803004) -> #cfg_siegewar_boss{
+	id    = 20803004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20803,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20803005) -> #cfg_siegewar_boss{
+	id    = 20803005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20803,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20803006) -> #cfg_siegewar_boss{
+	id    = 20803006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20803,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20803007) -> #cfg_siegewar_boss{
+	id    = 20803007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20803,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20803008) -> #cfg_siegewar_boss{
+	id    = 20803008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20803,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20803009) -> #cfg_siegewar_boss{
+	id    = 20803009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20803,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20803010) -> #cfg_siegewar_boss{
+	id    = 20803010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20803,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20804001) -> #cfg_siegewar_boss{
+	id    = 20804001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20804,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20804002) -> #cfg_siegewar_boss{
+	id    = 20804002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20804,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20804003) -> #cfg_siegewar_boss{
+	id    = 20804003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20804,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20804004) -> #cfg_siegewar_boss{
+	id    = 20804004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20804,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20804005) -> #cfg_siegewar_boss{
+	id    = 20804005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20804,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20804006) -> #cfg_siegewar_boss{
+	id    = 20804006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20804,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20804007) -> #cfg_siegewar_boss{
+	id    = 20804007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20804,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20804008) -> #cfg_siegewar_boss{
+	id    = 20804008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20804,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20804009) -> #cfg_siegewar_boss{
+	id    = 20804009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20804,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20804010) -> #cfg_siegewar_boss{
+	id    = 20804010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20804,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20805001) -> #cfg_siegewar_boss{
+	id    = 20805001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20805,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20805002) -> #cfg_siegewar_boss{
+	id    = 20805002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20805,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20805003) -> #cfg_siegewar_boss{
+	id    = 20805003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20805,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20805004) -> #cfg_siegewar_boss{
+	id    = 20805004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20805,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20805005) -> #cfg_siegewar_boss{
+	id    = 20805005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20805,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20805006) -> #cfg_siegewar_boss{
+	id    = 20805006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20805,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20805007) -> #cfg_siegewar_boss{
+	id    = 20805007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20805,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20805008) -> #cfg_siegewar_boss{
+	id    = 20805008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20805,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20805009) -> #cfg_siegewar_boss{
+	id    = 20805009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20805,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20805010) -> #cfg_siegewar_boss{
+	id    = 20805010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20805,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20806001) -> #cfg_siegewar_boss{
+	id    = 20806001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20806,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20806002) -> #cfg_siegewar_boss{
+	id    = 20806002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20806,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20806003) -> #cfg_siegewar_boss{
+	id    = 20806003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20806,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20806004) -> #cfg_siegewar_boss{
+	id    = 20806004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20806,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20806005) -> #cfg_siegewar_boss{
+	id    = 20806005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20806,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20806006) -> #cfg_siegewar_boss{
+	id    = 20806006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20806,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20806007) -> #cfg_siegewar_boss{
+	id    = 20806007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20806,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20806008) -> #cfg_siegewar_boss{
+	id    = 20806008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20806,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20806009) -> #cfg_siegewar_boss{
+	id    = 20806009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20806,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20806010) -> #cfg_siegewar_boss{
+	id    = 20806010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20806,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20807001) -> #cfg_siegewar_boss{
+	id    = 20807001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20807,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20807002) -> #cfg_siegewar_boss{
+	id    = 20807002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20807,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20807003) -> #cfg_siegewar_boss{
+	id    = 20807003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20807,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20807004) -> #cfg_siegewar_boss{
+	id    = 20807004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20807,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20807005) -> #cfg_siegewar_boss{
+	id    = 20807005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20807,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20807006) -> #cfg_siegewar_boss{
+	id    = 20807006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20807,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20807007) -> #cfg_siegewar_boss{
+	id    = 20807007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20807,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20807008) -> #cfg_siegewar_boss{
+	id    = 20807008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20807,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20807009) -> #cfg_siegewar_boss{
+	id    = 20807009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20807,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20807010) -> #cfg_siegewar_boss{
+	id    = 20807010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20807,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20808001) -> #cfg_siegewar_boss{
+	id    = 20808001,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20808,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20808002) -> #cfg_siegewar_boss{
+	id    = 20808002,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20808,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20808003) -> #cfg_siegewar_boss{
+	id    = 20808003,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20808,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20808004) -> #cfg_siegewar_boss{
+	id    = 20808004,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20808,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20808005) -> #cfg_siegewar_boss{
+	id    = 20808005,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20808,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20808006) -> #cfg_siegewar_boss{
+	id    = 20808006,
+	name  = "青铜精英",
+	type  = 1,
+	scene = 20808,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,10000,2500},
+	level = 1
+};
+find(20808007) -> #cfg_siegewar_boss{
+	id    = 20808007,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20808,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20808008) -> #cfg_siegewar_boss{
+	id    = 20808008,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20808,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20808009) -> #cfg_siegewar_boss{
+	id    = 20808009,
+	name  = "青铜侍卫",
+	type  = 2,
+	scene = 20808,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,10000,2500},
+	level = 1
+};
+find(20808010) -> #cfg_siegewar_boss{
+	id    = 20808010,
+	name  = "青铜领主",
+	type  = 2,
+	scene = 20808,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,10000,2500},
+	level = 1
+};
+find(20811001) -> #cfg_siegewar_boss{
+	id    = 20811001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20811,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20811002) -> #cfg_siegewar_boss{
+	id    = 20811002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20811,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20811003) -> #cfg_siegewar_boss{
+	id    = 20811003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20811,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20811004) -> #cfg_siegewar_boss{
+	id    = 20811004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20811,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20811005) -> #cfg_siegewar_boss{
+	id    = 20811005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20811,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20811006) -> #cfg_siegewar_boss{
+	id    = 20811006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20811,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20811007) -> #cfg_siegewar_boss{
+	id    = 20811007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20811,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20811008) -> #cfg_siegewar_boss{
+	id    = 20811008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20811,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20811009) -> #cfg_siegewar_boss{
+	id    = 20811009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20811,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20811010) -> #cfg_siegewar_boss{
+	id    = 20811010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20811,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20812001) -> #cfg_siegewar_boss{
+	id    = 20812001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20812,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20812002) -> #cfg_siegewar_boss{
+	id    = 20812002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20812,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20812003) -> #cfg_siegewar_boss{
+	id    = 20812003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20812,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20812004) -> #cfg_siegewar_boss{
+	id    = 20812004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20812,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20812005) -> #cfg_siegewar_boss{
+	id    = 20812005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20812,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20812006) -> #cfg_siegewar_boss{
+	id    = 20812006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20812,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20812007) -> #cfg_siegewar_boss{
+	id    = 20812007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20812,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20812008) -> #cfg_siegewar_boss{
+	id    = 20812008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20812,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20812009) -> #cfg_siegewar_boss{
+	id    = 20812009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20812,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20812010) -> #cfg_siegewar_boss{
+	id    = 20812010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20812,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20813001) -> #cfg_siegewar_boss{
+	id    = 20813001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20813,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20813002) -> #cfg_siegewar_boss{
+	id    = 20813002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20813,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20813003) -> #cfg_siegewar_boss{
+	id    = 20813003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20813,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20813004) -> #cfg_siegewar_boss{
+	id    = 20813004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20813,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20813005) -> #cfg_siegewar_boss{
+	id    = 20813005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20813,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20813006) -> #cfg_siegewar_boss{
+	id    = 20813006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20813,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20813007) -> #cfg_siegewar_boss{
+	id    = 20813007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20813,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20813008) -> #cfg_siegewar_boss{
+	id    = 20813008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20813,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20813009) -> #cfg_siegewar_boss{
+	id    = 20813009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20813,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20813010) -> #cfg_siegewar_boss{
+	id    = 20813010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20813,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20814001) -> #cfg_siegewar_boss{
+	id    = 20814001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20814,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20814002) -> #cfg_siegewar_boss{
+	id    = 20814002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20814,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20814003) -> #cfg_siegewar_boss{
+	id    = 20814003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20814,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20814004) -> #cfg_siegewar_boss{
+	id    = 20814004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20814,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20814005) -> #cfg_siegewar_boss{
+	id    = 20814005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20814,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20814006) -> #cfg_siegewar_boss{
+	id    = 20814006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20814,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20814007) -> #cfg_siegewar_boss{
+	id    = 20814007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20814,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20814008) -> #cfg_siegewar_boss{
+	id    = 20814008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20814,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20814009) -> #cfg_siegewar_boss{
+	id    = 20814009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20814,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20814010) -> #cfg_siegewar_boss{
+	id    = 20814010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20814,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20815001) -> #cfg_siegewar_boss{
+	id    = 20815001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20815,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20815002) -> #cfg_siegewar_boss{
+	id    = 20815002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20815,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20815003) -> #cfg_siegewar_boss{
+	id    = 20815003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20815,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20815004) -> #cfg_siegewar_boss{
+	id    = 20815004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20815,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20815005) -> #cfg_siegewar_boss{
+	id    = 20815005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20815,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20815006) -> #cfg_siegewar_boss{
+	id    = 20815006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20815,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20815007) -> #cfg_siegewar_boss{
+	id    = 20815007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20815,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20815008) -> #cfg_siegewar_boss{
+	id    = 20815008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20815,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20815009) -> #cfg_siegewar_boss{
+	id    = 20815009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20815,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20815010) -> #cfg_siegewar_boss{
+	id    = 20815010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20815,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20816001) -> #cfg_siegewar_boss{
+	id    = 20816001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20816,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20816002) -> #cfg_siegewar_boss{
+	id    = 20816002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20816,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20816003) -> #cfg_siegewar_boss{
+	id    = 20816003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20816,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20816004) -> #cfg_siegewar_boss{
+	id    = 20816004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20816,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20816005) -> #cfg_siegewar_boss{
+	id    = 20816005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20816,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20816006) -> #cfg_siegewar_boss{
+	id    = 20816006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20816,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20816007) -> #cfg_siegewar_boss{
+	id    = 20816007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20816,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20816008) -> #cfg_siegewar_boss{
+	id    = 20816008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20816,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20816009) -> #cfg_siegewar_boss{
+	id    = 20816009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20816,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20816010) -> #cfg_siegewar_boss{
+	id    = 20816010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20816,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20817001) -> #cfg_siegewar_boss{
+	id    = 20817001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20817,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20817002) -> #cfg_siegewar_boss{
+	id    = 20817002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20817,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20817003) -> #cfg_siegewar_boss{
+	id    = 20817003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20817,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20817004) -> #cfg_siegewar_boss{
+	id    = 20817004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20817,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20817005) -> #cfg_siegewar_boss{
+	id    = 20817005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20817,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20817006) -> #cfg_siegewar_boss{
+	id    = 20817006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20817,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20817007) -> #cfg_siegewar_boss{
+	id    = 20817007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20817,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20817008) -> #cfg_siegewar_boss{
+	id    = 20817008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20817,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20817009) -> #cfg_siegewar_boss{
+	id    = 20817009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20817,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20817010) -> #cfg_siegewar_boss{
+	id    = 20817010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20817,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20818001) -> #cfg_siegewar_boss{
+	id    = 20818001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20818,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20818002) -> #cfg_siegewar_boss{
+	id    = 20818002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20818,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20818003) -> #cfg_siegewar_boss{
+	id    = 20818003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20818,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20818004) -> #cfg_siegewar_boss{
+	id    = 20818004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20818,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20818005) -> #cfg_siegewar_boss{
+	id    = 20818005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20818,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20818006) -> #cfg_siegewar_boss{
+	id    = 20818006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20818,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20818007) -> #cfg_siegewar_boss{
+	id    = 20818007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20818,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20818008) -> #cfg_siegewar_boss{
+	id    = 20818008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20818,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20818009) -> #cfg_siegewar_boss{
+	id    = 20818009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20818,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20818010) -> #cfg_siegewar_boss{
+	id    = 20818010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20818,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20821001) -> #cfg_siegewar_boss{
+	id    = 20821001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20821,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20821002) -> #cfg_siegewar_boss{
+	id    = 20821002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20821,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20821003) -> #cfg_siegewar_boss{
+	id    = 20821003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20821,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20821004) -> #cfg_siegewar_boss{
+	id    = 20821004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20821,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20821005) -> #cfg_siegewar_boss{
+	id    = 20821005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20821,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20821006) -> #cfg_siegewar_boss{
+	id    = 20821006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20821,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20821007) -> #cfg_siegewar_boss{
+	id    = 20821007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20821,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20821008) -> #cfg_siegewar_boss{
+	id    = 20821008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20821,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20821009) -> #cfg_siegewar_boss{
+	id    = 20821009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20821,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20821010) -> #cfg_siegewar_boss{
+	id    = 20821010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20821,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20822001) -> #cfg_siegewar_boss{
+	id    = 20822001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20822,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20822002) -> #cfg_siegewar_boss{
+	id    = 20822002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20822,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20822003) -> #cfg_siegewar_boss{
+	id    = 20822003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20822,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20822004) -> #cfg_siegewar_boss{
+	id    = 20822004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20822,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20822005) -> #cfg_siegewar_boss{
+	id    = 20822005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20822,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20822006) -> #cfg_siegewar_boss{
+	id    = 20822006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20822,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20822007) -> #cfg_siegewar_boss{
+	id    = 20822007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20822,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20822008) -> #cfg_siegewar_boss{
+	id    = 20822008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20822,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20822009) -> #cfg_siegewar_boss{
+	id    = 20822009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20822,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20822010) -> #cfg_siegewar_boss{
+	id    = 20822010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20822,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20823001) -> #cfg_siegewar_boss{
+	id    = 20823001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20823,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20823002) -> #cfg_siegewar_boss{
+	id    = 20823002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20823,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20823003) -> #cfg_siegewar_boss{
+	id    = 20823003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20823,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20823004) -> #cfg_siegewar_boss{
+	id    = 20823004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20823,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20823005) -> #cfg_siegewar_boss{
+	id    = 20823005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20823,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20823006) -> #cfg_siegewar_boss{
+	id    = 20823006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20823,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20823007) -> #cfg_siegewar_boss{
+	id    = 20823007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20823,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20823008) -> #cfg_siegewar_boss{
+	id    = 20823008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20823,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20823009) -> #cfg_siegewar_boss{
+	id    = 20823009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20823,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20823010) -> #cfg_siegewar_boss{
+	id    = 20823010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20823,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20824001) -> #cfg_siegewar_boss{
+	id    = 20824001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20824,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20824002) -> #cfg_siegewar_boss{
+	id    = 20824002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20824,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20824003) -> #cfg_siegewar_boss{
+	id    = 20824003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20824,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20824004) -> #cfg_siegewar_boss{
+	id    = 20824004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20824,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20824005) -> #cfg_siegewar_boss{
+	id    = 20824005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20824,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20824006) -> #cfg_siegewar_boss{
+	id    = 20824006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20824,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20824007) -> #cfg_siegewar_boss{
+	id    = 20824007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20824,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20824008) -> #cfg_siegewar_boss{
+	id    = 20824008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20824,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20824009) -> #cfg_siegewar_boss{
+	id    = 20824009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20824,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20824010) -> #cfg_siegewar_boss{
+	id    = 20824010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20824,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20825001) -> #cfg_siegewar_boss{
+	id    = 20825001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20825,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20825002) -> #cfg_siegewar_boss{
+	id    = 20825002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20825,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20825003) -> #cfg_siegewar_boss{
+	id    = 20825003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20825,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20825004) -> #cfg_siegewar_boss{
+	id    = 20825004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20825,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20825005) -> #cfg_siegewar_boss{
+	id    = 20825005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20825,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20825006) -> #cfg_siegewar_boss{
+	id    = 20825006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20825,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20825007) -> #cfg_siegewar_boss{
+	id    = 20825007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20825,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20825008) -> #cfg_siegewar_boss{
+	id    = 20825008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20825,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20825009) -> #cfg_siegewar_boss{
+	id    = 20825009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20825,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20825010) -> #cfg_siegewar_boss{
+	id    = 20825010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20825,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20826001) -> #cfg_siegewar_boss{
+	id    = 20826001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20826,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20826002) -> #cfg_siegewar_boss{
+	id    = 20826002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20826,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20826003) -> #cfg_siegewar_boss{
+	id    = 20826003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20826,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20826004) -> #cfg_siegewar_boss{
+	id    = 20826004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20826,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20826005) -> #cfg_siegewar_boss{
+	id    = 20826005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20826,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20826006) -> #cfg_siegewar_boss{
+	id    = 20826006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20826,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20826007) -> #cfg_siegewar_boss{
+	id    = 20826007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20826,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20826008) -> #cfg_siegewar_boss{
+	id    = 20826008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20826,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20826009) -> #cfg_siegewar_boss{
+	id    = 20826009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20826,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20826010) -> #cfg_siegewar_boss{
+	id    = 20826010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20826,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20827001) -> #cfg_siegewar_boss{
+	id    = 20827001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20827,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20827002) -> #cfg_siegewar_boss{
+	id    = 20827002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20827,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20827003) -> #cfg_siegewar_boss{
+	id    = 20827003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20827,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20827004) -> #cfg_siegewar_boss{
+	id    = 20827004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20827,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20827005) -> #cfg_siegewar_boss{
+	id    = 20827005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20827,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20827006) -> #cfg_siegewar_boss{
+	id    = 20827006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20827,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20827007) -> #cfg_siegewar_boss{
+	id    = 20827007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20827,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20827008) -> #cfg_siegewar_boss{
+	id    = 20827008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20827,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20827009) -> #cfg_siegewar_boss{
+	id    = 20827009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20827,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20827010) -> #cfg_siegewar_boss{
+	id    = 20827010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20827,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20828001) -> #cfg_siegewar_boss{
+	id    = 20828001,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20828,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20828002) -> #cfg_siegewar_boss{
+	id    = 20828002,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20828,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20828003) -> #cfg_siegewar_boss{
+	id    = 20828003,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20828,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20828004) -> #cfg_siegewar_boss{
+	id    = 20828004,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20828,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20828005) -> #cfg_siegewar_boss{
+	id    = 20828005,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20828,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20828006) -> #cfg_siegewar_boss{
+	id    = 20828006,
+	name  = "黄金精英",
+	type  = 1,
+	scene = 20828,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 3
+};
+find(20828007) -> #cfg_siegewar_boss{
+	id    = 20828007,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20828,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20828008) -> #cfg_siegewar_boss{
+	id    = 20828008,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20828,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20828009) -> #cfg_siegewar_boss{
+	id    = 20828009,
+	name  = "黄金侍卫",
+	type  = 2,
+	scene = 20828,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 3
+};
+find(20828010) -> #cfg_siegewar_boss{
+	id    = 20828010,
+	name  = "黄金领主",
+	type  = 2,
+	scene = 20828,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 3
+};
+find(20831001) -> #cfg_siegewar_boss{
+	id    = 20831001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20831,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20831002) -> #cfg_siegewar_boss{
+	id    = 20831002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20831,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20831003) -> #cfg_siegewar_boss{
+	id    = 20831003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20831,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20831004) -> #cfg_siegewar_boss{
+	id    = 20831004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20831,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20831005) -> #cfg_siegewar_boss{
+	id    = 20831005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20831,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20831006) -> #cfg_siegewar_boss{
+	id    = 20831006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20831,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20831007) -> #cfg_siegewar_boss{
+	id    = 20831007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20831,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20831008) -> #cfg_siegewar_boss{
+	id    = 20831008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20831,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20831009) -> #cfg_siegewar_boss{
+	id    = 20831009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20831,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20831010) -> #cfg_siegewar_boss{
+	id    = 20831010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20831,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20832001) -> #cfg_siegewar_boss{
+	id    = 20832001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20832,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20832002) -> #cfg_siegewar_boss{
+	id    = 20832002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20832,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20832003) -> #cfg_siegewar_boss{
+	id    = 20832003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20832,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20832004) -> #cfg_siegewar_boss{
+	id    = 20832004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20832,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20832005) -> #cfg_siegewar_boss{
+	id    = 20832005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20832,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20832006) -> #cfg_siegewar_boss{
+	id    = 20832006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20832,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20832007) -> #cfg_siegewar_boss{
+	id    = 20832007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20832,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20832008) -> #cfg_siegewar_boss{
+	id    = 20832008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20832,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20832009) -> #cfg_siegewar_boss{
+	id    = 20832009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20832,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20832010) -> #cfg_siegewar_boss{
+	id    = 20832010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20832,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20833001) -> #cfg_siegewar_boss{
+	id    = 20833001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20833,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20833002) -> #cfg_siegewar_boss{
+	id    = 20833002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20833,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20833003) -> #cfg_siegewar_boss{
+	id    = 20833003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20833,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20833004) -> #cfg_siegewar_boss{
+	id    = 20833004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20833,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20833005) -> #cfg_siegewar_boss{
+	id    = 20833005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20833,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20833006) -> #cfg_siegewar_boss{
+	id    = 20833006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20833,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20833007) -> #cfg_siegewar_boss{
+	id    = 20833007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20833,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20833008) -> #cfg_siegewar_boss{
+	id    = 20833008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20833,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20833009) -> #cfg_siegewar_boss{
+	id    = 20833009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20833,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20833010) -> #cfg_siegewar_boss{
+	id    = 20833010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20833,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20834001) -> #cfg_siegewar_boss{
+	id    = 20834001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20834,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20834002) -> #cfg_siegewar_boss{
+	id    = 20834002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20834,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20834003) -> #cfg_siegewar_boss{
+	id    = 20834003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20834,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20834004) -> #cfg_siegewar_boss{
+	id    = 20834004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20834,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20834005) -> #cfg_siegewar_boss{
+	id    = 20834005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20834,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20834006) -> #cfg_siegewar_boss{
+	id    = 20834006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20834,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20834007) -> #cfg_siegewar_boss{
+	id    = 20834007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20834,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20834008) -> #cfg_siegewar_boss{
+	id    = 20834008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20834,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20834009) -> #cfg_siegewar_boss{
+	id    = 20834009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20834,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20834010) -> #cfg_siegewar_boss{
+	id    = 20834010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20834,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20835001) -> #cfg_siegewar_boss{
+	id    = 20835001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20835,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20835002) -> #cfg_siegewar_boss{
+	id    = 20835002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20835,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20835003) -> #cfg_siegewar_boss{
+	id    = 20835003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20835,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20835004) -> #cfg_siegewar_boss{
+	id    = 20835004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20835,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20835005) -> #cfg_siegewar_boss{
+	id    = 20835005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20835,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20835006) -> #cfg_siegewar_boss{
+	id    = 20835006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20835,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20835007) -> #cfg_siegewar_boss{
+	id    = 20835007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20835,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20835008) -> #cfg_siegewar_boss{
+	id    = 20835008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20835,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20835009) -> #cfg_siegewar_boss{
+	id    = 20835009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20835,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20835010) -> #cfg_siegewar_boss{
+	id    = 20835010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20835,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20836001) -> #cfg_siegewar_boss{
+	id    = 20836001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20836,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20836002) -> #cfg_siegewar_boss{
+	id    = 20836002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20836,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20836003) -> #cfg_siegewar_boss{
+	id    = 20836003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20836,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20836004) -> #cfg_siegewar_boss{
+	id    = 20836004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20836,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20836005) -> #cfg_siegewar_boss{
+	id    = 20836005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20836,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20836006) -> #cfg_siegewar_boss{
+	id    = 20836006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20836,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20836007) -> #cfg_siegewar_boss{
+	id    = 20836007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20836,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20836008) -> #cfg_siegewar_boss{
+	id    = 20836008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20836,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20836009) -> #cfg_siegewar_boss{
+	id    = 20836009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20836,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20836010) -> #cfg_siegewar_boss{
+	id    = 20836010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20836,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20837001) -> #cfg_siegewar_boss{
+	id    = 20837001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20837,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20837002) -> #cfg_siegewar_boss{
+	id    = 20837002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20837,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20837003) -> #cfg_siegewar_boss{
+	id    = 20837003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20837,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20837004) -> #cfg_siegewar_boss{
+	id    = 20837004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20837,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20837005) -> #cfg_siegewar_boss{
+	id    = 20837005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20837,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20837006) -> #cfg_siegewar_boss{
+	id    = 20837006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20837,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20837007) -> #cfg_siegewar_boss{
+	id    = 20837007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20837,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20837008) -> #cfg_siegewar_boss{
+	id    = 20837008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20837,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20837009) -> #cfg_siegewar_boss{
+	id    = 20837009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20837,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20837010) -> #cfg_siegewar_boss{
+	id    = 20837010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20837,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20838001) -> #cfg_siegewar_boss{
+	id    = 20838001,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20838,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20838002) -> #cfg_siegewar_boss{
+	id    = 20838002,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20838,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20838003) -> #cfg_siegewar_boss{
+	id    = 20838003,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20838,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20838004) -> #cfg_siegewar_boss{
+	id    = 20838004,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20838,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20838005) -> #cfg_siegewar_boss{
+	id    = 20838005,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20838,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20838006) -> #cfg_siegewar_boss{
+	id    = 20838006,
+	name  = "白银精英",
+	type  = 1,
+	scene = 20838,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 2
+};
+find(20838007) -> #cfg_siegewar_boss{
+	id    = 20838007,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20838,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20838008) -> #cfg_siegewar_boss{
+	id    = 20838008,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20838,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20838009) -> #cfg_siegewar_boss{
+	id    = 20838009,
+	name  = "白银侍卫",
+	type  = 2,
+	scene = 20838,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 2
+};
+find(20838010) -> #cfg_siegewar_boss{
+	id    = 20838010,
+	name  = "白银领主",
+	type  = 2,
+	scene = 20838,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 2
+};
+find(20851001) -> #cfg_siegewar_boss{
+	id    = 20851001,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20851,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20851002) -> #cfg_siegewar_boss{
+	id    = 20851002,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20851,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20851003) -> #cfg_siegewar_boss{
+	id    = 20851003,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20851,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20851004) -> #cfg_siegewar_boss{
+	id    = 20851004,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20851,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20851005) -> #cfg_siegewar_boss{
+	id    = 20851005,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20851,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20851006) -> #cfg_siegewar_boss{
+	id    = 20851006,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20851,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20851007) -> #cfg_siegewar_boss{
+	id    = 20851007,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20851,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20851008) -> #cfg_siegewar_boss{
+	id    = 20851008,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20851,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20851009) -> #cfg_siegewar_boss{
+	id    = 20851009,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20851,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20851010) -> #cfg_siegewar_boss{
+	id    = 20851010,
+	name  = "领地首领",
+	type  = 3,
+	scene = 20851,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 0
+};
+find(20852001) -> #cfg_siegewar_boss{
+	id    = 20852001,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20852,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20852002) -> #cfg_siegewar_boss{
+	id    = 20852002,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20852,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20852003) -> #cfg_siegewar_boss{
+	id    = 20852003,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20852,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20852004) -> #cfg_siegewar_boss{
+	id    = 20852004,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20852,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20852005) -> #cfg_siegewar_boss{
+	id    = 20852005,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20852,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20852006) -> #cfg_siegewar_boss{
+	id    = 20852006,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20852,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20852007) -> #cfg_siegewar_boss{
+	id    = 20852007,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20852,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20852008) -> #cfg_siegewar_boss{
+	id    = 20852008,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20852,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20852009) -> #cfg_siegewar_boss{
+	id    = 20852009,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20852,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20852010) -> #cfg_siegewar_boss{
+	id    = 20852010,
+	name  = "领地首领",
+	type  = 3,
+	scene = 20852,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 0
+};
+find(20853001) -> #cfg_siegewar_boss{
+	id    = 20853001,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20853,
+	coord = {661,3300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20853002) -> #cfg_siegewar_boss{
+	id    = 20853002,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20853,
+	coord = {2900,2300},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20853003) -> #cfg_siegewar_boss{
+	id    = 20853003,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20853,
+	coord = {5220,360},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20853004) -> #cfg_siegewar_boss{
+	id    = 20853004,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20853,
+	coord = {2060,4788},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20853005) -> #cfg_siegewar_boss{
+	id    = 20853005,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20853,
+	coord = {4590,3680},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20853006) -> #cfg_siegewar_boss{
+	id    = 20853006,
+	name  = "领地精英",
+	type  = 1,
+	scene = 20853,
+	coord = {8170,2140},
+	score = 15,
+	attr  = {100012,12500,3125},
+	level = 0
+};
+find(20853007) -> #cfg_siegewar_boss{
+	id    = 20853007,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20853,
+	coord = {3910,6960},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20853008) -> #cfg_siegewar_boss{
+	id    = 20853008,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20853,
+	coord = {6440,5624},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20853009) -> #cfg_siegewar_boss{
+	id    = 20853009,
+	name  = "领地侍卫",
+	type  = 2,
+	scene = 20853,
+	coord = {9334,4855},
+	score = 30,
+	attr  = {100013,12500,3125},
+	level = 0
+};
+find(20853010) -> #cfg_siegewar_boss{
+	id    = 20853010,
+	name  = "领地首领",
+	type  = 3,
+	scene = 20853,
+	coord = {8116,6632},
+	score = 65,
+	attr  = {100014,12500,3125},
+	level = 0
+};
+find(_) -> undefined.
+
+box_coord(20801001) -> undefined;
+box_coord(20801002) -> undefined;
+box_coord(20801003) -> undefined;
+box_coord(20801004) -> undefined;
+box_coord(20801005) -> undefined;
+box_coord(20801006) -> undefined;
+box_coord(20801007) -> undefined;
+box_coord(20801008) -> undefined;
+box_coord(20801009) -> undefined;
+box_coord(20801010) -> undefined;
+box_coord(20802001) -> undefined;
+box_coord(20802002) -> undefined;
+box_coord(20802003) -> undefined;
+box_coord(20802004) -> undefined;
+box_coord(20802005) -> undefined;
+box_coord(20802006) -> undefined;
+box_coord(20802007) -> undefined;
+box_coord(20802008) -> undefined;
+box_coord(20802009) -> undefined;
+box_coord(20802010) -> undefined;
+box_coord(20803001) -> undefined;
+box_coord(20803002) -> undefined;
+box_coord(20803003) -> undefined;
+box_coord(20803004) -> undefined;
+box_coord(20803005) -> undefined;
+box_coord(20803006) -> undefined;
+box_coord(20803007) -> undefined;
+box_coord(20803008) -> undefined;
+box_coord(20803009) -> undefined;
+box_coord(20803010) -> undefined;
+box_coord(20804001) -> undefined;
+box_coord(20804002) -> undefined;
+box_coord(20804003) -> undefined;
+box_coord(20804004) -> undefined;
+box_coord(20804005) -> undefined;
+box_coord(20804006) -> undefined;
+box_coord(20804007) -> undefined;
+box_coord(20804008) -> undefined;
+box_coord(20804009) -> undefined;
+box_coord(20804010) -> undefined;
+box_coord(20805001) -> undefined;
+box_coord(20805002) -> undefined;
+box_coord(20805003) -> undefined;
+box_coord(20805004) -> undefined;
+box_coord(20805005) -> undefined;
+box_coord(20805006) -> undefined;
+box_coord(20805007) -> undefined;
+box_coord(20805008) -> undefined;
+box_coord(20805009) -> undefined;
+box_coord(20805010) -> undefined;
+box_coord(20806001) -> undefined;
+box_coord(20806002) -> undefined;
+box_coord(20806003) -> undefined;
+box_coord(20806004) -> undefined;
+box_coord(20806005) -> undefined;
+box_coord(20806006) -> undefined;
+box_coord(20806007) -> undefined;
+box_coord(20806008) -> undefined;
+box_coord(20806009) -> undefined;
+box_coord(20806010) -> undefined;
+box_coord(20807001) -> undefined;
+box_coord(20807002) -> undefined;
+box_coord(20807003) -> undefined;
+box_coord(20807004) -> undefined;
+box_coord(20807005) -> undefined;
+box_coord(20807006) -> undefined;
+box_coord(20807007) -> undefined;
+box_coord(20807008) -> undefined;
+box_coord(20807009) -> undefined;
+box_coord(20807010) -> undefined;
+box_coord(20808001) -> undefined;
+box_coord(20808002) -> undefined;
+box_coord(20808003) -> undefined;
+box_coord(20808004) -> undefined;
+box_coord(20808005) -> undefined;
+box_coord(20808006) -> undefined;
+box_coord(20808007) -> undefined;
+box_coord(20808008) -> undefined;
+box_coord(20808009) -> undefined;
+box_coord(20808010) -> undefined;
+box_coord(20811001) -> undefined;
+box_coord(20811002) -> undefined;
+box_coord(20811003) -> undefined;
+box_coord(20811004) -> undefined;
+box_coord(20811005) -> undefined;
+box_coord(20811006) -> undefined;
+box_coord(20811007) -> undefined;
+box_coord(20811008) -> undefined;
+box_coord(20811009) -> undefined;
+box_coord(20811010) -> {8016,6543};
+box_coord(20812001) -> undefined;
+box_coord(20812002) -> undefined;
+box_coord(20812003) -> undefined;
+box_coord(20812004) -> undefined;
+box_coord(20812005) -> undefined;
+box_coord(20812006) -> undefined;
+box_coord(20812007) -> undefined;
+box_coord(20812008) -> undefined;
+box_coord(20812009) -> undefined;
+box_coord(20812010) -> {8016,6543};
+box_coord(20813001) -> undefined;
+box_coord(20813002) -> undefined;
+box_coord(20813003) -> undefined;
+box_coord(20813004) -> undefined;
+box_coord(20813005) -> undefined;
+box_coord(20813006) -> undefined;
+box_coord(20813007) -> undefined;
+box_coord(20813008) -> undefined;
+box_coord(20813009) -> undefined;
+box_coord(20813010) -> {8016,6543};
+box_coord(20814001) -> undefined;
+box_coord(20814002) -> undefined;
+box_coord(20814003) -> undefined;
+box_coord(20814004) -> undefined;
+box_coord(20814005) -> undefined;
+box_coord(20814006) -> undefined;
+box_coord(20814007) -> undefined;
+box_coord(20814008) -> undefined;
+box_coord(20814009) -> undefined;
+box_coord(20814010) -> {8016,6543};
+box_coord(20815001) -> undefined;
+box_coord(20815002) -> undefined;
+box_coord(20815003) -> undefined;
+box_coord(20815004) -> undefined;
+box_coord(20815005) -> undefined;
+box_coord(20815006) -> undefined;
+box_coord(20815007) -> undefined;
+box_coord(20815008) -> undefined;
+box_coord(20815009) -> undefined;
+box_coord(20815010) -> {8016,6543};
+box_coord(20816001) -> undefined;
+box_coord(20816002) -> undefined;
+box_coord(20816003) -> undefined;
+box_coord(20816004) -> undefined;
+box_coord(20816005) -> undefined;
+box_coord(20816006) -> undefined;
+box_coord(20816007) -> undefined;
+box_coord(20816008) -> undefined;
+box_coord(20816009) -> undefined;
+box_coord(20816010) -> {8016,6543};
+box_coord(20817001) -> undefined;
+box_coord(20817002) -> undefined;
+box_coord(20817003) -> undefined;
+box_coord(20817004) -> undefined;
+box_coord(20817005) -> undefined;
+box_coord(20817006) -> undefined;
+box_coord(20817007) -> undefined;
+box_coord(20817008) -> undefined;
+box_coord(20817009) -> undefined;
+box_coord(20817010) -> {8016,6543};
+box_coord(20818001) -> undefined;
+box_coord(20818002) -> undefined;
+box_coord(20818003) -> undefined;
+box_coord(20818004) -> undefined;
+box_coord(20818005) -> undefined;
+box_coord(20818006) -> undefined;
+box_coord(20818007) -> undefined;
+box_coord(20818008) -> undefined;
+box_coord(20818009) -> undefined;
+box_coord(20818010) -> {8016,6543};
+box_coord(20821001) -> undefined;
+box_coord(20821002) -> undefined;
+box_coord(20821003) -> undefined;
+box_coord(20821004) -> undefined;
+box_coord(20821005) -> undefined;
+box_coord(20821006) -> undefined;
+box_coord(20821007) -> undefined;
+box_coord(20821008) -> undefined;
+box_coord(20821009) -> undefined;
+box_coord(20821010) -> {8016,6543};
+box_coord(20822001) -> undefined;
+box_coord(20822002) -> undefined;
+box_coord(20822003) -> undefined;
+box_coord(20822004) -> undefined;
+box_coord(20822005) -> undefined;
+box_coord(20822006) -> undefined;
+box_coord(20822007) -> undefined;
+box_coord(20822008) -> undefined;
+box_coord(20822009) -> undefined;
+box_coord(20822010) -> {8016,6543};
+box_coord(20823001) -> undefined;
+box_coord(20823002) -> undefined;
+box_coord(20823003) -> undefined;
+box_coord(20823004) -> undefined;
+box_coord(20823005) -> undefined;
+box_coord(20823006) -> undefined;
+box_coord(20823007) -> undefined;
+box_coord(20823008) -> undefined;
+box_coord(20823009) -> undefined;
+box_coord(20823010) -> {8016,6543};
+box_coord(20824001) -> undefined;
+box_coord(20824002) -> undefined;
+box_coord(20824003) -> undefined;
+box_coord(20824004) -> undefined;
+box_coord(20824005) -> undefined;
+box_coord(20824006) -> undefined;
+box_coord(20824007) -> undefined;
+box_coord(20824008) -> undefined;
+box_coord(20824009) -> undefined;
+box_coord(20824010) -> {8016,6543};
+box_coord(20825001) -> undefined;
+box_coord(20825002) -> undefined;
+box_coord(20825003) -> undefined;
+box_coord(20825004) -> undefined;
+box_coord(20825005) -> undefined;
+box_coord(20825006) -> undefined;
+box_coord(20825007) -> undefined;
+box_coord(20825008) -> undefined;
+box_coord(20825009) -> undefined;
+box_coord(20825010) -> {8016,6543};
+box_coord(20826001) -> undefined;
+box_coord(20826002) -> undefined;
+box_coord(20826003) -> undefined;
+box_coord(20826004) -> undefined;
+box_coord(20826005) -> undefined;
+box_coord(20826006) -> undefined;
+box_coord(20826007) -> undefined;
+box_coord(20826008) -> undefined;
+box_coord(20826009) -> undefined;
+box_coord(20826010) -> {8016,6543};
+box_coord(20827001) -> undefined;
+box_coord(20827002) -> undefined;
+box_coord(20827003) -> undefined;
+box_coord(20827004) -> undefined;
+box_coord(20827005) -> undefined;
+box_coord(20827006) -> undefined;
+box_coord(20827007) -> undefined;
+box_coord(20827008) -> undefined;
+box_coord(20827009) -> undefined;
+box_coord(20827010) -> {8016,6543};
+box_coord(20828001) -> undefined;
+box_coord(20828002) -> undefined;
+box_coord(20828003) -> undefined;
+box_coord(20828004) -> undefined;
+box_coord(20828005) -> undefined;
+box_coord(20828006) -> undefined;
+box_coord(20828007) -> undefined;
+box_coord(20828008) -> undefined;
+box_coord(20828009) -> undefined;
+box_coord(20828010) -> {8016,6543};
+box_coord(20831001) -> undefined;
+box_coord(20831002) -> undefined;
+box_coord(20831003) -> undefined;
+box_coord(20831004) -> undefined;
+box_coord(20831005) -> undefined;
+box_coord(20831006) -> undefined;
+box_coord(20831007) -> undefined;
+box_coord(20831008) -> undefined;
+box_coord(20831009) -> undefined;
+box_coord(20831010) -> {8016,6543};
+box_coord(20832001) -> undefined;
+box_coord(20832002) -> undefined;
+box_coord(20832003) -> undefined;
+box_coord(20832004) -> undefined;
+box_coord(20832005) -> undefined;
+box_coord(20832006) -> undefined;
+box_coord(20832007) -> undefined;
+box_coord(20832008) -> undefined;
+box_coord(20832009) -> undefined;
+box_coord(20832010) -> {8016,6543};
+box_coord(20833001) -> undefined;
+box_coord(20833002) -> undefined;
+box_coord(20833003) -> undefined;
+box_coord(20833004) -> undefined;
+box_coord(20833005) -> undefined;
+box_coord(20833006) -> undefined;
+box_coord(20833007) -> undefined;
+box_coord(20833008) -> undefined;
+box_coord(20833009) -> undefined;
+box_coord(20833010) -> {8016,6543};
+box_coord(20834001) -> undefined;
+box_coord(20834002) -> undefined;
+box_coord(20834003) -> undefined;
+box_coord(20834004) -> undefined;
+box_coord(20834005) -> undefined;
+box_coord(20834006) -> undefined;
+box_coord(20834007) -> undefined;
+box_coord(20834008) -> undefined;
+box_coord(20834009) -> undefined;
+box_coord(20834010) -> {8016,6543};
+box_coord(20835001) -> undefined;
+box_coord(20835002) -> undefined;
+box_coord(20835003) -> undefined;
+box_coord(20835004) -> undefined;
+box_coord(20835005) -> undefined;
+box_coord(20835006) -> undefined;
+box_coord(20835007) -> undefined;
+box_coord(20835008) -> undefined;
+box_coord(20835009) -> undefined;
+box_coord(20835010) -> {8016,6543};
+box_coord(20836001) -> undefined;
+box_coord(20836002) -> undefined;
+box_coord(20836003) -> undefined;
+box_coord(20836004) -> undefined;
+box_coord(20836005) -> undefined;
+box_coord(20836006) -> undefined;
+box_coord(20836007) -> undefined;
+box_coord(20836008) -> undefined;
+box_coord(20836009) -> undefined;
+box_coord(20836010) -> {8016,6543};
+box_coord(20837001) -> undefined;
+box_coord(20837002) -> undefined;
+box_coord(20837003) -> undefined;
+box_coord(20837004) -> undefined;
+box_coord(20837005) -> undefined;
+box_coord(20837006) -> undefined;
+box_coord(20837007) -> undefined;
+box_coord(20837008) -> undefined;
+box_coord(20837009) -> undefined;
+box_coord(20837010) -> {8016,6543};
+box_coord(20838001) -> undefined;
+box_coord(20838002) -> undefined;
+box_coord(20838003) -> undefined;
+box_coord(20838004) -> undefined;
+box_coord(20838005) -> undefined;
+box_coord(20838006) -> undefined;
+box_coord(20838007) -> undefined;
+box_coord(20838008) -> undefined;
+box_coord(20838009) -> undefined;
+box_coord(20838010) -> {8016,6543};
+box_coord(20851001) -> undefined;
+box_coord(20851002) -> undefined;
+box_coord(20851003) -> undefined;
+box_coord(20851004) -> undefined;
+box_coord(20851005) -> undefined;
+box_coord(20851006) -> undefined;
+box_coord(20851007) -> undefined;
+box_coord(20851008) -> undefined;
+box_coord(20851009) -> undefined;
+box_coord(20851010) -> undefined;
+box_coord(20852001) -> undefined;
+box_coord(20852002) -> undefined;
+box_coord(20852003) -> undefined;
+box_coord(20852004) -> undefined;
+box_coord(20852005) -> undefined;
+box_coord(20852006) -> undefined;
+box_coord(20852007) -> undefined;
+box_coord(20852008) -> undefined;
+box_coord(20852009) -> undefined;
+box_coord(20852010) -> undefined;
+box_coord(20853001) -> undefined;
+box_coord(20853002) -> undefined;
+box_coord(20853003) -> undefined;
+box_coord(20853004) -> undefined;
+box_coord(20853005) -> undefined;
+box_coord(20853006) -> undefined;
+box_coord(20853007) -> undefined;
+box_coord(20853008) -> undefined;
+box_coord(20853009) -> undefined;
+box_coord(20853010) -> undefined;
+box_coord(_) -> undefined.
+
+scenes(1) -> [20801,20802,20803,20804,20805,20806,20807,20808];
+scenes(2) -> [20811,20812,20813,20814,20815,20816,20817,20818,20831,20832,20833,20834,20835,20836,20837,20838];
+scenes(3) -> [20821,20822,20823,20824,20825,20826,20827,20828];
+scenes(0) -> [20851,20852,20853];
+scenes(_) -> [].
+
+scenes() -> [20835,20851,20812,20814,20824,20836,20801,20818,20816,20821,20822,20831,20802,20808,20807,20823,20838,20853,20804,20806,20825,20837,20852,20805,20813,20834,20811,20826,20803,20833,20827,20828,20832,20815,20817].
+
+bosses(20801) -> [20801002,20801004,20801007,20801001,20801003,20801005,20801006,20801008,20801009,20801010];
+bosses(20802) -> [20802010,20802001,20802002,20802006,20802008,20802009,20802003,20802004,20802005,20802007];
+bosses(20803) -> [20803002,20803003,20803004,20803006,20803008,20803010,20803001,20803005,20803007,20803009];
+bosses(20804) -> [20804003,20804005,20804008,20804009,20804010,20804001,20804002,20804004,20804006,20804007];
+bosses(20805) -> [20805010,20805001,20805002,20805005,20805007,20805008,20805003,20805004,20805006,20805009];
+bosses(20806) -> [20806006,20806008,20806001,20806002,20806003,20806009,20806010,20806004,20806005,20806007];
+bosses(20807) -> [20807005,20807009,20807010,20807001,20807002,20807003,20807004,20807006,20807007,20807008];
+bosses(20808) -> [20808001,20808004,20808009,20808006,20808007,20808008,20808010,20808002,20808003,20808005];
+bosses(20811) -> [20811005,20811006,20811001,20811002,20811004,20811009,20811010,20811003,20811007,20811008];
+bosses(20812) -> [20812003,20812004,20812005,20812009,20812010,20812002,20812006,20812007,20812008,20812001];
+bosses(20813) -> [20813006,20813007,20813008,20813001,20813003,20813004,20813005,20813002,20813009,20813010];
+bosses(20814) -> [20814001,20814004,20814007,20814008,20814009,20814002,20814003,20814005,20814006,20814010];
+bosses(20815) -> [20815010,20815002,20815004,20815008,20815009,20815007,20815001,20815003,20815005,20815006];
+bosses(20816) -> [20816001,20816002,20816003,20816006,20816008,20816009,20816010,20816004,20816005,20816007];
+bosses(20817) -> [20817008,20817001,20817007,20817004,20817005,20817006,20817009,20817010,20817002,20817003];
+bosses(20818) -> [20818009,20818010,20818004,20818005,20818007,20818006,20818008,20818001,20818002,20818003];
+bosses(20821) -> [20821003,20821004,20821008,20821001,20821002,20821005,20821006,20821007,20821009,20821010];
+bosses(20822) -> [20822008,20822004,20822005,20822003,20822006,20822007,20822009,20822010,20822001,20822002];
+bosses(20823) -> [20823010,20823002,20823004,20823006,20823008,20823009,20823001,20823003,20823005,20823007];
+bosses(20824) -> [20824001,20824003,20824007,20824008,20824009,20824002,20824004,20824005,20824006,20824010];
+bosses(20825) -> [20825010,20825003,20825005,20825006,20825007,20825008,20825009,20825001,20825002,20825004];
+bosses(20826) -> [20826001,20826003,20826004,20826006,20826008,20826010,20826002,20826005,20826007,20826009];
+bosses(20827) -> [20827010,20827003,20827004,20827006,20827007,20827009,20827001,20827002,20827005,20827008];
+bosses(20828) -> [20828001,20828002,20828004,20828007,20828009,20828003,20828005,20828006,20828008,20828010];
+bosses(20831) -> [20831010,20831002,20831003,20831004,20831005,20831006,20831008,20831001,20831007,20831009];
+bosses(20832) -> [20832009,20832010,20832003,20832006,20832008,20832005,20832007,20832001,20832002,20832004];
+bosses(20833) -> [20833001,20833002,20833003,20833004,20833006,20833008,20833005,20833007,20833009,20833010];
+bosses(20834) -> [20834001,20834002,20834007,20834009,20834008,20834010,20834003,20834004,20834005,20834006];
+bosses(20835) -> [20835006,20835007,20835009,20835002,20835003,20835004,20835005,20835008,20835010,20835001];
+bosses(20836) -> [20836005,20836006,20836007,20836009,20836002,20836003,20836004,20836001,20836008,20836010];
+bosses(20837) -> [20837002,20837003,20837005,20837006,20837007,20837010,20837001,20837004,20837008,20837009];
+bosses(20838) -> [20838003,20838005,20838008,20838009,20838010,20838001,20838002,20838004,20838006,20838007];
+bosses(20851) -> [20851001,20851005,20851008,20851009,20851010,20851002,20851003,20851004,20851006,20851007];
+bosses(20852) -> [20852002,20852005,20852007,20852008,20852009,20852001,20852003,20852004,20852006,20852010];
+bosses(20853) -> [20853003,20853004,20853006,20853007,20853008,20853009,20853001,20853002,20853010,20853005];
+bosses(_) -> [].
+
+bosses() -> [20825004,20831009,20837006,20853002,20807008,20812001,20816005,20818007,20808004,20831006,20837004,20838006,20802003,20803010,20805008,20806010,20818002,20823007,20831003,20852004,20815006,20817002,20817004,20835003,20801010,20802008,20805003,20807009,20811009,20835005,20837005,20851004,20826003,20837007,20838010,20852007,20803004,20813005,20813009,20818008,20834004,20802007,20806005,20818009,20824004,20832002,20833008,20834003,20852008,20818004,20821008,20825005,20831005,20803008,20814007,20851003,20815005,20821002,20828009,20836010,20802010,20851005,20832008,20853004,20802005,20808005,20812007,20823005,20801005,20817005,20853003,20827008,20835009,20802009,20807001,20822002,20827007,20834001,20805002,20807010,20812003,20818010,20811007,20812009,20815009,20816008,20824008,20828005,20833002,20808009,20811006,20815010,20816001,20801008,20804005,20816002,20835002,20833005,20801004,20801006,20804008,20822007,20823001,20831010,20801009,20806006,20811003,20811005,20835008,20852006,20805010,20813004,20826009,20833004,20814005,20834007,20821001,20831007,20831008,20832005,20803005,20804004,20806002,20813007,20834005,20805006,20821005,20827005,20836004,20807004,20823003,20826006,20837002,20825008,20826007,20828010,20834008,20808002,20808010,20812010,20823010,20836005,20851010,20835007,20836003,20804003,20807007,20831002,20833010,20817006,20821007,20824002,20825001,20806001,20808003,20815004,20816007,20827009,20832010,20836008,20836009,20802001,20805009,20824007,20802002,20814004,20815001,20823008,20825006,20817010,20801002,20807003,20811002,20813006,20826005,20836006,20808007,20812008,20815008,20817008,20832004,20835010,20836002,20853009,20812002,20814003,20818005,20826001,20803003,20805007,20825009,20828004,20825003,20838007,20805001,20814008,20823002,20825002,20828008,20852009,20816004,20817009,20818006,20828007,20828002,20803002,20816006,20825010,20826002,20805005,20814006,20831001,20832001,20803007,20804002,20804009,20807006,20832007,20852001,20852002,20804010,20806009,20822010,20827010,20822004,20852005,20853010,20822001,20833009,20837008,20806007,20808001,20814002,20821009,20851009,20801001,20811008,20827001,20834002,20823004,20836007,20852010,20801003,20802006,20811010,20815003,20824009,20837009,20838002,20803009,20821010,20832003,20832009,20817001,20835001,20837003,20806003,20813003,20813010,20816010,20822009,20824010,20853001,20828006,20837001,20851008,20811001,20817003,20824003,20827004,20807005,20828003,20834006,20851007,20831004,20834010,20814001,20815002,20815007,20824001,20821004,20821006,20823009,20802004,20813002,20816003,20821003,20853008,20801007,20817007,20828001,20832006,20818003,20822003,20827003,20827006,20804007,20813008,20814009,20814010,20838001,20826008,20851002,20852003,20807002,20818001,20824005,20826004,20851006,20853006,20803006,20812004,20816009,20835004,20838008,20851001,20853005,20853007,20812006,20822005,20822008,20825007,20836001,20804006,20806004,20833006,20834009,20803001,20833003,20833007,20838005,20805004,20822006,20823006,20826010,20808006,20813001,20833001,20835006,20804001,20808008,20811004,20824006,20838003,20838004,20838009,20806008,20812005,20827002,20837010].
+
+level(20801) -> 1;
+level(20802) -> 1;
+level(20803) -> 1;
+level(20804) -> 1;
+level(20805) -> 1;
+level(20806) -> 1;
+level(20807) -> 1;
+level(20808) -> 1;
+level(20811) -> 2;
+level(20812) -> 2;
+level(20813) -> 2;
+level(20814) -> 2;
+level(20815) -> 2;
+level(20816) -> 2;
+level(20817) -> 2;
+level(20818) -> 2;
+level(20821) -> 3;
+level(20822) -> 3;
+level(20823) -> 3;
+level(20824) -> 3;
+level(20825) -> 3;
+level(20826) -> 3;
+level(20827) -> 3;
+level(20828) -> 3;
+level(20831) -> 2;
+level(20832) -> 2;
+level(20833) -> 2;
+level(20834) -> 2;
+level(20835) -> 2;
+level(20836) -> 2;
+level(20837) -> 2;
+level(20838) -> 2;
+level(20851) -> 0;
+level(20852) -> 0;
+level(20853) -> 0;
+level(_) -> 0.

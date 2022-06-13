@@ -1,0 +1,266 @@
+syntax = "proto2";
+
+// 活动列表
+message m_yunying_list_tos { //1700001
+
+}
+
+message m_yunying_list_toc { //1700001
+	repeated p_yy_activity activities = 1;
+}
+
+// 活动开始
+message m_yunying_start_toc { //1700002
+	required p_yy_activity activity = 1;
+}
+
+// 活动结束
+message m_yunying_stop_toc { //1700003
+	required int32 id = 1; // 活动id
+}
+
+// 领取奖励
+message m_yunying_fetch_tos { //1700004
+	required int32 act_id = 1; // 活动id
+	required int32 id     = 2; // 奖励id
+	required int32 level  = 3; // 奖励档次
+}
+
+message m_yunying_fetch_toc { //1700004
+	required int32    act_id = 1; // 活动id
+	required int32    id     = 2; // 奖励id
+	map<int32, int32> reward = 3; // 奖励道具
+}
+
+// 配置更新
+message m_yunying_update_toc { //1700005
+	required int32       type    = 1; // 1=只更新配置; 2=只更新奖励; 3=两个都更新
+	repeated p_yy_reward rewards = 2;
+}
+
+// 活动信息
+message m_yunying_info_tos { //1700006
+	required int32 id = 1;
+}
+
+message m_yunying_info_toc { //1700006
+	required int32     id    = 1;
+	repeated p_yy_task tasks = 2; // 活动任务
+}
+
+// 0元礼包
+message m_yunying_gift_tos { //1700007
+
+}
+
+message m_yunying_gift_toc { //1700007
+	repeated p_yy_gift list  = 1;
+}
+
+// 领取奖励
+message m_yunying_gift_fetch_tos { //1700008
+	required int32 act_id = 1; // 活动id
+	required int32 id     = 2; // 奖励id
+}
+
+message m_yunying_gift_fetch_toc { //1700008
+	required p_yy_gift gift = 1;
+}
+
+// 活动日志
+message m_yunying_logs_tos { // 1700009
+	required int32 act_id = 1; // 活动id
+}
+
+// 活动日志
+message m_yunying_logs_toc { // 1700009
+	required int32    act_id = 1; // 活动id
+	repeated p_yy_log logs   = 2;
+}
+
+// 砸蛋
+message m_yunying_lottery_info_tos { //1700010
+	required int32 act_id = 1; // 活动id
+}
+
+message m_yunying_lottery_info_toc { //1700010
+	required int32 				  act_id 		= 1; // 活动id
+	map<int32, p_yy_lottery_item> items  		= 2; // <位置，奖励>
+	required int32 				  free_refresh 	= 3; // 免费刷新次数
+	required int32				  free_crack 	= 4; // 免费砸蛋次数
+	required int32				  crack         = 5; // 砸了的次数
+}
+
+// 砸蛋
+message m_yunying_lottery_do_tos { //1700011
+	required int32  act_id = 1; // 活动id
+	required int32 	pos = 2; // 0表示全砸
+}
+
+message m_yunying_lottery_do_toc { //1700011
+	required int32 				  act_id       = 1; // 活动id
+	map<int32, p_yy_lottery_item> items        = 2; // <位置，奖励> 只返回抽中的
+	required int32				  free_crack   = 3; // 免费砸蛋次数
+	required int32 				  free_refresh = 4; // 免费刷新次数
+	required int32				  crack        = 5; // 砸了的次数
+}
+
+message m_yunying_lottery_refresh_tos { //1700012
+	required int32 act_id = 1; // 活动id
+}
+
+message m_yunying_lottery_refresh_toc { //1700012
+	required int32 				  act_id = 1; // 活动id
+	map<int32, p_yy_lottery_item> items  = 2; // <位置，奖励>
+	required int32 				  free_refresh = 3; // 免费刷新次数
+}
+
+// 推送新的活动日志
+message m_yunying_logs_update_toc { // 1700013
+	required int32    act_id = 1; // 活动id
+	required p_yy_log log    = 2;
+}
+
+// 抽奖
+message m_yunying_lottery_draw_tos { // 1700014
+	required int32    	act_id = 1; // 活动id
+	required int32 		times  = 2; // 次数
+}
+
+message m_yunying_lottery_draw_toc { // 1700014
+	required int32    	act_id     = 1; // 活动id
+	repeated int32 		reward_ids = 2; // 奖励
+}
+
+// 转盘
+message m_yunying_lotoinfo_tos { //1700015
+	required int32 act_id = 1;
+}
+
+message m_yunying_lotoinfo_toc { //1700015
+	required int32 act_id     = 1;
+	required int32 progress   = 2; // 天命值进度
+	optional int32 round      = 3; // 第几轮
+	repeated int32 hits       = 4; // 已抽中哪些 [奖励id]
+}
+
+// 转盘抽奖
+message m_yunying_loto_tos { //1700016
+	required int32 act_id = 1;
+}
+
+message m_yunying_loto_toc { //1700016
+	required int32    act_id   = 1;
+	required int32    hit      = 2; // 抽中哪个奖励id
+	required int32 	  progress = 3; // 天命值进度
+}
+
+// 天命值更新
+message m_yunying_loto_progress_toc { //1700017
+	required int32 act_id     = 1;
+	required int32 progress   = 2; // 天命值进度
+}
+
+// 跨服云购
+message m_yunying_shop_info_tos { //1700018
+	required int32 act_id 	  = 1;
+}
+
+message m_yunying_shop_info_toc { //1700018
+	required int32 		   act_id       = 1;
+	repeated p_yy_shop     list         = 2;
+	repeated p_yy_shop_log logs         = 3;
+	required int32 		   reward_time  = 4; //开奖时间戳
+	required int32         unlimit_sec  = 5; //提前不限购买（秒数）
+}
+
+message m_yunying_shop_buy_tos { //1700019
+	required int32		act_id  = 1;
+	required int32 		shop_id = 2; //奖励ID
+	required int32 		num 	= 3; //购买次数
+}
+
+message m_yunying_shop_buy_toc { //1700019
+	required int32 			act_id = 1;
+	required p_yy_shop 		shop   = 2;
+	repeated p_yy_shop_log 	logs   = 3;
+}
+
+// 奖励记录
+message m_yunying_shop_reward_log_tos { //1700020
+	required int32 		act_id = 1;
+}
+
+message m_yunying_shop_reward_log_toc { //1700020
+	required int32 				   act_id = 1;
+	repeated p_yy_shop_reward_log  logs   = 2;
+}
+
+message p_yy_activity {
+	required int32    id         = 1; // 活动id
+	required int32    act_stime  = 2; // 活动开始时间
+	required int32    act_etime  = 3; // 活动结束时间
+	required int32    show_stime = 4; // 展示开始时间
+	required int32    show_etime = 5; // 展示结束时间
+}
+
+message p_yy_reward {
+	required int32  id     = 1; // 奖励id
+	required int32  act_id = 2; // 活动id
+	required int32  level  = 3;
+	required int32  type   = 4;
+	required int32  stype  = 5;
+	required string name   = 6;
+	required string desc   = 7;
+	required string reqs   = 8;
+	required string reward = 9;
+}
+
+message p_yy_task {
+	required int32 id    = 1; // 奖励id
+	required int32 level = 2; // 奖励档次
+	required int32 count = 3; // 任务计数器
+	required int32 state = 4; // 任务状态
+}
+
+message p_yy_gift {
+	required int32 act_id 		= 1;
+	required int32 stime 		= 2;
+	required int32 etime 		= 3;
+	required int32 refund_time 	= 4;
+	required int32 state 		= 5; // 3：已领奖，4：已返利
+}
+
+message p_yy_log {
+	required fixed64 role_id   = 1;
+	required string  role_name = 2;
+	required int32   item_id   = 3;
+	required int32   item_num  = 4;
+}
+
+message p_yy_lottery_item {
+	required int32 	group 	  = 1; //分组
+	required int32 	reward_id = 2; //0：没揭晓， 否则对应配置的奖励ID
+}
+
+message p_yy_shop {
+	required int32 	id        = 1;
+	required int32 	buy_num   = 2; //个人购买份数
+	required int32 	progress  = 3; //购买进度
+}
+
+message p_yy_shop_log {
+	required fixed64 role_id   = 1;
+	required string  role_name = 2;
+	required int32   suid      = 3;
+	required int32 	 shop_id   = 4;
+	required int32 	 reward_id = 5;
+}
+
+message p_yy_shop_reward_log {
+	required int32   id        = 1;
+	required fixed64 role_id   = 2;
+	required string  role_name = 3;
+	required int32   suid      = 4;
+	required int32   num 	   = 5; //奖励数量
+}

@@ -1,0 +1,86 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 角色信息
+message m_role_detail_tos { //1100001
+
+}
+
+message m_role_detail_toc { //1100001
+	required p_role_info role = 1;
+}
+
+// 查看其他角色
+message m_role_query_tos { //1100002
+	required fixed64 role_id = 1;
+}
+
+message m_role_query_toc { //1100002
+	required p_role_base  role   = 1;
+	repeated p_item       equips = 2;
+
+}
+
+// 改名
+message m_role_rename_tos { //1100004
+    required string name = 1;
+}
+
+message m_role_rename_toc { //1100004
+    required string name = 1;
+}
+
+// 更新玩家数据
+message m_role_update_toc { //1100005
+	map<string, int32>    upint  = 1; // 更新整型类型的数据
+	map<string, string>   upstr  = 2; // 更新字符串类型的数据
+	map<string, p_aspect> aspect = 3; // 更新玩家形象
+	map<int32, int32>     money  = 4; // 更新货币
+	optional int32        way    = 5; // 获取|消耗方式
+}
+
+// 更新玩家属性
+message m_role_upattr_toc { //1100006
+	required p_attr attr  = 1;
+	required int32  power = 2;
+}
+
+// 红点提示
+message m_role_redot_toc { //1100007
+	map<int32, int32> redots = 1;
+}
+
+
+// 角色详细信息
+message p_role_info {
+	required fixed64      id      = 1;  // 角色id
+	required string       name    = 2;  // 角色名
+	required int32        career  = 3;  // 职业
+	required int32        gender  = 4;  // 性别
+	required int32        level   = 5;  // 等级
+	required int32        exp     = 6;  // 经验
+	required int32        power   = 7;  // 战力
+	map<string, p_aspect> figure  = 8;  // 形象
+	required int32        viptype = 9;  // vip类型(ENUM_TYPE_XXX)
+	required int32        viplv   = 10; // vip等级
+	required int32        vipexp  = 11; // vip经验
+	required int32        vipend  = 12; // vip到期时间
+	required int32        gold    = 13; // 元宝
+	required int32        bgold   = 14; // 绑定元宝
+	required int32        coin    = 15; // 金币
+	required int32        bcoin   = 16; // 绑定金币
+	required int32        pkmode  = 17; // pk模式
+	required p_attr       attr    = 18; // 属性
+	repeated p_buff       buffs   = 19; // buff列表
+	required fixed64      guild   = 20; // 帮派id
+	required string       gname   = 21; // 帮派名称
+	required int32        scene   = 22; // 场景id
+	required int32        suid    = 23; // 服务器id
+	required int32        wake    = 24; // 觉醒次数
+	required int32        ctime   = 25; // 创角时间
+	required int32		  marry   = 26; // 结婚对象
+	required string 	  mname   = 27; // 结婚对象名字
+	required int32 		  mtype   = 28; // 结婚类型
+	map<int32, int32>     money   = 29; // 货币
+	optional p_icon       icon    = 30; // 玩家头像
+}

@@ -1,0 +1,51 @@
+syntax = "proto2";
+
+// 上报客户端的玩家信息
+message m_realname_info_tos { //1116001
+    required int32      status       = 1; // 1:OK; 2:UNKNOWN; 3:NEVER; 4:REALIZED
+    optional bool       is_registerd = 2; // 以下参数，当status为1时需要上传
+    optional int32      age          = 3;
+    optional bool       is_adult     = 4;
+    optional string     id_card      = 5;
+    optional string     real_name    = 6;
+}
+
+message m_realname_info_toc { //1116001
+    required bool       online_notice  = 1; //是否开启在线提醒
+    required bool       limit_charge   = 2; //是否开启充值限制
+    required bool       reduce_gain    = 3; //是否开启减少收益
+    required bool       is_registerd   = 4; //是否实名认证了
+    required int32      age            = 5;
+    required bool       is_adult       = 6; //是否成年
+    required int32      online_time    = 7; //在线时长
+    required int32      charge         = 8; //本月累计充值(元)
+    required int32      online_time2   = 9; //总在线时长
+}
+
+// 以下接口只有status为NEVER的需要请求
+// 请求君海认证接口通过后，再通知服务器实名登记
+message m_realname_register_tos { //1116002
+    required string     game_id         = 1;
+    required string     channel_id      = 2;
+    required string     game_channel_id = 3;
+    required string     user_id         = 4;
+    required string     area_code       = 5;
+    required string     id_card         = 6;
+    required string     real_name       = 7;
+}
+
+message m_realname_register_toc { //1116002
+    required bool       succ     = 1;
+    optional string     msg      = 2;
+    required int32      age      = 3;
+    required bool       is_adult = 4; //是否成年
+}
+
+// 玩家关闭实名界面，不认证，纳入防沉迷
+message m_realname_cancel_tos { //1116003
+
+}
+
+message m_realname_cancel_toc { //1116003
+
+}

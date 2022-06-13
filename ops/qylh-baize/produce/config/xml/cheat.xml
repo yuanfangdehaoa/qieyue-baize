@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cheats>
+
+    <cheat>
+    	<name>查询账号</name>
+    	<usage>acc-角色名称</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取道具</name>
+    	<usage>item-道具id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取道具</name>
+    	<usage>item-道具id-道具数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取道具</name>
+    	<usage>items-道具id列表</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取金钱</name>
+    	<usage>rich</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清除金钱</name>
+    	<usage>poor</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>加强防御</name>
+    	<usage>tank</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>加强输出</name>
+    	<usage>dps</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置元宝</name>
+    	<usage>gold-元宝数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置绑元</name>
+    	<usage>bgold-绑元数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置金币</name>
+    	<usage>coin-金币数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置绑金</name>
+    	<usage>bcoin-绑金数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取元宝</name>
+    	<usage>gold-元宝数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取绑元</name>
+    	<usage>bgold-绑元数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取金币</name>
+    	<usage>coin-金币数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取绑金</name>
+    	<usage>bcoin-绑金数量</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>升级</name>
+    	<usage>level-等级</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>升级</name>
+    	<usage>level-等级</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>快速建号</name>
+    	<usage>quick-等级</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>快速创建帮会</name>
+    	<usage>guild-帮会名称</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>加经验</name>
+    	<usage>level-经验</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>给自己发邮件</name>
+    	<usage>mail-标题-内容-附件</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>给别人发邮件</name>
+    	<usage>mail-玩家id-标题-内容-附件</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看buff</name>
+    	<usage>buff</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看属性</name>
+    	<usage>attr</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看属性</name>
+    	<usage>attr-属性</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置属性</name>
+    	<usage>attr-属性-值</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清理背包</name>
+    	<usage>clear-背包id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>召唤怪物</name>
+    	<usage>creep-怪物id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>切换场景</name>
+    	<usage>scene-场景id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>切换场景</name>
+    	<usage>scene-场景id-房间id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看开服天数</name>
+    	<usage>opdays</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置开服天数</name>
+    	<usage>opdays-天数</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置开服时间</name>
+    	<usage>otime-Days0</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看服务器时间</name>
+    	<usage>time</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清除服务器时间设置</name>
+    	<usage>timeclear</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置服务器时间</name>
+    	<usage>time-时间</usage>
+    	<sample>time-20.09.10</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置服务器时间</name>
+    	<usage>time-日期-时间</usage>
+    	<sample>time-2019.12.01-20.09.10</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置玩家速度</name>
+    	<usage>speed-速度</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置vip等级</name>
+    	<usage>vip-vip等级</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>完成当前所有主线任务</name>
+    	<usage>fintask</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>完成指定任务</name>
+    	<usage>fintask-TaskID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>接受任务</name>
+    	<usage>addtask-任务id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>删除任务</name>
+    	<usage>deltask-任务id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清除任务</name>
+    	<usage>clrtask</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>完成公会任务</name>
+    	<usage>guildtask</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>踢玩家下线</name>
+    	<usage>kick-RoleID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>重新加载活动配置</name>
+    	<usage>reload</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>开启活动</name>
+    	<usage>start-ActID-持续时长(秒)</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>关闭活动</name>
+    	<usage>stop-ActID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>开启运营活动</name>
+    	<usage>startyy-ActID-持续时长(秒)</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>关闭运营活动</name>
+    	<usage>stopyy-ActID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>重新加载运营活动配置</name>
+    	<usage>reloadyy</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清理运营活动数据</name>
+    	<usage>clearyy-ActID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置离线挂机时长</name>
+    	<usage>afk-时长(秒)</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>进入副本</name>
+    	<usage>dunge-副本id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>离开副本</name>
+    	<usage>leave</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看技能列表</name>
+    	<usage>skill</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>技能新增</name>
+    	<usage>addskill-技能id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>技能删除</name>
+    	<usage>delskill-技能id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>魔法塔</name>
+    	<usage>tower-层数</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>模拟充值</name>
+    	<usage>pay-GoodsID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置世界等级</name>
+    	<usage>worldlv-Level0</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置跨服世界等级</name>
+    	<usage>crosslv-Level0</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>中断采集</name>
+    	<usage>break</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>模拟发包</name>
+    	<usage>pt-协议id</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>模拟发包</name>
+    	<usage>pt-协议id-协议内容</usage>
+    	<sample>pt-1100002-RoleID</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看场景信息</name>
+    	<usage>scene</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看分线信息</name>
+    	<usage>line</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看玩家数据</name>
+    	<usage>role-Key</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>查看场景对象信息</name>
+    	<usage>actor-对象ID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>日常进度添加活跃度</name>
+    	<usage>daily-活跃度</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>日常幻化添加经验</name>
+    	<usage>daily_illusion-经验</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>登录奖励，设置累计登录天数</name>
+    	<usage>yylogin-天数</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获得BUFF</name>
+    	<usage>addbuff-BUFFID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>删除BUFF</name>
+    	<usage>delbuff-BUFFID</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清除次数</name>
+    	<usage>count</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清除技能cd</name>
+    	<usage>skillcd</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>升值VIP月卡天数</name>
+    	<usage>vip_mcard-Day</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>开启婚礼</name>
+    	<usage>wedding</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>清空今天的婚礼预约</name>
+    	<usage>weddingclear</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>掉落</name>
+    	<usage>drop-Min-Max</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>巅峰1v1段位</name>
+    	<usage>combat1v1_grade-Grade</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>巅峰1v1设置功勋</name>
+    	<usage>combat1v1_merit-Merit</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>重置神灵之路</name>
+    	<usage>resetgod</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>设置神灵之路关卡</name>
+    	<usage>setgodwave-Wave</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>重置大富豪</name>
+    	<usage>richman</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>获取套装</name>
+    	<usage>equip-Gender-Order-Color</usage>
+    	<sample>无</sample>
+    </cheat>
+
+    <cheat>
+    	<name>666</name>
+    	<usage>666</usage>
+    	<sample>无</sample>
+    </cheat>
+
+</cheats>

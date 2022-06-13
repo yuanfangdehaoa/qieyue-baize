@@ -1,0 +1,84 @@
+syntax = "proto2";
+
+// 查询(前端定时查询)
+message m_candyroom_info_tos { //1604001
+
+}
+
+message m_candyroom_info_toc { //1604001
+    required int32              activity_id = 1; //活动ID
+    required int32              etime       = 2; // 副本结束倒计时
+    required fixed64            exp         = 3; //累计经验
+    optional p_candyroom_rank   top         = 4; //第一名
+}
+
+// 查看排行榜
+message m_candyroom_rank_tos { //1604002
+    required int32          num = 1; //查询前多少的排名
+}
+
+message m_candyroom_rank_toc { //1604002
+    repeated p_candyroom_rank  ranks = 1;
+}
+
+// 查询送礼剩余次数
+message m_candyroom_gift_info_tos { //1604003
+    
+}
+
+message m_candyroom_gift_info_toc { //1604003
+    required int32          num = 1; //当前剩余次数
+}
+
+// 送礼
+message m_candyroom_send_gift_tos { //1604004
+    required fixed64       id      = 1; //收礼的玩家ID
+    required int32         gift_id = 2;
+}
+
+message m_candyroom_send_gift_toc { //1604004
+    required int32      num = 1; //当前剩余次数
+}
+
+// 收礼人
+message m_candyroom_receive_gift_toc { //1604008
+    
+}
+
+// 购买次数
+message m_candyroom_buy_tos { //1604005
+    required int32      num = 1; //购买的次数
+}
+
+message m_candyroom_buy_toc { //1604005
+    required int32      num = 1; //当前剩余次数
+}
+
+// 查询记录
+message m_candyroom_gift_log_tos { //1604006
+    required int32      type = 1; //1：收礼记录；2：赠送记录
+}
+
+message m_candyroom_gift_log_toc { //1604006
+    required int32           type = 1;
+    repeated p_candyroom_log logs = 2;
+}
+
+// 结算
+message m_candyroom_over_toc { //1604007
+    required int32          rank = 1;
+    required int32          exp  = 2;
+}
+
+message p_candyroom_rank {
+    required int32       rank  = 1;
+    required fixed64     id    = 2; // 角色id
+    required string      name  = 3; //
+    required int32       pop   = 4; // 人气
+}
+
+message p_candyroom_log {
+    required fixed64    id   = 1;
+    required string     name = 2;
+    required int32      num  = 3; // 赠送，收礼次数
+}

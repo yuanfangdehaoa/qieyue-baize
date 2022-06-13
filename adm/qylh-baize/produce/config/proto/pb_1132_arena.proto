@@ -1,0 +1,165 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+message m_arena_info_tos { //1132001
+    
+}
+
+message m_arena_info_toc { //1132001
+    required int32      rank      = 1; //排名
+    required int32      challenge = 2; //剩余挑战次数
+    required int32      sti_times = 3; //已激励次数
+    required int32      buy_times = 4; //已购买的挑战次数
+    repeated p_arena    list      = 5; //守关者信息
+}
+
+// 刷新守关者
+message m_arena_refresh_tos { //1132002
+    
+}
+
+message m_arena_refresh_toc { //1132002
+    repeated p_arena    list      = 1; //守关者信息
+}
+
+// 购买挑战次数
+message m_arena_add_challenge_tos { //1132003
+    required int32      num     = 1;
+}
+
+message m_arena_add_challenge_toc { //1132003
+    required int32      challenge = 1;
+    required int32      buy_times = 2;
+}
+
+// 开始挑战
+message m_arena_start_tos { //1132004
+    required int32      rank     = 1;
+    required fixed64    role_id  = 2; //挑战的玩家ID
+    required bool       is_merge = 3; //是否合并次数挑战
+    required bool       is_top   = 4; //是否挑战大神
+    required bool       is_skip  = 5; //是否跳过战斗
+}
+
+// 获取战场信息
+message m_arena_battle_tos { //1132005
+    
+}
+
+message m_arena_battle_toc { //1132005
+    optional int32      ptime = 1; // 准备结束时间
+    optional int32      etime = 2; // 副本结束时间
+}
+
+// 挑战结束
+message m_arena_end_toc { //1132007
+    required bool       is_win    = 1; //结果
+    required int32      old_rank  = 2;
+    required int32      new_rank  = 3;
+    required int32      challenge = 4; //合并挑战的次数
+}
+
+// 跳过战斗
+message m_arena_skip_tos { //1132008
+    
+}
+
+// 大神挑战信息
+message m_arena_top_tos { //1132009
+    
+}
+
+message m_arena_top_toc { //1132009
+    repeated p_arena    list      = 1;
+    required int32      challenge = 2; //挑战次数
+}
+
+// 战力激励
+message m_arena_stimulate_tos { //1132010
+    
+}
+
+message m_arena_stimulate_toc { //1132010
+    required int32      sti_times  = 1; //已激励次数
+}
+
+// 历史最高排行奖励
+message m_arena_highest_rank_tos { //1132011
+    
+}
+
+message m_arena_highest_rank_toc { //1132011
+    required int32      rank  = 1; //历史最高排名
+    repeated int32      fetch = 2; //已领取的奖励ID列表
+}
+
+// 领取最高排行奖励
+message m_arena_highest_rank_fetch_tos { //1132012
+    required int32      id = 1; //奖励ID
+}
+
+message m_arena_highest_rank_fetch_toc { //1132012
+    required int32      id = 1;
+}
+
+// 排名奖励信息(排行榜使用rank.proto)
+message m_arena_rank_tos { //1132013
+    
+}
+
+message m_arena_rank_toc { //1132013
+    required bool       is_fetch = 1; //是否领取了
+}
+
+message m_arena_rank_fetch_tos { //1132014
+    
+}
+
+message m_arena_rank_fetch_toc { //1132014
+    required bool       is_fetch = 1;
+}
+
+// 根据当前排名领取大神奖励
+message m_arena_top_rank_tos { //1132015
+
+}
+
+message m_arena_top_rank_toc { //1132015
+    required bool       is_fetch = 1;
+}
+
+message m_arena_top_rank_fetch_tos { //1132016
+    
+}
+
+message m_arena_top_rank_fetch_toc { //1132016
+    required bool       is_fetch = 1;
+}
+
+// 红点提示
+message m_arena_notice_tos { //1132017
+    
+}
+
+message m_arena_notice_toc { //1132017
+    required int32      cur_rank      = 1; //当前排名
+    required bool       challenge     = 2; //是否有挑战次数
+    required bool       top_challenge = 3; //是否有大神挑战次数
+    required bool       high_rank     = 4; //是否有突破奖励
+    required bool       rank          = 5; //是否有每日奖励
+    required bool       top_rank      = 6; //是否有大神奖励
+}
+
+// 守关者信息
+message p_arena {
+    required fixed64      id        = 1;  // 角色id 或者 机器人唯一id
+    required int32        creep     = 2;  // 机器人则为creep_id，玩家则为0
+    required int32        rank      = 3;  // 排名
+    required string       name      = 4;  // 角色名
+    required int32        career    = 5;  // 职业
+    required int32        gender    = 6;  // 性别
+    required int32        level     = 7;  // 角色等级
+    required int32        power     = 8;  // 战力
+    map<string, p_aspect> figure    = 9;  // 形象
+    required int32        sti_times = 10; // 激励次数
+}

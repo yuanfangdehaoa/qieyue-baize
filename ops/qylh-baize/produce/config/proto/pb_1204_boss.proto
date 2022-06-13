@@ -1,0 +1,141 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// boss列表
+message m_boss_list_tos { //1204001
+	required int32 type  = 1;
+	optional int32 floor = 2;
+}
+
+message m_boss_list_toc { //1204001
+	required int32  type   = 1;
+	repeated p_boss bosses = 2;
+	optional int32  tired  = 3; // 疲劳值
+	optional int32 	enter  = 4; // 已进入次数
+	optional int32  num    = 5; // 场景人数
+	optional int32  max_times   = 6; // 最大进入次数
+	optional int32  beast_tired = 7; // 异兽岛疲劳值
+	optional int32  beast_coll  = 8; // 异兽岛大水晶采集次数
+	optional int32  beast_coll2 = 9; // 异兽岛小水晶采集次数
+}
+
+// 单个boss信息
+message m_boss_info_toc { //1204002
+	required int32 id   = 1; // BossID
+	required int32 type = 2;
+	required int32 born = 3; // 出生时间戳
+	optional int32 weak = 4; // 宠物Boss品质回退时间
+	optional int32 num  = 5; // 当前剩余数量
+}
+
+// 关注boss
+message m_boss_care_tos { //1204003
+	required int32 id   = 1; // BossID
+	required int32 op   = 2; // 1=关注; 2=取消关注
+	required int32 type = 3; // BossType
+}
+
+message m_boss_care_toc { //1204003
+	required int32 id   = 1; // BossID
+	required int32 op   = 2; // 1=关注; 2=取消关注
+	required int32 type = 3; // BossType
+}
+
+// 击杀记录
+message m_boss_killed_tos { //1204004
+	required int32 id = 1; // BossID
+}
+
+message m_boss_killed_toc { //1204004
+	required int32    id   = 1; // BossID
+	repeated p_killed logs = 2; // 击杀记录
+}
+
+// 掉落记录
+message m_boss_dropped_tos { //1204005
+	required int32     type = 1; // 1=宠物Boss 2=非宠物Boss 3=跨服幻之岛
+}
+
+message m_boss_dropped_toc { //1204005
+	required int32     type = 1;
+	repeated p_dropped logs = 2; // 掉落日志
+}
+
+// 刷新提醒
+message m_boss_remind_toc { //1204006
+	required int32    id = 1; // BossID
+}
+
+// 愤怒值
+message m_boss_anger_tos { //1204008
+
+}
+
+message m_boss_anger_toc { //1204008
+	required int32 anger  = 1; // 增加后的愤怒值
+	required int32 kickcd = 2; // 愤怒值满后被踢出副本的倒计时(时间戳)
+}
+
+// 手动刷新
+message m_boss_refresh_tos { //1204009
+	required int32 id = 1; // BossID
+}
+
+message m_boss_refresh_toc { //1204009
+	required int32 id = 1; // BossID
+}
+
+// Boss 变化
+message m_boss_change_toc { //1204010
+	required int32 oldid = 1;
+	required int32 newid = 2;
+}
+
+// 停止倒退品质
+message m_boss_weakstop_toc { //1204011
+	required int32 id = 1; // BossID
+}
+
+// 伤害排名
+message m_boss_damage_rank_tos { //1204012
+	required uint64 id = 1; // Boss UID
+}
+
+message m_boss_damage_rank_toc { //1204012
+	repeated p_boss_damage_rank ranks     = 1;
+	required int32 				my_rank   = 2;
+	required int32 				my_damage = 3;
+}
+
+// 请求支援
+message m_boss_sos_tos {  //1204013
+}
+
+message m_boss_sos_toc {  //1204013
+	required p_role_base role = 1;
+	required int32  scene_id  = 2;
+	required double x         = 3;
+	required double y         = 4;
+}
+
+message p_boss {
+	required int32 id   = 1; // BossID
+	required int32 born = 2; // 出生时间戳
+	required bool  care = 3; // 是否关注
+	optional int32 weak = 4; // 宠物Boss品质回退时间
+	optional int32 num  = 5; // 当前剩余数量
+}
+
+message p_killed {
+	required int32  time    = 1; // 击杀时间
+	required string killer  = 2; // 击杀者
+	optional int32  quality = 3; // 击杀时的品质
+}
+
+message p_boss_damage_rank {
+	required int32   rank    = 1; // 名次
+	required bool    is_team = 2; // 是否组队1
+	required fixed64 captain = 3;
+	required string  name    = 4;
+	required int32 	 damage  = 5;
+}

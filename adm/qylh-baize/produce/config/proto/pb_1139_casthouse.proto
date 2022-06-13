@@ -1,0 +1,46 @@
+syntax = "proto2";
+
+//获取信息
+message m_casthouse_info_tos {  //1139001
+
+}
+
+message m_casthouse_info_toc {  //1139001
+	required int32 grid = 1;        //所在格子id
+	required int32 count = 2;       //开始次数
+	required int32 reset_count = 3; //重置次数
+	required int32 sezi_count = 4;  //色子免费次数
+	required int32 turn = 5;        //当前轮次
+	required int32 num = 6;         //色子数
+}
+
+//开始
+message m_casthouse_start_tos {  //1139002
+
+}
+
+message m_casthouse_start_toc {  //1139002
+	required int32 num = 1;         //色子数
+	required int32 sezi_count = 2;  //色子免费次数
+}
+
+//获得奖励
+message m_casthouse_reward_tos {  //1139003
+	
+}
+
+message m_casthouse_reward_toc {  //1139003
+	required int32 grid = 1;     //格子id
+	repeated int32 item_ids = 2; //奖励道具id
+}
+
+
+//重置次数
+message m_casthouse_reset_tos {  //1139004
+
+}
+
+message m_casthouse_reset_toc {  //1139004
+	
+}
+

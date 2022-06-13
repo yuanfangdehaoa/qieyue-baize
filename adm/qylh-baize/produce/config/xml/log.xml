@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 消费日志 -->
+<!-- notify : 前端是否需要播放获得动画 -->
+    <!-- 1 不需要播获得动画 -->
+    <!-- 2 需要播获得动画 -->
+<logs>
+    <log name="LOG_GM_DO"       code="1000" notify="1" desc="GM后台" />
+    <log name="LOG_GM_CHEAT"    code="1001" notify="1" desc="GM命令" />
+
+    <log name="LOG_PAY"        code="1005001" notify="1" desc="充值" />
+    <log name="LOG_PAY_REFUND" code="1005002" notify="1" desc="封测返还" />
+
+    <log name="LOG_ROLE_RENAME" code="1100001" notify="1" desc="角色改名" />
+
+    <log name="LOG_BAG_OPEN"   code="1101001" notify="1" desc="开启背包格子" />
+    <log name="LOG_BAG_STORE"  code="1101002" notify="1" desc="存放到仓库" />
+    <log name="LOG_BAG_FETCH"  code="1101003" notify="1" desc="从仓库取出" />
+
+    <log name="LOG_ITEM_USE"   code="1102001" notify="2" desc="使用道具" />
+    <log name="LOG_ITEM_CHUCK" code="1102002" notify="1" desc="丢弃道具" />
+    <log name="LOG_ITEM_SELL"  code="1102003" notify="1" desc="出售道具" />
+
+
+    <log name="LOG_TASK_SUBMIT"  code="1103001" notify="2" desc="完成任务" />
+    <log name="LOG_TASK_QUICK"   code="1103002" notify="2" desc="快速完成任务" />
+    <log name="LOG_TASK_CHAPTER" code="1103003" notify="2" desc="章节奖励" />
+    <log name="LOG_TASK_ACCEPT"  code="1103004" notify="2" desc="接受任务" />
+
+    <log name="LOG_MAIL_SEND"  code="1104001" notify="1" desc="邮件发送" />
+    <log name="LOG_MAIL_FETCH" code="1104002" notify="2" desc="邮件提取" />
+
+    <log name="LOG_EQUIP_PUTON"          code="1106001" notify="1" desc="穿上装备" />
+    <log name="LOG_EQUIP_PUTOFF"         code="1106002" notify="1" desc="脱下装备" />
+	<log name="LOG_EQUIP_STONE_FILLIN"   code="1106003" notify="1" desc="宝石镶嵌" />
+	<log name="LOG_EQUIP_STONE_TAKEDOWN" code="1106004" notify="1" desc="宝石取下" />
+	<log name="LOG_EQUIP_STONE_UPLEVEL"  code="1106005" notify="1" desc="宝石升级消耗" />
+	<log name="LOG_EQUIP_SUITE_MAKE"     code="1106006" notify="1" desc="制作套装" />
+	<log name="LOG_EQUIP_COMBINE_COST"   code="1106007" notify="1" desc="装备合成消耗" />
+    <log name="LOG_EQUIP_COMBINE_ADD"    code="1106008" notify="1" desc="装备合成" />
+	<log name="LOG_EQUIP_STRENGTH"       code="1106009" notify="1" desc="装备强化" />
+	<log name="LOG_EQUIP_SMELT"          code="1106010" notify="1" desc="装备熔炼" />
+	<log name="LOG_EQUIP_CAST"           code="1106011" notify="1" desc="装备铸造" />
+	<log name="LOG_EQUIP_REFINE_HOLE"    code="1106012" notify="1" desc="装备洗练解锁孔位" />
+	<log name="LOG_EQUIP_REFINE"         code="1106013" notify="1" desc="装备洗练" />
+	<log name="LOG_EQUIP_REFINE_BACK"    code="1106014" notify="1" desc="装备洗练还原" />
+	<log name="LOG_EQUIP_DESDROY"        code="1106015" notify="1" desc="过期包裹不够位置销毁" />
+    <log name="LOG_EQUIP_DECOMBINE"      code="1106016" notify="1" desc="装备拆解" />
+
+    <log name="LOG_MOUNT_UPGRADE" code="1107001" notify="1" desc="坐骑升级" />
+	<log name="LOG_MOUNT_TRAIN"   code="1107002" notify="1" desc="坐骑培养" />
+
+    <log name="LOG_MORPH_ACTIVE" code="1108001" notify="1" desc="幻化激活" />
+    <log name="LOG_MORPH_UPSTAR" code="1108002" notify="1" desc="幻化升星" />
+
+    <log name="LOG_TRAIN_UPGRADE" code="1109001" notify="1" desc="培养系统升级" />
+    <log name="LOG_TRAIN_ATTR"    code="1109002" notify="1" desc="培养属性" />
+
+    <log name="LOG_VIP_ACTIVE" code="1110001" notify="1" desc="vip激活" />
+    <log name="LOG_VIP_REWARD" code="1110002" notify="1" desc="vip奖励" />
+    <log name="LOG_VIP_EPOOL"  code="1110003" notify="1" desc="vip经验池" />
+    <log name="LOG_VIP_MCARD_BUY"  code="1110004" notify="1" desc="vip月卡购买" />
+    <log name="LOG_VIP_MCARD_FETCH"  code="1110005" notify="1" desc="vip月卡领取" />
+    <log name="LOG_VIP_INVEST_BUY"  code="1110006" notify="1" desc="vip投资计划购买" />
+    <log name="LOG_VIP_INVEST_FETCH"  code="1110007" notify="1" desc="vip投资计划领取" />
+    <log name="LOG_VIP_REBATE"  code="1110008" notify="1" desc="v4返利" />
+    <log name="LOG_VIP_PURCHASE"  code="1110009" notify="1" desc="直购" />
+
+    <log name="LOG_MCHUNT_HUNT"   code="1111001" notify="1" desc="魂卡寻宝消耗" />
+    <log name="LOG_MCHUNT_REWARD" code="1111002" notify="1" desc="魂卡寻宝奖励" />
+    <log name="LOG_MCHUNT_GET_KEY" code="1111003" notify="1" desc="寻宝钥匙领取" />
+
+    <log name="LOG_BEAST_ADDSUMMON"         code="1112001" notify="1" desc="神兽提升助阵次数" />
+    <log name="LOG_BEAST_EQUIP_LOAD"        code="1112002" notify="1" desc="神兽穿戴装备" />
+    <log name="LOG_BEAST_EQUIP_UNLOAD"      code="1112003" notify="1" desc="神兽卸载装备" />
+    <log name="LOG_BEAST_EQUIP_REINFORCE"   code="1112004" notify="1" desc="神兽强化装备" />
+
+    <log name="LOG_TOTEM_ADDSUMMON"         code="1112011" notify="1" desc="神兽提升助阵次数" />
+    <log name="LOG_TOTEM_EQUIP_LOAD"        code="1112012" notify="1" desc="神兽穿戴装备" />
+    <log name="LOG_TOTEM_EQUIP_UNLOAD"      code="1112013" notify="1" desc="神兽卸载装备" />
+    <log name="LOG_TOTEM_EQUIP_REINFORCE"   code="1112014" notify="1" desc="神兽强化装备" />
+
+    <log name="LOG_MARKET_SALE"   code="1113001" notify="1" desc="市场上架" />
+    <log name="LOG_MARKET_DEAL"   code="1113002" notify="1" desc="市场交易" />
+    <log name="LOG_MARKET_REMOVE" code="1113003" notify="1" desc="市场下架" />
+    <log name="LOG_MARKET_BUY"    code="1113004" notify="1" desc="市场购买" />
+
+    <log name="LOG_DAILY_REWARD"    code="1114001" notify="1" desc="日常领取" />
+
+    <log name="LOG_WEEKLY_FINISH"    code="1115001" notify="1" desc="周常单次活动领取" />
+    <log name="LOG_WEEKLY_REWARD"    code="1115002" notify="1" desc="周常领取" />
+
+	<log name="LOG_BABY_UPLEVEL"         code="1138001" notify="1" desc="子女培养消耗" />
+	<log name="LOG_BABY_PLAY_REWARD"     code="1138002" notify="1" desc="逗子女奖励" />
+	<log name="LOG_BABY_UP_ORDER"        code="1138003" notify="1" desc="子女升阶" />
+	<log name="LOG_BABY_ACTIVE"          code="1138004" notify="1" desc="子女激活" />
+	<log name="LOG_BABY_EQUIP_UPLEVEL"   code="1138005" notify="1" desc="子女装备升级" />
+	<log name="LOG_BABY_EQUIP_DECOMPOSE" code="1138006" notify="1" desc="子女装备分解" />
+	<log name="LOG_BABY_WING_UPLEVEL"    code="1138007" notify="1" desc="子女翅膀幻化" />
+
+	<log name="LOG_CASTHOUSE_REWARD"         code="1139001" notify="1" desc="铸造小屋奖励" />
+	<log name="LOG_CASTHOUSE_MOVE_COST"      code="1139002" notify="1" desc="铸造小屋扔色子消耗" />
+	<log name="LOG_CASTHOUSE_RESET_COST"     code="1139003" notify="1" desc="铸造小屋重置消耗" />
+
+	<log name="LOG_SOUL_UPLEVEL"           code="1140001" notify="1" desc="圣痕升级" />
+	<log name="LOG_SOUL_DECOMPOSE"         code="1140002" notify="1" desc="圣痕分解" />
+	<log name="LOG_SOUL_COMPOSE"           code="1140003" notify="1" desc="圣痕合成" />
+
+	<log name="LOG_GOD_EQUIP_UPLEVEL"           code="1144001" notify="1" desc="神灵装备升级" />
+	<log name="LOG_GOD_EQUIP_DECOMPOSE"         code="1144002" notify="1" desc="神灵装备分解" />
+
+    <log name="LOG_VIP2_ACTIVE" code="1148001" notify="1" desc="vip2激活" />
+
+    <log name="LOG_ARTIELEM_UPGRADE" code="1149001" notify="1" desc="神器元素升级" />
+    <log name="LOG_ARTIFACT_PUTON"   code="1149002" notify="1" desc="神器装备穿戴" />
+    <log name="LOG_ARTIFACT_PUTOFF"  code="1149003" notify="1" desc="神器装备卸下" />
+    <log name="LOG_ARTIFACT_REINF"   code="1149004" notify="1" desc="神器强化" />
+    <log name="LOG_ARTIFACT_ENCHANT" code="1149005" notify="1" desc="神器附灵" />
+
+    <log name="LOG_SCENE_ENTER" code="1200001" notify="1" desc="进入场景" />
+    <log name="LOG_SCENE_TELE"  code="1200002" notify="1" desc="瞬移" />
+
+    <log name="LOG_CREEP_DROP"   code="1201001" notify="2" desc="怪物掉落" />
+    <log name="LOG_REVIVE"       code="1201002" notify="1" desc="复活" />
+    <log name="LOG_DROP_PICKUP"  code="1201003" notify="2" desc="拾取" />
+
+    <log name="LOG_DUNGE_INSPIRE"       code="1203001" notify="1" desc="副本鼓舞" />
+    <log name="LOG_DUNGE_BUY_ENTER"     code="1203002" notify="1" desc="购买副本进入次数" />
+    <log name="LOG_DUNGE_CLEAR_CD"      code="1203003" notify="1" desc="清除副本进入CD" />
+    <log name="LOG_DUNGE_SWEEP"         code="1203004" notify="1" desc="副本扫荡" />
+    <log name="LOG_DUNGE_MAGIC_CLEAR"   code="1203005" notify="1" desc="魔法塔副本通关" />
+    <log name="LOG_DUNGE_MAGIC_DAILY"   code="1203006" notify="1" desc="魔法塔副本每日奖励" />
+    <log name="LOG_DUNGE_MAGIC_LOTO"    code="1203007" notify="1" desc="魔法塔副本抽奖" />
+	<log name="LOG_DUNGE_ASSIST"        code="1203008" notify="1" desc="副本助战" />
+    <log name="LOG_DUNGE_MOUNT_STAR"    code="1203009" notify="1" desc="进阶副本星数奖励" />
+    <log name="LOG_DUNGE_MOUNT_CLEAR"   code="1203010" notify="1" desc="进阶副本通关奖励" />
+    <log name="LOG_DUNGE_MOUNT_SWEEP"   code="1203011" notify="1" desc="进阶副本扫荡" />
+    <log name="LOG_DUNGE_PET_WAVE"      code="1203012" notify="1" desc="宠物副本波数奖励" />
+    <log name="LOG_DUNGE_COUPLE"        code="1203013" notify="1" desc="结婚副本奖励" />
+    <log name="LOG_DUNGE_GUILD_GUARD"   code="1203014" notify="1" desc="公会守卫奖励" />
+    <log name="LOG_DUNGE_SOUL_SUMMON"   code="1203015" notify="1" desc="圣痕秘境召唤BOSS" />
+    <log name="LOG_DUNGE_GOD_CLEAR"     code="1203016" notify="1" desc="神灵副本通关奖励" />
+    <log name="LOG_DUNGE_GOD_FIRST"     code="1203017" notify="1" desc="神灵副本首通奖励" />
+    <log name="LOG_DUNGE_NEWBIE_SUMMON" code="1203018" notify="1" desc="新手人鱼副本" />
+    <log name="LOG_DUNGE_RACE"          code="1203019" notify="1" desc="机甲竞速奖励" />
+
+    <log name="LOG_BOSS_REFRESH"  code="1204001" notify="1" desc="刷新Boss" />
+
+    <log name="LOG_AFK_REWARD"  code="1207001" notify="1" desc="离线挂机" />
+
+    <log name="LOG_FIRSTPAY"   code="1300001" notify="1" desc="首充"/>
+
+    <log name="LOG_ARENA_BUY_TIMES"   code="1302001" notify="1" desc="竞技场购买次数"/>
+    <log name="LOG_ARENA_STIMULATE"   code="1302002" notify="1" desc="竞技场鼓舞"/>
+    <log name="LOG_ARENA_CHALLENGE"   code="1302003" notify="1" desc="竞技场挑战奖励"/>
+    <log name="LOG_ARENA_HIGH_RANK"   code="1302004" notify="1" desc="竞技场突破奖励"/>
+    <log name="LOG_ARENA_RANK_REWARD" code="1302005" notify="1" desc="竞技场每日奖励"/>
+    <log name="LOG_ARENA_TOP_REWARD"  code="1302006" notify="1" desc="竞技场大神奖励"/>
+
+    <log name="LOG_MARRIAGE_STEP"         code="1134001" notify="1" desc="结婚三步走"/>
+    <log name="LOG_MARRIAGE_PROPOSAL"     code="1134002" notify="1" desc="求婚"/>
+    <log name="LOG_MARRIAGE_SUCC"         code="1134003" notify="1" desc="结婚成功"/>
+    <log name="LOG_MARRIAGE_RING"         code="1134004" notify="1" desc="婚戒升级"/>
+    <log name="LOG_MARRIAGE_RING_REPLACE" code="1134005" notify="1" desc="婚戒替换"/>
+
+    <log name="LOG_WEDDING_INVITE_ADD"  code="1135001" notify="1" desc="增加婚礼宾客"/>
+    <log name="LOG_WEDDING_PARTY"       code="1135002" notify="1" desc="婚礼副本"/>
+    <log name="LOG_WEDDING_PARTY_FETCH" code="1135003" notify="1" desc="婚礼热度奖励"/>
+
+	<log name="LOG_FINDBACK_FIND_REWARDS"  code="1136001" notify="1" desc="资源找回" />
+
+    <log name="LOG_TALENT_UPGRADE"  code="1141001" notify="1" desc="天赋升级" />
+    <log name="LOG_TALENT_RESET"    code="1141002" notify="1" desc="天赋重置" />
+
+    <log name="LOG_ILLUSTRATION_DECOMPOSE"    code="1142001" notify="1" desc="图鉴分解" />
+    <log name="LOG_ILLUSTRATION_UPSTAR"       code="1142002" notify="1" desc="图鉴升级" />
+
+    <log name="LOG_ACTPAY"       code="1143001" notify="1" desc="累充活动" />
+
+    <log name="LOG_ACTINVEST"       code="1145001" notify="1" desc="投资活动" />
+
+    <log name="LOG_MECHA_UPSTAR"  code="1147001" notify="1" desc="机甲升星" />
+    <log name="LOG_MECHA_UPGRADE" code="1147002" notify="1" desc="机甲升级" />
+
+    <log name="LOG_GUILD_CREATE"  code="1400001" notify="1" desc="创建帮派" />
+    <log name="LOG_GUILD_WELFARE" code="1400002" notify="1" desc="帮派福利" />
+    <log name="LOG_GUILD_DONATE"  code="1400003" notify="1" desc="帮派捐献" />
+    <log name="LOG_GUILD_EXCH"    code="1400004" notify="1" desc="帮派兑换" />
+    <log name="LOG_GUILD_NOTICE"  code="1400005" notify="1" desc="帮派公告修改" />
+    <log name="LOG_GUILD_RENAME"  code="1400006" notify="1" desc="帮派改名" />
+
+    <log name="LOG_GUILD_SKILL"   code="1402001" notify="1" desc="帮派技能升级" />
+
+    <log name="LOG_MALL_BUY"      code="1500001" notify="2" desc="商城购买" />
+	<log name="LOG_MALL_VALIDATE" code="1500002" notify="2" desc="精灵续期" />
+    <log name="LOG_MALL_BUY_PACK" code="1500003" notify="2" desc="商城打包购买" />
+
+	<log name="LOG_WAKE_QUICKLY"  code="1501001" notify="1" desc="一键觉醒" />
+	<log name="LOG_WAKE_ACTIVE"   code="1501002" notify="1" desc="激活格子" />
+
+    <log name="LOG_TREASURE_SEARCH"    code="7000001" notify="1" desc="寻宝" />
+	<log name="LOG_TREASURE_SEARCH_YY" code="7000002" notify="1" desc="主题寻宝" />
+
+	<log name="LOG_MAGIC_CARD_PUTON"     code="1502001" notify="1" desc="魔法卡装备" />
+	<log name="LOG_MAGIC_CARD_PUTOFF"    code="1502002" notify="1" desc="魔法卡取下" />
+	<log name="LOG_MAGIC_CARD_UPSTAR"    code="1502003" notify="1" desc="魔法卡升星" />
+	<log name="LOG_MAGIC_CARD_STRENGTH"  code="1502004" notify="1" desc="魔法卡强化" />
+	<log name="LOG_MAGIC_CARD_DECOMPOSE" code="1502005" notify="1" desc="魔法卡分解" />
+	<log name="LOG_MAGIC_CARD_COMBINE"   code="1502006" notify="1" desc="魔法卡融合" />
+
+	<log name="LOG_JOGTITLE_UPLEVEL"     code="1503001" notify="1" desc="头衔升级" />
+
+	<log name="LOG_FASHION_ACTIVE"       code="1504001" notify="1" desc="时装激活" />
+	<log name="LOG_FASHION_UPSTAR"       code="1504002" notify="1" desc="时装升星" />
+
+	<log name="LOG_TITLE_ACTIVE"         code="1505001" notify="1" desc="称号激活" />
+
+    <log name="LOG_TARGET_REWARD"        code="1506001" notify="1" desc="开服目标奖励"/>
+
+	<log name="LOG_WELFARE_LEVEL_REWARD"  code="1507001" notify="1" desc="等级礼包"/>
+	<log name="LOG_WELFARE_POWER_REWARD"  code="1507002" notify="1" desc="战力礼包"/>
+	<log name="LOG_WELFARE_ONLINE_REWARD" code="1507003" notify="1" desc="在线礼包"/>
+	<log name="LOG_WELFARE_GRAIL_REWARD"  code="1507004" notify="1" desc="圣杯祝福"/>
+	<log name="LOG_WELFARE_SIGN_REWARD"   code="1507005" notify="1" desc="每日签到"/>
+	<log name="LOG_WELFARE_NOTICE_REWARD" code="1507006" notify="1" desc="更新公告"/>
+	<log name="LOG_WELFARE_RES_REWARD"    code="1507007" notify="1" desc="资源大礼"/>
+    <log name="LOG_WELFARE_MSIC_REWARD"   code="1507008" notify="1" desc="其他奖励"/>
+    <log name="LOG_WELFARE_LOGIN_CHOOSE_REWARD"   code="1507009" notify="1" desc="上线任选礼包福利"/>
+
+	<log name="LOG_FRIEND_SEND_FLOWER"   code="1900001" notify="1" desc="好友送花"/>
+
+	<log name="LOG_ESCORT_REFRESH"       code="1508001"  way="0" desc="刷新护送品质"/>
+	<log name="LOG_ESCORT_REWARD"        code="1508002"  way="0" desc="护送奖励"/>
+
+    <log name="LOG_GUILDWAR_DAILY" code="1602001"  way="0" desc="公会乱斗每日福利"/>
+    <log name="LOG_GUILDWAR_CHIEF" code="1602002"  way="0" desc="公会乱斗帮主奖励"/>
+
+    <log name="LOG_MELEEWAR_REWARD"      code="1603001"  way="0" desc="乱斗战场奖励"/>
+
+    <log name="LOG_CANDYROOM_EXP"        code="1604001"  way="0" desc="糖果屋在线经验奖励"/>
+    <log name="LOG_CANDYROOM_GIFT"       code="1604002"  way="0" desc="糖果屋送礼奖励"/>
+    <log name="LOG_CANDYROOM_BUY"        code="1604003"  way="0" desc="糖果屋购买次数"/>
+
+    <log name="LOG_COMBAT1V1_BATTLE"        code="1605001"  way="0" desc="巅峰1v1单场奖励"/>
+    <log name="LOG_COMBAT1V1_JOIN_REWARD"   code="1605002"  way="0" desc="巅峰1v1场次奖励"/>
+    <log name="LOG_COMBAT1V1_DAILY_REWARD"  code="1605003"  way="0" desc="巅峰1v1每日奖励"/>
+    <log name="LOG_COMBAT1V1_MERIT_REWARD"  code="1605004"  way="0" desc="巅峰1v1功勋奖励"/>
+    <log name="LOG_COMBAT1V1_BUY_TIMES"     code="1605005"  way="0" desc="巅峰1v1购买次数"/>
+
+	<log name="LOG_WARRIOR_FLOOR_REWARD"     code="1606001"  way="0" desc="勇者圣坛层数奖励"/>
+
+    <log name="LOG_COMPETE_ENROLL"  code="1607001"  way="0" desc="钻石擂台报名"/>
+    <log name="LOG_COMPETE_LOOPEXP" code="1607002"  way="0" desc="钻石擂台经验"/>
+    <log name="LOG_COMPETE_BUYBUFF" code="1607003"  way="0" desc="钻石擂台Buff"/>
+    <log name="LOG_COMPETE_BATTLE"  code="1607004"  way="0" desc="钻石擂台战场奖励"/>
+    <log name="LOG_COMPETE_GUESS"   code="1607005"  way="0" desc="钻石擂台竞猜"/>
+
+    <log name="LOG_TIMEBOSS_SHIELD"   code="1608001"  way="0" desc="限时Boss破盾奖励"/>
+    <log name="LOG_TIMEBOSS_OPENBOX"  code="1608002"  way="0" desc="限时Boss开宝箱"/>
+
+    <log name="LOG_SIEGEWAR_BELONG_REWARD" code="1609001"  way="0" desc="夺城战boss归属奖励"/>
+    <log name="LOG_SIEGEWAR_BUY_MEDAL"     code="1609002"  way="0" desc="夺城战购买勋章"/>
+    <log name="LOG_SIEGEWAR_FETCH_MEDAL"   code="1609003"  way="0" desc="夺城战勋章进度奖励"/>
+    <log name="LOG_SIEGEWAR_OPENBOX"       code="1609004"  way="0" desc="夺城战开宝箱"/>
+
+    <log name="LOG_YUNYING_REWARD"       code="1700001"  way="0" desc="运营活动奖励"/>
+
+	<log name="LOG_YYLOGIN_REWARD"       code="1701001"  way="0" desc="累计登录奖励"/>
+    <log name="LOG_YYLOGIN_FLOP_GIFT"    code="1701002"  way="0" desc="翻牌好礼"/>
+
+    <log name="LOG_ACHIEVE_REWARD"       code="1801001"  way="0" desc="成就奖励"/>
+
+	<log name="LOG_PET_STRONG"           code="1901001"  way="0" desc="宠物训练"/>
+	<log name="LOG_PET_CROSS"            code="1901002"  way="0" desc="宠物升段"/>
+	<log name="LOG_PET_EVOLUTION"        code="1901003"  way="0" desc="宠物突破"/>
+	<log name="LOG_PET_BACK"             code="1901004"  way="0" desc="宠物突破回退"/>
+	<log name="LOG_PET_COMPOSE"          code="1901005"  notify="2" desc="宠物融合"/>
+	<log name="LOG_PET_DECOMPOSE"        code="1901006"  way="0" desc="宠物分解"/>
+    <log name="LOG_PET_EQUIP_REINF"      code="1901007"  way="0" desc="宠物装备强化"/>
+    <log name="LOG_PET_EQUIP_UPORDER"    code="1901008"  way="0" desc="宠物装备进阶"/>
+    <log name="LOG_PET_EQUIP_SMELT"      code="1901009"  way="0" desc="宠物装备分解"/>
+    <log name="LOG_PET_EQUIP_SPLIT"      code="1901010"  way="0" desc="宠物装备拆解"/>
+
+	<log name="LOG_GUILD_HOUSE_QUESTION"   code="1902001"  way="0" desc="帮会驻地答题奖励"/>
+	<log name="LOG_GUILD_HOUSE_LOOP_EXP"   code="1902002"  way="0" desc="帮会驻地经验奖励"/>
+	<log name="LOG_GUILD_HOUSE_CALL_BOSS"  code="1902003"  way="0" desc="帮会驻地召唤boss"/>
+	<log name="LOG_GUILD_HOUSE_RIGHT"      code="1902004"  way="0" desc="帮会驻地单题正确奖励"/>
+	<log name="LOG_GUILD_HOUSE_WRONG"      code="1902005"  way="0" desc="帮会驻地单题错误奖励"/>
+
+	<log name="LOG_GUILD_REDENVELOPE_SEND"    code="1903001"  way="0" desc="发红包"/>
+	<log name="LOG_GUILD_REDENVELOPE_SNATCH"  code="1903002"  way="0" desc="抢红包"/>
+
+
+
+    <!-- 运营活动奖励 -->
+    <log name="LOG_YUNYING_2" code="1700002" way="0" desc="每日累充" />
+    <log name="LOG_YUNYING_3" code="1700003" way="0" desc="每日累冲（成就奖励）" />
+    <log name="LOG_YUNYING_4" code="1700004" way="0" desc="0元礼包" />
+    <log name="LOG_YUNYING_5" code="1700005" way="0" desc="主题抽奖" />
+    <log name="LOG_YUNYING_6" code="1700006" way="0" desc="连充送V" />
+    <log name="LOG_YUNYING_7" code="1700007" way="0" desc="连充送V" />
+
+    <log name="LOG_YUNYING_101" code="1700101" way="0" desc="开服累充" />
+    <log name="LOG_YUNYING_102" code="1700102" way="0" desc="开服单日累充" />
+    <log name="LOG_YUNYING_103" code="1700103" way="0" desc="开服目标" />
+    <log name="LOG_YUNYING_104" code="1700104" way="0" desc="开服限购" />
+    <log name="LOG_YUNYING_105" code="1700105" way="0" desc="开服冲榜" />
+    <log name="LOG_YUNYING_201" code="1700201" way="0" desc="全员恶人" />
+    <log name="LOG_YUNYING_202" code="1700202" way="0" desc="完美情人" />
+    <log name="LOG_YUNYING_203" code="1700203" way="0" desc="集字有礼" />
+    <log name="LOG_YUNYING_204" code="1700204" way="0" desc="公会创立" />
+    <log name="LOG_YUNYING_205" code="1700205" way="0" desc="公会争霸" />
+
+    <log name="LOG_YUNYING_301" code="1700301" way="0" desc="宠物冲榜" />
+    <log name="LOG_YUNYING_302" code="1700302" way="0" desc="宠物限购" />
+    <log name="LOG_YUNYING_303" code="1700303" way="0" desc="限时上V5" />
+    <log name="LOG_YUNYING_304" code="1700304" way="0" desc="宠物首充" />
+    <log name="LOG_YUNYING_305" code="1700305" way="0" desc="宠物目标" />
+    <log name="LOG_YUNYING_306" code="1700306" way="0" desc="宠物宝箱" />
+
+    <log name="LOG_YUNYING_501" code="1700501" way="0" desc="神灵冲榜" />
+    <log name="LOG_YUNYING_502" code="1700502" way="0" desc="神灵目标" />
+    <log name="LOG_YUNYING_503" code="1700503" way="0" desc="累计消费" />
+    <log name="LOG_YUNYING_504" code="1700504" way="0" desc="神灵抢购" />
+    <log name="LOG_YUNYING_505" code="1700505" way="0" desc="积分兑换" />
+    <log name="LOG_YUNYING_506" code="1700506" way="0" desc="神灵之塔" />
+    <log name="LOG_YUNYING_507" code="1700507" way="0" desc="神灵之塔" />
+
+
+
+	<log name="LOG_YUNYING_401" code="1700401" way="0" desc="节日兑换" />
+    <log name="LOG_YUNYING_402" code="1700402" way="0" desc="节日宝箱" />
+    <log name="LOG_YUNYING_403" code="1700403" way="0" desc="节日狂欢" />
+    <log name="LOG_YUNYING_404" code="1700404" way="0" desc="节日连充" />
+	<log name="LOG_YUNYING_405" code="1700405" way="0" desc="节日累冲" />
+	<log name="LOG_YUNYING_406" code="1700406" way="0" desc="节日砸蛋" />
+
+    <log name="LOG_RICHMAN_DICE"  code="1702001" way="0" desc="大富豪掷骰子" />
+    <log name="LOG_RICHMAN_ROUND" code="1702002" way="0" desc="大富豪圈数奖励" />
+    <log name="LOG_RICHMAN_MEND"  code="1702003" way="0" desc="大富豪补签" />
+
+<log name="LOG_YUNYING_601" code="1700601" way="0" desc="机甲试炼" />
+<log name="LOG_YUNYING_701" code="1700701" way="0" desc="小R抽奖" />
+<log name="LOG_YUNYING_710" code="1700710" way="0" desc="神灵封印" />
+<log name="LOG_YUNYING_720" code="1700720" way="0" desc="限时秒杀" />
+<log name="LOG_YUNYING_740" code="1700740" way="0" desc="图鉴冲榜" />
+<log name="LOG_YUNYING_741" code="1700741" way="0" desc="图鉴限购" />
+<log name="LOG_YUNYING_742" code="1700742" way="0" desc="图鉴连充" />
+<log name="LOG_YUNYING_743" code="1700743" way="0" desc="图鉴目标" />
+<log name="LOG_YUNYING_744" code="1700744" way="0" desc="图鉴宝箱" />
+<log name="LOG_YUNYING_745" code="1700745" way="0" desc="累计充值" />
+<log name="LOG_YUNYING_750" code="1700750" way="0" desc="神秘夺宝" />
+<log name="LOG_YUNYING_760" code="1700760" way="0" desc="机械改造" />
+<log name="LOG_YUNYING_761" code="1700761" way="0" desc="机械改造" />
+<log name="LOG_YUNYING_770" code="1700770" way="0" desc="子女冲榜" />
+<log name="LOG_YUNYING_771" code="1700771" way="0" desc="子女限购" />
+<log name="LOG_YUNYING_772" code="1700772" way="0" desc="子女连充" />
+<log name="LOG_YUNYING_773" code="1700773" way="0" desc="子女目标" />
+<log name="LOG_YUNYING_774" code="1700774" way="0" desc="子女宝箱" />
+<log name="LOG_YUNYING_775" code="1700775" way="0" desc="子女冲榜-跨服" />
+<log name="LOG_YUNYING_776" code="1700776" way="0" desc="子女累充" />
+<log name="LOG_YUNYING_777" code="1700777" way="0" desc="兑换" />
+<log name="LOG_YUNYING_781" code="1700781" way="0" desc="机甲来袭第1天任务" />
+<log name="LOG_YUNYING_782" code="1700782" way="0" desc="机甲来袭第2天任务" />
+<log name="LOG_YUNYING_783" code="1700783" way="0" desc="机甲来袭第3天任务" />
+<log name="LOG_YUNYING_805" code="1700805" way="0" desc="合服冲榜" />
+<log name="LOG_YUNYING_804" code="1700804" way="0" desc="合服限购" />
+<log name="LOG_YUNYING_802" code="1700802" way="0" desc="合服累充" />
+<log name="LOG_YUNYING_1150" code="1701150" way="0" desc="大富豪" />
+<log name="LOG_YUNYING_901" code="1700901" way="0" desc="问卷调查" />
+<log name="LOG_YUNYING_407" code="1700407" way="0" desc="累计消费" />
+<log name="LOG_YUNYING_730" code="1700730" way="0" desc="烟花活动" />
+<log name="LOG_YUNYING_780" code="1700780" way="0" desc="跨服云购" />
+<log name="LOG_YUNYING_980" code="1700980" way="0" desc="扭蛋机" />
+<log name="LOG_YUNYING_100" code="1700100" way="0" desc="幸运转盘" />
+
+</logs>
+
+

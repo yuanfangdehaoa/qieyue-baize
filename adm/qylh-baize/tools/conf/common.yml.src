@@ -1,0 +1,42 @@
+---
+
+ansible_ssh_private_key_file: /root/.ssh/ops_rsa
+ansible_ssh_port: 9922
+
+erlang_version: 21.2
+erlang_location: "/usr/local/erl-{{ erlang_version }}"
+
+ssh_pass: {{ SSH_PASS }}
+timezone: {{ TIMEZONE }}
+
+###=============================================================================
+### sys.config 默认配置
+###=============================================================================
+
+##======================================
+## game
+##======================================
+game_id: 217
+
+game_name: qylh
+
+token: "00f0e38dddbe24b3744778ab879c8f12"
+
+cookie: "y4OY1!26X2bO*zy%pC$f*M#eWyVf^P%U"
+
+admin_host: "{{ ADMIN_HOST }}"
+
+admin_key: "G&D7aXA^rSz42HqCC8khy1St1wv62115"
+
+junhai_upload: "{{ JH_UPLOAD }}"
+
+##======================================
+## log
+##======================================
+virtual_host: <<"xw_qylh">>
+
+rabbit_host: "{{ RABBIT_HOST }}"
+
+username: <<"xw_admin">>
+
+password: <<"6oU^4q9zI64u">>

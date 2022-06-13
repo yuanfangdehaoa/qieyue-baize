@@ -1,0 +1,12 @@
+---
+
+- name: check if need config
+  stat:
+    path: "{{ serv_path }}"
+  register: p
+
+- name: generate sys.config
+  template:
+    src: sys.config.j2
+    dest: "{{ serv_path }}/etc/sys.config"
+  when: p.stat.isdir is defined and p.stat.isdir

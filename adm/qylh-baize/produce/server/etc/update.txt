@@ -1,0 +1,2 @@
+cfg_gift_code
+cfg_festival

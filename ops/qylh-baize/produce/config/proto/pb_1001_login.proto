@@ -1,0 +1,75 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 登录验证
+message m_login_verify_tos { //1001001
+	required string platform = 1; // 平台(xingwan|junhai)
+	required string gamechan = 2; // 游戏渠道
+	required string account  = 3; // 账号
+	required string token    = 4; // token
+	map<string, string> args = 5; // sdk参数
+}
+// args 说明
+// 通用
+//     zone_id : 区服id
+//     zone_name : 区服名称
+
+// 君海
+//     game_id : 游戏id
+//     channel_id : 渠道id
+
+message m_login_verify_toc { //1001001
+	required int32       career = 1; // 推荐职业
+	repeated p_role_base roles  = 2; // 角色列表
+}
+
+// 创建角色
+message m_login_create_tos { //1001002
+	required int32  career = 1; // 职业
+	required int32  gender = 2; // 性别
+	required string name   = 3; // 名字
+}
+
+message m_login_create_toc { //1001002
+	required fixed64 role_id = 1;
+}
+
+// 进入游戏
+message m_login_enter_tos { //1001003
+	required fixed64 role_id = 1;
+}
+
+message m_login_enter_toc { //1001003
+	repeated int32  suids = 1; // 游戏服id
+	required int32  open  = 2; // 开服时间
+	required int32  merge = 3; // 合服时间
+	required string token = 4; // 断线重连token
+}
+
+// 随机取名
+message m_login_name_tos { //1001004
+	required int32  gender = 1; // 性别
+}
+
+message m_login_name_toc { //1001004
+	required string name = 1; // 名字
+}
+
+// 断线重连
+message m_login_reconn_tos { //1001005
+	required fixed64  role_id = 1;
+	required string   token   = 2;
+}
+
+message m_login_reconn_toc { //1001005
+
+}
+
+// 离开游戏
+message m_login_leave_tos { //1001006
+
+}
+
+message m_login_leave_toc { //1001006
+
+}

@@ -1,0 +1,79 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 邮件信息
+message m_mail_info_tos { //1104001
+
+}
+
+message m_mail_info_toc { //1104001
+    required bool unread = 1; // 是否有未读邮件
+}
+
+// 邮件列表
+message m_mail_list_tos { //1104002
+}
+
+message m_mail_list_toc { //1104002
+    repeated p_mail mails = 1;
+}
+
+// // 发送邮件
+// message m_mail_send_tos { //1104003
+//     required string name  = 1; // 角色名
+//     required string title = 2; // 邮件标题
+//     required string text  = 3; // 邮件内容
+//     repeated int32  items = 4; // 附件
+// }
+
+// message m_mail_send_toc { //1104003
+
+// }
+
+// 收到新邮件
+message m_mail_recv_toc { //1104004
+    required p_mail mail = 1;
+}
+
+// 读取邮件
+message m_mail_read_tos { //1104005
+    required int32 mail_id = 1;
+}
+
+message m_mail_read_toc { //1104005
+    required int32    mail_id = 1;
+    required string   text    = 2; // 正文
+    repeated p_item   items   = 3; // 附件
+    map<int32, int64> money   = 4; // 货币
+}
+
+// 提取附件
+message m_mail_fetch_tos { //1104006
+    required int32 mail_id = 1; // 0表示提取所有
+}
+
+message m_mail_fetch_toc { //1104006
+    repeated int32 mail_id = 1;
+}
+
+// 删除邮件
+message m_mail_delete_tos { //1104007
+    repeated int32 mail_ids = 1;
+}
+
+message m_mail_delete_toc { //1104007
+    repeated int32 mail_ids = 1;
+}
+
+// 邮件
+message p_mail {
+    required int32  id     = 1; // 邮件id
+    required int32  type   = 2; // 类型
+    required string title  = 3; // 标题
+    required string from   = 4; // 发件人
+    required int32  send   = 5; // 发送时间
+    required int32  expire = 6; // 过期时间
+    required bool   read   = 7; // 是否已读取
+    required bool   attach = 8; // 是否包含附件
+    required bool   fetch  = 9; // 是否已领取附件
+}

@@ -1,0 +1,54 @@
+syntax = "proto2";
+
+// 已激活列表
+message m_morph_list_tos { //1108001
+	required int32 type = 1; // 幻化类型 TRAIN_XXX
+}
+
+message m_morph_list_toc { //1108001
+	required int32   type    = 1;
+	repeated p_morph morphs  = 2;
+	required int32   used_id = 3; // 当前幻化中的id
+}
+
+// 激活
+message m_morph_active_tos { //1108002
+	required int32 type = 1;
+	required int32 id   = 2;
+}
+
+message m_morph_active_toc { //1108002
+	required int32 type = 1;
+	required int32 id   = 2;
+}
+
+// 升星
+message m_morph_upstar_tos { //1108003
+	required int32 type    = 1;
+	required int32 id      = 2;
+	optional int32 item_id = 3; // 坐骑升星才需要用到
+}
+
+message m_morph_upstar_toc { //1108003
+	required int32   type    = 1;
+	required p_morph morph   = 2;
+	optional int32   item_id = 3; // 坐骑升星才需要用到
+}
+
+// 切换形象
+message m_morph_figure_tos { //1108004
+	required int32 type = 1;
+	required int32 id   = 2;
+}
+
+message m_morph_figure_toc { //1108004
+	required int32 type = 1;
+	required int32 id   = 2;
+	required int32 res  = 3; // 资源id
+}
+
+message p_morph {
+	required int32 id   = 1;
+	required int32 star = 2; // 星级
+	optional int32 exp  = 3; // 经验
+}

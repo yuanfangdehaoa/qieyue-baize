@@ -1,0 +1,211 @@
+syntax = "proto2";
+
+//等级礼包
+message m_welfare_level_tos {  //1123001
+
+}
+
+message m_welfare_level_toc {  //1123001
+	repeated int32 level = 1;       //已领取奖励
+	map<int32, int32> count = 2;    //已领取 key=level,val=已领取数量
+}
+
+//领取等级礼包
+message m_welfare_level_reward_tos { //1123002
+	required int32 level = 1;
+}
+
+message m_welfare_level_reward_toc { //1123002
+	required int32 level = 1;
+}
+
+//战力礼包
+message m_welfare_power_tos {  //1123003
+
+}
+
+message m_welfare_power_toc {  //1123003
+	repeated int32 power = 1;       //已领取奖励
+	map<int32, int32> count = 2;    //已领取 key=level,val=已领取数量
+}
+
+//领取战力礼包
+message m_welfare_power_reward_tos { //1123004
+	required int32 power = 1;
+}
+
+message m_welfare_power_reward_toc { //1123004
+	required int32 power = 1;
+}
+
+//在线礼包
+message m_welfare_online_tos {   //1123005
+
+}
+
+message m_welfare_online_toc {   //1123005
+	repeated int32 ids = 1;
+	required int32 online_time = 2;      //在线时长（秒）
+}
+
+//领取在线礼包
+message m_welfare_online_reward_tos { //1123006
+	required int32 id = 1;
+}
+
+message m_welfare_online_reward_toc { //1123006
+	required int32 id = 1;
+}
+
+//每日签到
+message m_welfare_sign_tos {     //1123007
+
+}
+
+message m_welfare_sign_toc {     //1123007
+	required int32 signs = 1;          //当前的签到天数
+	optional int32 max_days = 2;       //最大可签到天数
+	optional int32 count = 3;          //补签次数
+	optional bool is_sign = 4;         //是否已签到
+}
+
+//签到
+message m_welfare_sign_reward_tos {  //1123008
+
+}
+
+message m_welfare_sign_reward_toc {  //1123008
+
+}
+
+
+//圣杯祝福
+message m_welfare_grail_tos {    //1123009
+
+}
+
+message m_welfare_grail_toc {    //1123009
+	required int32 count = 1;          //祝福次数
+}
+
+//圣杯祝福奖励
+message m_welfare_grail_reward_tos {    //1123010
+
+}
+
+message m_welfare_grail_reward_toc {    //1123010
+
+}
+
+
+//更新公告
+message m_welfare_notice_tos {    //1123011
+	required int32 id = 1;       //公告id
+}
+
+message m_welfare_notice_toc {    //1123011
+	required int32 id = 1;
+	required bool is_get = 2;       //是否已领取
+}
+
+//更新公告领奖
+message m_welfare_notice_reward_tos {  //1123012
+	required int32 id = 1;     //公告id
+}
+
+message m_welfare_notice_reward_toc {  //1123012
+	required int32 id = 1;     //公告id
+}
+
+//资源奖励
+message m_welfare_res_tos {  //1123013
+
+}
+
+message m_welfare_res_toc {  //1123013
+	required bool is_get = 1;
+}
+
+//资源领奖
+message m_welfare_res_reward_tos { //1123014
+
+}
+
+message m_welfare_res_reward_toc { //1123014
+
+}
+
+//领取兑换码
+message m_welfare_giftcode_tos {   //1123015
+	required string code = 1;
+}
+
+message m_welfare_giftcode_toc {   //1123015
+
+}
+
+// 其他福利信息
+message m_welfare_misc_tos {   //1123016
+}
+
+message m_welfare_misc_toc {   //1123016
+  repeated p_welfare_misc welfares = 1;
+}
+
+// 其他福利领取
+message m_welfare_misc_reward_tos {   //1123017
+  required int32 type = 1; // 1=评论; 2=FB; 3=绑定; 4=绑定; 5=预约
+}
+
+message m_welfare_misc_reward_toc {   //1123017
+  required int32    type   = 1;
+  map<int32, int32> reward = 2;
+}
+
+//在线礼包
+message m_welfare_online2_tos {   //1123018
+
+}
+
+message m_welfare_online2_toc {   //1123018
+	repeated int32 ids = 1;
+	required int32 online_time = 2;      //在线时长（秒）
+}
+
+//领取在线礼包
+message m_welfare_online2_reward_tos { //1123019
+	required int32 id = 1;
+}
+
+message m_welfare_online2_reward_toc { //1123019
+	required int32 id = 1;
+}
+
+
+message p_welfare_misc {
+  required int32 type    = 1;
+  required bool  is_open = 2;
+  required bool  is_get  = 3;
+}
+
+//上线福利任意选信息
+message m_welfare_login_reward_info_tos { //1123020
+
+}
+
+message m_welfare_login_reward_info_toc { //1123020
+	repeated int32 reward_list  = 1;   //已领取奖励列表  空为未领取
+}
+
+//上线福利领取
+message m_welfare_get_login_reward_tos { //1123021
+	repeated int32 reward_list = 1;   //领取的奖励列表  正常发未领取的奖励列表
+}
+
+message m_welfare_get_login_reward_toc { //1123021
+	required int32 res = 1; //   1成功
+}
+
+
+
+

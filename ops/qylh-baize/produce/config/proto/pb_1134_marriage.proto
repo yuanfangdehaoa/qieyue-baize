@@ -1,0 +1,121 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+//结婚三步走
+message m_marriage_step_tos { //1134001
+    
+}
+
+message m_marriage_step_toc { //1134001
+    repeated p_marriage_step    steps = 1; //已完成和正在进行的步骤
+}
+
+//领奖励成功会再次返回m_marriage_step_toc
+message m_marriage_step_reward_tos { //1134002
+    required int32          id = 1;
+}
+
+message p_marriage_step {
+    required int32          id    = 1;
+    required int32          state = 2; //1：未完成；2：已完成；3：已领奖
+}
+
+// 求婚面板
+message m_marriage_proposal_panel_tos { //1134003
+    required fixed64        target = 1; //求婚对象ID
+}
+
+message m_marriage_proposal_panel_toc { //1134003
+    map<int32, int32>       types = 1; //各档次次数 <结婚档次, 次数>
+}
+
+// 求婚， 对方会受到proposal_request
+message m_marriage_proposal_tos { //1134004
+    required fixed64        target = 1;
+    required int32          type   = 2;
+    required bool           is_aa  = 3;
+}
+
+message m_marriage_proposal_toc { //1134004
+}
+
+// 当前求婚请求
+message m_marriage_proposal_request_tos { //1134005
+    
+}
+
+message m_marriage_proposal_request_toc { //1134005
+    optional p_role_base    role    = 1;
+    optional int32          type    = 2;
+    optional bool           is_aa   = 3;
+    optional int32          endtime = 4; //请求超时时间戳
+}
+
+message m_marriage_proposal_accept_tos { //1134006
+    required fixed64        target = 1;
+}
+
+message m_marriage_proposal_accept_toc { //1134006
+    
+}
+
+message m_marriage_proposal_refuse_tos { //1134007
+    required fixed64        target = 1;
+}
+
+message m_marriage_proposal_refuse_toc { //1134007
+    
+}
+
+// 推送给双方，求婚成功
+message m_marriage_proposal_succ_toc { //1134008
+    required p_role_base    proposer      = 1; 
+    required p_role_base    accepter      = 2;
+    required int32          type          = 3;
+    required int32          wedding_times = 4; //剩余可预约次数
+}
+
+// 离婚
+message m_marriage_divorce_tos { //1134010
+    
+}
+
+message m_marriage_divorce_toc { //1134010
+    
+}
+
+// 查询结婚信息
+message m_marriage_info_tos { //1134011
+    
+}
+
+message m_marriage_info_toc { //1134011
+    optional p_role_base        marry_with    = 1;
+    required int32              day           = 2; //结婚天数
+    required int32              intimacy      = 3; //亲密度
+    required bool               has_marry     = 4; //是否结过婚
+    required int32              wedding_times = 5; //剩余可预约次数
+}
+
+// 升级戒指
+message m_marriage_ring_upgrade_tos { //1134012
+    
+}
+
+message m_marriage_ring_upgrade_toc { //1134012
+    required p_marriage_ring  ring = 1;
+}
+
+// 查询戒指数据
+message m_marriage_ring_info_tos { //1134013
+}
+
+message m_marriage_ring_info_toc { //1134013
+    required p_marriage_ring    ring       = 1;
+}
+
+message p_marriage_ring {
+    required int32          grade = 1; //戒指阶位
+    required int32          level = 2; //戒指等级
+    required int32          exp   = 3; //戒指经验
+}

@@ -1,0 +1,23 @@
+---
+
+- hosts: "{{ machines }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: create dest directory
+    file:
+      path: "{{ path }}"
+      state: directory
+      owner: "{{ own }}"
+      group: "{{ grp }}"
+      mode: 0755
+
+  - name: copy backup file
+    copy:
+      src: "{{ src }}"
+      dest: "{{ dst }}"
+      owner: "{{ own }}"
+      group: "{{ grp }}"

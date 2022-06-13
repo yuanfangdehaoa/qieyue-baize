@@ -1,0 +1,1562 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<enums>
+
+<!-- 账号类型 -->
+<enum name="ACCOUNT">
+    <elem name="ACCOUNT_NM" code="1" desc="普通玩家" />
+    <elem name="ACCOUNT_GM" code="2" desc="GM玩家" />
+</enum>
+
+
+<!-- 职业 -->
+<enum name="CAREER">
+    <elem name="CAREER_SWORDMAN" code="1" desc="剑士" />
+    <elem name="CAREER_KNIGHT"   code="2" desc="骑士" />
+</enum>
+
+
+<!-- 性别 -->
+<enum name="GENDER">
+    <elem name="GENDER_MALE"   code="1" desc="男" />
+    <elem name="GENDER_FEMALE" code="2" desc="女" />
+</enum>
+
+
+<!-- 颜色 -->
+<enum name="COLOR">
+    <elem name="COLOR_WHITE"  code="1" desc="白色" />
+    <elem name="COLOR_GREEN"  code="2" desc="绿色" />
+    <elem name="COLOR_BLUE"   code="3" desc="蓝色" />
+    <elem name="COLOR_PURPLE" code="4" desc="紫色" />
+    <elem name="COLOR_ORANGE" code="5" desc="橙色" />
+    <elem name="COLOR_RED"    code="6" desc="红色" />
+    <elem name="COLOR_PINK"   code="7" desc="粉色" />
+</enum>
+
+
+<!-- 邮件类型 -->
+<enum name="MAIL_TYPE">
+    <elem name="MAIL_TYPE_PERSON"  code="1" desc="个人邮件" />
+    <elem name="MAIL_TYPE_SYSTEM"  code="2" desc="系统邮件" />
+    <elem name="MAIL_TYPE_REFUND"  code="3" desc="封测返还" />
+</enum>
+
+
+<!-- 道具类型 -->
+<enum name="ITEM_TYPE">
+    <elem name="ITEM_TYPE_EQUIP"         code="1"  desc="装备" />
+    <elem name="ITEM_TYPE_STONE"         code="2"  desc="宝石" />
+    <elem name="ITEM_TYPE_EQUIP_BEAST"   code="3"  desc="神兽装备" />
+	<elem name="ITEM_TYPE_EQUIP_BABY"    code="4"  desc="宝宝玩具" />
+    <elem name="ITEM_TYPE_ILLUSTRATION"  code="5"  desc="图鉴" />
+	<elem name="ITEM_TYPE_EQUIP_GOD"     code="6"  desc="灵器" />
+    <elem name="ITEM_TYPE_TASK"          code="8"  desc="任务" />
+    <elem name="ITEM_TYPE_MONEY"         code="9"  desc="货币" />
+    <elem name="ITEM_TYPE_MISC"          code="10" desc="杂货" />
+	<elem name="ITEM_TYPE_STONE2"        code="11"  desc="晶石" />
+	<elem name="ITEM_TYPE_EQUIP_MECHA"   code="12"  desc="机甲装备" />
+	<elem name="ITEM_TYPE_PET_EQUIP"     code="13"  desc="宠物装备" />
+    <elem name="ITEM_TYPE_ARTI_EQUIP"    code="14"  desc="神器装备" />
+    <elem name="ITEM_TYPE_TOTEMS_EQUIP"    code="15"  desc="图腾装备" />
+</enum>
+
+
+<enum name="ITEM_STYPE">
+    <!-- 装备 -->
+    <elem name="ITEM_STYPE_WEAPON" code="1001" desc="武器" />
+    <elem name="ITEM_STYPE_DEPUTY" code="1002" desc="副武" />
+    <elem name="ITEM_STYPE_NECK"   code="1003" desc="项链" />
+    <elem name="ITEM_STYPE_RING1"  code="1004" desc="戒指" />
+    <elem name="ITEM_STYPE_RING2"  code="1005" desc="手镯" />
+    <elem name="ITEM_STYPE_HELMET" code="1006" desc="头盔" />
+    <elem name="ITEM_STYPE_CLOTH"  code="1007" desc="胸甲" />
+    <elem name="ITEM_STYPE_PANTS"  code="1008" desc="腿甲" />
+    <elem name="ITEM_STYPE_GLOVE"  code="1009" desc="护手" />
+    <elem name="ITEM_STYPE_SHOES"  code="1010" desc="鞋子" />
+    <elem name="ITEM_STYPE_FAIRY"  code="1011" desc="幻灵" />
+    <elem name="ITEM_STYPE_LOCK"   code="1012" desc="婚戒" />
+	<elem name="ITEM_STYPE_FAIRY2"  code="1013" desc="梦魇" />
+
+	<elem name="ITEM_STYPE_HEAD"       code="4001" desc="竹蜻蜓" />
+    <elem name="ITEM_STYPE_LEFT_HAND"  code="4002" desc="玩具车" />
+    <elem name="ITEM_STYPE_RIGHT_HAND" code="4003" desc="小棉袄" />
+    <elem name="ITEM_STYPE_BACK"       code="4004" desc="书包" />
+    <elem name="ITEM_STYPE_LOIN"       code="4005" desc="护身符" />
+    <elem name="ITEM_STYPE_BOOTS"      code="4006" desc="鸭子鞋" />
+
+	<elem name="ITEM_STYPE_GOD_EQUIP_HEAD"   code="5001" desc="神之法冠" />
+  	<elem name="ITEM_STYPE_GOD_EQUIP_RING"   code="5002" desc="神灵吊坠" />
+    <elem name="ITEM_STYPE_GOD_EQUIP_FRONT"  code="5003" desc="神之法衣" />
+	<elem name="ITEM_STYPE_GOD_EQUIP_HUFU"   code="5004" desc="神灵右戒" />
+    <elem name="ITEM_STYPE_GOD_EQUIP_HAND"   code="5005" desc="神灵手镯" />
+    <elem name="ITEM_STYPE_GOD_EQUIP_WEAPON" code="5006" desc="神之护符" />
+	<elem name="ITEM_STYPE_GOD_EQUIP_GLOVE"  code="5007" desc="神灵护手" />
+	<elem name="ITEM_STYPE_GOD_EQUIP_LEG"    code="5008" desc="神灵护腿" />
+	<elem name="ITEM_STYPE_GOD_EQUIP_WING"   code="5009" desc="神之羽翼" />
+	<elem name="ITEM_STYPE_GOD_EQUIP_SHOE"   code="5010" desc="神之护靴" />
+
+	 <elem name="ITEM_STYPE_ILLUSTRATION"  code="6001" desc="图鉴" />
+
+	<elem name="ITEM_STYPE_MECHA_EQUIP_SHIELD"    code="7001" desc="防护罩" />
+  	<elem name="ITEM_STYPE_MECHA_EQUIP_PROPELLER" code="7002" desc="推进器" />
+    <elem name="ITEM_STYPE_MECHA_EQUIP_ENGINE"    code="7003" desc="引擎" />
+	<elem name="ITEM_STYPE_MECHA_EQUIP_RADAR"     code="7004" desc="雷达" />
+    <elem name="ITEM_STYPE_MECHA_EQUIP_CORE"      code="7005" desc="机甲核心" />
+
+    <elem name="ITEM_STYPE_HORNS"  code="3001" desc="兽角" />
+    <elem name="ITEM_STYPE_EYES"   code="3002" desc="眼睛" />
+    <elem name="ITEM_STYPE_TUSH"   code="3003" desc="獠牙" />
+    <elem name="ITEM_STYPE_PAW"    code="3004" desc="利爪" />
+    <elem name="ITEM_STYPE_SCUTE"  code="3005" desc="鳞甲" />
+
+    <elem name="ITEM_STYPE_PET_EQUIP_HUFU"   code="8001" desc="宠物头盔" />
+    <elem name="ITEM_STYPE_PET_EQUIP_HAND"   code="8002" desc="宠物精魄" />
+    <elem name="ITEM_STYPE_PET_EQUIP_RING"   code="8003" desc="宠物爪子" />
+    <elem name="ITEM_STYPE_PET_EQUIP_WEAPON"   code="8004" desc="宠物项圈" />
+
+
+
+    <!-- 杂货 -->
+    <elem name="ITEM_STYPE_LEVEL"          code="10001" desc="升级丹" />
+    <elem name="ITEM_STYPE_EXP"            code="10002" desc="固定经验丹" />
+    <elem name="ITEM_STYPE_GOLD"           code="10003" desc="元宝卡" />
+    <elem name="ITEM_STYPE_BGOLD"          code="10004" desc="绑定元宝卡" />
+    <elem name="ITEM_STYPE_COIN"           code="10005" desc="金币卡" />
+    <elem name="ITEM_STYPE_BCOIN"          code="10006" desc="绑定金币卡" />
+    <elem name="ITEM_STYPE_FAME"           code="10007" desc="声望卡" />
+    <elem name="ITEM_STYPE_HONOR"          code="10008" desc="荣誉卡" />
+    <elem name="ITEM_STYPE_FEAT"           code="10009" desc="功勋卡" />
+    <elem name="ITEM_STYPE_MANA"           code="10010" desc="威望卡" />
+    <elem name="ITEM_STYPE_CTRB"           code="10011" desc="帮贡卡" />
+    <elem name="ITEM_STYPE_ILLUS_ESSENCE"  code="10012" desc="图鉴精华卡" />
+
+
+
+    <!-- MC : MagicCard(魂卡) -->
+    <elem name="ITEM_STYPE_MC_EXP"   code="10012" desc="魂卡星尘" />
+    <elem name="ITEM_STYPE_MC_EXCH"  code="10013" desc="魂卡碎片" />
+    <elem name="ITEM_STYPE_MC_FUSE"  code="10014" desc="融合魂晶" />
+    <elem name="ITEM_STYPE_MC_HUNT"  code="10015" desc="寻宝能量" />
+
+    <elem name="ITEM_STYPE_EXP2"  code="10016" desc="经验直升丹" />
+    <elem name="ITEM_STYPE_EXP3"  code="10017" desc="等级经验丹" />
+    <elem name="ITEM_STYPE_PETJH" code="10018" desc="宠物精华卡" />
+    <elem name="ITEM_STYPE_EXP4"  code="10019" desc="等级经验丹" />
+
+    <elem name="ITEM_STYPE_SOUL_EXP"   code="10022" desc="圣痕经验" />
+    <elem name="ITEM_STYPE_SOUL_EXCH"  code="10023" desc="圣痕合成" />
+    <elem name="ITEM_STYPE_SOUL_FUSE"  code="10024" desc="圣痕进阶" />
+
+    <elem name="ITEM_STYPE_CLOTHES"    code="10070" desc="时装" />
+    <elem name="ITEM_STYPE_TITLE"      code="10071" desc="称号" />
+    <elem name="ITEM_STYPE_GIFT"       code="10080" desc="礼包" />
+    <elem name="ITEM_STYPE_FLOWER"     code="10081" desc="鲜花" />
+    <elem name="ITEM_STYPE_FIREWORK"   code="10082" desc="烟花" />
+    <elem name="ITEM_STYPE_LEVEL_GIFT" code="10083" desc="等级礼包" />
+
+    <elem name="ITEM_STYPE_MOUNT_EXP"   code="10101" desc="坐骑经验丹" />
+    <elem name="ITEM_STYPE_WING_EXP"    code="10102" desc="翅膀经验丹" />
+    <elem name="ITEM_STYPE_TALIS_EXP"   code="10103" desc="法宝经验丹" />
+    <elem name="ITEM_STYPE_WEAPON_EXP"  code="10104" desc="神兵经验丹" />
+    <elem name="ITEM_STYPE_OFFHAND_EXP" code="10105" desc="副手经验丹" />
+    <elem name="ITEM_STYPE_GOD_EXP"     code="10106" desc="神灵经验丹" />
+	<elem name="ITEM_STYPE_MECHA_EXP"   code="10107" desc="机甲经验丹" />
+
+    <elem name="ITEM_STYPE_MOUNT_ATTR"   code="10121" desc="坐骑属性丹" />
+    <elem name="ITEM_STYPE_OFFHAND_ATTR" code="10122" desc="副手属性丹" />
+
+    <elem name="ITEM_STYPE_MOUNT_MORPH"     code="10141" desc="坐骑幻化" />
+    <elem name="ITEM_STYPE_WING_MORPH"      code="10142" desc="翅膀幻化" />
+    <elem name="ITEM_STYPE_TALIS_MORPH"     code="10143" desc="法宝幻化" />
+    <elem name="ITEM_STYPE_WEAPON_MORPH"    code="10144" desc="神兵幻化" />
+    <elem name="ITEM_STYPE_OFFHAND_MORPH"   code="10145" desc="副手幻化" />
+	<elem name="ITEM_STYPE_BABY_WING_MORPH" code="10146" desc="宝宝翅膀幻化" />
+	<elem name="ITEM_STYPE_MECHA_MORPH"     code="10147" desc="机甲幻化" />
+
+    <elem name="ITEM_STYPE_EXP_CARD"             code="10151" desc="经验卡" />
+    <elem name="ITEM_STYPE_VIP_CARD"             code="10152" desc="vip卡" />
+    <elem name="ITEM_STYPE_AFK"                  code="10153" desc="挂机卡" />
+    <elem name="ITEM_STYPE_MAGICCARD"            code="10154" desc="魂卡" />
+    <elem name="ITEM_STYPE_SUITSTONE"            code="10155" desc="套装石" />
+    <elem name="ITEM_STYPE_BEASTSTONE"           code="10160" desc="神兽石" />
+    <elem name="ITEM_STYPE_OTHERS"               code="10163" desc="杂物" />
+    <elem name="ITEM_STYPE_GUILDBOSS"            code="10165" desc="公会召唤首领" />
+    <elem name="ITEM_STYPE_BOSS_TIRED"           code="10166" desc="世界首领疲劳值" />
+    <elem name="ITEM_STYPE_DUNGE_BUY"            code="10167" desc="副本门票" />
+    <elem name="ITEM_STYPE_BAG_EXP"              code="10168" desc="熔炼经验丹" />
+    <elem name="ITEM_STYPE_MC_GIFT"              code="10169" desc="魂卡礼包" />
+    <elem name="ITEM_STYPE_GUILD_CARD"           code="10170" desc="公会改名卡" />
+    <elem name="ITEM_STYPE_PAY_CARD"             code="10171" desc="充值卡" />
+    <elem name="ITEM_STYPE_BUFF"                 code="10172" desc="buff" />
+    <elem name="ITEM_STYPE_CHARACTER_CARD"       code="10173" desc="角色改名卡" />
+    <elem name="ITEM_STYPE_BEAST_TIRED"          code="10174" desc="异兽首领疲劳值" />
+    <elem name="ITEM_STYPE_BABY_BORN"            code="10175" desc="宝宝激活道具" />
+    <elem name="ITEM_STYPE_GOD_MORPH"            code="10177" desc="神灵幻化碎片" />
+    <elem name="ITEM_STYPE_SOUL"                 code="10179" desc="圣痕" />
+	<elem name="ITEM_STYPE_MECHA_MORPH_SUIPIAN"  code="10180" desc="机甲幻化碎片" />
+	<elem name="ITEM_STYPE_PET_EQUIP"      code="10182" desc="宠物装备材料" />
+                <elem name="ITEM_STYPE_BT_FIRSTPAY"      code="10183" desc="100充值卡" />
+
+   <!-- Pet(宠物) -->
+    <elem name="ITEM_STYPE_PET"        code="10201" desc="宠物" />
+    <elem name="ITEM_STYPE_PET_EGG"    code="10202" desc="宠物蛋" />
+
+</enum>
+
+
+<!-- 道具 -->
+<enum name="ITEM">
+    <elem name="ITEM_LEVEL"         code="90010001" desc="等级" />
+    <elem name="ITEM_EXP"           code="90010002" desc="经验" />
+    <elem name="ITEM_GOLD"          code="90010003" desc="钻石" />
+    <elem name="ITEM_BGOLD"         code="90010004" desc="绑定钻石" />
+    <elem name="ITEM_COIN"          code="90010005" desc="金币" />
+    <elem name="ITEM_BCOIN"         code="90010006" desc="绑定金币" />
+    <elem name="ITEM_FAME"          code="90010007" desc="声望" />
+    <elem name="ITEM_HONOR"         code="90010008" desc="荣誉" />
+    <elem name="ITEM_FEAT"          code="90010009" desc="功勋" />
+    <elem name="ITEM_MANA"          code="90010010" desc="威望" />
+    <elem name="ITEM_CONTRIB"       code="90010011" desc="帮贡" />
+    <elem name="ITEM_MC_EXP"        code="90010012" desc="魂卡星尘" />
+    <elem name="ITEM_MC_EXCH"       code="90010013" desc="魂卡碎片" />
+    <elem name="ITEM_MC_FUSE"       code="90010014" desc="融合魂晶" />
+    <elem name="ITEM_MC_HUNT"       code="90010015" desc="寻宝能量" />
+    <elem name="ITEM_GUILD_FUND"    code="90010016" desc="公会资金" />
+    <elem name="ITEM_WEEKLY_ACT"    code="90010017" desc="周活跃度" />
+    <elem name="ITEM_PLAYER_EXP"    code="90010018" desc="玩家等级经验" />
+    <elem name="ITEM_WORLDLV_EXP"   code="90010019" desc="世界等级经验" />
+    <elem name="ITEM_PET_CREAM"     code="90010020" desc="宠物精华" />
+	<elem name="ITEM_INTEGRAL"      code="90010021" desc="寻宝积分" />
+    <elem name="ITEM_SOUL_EXP"      code="90010022" desc="圣痕经验" />
+    <elem name="ITEM_SOUL_EXCH"     code="90010023" desc="圣痕合成" />
+    <elem name="ITEM_SOUL_FUSE"     code="90010024" desc="圣痕进阶" />
+    <elem name="ITEM_TALENT"        code="90010025" desc="天赋点" />
+    <elem name="ITEM_BOSSFEN"       code="90010026" desc="首领积分" />
+	<elem name="ITEM_BABY"          code="90010027" desc="宝宝精华" />
+    <elem name="ITEM_ILLUS_ESSENCE" code="90010028" desc="图鉴精华" />
+    <elem name="ITEM_ARENA_MONEY"   code="90010029" desc="擂台币" />
+	<elem name="ITEM_GOD_MONEY"     code="90010030" desc="神灵精华" />
+	<elem name="ITEM_MECHA_MONEY"   code="90010031" desc="钛合金板" />
+    <elem name="ITEM_MEDAL"         code="90010033" desc="勋章" />
+    <elem name="ITEM_PETEQUIP_EXP"  code="90010034" desc="宠物装备经验" />
+  <elem name="ITEM_GREEN_DRILL"  code="90010035" desc="市场货币绿钻" />
+ <elem name="ITEM_ELEMENT_1"  code="90010037" desc="元素1" />
+ <elem name="ITEM_ELEMENT_2"  code="90010038" desc="元素2" />
+ <elem name="ITEM_ELEMENT_3"  code="90010039" desc="元素3" />
+ <elem name="ITEM_ELEMENT_4"  code="90010040" desc="元素4" />
+ <elem name="ITEM_ELEMENT_5"  code="90010041" desc="元素5" />
+ <elem name="ITEM_ARTIFACT_EXP"  code="90010042" desc="神器强化经验" />
+
+
+    <elem name="ITEM_EXPADD"        code="90019001" desc="经验更新" />
+    <elem name="ITEM_EXPCOEF"       code="90019002" desc="经验系数" />
+
+    <elem name="ITEM_SHOES"         code="11001"    desc="小飞鞋" />
+    <elem name="ITEM_GRAIN"         code="30010001" desc="粮食" />
+    <elem name="ITEM_DICE_RANDOM"   code="13200"    desc="大富豪普通骰子" />
+    <elem name="ITEM_DICE_FIXED"    code="13201"    desc="大富豪固定骰子" />
+
+</enum>
+
+<!-- 属性类型 -->
+<enum name="ATTR_TYPE">
+    <elem name="ATTR_TYPE_BASE"   code="1" desc="基础系统属性" />
+    <elem name="ATTR_TYPE_WEAPON" code="2" desc="武器系统属性" />
+    <elem name="ATTR_TYPE_ARMOR"  code="3" desc="防具系统属性" />
+    <elem name="ATTR_TYPE_JEWEL"  code="4" desc="饰品系统属性" />
+    <elem name="ATTR_TYPE_NORMAL" code="5" desc="普通系统属性" />
+
+</enum>
+
+
+<!-- 属性代码 -->
+<enum name="ATTR">
+    <elem name="ATTR_HP"         code="1"  desc="当前生命" />
+    <elem name="ATTR_HPMAX"      code="2"  desc="生命" />
+    <elem name="ATTR_SPEED"      code="3"  desc="速度(像素/秒),20的倍数" />
+    <elem name="ATTR_ATT"        code="4"  desc="攻击" />
+    <elem name="ATTR_DEF"        code="5"  desc="防御" />
+    <elem name="ATTR_WRECK"      code="6"  desc="破甲" />
+    <elem name="ATTR_HIT"        code="7"  desc="命中" />
+    <elem name="ATTR_MISS"       code="8"  desc="闪避" />
+    <elem name="ATTR_CRIT"       code="9"  desc="暴击" />
+    <elem name="ATTR_TOUGH"      code="10" desc="坚韧" />
+    <elem name="ATTR_HOLY_ATT"   code="11" desc="魔法攻击" />
+    <elem name="ATTR_HOLY_DEF"   code="12" desc="魔法防御" />
+    <elem name="ATTR_DMG_AMP"    code="13" desc="伤害加深" />
+    <elem name="ATTR_DMG_RED"    code="14" desc="伤害减免" />
+    <elem name="ATTR_HIT_PRO"    code="15" desc="命中几率" />
+    <elem name="ATTR_MISS_PRO"   code="16" desc="闪避几率" />
+    <elem name="ATTR_ARMOR_PRO"  code="17" desc="人物护甲" />
+    <elem name="ATTR_ARMOR_STR"  code="18" desc="护甲穿透" />
+    <elem name="ATTR_BLOCK_PRO"  code="19" desc="格挡几率" />
+    <elem name="ATTR_BLOCK_STR"  code="20" desc="格挡穿透" />
+    <elem name="ATTR_CRIT_PRO"   code="21" desc="暴击几率" />
+    <elem name="ATTR_CRIT_RES"   code="22" desc="暴击抵抗" />
+    <elem name="ATTR_HEART_PRO"  code="23" desc="会心几率" />
+    <elem name="ATTR_HEART_RES"  code="24" desc="会心抵抗" />
+    <elem name="ATTR_CRIT_DMG"   code="25" desc="暴击伤害" />
+    <elem name="ATTR_HEART_DMG"  code="26" desc="会心伤害" />
+    <elem name="ATTR_SKILL_AMP"  code="27" desc="技能增伤" />
+    <elem name="ATTR_SKILL_RED"  code="28" desc="技能减伤" />
+    <elem name="ATTR_THUMP_PRO"  code="29" desc="重击几率" />
+    <elem name="ATTR_WEAK_PRO"   code="30" desc="虚弱几率" />
+
+    <elem name="ATTR_CRIT_RED"        code="31" desc="暴伤减免" />
+    <elem name="ATTR_HEW_AMP"         code="32" desc="普攻增伤" />
+    <elem name="ATTR_BLOCK_RED"       code="33" desc="格挡免伤" />
+    <elem name="ATTR_PVP_RED"         code="34" desc="pvp免伤" />
+    <elem name="ATTR_PVP_ARMOR_PRO"   code="35" desc="pvp人物护甲" />
+    <elem name="ATTR_PVP_ARMOR_STR"   code="36" desc="pvp护甲穿透" />
+    <elem name="ATTR_BOSS_AMP"        code="37" desc="boss增伤" />
+    <elem name="ATTR_CREEP_AMP"       code="38" desc="怪物增伤" />
+
+    <elem name="ATTR_SKILL_ATT_POWER" code="39" desc="攻击侧技能战力" />
+    <elem name="ATTR_SKILL_DEF_POWER" code="40" desc="防御侧技能战力" />
+
+    <elem name="ATTR_DMG_RED_S"  code="41" desc="伤害减免" />
+    <elem name="ATTR_PVP_RED_S"  code="42" desc="pvp免伤" />
+    <elem name="ATTR_HEART_RED"  code="43" desc="会心减免" />
+
+    <elem name="ATTR_POWER"    code="44" desc="战力" />
+    <elem name="ATTR_ABS_ATT"  code="45" desc="绝对攻击" />
+    <elem name="ATTR_ABS_MISS" code="46" desc="绝对闪避" />
+
+    <!-- GP: Global Percent 全局百分比, LP:部分百分比 -->
+    <elem name="ATTR_ALL_GP"      code="1100" desc="全属性百分比(全局)" />
+    <elem name="ATTR_HPMAX_GP"    code="1102" desc="生命加成" />
+    <elem name="ATTR_SPEED_GP"    code="1103" desc="速度加成" />
+    <elem name="ATTR_ATT_GP"      code="1104" desc="攻击加成" />
+    <elem name="ATTR_DEF_GP"      code="1105" desc="防御加成" />
+    <elem name="ATTR_WRECK_GP"    code="1106" desc="破甲加成" />
+    <elem name="ATTR_HIT_GP"      code="1107" desc="命中加成" />
+    <elem name="ATTR_MISS_GP"     code="1108" desc="闪避加成" />
+    <elem name="ATTR_CRIT_GP"     code="1109" desc="暴击加成" />
+    <elem name="ATTR_TOUGH_GP"    code="1110" desc="坚韧加成" />
+    <elem name="ATTR_HOLY_ATT_GP" code="1111" desc="魔攻加成" />
+    <elem name="ATTR_HOLY_DEF_GP" code="1112" desc="魔防加成" />
+    <!-- PP: Part Percent 部分百分比 -->
+    <elem name="ATTR_ALL_PP"      code="1200" desc="全属性百分比(部分)" />
+    <elem name="ATTR_HPMAX_PP"    code="1202" desc="生命" />
+    <elem name="ATTR_ATT_PP"      code="1204" desc="攻击" />
+    <elem name="ATTR_DEF_PP"      code="1205" desc="防御" />
+    <elem name="ATTR_WRECK_PP"    code="1206" desc="破甲" />
+    <elem name="ATTR_HIT_PP"      code="1207" desc="命中" />
+    <elem name="ATTR_MISS_PP"     code="1208" desc="闪避" />
+    <elem name="ATTR_CRIT_PP"     code="1209" desc="暴击" />
+    <elem name="ATTR_TOUGH_PP"    code="1210" desc="坚韧" />
+    <elem name="ATTR_HOLY_ATT_PP" code="1211" desc="魔法攻击" />
+    <elem name="ATTR_HOLY_DEF_PP" code="1212" desc="魔法防御" />
+    <!-- BP: Base Percent 基础百分比 -->
+    <elem name="ATTR_HPMAX_BP"    code="1302" desc="基础生命" />
+    <elem name="ATTR_ATT_BP"      code="1304" desc="基础攻击" />
+    <elem name="ATTR_DEF_BP"      code="1305" desc="基础防御" />
+    <elem name="ATTR_WRECK_BP"    code="1306" desc="基础破甲" />
+    <!-- WP: Weapon Percent 武器百分比 -->
+    <elem name="ATTR_ATT_WP"      code="1404" desc="武器攻击" />
+    <elem name="ATTR_WRECK_WP"    code="1406" desc="武器破甲" />
+    <!-- AP: Armor Percent 防具百分比 -->
+    <elem name="ATTR_HPMAX_AP"    code="1502" desc="防具生命" />
+    <elem name="ATTR_DEF_AP"      code="1505" desc="防具防御" />
+    <!-- JP: Jewel Percent 饰品百分比 -->
+    <elem name="ATTR_ATT_JP"      code="1604" desc="饰品攻击" />
+
+    <elem name="ATTR_EXP_PER"         code="2000" desc="经验加成" />
+    <elem name="ATTR_GOLD_DROP"       code="2001" desc="金币掉率" />
+    <elem name="ATTR_ITEM_DROP"       code="2002" desc="物品掉率" />
+    <!-- 装备 -->
+    <elem name="ATTR_EQUIP_DEF"   code="2003" desc="每3级增加防御" />
+    <elem name="ATTR_EQUIP_HPMAX" code="2004" desc="每3级增加生命" />
+    <elem name="ATTR_EQUIP_ATT"   code="2005" desc="每3级增加攻击" />
+    <!-- 天书 -->
+    <elem name="ATTR_TARGET_ATT"      code="2006" desc="每级增加10点攻击" />
+    <elem name="ATTR_TARGET_BOSS_AMP" code="2007" desc="每50级提高2% 对boss伤害" />
+    <!-- 减少技能cd百分比 -->
+    <elem name="ATTR_SKILLCD_RED" code="2009" desc="减少技能cd百分比" />
+    <!-- 强化加成 -->
+    <elem name="ATTR_TARGET_ES"     code="2010" desc="强化加成" />
+    <!-- 机甲变身护盾值 -->
+    <elem name="ATTR_MECHA_SHIELD"  code="2011" desc="机甲护盾" />
+    <!-- 神器附灵百分比属性 -->
+    <elem name="ATTR_ENCHANT"  code="2012" desc="神器附灵百分比属性" />
+
+</enum>
+
+
+<!-- 事件 -->
+<enum name="EVENT">
+    <elem name="EVENT_LEVEL"              code="1"  desc="升级" />
+    <elem name="EVENT_TALK"               code="2"  desc="对话" />
+    <elem name="EVENT_CREEP"              code="3"  desc="打怪" />
+    <elem name="EVENT_DUNGE"              code="4"  desc="副本" />
+    <elem name="EVENT_ITEM"               code="5"  desc="收集道具" />
+    <elem name="EVENT_EQUIP"              code="6"  desc="装备" />
+    <elem name="EVENT_TASK"               code="7"  desc="完成任务" />
+    <elem name="EVENT_FLOWER"             code="8"  desc="送花" />
+    <elem name="EVENT_DUNGE_FLOOR"        code="9"  desc="副本层数" />
+    <elem name="EVENT_DUNGE_ENTER"        code="10" desc="副本进入" />
+    <elem name="EVENT_ATTR"               code="11" desc="属性变化" />
+    <elem name="EVENT_POWER"              code="12" desc="战力提升" />
+    <elem name="EVENT_EQUIP_STRENGTH"     code="13" desc="强化装备" />
+    <elem name="EVENT_ESCORT"             code="14" desc="极地穿越" />
+    <elem name="EVENT_WAKE"               code="15" desc="觉醒" />
+    <elem name="EVENT_PAY"                code="16" desc="充值" />
+    <elem name="EVENT_TRAIN_ORDER"        code="17" desc="培养系统升阶" />
+    <elem name="EVENT_MORPH_STAR"         code="18" desc="幻化系统升星" />
+    <elem name="EVENT_COLLECT"            code="19" desc="采集" />
+    <elem name="EVENT_ACHIEVE"            code="20" desc="成就点" />
+    <elem name="EVENT_DUNGE_STAR"         code="21" desc="副本难度" />
+    <elem name="EVENT_RANK"               code="22" desc="排行榜排名" />
+    <elem name="EVENT_MC_POWER"           code="23" desc="魂卡战力" />
+    <elem name="EVENT_COMPOSE"            code="24" desc="道具合成" />
+    <elem name="EVENT_LIVENESS"           code="25" desc="活跃度" />
+    <elem name="EVENT_FRIEND"             code="26" desc="添加好友" />
+    <elem name="EVENT_STONE"              code="27" desc="宝石镶嵌" />
+    <elem name="EVENT_GUILD_JOIN"         code="28" desc="加入公会" />
+    <elem name="EVENT_EQUIP_SMELT"        code="29" desc="吞噬装备" />
+    <elem name="EVENT_MARKET_SALE"        code="30" desc="市场上架" />
+    <elem name="EVENT_GUILD_DONATE"       code="31" desc="公会捐献" />
+    <elem name="EVENT_ARENA"              code="32" desc="竞技场排名" />
+    <elem name="EVENT_PET_COMPOSE"        code="33" desc="宠物融合" />
+    <elem name="EVENT_VIPLV"              code="34" desc="提升vip" />
+    <elem name="EVENT_STONE_UPGRADE"      code="35" desc="宝石升级" />
+    <elem name="EVENT_BEAST_LOAD"         code="36" desc="神兽穿装备" />
+    <elem name="EVENT_PET_GET"            code="37" desc="宠物获得" />
+    <elem name="EVENT_SEARCH_TREASURE"    code="38" desc="装备寻宝" />
+    <elem name="EVENT_MC_HUNT"            code="39" desc="魂卡寻宝" />
+    <elem name="EVENT_VIP_CARD"           code="40" desc="购买vip卡" />
+    <elem name="EVENT_INVEST"             code="41" desc="购买投资计划" />
+    <elem name="EVENT_MARRY"              code="42" desc="结婚" />
+    <elem name="EVENT_CONSUME"            code="43" desc="消费" />
+    <elem name="EVENT_VIP_MCARD"          code="44" desc="购买月卡" />
+    <elem name="EVENT_YY_ACT"             code="45" desc="运营活动事件" />
+    <elem name="EVENT_WELFARE_GRAIL"      code="46" desc="天天祈福" />
+    <elem name="EVENT_LOGIN"              code="47" desc="登录游戏" />
+    <elem name="EVENT_YY_SEARCH"          code="48" desc="主题寻宝" />
+    <elem name="EVENT_GUILD_CREATE"       code="49"  desc="帮派创建" />
+    <elem name="EVENT_GUILD_APPOINT"      code="50"  desc="帮派任命" />
+    <elem name="EVENT_GUILD_NUM"          code="51"  desc="帮派人数" />
+    <elem name="EVENT_MAKE_SUIT"          code="52"  desc="锻造套装" />
+    <elem name="EVENT_PET_FIGHT"          code="53"  desc="出战/上阵宠物" />
+    <elem name="EVENT_PET_EVOLUTION"      code="54"  desc="宠物突破x次" />
+    <elem name="EVENT_PET_STRONG"         code="55"  desc="宠物训练x次" />
+    <elem name="EVENT_ATTEND_ACTIVITY"    code="56"  desc="参与xx活动xx次" />
+    <elem name="EVENT_DUNGE_INSPIRE"      code="57"  desc="在经验宝库中鼓舞xx次" />
+    <elem name="EVENT_ROLE_DEATH"         code="58"  desc="角色死亡x次" />
+    <elem name="EVENT_KILL_ROLE"          code="59"  desc="击败X名玩家" />
+    <elem name="EVENT_WELFARE_SIGN"       code="60"  desc="累计签到xxx天（福利那个签到）" />
+    <elem name="EVENT_OPEN_BAG"           code="61"  desc="开启xx格xx背包" />
+    <elem name="EVENT_GUILD_LEVEL"        code="62"  desc="公会等级" />
+    <elem name="EVENT_QUESTION"           code="63"  desc="答题" />
+    <elem name="EVENT_SEND_REDENVELOPE"   code="64"  desc="发放红包" />
+    <elem name="EVENT_GWAR_WIN"           code="65"  desc="公会争霸获得胜利 " />
+    <elem name="EVENT_GWAR_BREAK"         code="66"  desc="公会争霸终结连胜" />
+    <elem name="EVENT_ACTIVITY_JOIN"      code="67"  desc="活动参与" />
+    <elem name="EVENT_PET_POWER"          code="68"  desc="宠物战力" />
+    <elem name="EVENT_PET_TOTAL_POWER"    code="69"  desc="宠物总战力" />
+    <elem name="EVENT_GWAR_RANK"          code="70"  desc="公会争霸排名" />
+    <elem name="EVENT_YY_LOTTERY"         code="71"  desc="砸蛋" />
+    <elem name="EVENT_GOD_TOTAL_POWER"    code="72"  desc="神灵总战力" />
+    <elem name="EVENT_EQUIP_REFINE"       code="73"  desc="装备洗练" />
+    <elem name="EVENT_EQUIP_CAST"         code="74"  desc="装备铸造" />
+    <elem name="EVENT_BEAST_SUMMON"       code="75"  desc="异兽助战" />
+	<elem name="EVENT_SEARCH_TOP"         code="76"  desc="巅峰寻宝" />
+    <elem name="EVENT_EQUIP_STR_FINAL"    code="77"  desc="强化装备（只触发一次）" />
+    <elem name="EVENT_ADD_INTIMACY"       code="78"  desc="增加亲密度" />
+    <elem name="EVENT_EQUIP_REFINE_FINAL" code="79"  desc="装备洗练（只触发一次）" />
+    <elem name="EVENT_ILLUSTRATION_POWER" code="80"  desc="图鉴战力" />
+    <elem name="EVENT_TALK_WITHIN_SCENE"  code="81"  desc="与指定场景的npc对话" />
+    <elem name="EVENT_CREEP_WITHIN_SCENE" code="82"  desc="打指定场景的怪物" />
+    <elem name="EVENT_BABY_POWER"         code="83"  desc="子女战力" />
+    <elem name="EVENT_MECHA_EQUIP"        code="84"  desc="机甲装备穿戴" />
+    <elem name="EVENT_SEARCH_MECHA"       code="85"  desc="机甲寻宝" />
+    <elem name="EVENT_SOUL_POWER"         code="86"  desc="圣痕战力" />
+    <elem name="EVENT_MECHA_POWER"        code="87"  desc="机甲战力" />
+    <elem name="EVENT_BEAST_POWER"        code="88"  desc="异兽战力" />
+    <elem name="EVENT_INTEGRAL"           code="89"  desc="限时寻宝积分宝箱" />
+    <elem name="EVENT_TOTEMS"             code="90"  desc="图腾" />
+    <elem name="EVENT_TOTEMS_LOAD"        code="91"  desc="图腾穿装备" />
+    <elem name="EVENT_TOTEMS_SUMMON"      code="92"  desc="图腾助战" />
+</enum>
+
+
+<!-- 任务类型 -->
+<enum name="TASK_TYPE">
+    <elem name="TASK_TYPE_MAIN"   code="1"  desc="主" /> <!-- 主线任务 -->
+    <elem name="TASK_TYPE_TIME"   code="2"  desc="限" /> <!-- 限时任务 -->
+    <elem name="TASK_TYPE_DAILY"  code="3"  desc="日" /> <!-- 日常任务 -->
+    <elem name="TASK_TYPE_GUILD"  code="4"  desc="公" /> <!-- 公会任务 -->
+    <elem name="TASK_TYPE_SIDE"   code="5"  desc="支" /> <!-- 支线任务 -->
+    <elem name="TASK_TYPE_REIN"   code="6"  desc="觉" /> <!-- 转生任务 -->
+    <elem name="TASK_TYPE_ESCORT" code="7"  desc="穿" /> <!-- 穿越极地 -->
+    <elem name="TASK_TYPE_BEAST"  code="8"  desc="异" /> <!-- 异兽岛任务 -->
+    <elem name="TASK_TYPE_BABY"   code="9"  desc="宝宝" /> <!-- 宝宝任务 -->
+    <elem name="TASK_TYPE_ACTIVE" code="10" desc="活" /> <!-- 活跃任务 -->
+    <elem name="TASK_TYPE_LOOP1"  code="90" desc="日" /> <!-- 日常跑环 -->
+    <elem name="TASK_TYPE_LOOP2"  code="91" desc="公" /> <!-- 公会跑环 -->
+    <elem name="TASK_TYPE_PREV1"  code="92" desc="日" /> <!-- 日常前置 -->
+    <elem name="TASK_TYPE_PREV2"  code="93" desc="公" /> <!-- 公会前置 -->
+    <elem name="TASK_TYPE_LOOP3"  code="94" desc="异" /> <!-- 异兽岛跑环 -->
+    <elem name="TASK_TYPE_PREV3"  code="95" desc="异" /> <!-- 异兽岛前置 -->
+    <elem name="TASK_TYPE_LOOP4"  code="96" desc="异" /> <!-- 异兽岛跨服跑环 -->
+    <elem name="TASK_TYPE_PREV4"  code="97" desc="异" /> <!-- 异兽岛跨服前置 -->
+</enum>
+
+
+<!-- 任务状态 -->
+<enum name="TASK_STATE">
+    <elem name="TASK_STATE_TRIGGER" code="1" desc="可接" />
+    <elem name="TASK_STATE_ACCEPT"  code="2" desc="已接" />
+    <elem name="TASK_STATE_FINISH"  code="3" desc="完成" />
+    <elem name="TASK_STATE_COMING"  code="4" desc="下一个可接任务" />
+</enum>
+
+
+<!-- 活动类型 -->
+<enum name="ACTIVITY_TYPE">
+    <elem name="ACTIVITY_TYPE_LOCAL"   code="1" desc="本服活动" />
+    <elem name="ACTIVITY_TYPE_CROSS"   code="2" desc="跨服活动" />
+    <elem name="ACTIVITY_TYPE_CENTER"  code="3" desc="中央服活动" />
+</enum>
+
+
+<!-- 活动分组 -->
+<enum name="ACTIVITY_GROUP">
+    <elem name="ACTIVITY_GROUP_ESCORT"       code="101" desc="极地穿越任务" />
+    <elem name="ACTIVITY_GROUP_GUILDWAR"     code="102" desc="公会乱斗" />
+    <elem name="ACTIVITY_GROUP_MELEE"        code="103" desc="乱斗战场" />
+    <elem name="ACTIVITY_GROUP_CANDYROOM"    code="104" desc="糖果屋" />
+    <elem name="ACTIVITY_GROUP_GUILDHOUSE"   code="105" desc="公会盛宴"/>
+    <elem name="ACTIVITY_GROUP_GUILDGUARD"   code="106" desc="公会守卫"/>
+    <elem name="ACTIVITY_GROUP_WEDDINGPARTY" code="107" desc="婚礼"/>
+    <elem name="ACTIVITY_GROUP_COMBAT1V1"    code="108" desc="巅峰1v1"/>
+    <elem name="ACTIVITY_GROUP_WARRIOR"      code="109" desc="勇者圣坛"/>
+    <elem name="ACTIVITY_GROUP_COMPETE"      code="110" desc="钻石擂台"/>
+    <elem name="ACTIVITY_GROUP_TIMEBOSS"     code="111" desc="限时Boss"/>
+    <elem name="ACTIVITY_GROUP_SIEGEWAR"     code="113" desc="夺城战"/>
+    <elem name="ACTIVITY_GROUP_THRONE"       code="114" desc="星之王座"/>
+    <elem name="ACTIVITY_GROUP_CGW"          code="115" desc="跨服公会战"/>
+    <elem name="ACTIVITY_GROUP_FISSURE"      code="116" desc="时空裂缝"/>
+
+    <elem name="ACTIVITY_GROUP_CLUSTER"      code="200" desc="跨服分组"/>
+</enum>
+
+<!-- 活动id -->
+
+<!-- 场景状态 -->
+<enum name="SCENE_STATE">
+    <elem name="SCENE_STATE_NORMAL"  code="0" desc="正常" />
+    <elem name="SCENE_STATE_TIMEOUT" code="1" desc="超时" />
+</enum>
+
+
+<!-- 场景种类 -->
+<enum name="SCENE_KIND">
+    <elem name="SCENE_KIND_LOCAL" code="1" desc="本服地图" />
+    <elem name="SCENE_KIND_CROSS" code="2" desc="跨服地图" />
+</enum>
+
+
+<!-- 场景类型 -->
+<enum name="SCENE_TYPE">
+    <elem name="SCENE_TYPE_CITY"  code="1" desc="主城地图" />
+    <elem name="SCENE_TYPE_FIELD" code="2" desc="野外地图" />
+    <elem name="SCENE_TYPE_DUNGE" code="3" desc="副本地图" />
+    <elem name="SCENE_TYPE_BOSS"  code="4" desc="Boss地图" />
+    <elem name="SCENE_TYPE_ACT"   code="5" desc="活动地图" />
+</enum>
+
+<!-- 场景子类型 -->
+<enum name="SCENE_STYPE">
+    <elem name="SCENE_STYPE_DUNGE_EXP"        code="301" desc="试炼神殿" />
+    <elem name="SCENE_STYPE_DUNGE_COIN"       code="302" desc="贪婪洞窟" />
+    <elem name="SCENE_STYPE_DUNGE_MAGICTOWER" code="303" desc="审判之塔" />
+    <elem name="SCENE_STYPE_DUNGE_EQUIP"      code="304" desc="斗士之路" />
+    <elem name="SCENE_STYPE_DUNGE_NEWBIE"     code="305" desc="新手副本" />
+    <elem name="SCENE_STYPE_DUNGE_DAILY"      code="306" desc="日常副本" />
+    <elem name="SCENE_STYPE_DUNGE_ROLE_BOSS"  code="307" desc="个人Boss" />
+    <elem name="SCENE_STYPE_DUNGE_MOUNT"      code="308" desc="坐骑(进阶)副本" />
+    <elem name="SCENE_STYPE_DUNGE_ARENA"      code="309" desc="竞技场" />
+    <elem name="SCENE_STYPE_DUNGE_PET"        code="310" desc="魔兽攻城" />
+    <elem name="SCENE_STYPE_GUILDGUARD"       code="311" desc="公会守卫" />
+    <elem name="SCENE_STYPE_DUNGE_WORLD_BOSS" code="312" desc="世界首领副本" />
+    <elem name="SCENE_STYPE_DUNGE_COUPLE"     code="313" desc="结婚副本" />
+    <elem name="SCENE_STYPE_DUNGE_YUNYING_TOWER"  code="314" desc="运营爬塔副本" />
+    <elem name="SCENE_STYPE_DUNGE_SOUL"           code="315" desc="圣痕秘境" />
+	<elem name="SCENE_STYPE_DUNGE_YUNYING_LIMITTOWER"  code="316" desc="限时爬塔副本" />
+    <elem name="SCENE_STYPE_DUNGE_GOD"            code="317" desc="神灵副本" />
+    <elem name="SCENE_STYPE_DUNGE_NEWBIE_SUMMON"  code="318" desc="新手人鱼副本" />
+    <elem name="SCENE_STYPE_DUNGE_RACE"       code="319" desc="机甲竞速" />
+    <elem name="SCENE_STYPE_DUNGE_NEWBIE_ANGER"  code="320" desc="新手恶魔副本（怒气引导副本）" />
+
+    <elem name="SCENE_STYPE_BOSS_WORLD"   code="401" desc="世界首领" />
+    <elem name="SCENE_STYPE_BOSS_HOME"    code="402" desc="首领之家" />
+    <elem name="SCENE_STYPE_BOSS_WILD"    code="403" desc="远古遗迹" />
+    <elem name="SCENE_STYPE_BOSS_PET"     code="404" desc="魔兽城堡" />
+    <elem name="SCENE_STYPE_BOSS_BEAST"   code="405" desc="幻之岛" />
+    <elem name="SCENE_STYPE_BOSS_NOTIRED" code="406" desc="世界首领（无疲劳层）" />
+    <elem name="SCENE_STYPE_BOSS_FISSURE" code="409" desc="时空裂缝" />
+
+    <elem name="SCENE_STYPE_GUILD_WAR"       code="501" desc="公会争霸" />
+    <elem name="SCENE_STYPE_MELEEWAR"        code="502" desc="乱斗战场" />
+    <elem name="SCENE_STYPE_CANDYROOM"       code="503" desc="糖果屋" />
+    <elem name="SCENE_STYPE_GUILDHOUSE"      code="504" desc="公会驻地" />
+    <elem name="SCENE_STYPE_WEDDINGPARTY"    code="505" desc="婚礼场地" />
+    <elem name="SCENE_STYPE_COMBAT1V1"       code="506" desc="巅峰1v1" />
+    <elem name="SCENE_STYPE_WARRIOR"         code="507" desc="勇者圣坛" />
+    <elem name="SCENE_STYPE_COMPETE_PREPARE" code="508" desc="钻石擂台准备场景" />
+    <elem name="SCENE_STYPE_COMPETE_BATTLE"  code="509" desc="钻石擂台战斗场景" />
+    <elem name="SCENE_STYPE_TIMEBOSS"        code="510" desc="限时Boss" />
+    <elem name="SCENE_STYPE_SIEGEWAR"        code="511" desc="夺城战" />
+    <elem name="SCENE_STYPE_THRONE"          code="512" desc="星之王座" />
+    <elem name="SCENE_STYPE_CROSS_GUILDWAR"  code="513" desc="跨服公会战" />
+</enum>
+
+<!-- 场景进入消耗类型 -->
+<enum name="SCENE_COST">
+    <elem name="SCENE_COST_FIXED" code="0" desc="固定消耗" />
+    <elem name="SCENE_COST_TIMES" code="1" desc="根据次数" />
+</enum>
+
+
+<!-- 广播类型 -->
+<enum name="BCTYPE">
+    <elem name="BCTYPE_GRID"  code="0" desc="九宫格广播" />
+    <elem name="BCTYPE_SCENE" code="1" desc="全场景广播" />
+</enum>
+
+
+<!-- 场景切换方式 -->
+<enum name="SCENE_CHANGE">
+    <elem name="SCENE_CHANGE_PROTAL" code="0" desc="传送阵" />
+    <elem name="SCENE_CHANGE_SHOES"  code="1" desc="小飞鞋" />
+    <elem name="SCENE_CHANGE_TELE"   code="2" desc="瞬移" />
+    <elem name="SCENE_CHANGE_BOSS"   code="3" desc="Boss地图" />
+    <elem name="SCENE_CHANGE_ACT"    code="4" desc="活动场景" />
+    <elem name="SCENE_CHANGE_DUNGE"  code="5" desc="副本(后端用)" />
+    <elem name="SCENE_CHANGE_LEAVE"  code="6" desc="离开副本(后端用)" />
+    <elem name="SCENE_CHANGE_SERVER" code="7" desc="服务端跳转" />
+</enum>
+
+
+<!-- 瞬移方式 -->
+<enum name="TELEPORT">
+    <elem name="TELEPORT_SHOES" code="0" desc="小飞鞋" />
+</enum>
+
+
+<!-- 跳跃方式 -->
+<enum name="JUMP">
+    <elem name="JUMP_TYPE_NORMAL" code="0" desc="普通跳跃" />
+    <elem name="JUMP_TYPE_POINT"  code="3" desc="跳跃点" />
+</enum>
+
+
+<!-- 副本 类型 -->
+<enum name="DUNGE_TYPE">
+    <elem name="DUNGE_TYPE_ROLE"  code="1" desc="个人副本" />
+    <elem name="DUNGE_TYPE_TEAM"  code="2" desc="组队副本" />
+    <elem name="DUNGE_TYPE_GUILD" code="3" desc="公会副本" />
+</enum>
+
+
+<!-- 场景对象类型 -->
+<enum name="ACTOR_TYPE">
+    <elem name ="ACTOR_TYPE_ROLE"     code="1"    desc="玩家" />
+    <elem name ="ACTOR_TYPE_CREEP"    code="2"    desc="怪物" />
+    <elem name ="ACTOR_TYPE_DROP"     code="3"    desc="掉落" />
+    <elem name ="ACTOR_TYPE_NPC"      code="4"    desc="npc" />
+    <elem name ="ACTOR_TYPE_PROTAL"   code="5"    desc="传送阵" />
+    <elem name ="ACTOR_TYPE_JUMP"     code="6"    desc="跳跃点" />
+    <elem name ="ACTOR_TYPE_EFFECT"   code="7"    desc="场景特效" />
+    <elem name ="ACTOR_TYPE_TALISMAN" code="8"    desc="法宝" />
+    <elem name ="ACTOR_TYPE_PET"      code="9"    desc="宠物" />
+    <elem name ="ACTOR_TYPE_FAIRY"    code="10"   desc="精灵（子女）" />
+    <elem name ="ACTOR_TYPE_MAGIC"    code="11"   desc="神器" />
+    <elem name ="ACTOR_TYPE_ROBOT"    code="12"   desc="机器人" />
+    <elem name ="ACTOR_TYPE_BORN"     code="13"   desc="出生点" />
+    <elem name ="ACTOR_TYPE_GOD"      code="14"   desc="神灵" />
+    <elem name ="ACTOR_TYPE_WING"     code="15"   desc="翅膀" />
+    <elem name ="ACTOR_TYPE_Weapon"   code="16"   desc="武器" />
+	<elem name ="ACTOR_TYPE_MACHINEARMOR"   code="17"   desc="机甲" />
+    <elem name ="ACTOR_TYPE_MOUNT"   code="18"   desc="坐骑" />
+    <elem name ="ACTOR_TYPE_HEAD"    code="19"   desc= "头部" />
+    <elem name ="ACTOR_TYPE_HAND"    code="20"   desc="护手" />
+    <elem name ="ACTOR_TYPE_MAG"    code="21"   desc="魔法阵" />
+</enum>
+
+
+<!-- 场景对象状态 -->
+<enum name="ACTOR_STATE">
+    <elem name="ACTOR_STATE_NORMAL"      code="0"        desc="正常" />
+    <elem name="ACTOR_STATE_DEATH"       code="1"        desc="死亡" />
+    <elem name="ACTOR_STATE_ZAZEN"       code="2"        desc="打坐" />
+    <elem name="ACTOR_STATE_COLLECT"     code="4"        desc="采集" />
+    <elem name="ACTOR_STATE_OCCUPY"      code="8"        desc="占用" />
+    <elem name="ACTOR_STATE_CONVEY"      code="16"       desc="运送" />
+    <elem name="ACTOR_STATE_UNBEAT"      code="32"       desc="无敌" />
+    <elem name="ACTOR_STATE_DIZZY"       code="64"       desc="眩晕" />
+    <elem name="ACTOR_STATE_SILENT"      code="128"      desc="沉默" />
+    <elem name="ACTOR_STATE_CHAOS"       code="256"      desc="混乱" />
+    <elem name="ACTOR_STATE_IMMOB"       code="512"      desc="定身" />
+    <elem name="ACTOR_STATE_PALSY"       code="1024"     desc="麻痹" />
+    <elem name="ACTOR_STATE_SHIELD"      code="2048"     desc="护盾" />
+    <elem name="ACTOR_STATE_PET_MORPH"   code="4096"     desc="宠物变身" />
+    <elem name="ACTOR_STATE_LEECH"       code="8192"     desc="吸血" />
+    <elem name="ACTOR_STATE_DECAY"       code="16384"    desc="掉落衰减" />
+    <elem name="ACTOR_STATE_DANCE"       code="32768"    desc="跳舞" />
+    <elem name="ACTOR_STATE_BLEED"       code="65536"    desc="流血" />
+    <elem name="ACTOR_STATE_UNYIELD"     code="131072"   desc="不屈" />
+    <elem name="ACTOR_STATE_SLOW"        code="262144"   desc="减速" />
+    <elem name="ACTOR_STATE_LEI_GC"      code="524288"   desc="雷*攻潮" />
+    <elem name="ACTOR_STATE_BING_KJ"     code="1048576"  desc="冰*铠甲" />
+    <elem name="ACTOR_STATE_YOU_GC"      code="2097152"  desc="幽*攻潮" />
+    <elem name="ACTOR_STATE_HUAN_LS"     code="4194304"  desc="幻*灵闪" />
+    <elem name="ACTOR_STATE_IMMUNE"      code="8388608"  desc="免疫" />
+    <elem name="ACTOR_STATE_MECHA_MORPH" code="16777216" desc="机甲变身" />
+</enum>
+
+
+<!-- PK 模式 -->
+<enum name="PKMODE">
+    <elem name="PKMODE_PEACE"   code="1"  desc="和平" />
+    <elem name="PKMODE_JUST"    code="2"  desc="善恶" />
+    <elem name="PKMODE_TEAM"    code="3"  desc="组队" />
+    <elem name="PKMODE_GUILD"   code="4"  desc="公会" />
+    <elem name="PKMODE_ALLY"    code="5"  desc="强制" /> <!-- 不能攻击队友和公会成员 -->
+    <elem name="PKMODE_WHOLE"   code="6"  desc="全体" />
+    <elem name="PKMODE_GUARD"   code="7"  desc="守卫" />
+    <elem name="PKMODE_INVADE"  code="8"  desc="入侵" />
+    <elem name="PKMODE_CROSS"   code="9"  desc="跨服" />
+    <elem name="PKMODE_ENEMY"   code="10" desc="敌对" />
+</enum>
+
+
+<!-- 怪物种类 -->
+<enum name="CREEP_KIND">
+    <elem name="CREEP_KIND_MONSTER"  code="1" desc="怪物" />
+    <elem name="CREEP_KIND_COLLECT"  code="2" desc="采集物" />
+    <elem name="CREEP_KIND_TOMB"     code="3" desc="墓碑" />
+</enum>
+
+
+<!-- 怪物类型 -->
+<enum name="CREEP_TYPE">
+    <elem name="CREEP_TYPE_ACTIVE"  code="1" desc="主动怪" />
+    <elem name="CREEP_TYPE_PASSIVE" code="2" desc="被动怪" />
+</enum>
+
+
+<!-- 怪物稀有度 -->
+<enum name="CREEP_RARITY">
+    <elem name="CREEP_RARITY_COMM"  code="1"  desc="普通怪" />
+    <elem name="CREEP_RARITY_ELITE" code="2"  desc="精英怪" />
+    <elem name="CREEP_RARITY_BOSS"  code="3"  desc="首领怪(世界首领)" />
+    <elem name="CREEP_RARITY_GUARD" code="4"  desc="宝藏守卫" />
+    <elem name="CREEP_RARITY_BOMB"  code="5"  desc="炸弹怪" />
+    <elem name="CREEP_RARITY_BOSS2" code="6"  desc="首领怪(普通)" />
+    <elem name="CREEP_RARITY_HUNT"  code="7"  desc="寻宝怪" />
+    <elem name="CREEP_RARITY_COLL"  code="8"  desc="采集物(只一人采集)" />
+    <elem name="CREEP_RARITY_COLL2" code="9"  desc="采集物(可多人采集)" />
+    <elem name="CREEP_GUILD_BOSS"   code="10" desc="公会驻地召唤BOSS" />
+    <elem name="CREEP_RARITY_ARENA" code="11" desc="竞技守卫者" />
+    <elem name="CREEP_RARITY_AFK"   code="12" desc="离线机器人" />
+    <elem name="CREEP_RARITY_FAKER" code="13" desc="组队机器人" />
+    <elem name="CREEP_RARITY_BOSS3" code="14" desc="精英怪（副本）" />   <!-- 带大血条的精英怪，显示规则为：只显示当前正在攻击的目标的大血条 -->
+    <elem name="CREEP_RARITY_BEAST" code="15" desc="异兽岛守卫" />
+    <elem name="CREEP_RARITY_TIMEBOSS"  code="16" desc="限时Boss" />
+    <elem name="CREEP_RARITY_SIEGEBOSS" code="17" desc="夺城战Boss" />
+    <elem name="CREEP_RARITY_THRONE"    code="18" desc="星之王座Boss" />
+    <elem name="CREEP_RARITY_CGW_CRYSTAL" code="19" desc="跨服公会战水晶" />
+    <elem name="CREEP_RARITY_CGW_STATUE"  code="20" desc="跨服公会战雕像" />
+</enum>
+
+<enum name="BOSS_KIND">
+    <elem name="BOSS_KIND_LOCAL" code="1" desc="本服Boss" />
+    <elem name="BOSS_KIND_CROSS" code="2" desc="跨服Boss" />
+</enum>
+
+<!-- boss类型 -->
+<enum name="BOSS_TYPE">
+    <elem name="BOSS_TYPE_WORLD" code="1" desc="世界Boss" />
+    <elem name="BOSS_TYPE_HOME"  code="2" desc="家园Boss" />
+    <elem name="BOSS_TYPE_WILD"  code="3" desc="远古Boss" />
+    <elem name="BOSS_TYPE_PET"   code="4" desc="宠物Boss" />
+    <elem name="BOSS_TYPE_BEAST" code="5" desc="异兽BOSS" />
+    <elem name="BOSS_TYPE_BEAST_CROSS" code="6" desc="跨服异兽BOSS" />
+    <elem name="BOSS_TYPE_CONSTELLATION" code="7" desc="星之王座BOSS" />
+	<elem name="BOSS_TYPE_SPATIOTEMPORAL" code="8" desc="时空裂缝固定BOSS" />
+	<elem name="BOSS_TYPE_SPATIOTEMPORAL2" code="9" desc="时空裂缝隐藏BOSS" />
+</enum>
+
+
+<!-- 技能分组 -->
+<enum name="SKILL_GROUP">
+    <elem name="SKILL_GROUP_NORMAL"       code="1" desc="普通技能" />
+    <elem name="SKILL_GROUP_GUILD"        code="2" desc="公会技能" />
+    <elem name="SKILL_GROUP_WAKE"         code="3" desc="觉醒技能" />
+    <elem name="SKILL_GROUP_OTHER"        code="4" desc="其他技能" />
+    <elem name="SKILL_GROUP_PET"          code="5" desc="宠物技能" />
+    <elem name="SKILL_GROUP_BEAST_SELF"   code="6" desc="异兽单体技能" />
+    <elem name="SKILL_GROUP_BEAST_ALL"    code="7" desc="异兽全体技能" />
+    <elem name="SKILL_GROUP_TALENT_MOUNT"   code="8"  desc="天赋技能(增强坐骑)" />
+    <elem name="SKILL_GROUP_TALENT_OFFHAND" code="9"  desc="天赋技能(增强副手)" />
+    <elem name="SKILL_GROUP_TALENT_WING"    code="10" desc="天赋技能(增强翅膀幻化)" />
+    <elem name="SKILL_GROUP_TALENT_TALIS"   code="11" desc="天赋技能(增强法宝幻化)" />
+    <elem name="SKILL_GROUP_ANGER"          code="12" desc="怒气技能" />
+    <elem name="SKILL_GROUP_MECHA"          code="13" desc="机甲技能" />
+    <elem name="SKILL_GROUP_TOTEM_SELF"     code="20" desc="图腾单体技能" />
+    <elem name="SKILL_GROUP_TOTEM_ALL"      code="21" desc="图腾全体技能" />
+</enum>
+
+
+<!-- 技能类型 -->
+<enum name="SKILL_TYPE">
+    <elem name="SKILL_TYPE_ACTIVE"  code="1" desc="主动技能" />
+    <elem name="SKILL_TYPE_PASSIVE" code="2" desc="被动技能" />
+    <elem name="SKILL_TYPE_ATTR"    code="3" desc="属性技能" />
+</enum>
+
+
+<!-- 技能攻击目标 -->
+<enum name="SKILL_AIM">
+    <elem name="SKILL_AIM_ENEMY" code="1" desc="敌方" />
+    <elem name="SKILL_AIM_SELF"  code="2" desc="自身" />
+    <elem name="SKILL_AIM_ALLY"  code="3" desc="友方" />
+</enum>
+
+
+<!-- 技能攻击范围 -->
+<enum name="SKILL_AREA">
+    <elem name="SKILL_AREA_SINGLE" code="1" desc="单体" />
+    <elem name="SKILL_AREA_RECT"   code="2" desc="矩形" />
+    <elem name="SKILL_AREA_SECTOR" code="3" desc="扇形" />
+    <elem name="SKILL_AREA_CIRCLE" code="4" desc="圆形" />
+</enum>
+
+<!-- 技能位置 -->
+<enum name="SKILL_POS">
+    <elem name="SKILL_POS_TRANSFORM"                code="7"  desc="角色变身技能" />
+    <elem name="SKILL_POS_PET_TRANSFORM"            code="8"  desc="宠物变身技能" />
+    <elem name="SKILL_POS_PET_NORMAL"               code="9"  desc="宠物普攻技能" />
+    <elem name="SKILL_POS_PET_TRANS_NOR"            code="10" desc="宠物变身普通技能" />
+    <elem name="SKILL_POS_PET_TRANS_PRO"            code="11" desc="宠物变身奥义技能" />
+    <elem name="SKILL_POS_PET_TRANS_RRO"            code="12" desc="宠物普通状态奥义技能" />
+    <elem name="SKILL_POS_ANGER" 		            code="13" desc="怒气技能" />
+    <elem name="SKILL_POS_MACHINEARMOR_NOR"         code="14" desc="机甲普攻" />
+    <elem name="SKILL_POS_MACHINEARMOR_1"           code="15" desc="机甲技能1" />
+    <elem name="SKILL_POS_MACHINEARMOR_2"           code="16" desc="机甲技能2" />
+    <elem name="SKILL_POS_MACHINEARMOR_3"           code="17" desc="机甲技能3" />
+    <elem name="SKILL_POS_MACHINEARMOR_4"           code="18" desc="机甲技能4" />
+    <elem name="SKILL_POS_MACHINEARMOR_5"           code="19" desc="机甲技能5" />
+    <elem name="SKILL_POS_MACHINEARMOR_6"           code="20" desc="机甲技能6" />
+</enum>
+
+
+<!-- 攻击单位 -->
+<enum name="ATTACK_UNIT">
+    <elem name="ATTACK_UNIT_ROLE"  code="0" desc="角色" />
+    <elem name="ATTACK_UNIT_PET"   code="1" desc="宠物" />
+    <elem name="ATTACK_UNIT_CREEP" code="9" desc="怪物" />
+</enum>
+
+
+<!-- 伤害类型 -->
+<enum name="DAMAGE">
+    <elem name="DAMAGE_MISS"    code="1"  desc="闪避" />
+    <elem name="DAMAGE_BLOOD"   code="2"  desc="减血" />
+    <elem name="DAMAGE_CRIT"    code="3"  desc="暴击" />
+    <elem name="DAMAGE_HEART"   code="4"  desc="会心" />
+    <elem name="DAMAGE_HEAL"    code="5"  desc="回血" />
+    <elem name="DAMAGE_PURIFY"  code="6"  desc="净化" />
+    <elem name="DAMAGE_ABSORB"  code="7"  desc="吸收" />
+    <elem name="DAMAGE_BLOCK"   code="8"  desc="格挡" />
+    <elem name="DAMAGE_REFLECT" code="9"  desc="反弹" />
+    <elem name="DAMAGE_KILL"    code="10" desc="斩杀" />
+    <elem name="DAMAGE_FIRE"    code="11" desc="火属性伤害" />
+    <elem name="DAMAGE_BLEED"   code="12" desc="流血" />
+    <elem name="DAMAGE_UNYIELD" code="13" desc="不屈" />
+    <elem name="DAMAGE_LEECH"   code="14" desc="吸血" />
+    <elem name="DAMAGE_IMMUNE"  code="15" desc="免疫" />
+
+    <!-- 宠物的攻击类型是 普通类型 + 1000 -->
+    <elem name="DAMAGE_PET_BLOOD"   code="1002" desc="减血(前端宠物用)" />
+    <elem name="DAMAGE_PET_CRIT"    code="1003" desc="暴击(前端宠物用)" />
+    <elem name="DAMAGE_PET_HEART"   code="1004" desc="会心(前端宠物用)" />
+    <elem name="DAMAGE_PET_HEAL"   code="1005" desc="-- 宠物回血(前端宠物用)" />
+    <elem name="DAMAGE_CRIT_HEART"  code="101" desc="暴击+会心(后端用)" />
+    <elem name="DAMAGE_CRIT_BLOCK"  code="102" desc="暴击+格挡(后端用)" />
+</enum>
+
+
+<!-- 掉落规则 -->
+<enum name="DROP_RULE">
+    <elem name="DROP_RULE_FIXED"  code="1" desc="固定掉落" />
+    <elem name="DROP_RULE_WEIGHT" code="2" desc="随机抽取掉落" />
+    <elem name="DROP_RULE_RANDOM" code="3" desc="独立概率掉落" />
+</enum>
+
+
+<!-- 掉落模式 -->
+<enum name="DROP_MODE">
+    <elem name="DROP_MODE_BAG"    code="1" desc="直接进背包" />
+    <elem name="DROP_MODE_SCENE"  code="2" desc="掉场景上" />
+    <elem name="DROP_MODE_DUMMY"  code="3" desc="半虚拟掉落，需要拾取" />
+    <elem name="DROP_MODE_DUMMY2" code="4" desc="半虚拟掉落，自动拾取" />
+</enum>
+
+
+<!-- 掉落归属 -->
+<enum name="DROP_BELONG">
+    <elem name="DROP_BELONG_EVERY"       code="0" desc="所有人" />
+    <elem name="DROP_BELONG_KILLER"      code="1" desc="最后一击" />
+    <elem name="DROP_BELONG_TEAM_LEADER" code="2" desc="队长获得" />
+    <elem name="DROP_BELONG_TEAM_SHARE"  code="3" desc="队伍共享" />
+    <elem name="DROP_BELONG_TEAM_RANDOM" code="4" desc="队伍随机" />
+    <elem name="DROP_BELONG_GUILD"       code="5" desc="公会共享" />
+    <elem name="DROP_BELONG_BOSS"        code="6" desc="Boss掉落" />
+    <elem name="DROP_BELONG_TEAM_COPY"   code="7" desc="队伍每人一份,有奖励次数限制" />
+</enum>
+
+
+<!-- 复活方式 -->
+<enum name="REVIVE_TYPE">
+    <elem name="REVIVE_TYPE_SITU" code="1" desc="原地复活" />
+    <elem name="REVIVE_TYPE_SAFE" code="2" desc="安全区复活" />
+</enum>
+
+
+<!-- buff类型 -->
+<enum name="BUFF_TYPE">
+    <elem name="BUFF_TYPE_POSITIVE" code="1" desc="正面buff" />
+    <elem name="BUFF_TYPE_NEGATIVE" code="2" desc="负面buff" />
+</enum>
+
+
+<!-- buff叠加方式 -->
+<enum name="BUFF_LAP">
+    <elem name="BUFF_LAP_ADDTIME"  code="1" desc="延长旧buff时间" />
+    <elem name="BUFF_LAP_REPLACE"  code="2" desc="直接替换旧buff" />
+    <elem name="BUFF_LAP_KEEPOLD"  code="3" desc="保持旧buff不变" />
+    <elem name="BUFF_LAP_LVFIRST"  code="4" desc="替换等级低的旧buff" />
+    <elem name="BUFF_LAP_MAXTIME"  code="5" desc="使用时间较长的buff" />
+    <elem name="BUFF_LAP_ADDATTR"  code="6" desc="叠加旧buff的属性" />
+    <elem name="BUFF_LAP_ADDVAL"   code="7" desc="叠加旧buff的值" />
+</enum>
+
+
+<!-- buff效果 -->
+<enum name="BUFF_EFFECT">
+    <!-- 增益类buff -->
+    <!-- 回复类 -->
+    <elem name="BUFF_EFFECT_HEAL"    code="1101" desc="回血" />
+    <elem name="BUFF_EFFECT_HEAL2"   code="1102" desc="坐骑技能回血" /> <!-- 坐骑技能回血是根据等级来回的 -->
+    <!-- 状态类 -->
+    <elem name="BUFF_EFFECT_UNBEAT"  code="1201" desc="无敌" />
+    <elem name="BUFF_EFFECT_SHIELD"  code="1202" desc="护盾" />
+    <elem name="BUFF_EFFECT_PURIFY"  code="1203" desc="净化" />
+    <elem name="BUFF_EFFECT_LEECH"   code="1204" desc="吸血" />
+    <elem name="BUFF_EFFECT_OCCUPY"  code="1205" desc="占用" />
+    <elem name="BUFF_EFFECT_UNYIELD" code="1206" desc="不屈" />
+    <elem name="BUFF_EFFECT_LEI_GC"  code="1207" desc="雷*攻潮" />
+    <elem name="BUFF_EFFECT_BING_KJ" code="1208" desc="冰*铠甲" />
+    <elem name="BUFF_EFFECT_YOU_GC"  code="1209" desc="幽*攻潮" />
+    <elem name="BUFF_EFFECT_HUAN_LS" code="1210" desc="幻*灵闪" />
+
+    <!-- 减益类buff -->
+    <!-- 状态类 -->
+    <elem name="BUFF_EFFECT_DIZZY"   code="2201" desc="眩晕" />
+    <elem name="BUFF_EFFECT_SILENT"  code="2202" desc="沉默" />
+    <elem name="BUFF_EFFECT_CHAOS"   code="2203" desc="混乱" />
+    <elem name="BUFF_EFFECT_IMMOB"   code="2204" desc="定身" />
+    <elem name="BUFF_EFFECT_PALSY"   code="2205" desc="麻痹" />
+    <elem name="BUFF_EFFECT_DECAY"   code="2206" desc="掉落衰减" />
+    <elem name="BUFF_EFFECT_BLEED"   code="2207" desc="流血" />
+    <elem name="BUFF_EFFECT_SLOW"    code="2208" desc="减速" />
+
+
+    <elem name="BUFF_EFFECT_SKILL"        code="3001" desc="定时释放技能" />
+    <elem name="BUFF_EFFECT_ALARM"        code="3002" desc="大招预警" />
+    <elem name="BUFF_EFFECT_ATTR"         code="3003" desc="属性" />
+    <elem name="BUFF_EFFECT_BELONG"       code="3004" desc="世界首领归属" />
+    <elem name="BUFF_EFFECT_ADDBUFF"      code="3005" desc="定时加buff" />
+    <elem name="BUFF_EFFECT_PET_MORPH"    code="3006" desc="变身" />
+    <elem name="BUFF_EFFECT_TEAMMATE"     code="3007" desc="查找队友，并为其添加光环buff" />
+    <elem name="BUFF_EFFECT_REFLECT"      code="3008" desc="反伤光环" />
+    <elem name="BUFF_EFFECT_HEART"        code="3009" desc="会心光环" />
+    <elem name="BUFF_EFFECT_DAMAGE"       code="3010" desc="杀戮光环" />
+    <elem name="BUFF_EFFECT_BLOCK"        code="3011" desc="格挡光环" />
+    <elem name="BUFF_EFFECT_VIP"          code="3012" desc="vip buff" />
+    <elem name="BUFF_EFFECT_POWER"        code="3013" desc="战力加成" />
+    <elem name="BUFF_EFFECT_PURIFY2"      code="3014" desc="随机净化" />
+    <elem name="BUFF_EFFECT_IMMUNE"       code="3015" desc="免疫" />
+    <elem name="BUFF_EFFECT_DECAYTRIG"    code="3016" desc="掉落衰减触发" />
+    <elem name="BUFF_EFFECT_CANDYJUMP"    code="3017" desc="糖果屋跳舞" />
+    <elem name="BUFF_EFFECT_SUMMON"       code="3018" desc="召唤怪物" />
+    <elem name="BUFF_EFFECT_ADD_ANGER"    code="3019" desc="怒气增加" />
+    <elem name="BUFF_EFFECT_DEL_ANGER"    code="3020" desc="怒气减少" />
+    <elem name="BUFF_EFFECT_MECHA_MORPH"  code="3021" desc="机甲变身" />
+    <elem name="BUFF_EFFECT_MECHA_SHIELD" code="3022" desc="机甲护盾" />
+
+</enum>
+
+
+<!-- buff 值类型 -->
+<enum name="BUFF_VTYPE">
+    <elem name="BUFF_VTYPE_ABS" code="1" desc="绝对值" />
+    <elem name="BUFF_VTYPE_PER" code="2" desc="万分比" />
+</enum>
+
+
+<!-- buff id -->
+<enum name="BUFF_ID">
+    <elem name="BUFF_ID_WORLD_BOSS_KILL_TIRED"  code="300410011" desc="世界首领击杀疲劳buff" />
+    <elem name="BUFF_ID_BEAST_BOSS_KILL_TIRED"  code="300410012" desc="异兽首领击杀疲劳buff" />
+    <elem name="BUFF_ID_WORLD_BOSS_DEAD_TIRED"  code="220610001" desc="世界首领复活疲劳buff" />
+    <elem name="BUFF_ID_BEAST_BOSS_DEAD_TIRED"  code="220610002" desc="异兽首领复活疲劳buff" />
+    <elem name="BUFF_ID_BEAST_BOSS_COLL_TIRED"  code="220610003" desc="异兽首领龙鳞水晶疲劳buff" />
+    <elem name="BUFF_ID_BEAST_BOSS_COLL2_TIRED" code="220610004" desc="异兽首领凤鳞水晶采集疲劳buff" />
+    <elem name="BUFF_ID_HOME_BOSS_VIGOR"        code="300410013" desc="家园Boss精力值" />
+    <elem name="BUFF_ID_COMPETE_BATTLE_LIFE"    code="304100004" desc="钻石擂台命数" />
+    <elem name="BUFF_ID_TIMEBOSS_RANK_TIRED"    code="300410014" desc="限时Boss排名奖励次数" />
+    <elem name="BUFF_ID_TIMEBOSS_JOIN_TIRED"    code="300410015" desc="限时Boss参与奖励次数" />
+    <elem name="BUFF_ID_CROSS_BOSS_SHIELD"      code="304010007" desc="跨服首领护盾" />
+    <elem name="BUFF_ID_SIEGEBOSS_KILL_TIRED"   code="300410018" desc="夺城Boss击杀疲劳" />
+    <elem name="BUFF_ID_ANGER_SKILL_ADD"        code="300410016" desc="怒气增加buff" />
+    <elem name="BUFF_ID_ANGER_SKILL_REDUCE"     code="300410017" desc="怒气减少buff" />
+    <elem name="BUFF_ID_SIEGEWAR_BOSS_SHIELD"   code="304010013" desc="夺城战首领护盾" />
+    <elem name="BUFF_ID_FISSURE_BOSS_TIRED"     code="300410020" desc="时空裂缝击杀疲劳buff" />
+</enum>
+
+
+<!-- 公会职位 -->
+<enum name="GUILD_POST">
+    <elem name="GUILD_POST_MEMB"  code="1" desc="成员" />
+    <elem name="GUILD_POST_BABY"  code="2" desc="宝贝" />
+    <elem name="GUILD_POST_ELDER" code="3" desc="长老" />
+    <elem name="GUILD_POST_VICE"  code="4" desc="副会长" />
+    <elem name="GUILD_POST_CHIEF" code="5" desc="会长" />
+</enum>
+
+
+<!-- 公会权限 -->
+<enum name="GUILD_PERM">
+    <elem name="GUILD_PERM_NORMAL"   code="0"  desc="普通权限" />
+    <elem name="GUILD_PERM_DISBAND"  code="1"  desc="解散公会" />
+    <elem name="GUILD_PERM_APPROVE"  code="2"  desc="审批申请" />
+    <elem name="GUILD_PERM_KICKOUT"  code="3"  desc="踢掉玩家" />
+    <elem name="GUILD_PERM_APPOINT"  code="4"  desc="职位任命" />
+    <elem name="GUILD_PERM_NOTICE"   code="5"  desc="修改公告" />
+    <elem name="GUILD_PERM_DISMISS"  code="6"  desc="解除职位" />
+    <elem name="GUILD_PERM_RENAME"   code="7"  desc="公会改名" />
+    <elem name="GUILD_PERM_SETUP"    code="8"  desc="公会设置" />
+    <elem name="GUILD_PERM_UPGRADE"  code="9"  desc="公会升级" />
+    <elem name="GUILD_PERM_DESTROY"  code="10" desc="销毁物品" />
+</enum>
+
+
+<!-- 公会日志 -->
+<enum name="GUILD_LOG">
+    <elem name="GUILD_LOG_JOIN"    code="1" desc="加入公会" />
+    <elem name="GUILD_LOG_QUIT"    code="2" desc="退出公会" />
+    <elem name="GUILD_LOG_APPROVE" code="3" desc="职位任命" />
+    <elem name="GUILD_LOG_UPGRADE" code="4" desc="公会升级" />
+</enum>
+
+
+<!-- 公会福利 -->
+<enum name="GUILD_WELFARE">
+    <elem name="GUILD_WELFARE_DAILY" code="1" desc="日常福利" />
+    <elem name="GUILD_WELFARE_BABY"  code="2" desc="宝贝福利" />
+    <elem name="GUILD_WELFARE_POST"  code="3" desc="职位福利" />
+</enum>
+
+
+<!-- 排行榜ID -->
+<enum name="RANK_ID">
+    <elem name="RANK_ID_LEVEL"           code="1001"  desc="等级榜" />
+    <elem name="RANK_ID_POWER"           code="1002"  desc="战力榜" />
+    <elem name="RANK_ID_AFK"             code="1008"  desc="离线挂机" />
+    <elem name="RANK_ID_ARENA"           code="1011"  desc="竞技场" />
+    <elem name="RANK_ID_COMBAT1V1"       code="1012"  desc="巅峰1v1" />
+    <elem name="RANK_ID_GUILD_GUARD"     code="1015"  desc="公会守卫" />
+    <elem name="RANK_ID_BABY"            code="1019"  desc="子女榜" />
+    <elem name="RANK_ID_BABY_CROSS"      code="1020"  desc="跨服子女榜" />
+    <elem name="RANK_ID_MOUNT"           code="2001"  desc="坐骑榜" />
+    <elem name="RANK_ID_WING"            code="2002"  desc="翅膀榜" />
+    <elem name="RANK_ID_TALIS"           code="2003"  desc="神兵榜" />
+    <elem name="RANK_ID_COMBAT1V1_CROSS" code="2012"  desc="巅峰1v1" />
+</enum>
+
+
+<!-- 好友关系 -->
+<enum name="RELATION">
+    <elem name="RELATION_STRANGER"  code="1" desc="陌生人" />
+    <elem name="RELATION_FRIEND"    code="2" desc="好友" />
+    <elem name="RELATION_BLACK"     code="3" desc="黑名单" />
+</enum>
+
+
+<!-- 培养类型 -->
+<enum name="TRAIN">
+    <elem name="TRAIN_MOUNT"   code="1" desc="坐骑" />
+    <elem name="TRAIN_WING"    code="2" desc="翅膀" />
+    <elem name="TRAIN_TALIS"   code="3" desc="法宝" />
+    <elem name="TRAIN_WEAPON"  code="4" desc="神兵" />
+    <elem name="TRAIN_OFFHAND" code="5" desc="副手" />
+    <elem name="TRAIN_GOD"     code="6" desc="神灵" />
+	<elem name="TRAIN_MECHA" code="7" desc="机甲" />
+</enum>
+
+<!-- 培养类型 -->
+<enum name="TIPS_SHOW">
+    <elem name="TIPS_SHOW_FASHION"   code="1" desc="时装" />
+    <elem name="TIPS_SHOW_TITLE"     code="2" desc="称号" />
+    <elem name="TIPS_SHOW_MOUNT"     code="3" desc="坐骑" />
+    <elem name="TIPS_SHOW_OFFHAND"   code="4" desc="副手" />
+    <elem name="TIPS_SHOW_WING"      code="5" desc="翅膀" />
+    <elem name="TIPS_SHOW_TAIL"      code="6" desc="法宝" />
+    <elem name="TIPS_SHOW_WEAPON"    code="7" desc="神兵" />
+    <elem name="TIPS_SHOW_PET"       code="8" desc="宠物" />
+    <elem name="TIPS_SHOW_GOD"       code="9" desc="神灵" />
+    <elem name="TIPS_SHOW_FRAME_ICON"     code="11" desc="头像框" />
+    <elem name="TIPS_SHOW_FRAME_CHAT"     code="11" desc="气泡框" />
+	<elem name="TIPS_SHOW_MECHA"       code="12" desc="机甲" />
+
+</enum>
+
+
+<!-- 死亡弹窗类型 -->
+<enum name="DEAD_TYPE">
+    <elem name="DEAD_TYPE_NORM"  code="1" desc="正常死亡(手动复活)" />
+    <elem name="DEAD_TYPE_TIRED" code="2" desc="疲劳死亡(世界Boss)" />
+    <elem name="DEAD_TYPE_AUTO"  code="3" desc="正常死亡(自动复活)" />
+</enum>
+
+<!-- 觉醒任务类型 -->
+<enum name="WAKE_TASK_TYPE">
+    <elem name="WAKE_TYPE_ACTIVE"  code="1" desc="日常类" />
+    <elem name="WAKE_TYPE_DUNGE"   code="2" desc="副本类" />
+    <elem name="WAKE_TYPE_TASK"    code="3" desc="任务类" />
+</enum>
+
+<!-- 战斗状态类型 -->
+<enum name="FIGHT_STATE_TYPE">
+    <elem name="FIGHT_STATE_TYPE_NULL"      code="1" desc="不在战斗状态" />
+    <elem name="FIGHT_STATE_TYPE_NORMAL"    code="2" desc="普通战斗状态" />
+    <elem name="FIGHT_STATE_TYPE_PK"        code="3" desc="PK战斗状态" />
+</enum>
+
+<!-- vip权限 -->
+<enum name="VIP_RIGHTS">
+    <elem name="VIP_RIGHTS_EXP_BUFF"        code="1"  desc="杀怪经验buff" />
+    <elem name="VIP_RIGHTS_MARKET_TAX"      code="2"  desc="市场交易税" />
+    <elem name="VIP_RIGHTS_FREE_FLY"        code="3"  desc="无限传送" />
+    <elem name="VIP_RIGHTS_DUNGE_EXP_BUY"   code="4"  desc="经验副本购买次数" />
+    <elem name="VIP_RIGHTS_5"               code="5"  desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_6"               code="6"  desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_MARKET_DEAL"     code="7"  desc="市场开放指定交易" />
+    <elem name="VIP_RIGHTS_8"               code="8"  desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_DUNGE_COIN_BUY"  code="9"  desc="贪婪洞窟购买次数" />
+    <elem name="VIP_RIGHTS_10"              code="10" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_WILD_BOSS"       code="11" desc="远古Boss次数" />
+    <elem name="VIP_RIGHTS_12"              code="12" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_13"              code="13" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_ROLE_BOSS"       code="14" desc="个人Boss" />
+    <elem name="VIP_RIGHTS_15"              code="15" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_16"              code="16" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_17"              code="17" desc="每日签到次数" />
+    <elem name="VIP_RIGHTS_SEARCH_TREASURE" code="18" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_19"              code="19" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_20"              code="20" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_21"              code="21" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_22"              code="22" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_23"              code="23" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_24"              code="24" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_25"              code="25" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_MARKET_TIMES"    code="26" desc="市场交易次数上限+x" />
+    <elem name="VIP_RIGHTS_27"              code="27" desc="不在战斗状态" />
+    <elem name="VIP_RIGHTS_MARKET_NUM"      code="28" desc="市场商品上架数量上限+x" />
+    <elem name="VIP_RIGHTS_DUNGE_EQUIP_BUY" code="29" desc="装备本购买次数" />
+    <elem name="VIP_RIGHTS_DUNGE_ARENA"     code="30" desc="竞技场" />
+    <elem name="VIP_RIGHTS_DUNGE_PET_BUY"   code="31" desc="魔兽攻城购买次数" />
+    <elem name="VIP_RIGHTS_PET_BOSS"        code="32" desc="宠物Boss次数" />
+    <elem name="VIP_RIGHTS_CAST_RESET"      code="33" desc="铸造小屋重置次数" />
+    <elem name="VIP_RIGHTS_DUNGE_SOUL"      code="34" desc="圣痕秘境购买次数" />
+	<elem name="VIP_RIGHTS_SPATIOTEMPORAL_BOSS" code="35" desc="时空裂缝Boss次数" />
+    <elem name="VIP_RIGHTS_FISSURE_TIRED"       code="36" desc="时空裂缝Boss疲劳" />
+</enum>
+
+<!-- 时装类型 -->
+<enum name="FASHION_STATE_TYPE">
+    <elem name="FASHION_STATE_TYPE_CLOTHES"      code="1" desc="服饰" />
+    <elem name="FASHION_STATE_TYPE_HEAD"         code="2" desc="头饰" />
+    <elem name="FASHION_STATE_TYPE_WEAPON"       code="3" desc="武器" />
+    <elem name="FASHION_STATE_TYPE_SHIELD"       code="4" desc="副手" />
+    <elem name="FASHION_STATE_TYPE_FOOTPRINT"    code="5" desc="足迹" />
+    <elem name="FASHION_STATE_TYPE_MAGICARRAY"    code="6" desc="魔法阵" />
+    <elem name="FASHION_STATE_TYPE_FRAME"    	 code="11" desc="头像框" />
+    <elem name="FASHION_STATE_TYPE_BUBBLE"    	 code="12" desc="气泡框" />
+</enum>
+
+<!-- 礼包类型 -->
+<enum name="GIFT_TYPE">
+    <elem name="GIFT_TYPE_RANDOM"             code="1" desc="随机礼包" />
+    <elem name="GIFT_TYPE_SELECT"             code="2" desc="选择礼包" />
+    <elem name="GIFT_TYPE_FIXED"              code="3" desc="固定礼包" />
+    <elem name="GIFT_TYPE_GOLD_Multiple"      code="4" desc="元宝多选礼包" />
+    <elem name="GIFT_TYPE_DROP"               code="5" desc="掉落礼包" />
+    <elem name="GIFT_TYPE_LEVEL"              code="6" desc="等级礼包" />
+</enum>
+
+<!-- vip类型 -->
+<enum name="VIP_TYPE">
+    <elem name="VIP_TYPE_NONE"  code="0" desc="非vip" />
+    <elem name="VIP_TYPE_TASTE" code="1" desc="体验vip" />
+    <elem name="VIP_TYPE_NORM"  code="2" desc="普通vip" />
+</enum>
+
+<!-- 玩家状态 -->
+<enum name="ROLE_STATE">
+    <elem name="ROLE_STATE_NORMAL" code="0" desc="正常" />
+    <elem name="ROLE_STATE_MCHUNT" code="1" desc="魂卡寻宝中" />
+    <elem name="ROLE_STATE_ESCORT" code="2" desc="极地穿越中" />
+</enum>
+
+
+<!-- 开服目标类型 -->
+<enum name="TARGET_TYPE">
+    <elem name="TARGET_TYPE_FIRST_RECHARGE"  code="1" desc="首充" />
+    <elem name="TARGET_TYPE_MONTH_CARD"      code="2" desc="激活月卡" />
+    <elem name="TARGET_TYPE_BUY_FAIRY"       code="3" desc="购买精灵" />
+    <elem name="TARGET_TYPE_VIP"             code="4" desc="激活vip"  />
+    <elem name="TARGET_TYPE_INVEST"          code="5" desc="购买投资计划" />
+    <elem name="TARGET_TYPE_ATTRIB"          code="6" desc="属性达成" />
+    <elem name="TARGET_TYPE_EQUIP"           code="7" desc="穿戴装备" />
+    <elem name="TARGET_TYPE_CREEP"           code="8" desc="杀怪" />
+    <elem name="TARGET_TYPE_EQUIP_SUITE"     code="9" desc="装备套装" />
+    <elem name="TARGET_TYPE_EVENT"           code="10" desc="事件类型" />
+</enum>
+
+<!-- 聊天频道 -->
+<enum name="CHAT_CHANNEL">
+    <elem name="CHAT_CHANNEL_WORLD"      code="1"   desc="世界" />
+    <elem name="CHAT_CHANNEL_SCENE"      code="2"   desc="区域" />
+    <elem name="CHAT_CHANNEL_CROSS"      code="3"   desc="跨服" />
+    <elem name="CHAT_CHANNEL_TEAM"       code="4"   desc="组队"  />
+    <elem name="CHAT_CHANNEL_TEAM2"      code="5"   desc="队伍" />
+    <elem name="CHAT_CHANNEL_GUILD"      code="6"   desc="仙盟" />
+    <elem name="CHAT_CHANNEL_QUESTION"   code="7"   desc="答题" />
+    <elem name="CHAT_CHANNEL_P2P"        code="99"  desc="私聊" />
+    <elem name="CHAT_CHANNEL_SYS"        code="100" desc="系统" />
+</enum>
+
+<!-- 邮件id -->
+<enum name="MAIL">
+    <elem name="MAIL_MONEY_EXCEED_NOTIFY" code="1000002" desc="货币超出通知" />
+    <elem name="MAIL_MONEY_EXCEED_GIVE"   code="1000003" desc="货币超出补发" />
+    <elem name="MAIL_BAG_FULL"            code="1000004" desc="背包空间不足发邮件" />
+    <elem name="MAIL_GAME_TOO_FAST"       code="1000005" desc="发包速度过快" />
+    <elem name="MAIL_GUILD_GUARD_SUCC"    code="1000006" desc="公会守卫结算" />
+    <elem name="MAIL_GUILD_GUARD_FAIL"    code="1000007" desc="公会守卫结算" />
+    <elem name="MAIL_GUILD_MERGE_ROLE_RENAME"  code="1000013" desc="合服玩家重名" />
+    <elem name="MAIL_GUILD_MERGE_GUILD_RENAME" code="1000014" desc="合服公会重名" />
+
+    <elem name="MAIL_ROLE_RENAME"       code="1100001" desc="改名" />
+
+    <elem name="MAIL_MARKET_BUY"        code="1113001" desc="市场购买" />
+    <elem name="MAIL_MARKET_SALE"       code="1113002" desc="市场出售" />
+    <elem name="MAIL_MARKET_REFUSE"     code="1113003" desc="拒绝交易" />
+    <elem name="MAIL_MARKET_EXPIRE"     code="1113004" desc="商品过期" />
+
+    <elem name="MAIL_ARENA_PK"     code="1132001" desc="竞技场被击败" />
+
+    <elem name="MAIL_MARRIAGE_REFUSE"   code="1134001" desc="求婚失败" />
+    <elem name="MAIL_MARRIAGE_DIVORCE"   code="1134002" desc="离婚" />
+
+    <elem name="MAIL_WEDDING_APPOINTMNET"   code="1135001" desc="婚礼预约" />
+    <elem name="MAIL_WEDDING_ACCEPT"   code="1135002" desc="婚礼举办通知" />
+    <elem name="MAIL_WEDDING_PARTY"   code="1135003" desc="婚礼热度奖励" />
+    <elem name="MAIL_WEDDING_COMPENSATE"   code="1135004" desc="婚礼预约取消" />
+
+    <elem name="MAIL_DUNGE_RACE"   code="1203001" desc="机甲竞速奖励" />
+
+    <elem name="MAIL_BOSS_ATTEND"   code="1204001" desc="世界首领参与奖励" />
+
+    <elem name="MAIL_GUILD_NOTICE"       code="1400001" desc="公会公告" />
+    <elem name="MAIL_GUILD_APPLY_FAIL"   code="1400002" desc="申请失败" />
+    <elem name="MAIL_GUILD_APPLY_SUCC"   code="1400003" desc="申请成功" />
+    <elem name="MAIL_GUILD_KICKOUT"      code="1400004" desc="被踢出公会" />
+    <elem name="MAIL_GUILD_APPOINT"      code="1400005" desc="职位变更" />
+    <elem name="MAIL_GUILD_AUTO_DEMISE1" code="1400006" desc="自动转让会长(旧会长)" />
+    <elem name="MAIL_GUILD_AUTO_DEMISE2" code="1400007" desc="自动转让会长(成员)" />
+
+    <elem name="MAIL_MELEE_REWARD"          code="1603001" desc="乱斗战场奖励" />
+    <elem name="MAIL_MELEE_FINAL_REWARD"    code="1603002" desc="乱斗战场总排名奖励" />
+    <elem name="MAIL_CANDYROOM_REWARD"   code="1604001" desc="糖果屋奖励" />
+
+    <elem name="MAIL_GUILDWAR_WIN_REWARD"     code="1602001" desc="公会乱斗胜利奖励" />
+    <elem name="MAIL_GUILDWAR_LOSE_REWARD"    code="1602002" desc="公会乱斗失败奖励" />
+    <elem name="MAIL_GUILDWAR_ROLE_REWARD"    code="1602003" desc="公会乱斗个人奖励" />
+    <elem name="MAIL_GUILDWAR_VICTORY_REWARD" code="1602004" desc="连胜奖励" />
+    <elem name="MAIL_GUILDWAR_BREAKUP_REWARD" code="1602005" desc="击败奖励" />
+    <elem name="MAIL_GUILDWAR_ROUND1_PREDICT" code="1602006" desc="第1轮预告" />
+    <elem name="MAIL_GUILDWAR_ROUND2_PREDICT" code="1602007" desc="第2轮预告" />
+    <elem name="MAIL_GUILDWAR_UPGRADE"        code="1602008" desc="赛区升级" />
+    <elem name="MAIL_GUILDWAR_DEGRADE"        code="1602009" desc="赛区降级" />
+    <elem name="MAIL_GUILDWAR_FIRST_RANK"     code="1602010" desc="第1名公会" />
+    <elem name="MAIL_GUILDWAR_FIRST_REWARD"   code="1602011" desc="第1名公会帮主奖励" />
+    <elem name="MAIL_GUILDWAR_NO_RIVAL"       code="1602012" desc="公会乱斗胜利奖励(轮空)" />
+
+    <elem name="MAIL_GUILDHOUSE_QUESTION" code="1605001" desc="帮会领地答题奖励" />
+
+    <elem name="MAIL_COMBAT1V1_RANK" code="1605002" desc="巅峰1v1排名奖励" />
+    <elem name="MAIL_COMBAT1V1_GRADE" code="1605003" desc="巅峰1v1排名奖励" />
+
+    <elem name="MAIL_WARRIOR_RANK"  code="1606001" desc="勇者圣坛排名奖励" />
+    <elem name="MAIL_WARRIOR_FLOOR" code="1606002" desc="勇者圣坛层数奖励" />
+
+	<elem name="MAIL_BABY_LIKE_RANK" code="1606003" desc="子女点赞排名奖励" />
+
+    <elem name="MAIL_COMPETE_ENROLL_SUCC"    code="1607001" desc="报名成功" />
+    <elem name="MAIL_COMPETE_ENROLL_OUST"    code="1607002" desc="未进入海选赛补偿" />
+    <elem name="MAIL_COMPETE_ENROLL_PASS"    code="1607003" desc="进入海选赛提醒" />
+    <elem name="MAIL_COMPETE_SELECT_PASS"    code="1607004" desc="进入天地榜提醒" />
+    <elem name="MAIL_COMPETE_RANK_REWARD"    code="1607005" desc="天地榜排名结算" />
+    <elem name="MAIL_COMPETE_BATTLE_REWARD"  code="1607006" desc="钻石擂台奖励" />
+    <elem name="MAIL_COMPETE_GUESS_RIGHT"    code="1607007" desc="竞猜成功" />
+    <elem name="MAIL_COMPETE_GUESS_WRONG"    code="1607008" desc="竞猜失败" />
+    <elem name="MAIL_COMPETE_SELECT_REWARD1" code="1607009" desc="进入天榜奖励" />
+    <elem name="MAIL_COMPETE_SELECT_REWARD2" code="1607010" desc="进入地榜奖励" />
+
+    <elem name="MAIL_TIMEBOSS_SHIELD_REWARD" code="1608001" desc="限时Boss破盾奖励" />
+    <elem name="MAIL_TIMEBOSS_JOIN_REWARD"   code="1608002" desc="限时Boss参与奖励" />
+    <elem name="MAIL_TIMEBOSS_RANK_REWARD"   code="1608003" desc="限时Boss排行奖励" />
+    <elem name="MAIL_TIMEBOSS_BOX_REWARD"    code="1608004" desc="限时Boss宝箱奖励" />
+
+    <elem name="MAIL_SIEGEWAR_OCCUPY_REWARD" code="1609001" desc="夺城战占领奖励" />
+
+    <elem name="MAIL_YUNYING_SHOP_REWARD" code="1700001" desc="跨服云购" />
+</enum>
+
+<!-- role_count key -->
+<enum name="ROLE_COUNT">
+    <!-- id -->
+    <elem name="ROLE_COUNT_SEND_FLOWER"          code="1001"  desc="每日首次送花" />
+    <elem name="ROLE_COUNT_MARKET_DEAL"          code="1002"  desc="市场交易次数" />
+    <elem name="ROLE_COUNT_WELFARE_GRAIL"        code="1003"  desc="圣杯祝福次数" />
+    <elem name="ROLE_COUNT_WELFARE_SIGN"         code="1004"  desc="每日签到次数" />
+    <elem name="ROLE_COUNT_ESCORT_COUNT"         code="1005"  desc="每日极地穿越次数" />
+    <elem name="ROLE_COUNT_ESCORT_ROB"           code="1006"  desc="每日劫掠次数" />
+    <elem name="ROLE_COUNT_ESCORT_FRESH"         code="1007"  desc="每日刷新次数" />
+    <elem name="ROLE_COUNT_ESCORT_SUPP"          code="1008"  desc="每日支援次数" />
+    <elem name="ROLE_COUNT_BOSS_TIRED"           code="1009"  desc="boss疲劳值" />
+    <elem name="ROLE_COUNT_GW_REWARD"            code="1010"  desc="公会乱斗每日福利" />
+    <elem name="ROLE_COUNT_GUILD_JOIN"           code="1011"  desc="公会加入次数" />
+    <elem name="ROLE_COUNT_DAILY_PAY"            code="1012"  desc="每日充值元宝数" />
+    <elem name="ROLE_COUNT_ARENA_STIMULATE"      code="1013"  desc="竞技场激励次数" />
+    <elem name="ROLE_COUNT_ARENA_TOP_CHALLENGE"  code="1014"  desc="竞技场大神挑战次数" />
+    <elem name="ROLE_COUNT_ARENA_RANK"           code="1015"  desc="竞技场每日奖励" />
+    <elem name="ROLE_COUNT_TOP_RANK"             code="1016"  desc="竞技场大神福利" />
+    <elem name="ROLE_COUNT_FRIEND_REQUEST"       code="1017"  desc="好友申请" />
+    <elem name="ROLE_COUNT_ASSIST_HONOR"         code="1018"  desc="每日助战荣誉上限" />
+    <elem name="ROLE_COUNT_ASSIST_INTIMACY"      code="1019"  desc="每日助战亲密度上限" />
+    <elem name="ROLE_COUNT_LOGIN"                code="1020"  desc="每日登陆" />
+    <elem name="ROLE_COUNT_BEAST_TIRED"          code="1021"  desc="异兽岛疲劳" />
+    <elem name="ROLE_COUNT_BEAST_COLL"           code="1022"  desc="异兽岛大水晶采集" />
+    <elem name="ROLE_COUNT_BEAST_COLL2"          code="1023"  desc="异兽岛小水晶采集" />
+    <elem name="ROLE_COUNT_EQUIP_REFINE"         code="1024"  desc="装备洗练免费次数" />
+    <elem name="ROLE_COUNT_CASTHOUSE"            code="1025"  desc="铸造小屋每日次数" />
+    <elem name="ROLE_COUNT_CASTHOUSE_RESET"      code="1026"  desc="铸造小屋每日重置次数" />
+    <elem name="ROLE_COUNT_CASTHOUSE_FREE"       code="1027"  desc="铸造小屋每日免费色子次数" />
+    <elem name="ROLE_COUNT_DUNGE_GOD_RESET"      code="1028"  desc="神灵之路重置" />
+    <elem name="ROLE_COUNT_HOME_BOSS_VIGOR"      code="1029"  desc="家园Boss精力值" />
+    <elem name="ROLE_COUNT_MARKET_GAIN_GOLD"     code="1030"  desc="市场获得钻石" />
+    <elem name="ROLE_COUNT_MARKET_COST_GOLD"     code="1031"  desc="市场消耗钻石" />
+
+    <!-- group -->
+    <elem name="ROLE_COUNT_GUILD_WELFARE"        code="2001"  desc="公会福利" />
+    <elem name="ROLE_COUNT_SCENE_ENTER"          code="2002"  desc="场景进入次数" />
+    <elem name="ROLE_COUNT_SCENE_BUY"            code="2003"  desc="场景购买次数" />
+    <elem name="ROLE_COUNT_SCENE_SWEEP"          code="2004"  desc="场景扫荡次数" />
+    <elem name="ROLE_COUNT_VIP_WELFARE"          code="2005"  desc="vip福利" />
+    <elem name="ROLE_COUNT_ITEM_GAIN"            code="2006"  desc="道具获得" />
+    <elem name="ROLE_COUNT_DUNGE_ASSIST"         code="2007"  desc="副本助战次数" />
+    <elem name="ROLE_COUNT_REDENVELOPE"          code="2008"  desc="每日发红包次数" />
+    <elem name="ROLE_COUNT_AFK_ITEM_GAIN"        code="2009"  desc="离线道具获得" />
+    <elem name="ROLE_COUNT_COMBAT1V1"            code="2010"  desc="巅峰1v1" />
+    <elem name="ROLE_COUNT_SCENE_ITEMADD"        code="2011"  desc="场景道具增加次数" />
+    <elem name="ROLE_COUNT_BEAST_SUMMON_BC"      code="2013"  desc="异兽助阵广播" />
+    <elem name="ROLE_COUNT_SCENE_ASK_BUY"        code="2014"  desc="副本请求购买增加的次数" />
+    <elem name="ROLE_COUNT_DAILY_RECHARGE"       code="2015"  desc="充值购买次数" />
+    <elem name="ROLE_COUNT_TOTEMS_SUMMON_BC"     code="2016"  desc="图腾助阵广播" />
+</enum>
+
+<!-- 运营活动状态 -->
+<enum name="YY_TASK_STATE">
+    <elem name="YY_TASK_STATE_FINISH" code="1"  desc="已完成" />
+    <elem name="YY_TASK_STATE_UNDONE" code="2"  desc="未完成" />
+    <elem name="YY_TASK_STATE_REWARD" code="3"  desc="已领奖" />
+    <elem name="YY_TASK_STATE_REFUND" code="4"  desc="已返利" />
+</enum>
+
+<enum name="MODEL_TYPE">
+    <elem name="MODEL_TYPE_FABAO" code="1"  desc="法宝" />
+    <elem name="MODEL_TYPE_MONSTER" code="2"  desc="怪物" />
+    <elem name="MODEL_TYPE_MOUNT" code="3"  desc="坐骑" />
+    <elem name="MODEL_TYPE_NPC" code="4"  desc="NPC" />
+    <elem name="MODEL_TYPE_PET" code="5"  desc="宠物" />
+    <elem name="MODEL_TYPE_ROLE" code="6"  desc="人物" />
+    <elem name="MODEL_TYPE_WING" code="7"  desc="翅膀" />
+    <elem name="MODEL_TYPE_WEAPON" code="8"  desc="神兵" />
+    <elem name="MODEL_TYPE_FAIRY" code="9"  desc="精灵" />
+    <elem name="MODEL_TYPE_FUSHOW" code="10"  desc="副手" />
+    <elem name="MODEL_TYPE_EQUIP" code="11"  desc="装备" />
+    <elem name="MODEL_TYPE_BABY" code="12"  desc="宝宝" />
+    <elem name="MODEL_TYPE_GOD" code="13"  desc="神灵" />
+    <elem name="MODEL_TYPE_MECHA" code="14"  desc="机甲" />
+	<elem name="MODEL_TYPE_ARTIFACT" code="15"  desc="神器" />
+</enum>
+
+<!-- 悬赏令状态 -->
+<enum name="WANTED_TASK_STATE">
+    <elem name="WANTED_TASK_STATE_UNDONE" code="1" desc="未完成" />
+    <elem name="WANTED_TASK_STATE_FINISH" code="2" desc="已完成" />
+    <elem name="WANTED_TASK_STATE_REWARD" code="3" desc="已领奖" />
+</enum>
+
+<!--红包令状态 -->
+<enum name="RED_ENVELOPE_STATE">
+    <elem name="RED_ENVELOPE_STATE_NEW"    code="1" desc="未发送" />
+    <elem name="RED_ENVELOPE_STATE_SEND"   code="2" desc="已发送" />
+    <elem name="RED_ENVELOPE_STATE_DONE"   code="3" desc="已领完" />
+</enum>
+
+<!-- 通用事件，任务的状态 -->
+<enum name="PROGRESS_STATE">
+    <elem name="PROGRESS_STATE_UNDONE" code="1" desc="未完成" />
+    <elem name="PROGRESS_STATE_FINISH" code="2" desc="已完成" />
+    <elem name="PROGRESS_STATE_REWARD" code="3" desc="已领奖" />
+</enum>
+
+<!-- 血量变化类型 -->
+<enum name="HEAL_TYPE">
+    <elem name="HEAL_TYPE_SKILL" code="1" desc="技能回血" />
+    <elem name="HEAL_TYPE_BLEED" code="2" desc="流血" />
+</enum>
+
+<!-- 交易类型 -->
+<enum name="TRADE_TYPE">
+    <elem name="TRADE_TYPE_SALE" code="1" desc="市场上架" />
+    <elem name="TRADE_TYPE_DEAL" code="2" desc="市场交易" />
+</enum>
+
+<!-- 天赋分组 -->
+<enum name="TALENT_GROUP">
+    <elem name="TALENT_GROUP_FIGHT" code="1" desc="战斗" />
+    <elem name="TALENT_GROUP_GUARD" code="2" desc="守护" />
+    <elem name="TALENT_GROUP_BASE"  code="3" desc="基础" />
+</enum>
+
+<!-- 跨服分组规则 -->
+<enum name="CROSS_RULE">
+    <elem name="CROSS_RULE_24_8" code="1024008" desc="" />
+</enum>
+
+<!-- 副本操作类型 -->
+<enum name="DUNGE_OP">
+    <elem name="DUNGE_OP_ENTER"         code="1" desc="进入副本" />
+    <elem name="DUNGE_OP_BUY_TIMES"     code="2" desc="购买次数" />
+    <elem name="DUNGE_OP_SWEEP"         code="3" desc="扫荡次数" />
+    <elem name="DUNGE_OP_STAR"          code="4" desc="完成星级" />
+</enum>
+
+<!-- 玩法类型 -->
+<enum name="PLAY_STAT">
+    <elem name="PLAY_STAT_ESCORT"       code="3" desc="极地穿越" />
+    <elem name="PLAY_STAT_ARENA"        code="4" desc="竞技场" />
+    <elem name="PLAY_STAT_ARENA_TOP"    code="5" desc="大神挑战" />
+    <elem name="PLAY_STAT_COMBAT1V1"    code="6" desc="巅峰1v1" />
+</enum>
+
+<enum name="PLAY_OP">
+    <elem name="PLAY_OP_PART"         code="1" desc="参加" />
+</enum>
+
+<!-- 钻石擂台 -->
+<enum name="COMPETE_PERIOD">
+    <elem name="COMPETE_PERIOD_TRUCE"  code="0" desc="休战" />
+    <elem name="COMPETE_PERIOD_ENROLL" code="1" desc="报名" />
+    <elem name="COMPETE_PERIOD_SELECT" code="2" desc="海选" />
+    <elem name="COMPETE_PERIOD_RANK"   code="3" desc="争霸" />
+    <elem name="COMPETE_PERIOD_OUST"   code="4" desc="淘汰" />
+</enum>
+
+<enum name="COMPETE_PHASE">
+    <elem name="COMPETE_PHASE_PREPARE" code="0" desc="准备阶段" />
+    <elem name="COMPETE_PHASE_BATTLE"  code="1" desc="战斗阶段" />
+</enum>
+
+<enum name="COMPETE_BATTLE">
+    <elem name="COMPETE_BATTLE_SELECT" code="1" desc="海选赛" />
+    <elem name="COMPETE_BATTLE_RANK1"  code="2" desc="天榜" />
+    <elem name="COMPETE_BATTLE_RANK2"  code="3" desc="地榜" />
+</enum>
+
+<enum name="CGW_PERIOD">
+    <elem name="CGW_PERIOD_DIVIDE" code="1" desc="分配" />
+    <elem name="CGW_PERIOD_BOOK"   code="2" desc="约战" />
+    <elem name="CGW_PERIOD_BATTLE" code="3" desc="开启" />
+    <elem name="CGW_PERIOD_TRUCE"  code="4" desc="休战(周结)" />
+    <elem name="CGW_PERIOD_SETTLE" code="5" desc="月结" />
+</enum>
+
+<!-- 玩家操作类型 -->
+<enum name="ROLELOG">
+    <elem name="ROLELOG_CLIENT_ERROR"    code="1000001" desc="客户端错误" />
+
+    <elem name="ROLELOG_MOUNT_UPGRADE"   code="1107101" desc="坐骑升阶" />
+    <elem name="ROLELOG_OFFHAND_UPGRADE" code="1107501" desc="副手升阶" />
+
+    <elem name="ROLELOG_MOUNT_TRAIN"     code="1107102" desc="坐骑魂珠" />
+    <elem name="ROLELOG_OFFHAND_TRAIN"   code="1107502" desc="副手魂珠" />
+
+    <elem name="ROLELOG_WING_UPGRADE"    code="1109201" desc="翅膀升级" />
+    <elem name="ROLELOG_TALIS_UPGRADE"   code="1109301" desc="法宝升级" />
+    <elem name="ROLELOG_WEAPON_UPGRADE"  code="1109401" desc="神兵升级" />
+    <elem name="ROLELOG_GOD_UPGRADE"     code="1109601" desc="神灵升级" />
+	 <elem name="ROLELOG_MECHA_UPGRADE"code="1109601" desc="机甲升级" />
+
+    <elem name="ROLELOG_WING_TRAIN"      code="1109202" desc="翅膀魂珠" />
+    <elem name="ROLELOG_TALIS_TRAIN"     code="1109302" desc="法宝魂珠" />
+    <elem name="ROLELOG_WEAPON_TRAIN"    code="1109402" desc="神兵魂珠" />
+    <elem name="ROLELOG_GOD_TRAIN"       code="1109602" desc="神灵魂珠" />
+
+    <elem name="ROLELOG_MOUNT_ACTIVE"    code="1108101" desc="坐骑幻化激活" />
+    <elem name="ROLELOG_WING_ACTIVE"     code="1108201" desc="翅膀幻化激活" />
+    <elem name="ROLELOG_TALIS_ACTIVE"    code="1108301" desc="法宝幻化激活" />
+    <elem name="ROLELOG_WEAPON_ACTIVE"   code="1108401" desc="神兵幻化激活" />
+    <elem name="ROLELOG_OFFHAND_ACTIVE"  code="1108501" desc="副手幻化激活" />
+    <elem name="ROLELOG_GOD_ACTIVE"      code="1108601" desc="神灵幻化激活" />
+	<elem name="ROLELOG_MECHA_ACTIVE"      code="1108701" desc="机甲幻化激活" />
+
+    <elem name="ROLELOG_MOUNT_UPSTAR"    code="1108102" desc="坐骑幻化升星" />
+    <elem name="ROLELOG_WING_UPSTAR"     code="1108202" desc="翅膀幻化升星" />
+    <elem name="ROLELOG_TALIS_UPSTAR"    code="1108302" desc="法宝幻化升星" />
+    <elem name="ROLELOG_WEAPON_UPSTAR"   code="1108402" desc="神兵幻化升星" />
+    <elem name="ROLELOG_OFFHAND_UPSTAR"  code="1108502" desc="副手幻化升星" />
+    <elem name="ROLELOG_GOD_UPSTAR"      code="1108602" desc="神灵幻化升星" />
+	<elem name="ROLELOG_MECHA_UPSTAR"  code="1108702" desc="机甲幻化升星" />
+
+    <elem name="ROLELOG_DUNGE_ENTER"     code="120001" desc="进入副本" />
+    <elem name="ROLELOG_DUNGE_LEAVE"     code="120002" desc="退出副本" />
+
+    <elem name="ROLELOG_EQUIP_REINF"      code="110601" desc="装备强化" />
+    <elem name="ROLELOG_EQUIP_REINF_AUTO" code="110602" desc="装备一键强化" />
+    <elem name="ROLELOG_EQUIP_COMBINE"    code="110603" desc="装备合成" />
+
+    <elem name="ROLELOG_KILL_BOSS"       code="120101" desc="击杀Boss" />
+</enum>
+
+</enums>

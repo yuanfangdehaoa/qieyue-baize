@@ -1,0 +1,252 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+//队伍成员
+message p_team_member {
+	required fixed64 role_id = 1;
+	required p_role_base role = 2;
+	required int32 scene_id = 3;
+	required int32 is_captain = 4;
+	required int32 is_online = 5;
+}
+
+//队伍信息
+message p_team_info {
+	required fixed64 id = 1;
+	required int32 type_id = 2;
+	required int32 min_level = 3;
+	required int32 max_level = 4;
+	optional int32 is_auto_accept = 5;
+	repeated p_team_member members = 6;
+	required fixed64 captain_id = 7;
+}
+
+//邀请信息
+message p_team_invite_item {
+	required fixed64 team_id = 1;
+	required int32 type_id = 2;
+	required p_team_member invitor = 3;
+}
+
+
+//创建队伍
+message m_team_create_team_tos {     //1500001
+	required int32 type_id = 1;
+	optional int32 min_level = 2;
+	optional int32 max_level = 3;
+	optional int32 is_auto_accept = 4;
+}
+
+message m_team_create_team_toc{      //1500001
+	required fixed64 team_id = 1;
+}
+
+//获取自己队伍信息
+message m_team_get_team_tos {          //1500002
+
+}
+
+message m_team_update_team_info_toc {  //1500002
+	required p_team_info team_info = 1;
+}
+
+//申请入队
+message m_team_apply_tos {     //1500003
+	required fixed64 team_id = 1;
+	optional int32 is_role = 2;        //id是否角色id
+}
+
+message m_team_apply_toc {     //1500003
+	required fixed64 team_id = 1;
+}
+
+//邀请
+message m_team_invite_tos {   //1500004
+	required fixed64 role_id = 1;
+}
+
+//退队
+message m_team_quit_team_tos {    //1500005
+
+}
+
+message m_team_quit_team_toc {   //1500005
+	required fixed64 team_id = 1;
+}
+
+//踢人
+message m_team_kickout_tos {  //1500006
+	required fixed64 role_id = 1;
+}
+
+message m_team_kickout_toc {  //1500006
+
+}
+
+//获取队伍列表
+message m_team_get_team_list_tos {  //1500007
+	required int32 type_id = 1;
+}
+
+message m_team_get_team_list_toc {  //1500007
+	repeated p_team_info team_list= 1;
+}
+
+//获取邀请列表
+message m_team_get_invite_list_tos { //1500008
+
+}
+
+message m_team_get_invite_list_toc { //1500008
+	optional int32 is_add_new = 1;
+	repeated p_team_invite_item invite_list = 2;
+}
+
+
+//更改目标
+message m_team_change_set_tos {    //1500009
+	optional int32 type_id = 1;
+	optional int32 min_level = 2;
+	optional int32 max_level = 3;
+	optional int32 is_auto_accept = 4;
+}
+
+message m_team_change_set_toc {   //1500009
+
+}
+
+
+
+//设置是否自动通过邀请
+message m_team_set_auto_invite_tos {   //1500010
+	required int32 is_auto_invite = 1;
+}
+
+message m_team_set_auto_invite_toc {   //1500010
+	required int32 is_auto_invite = 1;
+}
+
+//喊话招募
+message m_team_speak_recruit_tos {      //1500011
+
+}
+
+//提醒队长
+message m_team_remind_captain_tos {     //1500012
+
+}
+
+message m_team_remind_captain_toc {     //1500012
+	required string name = 1;
+}
+
+//喊话自荐
+message m_team_speak_recommend_self {   //1500013
+
+}
+
+//获取申请列表
+message m_team_get_apply_list_tos {     //1500014
+
+}
+
+message m_team_get_apply_list_toc {     //1500014
+	optional int32 is_add_new = 1;        //(0-覆盖， 1-新增)
+	repeated p_team_member apply_list = 2;
+}
+
+//处理申请
+message m_team_handle_apply_tos {       //1500015
+	optional fixed64 role_id = 1;
+	optional int32 is_accept = 2;    //是否同意(0-拒绝，1-同意)
+	optional int32 reject_all = 3;   //一键拒绝(1-一键拒绝)
+}
+
+message m_team_handle_apply_toc {	//1500015
+	required fixed64 role_id = 1;
+}
+
+//处理邀请
+message m_team_handle_invite_tos {	//1500016
+	optional fixed64 team_id = 1;
+	optional int32 reject_all = 2;  //一键拒绝(1-一键拒绝，2-拒绝)
+}
+
+message m_team_handle_invite_toc {      //1500016
+
+}
+
+//获取是否自动同意邀请
+message m_team_get_auto_accept_invite_tos {    //1500017
+
+}
+
+message m_team_get_auto_accept_invite_toc {    //1500017
+	required int32 is_auto_accept_invite = 1;    //0-不，1-自动同意邀请
+}
+
+//设置是否自动同意邀请
+message m_team_set_auto_accept_invite_tos {    //1500018
+	required int32 is_auto_accept_invite = 1;    //0-不，1-自动同意邀请
+}
+
+//队伍匹配
+message m_team_match_teams_tos {               //1500019
+	required int32 match_status = 1;       //是否匹配中(0-否，1-是)
+	optional int32 type_id = 2;            //匹配目标
+}
+
+message m_team_match_teams_toc {               //1500019
+	required int32 match_status = 1;       //是否匹配中(0-否，1-是)
+}
+
+//更新队员状态
+message m_team_update_team_member_toc {        //1500020
+	required fixed64 role_id = 1;
+	required int32 is_online = 2;
+	required int32 scene_id = 3;
+}
+
+//进入多人副本请求
+message m_team_enter_dunge_ask_tos {          //1500021
+	required int32 dunge_id = 1;          //副本id
+	optional int32 is_agree = 2;          //队员是否同意(0-否，1-是)
+	optional int32 count = 3[default=1];  //合并次数
+}
+
+message m_team_enter_dunge_ask_toc {          //1500021
+	required int32 dunge_id = 1;          //副本id
+	repeated fixed64 role_ids = 2;        //已同意队员id
+	optional int32 is_agree = 3;          //队员是否同意
+	optional fixed64 role_id = 4;         //同意的队员id
+	optional int32   count = 5;           //合并次数 
+}
+
+//进入多人副本
+message m_team_enter_dunge_tos {              //1500022
+	required int32 dunge_id = 1;          //副本id
+}
+
+message m_team_enter_dunge_toc {              //1500022
+
+}
+
+
+//加机器人
+message m_team_faker_tos {     //1500023
+
+}
+
+//移交队长
+message m_team_trans_captain_tos {  //1500024
+	required fixed64 role_id = 1;
+}
+
+message m_team_trans_captain_toc {  //1500024
+	
+}
+
+//告诉客户端需要更新队伍列表
+message m_team_update_list_toc {   //1500025
+
+}

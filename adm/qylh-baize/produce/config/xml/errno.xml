@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 错误码 -->
+
+<errs>
+
+<err name="ERR_WEB_SYS_ERROR"           code="1" desc="系统错误" />
+<err name="ERR_WEB_SIGN_INVALID"        code="2" desc="签名不正确" />
+<err name="ERR_WEB_BAD_ARGS"            code="3" desc="参数不正确" />
+<err name="ERR_WEB_NETWORK"             code="4" desc="连接游戏服失败" />
+<err name="ERR_WEB_REQUEST_EXPIRE"      code="5" desc="请求已过期" />
+<err name="ERR_WEB_REQUEST_NOT_FOUND"   code="6" desc="查询不到相关信息" />
+
+<err name="ERR_GAME_SYS_ERROR"      code="1000001" desc="系统错误" />
+<err name="ERR_GAME_MAINTAIN"       code="1000002" desc="服务器维护" />
+<err name="ERR_GAME_BAD_VSN"        code="1000003" desc="客户端版本过低" />
+<err name="ERR_GAME_TOO_FAST"       code="1000004" desc="发包速度过快" />
+<err name="ERR_GAME_NOT_LOGIN"      code="1000005" desc="长时间未登录" />
+<err name="ERR_GAME_NO_HEART"       code="1000006" desc="没有心跳包" />
+<err name="ERR_GAME_BAD_ARGS"       code="1000007" desc="参数错误" />
+<err name="ERR_GAME_BAD_PKG"        code="1000008" desc="非法数据包" />
+<err name="ERR_GAME_BAD_ENUM"       code="1000009" desc="非法的枚举值" />
+<err name="ERR_GAME_LOGIN_ELSE"     code="1000010" desc="账号在别处登录" />
+<err name="ERR_GAME_BAD_CALL"       code="1000011" desc="不要call自己进程" />
+<err name="ERR_GAME_KICKOUT"        code="1000012" desc="被管理员踢下线" />
+<err name="ERR_GAME_NO_CROSS"       code="1000013" desc="跨服尚未开启" />
+<err name="ERR_GAME_BAD_ROOM"       code="1000014" desc="房间号必须是整数" />
+<err name="ERR_GAME_NO_ORDER"       code="1000015" desc="订单号不存在" />
+<err name="ERR_GAME_OUT_SYNC"       code="1000016" desc="时间不同步" />
+<err name="ERR_GAME_NOT_OPENED"     code="1000017" desc="服务器入口未开启" />
+<err name="ERR_GAME_SYS_OPENED"     code="1000018" desc="该系统未开启" />
+<err name="ERR_GAME_CALL_NODE"      code="1000019" desc="不要直接调用其他服" />
+<err name="ERR_GAME_SAME_NODE"      code="1000020" desc="同一个节点不需要call中心服" />
+<err name="ERR_GAME_KICKOUT_FCM"    code="1000021" desc="防沉迷系统踢下线,22-8点时间限制" />
+<err name="ERR_GAME_KICKOUT_FCM2"   code="1000022" desc="防沉迷系统踢下线,在线过长" />
+<err name="ERR_GAME_MANY_ACCOUNT"   code="1000023" desc="系统检测到您有恶意开小号的行为，您的账号现已被封禁。若有疑问请联系客服咨询。" />
+<err name="ERR_GAME_PAY_NOT_OPEN"   code="1000024" desc="充值尚未开放" />
+<err name="ERR_GAME_SYS_NOT_OPEN"   code="1000025" desc="系统未开放" />
+
+<err name="ERR_LOGIN_VERIFY_FAIL"  code="1001001" desc="验证失败" />
+<err name="ERR_LOGIN_MAX_AMOUNT"   code="1001002" desc="达到角色数量上限" />
+<err name="ERR_LOGIN_BAD_LENGTH"   code="1001003" desc="角色名称长度非法" />
+<err name="ERR_LOGIN_BAD_NAME"     code="1001004" desc="角色名称包含非法字符" />
+<err name="ERR_LOGIN_NAME_EXIST"   code="1001005" desc="角色名称已存在" />
+<err name="ERR_LOGIN_NO_ROLE"      code="1001006" desc="角色不存在" />
+<err name="ERR_LOGIN_IP_BANNED"    code="1001007" desc="IP被封禁" />
+<err name="ERR_LOGIN_AC_BANNED"    code="1001008" desc="账号被封禁" />
+<err name="ERR_LOGIN_ID_BANNED"    code="1001009" desc="角色被封禁" />
+<err name="ERR_LOGIN_TOKEN_EXPIRE" code="1001010" desc="TOKEN已过期" />
+<err name="ERR_LOGIN_BAD_TOKEN"    code="1001011" desc="无效的TOKEN" />
+<err name="ERR_LOGIN_TOO_HOT"      code="1001012" desc="排队人数太多，请选择最新区服" />
+
+
+<err name="ERR_ROLE_NOT_EXIST"  code="1100001" desc="角色不存在" />
+<err name="ERR_ROLE_MAX_LEVEL"  code="1100002" desc="已达到最高等级" />
+<err name="ERR_ROLE_OFFLINE"    code="1100003" desc="玩家不在线" />
+<err name="ERR_ROLE_NOT_NORMAL" code="1100004" desc="玩家处于非正常状态" />
+<err name="ERR_ROLE_WAKE_LIMIT" code="1100005" desc="觉醒后才能继续升级" />
+<err name="ERR_ROLE_QUERY_SELF" code="1100006" desc="不能查看自己" />
+
+
+<err name="ERR_BAG_ALL_OPENED" code="1101001"  desc="所有格子都已经解锁了" />
+<err name="ERR_BAG_NO_SPACE"   code="1101002"  desc="%s空间不足" />
+<err name="ERR_BAG_SEND_MAIL"  code="1101003"  desc="%s背包已满，奖励通过邮件发放" />
+
+
+<err name="ERR_ITEM_NOT_EXIST"          code="1102001" desc="道具不存在" />
+<err name="ERR_ITEM_NOT_ENOUGH"         code="1102002" desc="道具不足" />
+<err name="ERR_ITEM_CANNOT_USE"         code="1102003" desc="该道具不能直接使用" />
+<err name="ERR_ITEM_CANNOT_CHUCK"       code="1102004" desc="该道具不能被丢弃" />
+<err name="ERR_ITEM_CANNOT_SELL"        code="1102005" desc="该道具不能被出售" />
+<err name="ERR_ITEM_CANNOT_STORE"       code="1102006" desc="该道具不能放到仓库" />
+<err name="ERR_ITEM_LEVEL_LIMIT"        code="1102007" desc="等级不足，无法使用" />
+<err name="ERR_ITEM_VIP_LIMIT"          code="1102008" desc="VIP等级不足，无法使用" />
+<err name="ERR_ITEM_NOT_TIRED"          code="1102009" desc="疲劳已达最大值，不可使用疲劳药水" />
+<err name="ERR_ITEM_MC_NO_FLOOR"        code="1102010" desc="未通关魔法塔，不能使用" />
+<err name="ERR_ITEM_GIFT_SELECT"        code="1102011" desc="请先选择奖励" />
+
+
+<err name="ERR_TASK_NOT_TRIGGER"        code="1103001" desc="未触发该任务" />
+<err name="ERR_TASK_NOT_ACCEPT"         code="1103002" desc="未接受该任务" />
+<err name="ERR_TASK_HAD_ACCEPT"         code="1103003" desc="已接受该任务了" />
+<err name="ERR_TASK_NOT_FINISH"         code="1103004" desc="任务尚未完成" />
+<err name="ERR_TASK_HAD_SUBMIT"         code="1103005" desc="任务已经提交过了" />
+<err name="ERR_TASK_CHAPTER_NOT_FINISH" code="1103006" desc="该章节未完成" />
+<err name="ERR_TASK_HAD_EXPIRED"        code="1103007" desc="任务已超时" />
+<err name="ERR_TASK_ITEM_NOT_ENOUGH"    code="1103008" desc="任务材料不足" />
+
+
+<err name="ERR_MAIL_NOT_EXIST" code="1104001" desc="邮件不存在" />
+<err name="ERR_MAIL_TOO_MANY"  code="1104002" desc="超过附件容量上限" />
+<err name="ERR_MAIL_NO_ITEMS"  code="1104003" desc="当前没有可领取附件" />
+<err name="ERR_MAIL_HAS_ITEMS" code="1104004" desc="提取附件后再删除邮件" />
+<err name="ERR_MAIL_HAD_FETCH" code="1104005" desc="已经提取过了" />
+
+
+<err name="ERR_SKILL_NOT_LEARN" code="1105001" desc="技能未学习" />
+<err name="ERR_SKILL_MAX_LEVEL" code="1105002" desc="技能已满级" />
+<err name="ERR_SKILL_REPEAT"    code="1105003" desc="技能重复激活" />
+
+
+<err name="ERR_EQUIP_NOT_EQUIP"                code="1106001" desc="非装备不能穿戴" />
+<err name="ERR_EQUIP_CAREER_LIMIT"             code="1106002" desc="职业不符合" />
+<err name="ERR_EQUIP_LEVEL_LIMIT"              code="1106003" desc="等级不够" />
+<err name="ERR_EQUIP_NOT_PUTON"                code="1106004" desc="并未穿戴该装备" />
+<err name="ERR_EQUIP_REACH_MAX_LEVEL"          code="1106005"  desc="已达最大强化等级" />
+<err name="ERR_EQUIP_NO_EQUIP_STRENGTH"        code="1106006"  desc="找不到强化信息" />
+<err name="ERR_EQUIP_NO_EQUIP_STRENGTH_LIMIT"  code="1106007"  desc="找不到强化上限信息" />
+<err name="ERR_EQUIP_STONE_HOLE_NOT_OPEN"      code="1106008"  desc="该孔位未开放" />
+<err name="ERR_EQUIP_STONE_CANNOT_FILLIN_SLOT" code="1106009"  desc="该宝石不能镶嵌在这个部位" />
+<err name="ERR_EQUIP_SLOT_IS_MAKED"            code="1106010"  desc="已经制作过" />
+<err name="ERR_EQUIP_GOLD_NOT_ENOUGH"          code="1106011"  desc="元宝不足" />
+<err name="ERR_EQUIP_SLOT_PRE_IS_NOT_MAKED"    code="1106012"  desc="初阶套装还未制作" />
+<err name="ERR_EQUIP_WAKE_NOT_ENOUGH"          code="1106013"  desc="觉醒等级不够" />
+<err name="ERR_EQUIP_SMELT_MAX_LEVEL"          code="1106014"  desc="已达最高吞噬等级" />
+<err name="ERR_EQUIP_ONLY_FAIRY_CAN_OFF"       code="1106015"  desc="精灵才可以取下" />
+<err name="ERR_EQUIP_NO_STONE"                 code="1106016"  desc="该孔位没有宝石" />
+<err name="ERR_EQUIP_STONE_IS_MAX"             code="1106017"  desc="该宝石已达最高级" />
+<err name="ERR_EQUIP_CANNOT_MAKE_SUITE"        code="1106018"  desc="不满足套装制作条件" />
+<err name="ERR_EQUIP_COMBINE_COST_WRONG"       code="1106019"  desc="合成材料错误" />
+<err name="ERR_EQUIP_SMELT_COST_WRONG"         code="1106020"  desc="吞噬材料错误" />
+<err name="ERR_EQUIP_CAST_IS_MAX"              code="1106021"  desc="已铸造到最高级" />
+<err name="ERR_EQUIP_CAST_CANNOT_CAST"         code="1106022"  desc="该装备不满足铸造条件" />
+<err name="ERR_EQUIP_REFINE_UNLOCKED"          code="1106023"  desc="该部位已解锁" />
+<err name="ERR_EQUIP_REFINE_SLOT_LEVEL_WRONG"  code="1106024"  desc="未达到解锁等级" />
+<err name="ERR_EQUIP_REFINE_SLOT_NOT_ACTIVE"   code="1106025"  desc="该部位未解锁" />
+<err name="ERR_EQUIP_REFINE_HOLE_ACTIVED"      code="1106025"  desc="该孔位已解锁" />
+<err name="ERR_EQUIP_REFINE_LOCK_TOO_MANY"     code="1106026"  desc="锁定孔位过多" />
+<err name="ERR_EQUIP_REFINE_LOCK_WRONG"        code="1106027"  desc="锁定孔位错误" />
+<err name="ERR_EQUIP_REFINE_NO_BACK_ATTR"      code="1106028"  desc="没有可以还原的属性" />
+<err name="ERR_EQUIP_REFINE_SLOT_NO_EQUIP"     code="1106029"  desc="没有穿戴装备" />
+<err name="ERR_EQUIP_REFINE_VIP_NOT_ENOUGH"    code="1106030"  desc="贵族等级不足" />
+<err name="ERR_EQUIP_REFINE_CAN_REFINE_BACK"   code="1106031"  desc="有洗练卡槽未洗练，不能还原" />
+<err name="ERR_EQUIP_REFINE_RED_FULL_WRONG"    code="1106032"  desc="无瑕洗练石使用错误" />
+<err name="ERR_EQUIP_REFINE_PINK_WRONG"        code="1106033"  desc="永恒洗练石使用错误" />
+<err name="ERR_EQUIP_IS_EXPIRE"                code="1106034"  desc="该装备已过期" />
+<err name="ERR_EQUIP_SS_REACH_MAX_LEVEL"       code="1106035"  desc="已达最大强化套装等级" />
+<err name="ERR_EQUIP_SS_CAN_NOT_UP"            code="1106036"  desc="不满足升级条件" />
+<err name="ERR_EQUIP_CANNOT_DECOMBINE"         code="1106037"  desc="不满足拆解条件" />
+
+
+<err name="ERR_MOUNT_MAX_ORDER"      code="1107001" desc="已达到最高阶位"/>
+<err name="ERR_MOUNT_MAX_TRAIN"      code="1107002" desc="已达当前最大培养等级"/>
+<err name="ERR_MOUNT_INVALID_TRAIN"  code="1107003" desc="非法培养"/>
+<err name="ERR_MOUNT_IS_USING"       code="1107004" desc="当前正在使用该皮肤"/>
+<err name="ERR_MOUNT_NOT_ACTIVE"     code="1107005" desc="未激活该%s"/>
+<err name="ERR_MOUNT_RIDING"         code="1107006" desc="正处于骑乘状态"/>
+<err name="ERR_MOUNT_NOT_RIDING"     code="1107007" desc="不处于骑乘状态"/>
+
+<err name="ERR_MORPH_HAD_ACTIVED"  code="1108001" desc="已激活"/>
+<err name="ERR_MORPH_NOT_ACTIVED"  code="1108002" desc="未激活"/>
+<err name="ERR_MORPH_MAX_STAR"     code="1108003" desc="已满星"/>
+<err name="ERR_MORPH_IS_USING"     code="1108004" desc="正在使用该皮肤"/>
+<err name="ERR_MORPH_LOW_WAKE"     code="1108005" desc="觉醒等级不够"/>
+<err name="ERR_MORPH_BAD_GENDER"   code="1108006" desc="性别不符"/>
+
+<err name="ERR_TRAIN_NOT_ACTIVED"  code="1109001" desc="未激活"/>
+<err name="ERR_TRAIN_MAX_LEVEL"    code="1109002" desc="已满级"/>
+<err name="ERR_TRAIN_MAX_TRAIN"    code="1109003" desc="最大培养等级"/>
+
+<err name="ERR_VIP_HAD_ACTIVE"   code="1110001" desc="已激活"/>
+<err name="ERR_VIP_HAD_FETCH"    code="1110002" desc="已领取"/>
+<err name="ERR_VIP_NOT_ENOUGH"   code="1110003" desc="vip等级不够"/>
+<err name="ERR_VIP_EXPIRED"      code="1110004" desc="vip已过期"/>
+<err name="ERR_VIP_NOT_NORMAL"   code="1110005" desc="贵族体验不能领取礼包及贵族经验"/>
+<err name="ERR_VIP_NO_EXP_POOL"  code="1110006" desc="经验池没有累积经验"/>
+<err name="ERR_VIP_GAIN_SPILL"   code="1110007" desc="今日获得的元宝/绑定元宝已经超出上限，超出部分将于明天进行发放！"/>
+<err name="ERR_VIP_MCARD_ALREADY_BUY"   code="1110008" desc="月卡已经购买了"/>
+<err name="ERR_VIP_MCARD_NOT_BUY"   code="1110009" desc="请先购买月卡"/>
+<err name="ERR_VIP_MCARD_FETCHED"   code="1110010" desc="奖励已领取"/>
+<err name="ERR_VIP_MCARD_HAS_REWARD"   code="1110011" desc="请先领取完奖励"/>
+<err name="ERR_VIP_INVEST_ALREADY_BUY"   code="1110012" desc="该档次已购买"/>
+<err name="ERR_VIP_INVEST_ALREADY_FETCH"   code="1110013" desc="奖励已领取"/>
+<err name="ERR_VIP_INVEST_LEVEL_NOT_MATCH"   code="1110014" desc="等级不足，无法领取"/>
+<err name="ERR_VIP_REBATE_FETCHED"     code="1110015" desc="已经领取过了"/>
+<err name="ERR_VIP_REBATE_NOT_ARRIVED" code="1110016" desc="未到领取时间"/>
+
+<err name="ERR_MCHUNT_HUNTING"     code="1111001" desc="寻宝中"/>
+<err name="ERR_MCHUNT_MAX_TIMES"   code="1111002" desc="已达到最大次数"/>
+<err name="ERR_MCHUNT_NOT_HUNTING" code="1111003" desc="寻宝未开始"/>
+<err name="ERR_MCHUNT_NOT_NEARBY"  code="1111004" desc="不在魔灵附近"/>
+<err name="ERR_MCHUNT_BAD_SCENE"   code="1111005" desc="当前场景不可进行寻宝"/>
+<err name="ERR_MCHUNT_EXPIRED"     code="1111006" desc="时间耗尽，系统随便帮你收了一只精灵"/>
+<err name="ERR_MCHUNT_SCENE_FULL"  code="1111007" desc="精灵生成的场景人数已满，精灵已被降服"/>
+<err name="ERR_MCHUNT_GET_KEY_ERROR"  code="1111008" desc="今天已经领取过钥匙了"/>
+
+<err name="ERR_BEAST_ADDSUMMON_MAX"             code="1112001" desc="已达最大助阵上限"/>
+<err name="ERR_BEAST_ADDSUMMON_LEVEL"           code="1112002" desc="等级不足，无法提升"/>
+<err name="ERR_BEAST_EQUIP_COLOR"               code="1112003" desc="颜色不匹配，无法装备"/>
+<err name="ERR_BEAST_MAX_SUMMON"                code="1112004" desc="已达助阵上限"/>
+<err name="ERR_BEAST_ALREADY_SUMMON"            code="1112005" desc="已经在助阵了"/>
+<err name="ERR_BEAST_SUMMON_NOT_FULL_EQUIP"     code="1112006" desc="还未装备满，无法助阵"/>
+<err name="ERR_BEAST_NOT_SUMMON"                code="1112007" desc="没有助阵"/>
+<err name="ERR_BEAST_EQUIP_MAX_LEVEL"           code="1112008" desc="已经强化到最高等级"/>
+<err name="ERR_BEAST_EQUIP_NEED_SUMMON"         code="1112009" desc="助阵的神兽才可以强化"/>
+
+<err name="ERR_TOTEMS_ADDSUMMON_MAX"             code="1112101" desc="已达最大助阵上限"/>
+<err name="ERR_TOTEMS_ADDSUMMON_LEVEL"           code="1112102" desc="等级不足，无法提升"/>
+<err name="ERR_TOTEMS_EQUIP_COLOR"               code="1112103" desc="颜色不匹配，无法装备"/>
+<err name="ERR_TOTEMS_MAX_SUMMON"                code="1112104" desc="已达助阵上限"/>
+<err name="ERR_TOTEMS_ALREADY_SUMMON"            code="1112105" desc="已经在助阵了"/>
+<err name="ERR_TOTEMS_SUMMON_NOT_FULL_EQUIP"     code="1112106" desc="还未装备满，无法助阵"/>
+<err name="ERR_TOTEMS_NOT_SUMMON"                code="1112107" desc="没有助阵"/>
+<err name="ERR_TOTEMS_EQUIP_MAX_LEVEL"           code="1112108" desc="已经强化到最高等级"/>
+<err name="ERR_TOTEMS_EQUIP_NEED_SUMMON"         code="1112109" desc="助阵的神兽才可以强化"/>
+
+<err name="ERR_MARKET_CANNOT_TRADE"     code="1113001" desc="该道具不能交易"/>
+<err name="ERR_MARKET_BAD_PRICE"        code="1113002" desc="价格错误"/>
+<err name="ERR_MARKET_GLOBAL_NUM_LIMIT" code="1113003" desc="超过全服上架上限"/>
+<err name="ERR_MARKET_PERSON_NUM_LIMIT" code="1113004" desc="超过个人上架上限"/>
+<err name="ERR_MARKET_DEAL_ONLY_FRIEND" code="1113005" desc="只能与好友交易"/>
+<err name="ERR_MARKET_SELF_MAX_DEAL"    code="1113006" desc="已达到最大交易数量"/>
+<err name="ERR_MARKET_PEER_MAX_DEAL"    code="1113007" desc="对方已达到最大交易数量"/>
+<err name="ERR_MARKET_ITEM_NOT_FOUND"   code="1113008" desc="商品不存在"/>
+<err name="ERR_MARKET_PRICE_CHANGE"     code="1113009" desc="商品价格发生变化"/>
+<err name="ERR_MARKET_ITEM_NOT_ENOUGH"  code="1113010" desc="商品数量不足"/>
+<err name="ERR_MARKET_NEVER_DEAL"       code="1113011" desc="对方未向你发起过该交易"/>
+<err name="ERR_MARKET_LOW_VIPLV"        code="1113012" desc="vip等级不够"/>
+<err name="ERR_MARKET_BIND_ITEM"        code="1113013" desc="绑定物品不能交易"/>
+<err name="ERR_MARKET_MAX_DEAL_TIMES"   code="1113014" desc="已达到最大交易次数"/>
+<err name="ERR_MARKET_CANNOT_BUY_SELF"  code="1113015" desc="不能购买自己出售的物品"/>
+
+<err name="ERR_DAILY_ALREADY_REWARD"    code="1114001" desc="已经领取奖励了"/>
+<err name="ERR_DAILY_REWARD_NOT_ENOUGH" code="1114002" desc="活跃度不足，无法领取"/>
+<err name="ERR_DAILY_ILLUSION_MAX"      code="1114003" desc="已升到满级了"/>
+
+<err name="ERR_WEEKLY_ALREADY_REWARD"    code="1115001" desc="已经领取奖励了"/>
+<err name="ERR_WEEKLY_REWARD_NOT_ENOUGH" code="1115002" desc="活跃度不足，无法领取"/>
+<err name="ERR_WEEKLY_NOT_FINISH"        code="1115003" desc="还未完成，无法领取"/>
+
+<err name="ERR_WAKE_MAX_STEP"                  code="1117001" desc="已达最高阶段" />
+<err name="ERR_WAKE_NOT_ALL_TASK_FINISH"       code="1117002" desc="当前阶段任务未全部完成" />
+<err name="ERR_WAKE_MAX_WAKE_TIMES"            code="1117003" desc="已达最高觉醒等级" />
+<err name="ERR_WAKE_CAN_NOT_LIGHT_GRID"        code="1117004" desc="当前觉醒等级不能点亮格子" />
+<err name="ERR_WAKE_LEVEL_NOT_ENOUGH"          code="1117005" desc="角色等级不足" />
+<err name="ERR_WAKE_GRID_IS_LIGHTEN"           code="1117006" desc="该格子已点亮" />
+<err name="ERR_WAKE_CONDITION_NOT_ENOUGH"      code="1117007" desc="觉醒条件未满足" />
+<err name="ERR_WAKE_GRID_NOT_ENOUGH"           code="1117008" desc="进阶条件未满足" />
+
+<err name="ERR_MAGICCARD_GATE_NOT_OPEN"        code="1118001" desc="该孔位未开放" />
+<err name="ERR_MAGICCARD_TYPE_NOT_RIGHT"       code="1118002" desc="魂卡类型不对" />
+<err name="ERR_MAGICCARD_ATTR_NOT_RIGHT"       code="1118003" desc="不能镶嵌同属性魂卡" />
+<err name="ERR_MAGICCARD_IS_MAX_STAR"          code="1118004" desc="已达最大星级" />
+<err name="ERR_MAGICCARD_IS_MAX_STRONG"        code="1118005" desc="已强化到最高级" />
+<err name="ERR_MAGICCARD_CARDS_NOT_ENOUGH"     code="1118006" desc="消耗数量不足" />
+<err name="ERR_MAGICCARD_CARD_NOT_EXIST"       code="1118007" desc="未装备魂卡" />
+<err name="ERR_MAGICCARD_POS_WRONG"            code="1118008" desc="装备位置不对" />
+
+<err name="ERR_JOBTITLE_MAX"                     code="1119001" desc="已达最大等级" />
+<err name="ERR_JOBTITLE_POWER_NOT_ENOUGH"        code="1119002" desc="战力不足" />
+
+<err name="ERR_BABY_NOT_BORN"                code="1138001" desc="该子女尚未出生" />
+<err name="ERR_BABY_LEVEL_IS_MAX"            code="1138002" desc="已达最大培养等级" />
+<err name="ERR_BABY_NOT_ACTIVE"              code="1138003" desc="该子女尚未激活" />
+<err name="ERR_BABY_UP_ORDER_ITEM_WRONG"     code="1138004" desc="升阶道具错误" />
+<err name="ERR_BABY_ALREADY_ACTIVE"          code="1138005" desc="该子女已激活" />
+<err name="ERR_BABY_ALREADY_SHOW"            code="1138006" desc="当前已幻化" />
+<err name="ERR_BABY_TYPE_CANNOT_ACTVIE"      code="1138007" desc="该类型不能激活" />
+<err name="ERR_BABY_ORDER_IS_MAX"            code="1138008" desc="该子女已达最大阶" />
+<err name="ERR_BABY_NO_FIGURE_BABY"          code="1138009" desc="没有幻化的子女" />
+<err name="ERR_BABY_NO_EQUIP_PUTON"          code="1138010" desc="该部位没有装备" />
+<err name="ERR_BABY_EQUIP_MAX_LEVEL"         code="1138011" desc="已强化到最高等级" />
+<err name="ERR_BABY_WING_MAX_STAR"           code="1138012" desc="已达最高星级" />
+<err name="ERR_BABY_WING_IS_SHOW"            code="1138013" desc="正在幻化该翅膀" />
+<err name="ERR_BABY_WING_IS_NO_ACTIVE"       code="1138014" desc="该翅膀未激活" />
+
+<err name="ERR_CASTHOUSE_CANNOT_START"       code="1139001" desc="今日次数已用完" />
+<err name="ERR_CASTHOUSE_MAX_GRID"           code="1139002" desc="已走到尽头" />
+<err name="ERR_CASTHOUSE_CANNOT_RESET"       code="1139003" desc="还未到终点，不可以重置" />
+<err name="ERR_CASTHOUSE_MAX_RESET"          code="1139004" desc="今日重置次数已用完" />
+<err name="ERR_CASTHOUSE_PRE_NOT_END"        code="1139005" desc="上一次还未结束" />
+<err name="ERR_CASTHOUSE_BAG_NOTENOUGH"      code="1139006" desc="开始前先保证背包有足够的空位" />
+
+<err name="ERR_SOUL_DO_NOT_HAVE_ITEM"        code="1140001" desc="该槽位未装备圣痕" />
+<err name="ERR_SOUL_IS_MAX_STRONG"           code="1140002" desc="已到最大等级" />
+<err name="ERR_SOUL_POS_WRONG"               code="1140003" desc="位置错误" />
+<err name="ERR_SOUL_POS_NOT_OPEN"            code="1140004" desc="该槽位未开放" />
+<err name="ERR_SOUL_TYPE_NOT_RIGHT"          code="1140005" desc="圣痕类型不对" />
+<err name="ERR_SOUL_ATTR_NOT_RIGHT"          code="1140006" desc="不能镶嵌同属性圣痕" />
+
+<err name="ERR_TALENT_ROLE_LEVEL_LIMIT"  code="1141001" desc="玩家等级不足" />
+<err name="ERR_TALENT_ALLOT_LIMIT"       code="1141002" desc="%s系投入不足" />
+<err name="ERR_TALENT_SKILL_LEVEL_LIMIT" code="1141003" desc="%s等级不足" />
+<err name="ERR_TALENT_POINT_LIMIT"       code="1141004" desc="天赋点不足" />
+
+<err name="ERR_ILLUSTARTION_MAX_STAR"        code="1142001" desc="已经满级了" />
+<err name="ERR_ILLUSTARTION_DECOMPOSE_TYPE"  code="1142002" desc="类型有误，无法分解" />
+<err name="ERR_ILLUSTARTION_ITEM_NOT_ENOUGH" code="1142003" desc="缺少激活道具" />
+<err name="ERR_ILLUSTARTION_NOT_MAX_STAR"    code="1142004" desc="图鉴还未满级，不能分解" />
+
+<err name="ERR_ACTPAY_NOT_PAYED"      code="1143001" desc="累充还未完成" />
+<err name="ERR_ACTPAY_ALREADY_FETCH"  code="1143002" desc="今天奖励已领取" />
+<err name="ERR_ACTPAY_NO_REWARD"      code="1143003" desc="当前没有奖励可领取" />
+<err name="ERR_ACTPAY_NOT_START"      code="1143004" desc="活动还未开始" />
+
+<err name="ERR_ACTINVEST_NOT_INVEST"     code="1145001" desc="还未投资" />
+<err name="ERR_ACTINVEST_ALREADY_FETCH"  code="1145002" desc="今天奖励已领取" />
+<err name="ERR_ACTINVEST_NO_REWARD"      code="1145003" desc="当前没有奖励可领取" />
+<err name="ERR_ACTINVEST_NOT_START"      code="1145004" desc="活动已结束" />
+<err name="ERR_ACTINVEST_ALREADY_INVEST" code="1145005" desc="已经投资了" />
+
+<err name="ERR_MECHA_MAX_STAR"      code="1147001" desc="已满星"/>
+<err name="ERR_MECHA_MAX_LEVEL"     code="1147002" desc="已满级"/>
+<err name="ERR_MECHA_NOT_ACTIVE"    code="1147003" desc="未激活"/>
+<err name="ERR_MECHA_ALREADY_IN_USE"    code="1147004" desc="已经出战了"/>
+<err name="ERR_MECHA_CANNOT_PUTON"      code="1147005" desc="不能穿戴该装备"/>
+<err name="ERR_MECHA_STAR_NOT_ENOUGH"   code="1147006" desc="机甲星级不足"/>
+<err name="ERR_MECHA_IN_MORPH"   code="1147007" desc="变身状态下无法切换机甲"/>
+
+<err name="ERR_ARTI_ELEM_MAX_LEVEL"     code="1149001" desc="该元素已达到最高等级"/>
+<err name="ERR_ARTI_NOT_UNLOCK"         code="1149002" desc="该神器尚未解锁"/>
+<err name="ERR_ARTI_NOT_PUTON"          code="1149003" desc="该位置未穿戴装备"/>
+<err name="ERR_ARTI_MAX_REINF"          code="1149004" desc="已强化到最高级"/>
+<err name="ERR_ARTI_ENCHANT_NOT_ACTIVE" code="1149005" desc="尚未激活该属性"/>
+<err name="ERR_ARTI_ENCHANT_MAX"        code="1149006" desc="已达到附灵最大值"/>
+<err name="ERR_ARTI_CANNOT_ENCHANT"     code="1149007" desc="穿戴三件橙色品质以上的装备才可以进行附灵"/>
+
+<err name="ERR_FASHION_IS_NOT_EXIST"             code="1120001" desc="该时装未激活" />
+<err name="ERR_FASHION_IS_NOT_PUTON"             code="1120002" desc="未穿戴该时装" />
+<err name="ERR_FASHION_IS_ACTIVED"               code="1120003" desc="该时装已激活" />
+<err name="ERR_FASHION_IS_PUTON"                 code="1120004" desc="该时装已穿戴" />
+<err name="ERR_FASHION_IS_MAX_STAR"              code="1120005" desc="已到最大星级" />
+
+<err name="ERR_TITLE_IS_PUTON"               code="1121001" desc="该称号已穿戴" />
+<err name="ERR_TITLE_IS_NOT_EXIST"           code="1121002" desc="称号不存在" />
+<err name="ERR_TITLE_IS_EXPIRE"              code="1121003" desc="称号已过期" />
+<err name="ERR_TITLE_IS_NOT_PUTON"           code="1121004" desc="该称号未穿戴" />
+
+<err name="ERR_TARGET_TASK_WRONG"               code="1122001" desc="目标任务错误" />
+<err name="ERR_TARGET_TASK_STATE_WRONG"         code="1122002" desc="目标任务未完成" />
+<err name="ERR_TARGET_STATE_WRONG"              code="1122003" desc="目标未完成" />
+
+
+<err name="ERR_SCENE_CREATE_FAIL"    code="1200001" desc="场景创建失败" />
+<err name="ERR_SCENE_NOT_EXIST"      code="1200002" desc="场景不存在" />
+<err name="ERR_SCENE_SAME_SCENE"     code="1200003" desc="已经在该场景了" />
+<err name="ERR_SCENE_NO_ACTOR"       code="1200004" desc="角色不在场景中" />
+<err name="ERR_SCENE_LEVEL_LIMIT"    code="1200005" desc="低于地图要求等级" />
+<err name="ERR_SCENE_VIPLV_LIMIT"    code="1200006" desc="vip等级不够" />
+<err name="ERR_SCENE_UNWALKABLE"     code="1200007" desc="不可走点" />
+<err name="ERR_SCENE_TOO_LONG"       code="1200008" desc="步子太大" />
+<err name="ERR_SCENE_NOT_PORTAL"     code="1200009" desc="不在传送阵附近" />
+<err name="ERR_SCENE_CANNOT_TELE"    code="1200010" desc="该场景不能瞬移" />
+<err name="ERR_SCENE_NOTIN_DUNGE"    code="1200011" desc="不在副本中" />
+<err name="ERR_SCENE_IN_DUNGE"       code="1200012" desc="副本中不能切换场景" />
+<err name="ERR_SCENE_NO_TEAM"        code="1200013" desc="组队后才能进入该副本" />
+<err name="ERR_SCENE_NOT_LEADER"     code="1200014" desc="只有队长才能带队进入副本" />
+<err name="ERR_SCENE_NO_GUILD"       code="1200015" desc="加入公会后才能参加该活动" />
+<err name="ERR_SCENE_NO_ACTIVITY"    code="1200016" desc="活动未开启" />
+<err name="ERR_SCENE_MAX_TIMES"      code="1200017" desc="已达到最大进入次数" />
+<err name="ERR_SCENE_SAME_LINE"      code="1200018" desc="已经在该分线了" />
+<err name="ERR_SCENE_NO_LINE"        code="1200019" desc="不存在该分线" />
+<err name="ERR_SCENE_FULL_LINE"      code="1200020" desc="该分线已经满人了" />
+<err name="ERR_SCENE_CAN_NOT_REVIVE" code="1200021" desc="该场景不允许手动复活" />
+<err name="ERR_SCENE_NO_PORTAL"      code="1200022" desc="传送阵不存在" />
+<err name="ERR_SCENE_UNJUMPABLE"     code="1200023" desc="不在跳跃点附近" />
+<err name="ERR_SCENE_FULL_SCENE"     code="1200024" desc="场景人数已满" />
+<err name="ERR_SCENE_NO_NPC"         code="1200025" desc="NPC不存在" />
+<err name="ERR_SCENE_NPC_TOO_FAR"    code="1200026" desc="不在NPC附近" />
+<err name="ERR_SCENE_ENTER_CD"       code="1200027" desc="副本进入cd" />
+<err name="ERR_SCENE_MUTEX_DUNGE"    code="1200028" desc="当前场景不能进入副本" />
+<err name="ERR_SCENE_MUTEX_BOSS"     code="1200029" desc="当前场景不能进入Boss地图" />
+<err name="ERR_SCENE_DOING_OTHER"    code="1200030" desc="你正在%s中，不能进入副本" />
+<err name="ERR_SCENE_CHANGE_FORBID"  code="1200031" desc="当前场景不允许进入该地图" />
+<err name="ERR_SCENE_CANNOT_MOUNT"   code="1200032" desc="当前场景不允许骑乘" />
+<err name="ERR_SCENE_TASK_UNFINISH"  code="1200033" desc="未接受相关任务" />
+<err name="ERR_SCENE_FORBID_SHOES"   code="1200034" desc="你正在%s中，不能使用小飞鞋" />
+<err name="ERR_SCENE_MCHUNTING"      code="1200035" desc="您处于魂卡寻宝状态中，请先在1线中完成寻宝" />
+<err name="ERR_SCENE_CHANGE_FAIL"    code="1200036" desc="场景切换失败" />
+
+
+<err name="ERR_FIGHT_PASSIVE"        code="1201001" desc="不能使用被动技能" />
+<err name="ERR_FIGHT_BLOCKED"        code="1201002" desc="前方有阻挡" />
+<err name="ERR_FIGHT_TOO_MANY"       code="1201003" desc="攻击人数过多" />
+<err name="ERR_FIGHT_TOO_FAST"       code="1201004" desc="攻击速度过快" />
+<err name="ERR_FIGHT_SKILL_CD"       code="1201005" desc="技能冷却中" />
+<err name="ERR_FIGHT_NOT_IN_AREA"    code="1201006" desc="目标不在攻击范围内" />
+<err name="ERR_FIGHT_HAD_DEAD"       code="1201007" desc="死亡状态下不能攻击" />
+<err name="ERR_FIGHT_HAD_DIZZY"      code="1201008" desc="眩晕状态下不能攻击" />
+<err name="ERR_FIGHT_HAD_SILENT"     code="1201009" desc="沉默状态下不能攻击" />
+<err name="ERR_FIGHT_HAD_CHAOS"      code="1201010" desc="混乱状态下不能攻击" />
+<err name="ERR_FIGHT_HAD_IMMOB"      code="1201011" desc="定身状态下不能攻击" />
+<err name="ERR_FIGHT_NOT_DEAD"       code="1201012" desc="非死亡状态下不能复活" />
+<err name="ERR_FIGHT_DEFER_DEAD"     code="1201013" desc="目标已死亡" />
+<err name="ERR_FIGHT_DEFER_UNBEAT"   code="1201014" desc="目标处于无敌状态" />
+<err name="ERR_FIGHT_NO_COLLECT"     code="1201015" desc="采集物不存在" />
+<err name="ERR_FIGHT_NOT_COLLECT"    code="1201016" desc="非采集物" />
+<err name="ERR_FIGHT_COLLECTTED"     code="1201017" desc="已经其他玩家采集了" />
+<err name="ERR_COLLECT_TOO_FAR"      code="1201018" desc="距离采集物太远" />
+<err name="ERR_COLLECT_NOT_START"    code="1201019" desc="采集未开始" />
+<err name="ERR_COLLECT_NOT_COMPL"    code="1201020" desc="采集未完成" />
+<err name="ERR_FIGHT_NO_DROP"        code="1201021" desc="掉落不存在" />
+<err name="ERR_FIGHT_NOT_DROP"       code="1201022" desc="不是掉落物" />
+<err name="ERR_DROP_TOO_FAR"         code="1201023" desc="距离掉落物太远" />
+<err name="ERR_DROP_TOO_OFTEN"       code="1201024" desc="拾取间隔太短" />
+<err name="ERR_DROP_NOT_OWNER"       code="1201026" desc="该物品不属于你，暂不可捡取" />
+<err name="ERR_FIGHT_BOSS_TIRED"     code="1201027" desc="疲劳值为0，不可攻击BOSS" />
+<err name="ERR_FIGHT_BAD_PKMODE"     code="1201028" desc="当前场景不允许切换该PK模式" />
+<err name="ERR_FIGHT_NOT_YOUR_HUNT"  code="1201029" desc="这不是你的宝藏怪" />
+<err name="ERR_FIGHT_IN_SAME_GUILD"  code="1201030" desc="强制下不能攻击自己公会的玩家" />
+<err name="ERR_FIGHT_IN_SAME_TEAM"   code="1201031" desc="队伍模式下不能攻击自己队伍的玩家" />
+<err name="ERR_FIGHT_YOU_ARE_NEWBIE" code="1201032" desc="新手阶段不能攻击别人" />
+<err name="ERR_FIGHT_PEER_IS_NEWBIE" code="1201033" desc="对方处于新手阶段" />
+<err name="ERR_FIGHT_PEACE_MODE"     code="1201034" desc="和平模式下不能攻击别人" />
+<err name="ERR_FIGHT_LOW_CRIME"      code="1201035" desc="正义模式下只能攻击灰名以上的玩家" />
+<err name="ERR_FIGHT_YOU_ARE_IN_SAFE" code="1201036" desc="你处在安全区内，不能攻击别人" />
+<err name="ERR_FIGHT_PEER_IS_IN_SAFE" code="1201037" desc="不能攻击处在安全区内的玩家" />
+<err name="ERR_FIGHT_SKILL_NOT_PUTON" code="1201038" desc="未装配该技能" />
+<err name="ERR_FIGHT_SKILL_NOT_SUPERM" code="1201039" desc="非变身状态下不能使用该技能" />
+<err name="ERR_FIGHT_IN_SAME_GROUP"    code="1201040" desc="分组相同" />
+<err name="ERR_FIGHT_ATTACK_SELF"      code="1201041" desc="不能攻击自己" />
+<err name="ERR_DROP_MAX_TIRED"         code="1201042" desc="疲劳状态下不能拾取掉落" />
+<err name="ERR_COLLECT_TIRED"          code="1201043" desc="今日可采集数量达到上限" />
+<err name="ERR_DROP_NO_FAIRY"          code="1201044" desc="没有佩戴经验幻灵" />
+<err name="ERR_FIGHT_ROLE_USE_PET_SKILL" code="1201045" desc="人物不能使用宠物的技能" />
+<err name="ERR_FIGHT_PET_USE_ROLE_SKILL" code="1201046" desc="宠物不能使用人物的技能" />
+<err name="ERR_FIGHT_IN_SAME_SERVER"     code="1201047" desc="跨服模式下不能攻击自己服务器的玩家" />
+<err name="ERR_FIGHT_IN_NOT_HOSTILE"     code="1201048" desc="敌对模式下不能攻击非敌对玩家" />
+<err name="ERR_FIGHT_CGW_CRYSTAL_FIRST"  code="1201049" desc="击破水晶后才能攻击雕像" />
+
+<err name="ERR_DUNGE_NOT_IN"          code="1203001" desc="当前不在副本中" />
+<err name="ERR_DUNGE_INSPIRE_MAX"     code="1203002" desc="已达当前最大鼓舞次数" />
+<err name="ERR_DUNGE_MAX_BUY_TIMES"   code="1203003" desc="已达到最大购买次数" />
+<err name="ERR_DUNGE_NO_CD"           code="1203004" desc="不需要清除CD" />
+<err name="ERR_DUNGE_STAR_LIMIT"      code="1203005" desc="达到3星才能扫荡" />
+<err name="ERR_DUNGE_MAX_SWEEP_TIMES" code="1203006" desc="已达到最大扫荡次数" />
+<err name="ERR_DUNGE_MAX_FLOOR"       code="1203007" desc="已通关" />
+<err name="ERR_DUNGE_HAD_FETCH"       code="1203008" desc="已经领取过该奖励了" />
+<err name="ERR_DUNGE_NO_LOTO_TIMES"   code="1203009" desc="当前幸运次数为0，通关更多的魔法塔可以获得幸运次数" />
+<err name="ERR_DUNGE_NOT_CLEAR_PRE"   code="1203010" desc="未通关前一层数" />
+<err name="ERR_DUNGE_STAR_NOT_REACH"  code="1203011" desc="未达到星数条件" />
+<err name="ERR_DUNGE_NO_REWARD"       code="1203012" desc="不存在该奖励" />
+<err name="ERR_DUNGE_MOUNT_MAX_STAR"  code="1203013" desc="已3星通关" />
+<err name="ERR_DUNGE_MOUNT_SWEEP_LIMIT"  code="1203014" desc="未达到扫荡条件" />
+<err name="ERR_DUNGE_MOUNT_SWEEP_CLEAR"  code="1203015" desc="您已全部3星通关无需扫荡" />
+<err name="ERR_DUNGE_PET_CANNOT_COLLECT" code="1203016" desc="助战玩家不能采集宝箱" />
+<err name="ERR_DUNGE_BUY_TIMES_NEED_MARRIED" code="1203017" desc="只有结婚了才可以购买" />
+<err name="ERR_DUNGE_COUPLE_NOT_ONLINE" code="1203018" desc="对方不在线" />
+<err name="ERR_DUNGE_LEVEL_LIMIT"      code="1203019" desc="等级不足，无法扫荡" />
+<err name="ERR_DUNGE_SOUL_MORPH_LIMIT" code="1203020" desc="已达到最大上阵数量" />
+<err name="ERR_DUNGE_SOUL_ALREADY_SUMMON_BOSS" code="1203021" desc="已经召唤了" />
+<err name="ERR_DUNGE_SOUL_ALREADY_START" code="1203022" desc="已经开始了，不能调整" />
+<err name="ERR_DUNGE_NOT_ENOUGH_TIMES"   code="1203023" desc="副本次数不足" />
+<err name="ERR_DUNGE_CAN_NOT_MERGE"      code="1203024" desc="当前副本不能合并次数" />
+<err name="ERR_DUNGE_SOUL_SUMMON_NOT_STARTED" code="1203025" desc="还未开始，无法召唤" />
+<err name="ERR_DUNGE_SOUL_SUMMON_AUTO_SUCC" code="1203026" desc="设置成功" />
+<err name="ERR_DUNGE_GOD_CANNOT_SWEEP" code="1203027" desc="当前无需扫荡" />
+<err name="ERR_DUNGE_GOD_NOT_CLEAR"    code="1203028" desc="未通关该关卡" />
+<err name="ERR_DUNGE_GOD_MAX_WAVE"     code="1203029" desc="您已通关所有波数" />
+<err name="ERR_DUNGE_YYACT_NOT_START"     code="1203030" desc="活动未开始" />
+<err name="ERR_DUNGE_MAGIC_LEVEL_LIMIT"  code="1203031" desc="等级不足，无法进入" />
+
+<err name="ERR_BOSS_NOT_FOUND"  code="1204001" desc="不存在该Boss" />
+<err name="ERR_BOSS_NOT_INWILD" code="1204002" desc="不在蛮荒Boss场景" />
+<err name="ERR_BOSS_NOT_INBOSS" code="1204003" desc="不在Boss场景" />
+<err name="ERR_BOSS_NOT_DEAD"   code="1204004" desc="该Boss未被击杀" />
+
+<err name="ERR_GUILD_HAD_JOIN"       code="1400001" desc="已经有公会了" />
+<err name="ERR_GUILD_BAD_LENGTH"     code="1400002" desc="公会名字限定1~6个中文字符" />
+<err name="ERR_GUILD_BAD_NAME"       code="1400003" desc="公会名字包含敏感词汇" />
+<err name="ERR_GUILD_NAME_EXIST"     code="1400004" desc="公会名字已被使用" />
+<err name="ERR_GUILD_NOT_JOIN"       code="1400005" desc="未加入公会" />
+<err name="ERR_GUILD_NOT_EXIST"      code="1400006" desc="公会不存在" />
+<err name="ERR_GUILD_NOT_EMPTY"      code="1400007" desc="公会还有其他成员，不能解散" />
+<err name="ERR_GUILD_PERM_DENY"      code="1400008" desc="权限不足" />
+<err name="ERR_GUILD_APPLY_LIMIT"    code="1400009" desc="超过公会申请数量上限" />
+<err name="ERR_GUILD_HAD_APPLY"      code="1400010" desc="已经申请过了" />
+<err name="ERR_GUILD_NEVER_APPLY"    code="1400011" desc="对方未提出过申请" />
+<err name="ERR_GUILD_NO_APPLY"       code="1400012" desc="没有人申请进入公会" />
+<err name="ERR_GUILD_HAD_FULL"       code="1400013" desc="公会已经满员" />
+<err name="ERR_GUILD_NOT_APPLY"      code="1400014" desc="未申请加入该公会" />
+<err name="ERR_GUILD_LOW_LEVEL"      code="1400015" desc="等级不够" />
+<err name="ERR_GUILD_LOW_VIPLV"      code="1400016" desc="vip等级不够" />
+<err name="ERR_GUILD_NO_MEMBER"      code="1400017" desc="不存在该成员" />
+<err name="ERR_GUILD_SAME_POST"      code="1400018" desc="已经是该职位" />
+<err name="ERR_GUILD_POST_FULL"      code="1400019" desc="该职位已经满员" />
+<err name="ERR_GUILD_HAD_RUNFOR"     code="1400020" desc="已经申请过了" />
+<err name="ERR_GUILD_NOT_RUNFOR"     code="1400021" desc="对方未申请过该职位" />
+<err name="ERR_GUILD_NOT_CHIEF"      code="1400022" desc="你不是会长" />
+<err name="ERR_GUILD_CANNOT_IMPEACH" code="1400023" desc="不满足弹劾条件" />
+<err name="ERR_GUILD_HAD_IMPEACH"    code="1400024" desc="已经有人弹劾过了" />
+<err name="ERR_GUILD_NO_IMPEACH"     code="1400025" desc="没有人发起弹劾" />
+<err name="ERR_GUILD_IMPEACH_BEFORE" code="1400026" desc="你已经同意/拒绝过了" />
+<err name="ERR_GUILD_THE_ORIGIN"     code="1400027" desc="发起人就是自己" />
+<err name="ERR_GUILD_NOT_BABY"       code="1400028" desc="只有公会宝贝才可领取该福利" />
+<err name="ERR_GUILD_HAD_FETCH"      code="1400029" desc="已经领取过该福利了" />
+<err name="ERR_GUILD_MAX_LEVEL"      code="1400030" desc="已经是最大等级了" />
+<err name="ERR_GUILD_LACK_FUND"      code="1400031" desc="公会资金不足" />
+<err name="ERR_GUILD_LACK_LEVEL"     code="1400032" desc="不满足进入公会等级要求" />
+<err name="ERR_GUILD_LACK_POWER"     code="1400033" desc="不满足进入公会战力要求" />
+<err name="ERR_GUILD_DEPOT_NO_ITEM"  code="1400034" desc="仓库中不存在该物品" />
+<err name="ERR_GUILD_CANNOT_DONATE"  code="1400035" desc="该物品不能捐献" />
+<err name="ERR_GUILD_DEPOT_NO_SPACE" code="1400036" desc="仓库空间不足" />
+<err name="ERR_GUILD_EXCH_LACK_SCORE"    code="1400037" desc="积分不足" />
+<err name="ERR_GUILD_MODIFY_BY_OTHERS"   code="1400038" desc="其他人修改了公告内容" />
+<err name="ERR_GUILD_OPERATE_SELF"       code="1400039" desc="不能操作自己" />
+<err name="ERR_GUILD_NOT_GUILD_SKILL"    code="1400040" desc="不是公会技能" />
+<err name="ERR_GUILD_SKILL_CANNOT_LEARN" code="1400041" desc="未满足升级条件" />
+<err name="ERR_GUILD_SKILL_MAX_LEVEL"    code="1400042" desc="已达到最大等级" />
+<err name="ERR_GUILD_IS_MEMBER"          code="1400043" desc="已经是公会成员了" />
+<err name="ERR_GUILD_QUIT_LIMIT"         code="1400044" desc="公会活动期间，不允许退出公会" />
+<err name="ERR_GUILD_HAD_JOIN_OTHER"     code="1400045" desc="对方已加入其他公会" />
+<err name="ERR_GUILD_NO_PAY"     code="1400046" desc="累计充值不足50元不能创建公会" />
+
+<err name="ERR_GUILD_REDENVELOPE_NOT_EXIST"      code="1404001" desc="红包不存在" />
+<err name="ERR_GUILD_REDENVELOPE_STATE_WRONG"    code="1404002" desc="红包状态错误" />
+<err name="ERR_GUILD_REDENVELOPE_IS_FINISHED"    code="1404003" desc="红包已领完" />
+<err name="ERR_GUILD_REDENVELOPE_SNATCHED"       code="1404004" desc="您已领取过该红包" />
+
+<err name="ERR_GUILD_GUARD_JOINTIME_LIMIT"  code="1405001" desc="入会时间不足" />
+<err name="ERR_GUILD_GUARD_FINISHED"        code="1405002" desc="守卫活动已结束，下次早点来哦" />
+
+<err name="ERR_TEAM_HAD_IN_TEAM"                code="1500001" desc="已经有队伍了" />
+<err name="ERR_TEAM_NOT_IN_TEAM"                code="1500002" desc="不在队伍中" />
+<err name="ERR_TEAM_ALREADY_APPLIED"            code="1500003" desc="已申请过该队伍，请耐心等待" />
+<err name="ERR_TEAM_MAX_NUM"                    code="1500004" desc="队伍已满" />
+<err name="ERR_TEAM_NOT_CAPTAIN"                code="1500005" desc="您不是队长，不能执行次操作哦！" />
+<err name="ERR_TEAM_NOT_TEAM_MEMBER"            code="1500006" desc="玩家不在队伍中" />
+<err name="ERR_TEAM_PLAYER_IS_OFFLINE"          code="1500007" desc="玩家已离线" />
+<err name="ERR_TEAM_TEAM_IS_NOT_EXIST"          code="1500008" desc="队伍已不存在" />
+<err name="ERR_TEAM_LEVEL_NOT_IN_RANGE"         code="1500009" desc="您的等级不在队伍的要求范围内" />
+<err name="ERR_TEAM_CAPTAIN_CAN_MATCH"          code="1500010" desc="只有队长才可进行队伍匹配哦！" />
+<err name="ERR_TEAM_TOTAL_NUM_OVER"             code="1500011" desc="双方队伍总人数超过3，请先退出现有队伍" />
+<err name="ERR_TEAM_MEMBER_LEVEL_NOT_IN_RANGE"  code="1500012" desc="您的队伍中有成员等级不在要求范围内" />
+<err name="ERR_TEAM_MEMBER_LEVEL_NOT_IN_RANGE2" code="1500013" desc="对方的队伍中有成员等级不在要求范围内" />
+<err name="ERR_TEAM_TOTAL_NUM_OVER2"            code="1500014" desc="双方队伍总人数超过3，无法合并" />
+<err name="ERR_TEAM_IN_SAME_TEAM"               code="1500015" desc="已在该队伍中" />
+<err name="ERR_TEAM_IN_ESCORT"                  code="1500016" desc="护送中，不可以进入副本" />
+<err name="ERR_TEAM_TARGET_WRONG"               code="1500017" desc="队伍目标不对" />
+<err name="ERR_TEAM_DUNGE_TYPE_WRONG"           code="1500018" desc="不是副本类型" />
+<err name="ERR_TEAM_NOT_IN_APPLY"               code="1500019" desc="不在申请列表中" />
+<err name="ERR_TEAM_NOT_IN_INVITE"              code="1500020" desc="不在邀请列表中" />
+<err name="ERR_TEAM_NOT_ALL_AGREE"              code="1500021" desc="不是所有队员都已同意" />
+<err name="ERR_TEAM_DUNGE_COUPLE_MEM_NUM"       code="1500022" desc="情侣副本要求两人组队" />
+<err name="ERR_TEAM_DUNGE_COUPLE_GENDER"        code="1500023" desc="异性玩家组队才可进入" />
+<err name="ERR_TEAM_MEM_NOT_FOUND"              code="1500024" desc="找不到该队友" />
+<err name="ERR_TEAM_HAD_IN_TEAM2"               code="1500025" desc="对方已有队伍" />
+<err name="ERR_TEAM_NOT_TEAM_DUNGE"             code="1500026" desc="不可组队进入" />
+
+<err name="ERR_SEARCHTREASURE_STORAGE_NOT_ENOUGH" code="1124001" desc="寻宝仓库空间不足，请先取出！" />
+<err name="ERR_SEARCHTREASURE_REWARDS_WRONG"      code="1124002" desc="寻宝奖励数据错误！" />
+<err name="ERR_SEARCHTREASURE_BATCH_WRONG"        code="1124003" desc="寻宝批次数据错误" />
+<err name="ERR_SEARCHTREASURE_TIMES_WRONG"        code="1124004" desc="寻宝次数错误" />
+<err name="ERR_SEARCHTREASURE_TYPE_WRONG"         code="1124005" desc="寻宝类型错误" />
+<err name="ERR_SEARCHTREASURE_BAG_NOT_ENOUGH"     code="1124006" desc="包裹空间不足，请先清理背包！" />
+<err name="ERR_SEARCHTREASURE_NO_COST"            code="1124007" desc="没有消耗数据！" />
+
+<err name="ERR_MALL_BUY_TOO_MANY"            code="1125001" desc="购买数超出限购数量！" />
+<err name="ERR_MALL_BUY_MCARD_GATE_NOT_OPEN" code="1125002" desc="要通关对应的关卡才能购买！" />
+<err name="ERR_MALL_BUY_MALLITEM_NOT_EXSIT"  code="1125003" desc="该商品不存在！" />
+<err name="ERR_MALL_BUY_NOT_IN_ACTIVITY"     code="1125004" desc="活动期间才能购买！" />
+<err name="ERR_MALL_BUY_NOT_EXPIRE"          code="1125005" desc="还未过期！" />
+<err name="ERR_MALL_BUY_CAN_NOT_VALIDATE"    code="1125006" desc="该装备不可以续期！" />
+<err name="ERR_MALL_BUY_PACK_FAIL"           code="1125007" desc="商品不足，无法打包" />
+
+<err name="ERR_ACHIEVE_DATA_WRONG"           code="1128001" desc="成就数据错误！" />
+<err name="ERR_ACHIEVE_STATE_WRONG"          code="1128002" desc="成就状态错误！" />
+
+<err name="ERR_PET_IS_NOT_PUTON"            code="1129001" desc="宠物未助战！" />
+<err name="ERR_PET_IS_STRONG_MAX"           code="1129002" desc="已训练满级！" />
+<err name="ERR_PET_CROSS_COST_WRONG"        code="1129003" desc="超越消耗错误" />
+<err name="ERR_PET_STRONG_NOT_MAX"          code="1129004" desc="训练未全部达最高级！" />
+<err name="ERR_PET_EVOLVE_IS_MAX"           code="1129005" desc="已突破到最高级！" />
+<err name="ERR_PET_LEVEL_IS_NOT_ENOUGH"     code="1129006" desc="等级不足！" />
+<err name="ERR_PET_BAG_ID_WRONG"            code="1129007" desc="宠物背包里的才能分解" />
+<err name="ERR_PET_IS_EXPIRE"               code="1129008" desc="该宠物已过期" />
+<err name="ERR_PET_EQUIP_NOT_PUTON"         code="1129009" desc="不存在该装备" />
+<err name="ERR_PET_EQUIP_CAN_NOT_REINF"     code="1129010" desc="不满足强化条件" />
+<err name="ERR_PET_EQUIP_MAX_REINF"         code="1129011" desc="进阶后才可以继续强化" />
+<err name="ERR_PET_EQUIP_CAN_NOT_UPORDER"   code="1129011" desc="不满足进阶条件" />
+<err name="ERR_PET_EQUIP_CAN_NOT_SMELT"     code="1129012" desc="不能分解" />
+<err name="ERR_PET_EQUIP_CAN_NOT_SPLIT"     code="1129013" desc="不能拆解" />
+<err name="ERR_PET_EQUIP_MAX_ORDER"         code="1129014" desc="已达到最高阶位" />
+<err name="ERR_PET_EQUIP_CAN_NOT_INHERIT"   code="1129015" desc="不满足继承条件" />
+<err name="ERR_PET_EQUIP_CAN_NOT_PUTON"     code="1129016" desc="不满足穿戴条件" />
+
+<err name="ERR_CHAT_OFF_MSG_ENOUGH"   code="1300001" desc="留言次数已达上限！"/>
+<err name="ERR_CHAT_BAN_SILENT"       code="1300002" desc="你被禁言了"/>
+<err name="ERR_CHAT_ITEM_NOT_EXIST"   code="1300003" desc="数据已不存在"/>
+<err name="ERR_CHAT_CONTENT_TOO_LONG" code="1300004" desc="内容过长"/>
+<err name="ERR_CHAT_IN_CD"            code="1300005" desc="发言过快"/>
+<err name="ERR_CHAT_RECHARGE_OR_LV"            code="1300006" desc="世界频道发言需要100级且充值68元"/>
+
+<err name="ERR_FRIEND_ALREADY_APPLY"            code="1126001" desc="已经申请好友了" />
+<err name="ERR_FRIEND_REQUEST_IN_BLACKLIST"     code="1126002" desc="你在对方黑名单中，无法加好友" />
+<err name="ERR_FRIEND_SEARCH_NOT_FOUND"         code="1126003" desc="查无此人" />
+<err name="ERR_FRIEND_ACEEPT_FULL"              code="1126004" desc="已经到达好友上限了" />
+<err name="ERR_FRIEND_RECEIVER_NOT_ONLINE"      code="1126005" desc="对方不在线" />
+<err name="ERR_FRIEND_REQUEST_SELF"             code="1126006" desc="不能向自己申请好友" />
+<err name="ERR_FRIEND_IN_BLACKLIST"             code="1126007" desc="对方在你的黑名单里" />
+<err name="ERR_FRIEND_ALREADY_FRIEND"           code="1126008" desc="你们已经是好友了" />
+<err name="ERR_FRIEND_OTHER_FULL"               code="1126009" desc="对方好友已上限无法添加" />
+<err name="ERR_FRIEND_SEND_SELF_FLOWER"         code="1126010" desc="不能赠送给自己" />
+<err name="ERR_FRIEND_SELF_FULL"                code="1126011" desc="好友已达上限" />
+<err name="ERR_FRIEND_REQUEST_MAX"              code="1126012" desc="今日添加好友次数已达上限" />
+<err name="ERR_FRIEND_DEL_MARRY"                code="1126013" desc="正在婚姻中" />
+<err name="ERR_FRIEND_REQUEST_LV_NOT_ENOUGH"    code="1126014" desc="该玩家等级过低无法被添加" />
+
+<err name="ERR_AFK_MAX_TIME"            code="1127001" desc="离线挂机时间已达上限" />
+
+<err name="ERR_FIRSTPAY_NOT_PAYED"      code="1130001" desc="首充还未完成" />
+<err name="ERR_FIRSTPAY_ALREADY_FETCH"  code="1130002" desc="今天奖励已领取" />
+<err name="ERR_FIRSTPAY_NO_REWARD"      code="1130003" desc="当前没有奖励可领取" />
+
+<err name="ERR_WANTED_NO_REWARD"        code="1131001" desc="当前没有奖励可领取" />
+<err name="ERR_WANTED_ALREADY_REWARD"   code="1131002" desc="奖励已领取" />
+<err name="ERR_WANTED_NOT_FINISH"       code="1131003" desc="任务还未完成" />
+
+<err name="ERR_ARENA_SELF_IN_FIGHT"         code="1132001" desc="当前处于挑战中" />
+<err name="ERR_ARENA_IN_FIGHT"              code="1132002" desc="守方被挑战中" />
+<err name="ERR_ARENA_DEFENDER_RANK_CHANGE"  code="1132003" desc="您所挑战的玩家排名已发生变化" />
+<err name="ERR_ARENA_MAX_BUY_TIMES"         code="1132004" desc="超过购买上限" />
+<err name="ERR_ARENA_NO_CHALLENGE"          code="1132005" desc="挑战次数已用完" />
+<err name="ERR_ARENA_TOP_CHALLENGE_RANK"    code="1132006" desc="排名50以内才可以挑战大神" />
+<err name="ERR_ARENA_HIGH_RANK_NOT_MEET"    code="1132007" desc="历史最高排名还未达标" />
+<err name="ERR_ARENA_ALREADY_FETCH"         code="1132008" desc="奖励已领取" />
+<err name="ERR_ARENA_NO_REWARD"             code="1132009" desc="排名未上榜" />
+<err name="ERR_ARENA_CHALLENGE_SELF"        code="1132010" desc="不能挑战自己" />
+<err name="ERR_ARENA_SKIP_LV"               code="1132011" desc="等级不足，无法跳过战斗" />
+<err name="ERR_ARENA_MERGE_LV"              code="1132012" desc="等级不足，无法合并次数" />
+
+<err name="ERR_DATING_FLIRT_MAX"            code="1133001" desc="今日撩人次数已达上限" />
+
+<err name="ERR_MARRIAGE_STEP_UNDONE"            code="1134001" desc="还未完成" />
+<err name="ERR_MARRIAGE_STEP_REWARD"            code="1134002" desc="已经领取过该奖励了" />
+<err name="ERR_MARRIAGE_GENDER"                 code="1134003" desc="只能跟异性结婚" />
+<err name="ERR_MARRIAGE_NEED_ONLINE"            code="1134004" desc="双方必须在线" />
+<err name="ERR_MARRIAGE_INTIMACY"               code="1134005" desc="亲密度不足" />
+<err name="ERR_MARRIAGE_LEVEL"                  code="1134006" desc="双方的等级不足" />
+<err name="ERR_MARRIAGE_BE_PROPOSED"            code="1134007" desc="你正在被求婚中" />
+<err name="ERR_MARRIAGE_PROPOSE_TO"             code="1134008" desc="你已经在求婚" />
+<err name="ERR_MARRIAGE_TARGET_BE_PROPOSED"     code="1134009" desc="对方正在被求婚" />
+<err name="ERR_MARRIAGE_TARGET_PROPOSE_TO"      code="1134010" desc="对方正在求婚" />
+<err name="ERR_MARRIAGE_ALREADY_MARRY"          code="1134011" desc="你已经结婚了" />
+<err name="ERR_MARRIAGE_TARGET_ALREADY_MARRY"   code="1134012" desc="对方已经结婚了" />
+<err name="ERR_MARRIAGE_NOT_PROPOSE"            code="1134013" desc="对方并没有求婚" />
+<err name="ERR_MARRIAGE_NOT_MARRY"              code="1134014" desc="你并没有结婚" />
+<err name="ERR_MARRIAGE_RING_MAX"               code="1134015" desc="已经满级了" />
+<err name="ERR_MARRIAGE_DIVORCE_HAS_APPOINTMENT" code="1134016" desc="已经预约了婚礼，暂不能离婚" />
+
+<err name="ERR_WEDDING_NOT_MARRIRED"            code="1135001" desc="还未结婚" />
+<err name="ERR_WEDDING_HAS_APPOINTMENT"         code="1135002" desc="有已预约的婚礼未开始，无法预约" />
+<err name="ERR_WEDDING_NO_WCOUNT"               code="1135003" desc="预约次数已用完" />
+<err name="ERR_WEDDING_ALREADY_BOOK"            code="1135004" desc="已经被预约了" />
+<err name="ERR_WEDDING_WRONG_TIME"              code="1135005" desc="预约时间有误" />
+<err name="ERR_WEDDING_NO_APPOINTMENT"          code="1135006" desc="请先预约" />
+<err name="ERR_WEDDING_ALREADY_INVITE"          code="1135007" desc="已经邀请了" />
+<err name="ERR_WEDDING_MAX_INVITE"              code="1135008" desc="已达邀请上限" />
+<err name="ERR_WEDDING_NO_NEED_REQUEST"         code="1135009" desc="您不需要请柬" />
+<err name="ERR_WEDDING_ALREADY_REQUEST"         code="1135010" desc="已经索要了" />
+<err name="ERR_WEDDING_INVITE_MAX"              code="1135011" desc="请增加邀请上限" />
+<err name="ERR_WEDDING_NOT_IN_PARTY"            code="1135012" desc="只能在婚宴上使用" />
+<err name="ERR_WEDDING_NOT_START"               code="1135013" desc="婚礼还未开始" />
+<err name="ERR_WEDDING_NOT_INVITED"             code="1135014" desc="您未被邀请" />
+<err name="ERR_WEDDING_MAX_FOOD"                code="1135015" desc="您吃得太多了，给其他人留留吧" />
+<err name="ERR_WEDDING_MAX_CANDY"               code="1135016" desc="您捡得够多了，给其他人留留吧" />
+<err name="ERR_WEDDING_HOT_NOT_MEET"            code="1135017" desc="热度还未达到" />
+<err name="ERR_WEDDING_BOOK_OVERTIME"           code="1135018" desc="已过预约时间" />
+<err name="ERR_WEDDING_PARTY_ALREADY_FETCH"     code="1135019" desc="已经领取了" />
+
+<err name="ERR_FINDBACK_DATA_NOT_EXIST"         code="1136001" desc="数据不存在" />
+<err name="ERR_FINDBACK_TYPE_WRONG"             code="1136002" desc="找回类型错误" />
+<err name="ERR_FINDBACK_DO_NOT_HAVE_FINDBACK"   code="1136003" desc="当前没有可找回的数据" />
+<err name="ERR_FINDBACK_KEY_WRONG"              code="1136004" desc="找回的key错误" />
+<err name="ERR_FINDBACK_COUNT_WRONG"            code="1136005" desc="超过最大可找回次数" />
+<err name="ERR_FINDBACK_NO_FLOOR_DROP"          code="1136006" desc="没有通关层数奖励" />
+
+<err name="ERR_GUILDHOUSE_CALLBOSS_WRONG"         code="1402001" desc="不是召唤boss道具" />
+
+<err name="ERR_REDENVELOPE_TYPE_WRONG"          code="1403001" desc="红包类型错误" />
+<err name="ERR_REDENVELOPE_NUM_WRONG"           code="1403002" desc="红包数量不能大于金额" />
+<err name="ERR_REDENVELOPE_NOT_EXIST"           code="1403003" desc="红包数据不存在" />
+<err name="ERR_REDENVELOPE_STATE_WRONG"         code="1403004" desc="红包状态不对" />
+<err name="ERR_REDENVELOPE_MONEY_WRONG"         code="1403005" desc="红包金额不能为0" />
+
+<err name="ERR_ESCORT_PRODUCT_NO_EXIST"         code="1601001" desc="护送任务不存在" />
+<err name="ERR_ESCORT_COUNT_IS_MAX"             code="1601002" desc="已达最大护送次数" />
+<err name="ERR_ESCORT_QUALITY_IS_MAX"           code="1601003" desc="已达最高品质" />
+<err name="ERR_ESCORT_HAVE_NOT_ESCORT"          code="1601004" desc="未有护送任务" />
+<err name="ERR_ESCORT_PROGRESS_WRONG"           code="1601005" desc="护送阶段不对" />
+
+<err name="ERR_GUILDWAR_CAN_NOT_JOIN"   code="1602001" desc="所在公会未达到参赛条件" />
+<err name="ERR_GUILDWAR_ALREADY_STOP"   code="1602002" desc="该战区已决出胜负" />
+<err name="ERR_GUILDWAR_ALREADY_OCCUPY" code="1602003" desc="该水晶已被我方占领" />
+<err name="ERR_GUILDWAR_NOT_WINNER"     code="1602004" desc="主宰公会才可以使用" />
+<err name="ERR_GUILDWAR_HAD_ALLOTED"    code="1602005" desc="已经分配过该奖励了" />
+<err name="ERR_GUILDWAR_HAD_FETCH"      code="1602006" desc="已经领取过该奖励了" />
+<err name="ERR_GUILDWAR_JOIN_TOO_LATE"  code="1602007" desc="活动当天19点前进入公会的才可以参加公会战" />
+<err name="ERR_GUILDWAR_NEVER_VICTORY"  code="1602008" desc="未达到连胜条件" />
+<err name="ERR_GUILDWAR_NEVER_BREAKUP"  code="1602009" desc="未终结任何连胜公会" />
+
+<err name="ERR_CANDYROOM_NOT_HERE"              code="1604001" desc="对方当前不在糖果屋内" />
+<err name="ERR_CANDYROOM_GIFTNUM_NOT_ENOUGH"    code="1604002" desc="次数不足" />
+<err name="ERR_CANDYROOM_NO_BUY_TIMES"          code="1604003" desc="购买次数超过上限" />
+
+<err name="ERR_COMBAT1V1_REWARD_FETCHED"            code="1605001" desc="奖励已领取" />
+<err name="ERR_COMBAT1V1_REWARD_NOT_QUALIFIED"      code="1605002" desc="未达标，无法领取" />
+<err name="ERR_COMBAT1V1_DAILY_REWARD_NO_GRADE"     code="1605003" desc="暂无段位，无法领取" />
+<err name="ERR_COMBAT1V1_MAX_BUY_TIMES"             code="1605004" desc="已达到最大购买次数" />
+<err name="ERR_COMBAT1V1_MAX_JOIN"                  code="1605005" desc="已达到最大进入次数" />
+<err name="ERR_COMBAT1V1_LV_NOT_ENOUGH"             code="1605006" desc="等级不足，无法参加" />
+
+<err name="ERR_WARRIOR_NOT_KILL_ENOUGH"             code="1606001" desc="未达到进入下一层条件" />
+
+<err name="ERR_COMPETE_NOT_SATISFY"    code="1607001" desc="未满足报名条件" />
+<err name="ERR_COMPETE_HAD_ENROLLED"   code="1607002" desc="已经报过名了" />
+<err name="ERR_COMPETE_NOT_ENROLLED"   code="1607003" desc="你没有报名活动" />
+<err name="ERR_COMPETE_BUFF_NOT_FOUND" code="1607004" desc="不存在该Buff" />
+<err name="ERR_COMPETE_BUFF_HAD_BUY"   code="1607005" desc="已经买过该Buff了" />
+<err name="ERR_COMPETE_NOT_ENROLL"     code="1607006" desc="不在报名阶段" />
+<err name="ERR_COMPETE_NOT_GUESS"      code="1607007" desc="不在竞猜阶段" />
+<err name="ERR_COMPETE_HAD_GUESS"      code="1607008" desc="已经竞猜过了" />
+<err name="ERR_COMPETE_NOT_PASS"       code="1607009" desc="你没有通过筛选" />
+
+<err name="ERR_TIMEBOSS_NOT_SAME"     code="1608001" desc="伤害前3名玩家所在服才可开启宝箱，您不能开启" />
+<err name="ERR_TIMEBOSS_NO_TIMES"     code="1608002" desc="奖励次数已用完，不能进入跨服首领场景" />
+<err name="ERR_TIMEBOSS_MAX_BOXTIMES" code="1608003" desc="珍宝宝箱开启次数已用完，不能开启" />
+
+<err name="ERR_SIEGEWAR_NO_CITY"   code="1609001" desc="不存在该城市" />
+<err name="ERR_SIEGEWAR_NOT_OWNER" code="1609002" desc="请先占领上一级城市" />
+<err name="ERR_SIEGEWAR_MEDAL_NOT_ENOUGH" code="1609003" desc="未达到该进度" />
+<err name="ERR_SIEGEWAR_HAD_FETCH"    code="1609004" desc="已经领取过该奖励了" />
+<err name="ERR_SIEGEWAR_MAX_BOXTIMES" code="1609005" desc="珍宝宝箱开启次数已用完，不能开启" />
+
+<err name="ERR_THRONE_SCENE_LOCKED" code="1610001" desc="尚未解锁下一层地图" />
+
+<err name="ERR_CGW_CANNOT_ENTER"     code="1611001" desc="所在公会未达到参赛条件" />
+<err name="ERR_CGW_NOT_BOOK_PERIOD"  code="1611002" desc="不在预约阶段" />
+<err name="ERR_CGW_RIVAL_NOT_FOUND"  code="1611003" desc="对手不存在" />
+<err name="ERR_CGW_MAX_BOOK_TIMES1"  code="1611004" desc="已达到最大预约次数" />
+<err name="ERR_CGW_MAX_BOOK_TIMES2"  code="1611005" desc="对方已达到最大预约次数" />
+<err name="ERR_CGW_HAD_BOOK"         code="1611006" desc="已有预约对手" />
+<err name="ERR_CGW_SCORE_NOT_ENOUGH" code="1611007" desc="积分不足" />
+<err name="ERR_CGW_SAME_GROUP"       code="1611008" desc="不能预约同一组的公会" />
+<err name="ERR_CGW_POST_NOT_ENOUGH"  code="1611009" desc="权限不足" />
+<err name="ERR_CGW_CANNOT_COLLECT"   code="1611010" desc="不能采集" />
+<err name="ERR_CGW_BATTLE_STOP"      code="1611011" desc="活动已结束" />
+<err name="ERR_CGW_BATTLE_MISS"      code="1611012" desc="此轮轮空" />
+
+<err name="ERR_YYLOGIN_ALREADY_REWARD"  code="1701001" desc="已经领取过该奖励了" />
+<err name="ERR_YYLOGIN_DAY_WRONG"       code="1701002" desc="累计登录天数不足，无法领取" />
+<err name="ERR_YYLOGIN_DAY_MAX"         code="1701003" desc="已全部领取了" />
+
+<err name="ERR_RICHMAN_CAN_NOT_FETCH"   code="1702001" desc="未达领取条件" />
+<err name="ERR_RICHMAN_HAD_FETCH"       code="1702002" desc="已领取" />
+<err name="ERR_RICHMAN_MAX_ROUND"       code="1702003" desc="已达到最大圈数" />
+<err name="ERR_RICHMAN_CAN_NOT_MEND"    code="1702004" desc="不需要补签" />
+
+<err name="ERR_WELFARE_ACTIVE_NOT_ENOUGH"   code="1123001" desc="当前活跃度不足，无法补签" />
+<!-- begin 礼包码 -->
+<!-- 不要改礼包码的错误码id，后台也有用到 -->
+<err name="ERR_REDEEM_BAD_CODE"     code="1123101" desc="请输入正确的礼包码" />
+<err name="ERR_REDEEM_HAD_USED"     code="1123102" desc="该礼包码已被使用" />
+<err name="ERR_REDEEM_HAD_FETCH"    code="1123103" desc="已经领取过该礼包了" />
+<err name="ERR_REDEEM_REQS_LIMIT"   code="1123104" desc="未达领取条件" />
+<err name="ERR_REDEEM_HAD_EXPIRED"  code="1123105" desc="礼包码已过期" />
+<!-- 礼包码 end -->
+<err name="ERR_WELFARE_GRAIL_COUNT_IS_MAX"  code="1123004" desc="已达最大祈福次数" />
+<err name="ERR_WELFARE_CONDI_NOT_ENOUGH"    code="1123005" desc="未达领取条件" />
+<err name="ERR_WELFARE_REWARD_IS_GOT"       code="1123006" desc="该奖励已领取过" />
+<err name="ERR_WELFARE_IS_MAX_DAYS"         code="1123007" desc="已达最大签到天数" />
+<err name="ERR_WELFARE_SIGN_COUNT_WRONG"    code="1123008" desc="vip签到次数不足" />
+<err name="ERR_WELFARE_NOT_IN_DURATION"     code="1123009" desc="不在时间范围内" />
+<err name="ERR_WELFARE_REWARD_WRONG"        code="1123010" desc="奖励数据错误" />
+
+
+
+<err name="ERR_YUNYING_HAD_FETCH"       code="1700001" desc="已经领取过该奖励了" />
+<err name="ERR_YUNYING_CANNOT_FETCH"    code="1700002" desc="活动未结束，不能领取该奖励" />
+<err name="ERR_YUNYING_NOT_REACH"       code="1700003" desc="未达到奖励条件" />
+<err name="ERR_YUNYING_NO_REWARD"       code="1700004" desc="不存在该奖励" />
+<err name="ERR_YUNYING_PERSONAL_LIMIT"  code="1700005" desc="已达到最大领取上限" />
+<err name="ERR_YUNYING_GLOBAL_LIMIT"    code="1700006" desc="已达到最大领取上限" />
+<err name="ERR_YUNYING_NOT_GUILD_CHIEF" code="1700007" desc="只有公会会长才可领取该奖励" />
+<err name="ERR_YUNYING_LOTTERY_ALREADY_FETCH" code="1700008" desc="已经领取过该奖励了" />
+<err name="ERR_YUNYING_LOTTERY_FETECH_ALL" code="1700009" desc="已全部领取了" />
+<err name="ERR_YUNYING_LOTTERY_NOT_ENOUGH_PRO" code="1700010" desc="神秘值不足" />
+<err name="ERR_YUNYING_LOTTERY_NO_REWARD" code="1700011" desc="已全部抽完了" />
+<err name="ERR_YUNYING_NOT_START"       code="1700012" desc="活动未开始" />
+<err name="ERR_YUNYING_SHOP_ALREADY_REWARD"       code="1700013" desc="已经开奖了，无法购买" />
+<err name="ERR_YUNYING_SHOP_MAX"       code="1700014" desc="超出云购上限，无法购买" />
+<err name="ERR_YUNYING_SHOP_LIMIT"       code="1700015" desc="已超出可云购上限次数，请待不限次数时间再来" />
+<err name="ERR_YUNYING_SHOP_NOT_SELL"       code="1700016" desc="该商品不再出售了" />
+
+<err name="ERR_GUILDHOUSE_NOTIN_HOUSE"         code="1800001" desc="需要在公会领地才能参加该活动" />
+<err name="ERR_GUILDHOUSE_QUESTION_EXPIRE"     code="1800002" desc="该题目已过期" />
+<err name="ERR_GUILDHOUSE_ACTIVITY_NOT_START"  code="1800003" desc="不在活动期间" />
+<err name="ERR_GUILDHOUSE_ONLY_CALL_ONE_BOSS"  code="1800004" desc="同时只能召唤一只boss" />
+<err name="ERR_GUILDHOUSE_ENTER_LIMIT_TIME"    code="1800005" desc="进入公会时间超过15分钟，才可以进入公会驻地" />
+
+</errs>

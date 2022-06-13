@@ -1,0 +1,14 @@
+---
+
+- name: update server
+  unarchive:
+    remote_src: yes
+    src: "{{ pkg }}"
+    dest: "{{ serv_path }}"
+    owner: root
+    group: root
+    mode: 0744
+
+- shell: sh xctl hot
+  args:
+    chdir: "{{ serv_path }}"

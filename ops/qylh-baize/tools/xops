@@ -1,0 +1,231 @@
+#!/usr/bin/env bash
+
+ToolsDir=$(cd $(dirname $0); pwd)
+ScriptDir=${ToolsDir}/ops
+
+function doc()
+{
+	local Script=${1}
+	echo $(cat ${ScriptDir}/${Script}.sh | grep "@doc" | cut -d" " -f3)
+}
+
+function usage()
+{
+
+	echo -ne "\e[31m"
+    cat <<EOF
+usage: $(basename $0) command [args]
+command
+	install  $(doc install_server)
+	clone    $(doc clone_server)
+	backup   $(doc backup_mnesia)
+	migrate  $(doc migrate_mnesia)
+	apply    $(doc run_function)
+	upgrade  $(doc upgrade_server)
+	merge    $(doc merge_server)
+	merge2    $(doc merge_server2)
+	debug    $(doc debug_server)
+	fetch_db $(doc fetch_db)
+	copy_db  $(doc copy_db)
+	restore_db $(doc restore_db)sync
+ 		hosts      $(doc sync_hosts)
+ 		server     $(doc sync_server)
+ 		client     $(doc sync_client)
+	deploy
+		center     $(doc deploy_center)
+		cross      $(doc deploy_cross)
+		server     $(doc deploy_server)
+	config
+		server   $(doc config_server)
+		cross    $(doc config_cross)
+		center   $(doc config_center)
+	start
+		all       $(doc start_all)
+		center    $(doc start_center)
+		cross     $(doc start_cross)
+		server    $(doc start_server)
+	stop
+		all       $(doc stop_all)
+		center    $(doc stop_center)
+		cross     $(doc stop_cross)
+		server    $(doc stop_server)
+	update
+		all       $(doc update_all)
+		server    $(doc udpate_server)
+EOF
+    echo -ne "\e[0m"
+    exit 1
+}
+
+function run()
+{
+	local Script=${1}
+	shift
+	cd ${ScriptDir}/
+	./${Script}.sh $@
+	if [ $? -ne 0 ]; then
+		exit 1
+	fi
+	cd - 1> /dev/null
+}
+
+case "${1}" in
+	install )
+		shift
+		run install_server $@
+		;;
+	clone )
+		shift
+		run clone_server $@
+		;;
+	backup )
+		shift
+		run backup_mnesia $@
+		;;
+	migrate )
+		shift
+		run migrate_mnesia $@
+		;;
+	apply )
+		shift
+		run run_function $@
+		;;
+	update )
+		shift
+		run update_all $@
+		;;
+	upgrade )
+		shift
+		run upgrade_server $@
+		;;
+	merge )
+		shift
+		run merge_server $@
+		;;
+  merge2 )
+    shift
+    run merge_server2 $@
+    ;;
+	debug )
+		shift
+		run debug_server $@
+		;;
+	fetch_db )
+    shift
+    run fetch_db $@
+    ;;
+  copy_db )
+    shift
+    run copy_db $@
+    ;;
+  restore_db )
+    shift
+    run restore_db $@
+    ;;
+  sync )
+		shift
+		case "${1}" in
+			"hosts" )
+				shift
+				run sync_hosts $@
+				;;
+			"server" )
+				shift
+				run sync_server $@
+				;;
+			"client" )
+				shift
+				run sync_client $@
+				;;
+			* )
+				usage
+		esac
+		;;
+	deploy )
+		shift
+		case "${1}" in
+			"center" )
+				shift
+				run deploy_center $@
+				;;
+			"cross" )
+				shift
+				run deploy_cross $@
+				;;
+			"server" )
+				shift
+				run deploy_server $@
+				;;
+			* )
+				usage
+		esac
+		;;
+	config )
+		shift
+		case "${1}" in
+			"server" )
+				shift
+				run config_server $@
+				;;
+			"cross" )
+				shift
+				run config_cross $@
+				;;
+			"center" )
+				shift
+				run config_center $@
+				;;
+			* )
+				usage
+		esac
+		;;
+	start )
+		shift
+		case "${1}" in
+			"all" )
+				shift
+				run start_all $@
+				;;
+			"server" )
+				shift
+				run start_server $@
+				;;
+			"cross" )
+				shift
+				run start_cross $@
+				;;
+			"center" )
+				shift
+				run start_center $@
+				;;
+			* )
+				usage
+		esac
+		;;
+	stop )
+		shift
+		case "${1}" in
+			"all" )
+				shift
+				run stop_all $@
+				;;
+			"server" )
+				shift
+				run stop_server $@
+				;;
+			"cross" )
+				shift
+				run stop_cross $@
+				;;
+			"center" )
+				shift
+				run stop_center $@
+				;;
+			* )
+				usage
+		esac
+		;;
+
+	* )
+	  usage
+esac

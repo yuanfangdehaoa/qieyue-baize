@@ -1,0 +1,81 @@
+syntax = "proto2";
+
+
+message p_searchtreasure_message_item {
+	required int32 type_id = 1;    //寻宝类型
+	optional string name = 2;      //玩家昵称
+	required int32 item_id = 3;    //道具id
+	required int32 num = 4;        //道具数量
+	optional int32 time = 5;       //时间
+	optional int32 count = 6;      //累计次数
+}
+
+message m_searchtreasure_getinfo_tos { //1124001
+	required int32 type_id = 1;
+}
+
+message m_searchtreasure_getinfo_toc { //1124001
+	required int32 type_id = 1;
+	required int32 batch_id = 2;    //searchtreasure_batch.id
+	required int32 bless_value = 3;      //祝福值
+	required int32 turn = 4;             //当前轮次
+	optional int32 show_add = 5;         //是否显示增加祝福值
+}
+
+
+message m_searchtreasure_search_tos {  //1124002
+	required int32 type_id = 1;    //(1-装备抽奖，2-巅峰寻宝, 主题抽奖活动id)
+	required int32 count = 2;      //购买次数
+}
+
+message m_searchtreasure_search_toc {  //1124002
+	required int32 type_id = 1;
+	repeated int32 reward_ids = 2;
+}
+
+
+//获取记录
+message m_searchtreasure_getmessages_tos {  //1124004
+	required int32 type_id = 1;
+	required int32 is_global = 2;    //是否全服记录(1-全服记录，2-历史大奖)
+}
+
+message m_searchtreasure_getmessages_toc {  //1124004
+	required int32 type_id = 1;
+	required int32 is_global = 2;    //是否全服记录
+	repeated p_searchtreasure_message_item messages = 3;
+	required int32 is_add_new = 4;   //是否新增(0-否，1-是)
+}
+
+//从仓库一键取出到包裹
+message m_searchtreasure_fetch_tos {     //1124005
+
+}
+
+//是否已抽中珍稀
+message m_searchtreasure_have_rare_tos { //1124006
+	required int32 type_id = 1;     //活动id
+}
+
+message m_searchtreasure_have_rare_toc { //1124006
+	required bool have_rare = 1;   //是否已抽中珍稀
+	required int32 type_id = 2;
+}
+
+// 查询是否领取钥匙
+message searchtreasure_get_key_info_tos { //1124007
+}
+
+message m_searchtreasure_get_key_info_toc { //1124007
+	required int32   res = 1; // 0 未领取 1已领取;
+}
+
+// 领取寻宝钥匙
+message m_searchtreasure_get_key_tos { //1124008
+}
+
+message m_searchtreasure_get_key_toc { //1124008
+	required int32   res = 1; // 1 领取成功;
+}
+
+

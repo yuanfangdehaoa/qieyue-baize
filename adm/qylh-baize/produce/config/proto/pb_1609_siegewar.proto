@@ -1,0 +1,125 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 城市信息
+message m_siegewar_city_tos { //1609001
+
+}
+
+message m_siegewar_city_toc { //1609001
+	repeated p_siegewar_city cities = 1;
+	required int32           medal  = 2; // 本周功勋进度
+	repeated int32           fetch  = 3; // 已领取的奖励
+	required int32           rule   = 4; // 划分规则 0=单服 1=2跨服; 2=4跨服; 3=8跨服
+	repeated int32           link   = 5; // 相连的中级城
+}
+
+// boss信息
+message m_siegewar_boss_tos { //1609002
+	required int32            scene  = 1; // 场景id
+}
+
+message m_siegewar_boss_toc { //1609002
+	required int32            scene  = 1; // 场景id
+	repeated p_siegewar_boss  bosses = 2;
+	required int32            suid   = 3; // 归属服务器id
+	repeated p_siegewar_score score  = 4; // 积分信息
+	optional string           name   = 5; // 帮派名称
+}
+
+// 伤害排名
+message m_siegewar_damage_tos { //1609003
+	required int32             boss    = 1;
+}
+
+message m_siegewar_damage_toc { //1609003
+	required int32             boss    = 1;
+	repeated p_siegewar_damage ranking = 2;
+}
+
+// 掉落记录
+message m_siegewar_dropped_tos { //1609004
+}
+
+message m_siegewar_dropped_toc { //1609004
+	repeated p_dropped logs = 1; // 掉落日志
+}
+
+// 领取勋章奖励
+message m_siegewar_medal_fetch_tos { //1609005
+	required int32 medal = 1; // 领取哪个奖励 1,2,3...
+}
+
+message m_siegewar_medal_fetch_toc { //1609005
+	required int32 medal = 1; // 领取哪个奖励
+}
+
+// 购买勋章
+message m_siegewar_medal_buy_tos { //1609006
+}
+
+message m_siegewar_medal_buy_toc { //1609006
+}
+
+// boss信息更新
+message m_siegewar_boss_update_toc { //1609007
+	required int32 id   = 1; // BossID
+	required int32 born = 2; // 出生时间戳
+	required int32 num  = 3; // 剩余boss数量
+}
+
+// 宝箱信息
+message m_siegewar_boxinfo_tos { //1609008
+	required uint64 box_uid  = 1; // 宝箱uid
+}
+
+message m_siegewar_boxinfo_toc { //1609008
+	required uint64 box_uid  = 1; // 宝箱uid
+	repeated string summoner = 2; // 召唤者列表
+	repeated int32  suids    = 3; // 可开启的服务器列表
+	required bool   can_open = 4; // 是否可开启
+	required int32  remain   = 5; // 剩余次数
+	required int32  boss_id  = 6; // BossID
+}
+
+// 宝箱开启
+message m_siegewar_boxopen_tos { //1609009
+	required int32 type  = 1; // 1=普通开启; 2=至尊开启
+	required int32 boss  = 2; // BossID
+	required int32 times = 3; // 第几次开启
+}
+
+message m_siegewar_boxopen_toc { //1609009
+	required int32   type   = 1;
+	map<int32,int32> reward = 2;
+}
+
+message p_siegewar_city {
+	required int32  scene = 1; // 场景id
+	required int32  suid  = 2; // 归属服务器id
+	required int32  boss  = 3; // 剩余boss数量
+	required int32  score = 4; // 自己服的积分
+	required int32  level = 5; // 城市等级
+	required bool   temp  = 6; // 是否临时占领
+	optional string name  = 7; // 帮派名称
+}
+
+message p_siegewar_boss {
+	required int32 id    = 1; // BossID
+	required int32 born  = 2; // 出生时间戳
+}
+
+message p_siegewar_damage {
+	required int32  id     = 1; // 服务器id
+	required int32  damage = 2; // 伤害万分比
+	required int32  rank   = 3; // 排名
+	required int32  type   = 4; // 1=玩家; 2=公会; 3=服务器
+	optional string name   = 5; // 玩家/帮派名称
+}
+
+message p_siegewar_score {
+	required int32  id     = 1; // 玩家/帮派/服务器id
+	required string name   = 2; // 玩家/帮派名称
+	required int32  score  = 3; // 积分
+	required int32  type   = 4; // 1=玩家; 2=公会; 3=服务器
+}

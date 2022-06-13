@@ -1,0 +1,79 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 神兽列表
+message m_beast_list_tos { //1112001
+}
+
+message m_beast_list_toc { //1112001
+    required int32      max_summon  = 1; // 最大可助阵数
+    repeated p_beast    list        = 2; // 只返回有装备数据的神兽
+}
+
+// 提升助战数量
+message m_beast_addsummon_tos { //1112002
+}
+
+message m_beast_addsummon_toc { //1112002
+    required int32      max_summon = 1;
+}
+
+// 穿装备
+message m_beast_equip_load_tos { //1112003
+    required int32      id  = 1; // 神兽ID
+    required int32      uid = 2; // 唯一id cellid
+}
+
+message m_beast_equip_load_toc { //1112003
+    required int32      id      = 1;
+    required p_item     equip   = 2;
+}
+
+// 卸装备
+message m_beast_equip_unload_tos { //1112004
+    required int32      id      = 1; // 神兽ID
+    required int32      slot    = 2; // 孔位, 0表示全部卸载
+}
+
+message m_beast_equip_unload_toc { //1112004
+    required int32      id   = 1; // 前端自行清空神兽装备，修改神兽的助阵状态
+    required int32      slot = 2;
+}
+
+// 助阵
+message m_beast_summon_tos { //1112005
+    required int32      id  = 1; // 神兽ID
+}
+
+message m_beast_summon_toc { //1112005
+    required int32      id      = 1; // 前端自行修改神兽的助阵状态
+}
+
+// 召回
+message m_beast_unsummon_tos { //1112006
+    required int32      id  = 1; // 神兽ID
+}
+
+message m_beast_unsummon_toc { //1112006
+    required int32      id      = 1; // 前端自行修改神兽的助阵状态
+}
+
+// 装备强化
+message m_beast_equip_reinforce_tos { //1112007
+    required int32      id       = 1; // 神兽ID
+    required int32      uid      = 2; // 强化的装备 item.uid
+    repeated int32      cellids  = 3; // 选中被吞噬的装备 item.uid
+    required bool       use_gold = 4; // 是否使用元宝增强
+}
+
+message m_beast_equip_reinforce_toc { //1112007
+    required int32      id      = 1;
+    required p_item     equip   = 2;
+}
+
+// 神兽
+message p_beast {
+    required int32      id      = 1;
+    repeated p_item     equips  = 2;
+    required bool       summon  = 3; //是否助阵
+}

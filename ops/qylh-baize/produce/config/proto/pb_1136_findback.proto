@@ -1,0 +1,42 @@
+syntax = "proto2";
+
+
+message p_findback {
+	required string key = 1;          //主键
+	repeated int32 counts = 2;         //可找回次数 [倒数第一天，倒数第二天]
+	repeated int32 extra_counts = 3;   //可找回额外次数 [倒数第一天，倒数第二天]
+}
+
+
+//获取信息
+message m_findback_info_tos {  //1136001
+	
+}
+
+//返回找回信息（找回后增量更新）
+message m_findback_info_toc {  //1136001
+	repeated p_findback lists = 1;        //找回信息
+	optional int32 level = 2;             //找回等级
+	map<int32, int32> floors = 3;         //层数key=stype, val=floor
+}
+
+//找回
+message m_findback_find_tos {  //1136002
+	required string key = 1;
+	required int32 type_id = 2;   //找回类型(1-金币，2-绑元)
+	required int32 count = 3;  //找回次数
+}
+
+message m_findback_find_toc {  //1136002
+	
+}
+
+//一键找回
+message m_findback_find_all_tos {  //1136003
+	required int32 type_id = 1;  //找回类型(1-金币，2-绑元)
+	optional bool extra = 2;  //是否包含额外次数(绑元找回才有额外次数)
+}
+
+message m_findback_find_all_toc {  //1136003
+
+}

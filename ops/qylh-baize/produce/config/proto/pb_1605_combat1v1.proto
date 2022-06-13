@@ -1,0 +1,102 @@
+syntax = "proto2";
+
+message m_combat1v1_info_tos { //160501
+    
+}
+
+message m_combat1v1_info_toc { //160501
+    required int32      grade        = 1; //段位
+    required int32      score        = 2; //当前积分
+    required int32      today_join   = 3; //参与次数
+    required int32      today_merit  = 4; //今天获得的功勋
+    required int32      merit        = 5; //功勋
+    map<int32, bool>    join_reward  = 6; //场次奖励（达到场次才会有数据）
+    required int32      last_grade   = 7; //昨日段位
+    required int32      daily_reward = 8; //每日奖励 0:没有，1：可领取，2：已领取
+    repeated int32      merit_reward = 9; //领取了的功勋奖励
+    required string     mode         = 10; //跨服or本服
+    required int32      remain_join  = 11; //可进入次数
+    required int32      remain_buy   = 12; //可购买次数
+    required int32      season_end   = 13; //赛季时间戳（给的是那天的零点）
+}
+
+// 开始匹配
+message m_combat1v1_match_start_tos { //160502
+}
+
+message m_combat1v1_match_start_toc { //160502
+}
+
+// 取消匹配
+message m_combat1v1_match_cancel_tos { //160503
+    
+}
+
+message m_combat1v1_match_cancel_toc { //160503
+    
+}
+
+//匹配成功
+message m_combat1v1_match_succ_toc { //160510
+    
+}
+
+// 加载完资源，进入副本后请求，前端此时处于等待对手阶段
+message m_combat1v1_battle_prepare_tos { //160504
+    
+}
+
+message m_combat1v1_battle_prepare_toc { //160504
+    required fixed64    opponent = 1; //对手ID
+    required int32      pos      = 2; //自己的位置 1: 左；2：右
+}
+
+// 双方都进入后，推送倒计时，以及副本结束时间
+message m_combat1v1_battle_start_toc { //160505
+    optional int32      ptime = 1; // 准备结束时间
+    optional int32      etime = 2; // 副本结束时间
+}
+
+// 挑战结束
+message m_combat1v1_battle_result_toc { //160506
+    required bool       is_win  = 1; //结果
+    required int32      grade   = 2; //段位
+    required int32      score   = 3; //当前积分
+    required int32      chg     = 4; //积分变化 （增加或扣除）
+    map<int32, int32>   rewards = 5; //奖励
+}
+
+// 领取场次奖励
+message m_combat1v1_join_reward_tos { //160507
+    required int32      num = 1; //领取的场次
+}
+
+message m_combat1v1_join_reward_toc { //160507
+    required int32      num = 1;
+}
+
+// 领取每日奖励
+message m_combat1v1_daily_reward_tos { //160508
+}
+
+message m_combat1v1_daily_reward_toc { //160508
+}
+
+// 领取功勋奖励
+message m_combat1v1_merit_reward_tos { //160509
+    required int32      merit = 1; //领取的功勋奖励
+}
+
+message m_combat1v1_merit_reward_toc { //160509
+    required int32      merit = 1; //领取的功勋奖励
+}
+
+// 购买次数
+message m_combat1v1_buy_times_tos { //160511
+    required int32      num   = 1; //购买次数
+}
+
+message m_combat1v1_buy_times_toc { //160511
+    required int32      remain_join  = 1;
+    required int32      remain_buy   = 2;
+}

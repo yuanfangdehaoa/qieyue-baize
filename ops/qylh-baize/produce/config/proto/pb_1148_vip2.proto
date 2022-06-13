@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+// vip 信息
+message m_vip2_info_tos { //1148001
+
+}
+
+message m_vip2_info_toc { //1148001
+	required int32  level     = 1;
+	required double exp       = 2;
+	repeated int32  lv_reward = 3; // 已领取的等级奖励
+}
+
+// 领取奖励
+message m_vip2_fetch_tos { //1148002
+	required int32 level = 1;
+}
+
+message m_vip2_fetch_toc { //1148002
+	required int32 level = 1;
+}
+
+// vip 激活
+message m_vip2_active_tos { //1148003
+	required int32 id  = 1; // 激活卡id
+}
+
+message m_vip2_active_toc { //1148003
+	required int32 id  = 1;
+}

@@ -1,0 +1,32 @@
+syntax = "proto2";
+
+// 天赋列表
+message m_talent_info_tos { //1141001
+}
+
+message m_talent_info_toc { //1141001
+	required int32    point  = 1; // 剩余天赋点数
+	map<int32, int32> skills = 2; // SkillID=>SkillLv
+}
+
+// 天赋升级
+message m_talent_upgrade_tos { //1141002
+	required int32 id    = 1; // 技能id
+}
+
+message m_talent_upgrade_toc { //1141002
+	required int32 id    = 1;
+	required int32 point = 2; // 剩余天赋点数
+}
+
+// 天赋重置
+message m_talent_reset_tos { //1141003
+}
+
+message m_talent_reset_toc { //1141003
+}
+
+// 天赋点更新
+message m_talent_point_toc { //1141004
+	required int32    point  = 1; // 剩余天赋点数
+}

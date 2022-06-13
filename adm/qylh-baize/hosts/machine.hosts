@@ -1,0 +1,2 @@
+[machines]
+machine_1 ansible_ssh_host=172.27.0.8

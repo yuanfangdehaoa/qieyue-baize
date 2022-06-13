@@ -1,0 +1,6607 @@
+% Automatically generated, do not edit
+-module(cfg_yunying).
+
+-compile([export_all]).
+-compile(nowarn_export_all).
+
+-include("yunying.hrl").
+
+find(100201) -> #cfg_yunying{
+	id    = 100201,
+	type  = 2,
+	name  = "每日累冲",
+	reqs  = [],
+	level = 80,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(100202) -> #cfg_yunying{
+	id    = 100202,
+	type  = 2,
+	name  = "每日累冲",
+	reqs  = [],
+	level = 80,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{999,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(100301) -> #cfg_yunying{
+	id    = 100301,
+	type  = 3,
+	name  = "每日累冲（成就奖励）",
+	reqs  = [],
+	level = 80,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{999,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = pay
+};
+find(100501) -> #cfg_yunying{
+	id    = 100501,
+	type  = 5,
+	name  = "时之沙漏",
+	reqs  = [{show,1,10005},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	show  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100502) -> #cfg_yunying{
+	id    = 100502,
+	type  = 5,
+	name  = "马赫动力",
+	reqs  = [{show,7,11005},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100503) -> #cfg_yunying{
+	id    = 100503,
+	type  = 5,
+	name  = "机甲核心",
+	reqs  = [{show,pic,100503},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100504) -> #cfg_yunying{
+	id    = 100504,
+	type  = 5,
+	name  = "狮鹫坐骑 ",
+	reqs  = [{show,3,20001},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100505) -> #cfg_yunying{
+	id    = 100505,
+	type  = 5,
+	name  = "必闪魂卡",
+	reqs  = [{show,pic,100505},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100506) -> #cfg_yunying{
+	id    = 100506,
+	type  = 5,
+	name  = "血色黎明",
+	reqs  = [{show,8,10003},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100507) -> #cfg_yunying{
+	id    = 100507,
+	type  = 5,
+	name  = "活动副手（弃用）",
+	reqs  = [{show,10,10011},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	show  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100508) -> #cfg_yunying{
+	id    = 100508,
+	type  = 5,
+	name  = "经验圣痕",
+	reqs  = [{show,pic,100508},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{28,{0,0,0}},{28,{23,59,59}}}],
+	show  = [{{28,{0,0,0}},{28,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100509) -> #cfg_yunying{
+	id    = 100509,
+	type  = 5,
+	name  = "追击魂卡",
+	reqs  = [{show,pic,100509},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{32,{0,0,0}},{32,{23,59,59}}}],
+	show  = [{{32,{0,0,0}},{32,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100510) -> #cfg_yunying{
+	id    = 100510,
+	type  = 5,
+	name  = "强化圣痕",
+	reqs  = [{show,pic,100510},{cost,[{1,11044,15000},{10,11044,144000}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{36,{0,0,0}},{36,{23,59,59}}}],
+	show  = [{{36,{0,0,0}},{36,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100601) -> #cfg_yunying{
+	id    = 100601,
+	type  = 6,
+	name  = "连充送V",
+	reqs  = [{model,1,50001},{power,150000}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{18,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{18,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(100701) -> #cfg_yunying{
+	id    = 100701,
+	type  = 7,
+	name  = "连充送V",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{18,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{18,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = pay
+};
+find(110101) -> #cfg_yunying{
+	id    = 110101,
+	type  = 101,
+	name  = "开服累冲",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = pay
+};
+find(110201) -> #cfg_yunying{
+	id    = 110201,
+	type  = 102,
+	name  = "等级累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{2,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(110202) -> #cfg_yunying{
+	id    = 110202,
+	type  = 102,
+	name  = "坐骑累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(110203) -> #cfg_yunying{
+	id    = 110203,
+	type  = 102,
+	name  = "副手累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(110204) -> #cfg_yunying{
+	id    = 110204,
+	type  = 102,
+	name  = "魂卡累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(110205) -> #cfg_yunying{
+	id    = 110205,
+	type  = 102,
+	name  = "充值累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(110206) -> #cfg_yunying{
+	id    = 110206,
+	type  = 102,
+	name  = "战力累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(110301) -> #cfg_yunying{
+	id    = 110301,
+	type  = 103,
+	name  = "等级目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{2,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110302) -> #cfg_yunying{
+	id    = 110302,
+	type  = 103,
+	name  = "坐骑目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110303) -> #cfg_yunying{
+	id    = 110303,
+	type  = 103,
+	name  = "副手目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110304) -> #cfg_yunying{
+	id    = 110304,
+	type  = 103,
+	name  = "魂卡目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110305) -> #cfg_yunying{
+	id    = 110305,
+	type  = 103,
+	name  = "消费目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110306) -> #cfg_yunying{
+	id    = 110306,
+	type  = 103,
+	name  = "战力目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110401) -> #cfg_yunying{
+	id    = 110401,
+	type  = 104,
+	name  = "等级限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110402) -> #cfg_yunying{
+	id    = 110402,
+	type  = 104,
+	name  = "坐骑限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110403) -> #cfg_yunying{
+	id    = 110403,
+	type  = 104,
+	name  = "副手限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110404) -> #cfg_yunying{
+	id    = 110404,
+	type  = 104,
+	name  = "魂卡限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110405) -> #cfg_yunying{
+	id    = 110405,
+	type  = 104,
+	name  = "充值限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110406) -> #cfg_yunying{
+	id    = 110406,
+	type  = 104,
+	name  = "战力限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{7,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110407) -> #cfg_yunying{
+	id    = 110407,
+	type  = 104,
+	name  = "等级限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	show  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110501) -> #cfg_yunying{
+	id    = 110501,
+	type  = 105,
+	name  = "等级冲榜",
+	reqs  = [{model,1,10006}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{2,{23,0,0}}}],
+	show  = [{{1,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 110501,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(110502) -> #cfg_yunying{
+	id    = 110502,
+	type  = 105,
+	name  = "坐骑冲榜",
+	reqs  = [{model,1,10003}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,0,0}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 110502,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(110503) -> #cfg_yunying{
+	id    = 110503,
+	type  = 105,
+	name  = "副手冲榜",
+	reqs  = [{model,1,10002}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,0,0}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 110503,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(110504) -> #cfg_yunying{
+	id    = 110504,
+	type  = 105,
+	name  = "魂卡冲榜",
+	reqs  = [{model,1,10007}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,0,0}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 110504,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(110505) -> #cfg_yunying{
+	id    = 110505,
+	type  = 105,
+	name  = "充值冲榜",
+	reqs  = [{model,1,10005}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,0,0}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 110505,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(110506) -> #cfg_yunying{
+	id    = 110506,
+	type  = 105,
+	name  = "战力冲榜",
+	reqs  = [{model,1,10001}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{7,{0,0,0}},{7,{23,0,0}}}],
+	show  = [{{7,{0,0,0}},{8,{23,59,59}}}],
+	rank  = 110506,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(120101) -> #cfg_yunying{
+	id    = 120101,
+	type  = 201,
+	name  = "全员恶人",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{2,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(120201) -> #cfg_yunying{
+	id    = 120201,
+	type  = 202,
+	name  = "完美情人",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(120301) -> #cfg_yunying{
+	id    = 120301,
+	type  = 203,
+	name  = "集字有礼",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = exch
+};
+find(120401) -> #cfg_yunying{
+	id    = 120401,
+	type  = 204,
+	name  = "公会创立",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = guild
+};
+find(120501) -> #cfg_yunying{
+	id    = 120501,
+	type  = 205,
+	name  = "公会争霸",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = guild
+};
+find(120502) -> #cfg_yunying{
+	id    = 120502,
+	type  = 205,
+	name  = "公会争霸",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = guild
+};
+find(130101) -> #cfg_yunying{
+	id    = 130101,
+	type  = 301,
+	name  = "宠物冲榜",
+	reqs  = [{model,1,10006}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9,{0,0,0}},{11,{23,0,0}}}],
+	show  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	rank  = 130101,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(130201) -> #cfg_yunying{
+	id    = 130201,
+	type  = 302,
+	name  = "宠物限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	show  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(130301) -> #cfg_yunying{
+	id    = 130301,
+	type  = 303,
+	name  = "限时上V15",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	show  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(130401) -> #cfg_yunying{
+	id    = 130401,
+	type  = 304,
+	name  = "宠物累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	show  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = pay
+};
+find(130501) -> #cfg_yunying{
+	id    = 130501,
+	type  = 305,
+	name  = "宠物目标",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	show  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(130601) -> #cfg_yunying{
+	id    = 130601,
+	type  = 306,
+	name  = "宠物宝箱",
+	reqs  = [{reward,[10006,10007]}],
+	level = 65,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	show  = [{{9,{0,0,0}},{11,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = exch
+};
+find(150101) -> #cfg_yunying{
+	id    = 150101,
+	type  = 501,
+	name  = "神灵冲榜",
+	reqs  = [{model,13,10005}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,0,0}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 150101,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(150201) -> #cfg_yunying{
+	id    = 150201,
+	type  = 502,
+	name  = "神灵目标",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(150301) -> #cfg_yunying{
+	id    = 150301,
+	type  = 503,
+	name  = "神灵累充",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = pay
+};
+find(150401) -> #cfg_yunying{
+	id    = 150401,
+	type  = 504,
+	name  = "神灵抢购",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(150501) -> #cfg_yunying{
+	id    = 150501,
+	type  = 505,
+	name  = "积分兑换",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = exch
+};
+find(150601) -> #cfg_yunying{
+	id    = 150601,
+	type  = 506,
+	name  = "神灵之塔",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(150701) -> #cfg_yunying{
+	id    = 150701,
+	type  = 507,
+	name  = "积分产出",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	show  = [{{13,{0,0,0}},{15,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = exch
+};
+find(170100) -> #cfg_yunying{
+	id    = 170100,
+	type  = 601,
+	name  = "机甲试练",
+	reqs  = [],
+	level = 190,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(170101) -> #cfg_yunying{
+	id    = 170101,
+	type  = 601,
+	name  = "机甲试练",
+	reqs  = [],
+	level = 190,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(170110) -> #cfg_yunying{
+	id    = 170110,
+	type  = 701,
+	name  = "旅行狮鹫（屏蔽）",
+	reqs  = [{show,3,20001},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	show  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170111) -> #cfg_yunying{
+	id    = 170111,
+	type  = 701,
+	name  = "旅行狮鹫（屏蔽）",
+	reqs  = [{show,3,20001},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	show  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170112) -> #cfg_yunying{
+	id    = 170112,
+	type  = 701,
+	name  = "旅行狮鹫（屏蔽）",
+	reqs  = [{show,3,20001},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	show  = [{{999,{0,0,0}},{999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170120) -> #cfg_yunying{
+	id    = 170120,
+	type  = 701,
+	name  = "橙色经验魔卡",
+	reqs  = [{show,pic,100503},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170121) -> #cfg_yunying{
+	id    = 170121,
+	type  = 701,
+	name  = "橙色经验魔卡",
+	reqs  = [{show,pic,100503},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170122) -> #cfg_yunying{
+	id    = 170122,
+	type  = 701,
+	name  = "橙色经验魔卡",
+	reqs  = [{show,pic,100503},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170130) -> #cfg_yunying{
+	id    = 170130,
+	type  = 701,
+	name  = "军团之光",
+	reqs  = [{show,6,41012,1},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	show  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170131) -> #cfg_yunying{
+	id    = 170131,
+	type  = 701,
+	name  = "军团之光",
+	reqs  = [{show,6,41012,1},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	show  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170132) -> #cfg_yunying{
+	id    = 170132,
+	type  = 701,
+	name  = "军团之光",
+	reqs  = [{show,6,41012,1},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	show  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170140) -> #cfg_yunying{
+	id    = 170140,
+	type  = 701,
+	name  = "9阶项链",
+	reqs  = [{show,pic,170140},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	show  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170141) -> #cfg_yunying{
+	id    = 170141,
+	type  = 701,
+	name  = "9阶项链",
+	reqs  = [{show,pic,170140},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	show  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170142) -> #cfg_yunying{
+	id    = 170142,
+	type  = 701,
+	name  = "9阶项链",
+	reqs  = [{show,pic,170140},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	show  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170150) -> #cfg_yunying{
+	id    = 170150,
+	type  = 701,
+	name  = "幻影拳套",
+	reqs  = [{show,10,10011},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	show  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170151) -> #cfg_yunying{
+	id    = 170151,
+	type  = 701,
+	name  = "幻影拳套",
+	reqs  = [{show,10,10011},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	show  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170152) -> #cfg_yunying{
+	id    = 170152,
+	type  = 701,
+	name  = "幻影拳套",
+	reqs  = [{show,10,10011},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	show  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170160) -> #cfg_yunying{
+	id    = 170160,
+	type  = 701,
+	name  = "紫色戒指",
+	reqs  = [{show,pic,170160},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	show  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170161) -> #cfg_yunying{
+	id    = 170161,
+	type  = 701,
+	name  = "紫色戒指",
+	reqs  = [{show,pic,170160},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	show  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170162) -> #cfg_yunying{
+	id    = 170162,
+	type  = 701,
+	name  = "紫色戒指",
+	reqs  = [{show,pic,170160},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	show  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170170) -> #cfg_yunying{
+	id    = 170170,
+	type  = 701,
+	name  = "紫色手镯",
+	reqs  = [{show,pic,170170},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{24,{0,0,0}},{24,{23,59,59}}}],
+	show  = [{{24,{0,0,0}},{24,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170171) -> #cfg_yunying{
+	id    = 170171,
+	type  = 701,
+	name  = "紫色手镯",
+	reqs  = [{show,pic,170170},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{24,{0,0,0}},{24,{23,59,59}}}],
+	show  = [{{24,{0,0,0}},{24,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(170172) -> #cfg_yunying{
+	id    = 170172,
+	type  = 701,
+	name  = "紫色手镯",
+	reqs  = [{show,pic,170170},{cost,[{1,90010003,1000},{10,11044,14400}]}],
+	level = 120,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{24,{0,0,0}},{24,{23,59,59}}}],
+	show  = [{{24,{0,0,0}},{24,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(171100) -> #cfg_yunying{
+	id    = 171100,
+	type  = 710,
+	name  = "神灵封印",
+	reqs  = [{show,13,60103}],
+	level = 100,
+	wake  = 2,
+	cycle = opdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{7,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{7,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(172000) -> #cfg_yunying{
+	id    = 172000,
+	type  = 720,
+	name  = "限时秒杀",
+	reqs  = [{price,{90010003,128000}},{99,346000},{power,12000}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	show  = [{{8,{0,0,0}},{8,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(172001) -> #cfg_yunying{
+	id    = 172001,
+	type  = 720,
+	name  = "限时秒杀",
+	reqs  = [{price,{90010003,138000}},{99,399000},{power,30000}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	show  = [{{12,{0,0,0}},{12,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(172002) -> #cfg_yunying{
+	id    = 172002,
+	type  = 720,
+	name  = "限时秒杀",
+	reqs  = [{price,{90010003,350000}},{3,642000},{power,50000}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	show  = [{{16,{0,0,0}},{16,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(172003) -> #cfg_yunying{
+	id    = 172003,
+	type  = 720,
+	name  = "限时秒杀",
+	reqs  = [{price,{90010003,558000}},{99,959000},{power,200000}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	show  = [{{20,{0,0,0}},{20,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(174000) -> #cfg_yunying{
+	id    = 174000,
+	type  = 740,
+	name  = "图鉴冲榜",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{17,{0,0,0}},{19,{23,0,0}}}],
+	show  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	rank  = 174001,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(174100) -> #cfg_yunying{
+	id    = 174100,
+	type  = 741,
+	name  = "图鉴限购",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	show  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(174200) -> #cfg_yunying{
+	id    = 174200,
+	type  = 742,
+	name  = "图鉴连充",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	show  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(174300) -> #cfg_yunying{
+	id    = 174300,
+	type  = 743,
+	name  = "图鉴目标",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	show  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(174400) -> #cfg_yunying{
+	id    = 174400,
+	type  = 744,
+	name  = "图鉴宝箱",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	show  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = exch
+};
+find(174201) -> #cfg_yunying{
+	id    = 174201,
+	type  = 745,
+	name  = "累计充值",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	show  = [{{17,{0,0,0}},{19,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(175000) -> #cfg_yunying{
+	id    = 175000,
+	type  = 750,
+	name  = "神秘夺宝",
+	reqs  = [{cost_progress, 150000},{max_progress,1800000}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(176000) -> #cfg_yunying{
+	id    = 176000,
+	type  = 760,
+	name  = "机械改造",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{99999,{0,0,0}},{99999,{23,59,59}}}],
+	show  = [{{99999,{0,0,0}},{99999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(176001) -> #cfg_yunying{
+	id    = 176001,
+	type  = 761,
+	name  = "机械改造",
+	reqs  = [],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{99999,{0,0,0}},{99999,{23,59,59}}}],
+	show  = [{{99999,{0,0,0}},{99999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(177000) -> #cfg_yunying{
+	id    = 177000,
+	type  = 770,
+	name  = "子女冲榜",
+	reqs  = [{70000},{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 175001,
+	mail  = 1000011,
+	clear = [],
+	form  = rank
+};
+find(177100) -> #cfg_yunying{
+	id    = 177100,
+	type  = 771,
+	name  = "子女限购",
+	reqs  = [{model_child_20003},{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = reach
+};
+find(177200) -> #cfg_yunying{
+	id    = 177200,
+	type  = 772,
+	name  = "子女连充",
+	reqs  = [{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(177300) -> #cfg_yunying{
+	id    = 177300,
+	type  = 773,
+	name  = "子女目标",
+	reqs  = [{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(177400) -> #cfg_yunying{
+	id    = 177400,
+	type  = 774,
+	name  = "子女宝箱",
+	reqs  = [{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = reach
+};
+find(177500) -> #cfg_yunying{
+	id    = 177500,
+	type  = 775,
+	name  = "子女冲榜",
+	reqs  = [{80000},{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 175002,
+	mail  = 1000012,
+	clear = [],
+	form  = rank
+};
+find(177600) -> #cfg_yunying{
+	id    = 177600,
+	type  = 776,
+	name  = "子女累充",
+	reqs  = [{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,22},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(177700) -> #cfg_yunying{
+	id    = 177700,
+	type  = 777,
+	name  = "积分兑换",
+	reqs  = [{opdays,8,9999}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,3,20},{0,0,0}},{{2020,3,23},{23,59,59}}}],
+	show  = [{{{2020,3,20},{0,0,0}},{{2020,3,23},{23,59,59}}}],
+	rank  = 0,
+	mail  = 0,
+	clear = [],
+	form  = exch
+};
+find(178100) -> #cfg_yunying{
+	id    = 178100,
+	type  = 781,
+	name  = "机甲来袭",
+	reqs  = [],
+	level = 180,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(178200) -> #cfg_yunying{
+	id    = 178200,
+	type  = 782,
+	name  = "机甲来袭",
+	reqs  = [],
+	level = 180,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{2,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(178300) -> #cfg_yunying{
+	id    = 178300,
+	type  = 783,
+	name  = "机甲来袭",
+	reqs  = [],
+	level = 180,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(180501) -> #cfg_yunying{
+	id    = 180501,
+	type  = 805,
+	name  = "魂卡战力榜",
+	reqs  = [{texture,p_180501}],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{1,{23,0,0}}}],
+	show  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	rank  = 180501,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(180502) -> #cfg_yunying{
+	id    = 180502,
+	type  = 805,
+	name  = "圣痕战力榜",
+	reqs  = [{texture,p_180502}],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{2,{23,0,0}}}],
+	show  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 180502,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(180503) -> #cfg_yunying{
+	id    = 180503,
+	type  = 805,
+	name  = "机甲战力榜",
+	reqs  = [{model,1,model_machiaction_10004}],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,0,0}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 180503,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(180504) -> #cfg_yunying{
+	id    = 180504,
+	type  = 805,
+	name  = "异兽战力榜",
+	reqs  = [{texture,p_180504}],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,0,0}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 180504,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(180505) -> #cfg_yunying{
+	id    = 180505,
+	type  = 805,
+	name  = "消费榜",
+	reqs  = [{model,1,model_fabao_10008}],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,0,0}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 180505,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(180506) -> #cfg_yunying{
+	id    = 180506,
+	type  = 805,
+	name  = "充值榜",
+	reqs  = [{model,2,44003}],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,0,0}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 180506,
+	mail  = 1000001,
+	clear = [],
+	form  = rank
+};
+find(180401) -> #cfg_yunying{
+	id    = 180401,
+	type  = 804,
+	name  = "魂卡限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180402) -> #cfg_yunying{
+	id    = 180402,
+	type  = 804,
+	name  = "圣痕限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	show  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180403) -> #cfg_yunying{
+	id    = 180403,
+	type  = 804,
+	name  = "机甲限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180404) -> #cfg_yunying{
+	id    = 180404,
+	type  = 804,
+	name  = "异兽限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180405) -> #cfg_yunying{
+	id    = 180405,
+	type  = 804,
+	name  = "限时抢购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180406) -> #cfg_yunying{
+	id    = 180406,
+	type  = 804,
+	name  = "充值限购",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180201) -> #cfg_yunying{
+	id    = 180201,
+	type  = 802,
+	name  = "魂卡累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	show  = [{{1,{0,0,0}},{1,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(180202) -> #cfg_yunying{
+	id    = 180202,
+	type  = 802,
+	name  = "圣痕累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	show  = [{{2,{0,0,0}},{2,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(180203) -> #cfg_yunying{
+	id    = 180203,
+	type  = 802,
+	name  = "机甲累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	show  = [{{3,{0,0,0}},{3,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(180204) -> #cfg_yunying{
+	id    = 180204,
+	type  = 802,
+	name  = "异兽累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	show  = [{{4,{0,0,0}},{4,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(180205) -> #cfg_yunying{
+	id    = 180205,
+	type  = 802,
+	name  = "消费有礼",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	show  = [{{5,{0,0,0}},{5,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(180206) -> #cfg_yunying{
+	id    = 180206,
+	type  = 802,
+	name  = "充值累充",
+	reqs  = [],
+	level = 65,
+	wake  = 0,
+	cycle = mgdays,
+	days  = [],
+	time  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	show  = [{{6,{0,0,0}},{6,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = pay
+};
+find(100001) -> #cfg_yunying{
+	id    = 100001,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,11,25},{0,0,0}},{{2020,12,4},{23,59,00}}}],
+	show  = [{{{2020,11,25},{0,0,0}},{{2020,12,4},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100002) -> #cfg_yunying{
+	id    = 100002,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,11,25},{0,0,0}},{{2020,12,4},{23,59,00}}}],
+	show  = [{{{2020,11,25},{0,0,0}},{{2020,12,4},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100011) -> #cfg_yunying{
+	id    = 100011,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,12,5},{0,0,0}},{{2020,12,14},{23,59,00}}}],
+	show  = [{{{2020,12,5},{0,0,0}},{{2020,12,14},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100012) -> #cfg_yunying{
+	id    = 100012,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,12,5},{0,0,0}},{{2020,12,14},{23,59,00}}}],
+	show  = [{{{2020,12,5},{0,0,0}},{{2020,12,14},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(110021) -> #cfg_yunying{
+	id    = 110021,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,12,15},{0,0,0}},{{2020,12,24},{23,59,00}}}],
+	show  = [{{{2020,12,15},{0,0,0}},{{2020,12,24},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(110022) -> #cfg_yunying{
+	id    = 110022,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,12,15},{0,0,0}},{{2020,12,24},{23,59,00}}}],
+	show  = [{{{2020,12,15},{0,0,0}},{{2020,12,24},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100031) -> #cfg_yunying{
+	id    = 100031,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,12,25},{0,0,0}},{{2021,1,3},{23,59,00}}}],
+	show  = [{{{2020,12,25},{0,0,0}},{{2021,1,3},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100032) -> #cfg_yunying{
+	id    = 100032,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,12,25},{0,0,0}},{{2021,1,3},{23,59,00}}}],
+	show  = [{{{2020,12,25},{0,0,0}},{{2021,1,3},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100041) -> #cfg_yunying{
+	id    = 100041,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,4},{0,0,0}},{{2021,1,13},{23,59,00}}}],
+	show  = [{{{2021,1,4},{0,0,0}},{{2021,1,13},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100042) -> #cfg_yunying{
+	id    = 100042,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,4},{0,0,0}},{{2021,1,13},{23,59,00}}}],
+	show  = [{{{2021,1,4},{0,0,0}},{{2021,1,13},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100051) -> #cfg_yunying{
+	id    = 100051,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,14},{0,0,0}},{{2021,1,23},{23,59,00}}}],
+	show  = [{{{2021,1,14},{0,0,0}},{{2021,1,23},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100052) -> #cfg_yunying{
+	id    = 100052,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,14},{0,0,0}},{{2021,1,23},{23,59,00}}}],
+	show  = [{{{2021,1,14},{0,0,0}},{{2021,1,23},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100061) -> #cfg_yunying{
+	id    = 100061,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,24},{0,0,0}},{{2021,2,2},{23,59,00}}}],
+	show  = [{{{2021,1,24},{0,0,0}},{{2021,2,2},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100062) -> #cfg_yunying{
+	id    = 100062,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,24},{0,0,0}},{{2021,2,2},{23,59,00}}}],
+	show  = [{{{2021,1,24},{0,0,0}},{{2021,2,2},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100071) -> #cfg_yunying{
+	id    = 100071,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,3},{0,0,0}},{{2021,2,12},{23,59,00}}}],
+	show  = [{{{2021,2,3},{0,0,0}},{{2021,2,12},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100072) -> #cfg_yunying{
+	id    = 100072,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,3},{0,0,0}},{{2021,2,12},{23,59,00}}}],
+	show  = [{{{2021,2,3},{0,0,0}},{{2021,2,12},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100081) -> #cfg_yunying{
+	id    = 100081,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,13},{0,0,0}},{{2021,2,22},{23,59,00}}}],
+	show  = [{{{2021,2,13},{0,0,0}},{{2021,2,22},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100082) -> #cfg_yunying{
+	id    = 100082,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,13},{0,0,0}},{{2021,2,22},{23,59,00}}}],
+	show  = [{{{2021,2,13},{0,0,0}},{{2021,2,22},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100091) -> #cfg_yunying{
+	id    = 100091,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,23},{0,0,0}},{{2021,3,4},{23,59,00}}}],
+	show  = [{{{2021,2,23},{0,0,0}},{{2021,3,4},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100092) -> #cfg_yunying{
+	id    = 100092,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,23},{0,0,0}},{{2021,3,4},{23,59,00}}}],
+	show  = [{{{2021,2,23},{0,0,0}},{{2021,3,4},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100101) -> #cfg_yunying{
+	id    = 100101,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,5},{0,0,0}},{{2021,3,14},{23,59,00}}}],
+	show  = [{{{2021,3,5},{0,0,0}},{{2021,3,14},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100102) -> #cfg_yunying{
+	id    = 100102,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,5},{0,0,0}},{{2021,3,14},{23,59,00}}}],
+	show  = [{{{2021,3,5},{0,0,0}},{{2021,3,14},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100111) -> #cfg_yunying{
+	id    = 100111,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,15},{0,0,0}},{{2021,3,24},{23,59,00}}}],
+	show  = [{{{2021,3,15},{0,0,0}},{{2021,3,24},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100112) -> #cfg_yunying{
+	id    = 100112,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,15},{0,0,0}},{{2021,3,24},{23,59,00}}}],
+	show  = [{{{2021,3,15},{0,0,0}},{{2021,3,24},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100121) -> #cfg_yunying{
+	id    = 100121,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,25},{0,0,0}},{{2021,4,3},{23,59,00}}}],
+	show  = [{{{2021,3,25},{0,0,0}},{{2021,4,3},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100122) -> #cfg_yunying{
+	id    = 100122,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,25},{0,0,0}},{{2021,4,3},{23,59,00}}}],
+	show  = [{{{2021,3,25},{0,0,0}},{{2021,4,3},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100131) -> #cfg_yunying{
+	id    = 100131,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,4},{0,0,0}},{{2021,4,13},{23,59,00}}}],
+	show  = [{{{2021,4,4},{0,0,0}},{{2021,4,13},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100132) -> #cfg_yunying{
+	id    = 100132,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,4},{0,0,0}},{{2021,4,13},{23,59,00}}}],
+	show  = [{{{2021,4,4},{0,0,0}},{{2021,4,13},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100141) -> #cfg_yunying{
+	id    = 100141,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,14},{0,0,0}},{{2021,4,23},{23,59,00}}}],
+	show  = [{{{2021,4,14},{0,0,0}},{{2021,4,23},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100142) -> #cfg_yunying{
+	id    = 100142,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,14},{0,0,0}},{{2021,4,23},{23,59,00}}}],
+	show  = [{{{2021,4,14},{0,0,0}},{{2021,4,23},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100151) -> #cfg_yunying{
+	id    = 100151,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,24},{0,0,0}},{{2021,5,3},{23,59,00}}}],
+	show  = [{{{2021,4,24},{0,0,0}},{{2021,5,3},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100152) -> #cfg_yunying{
+	id    = 100152,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,24},{0,0,0}},{{2021,5,3},{23,59,00}}}],
+	show  = [{{{2021,4,24},{0,0,0}},{{2021,5,3},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100161) -> #cfg_yunying{
+	id    = 100161,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,5,4},{0,0,0}},{{2021,5,13},{23,59,00}}}],
+	show  = [{{{2021,5,4},{0,0,0}},{{2021,5,13},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100162) -> #cfg_yunying{
+	id    = 100162,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,5,4},{0,0,0}},{{2021,5,13},{23,59,00}}}],
+	show  = [{{{2021,5,4},{0,0,0}},{{2021,5,13},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100171) -> #cfg_yunying{
+	id    = 100171,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,10,26},{0,0,0}},{{2020,11,4},{23,59,00}}}],
+	show  = [{{{2020,10,26},{0,0,0}},{{2020,11,4},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100172) -> #cfg_yunying{
+	id    = 100172,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,10,26},{0,0,0}},{{2020,11,4},{23,59,00}}}],
+	show  = [{{{2020,10,26},{0,0,0}},{{2020,11,4},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100181) -> #cfg_yunying{
+	id    = 100181,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,11,5},{0,0,0}},{{2020,11,14},{23,59,00}}}],
+	show  = [{{{2020,11,5},{0,0,0}},{{2020,11,14},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100182) -> #cfg_yunying{
+	id    = 100182,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,11,5},{0,0,0}},{{2020,11,14},{23,59,00}}}],
+	show  = [{{{2020,11,5},{0,0,0}},{{2020,11,14},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100191) -> #cfg_yunying{
+	id    = 100191,
+	type  = 1150,
+	name  = "大富豪",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,11,15},{0,0,0}},{{2020,11,24},{23,59,00}}}],
+	show  = [{{{2020,11,15},{0,0,0}},{{2020,11,24},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [],
+	form  = reach
+};
+find(100192) -> #cfg_yunying{
+	id    = 100192,
+	type  = 1151,
+	name  = "大富豪累充",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,11,15},{0,0,0}},{{2020,11,24},{23,59,00}}}],
+	show  = [{{{2020,11,15},{0,0,0}},{{2020,11,24},{23,59,00}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{daily,0}],
+	form  = reach
+};
+find(100003) -> #cfg_yunying{
+	id    = 100003,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,12},{0,0,0}},{{2021,3,14},{23,59,59}}}],
+	show  = [{{{2021,3,12},{0,0,0}},{{2021,3,14},{23,59,59}}}],
+	rank  = 100003,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100004) -> #cfg_yunying{
+	id    = 100004,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,12},{0,0,0}},{{2021,3,14},{23,59,59}}}],
+	show  = [{{{2021,3,12},{0,0,0}},{{2021,3,14},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100013) -> #cfg_yunying{
+	id    = 100013,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,20},{0,0,0}},{{2021,3,22},{23,59,59}}}],
+	show  = [{{{2021,3,20},{0,0,0}},{{2021,3,22},{23,59,59}}}],
+	rank  = 100013,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100014) -> #cfg_yunying{
+	id    = 100014,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,20},{0,0,0}},{{2021,3,22},{23,59,59}}}],
+	show  = [{{{2021,3,20},{0,0,0}},{{2021,3,22},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100015) -> #cfg_yunying{
+	id    = 100015,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,27},{0,0,0}},{{2021,3,29},{23,59,59}}}],
+	show  = [{{{2021,3,27},{0,0,0}},{{2021,3,29},{23,59,59}}}],
+	rank  = 100015,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100016) -> #cfg_yunying{
+	id    = 100016,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,27},{0,0,0}},{{2021,3,29},{23,59,59}}}],
+	show  = [{{{2021,3,27},{0,0,0}},{{2021,3,29},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100017) -> #cfg_yunying{
+	id    = 100017,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,3},{0,0,0}},{{2021,4,5},{23,59,59}}}],
+	show  = [{{{2021,4,3},{0,0,0}},{{2021,4,5},{23,59,59}}}],
+	rank  = 100017,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100018) -> #cfg_yunying{
+	id    = 100018,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,3},{0,0,0}},{{2021,4,5},{23,59,59}}}],
+	show  = [{{{2021,4,3},{0,0,0}},{{2021,4,5},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100019) -> #cfg_yunying{
+	id    = 100019,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,10},{0,0,0}},{{2021,4,12},{23,59,59}}}],
+	show  = [{{{2021,4,10},{0,0,0}},{{2021,4,12},{23,59,59}}}],
+	rank  = 100019,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100020) -> #cfg_yunying{
+	id    = 100020,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,10},{0,0,0}},{{2021,4,12},{23,59,59}}}],
+	show  = [{{{2021,4,10},{0,0,0}},{{2021,4,12},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100021) -> #cfg_yunying{
+	id    = 100021,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,16},{0,0,0}},{{2021,4,18},{23,59,59}}}],
+	show  = [{{{2021,4,16},{0,0,0}},{{2021,4,18},{23,59,59}}}],
+	rank  = 100021,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100022) -> #cfg_yunying{
+	id    = 100022,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,16},{0,0,0}},{{2021,4,18},{23,59,59}}}],
+	show  = [{{{2021,4,16},{0,0,0}},{{2021,4,18},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100023) -> #cfg_yunying{
+	id    = 100023,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,23},{0,0,0}},{{2021,4,25},{23,59,59}}}],
+	show  = [{{{2021,4,23},{0,0,0}},{{2021,4,25},{23,59,59}}}],
+	rank  = 100023,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100024) -> #cfg_yunying{
+	id    = 100024,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,23},{0,0,0}},{{2021,4,25},{23,59,59}}}],
+	show  = [{{{2021,4,23},{0,0,0}},{{2021,4,25},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100025) -> #cfg_yunying{
+	id    = 100025,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,29},{0,0,0}},{{2021,5,1},{23,59,59}}}],
+	show  = [{{{2021,4,29},{0,0,0}},{{2021,5,1},{23,59,59}}}],
+	rank  = 100025,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100026) -> #cfg_yunying{
+	id    = 100026,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,4,29},{0,0,0}},{{2021,5,1},{23,59,59}}}],
+	show  = [{{{2021,4,29},{0,0,0}},{{2021,5,1},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100027) -> #cfg_yunying{
+	id    = 100027,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,5,6},{0,0,0}},{{2021,5,8},{23,59,59}}}],
+	show  = [{{{2021,5,6},{0,0,0}},{{2021,5,8},{23,59,59}}}],
+	rank  = 100027,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100028) -> #cfg_yunying{
+	id    = 100028,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,5,6},{0,0,0}},{{2021,5,8},{23,59,59}}}],
+	show  = [{{{2021,5,6},{0,0,0}},{{2021,5,8},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(100029) -> #cfg_yunying{
+	id    = 100029,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,8,27},{0,0,0}},{{2020,8,29},{23,59,59}}}],
+	show  = [{{{2020,8,27},{0,0,0}},{{2020,8,29},{23,59,59}}}],
+	rank  = 100029,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(100030) -> #cfg_yunying{
+	id    = 100030,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2020,8,27},{0,0,0}},{{2020,8,29},{23,59,59}}}],
+	show  = [{{{2020,8,27},{0,0,0}},{{2020,8,29},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110031) -> #cfg_yunying{
+	id    = 110031,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,8},{0,0,0}},{{2021,1,10},{23,59,59}}}],
+	show  = [{{{2021,1,8},{0,0,0}},{{2021,1,10},{23,59,59}}}],
+	rank  = 110031,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110032) -> #cfg_yunying{
+	id    = 110032,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,8},{0,0,0}},{{2021,1,10},{23,59,59}}}],
+	show  = [{{{2021,1,8},{0,0,0}},{{2021,1,10},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110033) -> #cfg_yunying{
+	id    = 110033,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,15},{0,0,0}},{{2021,1,17},{23,59,59}}}],
+	show  = [{{{2021,1,15},{0,0,0}},{{2021,1,17},{23,59,59}}}],
+	rank  = 110033,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110034) -> #cfg_yunying{
+	id    = 110034,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,15},{0,0,0}},{{2021,1,17},{23,59,59}}}],
+	show  = [{{{2021,1,15},{0,0,0}},{{2021,1,17},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110035) -> #cfg_yunying{
+	id    = 110035,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,23},{0,0,0}},{{2021,1,25},{23,59,59}}}],
+	show  = [{{{2021,1,23},{0,0,0}},{{2021,1,25},{23,59,59}}}],
+	rank  = 110035,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110036) -> #cfg_yunying{
+	id    = 110036,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,23},{0,0,0}},{{2021,1,25},{23,59,59}}}],
+	show  = [{{{2021,1,23},{0,0,0}},{{2021,1,25},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110037) -> #cfg_yunying{
+	id    = 110037,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,31},{0,0,0}},{{2021,2,2},{23,59,59}}}],
+	show  = [{{{2021,1,31},{0,0,0}},{{2021,2,2},{23,59,59}}}],
+	rank  = 110037,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110038) -> #cfg_yunying{
+	id    = 110038,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,1,31},{0,0,0}},{{2021,2,2},{23,59,59}}}],
+	show  = [{{{2021,1,31},{0,0,0}},{{2021,2,2},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110039) -> #cfg_yunying{
+	id    = 110039,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,8},{0,0,0}},{{2021,2,10},{23,59,59}}}],
+	show  = [{{{2021,2,8},{0,0,0}},{{2021,2,10},{23,59,59}}}],
+	rank  = 110039,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110040) -> #cfg_yunying{
+	id    = 110040,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,8},{0,0,0}},{{2021,2,10},{23,59,59}}}],
+	show  = [{{{2021,2,8},{0,0,0}},{{2021,2,10},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110041) -> #cfg_yunying{
+	id    = 110041,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,16},{0,0,0}},{{2021,2,18},{23,59,59}}}],
+	show  = [{{{2021,2,16},{0,0,0}},{{2021,2,18},{23,59,59}}}],
+	rank  = 110041,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110042) -> #cfg_yunying{
+	id    = 110042,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,16},{0,0,0}},{{2021,2,18},{23,59,59}}}],
+	show  = [{{{2021,2,16},{0,0,0}},{{2021,2,18},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110043) -> #cfg_yunying{
+	id    = 110043,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,23},{0,0,0}},{{2021,2,25},{23,59,59}}}],
+	show  = [{{{2021,2,23},{0,0,0}},{{2021,2,25},{23,59,59}}}],
+	rank  = 110043,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110044) -> #cfg_yunying{
+	id    = 110044,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,2,23},{0,0,0}},{{2021,2,25},{23,59,59}}}],
+	show  = [{{{2021,2,23},{0,0,0}},{{2021,2,25},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(110045) -> #cfg_yunying{
+	id    = 110045,
+	type  = 5,
+	name  = "限时冲榜",
+	reqs  = [{cost,[{1,90010003,2500},{10,90010003,24400}]},{groups,[1]},{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,3},{0,0,0}},{{2021,3,5},{23,59,59}}}],
+	show  = [{{{2021,3,3},{0,0,0}},{{2021,3,5},{23,59,59}}}],
+	rank  = 110045,
+	mail  = 1000001,
+	clear = [{clear_rank, true}],
+	form  = rank
+};
+find(110046) -> #cfg_yunying{
+	id    = 110046,
+	type  = 5,
+	name  = "积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 100,
+	wake  = 0,
+	cycle = during,
+	days  = [],
+	time  = [{{{2021,3,3},{0,0,0}},{{2021,3,5},{23,59,59}}}],
+	show  = [{{{2021,3,3},{0,0,0}},{{2021,3,5},{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101001) -> #cfg_yunying{
+	id    = 101001,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,2},{period, 1}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101002) -> #cfg_yunying{
+	id    = 101002,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,15},{period, 2}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101003) -> #cfg_yunying{
+	id    = 101003,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,30},{period, 3}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101004) -> #cfg_yunying{
+	id    = 101004,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,45},{period, 4}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101005) -> #cfg_yunying{
+	id    = 101005,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,60},{period, 5}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101006) -> #cfg_yunying{
+	id    = 101006,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,75},{period, 6}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101007) -> #cfg_yunying{
+	id    = 101007,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,90},{period, 7}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101008) -> #cfg_yunying{
+	id    = 101008,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,105},{period, 8}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101009) -> #cfg_yunying{
+	id    = 101009,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,120},{period, 9}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101010) -> #cfg_yunying{
+	id    = 101010,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,135},{period, 10}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101011) -> #cfg_yunying{
+	id    = 101011,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,150},{period, 11}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101012) -> #cfg_yunying{
+	id    = 101012,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,165},{period, 12}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101013) -> #cfg_yunying{
+	id    = 101013,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,180},{period, 13}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101014) -> #cfg_yunying{
+	id    = 101014,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,195},{period, 14}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101015) -> #cfg_yunying{
+	id    = 101015,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,210},{period, 15}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101016) -> #cfg_yunying{
+	id    = 101016,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,225},{period, 16}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101017) -> #cfg_yunying{
+	id    = 101017,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,240},{period, 17}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101018) -> #cfg_yunying{
+	id    = 101018,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,255},{period, 18}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101019) -> #cfg_yunying{
+	id    = 101019,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,270},{period, 19}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101020) -> #cfg_yunying{
+	id    = 101020,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,285},{period, 20}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(101021) -> #cfg_yunying{
+	id    = 101021,
+	type  = 100,
+	name  = "幸运转盘",
+	reqs  = [{opdays,300},{period, 21}],
+	level = 100,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	show  = [{{9999999,{0,0,0}},{9999999,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000000,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191100) -> #cfg_yunying{
+	id    = 191100,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{31,{0,0,0}},{33,{23,59,59}}}],
+	show  = [{{31,{0,0,0}},{33,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191200) -> #cfg_yunying{
+	id    = 191200,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{31,{0,0,0}},{33,{23,59,59}}}],
+	show  = [{{31,{0,0,0}},{33,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191101) -> #cfg_yunying{
+	id    = 191101,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{34,{0,0,0}},{36,{23,59,59}}}],
+	show  = [{{34,{0,0,0}},{36,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191201) -> #cfg_yunying{
+	id    = 191201,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{34,{0,0,0}},{36,{23,59,59}}}],
+	show  = [{{34,{0,0,0}},{36,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191102) -> #cfg_yunying{
+	id    = 191102,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{37,{0,0,0}},{39,{23,59,59}}}],
+	show  = [{{37,{0,0,0}},{39,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191202) -> #cfg_yunying{
+	id    = 191202,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{37,{0,0,0}},{39,{23,59,59}}}],
+	show  = [{{37,{0,0,0}},{39,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191103) -> #cfg_yunying{
+	id    = 191103,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{40,{0,0,0}},{42,{23,59,59}}}],
+	show  = [{{40,{0,0,0}},{42,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191203) -> #cfg_yunying{
+	id    = 191203,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{40,{0,0,0}},{42,{23,59,59}}}],
+	show  = [{{40,{0,0,0}},{42,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191104) -> #cfg_yunying{
+	id    = 191104,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{46,{0,0,0}},{48,{23,59,59}}}],
+	show  = [{{46,{0,0,0}},{48,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191204) -> #cfg_yunying{
+	id    = 191204,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{46,{0,0,0}},{48,{23,59,59}}}],
+	show  = [{{46,{0,0,0}},{48,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191105) -> #cfg_yunying{
+	id    = 191105,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{49,{0,0,0}},{51,{23,59,59}}}],
+	show  = [{{49,{0,0,0}},{51,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191205) -> #cfg_yunying{
+	id    = 191205,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{49,{0,0,0}},{51,{23,59,59}}}],
+	show  = [{{49,{0,0,0}},{51,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191106) -> #cfg_yunying{
+	id    = 191106,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{52,{0,0,0}},{54,{23,59,59}}}],
+	show  = [{{52,{0,0,0}},{54,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191206) -> #cfg_yunying{
+	id    = 191206,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{52,{0,0,0}},{54,{23,59,59}}}],
+	show  = [{{52,{0,0,0}},{54,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191107) -> #cfg_yunying{
+	id    = 191107,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{55,{0,0,0}},{57,{23,59,59}}}],
+	show  = [{{55,{0,0,0}},{57,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191207) -> #cfg_yunying{
+	id    = 191207,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{55,{0,0,0}},{57,{23,59,59}}}],
+	show  = [{{55,{0,0,0}},{57,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191108) -> #cfg_yunying{
+	id    = 191108,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{61,{0,0,0}},{63,{23,59,59}}}],
+	show  = [{{61,{0,0,0}},{63,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191208) -> #cfg_yunying{
+	id    = 191208,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{61,{0,0,0}},{63,{23,59,59}}}],
+	show  = [{{61,{0,0,0}},{63,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191109) -> #cfg_yunying{
+	id    = 191109,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{64,{0,0,0}},{66,{23,59,59}}}],
+	show  = [{{64,{0,0,0}},{66,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191209) -> #cfg_yunying{
+	id    = 191209,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{64,{0,0,0}},{66,{23,59,59}}}],
+	show  = [{{64,{0,0,0}},{66,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191110) -> #cfg_yunying{
+	id    = 191110,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{67,{0,0,0}},{69,{23,59,59}}}],
+	show  = [{{67,{0,0,0}},{69,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191210) -> #cfg_yunying{
+	id    = 191210,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{67,{0,0,0}},{69,{23,59,59}}}],
+	show  = [{{67,{0,0,0}},{69,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191111) -> #cfg_yunying{
+	id    = 191111,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{70,{0,0,0}},{72,{23,59,59}}}],
+	show  = [{{70,{0,0,0}},{72,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191211) -> #cfg_yunying{
+	id    = 191211,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{70,{0,0,0}},{72,{23,59,59}}}],
+	show  = [{{70,{0,0,0}},{72,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191112) -> #cfg_yunying{
+	id    = 191112,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{76,{0,0,0}},{78,{23,59,59}}}],
+	show  = [{{76,{0,0,0}},{78,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191212) -> #cfg_yunying{
+	id    = 191212,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{76,{0,0,0}},{78,{23,59,59}}}],
+	show  = [{{76,{0,0,0}},{78,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191113) -> #cfg_yunying{
+	id    = 191113,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{79,{0,0,0}},{81,{23,59,59}}}],
+	show  = [{{79,{0,0,0}},{81,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191213) -> #cfg_yunying{
+	id    = 191213,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{79,{0,0,0}},{81,{23,59,59}}}],
+	show  = [{{79,{0,0,0}},{81,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191114) -> #cfg_yunying{
+	id    = 191114,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{82,{0,0,0}},{84,{23,59,59}}}],
+	show  = [{{82,{0,0,0}},{84,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191214) -> #cfg_yunying{
+	id    = 191214,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{82,{0,0,0}},{84,{23,59,59}}}],
+	show  = [{{82,{0,0,0}},{84,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191115) -> #cfg_yunying{
+	id    = 191115,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{85,{0,0,0}},{87,{23,59,59}}}],
+	show  = [{{85,{0,0,0}},{87,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191215) -> #cfg_yunying{
+	id    = 191215,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{85,{0,0,0}},{87,{23,59,59}}}],
+	show  = [{{85,{0,0,0}},{87,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191116) -> #cfg_yunying{
+	id    = 191116,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{91,{0,0,0}},{93,{23,59,59}}}],
+	show  = [{{91,{0,0,0}},{93,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191216) -> #cfg_yunying{
+	id    = 191216,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{91,{0,0,0}},{93,{23,59,59}}}],
+	show  = [{{91,{0,0,0}},{93,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191117) -> #cfg_yunying{
+	id    = 191117,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{94,{0,0,0}},{96,{23,59,59}}}],
+	show  = [{{94,{0,0,0}},{96,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191217) -> #cfg_yunying{
+	id    = 191217,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{94,{0,0,0}},{96,{23,59,59}}}],
+	show  = [{{94,{0,0,0}},{96,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191118) -> #cfg_yunying{
+	id    = 191118,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{97,{0,0,0}},{99,{23,59,59}}}],
+	show  = [{{97,{0,0,0}},{99,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191218) -> #cfg_yunying{
+	id    = 191218,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{97,{0,0,0}},{99,{23,59,59}}}],
+	show  = [{{97,{0,0,0}},{99,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191119) -> #cfg_yunying{
+	id    = 191119,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{100,{0,0,0}},{102,{23,59,59}}}],
+	show  = [{{100,{0,0,0}},{102,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191219) -> #cfg_yunying{
+	id    = 191219,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{100,{0,0,0}},{102,{23,59,59}}}],
+	show  = [{{100,{0,0,0}},{102,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191120) -> #cfg_yunying{
+	id    = 191120,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{106,{0,0,0}},{108,{23,59,59}}}],
+	show  = [{{106,{0,0,0}},{108,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191220) -> #cfg_yunying{
+	id    = 191220,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{106,{0,0,0}},{108,{23,59,59}}}],
+	show  = [{{106,{0,0,0}},{108,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191121) -> #cfg_yunying{
+	id    = 191121,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{109,{0,0,0}},{111,{23,59,59}}}],
+	show  = [{{109,{0,0,0}},{111,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191221) -> #cfg_yunying{
+	id    = 191221,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{109,{0,0,0}},{111,{23,59,59}}}],
+	show  = [{{109,{0,0,0}},{111,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191122) -> #cfg_yunying{
+	id    = 191122,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{112,{0,0,0}},{114,{23,59,59}}}],
+	show  = [{{112,{0,0,0}},{114,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191222) -> #cfg_yunying{
+	id    = 191222,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{112,{0,0,0}},{114,{23,59,59}}}],
+	show  = [{{112,{0,0,0}},{114,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191123) -> #cfg_yunying{
+	id    = 191123,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{115,{0,0,0}},{117,{23,59,59}}}],
+	show  = [{{115,{0,0,0}},{117,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191223) -> #cfg_yunying{
+	id    = 191223,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{115,{0,0,0}},{117,{23,59,59}}}],
+	show  = [{{115,{0,0,0}},{117,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191124) -> #cfg_yunying{
+	id    = 191124,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{121,{0,0,0}},{123,{23,59,59}}}],
+	show  = [{{121,{0,0,0}},{123,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191224) -> #cfg_yunying{
+	id    = 191224,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{121,{0,0,0}},{123,{23,59,59}}}],
+	show  = [{{121,{0,0,0}},{123,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191125) -> #cfg_yunying{
+	id    = 191125,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{124,{0,0,0}},{126,{23,59,59}}}],
+	show  = [{{124,{0,0,0}},{126,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191225) -> #cfg_yunying{
+	id    = 191225,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{124,{0,0,0}},{126,{23,59,59}}}],
+	show  = [{{124,{0,0,0}},{126,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191126) -> #cfg_yunying{
+	id    = 191126,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{127,{0,0,0}},{129,{23,59,59}}}],
+	show  = [{{127,{0,0,0}},{129,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191226) -> #cfg_yunying{
+	id    = 191226,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{127,{0,0,0}},{129,{23,59,59}}}],
+	show  = [{{127,{0,0,0}},{129,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191127) -> #cfg_yunying{
+	id    = 191127,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{130,{0,0,0}},{132,{23,59,59}}}],
+	show  = [{{130,{0,0,0}},{132,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191227) -> #cfg_yunying{
+	id    = 191227,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{130,{0,0,0}},{132,{23,59,59}}}],
+	show  = [{{130,{0,0,0}},{132,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191128) -> #cfg_yunying{
+	id    = 191128,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{136,{0,0,0}},{138,{23,59,59}}}],
+	show  = [{{136,{0,0,0}},{138,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191228) -> #cfg_yunying{
+	id    = 191228,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{136,{0,0,0}},{138,{23,59,59}}}],
+	show  = [{{136,{0,0,0}},{138,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191129) -> #cfg_yunying{
+	id    = 191129,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{139,{0,0,0}},{141,{23,59,59}}}],
+	show  = [{{139,{0,0,0}},{141,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191229) -> #cfg_yunying{
+	id    = 191229,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{139,{0,0,0}},{141,{23,59,59}}}],
+	show  = [{{139,{0,0,0}},{141,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191130) -> #cfg_yunying{
+	id    = 191130,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{142,{0,0,0}},{144,{23,59,59}}}],
+	show  = [{{142,{0,0,0}},{144,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191230) -> #cfg_yunying{
+	id    = 191230,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{142,{0,0,0}},{144,{23,59,59}}}],
+	show  = [{{142,{0,0,0}},{144,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191131) -> #cfg_yunying{
+	id    = 191131,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{145,{0,0,0}},{147,{23,59,59}}}],
+	show  = [{{145,{0,0,0}},{147,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191231) -> #cfg_yunying{
+	id    = 191231,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{145,{0,0,0}},{147,{23,59,59}}}],
+	show  = [{{145,{0,0,0}},{147,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191132) -> #cfg_yunying{
+	id    = 191132,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{151,{0,0,0}},{153,{23,59,59}}}],
+	show  = [{{151,{0,0,0}},{153,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191232) -> #cfg_yunying{
+	id    = 191232,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{151,{0,0,0}},{153,{23,59,59}}}],
+	show  = [{{151,{0,0,0}},{153,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191133) -> #cfg_yunying{
+	id    = 191133,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{154,{0,0,0}},{156,{23,59,59}}}],
+	show  = [{{154,{0,0,0}},{156,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191233) -> #cfg_yunying{
+	id    = 191233,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{154,{0,0,0}},{156,{23,59,59}}}],
+	show  = [{{154,{0,0,0}},{156,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191134) -> #cfg_yunying{
+	id    = 191134,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{157,{0,0,0}},{159,{23,59,59}}}],
+	show  = [{{157,{0,0,0}},{159,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191234) -> #cfg_yunying{
+	id    = 191234,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{157,{0,0,0}},{159,{23,59,59}}}],
+	show  = [{{157,{0,0,0}},{159,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191135) -> #cfg_yunying{
+	id    = 191135,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{160,{0,0,0}},{162,{23,59,59}}}],
+	show  = [{{160,{0,0,0}},{162,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191235) -> #cfg_yunying{
+	id    = 191235,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{160,{0,0,0}},{162,{23,59,59}}}],
+	show  = [{{160,{0,0,0}},{162,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191136) -> #cfg_yunying{
+	id    = 191136,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{166,{0,0,0}},{168,{23,59,59}}}],
+	show  = [{{166,{0,0,0}},{168,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191236) -> #cfg_yunying{
+	id    = 191236,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{166,{0,0,0}},{168,{23,59,59}}}],
+	show  = [{{166,{0,0,0}},{168,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191137) -> #cfg_yunying{
+	id    = 191137,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{169,{0,0,0}},{171,{23,59,59}}}],
+	show  = [{{169,{0,0,0}},{171,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191237) -> #cfg_yunying{
+	id    = 191237,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{169,{0,0,0}},{171,{23,59,59}}}],
+	show  = [{{169,{0,0,0}},{171,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191138) -> #cfg_yunying{
+	id    = 191138,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{172,{0,0,0}},{174,{23,59,59}}}],
+	show  = [{{172,{0,0,0}},{174,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191238) -> #cfg_yunying{
+	id    = 191238,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{172,{0,0,0}},{174,{23,59,59}}}],
+	show  = [{{172,{0,0,0}},{174,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191139) -> #cfg_yunying{
+	id    = 191139,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{175,{0,0,0}},{177,{23,59,59}}}],
+	show  = [{{175,{0,0,0}},{177,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191239) -> #cfg_yunying{
+	id    = 191239,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{175,{0,0,0}},{177,{23,59,59}}}],
+	show  = [{{175,{0,0,0}},{177,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191140) -> #cfg_yunying{
+	id    = 191140,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{181,{0,0,0}},{183,{23,59,59}}}],
+	show  = [{{181,{0,0,0}},{183,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191240) -> #cfg_yunying{
+	id    = 191240,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{181,{0,0,0}},{183,{23,59,59}}}],
+	show  = [{{181,{0,0,0}},{183,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191141) -> #cfg_yunying{
+	id    = 191141,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{184,{0,0,0}},{186,{23,59,59}}}],
+	show  = [{{184,{0,0,0}},{186,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191241) -> #cfg_yunying{
+	id    = 191241,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{184,{0,0,0}},{186,{23,59,59}}}],
+	show  = [{{184,{0,0,0}},{186,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191142) -> #cfg_yunying{
+	id    = 191142,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{187,{0,0,0}},{189,{23,59,59}}}],
+	show  = [{{187,{0,0,0}},{189,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191242) -> #cfg_yunying{
+	id    = 191242,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{187,{0,0,0}},{189,{23,59,59}}}],
+	show  = [{{187,{0,0,0}},{189,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191143) -> #cfg_yunying{
+	id    = 191143,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{190,{0,0,0}},{192,{23,59,59}}}],
+	show  = [{{190,{0,0,0}},{192,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191243) -> #cfg_yunying{
+	id    = 191243,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{190,{0,0,0}},{192,{23,59,59}}}],
+	show  = [{{190,{0,0,0}},{192,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191144) -> #cfg_yunying{
+	id    = 191144,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{196,{0,0,0}},{198,{23,59,59}}}],
+	show  = [{{196,{0,0,0}},{198,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191244) -> #cfg_yunying{
+	id    = 191244,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{196,{0,0,0}},{198,{23,59,59}}}],
+	show  = [{{196,{0,0,0}},{198,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191145) -> #cfg_yunying{
+	id    = 191145,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{199,{0,0,0}},{201,{23,59,59}}}],
+	show  = [{{199,{0,0,0}},{201,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191245) -> #cfg_yunying{
+	id    = 191245,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{199,{0,0,0}},{201,{23,59,59}}}],
+	show  = [{{199,{0,0,0}},{201,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191146) -> #cfg_yunying{
+	id    = 191146,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{202,{0,0,0}},{204,{23,59,59}}}],
+	show  = [{{202,{0,0,0}},{204,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191246) -> #cfg_yunying{
+	id    = 191246,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{202,{0,0,0}},{204,{23,59,59}}}],
+	show  = [{{202,{0,0,0}},{204,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191147) -> #cfg_yunying{
+	id    = 191147,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{205,{0,0,0}},{207,{23,59,59}}}],
+	show  = [{{205,{0,0,0}},{207,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191247) -> #cfg_yunying{
+	id    = 191247,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{205,{0,0,0}},{207,{23,59,59}}}],
+	show  = [{{205,{0,0,0}},{207,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191148) -> #cfg_yunying{
+	id    = 191148,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{211,{0,0,0}},{213,{23,59,59}}}],
+	show  = [{{211,{0,0,0}},{213,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191248) -> #cfg_yunying{
+	id    = 191248,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{211,{0,0,0}},{213,{23,59,59}}}],
+	show  = [{{211,{0,0,0}},{213,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191149) -> #cfg_yunying{
+	id    = 191149,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{214,{0,0,0}},{216,{23,59,59}}}],
+	show  = [{{214,{0,0,0}},{216,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191249) -> #cfg_yunying{
+	id    = 191249,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{214,{0,0,0}},{216,{23,59,59}}}],
+	show  = [{{214,{0,0,0}},{216,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191150) -> #cfg_yunying{
+	id    = 191150,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{217,{0,0,0}},{219,{23,59,59}}}],
+	show  = [{{217,{0,0,0}},{219,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191250) -> #cfg_yunying{
+	id    = 191250,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{217,{0,0,0}},{219,{23,59,59}}}],
+	show  = [{{217,{0,0,0}},{219,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191151) -> #cfg_yunying{
+	id    = 191151,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{220,{0,0,0}},{222,{23,59,59}}}],
+	show  = [{{220,{0,0,0}},{222,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191251) -> #cfg_yunying{
+	id    = 191251,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{220,{0,0,0}},{222,{23,59,59}}}],
+	show  = [{{220,{0,0,0}},{222,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191152) -> #cfg_yunying{
+	id    = 191152,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{226,{0,0,0}},{228,{23,59,59}}}],
+	show  = [{{226,{0,0,0}},{228,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191252) -> #cfg_yunying{
+	id    = 191252,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{226,{0,0,0}},{228,{23,59,59}}}],
+	show  = [{{226,{0,0,0}},{228,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191153) -> #cfg_yunying{
+	id    = 191153,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{229,{0,0,0}},{231,{23,59,59}}}],
+	show  = [{{229,{0,0,0}},{231,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191253) -> #cfg_yunying{
+	id    = 191253,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{229,{0,0,0}},{231,{23,59,59}}}],
+	show  = [{{229,{0,0,0}},{231,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191154) -> #cfg_yunying{
+	id    = 191154,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{232,{0,0,0}},{234,{23,59,59}}}],
+	show  = [{{232,{0,0,0}},{234,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191254) -> #cfg_yunying{
+	id    = 191254,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{232,{0,0,0}},{234,{23,59,59}}}],
+	show  = [{{232,{0,0,0}},{234,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191155) -> #cfg_yunying{
+	id    = 191155,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{235,{0,0,0}},{237,{23,59,59}}}],
+	show  = [{{235,{0,0,0}},{237,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191255) -> #cfg_yunying{
+	id    = 191255,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{235,{0,0,0}},{237,{23,59,59}}}],
+	show  = [{{235,{0,0,0}},{237,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191156) -> #cfg_yunying{
+	id    = 191156,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{241,{0,0,0}},{243,{23,59,59}}}],
+	show  = [{{241,{0,0,0}},{243,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191256) -> #cfg_yunying{
+	id    = 191256,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{241,{0,0,0}},{243,{23,59,59}}}],
+	show  = [{{241,{0,0,0}},{243,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191157) -> #cfg_yunying{
+	id    = 191157,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{244,{0,0,0}},{246,{23,59,59}}}],
+	show  = [{{244,{0,0,0}},{246,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191257) -> #cfg_yunying{
+	id    = 191257,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{244,{0,0,0}},{246,{23,59,59}}}],
+	show  = [{{244,{0,0,0}},{246,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191158) -> #cfg_yunying{
+	id    = 191158,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{247,{0,0,0}},{249,{23,59,59}}}],
+	show  = [{{247,{0,0,0}},{249,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191258) -> #cfg_yunying{
+	id    = 191258,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{247,{0,0,0}},{249,{23,59,59}}}],
+	show  = [{{247,{0,0,0}},{249,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191159) -> #cfg_yunying{
+	id    = 191159,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{250,{0,0,0}},{252,{23,59,59}}}],
+	show  = [{{250,{0,0,0}},{252,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191259) -> #cfg_yunying{
+	id    = 191259,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{250,{0,0,0}},{252,{23,59,59}}}],
+	show  = [{{250,{0,0,0}},{252,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191160) -> #cfg_yunying{
+	id    = 191160,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{256,{0,0,0}},{258,{23,59,59}}}],
+	show  = [{{256,{0,0,0}},{258,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191260) -> #cfg_yunying{
+	id    = 191260,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{256,{0,0,0}},{258,{23,59,59}}}],
+	show  = [{{256,{0,0,0}},{258,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191161) -> #cfg_yunying{
+	id    = 191161,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{259,{0,0,0}},{261,{23,59,59}}}],
+	show  = [{{259,{0,0,0}},{261,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191261) -> #cfg_yunying{
+	id    = 191261,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{259,{0,0,0}},{261,{23,59,59}}}],
+	show  = [{{259,{0,0,0}},{261,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191162) -> #cfg_yunying{
+	id    = 191162,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{262,{0,0,0}},{264,{23,59,59}}}],
+	show  = [{{262,{0,0,0}},{264,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191262) -> #cfg_yunying{
+	id    = 191262,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{262,{0,0,0}},{264,{23,59,59}}}],
+	show  = [{{262,{0,0,0}},{264,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191163) -> #cfg_yunying{
+	id    = 191163,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{265,{0,0,0}},{267,{23,59,59}}}],
+	show  = [{{265,{0,0,0}},{267,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191263) -> #cfg_yunying{
+	id    = 191263,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{265,{0,0,0}},{267,{23,59,59}}}],
+	show  = [{{265,{0,0,0}},{267,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191164) -> #cfg_yunying{
+	id    = 191164,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{271,{0,0,0}},{273,{23,59,59}}}],
+	show  = [{{271,{0,0,0}},{273,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191264) -> #cfg_yunying{
+	id    = 191264,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{271,{0,0,0}},{273,{23,59,59}}}],
+	show  = [{{271,{0,0,0}},{273,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191165) -> #cfg_yunying{
+	id    = 191165,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{274,{0,0,0}},{276,{23,59,59}}}],
+	show  = [{{274,{0,0,0}},{276,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191265) -> #cfg_yunying{
+	id    = 191265,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{274,{0,0,0}},{276,{23,59,59}}}],
+	show  = [{{274,{0,0,0}},{276,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191166) -> #cfg_yunying{
+	id    = 191166,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{277,{0,0,0}},{279,{23,59,59}}}],
+	show  = [{{277,{0,0,0}},{279,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191266) -> #cfg_yunying{
+	id    = 191266,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{277,{0,0,0}},{279,{23,59,59}}}],
+	show  = [{{277,{0,0,0}},{279,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191167) -> #cfg_yunying{
+	id    = 191167,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{280,{0,0,0}},{282,{23,59,59}}}],
+	show  = [{{280,{0,0,0}},{282,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191267) -> #cfg_yunying{
+	id    = 191267,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{280,{0,0,0}},{282,{23,59,59}}}],
+	show  = [{{280,{0,0,0}},{282,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191168) -> #cfg_yunying{
+	id    = 191168,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{286,{0,0,0}},{288,{23,59,59}}}],
+	show  = [{{286,{0,0,0}},{288,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191268) -> #cfg_yunying{
+	id    = 191268,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{286,{0,0,0}},{288,{23,59,59}}}],
+	show  = [{{286,{0,0,0}},{288,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191169) -> #cfg_yunying{
+	id    = 191169,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{289,{0,0,0}},{291,{23,59,59}}}],
+	show  = [{{289,{0,0,0}},{291,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191269) -> #cfg_yunying{
+	id    = 191269,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{289,{0,0,0}},{291,{23,59,59}}}],
+	show  = [{{289,{0,0,0}},{291,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191170) -> #cfg_yunying{
+	id    = 191170,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{292,{0,0,0}},{294,{23,59,59}}}],
+	show  = [{{292,{0,0,0}},{294,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191270) -> #cfg_yunying{
+	id    = 191270,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{292,{0,0,0}},{294,{23,59,59}}}],
+	show  = [{{292,{0,0,0}},{294,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191171) -> #cfg_yunying{
+	id    = 191171,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{295,{0,0,0}},{297,{23,59,59}}}],
+	show  = [{{295,{0,0,0}},{297,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191271) -> #cfg_yunying{
+	id    = 191271,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{295,{0,0,0}},{297,{23,59,59}}}],
+	show  = [{{295,{0,0,0}},{297,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191172) -> #cfg_yunying{
+	id    = 191172,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{301,{0,0,0}},{303,{23,59,59}}}],
+	show  = [{{301,{0,0,0}},{303,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191272) -> #cfg_yunying{
+	id    = 191272,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{301,{0,0,0}},{303,{23,59,59}}}],
+	show  = [{{301,{0,0,0}},{303,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191173) -> #cfg_yunying{
+	id    = 191173,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{304,{0,0,0}},{306,{23,59,59}}}],
+	show  = [{{304,{0,0,0}},{306,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191273) -> #cfg_yunying{
+	id    = 191273,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{304,{0,0,0}},{306,{23,59,59}}}],
+	show  = [{{304,{0,0,0}},{306,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191174) -> #cfg_yunying{
+	id    = 191174,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{307,{0,0,0}},{309,{23,59,59}}}],
+	show  = [{{307,{0,0,0}},{309,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191274) -> #cfg_yunying{
+	id    = 191274,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{307,{0,0,0}},{309,{23,59,59}}}],
+	show  = [{{307,{0,0,0}},{309,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191175) -> #cfg_yunying{
+	id    = 191175,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{310,{0,0,0}},{312,{23,59,59}}}],
+	show  = [{{310,{0,0,0}},{312,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191275) -> #cfg_yunying{
+	id    = 191275,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{310,{0,0,0}},{312,{23,59,59}}}],
+	show  = [{{310,{0,0,0}},{312,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191176) -> #cfg_yunying{
+	id    = 191176,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11014,1},{10,11014,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{316,{0,0,0}},{318,{23,59,59}}}],
+	show  = [{{316,{0,0,0}},{318,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191276) -> #cfg_yunying{
+	id    = 191276,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{316,{0,0,0}},{318,{23,59,59}}}],
+	show  = [{{316,{0,0,0}},{318,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191177) -> #cfg_yunying{
+	id    = 191177,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11015,1},{10,11015,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{319,{0,0,0}},{321,{23,59,59}}}],
+	show  = [{{319,{0,0,0}},{321,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191277) -> #cfg_yunying{
+	id    = 191277,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{319,{0,0,0}},{321,{23,59,59}}}],
+	show  = [{{319,{0,0,0}},{321,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191178) -> #cfg_yunying{
+	id    = 191178,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11016,1},{10,11016,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{322,{0,0,0}},{324,{23,59,59}}}],
+	show  = [{{322,{0,0,0}},{324,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191278) -> #cfg_yunying{
+	id    = 191278,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{322,{0,0,0}},{324,{23,59,59}}}],
+	show  = [{{322,{0,0,0}},{324,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191179) -> #cfg_yunying{
+	id    = 191179,
+	type  = 191,
+	name  = "限时寻宝",
+	reqs  = [{cost,[{1,11017,1},{10,11017,9}]},{groups,[99,11,1]},{opdays,31}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{325,{0,0,0}},{327,{23,59,59}}}],
+	show  = [{{325,{0,0,0}},{327,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(191279) -> #cfg_yunying{
+	id    = 191279,
+	type  = 191,
+	name  = "限时寻宝积分宝箱",
+	reqs  = [{opdays,8}],
+	level = 410,
+	wake  = 0,
+	cycle = opdays,
+	days  = [],
+	time  = [{{325,{0,0,0}},{327,{23,59,59}}}],
+	show  = [{{325,{0,0,0}},{327,{23,59,59}}}],
+	rank  = 0,
+	mail  = 1000001,
+	clear = [{finish,1,0}],
+	form  = reach
+};
+find(_) -> undefined.
+
+all() -> [170140,101015,110101,150601,110502,170162,191220,191274,110202,110402,174300,191108,191115,191131,191146,191256,100501,100508,191260,191166,191101,191264,171100,100161,100012,191139,191249,191176,177400,100011,191209,191233,110503,174200,191269,191170,100504,100121,191223,191129,191130,180203,100112,100071,191107,191132,191136,191238,191157,100502,174400,191165,191266,110305,178200,110046,191158,170141,191219,110404,120502,174201,176000,177200,177300,100162,100003,170101,170132,191258,100027,101011,191227,191231,130201,191218,100091,110032,110045,191127,191128,191261,180506,100052,191172,191104,191228,191262,177100,100092,191135,191273,100151,191225,180403,100015,191105,191216,191140,191279,110501,110506,180504,191207,191217,191123,170170,172000,177700,178100,100018,101004,191234,191148,110304,150201,191155,191163,101014,150401,100019,110043,101001,191126,191138,110504,174100,100102,110037,101002,101017,191200,191116,170112,180505,191263,191173,100013,191212,191222,191232,191255,100506,100101,100029,191143,191177,110405,100072,100014,191171,101005,191118,191235,191147,191251,170160,100061,100081,100171,110036,191240,191244,191164,110201,170142,180501,110042,191214,191267,100301,110203,120201,180201,180206,100002,100181,110044,101016,170152,176001,191248,191149,191167,191106,191144,170150,177500,180405,191275,110302,120501,180401,191103,191230,191237,110306,174000,191110,191178,100503,100051,191202,191211,191226,191179,170171,175000,180502,191203,191113,191122,191257,130601,150101,191150,191278,100001,101009,191109,191253,110505,110038,191154,191174,110401,100030,191142,191151,110301,100031,101007,191137,191241,191268,110204,100004,110021,100041,101021,191201,191121,100505,170151,100111,191239,191141,110407,130101,170131,172001,110022,110040,101010,101018,100201,170130,191246,191162,100023,110031,101003,191125,191229,191252,180404,100062,177000,100026,191102,191206,191134,100509,130301,150301,170122,172003,178300,100122,191236,110206,110406,191272,191145,191153,191215,180406,100152,100022,191120,191259,100032,100191,110034,101020,191265,120301,180503,120101,170121,100016,110035,191210,191133,100701,110303,191160,100025,101013,191100,170110,100172,177600,180202,130501,170120,100142,101008,191221,191254,191161,191270,120401,170111,191276,100021,110041,150701,100141,100131,100132,100020,100024,101006,191250,150501,180402,170161,100042,191204,191112,191152,191277,100510,110403,191119,191271,180205,191208,100182,110033,172002,100082,100192,100017,191205,191117,191243,191245,110205,170100,191247,170172,101012,191242,191159,191175,100507,130401,100028,101019,191111,191124,191224,191156,100202,180204,191168,191114,191169,100601,110039,191213].
+
+all(opdays) -> [110204,110404,191105,191262,176001,191210,150401,191204,191114,191118,191141,174100,191149,130501,150101,150601,191108,191157,110302,130401,101013,191111,191134,100701,110304,170151,191203,191206,191150,100509,170142,191211,191238,191151,110406,150201,150301,170150,191119,191221,191270,191173,191174,110505,191254,100506,170131,191102,191276,100501,174400,191116,191217,191222,191156,100504,130101,191137,191237,191251,191166,191115,191121,191153,191260,191162,191164,101016,101019,191163,191167,191123,191126,191142,191269,170172,174201,101011,191110,191179,191258,191267,120401,172001,191201,191107,191132,191234,110205,170112,170162,191257,110101,110405,101009,191266,130601,170161,191255,191275,191161,110203,120502,170111,178300,191133,191155,110301,191202,191246,110403,110504,150501,101010,191240,191243,191100,191113,191214,178200,101020,191103,110303,174200,191215,191125,191236,191143,191171,100502,100505,101007,191216,191225,191165,191124,191159,170100,175000,101014,191220,191170,172002,191265,110407,150701,174000,101002,101005,191263,110506,130301,174300,191209,191278,120501,170120,101012,191147,191273,191277,191226,110502,101008,191122,100601,120301,191218,101018,191140,191169,120201,191145,191152,170110,191200,191212,191219,191224,191231,191259,171100,191205,191244,191268,110306,170121,191232,191261,191272,100510,110503,172000,101003,101021,191230,191274,110206,176000,101006,191136,110402,101015,170152,191213,191129,191248,191264,191178,110501,191256,191158,100201,170122,191109,191127,191139,191245,110201,120101,191104,191117,191223,191130,191148,170130,191146,191177,170132,191233,191252,191120,191229,191176,170141,191249,191160,170160,191239,191247,191172,191250,191168,100503,100508,170101,170140,191112,191241,101001,101004,191135,191154,110401,191101,191227,191131,191138,191144,191271,191279,100301,170171,101017,191207,191128,191235,100507,110305,170170,172003,191253,191175,191228,191242,100202,110202,130201,178100,191106,191208];
+all(during) -> [100131,100161,100182,100082,100013,100021,100024,110045,110046,100032,177600,100012,110022,100081,100181,100014,110039,177500,100029,100111,110031,110034,100022,100171,100016,100028,100141,100172,100026,110021,100071,100121,100152,100004,110033,110041,177100,100017,100030,177000,100011,100052,100102,100122,100151,100023,110032,177700,110042,110036,100031,100092,100132,100162,100015,110040,177200,100019,100027,100003,100101,110035,100062,100091,100142,100192,100025,110038,100041,177400,100002,100042,100072,100112,100018,110037,177300,110044,110043,100051,100061,100191,100020,100001];
+all(mgdays) -> [180505,180402,180405,180406,180201,180504,180205,180501,180503,180506,180403,180202,180502,180401,180404,180203,180204,180206];
+all(_) -> [].
+
+list(false) -> [100503,130501,170110,191217,191239,191166,100701,170161,100016,191109,191136,191253,110504,172003,100141,191123,191150,191167,130401,150401,191216,191244,100601,110301,110403,120401,130101,170122,180404,191116,191219,191157,191173,110201,174200,100161,100014,100020,191203,110036,191238,191275,180204,100082,191254,191267,100510,191223,191139,191175,180403,101020,191137,191170,110503,110506,130601,150701,170170,170171,100092,191211,191234,191141,110303,178300,100002,191249,191158,170130,177100,101004,101005,191232,191271,191279,150601,172000,180201,100041,110038,110040,191225,191145,110405,170100,191110,191127,191159,191165,191179,180205,100004,191245,101007,191121,191146,191262,191266,110022,191100,191120,191108,191208,100507,174000,174400,174201,191107,191233,191162,191269,120101,100181,101011,191209,191224,191236,191171,120502,100132,191111,191132,110501,100062,100011,191160,100081,100152,101021,191263,177000,191128,191131,191231,191152,191268,100301,110407,180406,100502,170120,100162,101013,191140,100504,110206,110305,110404,170132,191202,191117,191148,110205,120201,110034,191215,191240,172001,101014,191130,191134,150201,178200,180405,100111,100171,191220,191147,191257,171100,100172,191204,191119,191156,191168,110402,110406,100122,100151,110046,191129,191230,120501,170152,100042,100024,101019,191114,191242,191250,191259,191273,191176,170150,100001,191212,191246,191270,100182,110044,191243,170121,176001,177700,100102,100192,191206,191155,191256,100505,170172,172002,180401,191118,191221,191126,191265,191177,170151,170160,101001,101012,191106,110204,130301,177400,178100,100022,110032,191112,191237,110203,130201,170111,100012,100026,191207,191125,191277,100202,110101,175000,110021,191222,191228,100506,150101,170131,100051,101009,191142,191144,180203,100072,101002,191260,191261,100509,170162,100071,191241,174300,100131,191210,191113,191115,191143,191149,191151,120301,100191,191200,191205,191172,100061,100121,191104,170142,176000,100091,191102,191229,191135,191235,191252,191154,150301,177300,180206,191226,191163,100508,170101,170112,177600,100028,101008,191201,191247,191258,191178,110302,100112,100142,191101,191227,191174,110202,191213,191124,191138,191278,100501,100018,101003,101016,191214,191251,191272,110304,177200,100101,191153,191255,191264,191274,191276,180202,110042,101006,101010,191103,110306,110502,150501,100030,191164,100201,100031,100032,100052,101015,191122,191248,110401,170140,180402,101018,191218,191133,191161,110505,170141,174100,101017,191105,191169];
+list(true) -> [110037,110039,177500,100015,100027,100013,100019,110043,110045,180503,180504,100003,110033,110035,100017,100023,100025,180506,100021,100029,110031,110041,180501,180502,180505];
+list(_) -> [].
+
+level(80) -> [100301,100201,100202];
+level(120) -> [100510,170141,170151,170172,100501,100504,100505,100508,170131,170142,170160,170171,100503,170110,170122,170130,170140,170152,170161,100507,170111,170121,170162,100506,100509,170132,100502,170112,170120,170150,170170];
+level(100) -> [100031,100018,174000,176001,100002,110022,100171,110034,101018,110040,150501,172003,177100,100011,100072,100112,100142,150601,100081,100102,100162,100182,100701,100003,110035,110046,101013,172001,177200,100151,100161,100024,100029,100001,100121,171100,100062,100172,100025,150201,177600,100061,100132,174201,176000,100082,100122,110039,120401,100092,100191,110036,101016,100051,100101,110042,101007,120101,177000,100004,100022,101021,120301,150101,100152,100016,177500,100015,100023,110038,100026,101001,101003,101005,101012,110021,100042,174300,174400,100111,150701,110041,101014,101017,177700,110045,101009,150401,100012,100141,101020,100601,100052,100017,101006,120501,174200,175000,177300,100131,110037,110044,101019,100032,100192,110031,101002,100071,100091,100019,120502,100014,100027,100028,101015,172000,172002,100041,100021,110033,101008,177400,120201,100181,101004,101010,150301,174100,100013,100020,100030,110032,110043,101011];
+level(65) -> [110202,110205,110301,110406,180505,180401,110305,110502,110504,130101,180504,180201,180202,110206,110401,110404,110405,110503,180502,180405,180204,110303,110407,180403,180406,180203,180205,110101,180503,180402,110302,110304,110306,110505,110506,130201,130401,110201,130501,180506,180404,110203,110204,110402,110403,110501,130301,130601,180501,180206];
+level(190) -> [170100,170101];
+level(180) -> [178100,178200,178300];
+level(410) -> [191223,191138,191268,191273,191177,191103,191233,191252,191265,191271,191205,191135,191136,191243,191258,191160,191167,191228,191152,191256,191277,191178,191218,191104,191139,191239,191142,191146,191150,191201,191260,191125,191221,191149,191158,191170,191117,191157,191207,191134,191156,191101,191121,191236,191202,191249,191122,191244,191147,191171,191109,191248,191257,191262,191176,191106,191203,191110,191113,191217,191219,191123,191130,191200,191234,191235,191247,191161,191231,191108,191114,191225,191229,191230,191241,191107,191240,191145,191148,191204,191144,191169,191175,191179,191133,191140,191254,191116,191132,191251,191166,191278,191119,191118,191224,191246,191163,191266,191269,191270,191111,191126,191127,191227,191261,191210,191253,191159,191165,191168,191173,191105,191206,191128,191155,191174,191100,191141,191143,191151,191164,191272,191275,191212,191216,191259,191209,191214,191220,191162,191276,191112,191211,191124,191255,191208,191131,191245,191264,191213,191129,191215,191232,191242,191279,191102,191153,191154,191267,191222,191120,191226,191137,191237,191238,191250,191263,191115,191274,191172];
+level(_) -> [].
+
+wake(0) -> [191102,191212,191220,191230,191143,150101,170101,101021,191162,191264,180205,100112,100121,191278,180406,110033,191112,101014,191214,191267,180404,100091,100142,191129,191160,191268,110046,191200,191222,100151,101005,191108,191119,191168,150601,170162,172000,191165,174400,100101,100018,100191,101002,191103,191252,100202,100507,100082,191106,191128,191234,191243,191259,177300,180401,101017,100016,191229,191163,100506,100031,100015,100021,101013,101016,191213,191245,110202,176000,177000,191146,191173,180206,110043,101003,120502,130501,180202,100171,191207,191161,191113,191131,110406,100024,101011,191141,191174,172003,101015,191233,100013,191247,110404,170142,174201,177600,180506,101018,191211,191114,110201,120401,177100,191201,110504,170151,180502,191127,191227,191133,191153,191171,176001,180503,191219,191121,191134,191235,110305,101006,191202,191156,191279,110203,110032,191236,100012,100042,100027,101009,191238,100510,110401,170111,191159,191273,100022,100601,170132,180501,110306,170161,191100,110036,191203,191136,191152,174100,100132,100152,170122,172001,100014,191138,191242,110407,110502,120501,191265,191166,191266,100052,100029,191179,120301,130101,150201,101007,191125,191139,110206,178100,180504,191253,191155,177200,191224,191147,191118,191246,191271,110037,110039,191209,191101,191167,191177,191111,170152,177700,100141,170110,170160,191277,110302,191144,100502,191215,191132,100172,100062,100072,100102,191276,180405,100003,191269,100122,100004,191115,100509,110503,174200,100019,110041,191149,100002,100011,100061,150401,174300,191142,100071,191216,110303,110402,150301,100020,100023,110034,191248,191250,170140,100032,100181,191169,191175,100026,110031,191258,191262,191274,130301,150501,100192,120101,130201,110022,191122,191123,100505,100701,110204,191232,191237,191145,170141,100030,170150,191205,191110,191124,191226,110506,120201,170121,101004,191210,191218,191255,191260,100201,110304,110403,191126,191157,191164,170130,170170,191204,191206,191270,170100,170171,110042,180204,100001,110044,101012,100508,110405,130401,101001,191223,191239,170172,177500,100028,191176,100162,101020,191120,100051,191137,191263,177400,178300,180403,110038,191231,191257,191275,100504,180203,100025,180402,100092,191107,191135,191256,100503,130601,150701,191178,100131,191109,191217,191221,191225,170120,180201,100081,191148,191261,191170,191228,110205,174000,191208,191130,191251,110505,100111,100017,100041,110035,191140,191241,191249,110501,170112,170131,191254,191272,191105,191150,191151,191154,100501,180505,100161,191240,191158,191172,172002,175000,101008,191117,191244,178200,110045,101010,110021,100182,110040,101019,191104,100301,110101,110301,191116];
+wake(2) -> [171100];
+wake(_) -> [].
+
+panel(100201) -> "820@1";
+panel(100202) -> "820@1";
+panel(100301) -> "820@1";
+panel(100501) -> "875@1";
+panel(100502) -> "875@2";
+panel(100503) -> "875@3";
+panel(100504) -> "875@4";
+panel(100505) -> "875@5";
+panel(100506) -> "875@6";
+panel(100507) -> "875@7";
+panel(100508) -> "875@8";
+panel(100509) -> "875@9";
+panel(100510) -> "875@10";
+panel(100601) -> "910@1";
+panel(100701) -> "910@1";
+panel(110101) -> "830@1";
+panel(110201) -> "830@2";
+panel(110202) -> "830@2";
+panel(110203) -> "830@2";
+panel(110204) -> "830@2";
+panel(110205) -> "830@2";
+panel(110206) -> "830@2";
+panel(110301) -> "830@3";
+panel(110302) -> "830@3";
+panel(110303) -> "830@3";
+panel(110304) -> "830@3";
+panel(110305) -> "830@3";
+panel(110306) -> "830@3";
+panel(110401) -> "830@4";
+panel(110402) -> "830@4";
+panel(110403) -> "830@4";
+panel(110404) -> "830@4";
+panel(110405) -> "830@4";
+panel(110406) -> "830@4";
+panel(110407) -> "830@4";
+panel(110501) -> "830@5";
+panel(110502) -> "830@5";
+panel(110503) -> "830@5";
+panel(110504) -> "830@5";
+panel(110505) -> "830@5";
+panel(110506) -> "830@5";
+panel(120101) -> "870@1";
+panel(120201) -> "870@2";
+panel(120301) -> "870@3";
+panel(120401) -> "870@4";
+panel(120501) -> "870@5";
+panel(120502) -> "870@5";
+panel(130101) -> "880@5";
+panel(130201) -> "880@4";
+panel(130301) -> "880@1";
+panel(130401) -> "880@2";
+panel(130501) -> "880@3";
+panel(130601) -> "880@6";
+panel(150101) -> "900@1";
+panel(150201) -> "900@2";
+panel(150301) -> "900@3";
+panel(150401) -> "900@4";
+panel(150501) -> "900@5";
+panel(150601) -> "900@6";
+panel(150701) -> "";
+panel(170100) -> "895@1";
+panel(170101) -> "895@1";
+panel(170110) -> "876@1";
+panel(170111) -> "876@1";
+panel(170112) -> "876@1";
+panel(170120) -> "876@2";
+panel(170121) -> "876@2";
+panel(170122) -> "876@2";
+panel(170130) -> "876@3";
+panel(170131) -> "876@3";
+panel(170132) -> "876@3";
+panel(170140) -> "876@4";
+panel(170141) -> "876@4";
+panel(170142) -> "876@4";
+panel(170150) -> "876@5";
+panel(170151) -> "876@5";
+panel(170152) -> "876@5";
+panel(170160) -> "876@6";
+panel(170161) -> "876@6";
+panel(170162) -> "876@6";
+panel(170170) -> "876@7";
+panel(170171) -> "876@7";
+panel(170172) -> "876@7";
+panel(171100) -> "905@1";
+panel(172000) -> "920@1";
+panel(172001) -> "920@2";
+panel(172002) -> "920@3";
+panel(172003) -> "920@4";
+panel(174000) -> "940@1";
+panel(174100) -> "940@2";
+panel(174200) -> "940@3";
+panel(174300) -> "940@4";
+panel(174400) -> "940@5";
+panel(174201) -> "940@3";
+panel(175000) -> "950@1";
+panel(176000) -> "980@1";
+panel(176001) -> "960@1";
+panel(177000) -> "990@1";
+panel(177100) -> "990@2";
+panel(177200) -> "990@3";
+panel(177300) -> "990@4";
+panel(177400) -> "990@5";
+panel(177500) -> "990@1";
+panel(177600) -> "990@3";
+panel(177700) -> "990@6";
+panel(178100) -> "";
+panel(178200) -> "";
+panel(178300) -> "";
+panel(180501) -> "1130@1";
+panel(180502) -> "1130@1";
+panel(180503) -> "1130@1";
+panel(180504) -> "1130@1";
+panel(180505) -> "1130@1";
+panel(180506) -> "1130@1";
+panel(180401) -> "1130@2";
+panel(180402) -> "1130@2";
+panel(180403) -> "1130@2";
+panel(180404) -> "1130@2";
+panel(180405) -> "1130@2";
+panel(180406) -> "1130@2";
+panel(180201) -> "1130@3";
+panel(180202) -> "1130@3";
+panel(180203) -> "1130@3";
+panel(180204) -> "1130@3";
+panel(180205) -> "1130@3";
+panel(180206) -> "1130@3";
+panel(100001) -> "1150@1";
+panel(100002) -> "1150@1";
+panel(100011) -> "1150@1";
+panel(100012) -> "1150@1";
+panel(110021) -> "1150@1";
+panel(110022) -> "1150@1";
+panel(100031) -> "1150@1";
+panel(100032) -> "1150@1";
+panel(100041) -> "1150@1";
+panel(100042) -> "1150@1";
+panel(100051) -> "1150@1";
+panel(100052) -> "1150@1";
+panel(100061) -> "1150@1";
+panel(100062) -> "1150@1";
+panel(100071) -> "1150@1";
+panel(100072) -> "1150@1";
+panel(100081) -> "1150@1";
+panel(100082) -> "1150@1";
+panel(100091) -> "1150@1";
+panel(100092) -> "1150@1";
+panel(100101) -> "1150@1";
+panel(100102) -> "1150@1";
+panel(100111) -> "1150@1";
+panel(100112) -> "1150@1";
+panel(100121) -> "1150@1";
+panel(100122) -> "1150@1";
+panel(100131) -> "1150@1";
+panel(100132) -> "1150@1";
+panel(100141) -> "1150@1";
+panel(100142) -> "1150@1";
+panel(100151) -> "1150@1";
+panel(100152) -> "1150@1";
+panel(100161) -> "1150@1";
+panel(100162) -> "1150@1";
+panel(100171) -> "1150@1";
+panel(100172) -> "1150@1";
+panel(100181) -> "1150@1";
+panel(100182) -> "1150@1";
+panel(100191) -> "1150@1";
+panel(100192) -> "1150@1";
+panel(100003) -> "5@11";
+panel(100004) -> "5@12";
+panel(100013) -> "5@11";
+panel(100014) -> "5@12";
+panel(100015) -> "5@11";
+panel(100016) -> "5@12";
+panel(100017) -> "5@11";
+panel(100018) -> "5@12";
+panel(100019) -> "5@11";
+panel(100020) -> "5@12";
+panel(100021) -> "5@11";
+panel(100022) -> "5@12";
+panel(100023) -> "5@11";
+panel(100024) -> "5@12";
+panel(100025) -> "5@11";
+panel(100026) -> "5@12";
+panel(100027) -> "5@11";
+panel(100028) -> "5@12";
+panel(100029) -> "5@11";
+panel(100030) -> "5@12";
+panel(110031) -> "5@11";
+panel(110032) -> "5@12";
+panel(110033) -> "5@11";
+panel(110034) -> "5@12";
+panel(110035) -> "5@11";
+panel(110036) -> "5@12";
+panel(110037) -> "5@11";
+panel(110038) -> "5@12";
+panel(110039) -> "5@11";
+panel(110040) -> "5@12";
+panel(110041) -> "5@11";
+panel(110042) -> "5@12";
+panel(110043) -> "5@11";
+panel(110044) -> "5@12";
+panel(110045) -> "5@11";
+panel(110046) -> "5@12";
+panel(101001) -> "1170@1";
+panel(101002) -> "1170@1";
+panel(101003) -> "1170@1";
+panel(101004) -> "1170@1";
+panel(101005) -> "1170@1";
+panel(101006) -> "1170@1";
+panel(101007) -> "1170@1";
+panel(101008) -> "1170@1";
+panel(101009) -> "1170@1";
+panel(101010) -> "1170@1";
+panel(101011) -> "1170@1";
+panel(101012) -> "1170@1";
+panel(101013) -> "1170@1";
+panel(101014) -> "1170@1";
+panel(101015) -> "1170@1";
+panel(101016) -> "1170@1";
+panel(101017) -> "1170@1";
+panel(101018) -> "1170@1";
+panel(101019) -> "1170@1";
+panel(101020) -> "1170@1";
+panel(101021) -> "1170@1";
+panel(191100) -> "191@1";
+panel(191200) -> "";
+panel(191101) -> "191@1";
+panel(191201) -> "";
+panel(191102) -> "191@1";
+panel(191202) -> "";
+panel(191103) -> "191@1";
+panel(191203) -> "";
+panel(191104) -> "191@1";
+panel(191204) -> "";
+panel(191105) -> "191@1";
+panel(191205) -> "";
+panel(191106) -> "191@1";
+panel(191206) -> "";
+panel(191107) -> "191@1";
+panel(191207) -> "";
+panel(191108) -> "191@1";
+panel(191208) -> "";
+panel(191109) -> "191@1";
+panel(191209) -> "";
+panel(191110) -> "191@1";
+panel(191210) -> "";
+panel(191111) -> "191@1";
+panel(191211) -> "";
+panel(191112) -> "191@1";
+panel(191212) -> "";
+panel(191113) -> "191@1";
+panel(191213) -> "";
+panel(191114) -> "191@1";
+panel(191214) -> "";
+panel(191115) -> "191@1";
+panel(191215) -> "";
+panel(191116) -> "191@1";
+panel(191216) -> "";
+panel(191117) -> "191@1";
+panel(191217) -> "";
+panel(191118) -> "191@1";
+panel(191218) -> "";
+panel(191119) -> "191@1";
+panel(191219) -> "";
+panel(191120) -> "191@1";
+panel(191220) -> "";
+panel(191121) -> "191@1";
+panel(191221) -> "";
+panel(191122) -> "191@1";
+panel(191222) -> "";
+panel(191123) -> "191@1";
+panel(191223) -> "";
+panel(191124) -> "191@1";
+panel(191224) -> "";
+panel(191125) -> "191@1";
+panel(191225) -> "";
+panel(191126) -> "191@1";
+panel(191226) -> "";
+panel(191127) -> "191@1";
+panel(191227) -> "";
+panel(191128) -> "191@1";
+panel(191228) -> "";
+panel(191129) -> "191@1";
+panel(191229) -> "";
+panel(191130) -> "191@1";
+panel(191230) -> "";
+panel(191131) -> "191@1";
+panel(191231) -> "";
+panel(191132) -> "191@1";
+panel(191232) -> "";
+panel(191133) -> "191@1";
+panel(191233) -> "";
+panel(191134) -> "191@1";
+panel(191234) -> "";
+panel(191135) -> "191@1";
+panel(191235) -> "";
+panel(191136) -> "191@1";
+panel(191236) -> "";
+panel(191137) -> "191@1";
+panel(191237) -> "";
+panel(191138) -> "191@1";
+panel(191238) -> "";
+panel(191139) -> "191@1";
+panel(191239) -> "";
+panel(191140) -> "191@1";
+panel(191240) -> "";
+panel(191141) -> "191@1";
+panel(191241) -> "";
+panel(191142) -> "191@1";
+panel(191242) -> "";
+panel(191143) -> "191@1";
+panel(191243) -> "";
+panel(191144) -> "191@1";
+panel(191244) -> "";
+panel(191145) -> "191@1";
+panel(191245) -> "";
+panel(191146) -> "191@1";
+panel(191246) -> "";
+panel(191147) -> "191@1";
+panel(191247) -> "";
+panel(191148) -> "191@1";
+panel(191248) -> "";
+panel(191149) -> "191@1";
+panel(191249) -> "";
+panel(191150) -> "191@1";
+panel(191250) -> "";
+panel(191151) -> "191@1";
+panel(191251) -> "";
+panel(191152) -> "191@1";
+panel(191252) -> "";
+panel(191153) -> "191@1";
+panel(191253) -> "";
+panel(191154) -> "191@1";
+panel(191254) -> "";
+panel(191155) -> "191@1";
+panel(191255) -> "";
+panel(191156) -> "191@1";
+panel(191256) -> "";
+panel(191157) -> "191@1";
+panel(191257) -> "";
+panel(191158) -> "191@1";
+panel(191258) -> "";
+panel(191159) -> "191@1";
+panel(191259) -> "";
+panel(191160) -> "191@1";
+panel(191260) -> "";
+panel(191161) -> "191@1";
+panel(191261) -> "";
+panel(191162) -> "191@1";
+panel(191262) -> "";
+panel(191163) -> "191@1";
+panel(191263) -> "";
+panel(191164) -> "191@1";
+panel(191264) -> "";
+panel(191165) -> "191@1";
+panel(191265) -> "";
+panel(191166) -> "191@1";
+panel(191266) -> "";
+panel(191167) -> "191@1";
+panel(191267) -> "";
+panel(191168) -> "191@1";
+panel(191268) -> "";
+panel(191169) -> "191@1";
+panel(191269) -> "";
+panel(191170) -> "191@1";
+panel(191270) -> "";
+panel(191171) -> "191@1";
+panel(191271) -> "";
+panel(191172) -> "191@1";
+panel(191272) -> "";
+panel(191173) -> "191@1";
+panel(191273) -> "";
+panel(191174) -> "191@1";
+panel(191274) -> "";
+panel(191175) -> "191@1";
+panel(191275) -> "";
+panel(191176) -> "191@1";
+panel(191276) -> "";
+panel(191177) -> "191@1";
+panel(191277) -> "";
+panel(191178) -> "191@1";
+panel(191278) -> "";
+panel(191179) -> "191@1";
+panel(191279) -> "";
+panel(_) -> "".
+
+type(2) -> [100201,100202];
+type(3) -> [100301];
+type(5) -> [110036,110038,110040,110043,100014,100030,110034,110035,100023,100028,110037,110045,100508,110033,110041,100021,100026,100027,110032,100506,100510,100016,100020,100022,110031,100503,100509,100013,100017,100003,100018,110039,110044,110046,100501,100015,100024,100025,100004,100019,100029,110042,100502,100504,100505,100507];
+type(6) -> [100601];
+type(7) -> [100701];
+type(101) -> [110101];
+type(102) -> [110204,110205,110206,110201,110202,110203];
+type(103) -> [110303,110304,110305,110306,110301,110302];
+type(104) -> [110403,110404,110405,110406,110407,110401,110402];
+type(105) -> [110501,110502,110503,110504,110505,110506];
+type(201) -> [120101];
+type(202) -> [120201];
+type(203) -> [120301];
+type(204) -> [120401];
+type(205) -> [120501,120502];
+type(301) -> [130101];
+type(302) -> [130201];
+type(303) -> [130301];
+type(304) -> [130401];
+type(305) -> [130501];
+type(306) -> [130601];
+type(501) -> [150101];
+type(502) -> [150201];
+type(503) -> [150301];
+type(504) -> [150401];
+type(505) -> [150501];
+type(506) -> [150601];
+type(507) -> [150701];
+type(601) -> [170100,170101];
+type(701) -> [170111,170122,170152,170160,170170,170171,170121,170130,170131,170140,170141,170150,170112,170120,170162,170172,170110,170132,170142,170151,170161];
+type(710) -> [171100];
+type(720) -> [172000,172001,172002,172003];
+type(740) -> [174000];
+type(741) -> [174100];
+type(742) -> [174200];
+type(743) -> [174300];
+type(744) -> [174400];
+type(745) -> [174201];
+type(750) -> [175000];
+type(760) -> [176000];
+type(761) -> [176001];
+type(770) -> [177000];
+type(771) -> [177100];
+type(772) -> [177200];
+type(773) -> [177300];
+type(774) -> [177400];
+type(775) -> [177500];
+type(776) -> [177600];
+type(777) -> [177700];
+type(781) -> [178100];
+type(782) -> [178200];
+type(783) -> [178300];
+type(805) -> [180501,180502,180503,180504,180505,180506];
+type(804) -> [180401,180402,180403,180404,180405,180406];
+type(802) -> [180205,180206,180201,180202,180203,180204];
+type(1150) -> [100191,100071,100081,100091,100161,100181,100061,100101,100111,100121,100171,100031,100041,100151,100141,100001,100011,110021,100051,100131];
+type(1151) -> [100012,100072,100002,100042,100052,100122,100152,110022,100032,100062,100132,100142,100162,100172,100182,100192,100082,100092,100102,100112];
+type(100) -> [101021,101002,101005,101007,101008,101013,101016,101017,101001,101004,101009,101014,101018,101003,101010,101011,101006,101012,101015,101019,101020];
+type(191) -> [191274,191103,191209,191118,191120,191128,191136,191153,191275,191204,191123,191242,191145,191251,191265,191168,191110,191129,191144,191277,191241,191105,191109,191211,191113,191114,191122,191223,191156,191203,191217,191249,191170,191267,191104,191111,191115,191215,191234,191239,191143,191117,191268,191247,191253,191270,191116,191218,191240,191244,191259,191231,191142,191260,191263,191273,191101,191119,191245,191163,191172,191224,191233,191248,191108,191246,191152,191161,191271,191176,191216,191131,191157,191200,191107,191221,191236,191139,191279,191127,191154,191201,191227,191130,191169,191269,191206,191208,191112,191134,191140,191151,191164,191173,191276,191219,191126,191171,191177,191210,191124,191252,191158,191254,191205,191226,191235,191137,191138,191141,191149,191214,191250,191256,191266,191178,191222,191125,191212,191220,191121,191132,191147,191261,191166,191213,191155,191255,191272,191278,191100,191133,191237,191262,191229,191146,191175,191106,191225,191174,191228,191230,191238,191257,191264,191165,191179,191167,191202,191207,191243,191148,191150,191258,191160,191102,191232,191135,191159,191162];
+type(_) -> [].

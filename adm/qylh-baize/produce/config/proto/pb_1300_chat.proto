@@ -1,0 +1,36 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+
+message m_chat_channel_tos {   //1300001
+	required int32   channel_id = 1;  //频道id
+	required int32   type_id    = 2;     //内容类别(0-文字，1-图片，2-语音)
+	required string  content    = 3;
+	optional fixed64 to_role_id = 4;     //接收的角色id
+	repeated int32   uids       = 5;
+}
+
+message m_chat_channel_toc {   //1300001
+	required int32   channel_id = 1;
+	optional int32   type_id    = 2;
+	required string  content    = 3;
+	optional p_role_base sender = 4;
+	optional fixed64 to_role_id = 5;
+	map<int32, int32> ids       = 6;    //key:uid, val:新唯一id
+	optional int32   show_type  = 7;    //显示类型
+	optional int32   scene      = 8;    //发送者场景
+}
+
+//获取信息
+message m_chat_item_tos {        //1300002
+	required int32 id = 1;
+}
+
+message m_chat_item_toc {        //1300002
+	required p_item item = 1;
+}
+
+//获取离线消息
+message m_chat_off_msg_tos {     //1300003
+
+}

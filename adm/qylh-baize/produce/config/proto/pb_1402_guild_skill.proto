@@ -1,0 +1,20 @@
+syntax = "proto2";
+
+// 技能列表
+message m_guild_skill_skills_tos { //1402001
+
+}
+
+message m_guild_skill_skills_toc { //1402001
+	map<int32, int32> skills = 1; // key=SkillID, val=Level
+}
+
+// 技能升级
+message m_guild_skill_upgrade_tos { //1402002
+	required int32 id = 1; // 技能id
+}
+
+message m_guild_skill_upgrade_toc { //1402002
+	required int32 id    = 1;
+	required int32 level = 2; // 新等级
+}

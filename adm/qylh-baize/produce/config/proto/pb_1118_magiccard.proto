@@ -1,0 +1,103 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+
+//魔法卡卡槽列表
+message m_magic_card_list_tos {  //1118001
+
+}
+
+message m_magic_card_list_toc {  //1118001
+	map<int32, p_item> cards = 1;     //key:位置， value:p_item
+}
+
+
+//装备魔法卡
+message m_magic_card_puton_tos {  //1118002
+	required int32 pos = 1;     //卡槽位置
+	required int32 uid = 2;     //背包唯一id
+}
+
+message m_magic_card_puton_toc {  //1118002
+
+}
+
+//升星
+message m_magic_card_upstar_tos { //1118003
+	required int32 pos = 1;      // #p_item.uid 唯一id
+}
+
+message m_magic_card_upstar_toc { //1118003
+	required int32 pos = 1;
+}
+
+//强化
+message m_magic_card_strength_tos { //1118004
+	required int32 pos = 1;
+}
+
+message m_magic_card_strength_toc { //1118004
+	required int32 pos = 1;
+}
+
+
+//分解
+message m_magic_card_decompose_tos { //1118005
+	repeated int32 uid = 1;          //背包唯一id
+}
+
+message m_magic_card_decompose_toc { //1118005
+
+}
+
+message m_magic_card_suite_toc {      //1118006
+	required int32 suite_id = 1;      //套装id
+}
+
+//魔法卡融合
+message m_magic_card_combine_tos {     //1118007
+	required int32 r_item_id = 1;     //结果魔法卡id
+}
+
+message m_magic_card_combine_toc {     //1118007
+
+}
+
+//获取自动分解设置
+message m_magic_card_get_set_tos {     //1118008
+
+}
+
+message m_magic_card_get_set_toc {     //1118008
+	optional int32 auto = 1;        //是否自动分解（0-否，1-是）
+	repeated int32 color = 2;       //分解颜色品质
+}
+
+//自动分解设置
+message m_magic_card_decompose_set_tos {  //1118009
+	optional int32 auto = 1;        //是否自动分解（0-否，1-是）
+	repeated int32 color = 2;       //分解颜色品质
+}
+
+message m_magic_card_decompose_set_toc {  //1118009
+
+}
+
+//获取背包的属性值
+message m_magic_card_bag_info_tos {  //1118010
+
+}
+
+message m_magic_card_bag_info_toc {  //1118010
+	map<int32, int32> items = 1;       //key=item.id(90010014,90010012,90010013), value=数值
+}
+
+//取下魔法卡
+message m_magic_card_putoff_toc {  //1118011
+	repeated int32 pos = 1;
+}
+
+//更新战力
+message m_magic_power_toc {  //1118012
+	required int32 power = 1;    //战力
+}

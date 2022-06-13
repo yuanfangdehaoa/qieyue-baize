@@ -1,0 +1,10 @@
+---
+
+- name: upgrade server
+  unarchive:
+    copy: no
+    src: "{{ pkg }}"
+    dest: "{{ serv_path }}"
+    owner: root
+    group: root
+    mode: 0744

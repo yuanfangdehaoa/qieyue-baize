@@ -1,0 +1,191 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+message p_egg_record {
+	required fixed64 role_id = 1;
+	required string role_name = 2;
+	required int32 item_id = 3;
+	map <int32, string> pets = 4;      //key:唯一id,val:宠物名字
+	required int32 time = 5;
+}
+
+//获取已助阵宠物
+message m_pet_info_tos{   //1129001
+
+}
+
+message m_pet_info_toc {  //1129001
+	repeated p_item pets = 1;        //宠物列表
+	optional int32 fight_order = 2;  //出战的阶
+}
+
+//设置宠物出战，助阵
+message m_pet_set_tos {  //1129002
+	required int32 uid = 1;       //唯一id cellid
+	required int32 is_fight = 2;  //是否出战(0-否，1-是)
+}
+
+message m_pet_set_toc {  //1129002
+	required int32 order = 1;     //阶
+}
+
+//训练
+message m_pet_strong_tos {  //1129003
+	required int32 order = 1;
+}
+
+message m_pet_strong_toc {  //1129003
+	required int32 order = 1;
+}
+
+//升段
+message m_pet_cross_tos {  //1129004
+	required int32 order = 1;
+}
+
+message m_pet_cross_toc {  //1129004
+	required int32 order = 1;
+}
+
+
+//突破
+message m_pet_evolve_tos { //1129005
+	required int32 order = 1;
+}
+
+message m_pet_evolve_toc { //1129005
+	required int32 order = 1;
+}
+
+//突破回退
+message m_pet_back_tos { //1129006
+	required int32 order = 1;
+}
+
+
+message m_pet_back_toc { //1129006
+	required int32 order = 1;
+}
+
+//合成
+message m_pet_compose_tos {  //1129007
+	required int32 id = 1;      //合成的id
+	repeated int32 uids = 2;    //p_item唯一id列表
+}
+
+message m_pet_compose_toc {  //1129007
+	required int32 id = 1;      //合成的id
+	required bool success = 2;  //合成结果
+}
+
+//分解
+message m_pet_decompose_tos {  //1129008
+	repeated int32 uids = 1;   //p_item唯一id列表
+}
+
+message m_pet_decompose_toc {  //1129008
+
+}
+
+//开蛋记录
+message m_pet_egg_records_tos {  //1129009
+
+}
+
+message m_pet_egg_records_toc {  //1129009
+	repeated p_egg_record records = 1;
+}
+
+message m_pet_show_toc {  //1129010
+	required p_item pet = 1;    //显示宠物信息
+}
+
+///////////////////////////////////////
+//           宠物装备
+///////////////////////////////////////
+// 列表
+message m_pet_equips_tos { //1129011
+	required int32  pet_id = 1;
+}
+
+message m_pet_equips_toc { //1129011
+	required int32  pet_id = 1;
+	repeated p_item equips = 2;
+}
+
+// 穿戴
+message m_pet_equip_puton_tos { //1129012
+	required int32 pet_id   = 1;
+	required int32 equip_id = 2;
+}
+
+message m_pet_equip_puton_toc { //1129012
+	required int32  pet_id = 1;
+	required int32  slot   = 2; //部位
+	required p_item equip  = 3;
+}
+
+// 卸下
+message m_pet_equip_putoff_tos { //1129013
+	required int32 pet_id = 1;
+	required int32 slot   = 2; //部位
+}
+
+message m_pet_equip_putoff_toc { //1129013
+	required int32 pet_id = 1;
+	required int32 slot   = 2; //部位
+}
+
+// 强化
+message m_pet_equip_reinf_tos { //1129014
+	required int32 pet_id = 1;
+	required int32 slot   = 2; //部位
+}
+
+message m_pet_equip_reinf_toc { //1129014
+	required int32  pet_id = 1;
+	required int32  slot   = 2; //部位
+	required p_item equip  = 3;
+}
+
+// 升阶
+message m_pet_equip_uporder_tos { //1129015
+	required int32 pet_id = 1;
+	required int32 slot   = 2; //部位
+}
+
+message m_pet_equip_uporder_toc { //1129015
+	required int32  pet_id = 1;
+	required int32  slot   = 2; //部位
+	required p_item equip  = 3;
+}
+
+// 分解
+message m_pet_equip_smelt_tos { //1129016
+	repeated int32 item_uid = 1;
+}
+
+message m_pet_equip_smelt_toc { //1129016
+	map<int32, int32> refund = 1; // 返还
+}
+
+// 拆解
+message m_pet_equip_split_tos { //1129017
+	required int32 item_uid = 1;
+}
+
+message m_pet_equip_split_toc { //1129017
+	required p_item   equip  = 1; // 新装备
+	map<int32, int32> refund = 2; // 返还
+}
+
+// 继承
+message m_pet_equip_inherit_tos { //1129018
+	required int32 src_item_uid = 1;
+	required int32 dst_item_uid = 2;
+}
+
+message m_pet_equip_inherit_toc { //1129018
+	required p_item src_item = 1;
+	required p_item dst_item = 2;
+}

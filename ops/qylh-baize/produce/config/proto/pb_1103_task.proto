@@ -1,0 +1,72 @@
+syntax = "proto2";
+
+// 任务列表
+message m_task_list_tos { //1103001
+
+}
+
+message m_task_list_toc { //1103001
+    repeated p_task tasks = 1;
+    required int32  next  = 2; // 下一个主线任务id
+}
+
+// 授受任务
+message m_task_accept_tos { //1103002
+    required int32 task_id = 1;
+}
+
+message m_task_accept_toc { //1103002
+	required p_task task = 1;
+}
+
+// 提交任务
+message m_task_submit_tos { //1103003
+    required int32 task_id = 1;
+}
+
+message m_task_submit_toc { //1103003
+    required int32 task_id = 1;
+}
+
+// 快速完成
+message m_task_quick_tos { //1103004
+    required int32 task_id = 1;
+}
+
+message m_task_quick_toc { //1103004
+    required int32 task_id = 1;
+}
+
+// 更新任务
+message m_task_update_toc { //1103005
+    repeated p_task add  = 1; // 新增的任务
+    repeated p_task chg  = 2; // 更新的任务
+    repeated int32  del  = 3; // 删除的任务
+    optional int32  next = 4; // 下一个主线任务id
+}
+
+// 章节奖励
+message m_task_reward_tos { //1103006
+    required int32 chapter = 1; // 章节id
+}
+
+message m_task_reward_toc { //1103006
+}
+
+// 任务
+message p_task {
+    required int32       id    = 1;
+    required int32       prog  = 2; // 进度
+    required int32       count = 3; // 目标计数器
+    required int32       state = 4; // 状态
+    required int32       etime = 5; // 限时任务结束时间
+    repeated p_task_goal goal  = 6; // 任务目标
+}
+
+message p_task_goal {
+    required int32 event   = 1; // 事件
+    required int32 target  = 2; // 目标
+    required int32 amount  = 3; // 数量
+    required int32 scene   = 4; // 场景id
+    required bool  findway = 5; // 是否寻路
+}

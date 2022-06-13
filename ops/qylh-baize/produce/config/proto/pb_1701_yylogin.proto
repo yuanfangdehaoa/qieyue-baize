@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+//奖励信息
+message m_yylogin_info_tos { //1701001
+}
+
+message m_yylogin_info_toc { //1701001
+    required int32          days = 1; //累计登录天数
+    repeated int32          list = 2; //已领奖的天数
+}
+
+//领取奖励
+message m_yylogin_reward_tos { //1701002
+    required int32          day = 1; //登录天数
+}
+
+message m_yylogin_reward_toc { //1701002
+    required int32          day = 1; //领取成功的天数
+}

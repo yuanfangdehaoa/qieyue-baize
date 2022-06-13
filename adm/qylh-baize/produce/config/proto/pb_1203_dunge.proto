@@ -1,0 +1,286 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 副本面板
+message m_dunge_panel_tos { //1203001
+	required int32 stype = 1; // 副本类型(即场景子类型)
+}
+
+message m_dunge_panel_toc { //1203001
+	required int32     stype = 1; // 副本类型
+	required int32     id    = 2; // 副本id
+	map<string, int32> info  = 3; // 副本信息
+	map<int32, int32>  level = 4; // 关卡信息
+	optional bool      clear = 5; // 是否通关
+}
+// 副本信息
+// cd结束时间 enter_cd
+// 剩余次数   rest_times
+// 总次数     max_times
+// 已购买次数 buy_times
+// 当前层数   cur_floor
+// 转盘次数   loto_times
+// 每日奖励   daily_reward
+
+// 关卡信息
+// 金币副本 key=Floor, val=Star
+
+
+// 进入副本
+message m_dunge_enter_tos { //1203002
+	optional int32 stype 	= 1; // 副本子类型
+	optional int32 id    	= 2; // 副本id
+	optional int32 floor 	= 3; // 第几层
+	optional bool  next  	= 4; // 是否进入下一层
+	optional int32 merge 	= 5[default=1]; // 合并次数
+	map<string, int32> args = 6; //各玩法的参数
+}
+//task_id  通过任务进入
+
+message m_dunge_enter_toc { //1203002
+	required int32 stype = 1; // 副本类型
+	optional int32 ptime = 2; // 准备结束时间
+	optional int32 etime = 3; // 副本结束时间
+	optional int32 id    = 4; // 副本id
+	optional int32 floor = 5; // 第几层
+}
+
+// 副本信息
+message m_dunge_info_tos { //1203004
+}
+
+message m_dunge_info_toc { //1203004
+	required int32     stype = 1; // 副本子类型
+	required int32     id    = 2; // 副本id
+	map<string, int32> info  = 3;
+	map<int32, int32>  count = 4; // 怪物数量统计
+	map<int32, int32>  drops = 5; // 掉落统计
+}
+// 当前第几波         cur_wave
+// 最大波数           max_wave
+// 剩余怪物数量       rest_creep
+// 逃跑怪物数量       escape_creep
+// 副本准备结束时间   prep_time
+// 副本结束时间       end_time
+// 鼓舞伤害           inspire
+// 药水经验加成       exp_elixir
+// 组队经验加成       exp_team
+// 活动经验加成       exp_activity
+// 世界等级加成       world_level
+// 经验获得          exp_gain
+// 元宝鼓舞剩余次数   gold_inspire
+// 金币鼓舞剩余次数   coin_inspire
+// 自动召唤BOSS      auto_summon
+// 是否召唤BOSS 		has_summon
+// 最佳时间			best_record
+// 累计进入次数		enter_times
+
+
+// 副本结算
+message m_dunge_over_tos { //1203005
+}
+
+message m_dunge_over_toc { //1203005
+	required int32     stype  = 1; // 副本子类型
+	required int32     id     = 2; // 副本id
+	required bool      clear  = 3; // 是否通关
+	map<string, int32> stat   = 4; // 副本统计
+	map<int32, int32>  reward = 5; // 通关奖励 key=ItemID, val=Num
+	map<int32, int32>  count  = 6; // 怪物数量统计
+}
+
+// 副本鼓舞
+message m_dunge_inspire_tos { //1203006
+	required int32 type = 1; // 鼓舞类型 1=金币;2=元宝
+}
+
+
+message m_dunge_inspire_toc { //1203006
+	required int32 type = 1; // 鼓舞类型 1=金币;2=元宝
+}
+
+
+// 购买进入次数
+message m_dunge_buytimes_tos { //1203007
+	required int32 stype = 1; // 副本子类型
+}
+
+message m_dunge_buytimes_toc { //1203007
+	required int32 stype = 1; // 副本子类型
+}
+
+// 清除进入CD
+message m_dunge_clearcd_tos { //1203008
+	required int32 stype = 1; // 副本子类型
+}
+
+message m_dunge_clearcd_toc { //1203008
+	required int32 stype = 1; // 副本子类型
+}
+
+// 扫荡
+message m_dunge_sweep_tos { //1203009
+	required int32   stype = 1; // 副本子类型
+	optional int32   floor = 2; // 第几层
+	map<string, int32> args = 3; //参数
+}
+// 召唤BOSS数量 boss
+
+message m_dunge_sweep_toc { //1203009
+	required int32    stype  = 1; // 副本子类型
+	required int32    id     = 2; // 副本id
+	optional int32    floor  = 3; // 第几层
+	map<int32, int32> reward = 4; // key=ItemID, val=Num
+}
+
+// 领取奖励
+message m_dunge_fetch_tos { //1203010
+	required int32 stype = 1; // 副本子类型
+	required int32 type  = 2; // 奖励类型 1=每日奖励
+}
+
+message m_dunge_fetch_toc { //1203010
+	required int32    stype  = 1; // 副本子类型
+	required int32    type   = 2; // 奖励类型
+	map<int32, int32> reward = 3; // 奖励
+}
+
+// 抽奖信息
+message m_dunge_lotoinfo_tos { //1203011
+	required int32 stype = 1; // 副本子类型
+}
+
+message m_dunge_lotoinfo_toc { //1203011
+	required int32 stype      = 1; // 副本子类型
+	required int32 loto_times = 2; // 可用抽奖次数
+	optional int32 pool       = 3; // 当前奖池id
+	repeated int32 hits       = 4; // 已抽中哪些 [奖励id]
+}
+
+// 抽奖
+message m_dunge_loto_tos { //1203012
+	required int32 stype = 1; // 副本子类型
+}
+
+message m_dunge_loto_toc { //1203012
+	required int32    stype = 1; // 副本子类型
+	required int32    hit   = 2; // 抽中哪个奖励id
+}
+
+// 进阶副本
+message m_dunge_mount_panel_tos { //1203013
+
+}
+
+message m_dunge_mount_panel_toc { //1203013
+	map<int32, int32> enter = 1; // 进入次数 key=DungeID, val=EnterTimes
+	map<int32, int32> star  = 2; // 星数评分 key=DungeID, val=Star
+	repeated int32    fetch = 3; // 已领取奖励列表
+}
+
+// 副本答题
+message m_dunge_question_toc { //1203014
+	required int32 	id    = 1; // 题目id
+}
+
+message m_dunge_question_answer_tos { //1203015
+	required int32 stype  = 1; // 副本子类型
+	required int32 answer = 2; // 答案
+}
+
+message m_dunge_question_answer_toc { //1203015
+	required int32 stype  = 1; // 副本子类型
+	required int32 answer = 2;   //答案
+}
+
+//请求队友购买次数
+message m_dunge_buy_times_ask_tos { //1203016
+	required int32 stype = 1;
+}
+
+message m_dunge_buy_times_ask_toc { //1203016
+	required int32 		stype 	 = 1;
+	required string 	ask_name = 2; //请求的玩家名字
+}
+
+// 圣痕副本
+message m_dunge_soul_panel_tos { //1203017
+
+}
+
+message m_dunge_soul_panel_toc { //1203017
+	required int32     stype   = 1; // 副本类型
+	required int32     id      = 2; // 副本id
+	map<string, int32> info    = 3; // 副本信息
+	map<int32, int32>  slots   = 4; // 部署的神灵 <位置，神灵ID>
+	repeated int32 	   options = 5; // 可选的神灵
+}
+
+// 神灵选择
+message m_dunge_soul_select_tos { //1203018
+	required int32 slot     = 1;
+	required int32 morph_id = 2; // 神灵ID 0:表示下阵
+}
+
+message m_dunge_soul_select_toc { //1203018
+	map<int32, int32>  slots   = 1; // 部署的神灵 <位置，神灵ID>
+}
+
+// 开始
+message m_dunge_soul_start_tos { //1203019
+
+}
+
+message m_dunge_soul_start_toc { //1203019
+
+}
+
+// 召唤boss
+message m_dunge_soul_summon_tos { //1203020
+	required int32 		auto_summon = 1; //自动召唤 0：不自动，1：自动
+}
+
+message m_dunge_soul_summon_toc { //1203020
+
+}
+
+message m_dunge_start_tos { //1203021
+
+}
+
+message m_dunge_start_toc { //1203021
+
+}
+
+// 匹配
+message m_dunge_match_start_tos { //1203022
+	required int32 stype   = 1; // 副本类型(即场景子类型)
+	required int32 task_id = 2;
+}
+
+message m_dunge_match_start_toc { //1203022
+	required int32 stype   = 1; 
+	required int32 task_id = 2;
+}
+
+// 取消匹配
+message m_dunge_match_stop_tos { //1203023
+	required int32 stype = 1; // 副本类型(即场景子类型)
+}
+
+message m_dunge_match_stop_toc { //1203023
+	required int32 stype = 1; 
+}
+
+// 匹配结果
+message m_dunge_match_succ_toc { //1203024
+	repeated p_role_base roles = 1; //匹配到的玩家
+}
+
+// 上报玩家结果
+message m_dunge_race_result_tos { //1203025
+	required bool		is_finish = 1; //是否完成比赛
+	required int32 		rank      = 2;
+	required int32 		time      = 3; //花费的时间（秒）
+}
+

@@ -1,0 +1,22353 @@
+% Automatically generated, do not edit
+-module(cfg_equip_combine).
+
+-compile([export_all]).
+-compile(nowarn_export_all).
+
+-include("equip.hrl").
+
+find(100) -> #cfg_equip_combine{
+	id          = 100,
+	title       = "兽角",
+	open_level  = 350,
+	gain        = [{31063,1}],
+	cost        = [],
+	other_cost  = [31062,32062,33062,34062,35062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(101) -> #cfg_equip_combine{
+	id          = 101,
+	title       = "眼睛",
+	open_level  = 350,
+	gain        = [{32063,1}],
+	cost        = [],
+	other_cost  = [31062,32062,33062,34062,35062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(102) -> #cfg_equip_combine{
+	id          = 102,
+	title       = "獠牙",
+	open_level  = 350,
+	gain        = [{33063,1}],
+	cost        = [],
+	other_cost  = [31062,32062,33062,34062,35062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(103) -> #cfg_equip_combine{
+	id          = 103,
+	title       = "利爪",
+	open_level  = 350,
+	gain        = [{34063,1}],
+	cost        = [],
+	other_cost  = [31062,32062,33062,34062,35062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(104) -> #cfg_equip_combine{
+	id          = 104,
+	title       = "鳞甲",
+	open_level  = 350,
+	gain        = [{35063,1}],
+	cost        = [],
+	other_cost  = [31062,32062,33062,34062,35062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(105) -> #cfg_equip_combine{
+	id          = 105,
+	title       = "兽角",
+	open_level  = 350,
+	gain        = [{31073,1}],
+	cost        = [{30010,5}],
+	other_cost  = [31063,32063,33063,34063,35063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(106) -> #cfg_equip_combine{
+	id          = 106,
+	title       = "眼睛",
+	open_level  = 350,
+	gain        = [{32073,1}],
+	cost        = [{30010,5}],
+	other_cost  = [31063,32063,33063,34063,35063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(107) -> #cfg_equip_combine{
+	id          = 107,
+	title       = "獠牙",
+	open_level  = 350,
+	gain        = [{33073,1}],
+	cost        = [{30010,5}],
+	other_cost  = [31063,32063,33063,34063,35063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(108) -> #cfg_equip_combine{
+	id          = 108,
+	title       = "利爪",
+	open_level  = 350,
+	gain        = [{34073,1}],
+	cost        = [{30010,5}],
+	other_cost  = [31063,32063,33063,34063,35063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(109) -> #cfg_equip_combine{
+	id          = 109,
+	title       = "鳞甲",
+	open_level  = 350,
+	gain        = [{35073,1}],
+	cost        = [{30010,5}],
+	other_cost  = [31063,32063,33063,34063,35063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(200) -> #cfg_equip_combine{
+	id          = 200,
+	title       = "炙炎之心",
+	open_level  = 450,
+	gain        = [{301063,1}],
+	cost        = [],
+	other_cost  = [301062,302062,303062,304062,305062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(201) -> #cfg_equip_combine{
+	id          = 201,
+	title       = "源岩之心",
+	open_level  = 450,
+	gain        = [{302063,1}],
+	cost        = [],
+	other_cost  = [301062,302062,303062,304062,305062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(202) -> #cfg_equip_combine{
+	id          = 202,
+	title       = "碧涛之心",
+	open_level  = 450,
+	gain        = [{303063,1}],
+	cost        = [],
+	other_cost  = [301062,302062,303062,304062,305062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(203) -> #cfg_equip_combine{
+	id          = 203,
+	title       = "邃紫之心",
+	open_level  = 450,
+	gain        = [{304063,1}],
+	cost        = [],
+	other_cost  = [301062,302062,303062,304062,305062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(204) -> #cfg_equip_combine{
+	id          = 204,
+	title       = "源玉之心",
+	open_level  = 450,
+	gain        = [{305063,1}],
+	cost        = [],
+	other_cost  = [301062,302062,303062,304062,305062],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(205) -> #cfg_equip_combine{
+	id          = 205,
+	title       = "炙炎之心",
+	open_level  = 450,
+	gain        = [{301073,1}],
+	cost        = [{300004,5}],
+	other_cost  = [301063,302063,303063,304063,305063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(206) -> #cfg_equip_combine{
+	id          = 206,
+	title       = "源岩之心",
+	open_level  = 450,
+	gain        = [{302073,1}],
+	cost        = [{300004,5}],
+	other_cost  = [301063,302063,303063,304063,305063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(207) -> #cfg_equip_combine{
+	id          = 207,
+	title       = "碧涛之心",
+	open_level  = 450,
+	gain        = [{303073,1}],
+	cost        = [{300004,5}],
+	other_cost  = [301063,302063,303063,304063,305063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(208) -> #cfg_equip_combine{
+	id          = 208,
+	title       = "邃紫之心",
+	open_level  = 450,
+	gain        = [{304073,1}],
+	cost        = [{300004,5}],
+	other_cost  = [301063,302063,303063,304063,305063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(209) -> #cfg_equip_combine{
+	id          = 209,
+	title       = "源玉之心",
+	open_level  = 450,
+	gain        = [{305073,1}],
+	cost        = [{300004,5}],
+	other_cost  = [301063,302063,303063,304063,305063],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040126) -> #cfg_equip_combine{
+	id          = 11040126,
+	title       = "逐风男剑",
+	open_level  = 130,
+	gain        = [{11040126,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040626) -> #cfg_equip_combine{
+	id          = 11040626,
+	title       = "逐风头盔",
+	open_level  = 130,
+	gain        = [{11040626,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040726) -> #cfg_equip_combine{
+	id          = 11040726,
+	title       = "逐风胸甲",
+	open_level  = 130,
+	gain        = [{11040726,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040826) -> #cfg_equip_combine{
+	id          = 11040826,
+	title       = "逐风腿甲",
+	open_level  = 130,
+	gain        = [{11040826,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040926) -> #cfg_equip_combine{
+	id          = 11040926,
+	title       = "逐风男腕",
+	open_level  = 130,
+	gain        = [{11040926,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11041026) -> #cfg_equip_combine{
+	id          = 11041026,
+	title       = "逐风男鞋",
+	open_level  = 130,
+	gain        = [{11041026,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040226) -> #cfg_equip_combine{
+	id          = 11040226,
+	title       = "逐风匕首",
+	open_level  = 130,
+	gain        = [{11040226,1}],
+	cost        = [],
+	other_cost  = [11040125,11040625,11040725,11040825,11040925,11041025,11040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040136) -> #cfg_equip_combine{
+	id          = 11040136,
+	title       = "逐风男剑",
+	open_level  = 130,
+	gain        = [{11040136,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040636) -> #cfg_equip_combine{
+	id          = 11040636,
+	title       = "逐风头盔",
+	open_level  = 130,
+	gain        = [{11040636,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040736) -> #cfg_equip_combine{
+	id          = 11040736,
+	title       = "逐风胸甲",
+	open_level  = 130,
+	gain        = [{11040736,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040836) -> #cfg_equip_combine{
+	id          = 11040836,
+	title       = "逐风腿甲",
+	open_level  = 130,
+	gain        = [{11040836,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040936) -> #cfg_equip_combine{
+	id          = 11040936,
+	title       = "逐风男腕",
+	open_level  = 130,
+	gain        = [{11040936,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11041036) -> #cfg_equip_combine{
+	id          = 11041036,
+	title       = "逐风男鞋",
+	open_level  = 130,
+	gain        = [{11041036,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040236) -> #cfg_equip_combine{
+	id          = 11040236,
+	title       = "逐风匕首",
+	open_level  = 130,
+	gain        = [{11040236,1}],
+	cost        = [],
+	other_cost  = [11040126,11040626,11040726,11040826,11040926,11041026,11040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040126) -> #cfg_equip_combine{
+	id          = 12040126,
+	title       = "逐风女剑",
+	open_level  = 130,
+	gain        = [{12040126,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040626) -> #cfg_equip_combine{
+	id          = 12040626,
+	title       = "逐风头巾",
+	open_level  = 130,
+	gain        = [{12040626,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040726) -> #cfg_equip_combine{
+	id          = 12040726,
+	title       = "逐风战袍",
+	open_level  = 130,
+	gain        = [{12040726,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040826) -> #cfg_equip_combine{
+	id          = 12040826,
+	title       = "逐风裙甲",
+	open_level  = 130,
+	gain        = [{12040826,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040926) -> #cfg_equip_combine{
+	id          = 12040926,
+	title       = "逐风腕袖",
+	open_level  = 130,
+	gain        = [{12040926,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12041026) -> #cfg_equip_combine{
+	id          = 12041026,
+	title       = "逐风女靴",
+	open_level  = 130,
+	gain        = [{12041026,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040226) -> #cfg_equip_combine{
+	id          = 12040226,
+	title       = "逐风袖剑",
+	open_level  = 130,
+	gain        = [{12040226,1}],
+	cost        = [],
+	other_cost  = [12040125,12040625,12040725,12040825,12040925,12041025,12040225],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040136) -> #cfg_equip_combine{
+	id          = 12040136,
+	title       = "逐风女剑",
+	open_level  = 130,
+	gain        = [{12040136,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040636) -> #cfg_equip_combine{
+	id          = 12040636,
+	title       = "逐风头巾",
+	open_level  = 130,
+	gain        = [{12040636,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040736) -> #cfg_equip_combine{
+	id          = 12040736,
+	title       = "逐风战袍",
+	open_level  = 130,
+	gain        = [{12040736,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040836) -> #cfg_equip_combine{
+	id          = 12040836,
+	title       = "逐风裙甲",
+	open_level  = 130,
+	gain        = [{12040836,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040936) -> #cfg_equip_combine{
+	id          = 12040936,
+	title       = "逐风腕袖",
+	open_level  = 130,
+	gain        = [{12040936,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12041036) -> #cfg_equip_combine{
+	id          = 12041036,
+	title       = "逐风女靴",
+	open_level  = 130,
+	gain        = [{12041036,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12040236) -> #cfg_equip_combine{
+	id          = 12040236,
+	title       = "逐风袖剑",
+	open_level  = 130,
+	gain        = [{12040236,1}],
+	cost        = [],
+	other_cost  = [12040126,12040626,12040726,12040826,12040926,12041026,12040226],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040326) -> #cfg_equip_combine{
+	id          = 11040326,
+	title       = "逐风项链",
+	open_level  = 130,
+	gain        = [{11040326,1}],
+	cost        = [],
+	other_cost  = [11040325],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11040336) -> #cfg_equip_combine{
+	id          = 11040336,
+	title       = "逐风项链",
+	open_level  = 130,
+	gain        = [{11040336,1}],
+	cost        = [],
+	other_cost  = [11040326],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11050126) -> #cfg_equip_combine{
+	id          = 11050126,
+	title       = "破魔男剑",
+	open_level  = 160,
+	gain        = [{11050126,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11050626) -> #cfg_equip_combine{
+	id          = 11050626,
+	title       = "破魔头盔",
+	open_level  = 160,
+	gain        = [{11050626,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11050726) -> #cfg_equip_combine{
+	id          = 11050726,
+	title       = "破魔胸甲",
+	open_level  = 160,
+	gain        = [{11050726,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11050826) -> #cfg_equip_combine{
+	id          = 11050826,
+	title       = "破魔腿甲",
+	open_level  = 160,
+	gain        = [{11050826,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11050926) -> #cfg_equip_combine{
+	id          = 11050926,
+	title       = "破魔男腕",
+	open_level  = 160,
+	gain        = [{11050926,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11051026) -> #cfg_equip_combine{
+	id          = 11051026,
+	title       = "破魔男鞋",
+	open_level  = 160,
+	gain        = [{11051026,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11050226) -> #cfg_equip_combine{
+	id          = 11050226,
+	title       = "破魔匕首",
+	open_level  = 160,
+	gain        = [{11050226,1}],
+	cost        = [],
+	other_cost  = [11050125,11050625,11050725,11050825,11050925,11051025,11050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(11060126) -> #cfg_equip_combine{
+	id          = 11060126,
+	title       = "炎蟒男剑",
+	open_level  = 220,
+	gain        = [{11060126,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11060626) -> #cfg_equip_combine{
+	id          = 11060626,
+	title       = "炎蟒头盔",
+	open_level  = 220,
+	gain        = [{11060626,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11060726) -> #cfg_equip_combine{
+	id          = 11060726,
+	title       = "炎蟒胸甲",
+	open_level  = 220,
+	gain        = [{11060726,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11060826) -> #cfg_equip_combine{
+	id          = 11060826,
+	title       = "炎蟒腿甲",
+	open_level  = 220,
+	gain        = [{11060826,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11060926) -> #cfg_equip_combine{
+	id          = 11060926,
+	title       = "炎蟒男腕",
+	open_level  = 220,
+	gain        = [{11060926,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11061026) -> #cfg_equip_combine{
+	id          = 11061026,
+	title       = "炎蟒男鞋",
+	open_level  = 220,
+	gain        = [{11061026,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11060226) -> #cfg_equip_combine{
+	id          = 11060226,
+	title       = "炎蟒匕首",
+	open_level  = 220,
+	gain        = [{11060226,1}],
+	cost        = [],
+	other_cost  = [11060125,11060625,11060725,11060825,11060925,11061025,11060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(11070126) -> #cfg_equip_combine{
+	id          = 11070126,
+	title       = "流光男剑",
+	open_level  = 240,
+	gain        = [{11070126,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11070626) -> #cfg_equip_combine{
+	id          = 11070626,
+	title       = "流光头盔",
+	open_level  = 240,
+	gain        = [{11070626,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11070726) -> #cfg_equip_combine{
+	id          = 11070726,
+	title       = "流光胸甲",
+	open_level  = 240,
+	gain        = [{11070726,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11070826) -> #cfg_equip_combine{
+	id          = 11070826,
+	title       = "流光腿甲",
+	open_level  = 240,
+	gain        = [{11070826,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11070926) -> #cfg_equip_combine{
+	id          = 11070926,
+	title       = "流光男腕",
+	open_level  = 240,
+	gain        = [{11070926,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11071026) -> #cfg_equip_combine{
+	id          = 11071026,
+	title       = "流光男鞋",
+	open_level  = 240,
+	gain        = [{11071026,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11070226) -> #cfg_equip_combine{
+	id          = 11070226,
+	title       = "流光匕首",
+	open_level  = 240,
+	gain        = [{11070226,1}],
+	cost        = [],
+	other_cost  = [11070125,11070625,11070725,11070825,11070925,11071025,11070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(11080126) -> #cfg_equip_combine{
+	id          = 11080126,
+	title       = "远古男剑",
+	open_level  = 260,
+	gain        = [{11080126,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11080626) -> #cfg_equip_combine{
+	id          = 11080626,
+	title       = "远古头盔",
+	open_level  = 260,
+	gain        = [{11080626,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11080726) -> #cfg_equip_combine{
+	id          = 11080726,
+	title       = "远古胸甲",
+	open_level  = 260,
+	gain        = [{11080726,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11080826) -> #cfg_equip_combine{
+	id          = 11080826,
+	title       = "远古腿甲",
+	open_level  = 260,
+	gain        = [{11080826,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11080926) -> #cfg_equip_combine{
+	id          = 11080926,
+	title       = "远古男腕",
+	open_level  = 260,
+	gain        = [{11080926,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11081026) -> #cfg_equip_combine{
+	id          = 11081026,
+	title       = "远古男鞋",
+	open_level  = 260,
+	gain        = [{11081026,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11080226) -> #cfg_equip_combine{
+	id          = 11080226,
+	title       = "远古匕首",
+	open_level  = 260,
+	gain        = [{11080226,1}],
+	cost        = [],
+	other_cost  = [11080125,11080625,11080725,11080825,11080925,11081025,11080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(11090126) -> #cfg_equip_combine{
+	id          = 11090126,
+	title       = "幽魂男剑",
+	open_level  = 300,
+	gain        = [{11090126,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11090626) -> #cfg_equip_combine{
+	id          = 11090626,
+	title       = "幽魂头盔",
+	open_level  = 300,
+	gain        = [{11090626,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11090726) -> #cfg_equip_combine{
+	id          = 11090726,
+	title       = "幽魂胸甲",
+	open_level  = 300,
+	gain        = [{11090726,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11090826) -> #cfg_equip_combine{
+	id          = 11090826,
+	title       = "幽魂腿甲",
+	open_level  = 300,
+	gain        = [{11090826,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11090926) -> #cfg_equip_combine{
+	id          = 11090926,
+	title       = "幽魂男腕",
+	open_level  = 300,
+	gain        = [{11090926,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11091026) -> #cfg_equip_combine{
+	id          = 11091026,
+	title       = "幽魂男鞋",
+	open_level  = 300,
+	gain        = [{11091026,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11090226) -> #cfg_equip_combine{
+	id          = 11090226,
+	title       = "幽魂匕首",
+	open_level  = 300,
+	gain        = [{11090226,1}],
+	cost        = [],
+	other_cost  = [11090125,11090625,11090725,11090825,11090925,11091025,11090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(11100126) -> #cfg_equip_combine{
+	id          = 11100126,
+	title       = "天劫男剑",
+	open_level  = 370,
+	gain        = [{11100126,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11100626) -> #cfg_equip_combine{
+	id          = 11100626,
+	title       = "天劫头盔",
+	open_level  = 370,
+	gain        = [{11100626,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11100726) -> #cfg_equip_combine{
+	id          = 11100726,
+	title       = "天劫胸甲",
+	open_level  = 370,
+	gain        = [{11100726,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11100826) -> #cfg_equip_combine{
+	id          = 11100826,
+	title       = "天劫腿甲",
+	open_level  = 370,
+	gain        = [{11100826,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11100926) -> #cfg_equip_combine{
+	id          = 11100926,
+	title       = "天劫男腕",
+	open_level  = 370,
+	gain        = [{11100926,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11101026) -> #cfg_equip_combine{
+	id          = 11101026,
+	title       = "天劫男鞋",
+	open_level  = 370,
+	gain        = [{11101026,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11100226) -> #cfg_equip_combine{
+	id          = 11100226,
+	title       = "天劫匕首",
+	open_level  = 370,
+	gain        = [{11100226,1}],
+	cost        = [],
+	other_cost  = [11100125,11100625,11100725,11100825,11100925,11101025,11100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(11110126) -> #cfg_equip_combine{
+	id          = 11110126,
+	title       = "天御男剑",
+	open_level  = 400,
+	gain        = [{11110126,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11110626) -> #cfg_equip_combine{
+	id          = 11110626,
+	title       = "天御头盔",
+	open_level  = 400,
+	gain        = [{11110626,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11110726) -> #cfg_equip_combine{
+	id          = 11110726,
+	title       = "天御胸甲",
+	open_level  = 400,
+	gain        = [{11110726,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11110826) -> #cfg_equip_combine{
+	id          = 11110826,
+	title       = "天御腿甲",
+	open_level  = 400,
+	gain        = [{11110826,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11110926) -> #cfg_equip_combine{
+	id          = 11110926,
+	title       = "天御男腕",
+	open_level  = 400,
+	gain        = [{11110926,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11111026) -> #cfg_equip_combine{
+	id          = 11111026,
+	title       = "天御男鞋",
+	open_level  = 400,
+	gain        = [{11111026,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11110226) -> #cfg_equip_combine{
+	id          = 11110226,
+	title       = "天御匕首",
+	open_level  = 400,
+	gain        = [{11110226,1}],
+	cost        = [],
+	other_cost  = [11110125,11110625,11110725,11110825,11110925,11111025,11110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(11120126) -> #cfg_equip_combine{
+	id          = 11120126,
+	title       = "万世荣光男剑",
+	open_level  = 500,
+	gain        = [{11120126,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11120626) -> #cfg_equip_combine{
+	id          = 11120626,
+	title       = "万世荣光头盔",
+	open_level  = 500,
+	gain        = [{11120626,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11120726) -> #cfg_equip_combine{
+	id          = 11120726,
+	title       = "万世荣光胸甲",
+	open_level  = 500,
+	gain        = [{11120726,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11120826) -> #cfg_equip_combine{
+	id          = 11120826,
+	title       = "万世荣光腿甲",
+	open_level  = 500,
+	gain        = [{11120826,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11120926) -> #cfg_equip_combine{
+	id          = 11120926,
+	title       = "万世荣光男腕",
+	open_level  = 500,
+	gain        = [{11120926,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11121026) -> #cfg_equip_combine{
+	id          = 11121026,
+	title       = "万世荣光男鞋",
+	open_level  = 500,
+	gain        = [{11121026,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11120226) -> #cfg_equip_combine{
+	id          = 11120226,
+	title       = "万世荣光匕首",
+	open_level  = 500,
+	gain        = [{11120226,1}],
+	cost        = [],
+	other_cost  = [11120125,11120625,11120725,11120825,11120925,11121025,11120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(11130126) -> #cfg_equip_combine{
+	id          = 11130126,
+	title       = "超大陆男剑",
+	open_level  = 550,
+	gain        = [{11130126,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11130626) -> #cfg_equip_combine{
+	id          = 11130626,
+	title       = "超大陆头盔",
+	open_level  = 550,
+	gain        = [{11130626,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11130726) -> #cfg_equip_combine{
+	id          = 11130726,
+	title       = "超大陆胸甲",
+	open_level  = 550,
+	gain        = [{11130726,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11130826) -> #cfg_equip_combine{
+	id          = 11130826,
+	title       = "超大陆腿甲",
+	open_level  = 550,
+	gain        = [{11130826,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11130926) -> #cfg_equip_combine{
+	id          = 11130926,
+	title       = "超大陆男腕",
+	open_level  = 550,
+	gain        = [{11130926,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11131026) -> #cfg_equip_combine{
+	id          = 11131026,
+	title       = "超大陆男鞋",
+	open_level  = 550,
+	gain        = [{11131026,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11130226) -> #cfg_equip_combine{
+	id          = 11130226,
+	title       = "超大陆匕首",
+	open_level  = 550,
+	gain        = [{11130226,1}],
+	cost        = [],
+	other_cost  = [11130125,11130625,11130725,11130825,11130925,11131025,11130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(11140126) -> #cfg_equip_combine{
+	id          = 11140126,
+	title       = "超时空男剑",
+	open_level  = 600,
+	gain        = [{11140126,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11140626) -> #cfg_equip_combine{
+	id          = 11140626,
+	title       = "超时空头盔",
+	open_level  = 600,
+	gain        = [{11140626,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11140726) -> #cfg_equip_combine{
+	id          = 11140726,
+	title       = "超时空胸甲",
+	open_level  = 600,
+	gain        = [{11140726,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11140826) -> #cfg_equip_combine{
+	id          = 11140826,
+	title       = "超时空腿甲",
+	open_level  = 600,
+	gain        = [{11140826,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11140926) -> #cfg_equip_combine{
+	id          = 11140926,
+	title       = "超时空男腕",
+	open_level  = 600,
+	gain        = [{11140926,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11141026) -> #cfg_equip_combine{
+	id          = 11141026,
+	title       = "超时空男鞋",
+	open_level  = 600,
+	gain        = [{11141026,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11140226) -> #cfg_equip_combine{
+	id          = 11140226,
+	title       = "超时空匕首",
+	open_level  = 600,
+	gain        = [{11140226,1}],
+	cost        = [],
+	other_cost  = [11140125,11140625,11140725,11140825,11140925,11141025,11140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(11150126) -> #cfg_equip_combine{
+	id          = 11150126,
+	title       = "起源男剑",
+	open_level  = 620,
+	gain        = [{11150126,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11150626) -> #cfg_equip_combine{
+	id          = 11150626,
+	title       = "起源头盔",
+	open_level  = 620,
+	gain        = [{11150626,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11150726) -> #cfg_equip_combine{
+	id          = 11150726,
+	title       = "起源胸甲",
+	open_level  = 620,
+	gain        = [{11150726,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11150826) -> #cfg_equip_combine{
+	id          = 11150826,
+	title       = "起源腿甲",
+	open_level  = 620,
+	gain        = [{11150826,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11150926) -> #cfg_equip_combine{
+	id          = 11150926,
+	title       = "起源男腕",
+	open_level  = 620,
+	gain        = [{11150926,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11151026) -> #cfg_equip_combine{
+	id          = 11151026,
+	title       = "起源男鞋",
+	open_level  = 620,
+	gain        = [{11151026,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11150226) -> #cfg_equip_combine{
+	id          = 11150226,
+	title       = "起源匕首",
+	open_level  = 620,
+	gain        = [{11150226,1}],
+	cost        = [],
+	other_cost  = [11150125,11150625,11150725,11150825,11150925,11151025,11150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(11160126) -> #cfg_equip_combine{
+	id          = 11160126,
+	title       = "创世男剑",
+	open_level  = 710,
+	gain        = [{11160126,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11160626) -> #cfg_equip_combine{
+	id          = 11160626,
+	title       = "创世头盔",
+	open_level  = 710,
+	gain        = [{11160626,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11160726) -> #cfg_equip_combine{
+	id          = 11160726,
+	title       = "创世胸甲",
+	open_level  = 710,
+	gain        = [{11160726,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11160826) -> #cfg_equip_combine{
+	id          = 11160826,
+	title       = "创世腿甲",
+	open_level  = 710,
+	gain        = [{11160826,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11160926) -> #cfg_equip_combine{
+	id          = 11160926,
+	title       = "创世男腕",
+	open_level  = 710,
+	gain        = [{11160926,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11161026) -> #cfg_equip_combine{
+	id          = 11161026,
+	title       = "创世男鞋",
+	open_level  = 710,
+	gain        = [{11161026,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11160226) -> #cfg_equip_combine{
+	id          = 11160226,
+	title       = "创世匕首",
+	open_level  = 710,
+	gain        = [{11160226,1}],
+	cost        = [],
+	other_cost  = [11160125,11160625,11160725,11160825,11160925,11161025,11160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(11050136) -> #cfg_equip_combine{
+	id          = 11050136,
+	title       = "破魔男剑",
+	open_level  = 160,
+	gain        = [{11050136,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11050636) -> #cfg_equip_combine{
+	id          = 11050636,
+	title       = "破魔头盔",
+	open_level  = 160,
+	gain        = [{11050636,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11050736) -> #cfg_equip_combine{
+	id          = 11050736,
+	title       = "破魔胸甲",
+	open_level  = 160,
+	gain        = [{11050736,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11050836) -> #cfg_equip_combine{
+	id          = 11050836,
+	title       = "破魔腿甲",
+	open_level  = 160,
+	gain        = [{11050836,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11050936) -> #cfg_equip_combine{
+	id          = 11050936,
+	title       = "破魔男腕",
+	open_level  = 160,
+	gain        = [{11050936,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11051036) -> #cfg_equip_combine{
+	id          = 11051036,
+	title       = "破魔男鞋",
+	open_level  = 160,
+	gain        = [{11051036,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11050236) -> #cfg_equip_combine{
+	id          = 11050236,
+	title       = "破魔匕首",
+	open_level  = 160,
+	gain        = [{11050236,1}],
+	cost        = [],
+	other_cost  = [11050126,11050626,11050726,11050826,11050926,11051026,11050226,10000021,10000023,10000025,10000027,10000029,10000031,10000033],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(11060136) -> #cfg_equip_combine{
+	id          = 11060136,
+	title       = "炎蟒男剑",
+	open_level  = 220,
+	gain        = [{11060136,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11060636) -> #cfg_equip_combine{
+	id          = 11060636,
+	title       = "炎蟒头盔",
+	open_level  = 220,
+	gain        = [{11060636,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11060736) -> #cfg_equip_combine{
+	id          = 11060736,
+	title       = "炎蟒胸甲",
+	open_level  = 220,
+	gain        = [{11060736,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11060836) -> #cfg_equip_combine{
+	id          = 11060836,
+	title       = "炎蟒腿甲",
+	open_level  = 220,
+	gain        = [{11060836,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11060936) -> #cfg_equip_combine{
+	id          = 11060936,
+	title       = "炎蟒男腕",
+	open_level  = 220,
+	gain        = [{11060936,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11061036) -> #cfg_equip_combine{
+	id          = 11061036,
+	title       = "炎蟒男鞋",
+	open_level  = 220,
+	gain        = [{11061036,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11060236) -> #cfg_equip_combine{
+	id          = 11060236,
+	title       = "炎蟒匕首",
+	open_level  = 220,
+	gain        = [{11060236,1}],
+	cost        = [],
+	other_cost  = [11060126,11060626,11060726,11060826,11060926,11061026,11060226,10000035,10000037,10000039,10000041,10000043,10000045,10000047],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(11070136) -> #cfg_equip_combine{
+	id          = 11070136,
+	title       = "流光男剑",
+	open_level  = 240,
+	gain        = [{11070136,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11070636) -> #cfg_equip_combine{
+	id          = 11070636,
+	title       = "流光头盔",
+	open_level  = 240,
+	gain        = [{11070636,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11070736) -> #cfg_equip_combine{
+	id          = 11070736,
+	title       = "流光胸甲",
+	open_level  = 240,
+	gain        = [{11070736,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11070836) -> #cfg_equip_combine{
+	id          = 11070836,
+	title       = "流光腿甲",
+	open_level  = 240,
+	gain        = [{11070836,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11070936) -> #cfg_equip_combine{
+	id          = 11070936,
+	title       = "流光男腕",
+	open_level  = 240,
+	gain        = [{11070936,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11071036) -> #cfg_equip_combine{
+	id          = 11071036,
+	title       = "流光男鞋",
+	open_level  = 240,
+	gain        = [{11071036,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11070236) -> #cfg_equip_combine{
+	id          = 11070236,
+	title       = "流光匕首",
+	open_level  = 240,
+	gain        = [{11070236,1}],
+	cost        = [],
+	other_cost  = [11070126,11070626,11070726,11070826,11070926,11071026,11070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(11080136) -> #cfg_equip_combine{
+	id          = 11080136,
+	title       = "远古男剑",
+	open_level  = 260,
+	gain        = [{11080136,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11080636) -> #cfg_equip_combine{
+	id          = 11080636,
+	title       = "远古头盔",
+	open_level  = 260,
+	gain        = [{11080636,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11080736) -> #cfg_equip_combine{
+	id          = 11080736,
+	title       = "远古胸甲",
+	open_level  = 260,
+	gain        = [{11080736,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11080836) -> #cfg_equip_combine{
+	id          = 11080836,
+	title       = "远古腿甲",
+	open_level  = 260,
+	gain        = [{11080836,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11080936) -> #cfg_equip_combine{
+	id          = 11080936,
+	title       = "远古男腕",
+	open_level  = 260,
+	gain        = [{11080936,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11081036) -> #cfg_equip_combine{
+	id          = 11081036,
+	title       = "远古男鞋",
+	open_level  = 260,
+	gain        = [{11081036,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11080236) -> #cfg_equip_combine{
+	id          = 11080236,
+	title       = "远古匕首",
+	open_level  = 260,
+	gain        = [{11080236,1}],
+	cost        = [],
+	other_cost  = [11080126,11080626,11080726,11080826,11080926,11081026,11080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(11090136) -> #cfg_equip_combine{
+	id          = 11090136,
+	title       = "幽魂男剑",
+	open_level  = 300,
+	gain        = [{11090136,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11090636) -> #cfg_equip_combine{
+	id          = 11090636,
+	title       = "幽魂头盔",
+	open_level  = 300,
+	gain        = [{11090636,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11090736) -> #cfg_equip_combine{
+	id          = 11090736,
+	title       = "幽魂胸甲",
+	open_level  = 300,
+	gain        = [{11090736,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11090836) -> #cfg_equip_combine{
+	id          = 11090836,
+	title       = "幽魂腿甲",
+	open_level  = 300,
+	gain        = [{11090836,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11090936) -> #cfg_equip_combine{
+	id          = 11090936,
+	title       = "幽魂男腕",
+	open_level  = 300,
+	gain        = [{11090936,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11091036) -> #cfg_equip_combine{
+	id          = 11091036,
+	title       = "幽魂男鞋",
+	open_level  = 300,
+	gain        = [{11091036,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11090236) -> #cfg_equip_combine{
+	id          = 11090236,
+	title       = "幽魂匕首",
+	open_level  = 300,
+	gain        = [{11090236,1}],
+	cost        = [],
+	other_cost  = [11090126,11090626,11090726,11090826,11090926,11091026,11090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(11100136) -> #cfg_equip_combine{
+	id          = 11100136,
+	title       = "天劫男剑",
+	open_level  = 370,
+	gain        = [{11100136,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11100636) -> #cfg_equip_combine{
+	id          = 11100636,
+	title       = "天劫头盔",
+	open_level  = 370,
+	gain        = [{11100636,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11100736) -> #cfg_equip_combine{
+	id          = 11100736,
+	title       = "天劫胸甲",
+	open_level  = 370,
+	gain        = [{11100736,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11100836) -> #cfg_equip_combine{
+	id          = 11100836,
+	title       = "天劫腿甲",
+	open_level  = 370,
+	gain        = [{11100836,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11100936) -> #cfg_equip_combine{
+	id          = 11100936,
+	title       = "天劫男腕",
+	open_level  = 370,
+	gain        = [{11100936,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11101036) -> #cfg_equip_combine{
+	id          = 11101036,
+	title       = "天劫男鞋",
+	open_level  = 370,
+	gain        = [{11101036,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11100236) -> #cfg_equip_combine{
+	id          = 11100236,
+	title       = "天劫匕首",
+	open_level  = 370,
+	gain        = [{11100236,1}],
+	cost        = [],
+	other_cost  = [11100126,11100626,11100726,11100826,11100926,11101026,11100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(11110136) -> #cfg_equip_combine{
+	id          = 11110136,
+	title       = "天御男剑",
+	open_level  = 400,
+	gain        = [{11110136,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11110636) -> #cfg_equip_combine{
+	id          = 11110636,
+	title       = "天御头盔",
+	open_level  = 400,
+	gain        = [{11110636,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11110736) -> #cfg_equip_combine{
+	id          = 11110736,
+	title       = "天御胸甲",
+	open_level  = 400,
+	gain        = [{11110736,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11110836) -> #cfg_equip_combine{
+	id          = 11110836,
+	title       = "天御腿甲",
+	open_level  = 400,
+	gain        = [{11110836,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11110936) -> #cfg_equip_combine{
+	id          = 11110936,
+	title       = "天御男腕",
+	open_level  = 400,
+	gain        = [{11110936,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11111036) -> #cfg_equip_combine{
+	id          = 11111036,
+	title       = "天御男鞋",
+	open_level  = 400,
+	gain        = [{11111036,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11110236) -> #cfg_equip_combine{
+	id          = 11110236,
+	title       = "天御匕首",
+	open_level  = 400,
+	gain        = [{11110236,1}],
+	cost        = [],
+	other_cost  = [11110126,11110626,11110726,11110826,11110926,11111026,11110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(11120136) -> #cfg_equip_combine{
+	id          = 11120136,
+	title       = "万世荣光男剑",
+	open_level  = 500,
+	gain        = [{11120136,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11120636) -> #cfg_equip_combine{
+	id          = 11120636,
+	title       = "万世荣光头盔",
+	open_level  = 500,
+	gain        = [{11120636,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11120736) -> #cfg_equip_combine{
+	id          = 11120736,
+	title       = "万世荣光胸甲",
+	open_level  = 500,
+	gain        = [{11120736,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11120836) -> #cfg_equip_combine{
+	id          = 11120836,
+	title       = "万世荣光腿甲",
+	open_level  = 500,
+	gain        = [{11120836,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11120936) -> #cfg_equip_combine{
+	id          = 11120936,
+	title       = "万世荣光男腕",
+	open_level  = 500,
+	gain        = [{11120936,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11121036) -> #cfg_equip_combine{
+	id          = 11121036,
+	title       = "万世荣光男鞋",
+	open_level  = 500,
+	gain        = [{11121036,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11120236) -> #cfg_equip_combine{
+	id          = 11120236,
+	title       = "万世荣光匕首",
+	open_level  = 500,
+	gain        = [{11120236,1}],
+	cost        = [],
+	other_cost  = [11120126,11120626,11120726,11120826,11120926,11121026,11120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(11130136) -> #cfg_equip_combine{
+	id          = 11130136,
+	title       = "超大陆男剑",
+	open_level  = 550,
+	gain        = [{11130136,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11130636) -> #cfg_equip_combine{
+	id          = 11130636,
+	title       = "超大陆头盔",
+	open_level  = 550,
+	gain        = [{11130636,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11130736) -> #cfg_equip_combine{
+	id          = 11130736,
+	title       = "超大陆胸甲",
+	open_level  = 550,
+	gain        = [{11130736,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11130836) -> #cfg_equip_combine{
+	id          = 11130836,
+	title       = "超大陆腿甲",
+	open_level  = 550,
+	gain        = [{11130836,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11130936) -> #cfg_equip_combine{
+	id          = 11130936,
+	title       = "超大陆男腕",
+	open_level  = 550,
+	gain        = [{11130936,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11131036) -> #cfg_equip_combine{
+	id          = 11131036,
+	title       = "超大陆男鞋",
+	open_level  = 550,
+	gain        = [{11131036,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11130236) -> #cfg_equip_combine{
+	id          = 11130236,
+	title       = "超大陆匕首",
+	open_level  = 550,
+	gain        = [{11130236,1}],
+	cost        = [],
+	other_cost  = [11130126,11130626,11130726,11130826,11130926,11131026,11130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(11140136) -> #cfg_equip_combine{
+	id          = 11140136,
+	title       = "超时空男剑",
+	open_level  = 600,
+	gain        = [{11140136,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11140636) -> #cfg_equip_combine{
+	id          = 11140636,
+	title       = "超时空头盔",
+	open_level  = 600,
+	gain        = [{11140636,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11140736) -> #cfg_equip_combine{
+	id          = 11140736,
+	title       = "超时空胸甲",
+	open_level  = 600,
+	gain        = [{11140736,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11140836) -> #cfg_equip_combine{
+	id          = 11140836,
+	title       = "超时空腿甲",
+	open_level  = 600,
+	gain        = [{11140836,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11140936) -> #cfg_equip_combine{
+	id          = 11140936,
+	title       = "超时空男腕",
+	open_level  = 600,
+	gain        = [{11140936,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11141036) -> #cfg_equip_combine{
+	id          = 11141036,
+	title       = "超时空男鞋",
+	open_level  = 600,
+	gain        = [{11141036,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11140236) -> #cfg_equip_combine{
+	id          = 11140236,
+	title       = "超时空匕首",
+	open_level  = 600,
+	gain        = [{11140236,1}],
+	cost        = [],
+	other_cost  = [11140126,11140626,11140726,11140826,11140926,11141026,11140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(11150136) -> #cfg_equip_combine{
+	id          = 11150136,
+	title       = "起源男剑",
+	open_level  = 620,
+	gain        = [{11150136,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11150636) -> #cfg_equip_combine{
+	id          = 11150636,
+	title       = "起源头盔",
+	open_level  = 620,
+	gain        = [{11150636,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11150736) -> #cfg_equip_combine{
+	id          = 11150736,
+	title       = "起源胸甲",
+	open_level  = 620,
+	gain        = [{11150736,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11150836) -> #cfg_equip_combine{
+	id          = 11150836,
+	title       = "起源腿甲",
+	open_level  = 620,
+	gain        = [{11150836,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11150936) -> #cfg_equip_combine{
+	id          = 11150936,
+	title       = "起源男腕",
+	open_level  = 620,
+	gain        = [{11150936,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11151036) -> #cfg_equip_combine{
+	id          = 11151036,
+	title       = "起源男鞋",
+	open_level  = 620,
+	gain        = [{11151036,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11150236) -> #cfg_equip_combine{
+	id          = 11150236,
+	title       = "起源匕首",
+	open_level  = 620,
+	gain        = [{11150236,1}],
+	cost        = [],
+	other_cost  = [11150126,11150626,11150726,11150826,11150926,11151026,11150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(11160136) -> #cfg_equip_combine{
+	id          = 11160136,
+	title       = "创世男剑",
+	open_level  = 710,
+	gain        = [{11160136,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11160636) -> #cfg_equip_combine{
+	id          = 11160636,
+	title       = "创世头盔",
+	open_level  = 710,
+	gain        = [{11160636,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11160736) -> #cfg_equip_combine{
+	id          = 11160736,
+	title       = "创世胸甲",
+	open_level  = 710,
+	gain        = [{11160736,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11160836) -> #cfg_equip_combine{
+	id          = 11160836,
+	title       = "创世腿甲",
+	open_level  = 710,
+	gain        = [{11160836,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11160936) -> #cfg_equip_combine{
+	id          = 11160936,
+	title       = "创世男腕",
+	open_level  = 710,
+	gain        = [{11160936,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11161036) -> #cfg_equip_combine{
+	id          = 11161036,
+	title       = "创世男鞋",
+	open_level  = 710,
+	gain        = [{11161036,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11160236) -> #cfg_equip_combine{
+	id          = 11160236,
+	title       = "创世匕首",
+	open_level  = 710,
+	gain        = [{11160236,1}],
+	cost        = [],
+	other_cost  = [11160126,11160626,11160726,11160826,11160926,11161026,11160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(11110137) -> #cfg_equip_combine{
+	id          = 11110137,
+	title       = "天御男剑",
+	open_level  = 420,
+	gain        = [{11110137,1}],
+	cost        = [{13103,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11110637) -> #cfg_equip_combine{
+	id          = 11110637,
+	title       = "天御头盔",
+	open_level  = 420,
+	gain        = [{11110637,1}],
+	cost        = [{13103,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11110737) -> #cfg_equip_combine{
+	id          = 11110737,
+	title       = "天御胸甲",
+	open_level  = 420,
+	gain        = [{11110737,1}],
+	cost        = [{13103,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11110837) -> #cfg_equip_combine{
+	id          = 11110837,
+	title       = "天御腿甲",
+	open_level  = 420,
+	gain        = [{11110837,1}],
+	cost        = [{13103,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11110937) -> #cfg_equip_combine{
+	id          = 11110937,
+	title       = "天御男腕",
+	open_level  = 420,
+	gain        = [{11110937,1}],
+	cost        = [{13103,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11111037) -> #cfg_equip_combine{
+	id          = 11111037,
+	title       = "天御男鞋",
+	open_level  = 420,
+	gain        = [{11111037,1}],
+	cost        = [{13103,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11110237) -> #cfg_equip_combine{
+	id          = 11110237,
+	title       = "天御匕首",
+	open_level  = 420,
+	gain        = [{11110237,1}],
+	cost        = [{13104,5}],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11120137) -> #cfg_equip_combine{
+	id          = 11120137,
+	title       = "万世荣光男剑",
+	open_level  = 520,
+	gain        = [{11120137,1}],
+	cost        = [{13103,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11120637) -> #cfg_equip_combine{
+	id          = 11120637,
+	title       = "万世荣光头盔",
+	open_level  = 520,
+	gain        = [{11120637,1}],
+	cost        = [{13103,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11120737) -> #cfg_equip_combine{
+	id          = 11120737,
+	title       = "万世荣光胸甲",
+	open_level  = 520,
+	gain        = [{11120737,1}],
+	cost        = [{13103,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11120837) -> #cfg_equip_combine{
+	id          = 11120837,
+	title       = "万世荣光腿甲",
+	open_level  = 520,
+	gain        = [{11120837,1}],
+	cost        = [{13103,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11120937) -> #cfg_equip_combine{
+	id          = 11120937,
+	title       = "万世荣光男腕",
+	open_level  = 520,
+	gain        = [{11120937,1}],
+	cost        = [{13103,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11121037) -> #cfg_equip_combine{
+	id          = 11121037,
+	title       = "万世荣光男鞋",
+	open_level  = 520,
+	gain        = [{11121037,1}],
+	cost        = [{13103,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11120237) -> #cfg_equip_combine{
+	id          = 11120237,
+	title       = "万世荣光匕首",
+	open_level  = 520,
+	gain        = [{11120237,1}],
+	cost        = [{13104,10}],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11130137) -> #cfg_equip_combine{
+	id          = 11130137,
+	title       = "超大陆男剑",
+	open_level  = 570,
+	gain        = [{11130137,1}],
+	cost        = [{13103,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11130637) -> #cfg_equip_combine{
+	id          = 11130637,
+	title       = "超大陆头盔",
+	open_level  = 570,
+	gain        = [{11130637,1}],
+	cost        = [{13103,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11130737) -> #cfg_equip_combine{
+	id          = 11130737,
+	title       = "超大陆胸甲",
+	open_level  = 570,
+	gain        = [{11130737,1}],
+	cost        = [{13103,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11130837) -> #cfg_equip_combine{
+	id          = 11130837,
+	title       = "超大陆腿甲",
+	open_level  = 570,
+	gain        = [{11130837,1}],
+	cost        = [{13103,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11130937) -> #cfg_equip_combine{
+	id          = 11130937,
+	title       = "超大陆男腕",
+	open_level  = 570,
+	gain        = [{11130937,1}],
+	cost        = [{13103,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11131037) -> #cfg_equip_combine{
+	id          = 11131037,
+	title       = "超大陆男鞋",
+	open_level  = 570,
+	gain        = [{11131037,1}],
+	cost        = [{13103,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11130237) -> #cfg_equip_combine{
+	id          = 11130237,
+	title       = "超大陆匕首",
+	open_level  = 570,
+	gain        = [{11130237,1}],
+	cost        = [{13104,14}],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11140137) -> #cfg_equip_combine{
+	id          = 11140137,
+	title       = "超时空男剑",
+	open_level  = 620,
+	gain        = [{11140137,1}],
+	cost        = [{13103,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11140637) -> #cfg_equip_combine{
+	id          = 11140637,
+	title       = "超时空头盔",
+	open_level  = 620,
+	gain        = [{11140637,1}],
+	cost        = [{13103,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11140737) -> #cfg_equip_combine{
+	id          = 11140737,
+	title       = "超时空胸甲",
+	open_level  = 620,
+	gain        = [{11140737,1}],
+	cost        = [{13103,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11140837) -> #cfg_equip_combine{
+	id          = 11140837,
+	title       = "超时空腿甲",
+	open_level  = 620,
+	gain        = [{11140837,1}],
+	cost        = [{13103,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11140937) -> #cfg_equip_combine{
+	id          = 11140937,
+	title       = "超时空男腕",
+	open_level  = 620,
+	gain        = [{11140937,1}],
+	cost        = [{13103,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11141037) -> #cfg_equip_combine{
+	id          = 11141037,
+	title       = "超时空男鞋",
+	open_level  = 620,
+	gain        = [{11141037,1}],
+	cost        = [{13103,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11140237) -> #cfg_equip_combine{
+	id          = 11140237,
+	title       = "超时空匕首",
+	open_level  = 620,
+	gain        = [{11140237,1}],
+	cost        = [{13104,20}],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11150137) -> #cfg_equip_combine{
+	id          = 11150137,
+	title       = "起源男剑",
+	open_level  = 640,
+	gain        = [{11150137,1}],
+	cost        = [{13103,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11150637) -> #cfg_equip_combine{
+	id          = 11150637,
+	title       = "起源头盔",
+	open_level  = 640,
+	gain        = [{11150637,1}],
+	cost        = [{13103,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11150737) -> #cfg_equip_combine{
+	id          = 11150737,
+	title       = "起源胸甲",
+	open_level  = 640,
+	gain        = [{11150737,1}],
+	cost        = [{13103,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11150837) -> #cfg_equip_combine{
+	id          = 11150837,
+	title       = "起源腿甲",
+	open_level  = 640,
+	gain        = [{11150837,1}],
+	cost        = [{13103,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11150937) -> #cfg_equip_combine{
+	id          = 11150937,
+	title       = "起源男腕",
+	open_level  = 640,
+	gain        = [{11150937,1}],
+	cost        = [{13103,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11151037) -> #cfg_equip_combine{
+	id          = 11151037,
+	title       = "起源男鞋",
+	open_level  = 640,
+	gain        = [{11151037,1}],
+	cost        = [{13103,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11150237) -> #cfg_equip_combine{
+	id          = 11150237,
+	title       = "起源匕首",
+	open_level  = 640,
+	gain        = [{11150237,1}],
+	cost        = [{13104,26}],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11160137) -> #cfg_equip_combine{
+	id          = 11160137,
+	title       = "创世男剑",
+	open_level  = 730,
+	gain        = [{11160137,1}],
+	cost        = [{13103,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11160637) -> #cfg_equip_combine{
+	id          = 11160637,
+	title       = "创世头盔",
+	open_level  = 730,
+	gain        = [{11160637,1}],
+	cost        = [{13103,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11160737) -> #cfg_equip_combine{
+	id          = 11160737,
+	title       = "创世胸甲",
+	open_level  = 730,
+	gain        = [{11160737,1}],
+	cost        = [{13103,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11160837) -> #cfg_equip_combine{
+	id          = 11160837,
+	title       = "创世腿甲",
+	open_level  = 730,
+	gain        = [{11160837,1}],
+	cost        = [{13103,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11160937) -> #cfg_equip_combine{
+	id          = 11160937,
+	title       = "创世男腕",
+	open_level  = 730,
+	gain        = [{11160937,1}],
+	cost        = [{13103,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11161037) -> #cfg_equip_combine{
+	id          = 11161037,
+	title       = "创世男鞋",
+	open_level  = 730,
+	gain        = [{11161037,1}],
+	cost        = [{13103,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11160237) -> #cfg_equip_combine{
+	id          = 11160237,
+	title       = "创世匕首",
+	open_level  = 730,
+	gain        = [{11160237,1}],
+	cost        = [{13104,32}],
+	other_cost  = [11160136,11160636,11160736,11160836,11160936,11161036,11160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11090147) -> #cfg_equip_combine{
+	id          = 11090147,
+	title       = "幽魂男剑",
+	open_level  = 371,
+	gain        = [{11090147,1}],
+	cost        = [{13103,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11090647) -> #cfg_equip_combine{
+	id          = 11090647,
+	title       = "幽魂头盔",
+	open_level  = 371,
+	gain        = [{11090647,1}],
+	cost        = [{13103,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11090747) -> #cfg_equip_combine{
+	id          = 11090747,
+	title       = "幽魂胸甲",
+	open_level  = 371,
+	gain        = [{11090747,1}],
+	cost        = [{13103,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11090847) -> #cfg_equip_combine{
+	id          = 11090847,
+	title       = "幽魂腿甲",
+	open_level  = 371,
+	gain        = [{11090847,1}],
+	cost        = [{13103,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11090947) -> #cfg_equip_combine{
+	id          = 11090947,
+	title       = "幽魂男腕",
+	open_level  = 371,
+	gain        = [{11090947,1}],
+	cost        = [{13103,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11091047) -> #cfg_equip_combine{
+	id          = 11091047,
+	title       = "幽魂男鞋",
+	open_level  = 371,
+	gain        = [{11091047,1}],
+	cost        = [{13103,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11090247) -> #cfg_equip_combine{
+	id          = 11090247,
+	title       = "幽魂匕首",
+	open_level  = 371,
+	gain        = [{11090247,1}],
+	cost        = [{13104,1}],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11100147) -> #cfg_equip_combine{
+	id          = 11100147,
+	title       = "天劫男剑",
+	open_level  = 390,
+	gain        = [{11100147,1}],
+	cost        = [{13103,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11100647) -> #cfg_equip_combine{
+	id          = 11100647,
+	title       = "天劫头盔",
+	open_level  = 390,
+	gain        = [{11100647,1}],
+	cost        = [{13103,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11100747) -> #cfg_equip_combine{
+	id          = 11100747,
+	title       = "天劫胸甲",
+	open_level  = 390,
+	gain        = [{11100747,1}],
+	cost        = [{13103,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11100847) -> #cfg_equip_combine{
+	id          = 11100847,
+	title       = "天劫腿甲",
+	open_level  = 390,
+	gain        = [{11100847,1}],
+	cost        = [{13103,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11100947) -> #cfg_equip_combine{
+	id          = 11100947,
+	title       = "天劫男腕",
+	open_level  = 390,
+	gain        = [{11100947,1}],
+	cost        = [{13103,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11101047) -> #cfg_equip_combine{
+	id          = 11101047,
+	title       = "天劫男鞋",
+	open_level  = 390,
+	gain        = [{11101047,1}],
+	cost        = [{13103,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11100247) -> #cfg_equip_combine{
+	id          = 11100247,
+	title       = "天劫匕首",
+	open_level  = 390,
+	gain        = [{11100247,1}],
+	cost        = [{13104,3}],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(11110147) -> #cfg_equip_combine{
+	id          = 11110147,
+	title       = "天御男剑",
+	open_level  = 420,
+	gain        = [{11110147,1}],
+	cost        = [{13103,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11110647) -> #cfg_equip_combine{
+	id          = 11110647,
+	title       = "天御头盔",
+	open_level  = 420,
+	gain        = [{11110647,1}],
+	cost        = [{13103,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11110747) -> #cfg_equip_combine{
+	id          = 11110747,
+	title       = "天御胸甲",
+	open_level  = 420,
+	gain        = [{11110747,1}],
+	cost        = [{13103,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11110847) -> #cfg_equip_combine{
+	id          = 11110847,
+	title       = "天御腿甲",
+	open_level  = 420,
+	gain        = [{11110847,1}],
+	cost        = [{13103,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11110947) -> #cfg_equip_combine{
+	id          = 11110947,
+	title       = "天御男腕",
+	open_level  = 420,
+	gain        = [{11110947,1}],
+	cost        = [{13103,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11111047) -> #cfg_equip_combine{
+	id          = 11111047,
+	title       = "天御男鞋",
+	open_level  = 420,
+	gain        = [{11111047,1}],
+	cost        = [{13103,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11110247) -> #cfg_equip_combine{
+	id          = 11110247,
+	title       = "天御匕首",
+	open_level  = 420,
+	gain        = [{11110247,1}],
+	cost        = [{13104,8}],
+	other_cost  = [11110137,11110637,11110737,11110837,11110937,11111037,11110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11120147) -> #cfg_equip_combine{
+	id          = 11120147,
+	title       = "万世荣光男剑",
+	open_level  = 520,
+	gain        = [{11120147,1}],
+	cost        = [{13103,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11120647) -> #cfg_equip_combine{
+	id          = 11120647,
+	title       = "万世荣光头盔",
+	open_level  = 520,
+	gain        = [{11120647,1}],
+	cost        = [{13103,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11120747) -> #cfg_equip_combine{
+	id          = 11120747,
+	title       = "万世荣光胸甲",
+	open_level  = 520,
+	gain        = [{11120747,1}],
+	cost        = [{13103,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11120847) -> #cfg_equip_combine{
+	id          = 11120847,
+	title       = "万世荣光腿甲",
+	open_level  = 520,
+	gain        = [{11120847,1}],
+	cost        = [{13103,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11120947) -> #cfg_equip_combine{
+	id          = 11120947,
+	title       = "万世荣光男腕",
+	open_level  = 520,
+	gain        = [{11120947,1}],
+	cost        = [{13103,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11121047) -> #cfg_equip_combine{
+	id          = 11121047,
+	title       = "万世荣光男鞋",
+	open_level  = 520,
+	gain        = [{11121047,1}],
+	cost        = [{13103,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11120247) -> #cfg_equip_combine{
+	id          = 11120247,
+	title       = "万世荣光匕首",
+	open_level  = 520,
+	gain        = [{11120247,1}],
+	cost        = [{13104,12}],
+	other_cost  = [11120137,11120637,11120737,11120837,11120937,11121037,11120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11130147) -> #cfg_equip_combine{
+	id          = 11130147,
+	title       = "超大陆男剑",
+	open_level  = 570,
+	gain        = [{11130147,1}],
+	cost        = [{13103,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11130647) -> #cfg_equip_combine{
+	id          = 11130647,
+	title       = "超大陆头盔",
+	open_level  = 570,
+	gain        = [{11130647,1}],
+	cost        = [{13103,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11130747) -> #cfg_equip_combine{
+	id          = 11130747,
+	title       = "超大陆胸甲",
+	open_level  = 570,
+	gain        = [{11130747,1}],
+	cost        = [{13103,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11130847) -> #cfg_equip_combine{
+	id          = 11130847,
+	title       = "超大陆腿甲",
+	open_level  = 570,
+	gain        = [{11130847,1}],
+	cost        = [{13103,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11130947) -> #cfg_equip_combine{
+	id          = 11130947,
+	title       = "超大陆男腕",
+	open_level  = 570,
+	gain        = [{11130947,1}],
+	cost        = [{13103,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11131047) -> #cfg_equip_combine{
+	id          = 11131047,
+	title       = "超大陆男鞋",
+	open_level  = 570,
+	gain        = [{11131047,1}],
+	cost        = [{13103,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11130247) -> #cfg_equip_combine{
+	id          = 11130247,
+	title       = "超大陆匕首",
+	open_level  = 570,
+	gain        = [{11130247,1}],
+	cost        = [{13104,18}],
+	other_cost  = [11130137,11130637,11130737,11130837,11130937,11131037,11130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11140147) -> #cfg_equip_combine{
+	id          = 11140147,
+	title       = "超时空男剑",
+	open_level  = 620,
+	gain        = [{11140147,1}],
+	cost        = [{13103,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11140647) -> #cfg_equip_combine{
+	id          = 11140647,
+	title       = "超时空头盔",
+	open_level  = 620,
+	gain        = [{11140647,1}],
+	cost        = [{13103,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11140747) -> #cfg_equip_combine{
+	id          = 11140747,
+	title       = "超时空胸甲",
+	open_level  = 620,
+	gain        = [{11140747,1}],
+	cost        = [{13103,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11140847) -> #cfg_equip_combine{
+	id          = 11140847,
+	title       = "超时空腿甲",
+	open_level  = 620,
+	gain        = [{11140847,1}],
+	cost        = [{13103,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11140947) -> #cfg_equip_combine{
+	id          = 11140947,
+	title       = "超时空男腕",
+	open_level  = 620,
+	gain        = [{11140947,1}],
+	cost        = [{13103,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11141047) -> #cfg_equip_combine{
+	id          = 11141047,
+	title       = "超时空男鞋",
+	open_level  = 620,
+	gain        = [{11141047,1}],
+	cost        = [{13103,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11140247) -> #cfg_equip_combine{
+	id          = 11140247,
+	title       = "超时空匕首",
+	open_level  = 620,
+	gain        = [{11140247,1}],
+	cost        = [{13104,24}],
+	other_cost  = [11140137,11140637,11140737,11140837,11140937,11141037,11140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11150147) -> #cfg_equip_combine{
+	id          = 11150147,
+	title       = "起源男剑",
+	open_level  = 640,
+	gain        = [{11150147,1}],
+	cost        = [{13103,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11150647) -> #cfg_equip_combine{
+	id          = 11150647,
+	title       = "起源头盔",
+	open_level  = 640,
+	gain        = [{11150647,1}],
+	cost        = [{13103,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11150747) -> #cfg_equip_combine{
+	id          = 11150747,
+	title       = "起源胸甲",
+	open_level  = 640,
+	gain        = [{11150747,1}],
+	cost        = [{13103,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11150847) -> #cfg_equip_combine{
+	id          = 11150847,
+	title       = "起源腿甲",
+	open_level  = 640,
+	gain        = [{11150847,1}],
+	cost        = [{13103,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11150947) -> #cfg_equip_combine{
+	id          = 11150947,
+	title       = "起源男腕",
+	open_level  = 640,
+	gain        = [{11150947,1}],
+	cost        = [{13103,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11151047) -> #cfg_equip_combine{
+	id          = 11151047,
+	title       = "起源男鞋",
+	open_level  = 640,
+	gain        = [{11151047,1}],
+	cost        = [{13103,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11150247) -> #cfg_equip_combine{
+	id          = 11150247,
+	title       = "起源匕首",
+	open_level  = 640,
+	gain        = [{11150247,1}],
+	cost        = [{13104,30}],
+	other_cost  = [11150137,11150637,11150737,11150837,11150937,11151037,11150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11160147) -> #cfg_equip_combine{
+	id          = 11160147,
+	title       = "创世男剑",
+	open_level  = 730,
+	gain        = [{11160147,1}],
+	cost        = [{13103,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11160647) -> #cfg_equip_combine{
+	id          = 11160647,
+	title       = "创世头盔",
+	open_level  = 730,
+	gain        = [{11160647,1}],
+	cost        = [{13103,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11160747) -> #cfg_equip_combine{
+	id          = 11160747,
+	title       = "创世胸甲",
+	open_level  = 730,
+	gain        = [{11160747,1}],
+	cost        = [{13103,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11160847) -> #cfg_equip_combine{
+	id          = 11160847,
+	title       = "创世腿甲",
+	open_level  = 730,
+	gain        = [{11160847,1}],
+	cost        = [{13103,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11160947) -> #cfg_equip_combine{
+	id          = 11160947,
+	title       = "创世男腕",
+	open_level  = 730,
+	gain        = [{11160947,1}],
+	cost        = [{13103,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11161047) -> #cfg_equip_combine{
+	id          = 11161047,
+	title       = "创世男鞋",
+	open_level  = 730,
+	gain        = [{11161047,1}],
+	cost        = [{13103,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11160247) -> #cfg_equip_combine{
+	id          = 11160247,
+	title       = "创世匕首",
+	open_level  = 730,
+	gain        = [{11160247,1}],
+	cost        = [{13104,36}],
+	other_cost  = [11160137,11160637,11160737,11160837,11160937,11161037,11160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12050126) -> #cfg_equip_combine{
+	id          = 12050126,
+	title       = "破魔女剑",
+	open_level  = 160,
+	gain        = [{12050126,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12050626) -> #cfg_equip_combine{
+	id          = 12050626,
+	title       = "破魔头巾",
+	open_level  = 160,
+	gain        = [{12050626,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12050726) -> #cfg_equip_combine{
+	id          = 12050726,
+	title       = "破魔战袍",
+	open_level  = 160,
+	gain        = [{12050726,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12050826) -> #cfg_equip_combine{
+	id          = 12050826,
+	title       = "破魔裙甲",
+	open_level  = 160,
+	gain        = [{12050826,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12050926) -> #cfg_equip_combine{
+	id          = 12050926,
+	title       = "破魔腕袖",
+	open_level  = 160,
+	gain        = [{12050926,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12051026) -> #cfg_equip_combine{
+	id          = 12051026,
+	title       = "破魔女靴",
+	open_level  = 160,
+	gain        = [{12051026,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12050226) -> #cfg_equip_combine{
+	id          = 12050226,
+	title       = "破魔袖剑",
+	open_level  = 160,
+	gain        = [{12050226,1}],
+	cost        = [],
+	other_cost  = [12050125,12050625,12050725,12050825,12050925,12051025,12050225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_25,3}
+};
+find(12060126) -> #cfg_equip_combine{
+	id          = 12060126,
+	title       = "炎蟒女剑",
+	open_level  = 220,
+	gain        = [{12060126,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12060626) -> #cfg_equip_combine{
+	id          = 12060626,
+	title       = "炎蟒头巾",
+	open_level  = 220,
+	gain        = [{12060626,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12060726) -> #cfg_equip_combine{
+	id          = 12060726,
+	title       = "炎蟒战袍",
+	open_level  = 220,
+	gain        = [{12060726,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12060826) -> #cfg_equip_combine{
+	id          = 12060826,
+	title       = "炎蟒裙甲",
+	open_level  = 220,
+	gain        = [{12060826,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12060926) -> #cfg_equip_combine{
+	id          = 12060926,
+	title       = "炎蟒腕袖",
+	open_level  = 220,
+	gain        = [{12060926,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12061026) -> #cfg_equip_combine{
+	id          = 12061026,
+	title       = "炎蟒女靴",
+	open_level  = 220,
+	gain        = [{12061026,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12060226) -> #cfg_equip_combine{
+	id          = 12060226,
+	title       = "炎蟒袖剑",
+	open_level  = 220,
+	gain        = [{12060226,1}],
+	cost        = [],
+	other_cost  = [12060125,12060625,12060725,12060825,12060925,12061025,12060225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_25,3}
+};
+find(12070126) -> #cfg_equip_combine{
+	id          = 12070126,
+	title       = "流光女剑",
+	open_level  = 240,
+	gain        = [{12070126,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12070626) -> #cfg_equip_combine{
+	id          = 12070626,
+	title       = "流光头巾",
+	open_level  = 240,
+	gain        = [{12070626,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12070726) -> #cfg_equip_combine{
+	id          = 12070726,
+	title       = "流光战袍",
+	open_level  = 240,
+	gain        = [{12070726,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12070826) -> #cfg_equip_combine{
+	id          = 12070826,
+	title       = "流光裙甲",
+	open_level  = 240,
+	gain        = [{12070826,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12070926) -> #cfg_equip_combine{
+	id          = 12070926,
+	title       = "流光腕袖",
+	open_level  = 240,
+	gain        = [{12070926,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12071026) -> #cfg_equip_combine{
+	id          = 12071026,
+	title       = "流光女靴",
+	open_level  = 240,
+	gain        = [{12071026,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12070226) -> #cfg_equip_combine{
+	id          = 12070226,
+	title       = "流光袖剑",
+	open_level  = 240,
+	gain        = [{12070226,1}],
+	cost        = [],
+	other_cost  = [12070125,12070625,12070725,12070825,12070925,12071025,12070225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_25,3}
+};
+find(12080126) -> #cfg_equip_combine{
+	id          = 12080126,
+	title       = "远古女剑",
+	open_level  = 260,
+	gain        = [{12080126,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12080626) -> #cfg_equip_combine{
+	id          = 12080626,
+	title       = "远古头巾",
+	open_level  = 260,
+	gain        = [{12080626,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12080726) -> #cfg_equip_combine{
+	id          = 12080726,
+	title       = "远古战袍",
+	open_level  = 260,
+	gain        = [{12080726,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12080826) -> #cfg_equip_combine{
+	id          = 12080826,
+	title       = "远古裙甲",
+	open_level  = 260,
+	gain        = [{12080826,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12080926) -> #cfg_equip_combine{
+	id          = 12080926,
+	title       = "远古腕袖",
+	open_level  = 260,
+	gain        = [{12080926,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12081026) -> #cfg_equip_combine{
+	id          = 12081026,
+	title       = "远古女靴",
+	open_level  = 260,
+	gain        = [{12081026,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12080226) -> #cfg_equip_combine{
+	id          = 12080226,
+	title       = "远古袖剑",
+	open_level  = 260,
+	gain        = [{12080226,1}],
+	cost        = [],
+	other_cost  = [12080125,12080625,12080725,12080825,12080925,12081025,12080225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_25,3}
+};
+find(12090126) -> #cfg_equip_combine{
+	id          = 12090126,
+	title       = "幽魂女剑",
+	open_level  = 300,
+	gain        = [{12090126,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12090626) -> #cfg_equip_combine{
+	id          = 12090626,
+	title       = "幽魂头巾",
+	open_level  = 300,
+	gain        = [{12090626,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12090726) -> #cfg_equip_combine{
+	id          = 12090726,
+	title       = "幽魂战袍",
+	open_level  = 300,
+	gain        = [{12090726,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12090826) -> #cfg_equip_combine{
+	id          = 12090826,
+	title       = "幽魂裙甲",
+	open_level  = 300,
+	gain        = [{12090826,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12090926) -> #cfg_equip_combine{
+	id          = 12090926,
+	title       = "幽魂腕袖",
+	open_level  = 300,
+	gain        = [{12090926,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12091026) -> #cfg_equip_combine{
+	id          = 12091026,
+	title       = "幽魂女靴",
+	open_level  = 300,
+	gain        = [{12091026,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12090226) -> #cfg_equip_combine{
+	id          = 12090226,
+	title       = "幽魂袖剑",
+	open_level  = 300,
+	gain        = [{12090226,1}],
+	cost        = [],
+	other_cost  = [12090125,12090625,12090725,12090825,12090925,12091025,12090225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_25,3}
+};
+find(12100126) -> #cfg_equip_combine{
+	id          = 12100126,
+	title       = "天劫女剑",
+	open_level  = 370,
+	gain        = [{12100126,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12100626) -> #cfg_equip_combine{
+	id          = 12100626,
+	title       = "天劫头巾",
+	open_level  = 370,
+	gain        = [{12100626,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12100726) -> #cfg_equip_combine{
+	id          = 12100726,
+	title       = "天劫战袍",
+	open_level  = 370,
+	gain        = [{12100726,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12100826) -> #cfg_equip_combine{
+	id          = 12100826,
+	title       = "天劫裙甲",
+	open_level  = 370,
+	gain        = [{12100826,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12100926) -> #cfg_equip_combine{
+	id          = 12100926,
+	title       = "天劫腕袖",
+	open_level  = 370,
+	gain        = [{12100926,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12101026) -> #cfg_equip_combine{
+	id          = 12101026,
+	title       = "天劫女靴",
+	open_level  = 370,
+	gain        = [{12101026,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12100226) -> #cfg_equip_combine{
+	id          = 12100226,
+	title       = "天劫袖剑",
+	open_level  = 370,
+	gain        = [{12100226,1}],
+	cost        = [],
+	other_cost  = [12100125,12100625,12100725,12100825,12100925,12101025,12100225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_25,3}
+};
+find(12110126) -> #cfg_equip_combine{
+	id          = 12110126,
+	title       = "天御女剑",
+	open_level  = 400,
+	gain        = [{12110126,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12110626) -> #cfg_equip_combine{
+	id          = 12110626,
+	title       = "天御头巾",
+	open_level  = 400,
+	gain        = [{12110626,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12110726) -> #cfg_equip_combine{
+	id          = 12110726,
+	title       = "天御战袍",
+	open_level  = 400,
+	gain        = [{12110726,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12110826) -> #cfg_equip_combine{
+	id          = 12110826,
+	title       = "天御裙甲",
+	open_level  = 400,
+	gain        = [{12110826,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12110926) -> #cfg_equip_combine{
+	id          = 12110926,
+	title       = "天御腕袖",
+	open_level  = 400,
+	gain        = [{12110926,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12111026) -> #cfg_equip_combine{
+	id          = 12111026,
+	title       = "天御女靴",
+	open_level  = 400,
+	gain        = [{12111026,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12110226) -> #cfg_equip_combine{
+	id          = 12110226,
+	title       = "天御袖剑",
+	open_level  = 400,
+	gain        = [{12110226,1}],
+	cost        = [],
+	other_cost  = [12110125,12110625,12110725,12110825,12110925,12111025,12110225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_25,3}
+};
+find(12120126) -> #cfg_equip_combine{
+	id          = 12120126,
+	title       = "万世荣光女剑",
+	open_level  = 500,
+	gain        = [{12120126,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12120626) -> #cfg_equip_combine{
+	id          = 12120626,
+	title       = "万世荣光头巾",
+	open_level  = 500,
+	gain        = [{12120626,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12120726) -> #cfg_equip_combine{
+	id          = 12120726,
+	title       = "万世荣光战袍",
+	open_level  = 500,
+	gain        = [{12120726,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12120826) -> #cfg_equip_combine{
+	id          = 12120826,
+	title       = "万世荣光裙甲",
+	open_level  = 500,
+	gain        = [{12120826,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12120926) -> #cfg_equip_combine{
+	id          = 12120926,
+	title       = "万世荣光腕袖",
+	open_level  = 500,
+	gain        = [{12120926,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12121026) -> #cfg_equip_combine{
+	id          = 12121026,
+	title       = "万世荣光女靴",
+	open_level  = 500,
+	gain        = [{12121026,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12120226) -> #cfg_equip_combine{
+	id          = 12120226,
+	title       = "万世荣光袖剑",
+	open_level  = 500,
+	gain        = [{12120226,1}],
+	cost        = [],
+	other_cost  = [12120125,12120625,12120725,12120825,12120925,12121025,12120225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_25,3}
+};
+find(12130126) -> #cfg_equip_combine{
+	id          = 12130126,
+	title       = "超大陆女剑",
+	open_level  = 550,
+	gain        = [{12130126,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12130626) -> #cfg_equip_combine{
+	id          = 12130626,
+	title       = "超大陆头巾",
+	open_level  = 550,
+	gain        = [{12130626,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12130726) -> #cfg_equip_combine{
+	id          = 12130726,
+	title       = "超大陆战袍",
+	open_level  = 550,
+	gain        = [{12130726,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12130826) -> #cfg_equip_combine{
+	id          = 12130826,
+	title       = "超大陆裙甲",
+	open_level  = 550,
+	gain        = [{12130826,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12130926) -> #cfg_equip_combine{
+	id          = 12130926,
+	title       = "超大陆腕袖",
+	open_level  = 550,
+	gain        = [{12130926,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12131026) -> #cfg_equip_combine{
+	id          = 12131026,
+	title       = "超大陆女靴",
+	open_level  = 550,
+	gain        = [{12131026,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12130226) -> #cfg_equip_combine{
+	id          = 12130226,
+	title       = "超大陆袖剑",
+	open_level  = 550,
+	gain        = [{12130226,1}],
+	cost        = [],
+	other_cost  = [12130125,12130625,12130725,12130825,12130925,12131025,12130225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_25,3}
+};
+find(12140126) -> #cfg_equip_combine{
+	id          = 12140126,
+	title       = "超时空女剑",
+	open_level  = 600,
+	gain        = [{12140126,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12140626) -> #cfg_equip_combine{
+	id          = 12140626,
+	title       = "超时空头巾",
+	open_level  = 600,
+	gain        = [{12140626,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12140726) -> #cfg_equip_combine{
+	id          = 12140726,
+	title       = "超时空战袍",
+	open_level  = 600,
+	gain        = [{12140726,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12140826) -> #cfg_equip_combine{
+	id          = 12140826,
+	title       = "超时空裙甲",
+	open_level  = 600,
+	gain        = [{12140826,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12140926) -> #cfg_equip_combine{
+	id          = 12140926,
+	title       = "超时空腕袖",
+	open_level  = 600,
+	gain        = [{12140926,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12141026) -> #cfg_equip_combine{
+	id          = 12141026,
+	title       = "超时空女靴",
+	open_level  = 600,
+	gain        = [{12141026,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12140226) -> #cfg_equip_combine{
+	id          = 12140226,
+	title       = "超时空袖剑",
+	open_level  = 600,
+	gain        = [{12140226,1}],
+	cost        = [],
+	other_cost  = [12140125,12140625,12140725,12140825,12140925,12141025,12140225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_25,3}
+};
+find(12150126) -> #cfg_equip_combine{
+	id          = 12150126,
+	title       = "起源女剑",
+	open_level  = 620,
+	gain        = [{12150126,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12150626) -> #cfg_equip_combine{
+	id          = 12150626,
+	title       = "起源头巾",
+	open_level  = 620,
+	gain        = [{12150626,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12150726) -> #cfg_equip_combine{
+	id          = 12150726,
+	title       = "起源战袍",
+	open_level  = 620,
+	gain        = [{12150726,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12150826) -> #cfg_equip_combine{
+	id          = 12150826,
+	title       = "起源裙甲",
+	open_level  = 620,
+	gain        = [{12150826,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12150926) -> #cfg_equip_combine{
+	id          = 12150926,
+	title       = "起源腕袖",
+	open_level  = 620,
+	gain        = [{12150926,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12151026) -> #cfg_equip_combine{
+	id          = 12151026,
+	title       = "起源女靴",
+	open_level  = 620,
+	gain        = [{12151026,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12150226) -> #cfg_equip_combine{
+	id          = 12150226,
+	title       = "起源袖剑",
+	open_level  = 620,
+	gain        = [{12150226,1}],
+	cost        = [],
+	other_cost  = [12150125,12150625,12150725,12150825,12150925,12151025,12150225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_25,3}
+};
+find(12160126) -> #cfg_equip_combine{
+	id          = 12160126,
+	title       = "创世女剑",
+	open_level  = 710,
+	gain        = [{12160126,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12160626) -> #cfg_equip_combine{
+	id          = 12160626,
+	title       = "创世头巾",
+	open_level  = 710,
+	gain        = [{12160626,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12160726) -> #cfg_equip_combine{
+	id          = 12160726,
+	title       = "创世战袍",
+	open_level  = 710,
+	gain        = [{12160726,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12160826) -> #cfg_equip_combine{
+	id          = 12160826,
+	title       = "创世裙甲",
+	open_level  = 710,
+	gain        = [{12160826,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12160926) -> #cfg_equip_combine{
+	id          = 12160926,
+	title       = "创世腕袖",
+	open_level  = 710,
+	gain        = [{12160926,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12161026) -> #cfg_equip_combine{
+	id          = 12161026,
+	title       = "创世女靴",
+	open_level  = 710,
+	gain        = [{12161026,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12160226) -> #cfg_equip_combine{
+	id          = 12160226,
+	title       = "创世袖剑",
+	open_level  = 710,
+	gain        = [{12160226,1}],
+	cost        = [],
+	other_cost  = [12160125,12160625,12160725,12160825,12160925,12161025,12160225],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_25,3}
+};
+find(12050136) -> #cfg_equip_combine{
+	id          = 12050136,
+	title       = "破魔女剑",
+	open_level  = 160,
+	gain        = [{12050136,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12050636) -> #cfg_equip_combine{
+	id          = 12050636,
+	title       = "破魔头巾",
+	open_level  = 160,
+	gain        = [{12050636,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12050736) -> #cfg_equip_combine{
+	id          = 12050736,
+	title       = "破魔战袍",
+	open_level  = 160,
+	gain        = [{12050736,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12050836) -> #cfg_equip_combine{
+	id          = 12050836,
+	title       = "破魔裙甲",
+	open_level  = 160,
+	gain        = [{12050836,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12050936) -> #cfg_equip_combine{
+	id          = 12050936,
+	title       = "破魔腕袖",
+	open_level  = 160,
+	gain        = [{12050936,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12051036) -> #cfg_equip_combine{
+	id          = 12051036,
+	title       = "破魔女靴",
+	open_level  = 160,
+	gain        = [{12051036,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12050236) -> #cfg_equip_combine{
+	id          = 12050236,
+	title       = "破魔袖剑",
+	open_level  = 160,
+	gain        = [{12050236,1}],
+	cost        = [],
+	other_cost  = [12050126,12050626,12050726,12050826,12050926,12051026,12050226,10000022,10000024,10000026,10000028,10000030,10000032,10000034],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equip_5_26,3}
+};
+find(12060136) -> #cfg_equip_combine{
+	id          = 12060136,
+	title       = "炎蟒女剑",
+	open_level  = 220,
+	gain        = [{12060136,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12060636) -> #cfg_equip_combine{
+	id          = 12060636,
+	title       = "炎蟒头巾",
+	open_level  = 220,
+	gain        = [{12060636,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12060736) -> #cfg_equip_combine{
+	id          = 12060736,
+	title       = "炎蟒战袍",
+	open_level  = 220,
+	gain        = [{12060736,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12060836) -> #cfg_equip_combine{
+	id          = 12060836,
+	title       = "炎蟒裙甲",
+	open_level  = 220,
+	gain        = [{12060836,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12060936) -> #cfg_equip_combine{
+	id          = 12060936,
+	title       = "炎蟒腕袖",
+	open_level  = 220,
+	gain        = [{12060936,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12061036) -> #cfg_equip_combine{
+	id          = 12061036,
+	title       = "炎蟒女靴",
+	open_level  = 220,
+	gain        = [{12061036,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12060236) -> #cfg_equip_combine{
+	id          = 12060236,
+	title       = "炎蟒袖剑",
+	open_level  = 220,
+	gain        = [{12060236,1}],
+	cost        = [],
+	other_cost  = [12060126,12060626,12060726,12060826,12060926,12061026,12060226,10000036,10000038,10000040,10000042,10000044,10000046,10000048],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equip_6_26,3}
+};
+find(12070136) -> #cfg_equip_combine{
+	id          = 12070136,
+	title       = "流光女剑",
+	open_level  = 240,
+	gain        = [{12070136,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12070636) -> #cfg_equip_combine{
+	id          = 12070636,
+	title       = "流光头巾",
+	open_level  = 240,
+	gain        = [{12070636,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12070736) -> #cfg_equip_combine{
+	id          = 12070736,
+	title       = "流光战袍",
+	open_level  = 240,
+	gain        = [{12070736,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12070836) -> #cfg_equip_combine{
+	id          = 12070836,
+	title       = "流光裙甲",
+	open_level  = 240,
+	gain        = [{12070836,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12070936) -> #cfg_equip_combine{
+	id          = 12070936,
+	title       = "流光腕袖",
+	open_level  = 240,
+	gain        = [{12070936,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12071036) -> #cfg_equip_combine{
+	id          = 12071036,
+	title       = "流光女靴",
+	open_level  = 240,
+	gain        = [{12071036,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12070236) -> #cfg_equip_combine{
+	id          = 12070236,
+	title       = "流光袖剑",
+	open_level  = 240,
+	gain        = [{12070236,1}],
+	cost        = [],
+	other_cost  = [12070126,12070626,12070726,12070826,12070926,12071026,12070226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equip_7_26,3}
+};
+find(12080136) -> #cfg_equip_combine{
+	id          = 12080136,
+	title       = "远古女剑",
+	open_level  = 260,
+	gain        = [{12080136,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12080636) -> #cfg_equip_combine{
+	id          = 12080636,
+	title       = "远古头巾",
+	open_level  = 260,
+	gain        = [{12080636,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12080736) -> #cfg_equip_combine{
+	id          = 12080736,
+	title       = "远古战袍",
+	open_level  = 260,
+	gain        = [{12080736,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12080836) -> #cfg_equip_combine{
+	id          = 12080836,
+	title       = "远古裙甲",
+	open_level  = 260,
+	gain        = [{12080836,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12080936) -> #cfg_equip_combine{
+	id          = 12080936,
+	title       = "远古腕袖",
+	open_level  = 260,
+	gain        = [{12080936,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12081036) -> #cfg_equip_combine{
+	id          = 12081036,
+	title       = "远古女靴",
+	open_level  = 260,
+	gain        = [{12081036,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12080236) -> #cfg_equip_combine{
+	id          = 12080236,
+	title       = "远古袖剑",
+	open_level  = 260,
+	gain        = [{12080236,1}],
+	cost        = [],
+	other_cost  = [12080126,12080626,12080726,12080826,12080926,12081026,12080226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_8_26,3}
+};
+find(12090136) -> #cfg_equip_combine{
+	id          = 12090136,
+	title       = "幽魂女剑",
+	open_level  = 300,
+	gain        = [{12090136,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12090636) -> #cfg_equip_combine{
+	id          = 12090636,
+	title       = "幽魂头巾",
+	open_level  = 300,
+	gain        = [{12090636,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12090736) -> #cfg_equip_combine{
+	id          = 12090736,
+	title       = "幽魂战袍",
+	open_level  = 300,
+	gain        = [{12090736,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12090836) -> #cfg_equip_combine{
+	id          = 12090836,
+	title       = "幽魂裙甲",
+	open_level  = 300,
+	gain        = [{12090836,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12090936) -> #cfg_equip_combine{
+	id          = 12090936,
+	title       = "幽魂腕袖",
+	open_level  = 300,
+	gain        = [{12090936,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12091036) -> #cfg_equip_combine{
+	id          = 12091036,
+	title       = "幽魂女靴",
+	open_level  = 300,
+	gain        = [{12091036,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12090236) -> #cfg_equip_combine{
+	id          = 12090236,
+	title       = "幽魂袖剑",
+	open_level  = 300,
+	gain        = [{12090236,1}],
+	cost        = [],
+	other_cost  = [12090126,12090626,12090726,12090826,12090926,12091026,12090226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_9_26,3}
+};
+find(12100136) -> #cfg_equip_combine{
+	id          = 12100136,
+	title       = "天劫女剑",
+	open_level  = 370,
+	gain        = [{12100136,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12100636) -> #cfg_equip_combine{
+	id          = 12100636,
+	title       = "天劫头巾",
+	open_level  = 370,
+	gain        = [{12100636,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12100736) -> #cfg_equip_combine{
+	id          = 12100736,
+	title       = "天劫战袍",
+	open_level  = 370,
+	gain        = [{12100736,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12100836) -> #cfg_equip_combine{
+	id          = 12100836,
+	title       = "天劫裙甲",
+	open_level  = 370,
+	gain        = [{12100836,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12100936) -> #cfg_equip_combine{
+	id          = 12100936,
+	title       = "天劫腕袖",
+	open_level  = 370,
+	gain        = [{12100936,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12101036) -> #cfg_equip_combine{
+	id          = 12101036,
+	title       = "天劫女靴",
+	open_level  = 370,
+	gain        = [{12101036,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12100236) -> #cfg_equip_combine{
+	id          = 12100236,
+	title       = "天劫袖剑",
+	open_level  = 370,
+	gain        = [{12100236,1}],
+	cost        = [],
+	other_cost  = [12100126,12100626,12100726,12100826,12100926,12101026,12100226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_10_26,3}
+};
+find(12110136) -> #cfg_equip_combine{
+	id          = 12110136,
+	title       = "天御女剑",
+	open_level  = 400,
+	gain        = [{12110136,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12110636) -> #cfg_equip_combine{
+	id          = 12110636,
+	title       = "天御头巾",
+	open_level  = 400,
+	gain        = [{12110636,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12110736) -> #cfg_equip_combine{
+	id          = 12110736,
+	title       = "天御战袍",
+	open_level  = 400,
+	gain        = [{12110736,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12110836) -> #cfg_equip_combine{
+	id          = 12110836,
+	title       = "天御裙甲",
+	open_level  = 400,
+	gain        = [{12110836,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12110936) -> #cfg_equip_combine{
+	id          = 12110936,
+	title       = "天御腕袖",
+	open_level  = 400,
+	gain        = [{12110936,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12111036) -> #cfg_equip_combine{
+	id          = 12111036,
+	title       = "天御女靴",
+	open_level  = 400,
+	gain        = [{12111036,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12110236) -> #cfg_equip_combine{
+	id          = 12110236,
+	title       = "天御袖剑",
+	open_level  = 400,
+	gain        = [{12110236,1}],
+	cost        = [],
+	other_cost  = [12110126,12110626,12110726,12110826,12110926,12111026,12110226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_11_26,3}
+};
+find(12120136) -> #cfg_equip_combine{
+	id          = 12120136,
+	title       = "万世荣光女剑",
+	open_level  = 500,
+	gain        = [{12120136,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12120636) -> #cfg_equip_combine{
+	id          = 12120636,
+	title       = "万世荣光头巾",
+	open_level  = 500,
+	gain        = [{12120636,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12120736) -> #cfg_equip_combine{
+	id          = 12120736,
+	title       = "万世荣光战袍",
+	open_level  = 500,
+	gain        = [{12120736,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12120836) -> #cfg_equip_combine{
+	id          = 12120836,
+	title       = "万世荣光裙甲",
+	open_level  = 500,
+	gain        = [{12120836,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12120936) -> #cfg_equip_combine{
+	id          = 12120936,
+	title       = "万世荣光腕袖",
+	open_level  = 500,
+	gain        = [{12120936,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12121036) -> #cfg_equip_combine{
+	id          = 12121036,
+	title       = "万世荣光女靴",
+	open_level  = 500,
+	gain        = [{12121036,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12120236) -> #cfg_equip_combine{
+	id          = 12120236,
+	title       = "万世荣光袖剑",
+	open_level  = 500,
+	gain        = [{12120236,1}],
+	cost        = [],
+	other_cost  = [12120126,12120626,12120726,12120826,12120926,12121026,12120226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_12_26,3}
+};
+find(12130136) -> #cfg_equip_combine{
+	id          = 12130136,
+	title       = "超大陆女剑",
+	open_level  = 550,
+	gain        = [{12130136,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12130636) -> #cfg_equip_combine{
+	id          = 12130636,
+	title       = "超大陆头巾",
+	open_level  = 550,
+	gain        = [{12130636,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12130736) -> #cfg_equip_combine{
+	id          = 12130736,
+	title       = "超大陆战袍",
+	open_level  = 550,
+	gain        = [{12130736,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12130836) -> #cfg_equip_combine{
+	id          = 12130836,
+	title       = "超大陆裙甲",
+	open_level  = 550,
+	gain        = [{12130836,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12130936) -> #cfg_equip_combine{
+	id          = 12130936,
+	title       = "超大陆腕袖",
+	open_level  = 550,
+	gain        = [{12130936,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12131036) -> #cfg_equip_combine{
+	id          = 12131036,
+	title       = "超大陆女靴",
+	open_level  = 550,
+	gain        = [{12131036,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12130236) -> #cfg_equip_combine{
+	id          = 12130236,
+	title       = "超大陆袖剑",
+	open_level  = 550,
+	gain        = [{12130236,1}],
+	cost        = [],
+	other_cost  = [12130126,12130626,12130726,12130826,12130926,12131026,12130226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_13_26,3}
+};
+find(12140136) -> #cfg_equip_combine{
+	id          = 12140136,
+	title       = "超时空女剑",
+	open_level  = 600,
+	gain        = [{12140136,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12140636) -> #cfg_equip_combine{
+	id          = 12140636,
+	title       = "超时空头巾",
+	open_level  = 600,
+	gain        = [{12140636,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12140736) -> #cfg_equip_combine{
+	id          = 12140736,
+	title       = "超时空战袍",
+	open_level  = 600,
+	gain        = [{12140736,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12140836) -> #cfg_equip_combine{
+	id          = 12140836,
+	title       = "超时空裙甲",
+	open_level  = 600,
+	gain        = [{12140836,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12140936) -> #cfg_equip_combine{
+	id          = 12140936,
+	title       = "超时空腕袖",
+	open_level  = 600,
+	gain        = [{12140936,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12141036) -> #cfg_equip_combine{
+	id          = 12141036,
+	title       = "超时空女靴",
+	open_level  = 600,
+	gain        = [{12141036,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12140236) -> #cfg_equip_combine{
+	id          = 12140236,
+	title       = "超时空袖剑",
+	open_level  = 600,
+	gain        = [{12140236,1}],
+	cost        = [],
+	other_cost  = [12140126,12140626,12140726,12140826,12140926,12141026,12140226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_14_26,3}
+};
+find(12150136) -> #cfg_equip_combine{
+	id          = 12150136,
+	title       = "起源女剑",
+	open_level  = 620,
+	gain        = [{12150136,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12150636) -> #cfg_equip_combine{
+	id          = 12150636,
+	title       = "起源头巾",
+	open_level  = 620,
+	gain        = [{12150636,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12150736) -> #cfg_equip_combine{
+	id          = 12150736,
+	title       = "起源战袍",
+	open_level  = 620,
+	gain        = [{12150736,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12150836) -> #cfg_equip_combine{
+	id          = 12150836,
+	title       = "起源裙甲",
+	open_level  = 620,
+	gain        = [{12150836,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12150936) -> #cfg_equip_combine{
+	id          = 12150936,
+	title       = "起源腕袖",
+	open_level  = 620,
+	gain        = [{12150936,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12151036) -> #cfg_equip_combine{
+	id          = 12151036,
+	title       = "起源女靴",
+	open_level  = 620,
+	gain        = [{12151036,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12150236) -> #cfg_equip_combine{
+	id          = 12150236,
+	title       = "起源袖剑",
+	open_level  = 620,
+	gain        = [{12150236,1}],
+	cost        = [],
+	other_cost  = [12150126,12150626,12150726,12150826,12150926,12151026,12150226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_15_26,3}
+};
+find(12160136) -> #cfg_equip_combine{
+	id          = 12160136,
+	title       = "创世女剑",
+	open_level  = 710,
+	gain        = [{12160136,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12160636) -> #cfg_equip_combine{
+	id          = 12160636,
+	title       = "创世头巾",
+	open_level  = 710,
+	gain        = [{12160636,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12160736) -> #cfg_equip_combine{
+	id          = 12160736,
+	title       = "创世战袍",
+	open_level  = 710,
+	gain        = [{12160736,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12160836) -> #cfg_equip_combine{
+	id          = 12160836,
+	title       = "创世裙甲",
+	open_level  = 710,
+	gain        = [{12160836,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12160936) -> #cfg_equip_combine{
+	id          = 12160936,
+	title       = "创世腕袖",
+	open_level  = 710,
+	gain        = [{12160936,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12161036) -> #cfg_equip_combine{
+	id          = 12161036,
+	title       = "创世女靴",
+	open_level  = 710,
+	gain        = [{12161036,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12160236) -> #cfg_equip_combine{
+	id          = 12160236,
+	title       = "创世袖剑",
+	open_level  = 710,
+	gain        = [{12160236,1}],
+	cost        = [],
+	other_cost  = [12160126,12160626,12160726,12160826,12160926,12161026,12160226],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equip_16_26,3}
+};
+find(12110137) -> #cfg_equip_combine{
+	id          = 12110137,
+	title       = "天御女剑",
+	open_level  = 420,
+	gain        = [{12110137,1}],
+	cost        = [{13103,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12110637) -> #cfg_equip_combine{
+	id          = 12110637,
+	title       = "天御头巾",
+	open_level  = 420,
+	gain        = [{12110637,1}],
+	cost        = [{13103,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12110737) -> #cfg_equip_combine{
+	id          = 12110737,
+	title       = "天御战袍",
+	open_level  = 420,
+	gain        = [{12110737,1}],
+	cost        = [{13103,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12110837) -> #cfg_equip_combine{
+	id          = 12110837,
+	title       = "天御裙甲",
+	open_level  = 420,
+	gain        = [{12110837,1}],
+	cost        = [{13103,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12110937) -> #cfg_equip_combine{
+	id          = 12110937,
+	title       = "天御腕袖",
+	open_level  = 420,
+	gain        = [{12110937,1}],
+	cost        = [{13103,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12111037) -> #cfg_equip_combine{
+	id          = 12111037,
+	title       = "天御女靴",
+	open_level  = 420,
+	gain        = [{12111037,1}],
+	cost        = [{13103,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12110237) -> #cfg_equip_combine{
+	id          = 12110237,
+	title       = "天御袖剑",
+	open_level  = 420,
+	gain        = [{12110237,1}],
+	cost        = [{13104,5}],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12120137) -> #cfg_equip_combine{
+	id          = 12120137,
+	title       = "万世荣光女剑",
+	open_level  = 520,
+	gain        = [{12120137,1}],
+	cost        = [{13103,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12120637) -> #cfg_equip_combine{
+	id          = 12120637,
+	title       = "万世荣光头巾",
+	open_level  = 520,
+	gain        = [{12120637,1}],
+	cost        = [{13103,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12120737) -> #cfg_equip_combine{
+	id          = 12120737,
+	title       = "万世荣光战袍",
+	open_level  = 520,
+	gain        = [{12120737,1}],
+	cost        = [{13103,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12120837) -> #cfg_equip_combine{
+	id          = 12120837,
+	title       = "万世荣光裙甲",
+	open_level  = 520,
+	gain        = [{12120837,1}],
+	cost        = [{13103,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12120937) -> #cfg_equip_combine{
+	id          = 12120937,
+	title       = "万世荣光腕袖",
+	open_level  = 520,
+	gain        = [{12120937,1}],
+	cost        = [{13103,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12121037) -> #cfg_equip_combine{
+	id          = 12121037,
+	title       = "万世荣光女靴",
+	open_level  = 520,
+	gain        = [{12121037,1}],
+	cost        = [{13103,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12120237) -> #cfg_equip_combine{
+	id          = 12120237,
+	title       = "万世荣光袖剑",
+	open_level  = 520,
+	gain        = [{12120237,1}],
+	cost        = [{13104,10}],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12130137) -> #cfg_equip_combine{
+	id          = 12130137,
+	title       = "超大陆女剑",
+	open_level  = 570,
+	gain        = [{12130137,1}],
+	cost        = [{13103,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12130637) -> #cfg_equip_combine{
+	id          = 12130637,
+	title       = "超大陆头巾",
+	open_level  = 570,
+	gain        = [{12130637,1}],
+	cost        = [{13103,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12130737) -> #cfg_equip_combine{
+	id          = 12130737,
+	title       = "超大陆战袍",
+	open_level  = 570,
+	gain        = [{12130737,1}],
+	cost        = [{13103,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12130837) -> #cfg_equip_combine{
+	id          = 12130837,
+	title       = "超大陆裙甲",
+	open_level  = 570,
+	gain        = [{12130837,1}],
+	cost        = [{13103,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12130937) -> #cfg_equip_combine{
+	id          = 12130937,
+	title       = "超大陆腕袖",
+	open_level  = 570,
+	gain        = [{12130937,1}],
+	cost        = [{13103,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12131037) -> #cfg_equip_combine{
+	id          = 12131037,
+	title       = "超大陆女靴",
+	open_level  = 570,
+	gain        = [{12131037,1}],
+	cost        = [{13103,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12130237) -> #cfg_equip_combine{
+	id          = 12130237,
+	title       = "超大陆袖剑",
+	open_level  = 570,
+	gain        = [{12130237,1}],
+	cost        = [{13104,14}],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12140137) -> #cfg_equip_combine{
+	id          = 12140137,
+	title       = "超时空女剑",
+	open_level  = 620,
+	gain        = [{12140137,1}],
+	cost        = [{13103,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12140637) -> #cfg_equip_combine{
+	id          = 12140637,
+	title       = "超时空头巾",
+	open_level  = 620,
+	gain        = [{12140637,1}],
+	cost        = [{13103,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12140737) -> #cfg_equip_combine{
+	id          = 12140737,
+	title       = "超时空战袍",
+	open_level  = 620,
+	gain        = [{12140737,1}],
+	cost        = [{13103,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12140837) -> #cfg_equip_combine{
+	id          = 12140837,
+	title       = "超时空裙甲",
+	open_level  = 620,
+	gain        = [{12140837,1}],
+	cost        = [{13103,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12140937) -> #cfg_equip_combine{
+	id          = 12140937,
+	title       = "超时空腕袖",
+	open_level  = 620,
+	gain        = [{12140937,1}],
+	cost        = [{13103,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12141037) -> #cfg_equip_combine{
+	id          = 12141037,
+	title       = "超时空女靴",
+	open_level  = 620,
+	gain        = [{12141037,1}],
+	cost        = [{13103,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12140237) -> #cfg_equip_combine{
+	id          = 12140237,
+	title       = "超时空袖剑",
+	open_level  = 620,
+	gain        = [{12140237,1}],
+	cost        = [{13104,20}],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12150137) -> #cfg_equip_combine{
+	id          = 12150137,
+	title       = "起源女剑",
+	open_level  = 640,
+	gain        = [{12150137,1}],
+	cost        = [{13103,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12150637) -> #cfg_equip_combine{
+	id          = 12150637,
+	title       = "起源头巾",
+	open_level  = 640,
+	gain        = [{12150637,1}],
+	cost        = [{13103,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12150737) -> #cfg_equip_combine{
+	id          = 12150737,
+	title       = "起源战袍",
+	open_level  = 640,
+	gain        = [{12150737,1}],
+	cost        = [{13103,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12150837) -> #cfg_equip_combine{
+	id          = 12150837,
+	title       = "起源裙甲",
+	open_level  = 640,
+	gain        = [{12150837,1}],
+	cost        = [{13103,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12150937) -> #cfg_equip_combine{
+	id          = 12150937,
+	title       = "起源腕袖",
+	open_level  = 640,
+	gain        = [{12150937,1}],
+	cost        = [{13103,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12151037) -> #cfg_equip_combine{
+	id          = 12151037,
+	title       = "起源女靴",
+	open_level  = 640,
+	gain        = [{12151037,1}],
+	cost        = [{13103,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12150237) -> #cfg_equip_combine{
+	id          = 12150237,
+	title       = "起源袖剑",
+	open_level  = 640,
+	gain        = [{12150237,1}],
+	cost        = [{13104,26}],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12160137) -> #cfg_equip_combine{
+	id          = 12160137,
+	title       = "创世女剑",
+	open_level  = 730,
+	gain        = [{12160137,1}],
+	cost        = [{13103,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12160637) -> #cfg_equip_combine{
+	id          = 12160637,
+	title       = "创世头巾",
+	open_level  = 730,
+	gain        = [{12160637,1}],
+	cost        = [{13103,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12160737) -> #cfg_equip_combine{
+	id          = 12160737,
+	title       = "创世战袍",
+	open_level  = 730,
+	gain        = [{12160737,1}],
+	cost        = [{13103,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12160837) -> #cfg_equip_combine{
+	id          = 12160837,
+	title       = "创世裙甲",
+	open_level  = 730,
+	gain        = [{12160837,1}],
+	cost        = [{13103,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12160937) -> #cfg_equip_combine{
+	id          = 12160937,
+	title       = "创世腕袖",
+	open_level  = 730,
+	gain        = [{12160937,1}],
+	cost        = [{13103,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12161037) -> #cfg_equip_combine{
+	id          = 12161037,
+	title       = "创世女靴",
+	open_level  = 730,
+	gain        = [{12161037,1}],
+	cost        = [{13103,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12160237) -> #cfg_equip_combine{
+	id          = 12160237,
+	title       = "创世袖剑",
+	open_level  = 730,
+	gain        = [{12160237,1}],
+	cost        = [{13104,32}],
+	other_cost  = [12160136,12160636,12160736,12160836,12160936,12161036,12160236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12090147) -> #cfg_equip_combine{
+	id          = 12090147,
+	title       = "幽魂女剑",
+	open_level  = 371,
+	gain        = [{12090147,1}],
+	cost        = [{13103,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12090647) -> #cfg_equip_combine{
+	id          = 12090647,
+	title       = "幽魂头巾",
+	open_level  = 371,
+	gain        = [{12090647,1}],
+	cost        = [{13103,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12090747) -> #cfg_equip_combine{
+	id          = 12090747,
+	title       = "幽魂战袍",
+	open_level  = 371,
+	gain        = [{12090747,1}],
+	cost        = [{13103,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12090847) -> #cfg_equip_combine{
+	id          = 12090847,
+	title       = "幽魂裙甲",
+	open_level  = 371,
+	gain        = [{12090847,1}],
+	cost        = [{13103,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12090947) -> #cfg_equip_combine{
+	id          = 12090947,
+	title       = "幽魂腕袖",
+	open_level  = 371,
+	gain        = [{12090947,1}],
+	cost        = [{13103,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12091047) -> #cfg_equip_combine{
+	id          = 12091047,
+	title       = "幽魂女靴",
+	open_level  = 371,
+	gain        = [{12091047,1}],
+	cost        = [{13103,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12090247) -> #cfg_equip_combine{
+	id          = 12090247,
+	title       = "幽魂袖剑",
+	open_level  = 371,
+	gain        = [{12090247,1}],
+	cost        = [{13104,1}],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12100147) -> #cfg_equip_combine{
+	id          = 12100147,
+	title       = "天劫女剑",
+	open_level  = 390,
+	gain        = [{12100147,1}],
+	cost        = [{13103,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12100647) -> #cfg_equip_combine{
+	id          = 12100647,
+	title       = "天劫头巾",
+	open_level  = 390,
+	gain        = [{12100647,1}],
+	cost        = [{13103,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12100747) -> #cfg_equip_combine{
+	id          = 12100747,
+	title       = "天劫战袍",
+	open_level  = 390,
+	gain        = [{12100747,1}],
+	cost        = [{13103,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12100847) -> #cfg_equip_combine{
+	id          = 12100847,
+	title       = "天劫裙甲",
+	open_level  = 390,
+	gain        = [{12100847,1}],
+	cost        = [{13103,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12100947) -> #cfg_equip_combine{
+	id          = 12100947,
+	title       = "天劫腕袖",
+	open_level  = 390,
+	gain        = [{12100947,1}],
+	cost        = [{13103,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12101047) -> #cfg_equip_combine{
+	id          = 12101047,
+	title       = "天劫女靴",
+	open_level  = 390,
+	gain        = [{12101047,1}],
+	cost        = [{13103,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12100247) -> #cfg_equip_combine{
+	id          = 12100247,
+	title       = "天劫袖剑",
+	open_level  = 390,
+	gain        = [{12100247,1}],
+	cost        = [{13104,3}],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(12110147) -> #cfg_equip_combine{
+	id          = 12110147,
+	title       = "天御女剑",
+	open_level  = 420,
+	gain        = [{12110147,1}],
+	cost        = [{13103,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12110647) -> #cfg_equip_combine{
+	id          = 12110647,
+	title       = "天御头巾",
+	open_level  = 420,
+	gain        = [{12110647,1}],
+	cost        = [{13103,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12110747) -> #cfg_equip_combine{
+	id          = 12110747,
+	title       = "天御战袍",
+	open_level  = 420,
+	gain        = [{12110747,1}],
+	cost        = [{13103,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12110847) -> #cfg_equip_combine{
+	id          = 12110847,
+	title       = "天御裙甲",
+	open_level  = 420,
+	gain        = [{12110847,1}],
+	cost        = [{13103,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12110947) -> #cfg_equip_combine{
+	id          = 12110947,
+	title       = "天御腕袖",
+	open_level  = 420,
+	gain        = [{12110947,1}],
+	cost        = [{13103,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12111047) -> #cfg_equip_combine{
+	id          = 12111047,
+	title       = "天御女靴",
+	open_level  = 420,
+	gain        = [{12111047,1}],
+	cost        = [{13103,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12110247) -> #cfg_equip_combine{
+	id          = 12110247,
+	title       = "天御袖剑",
+	open_level  = 420,
+	gain        = [{12110247,1}],
+	cost        = [{13104,8}],
+	other_cost  = [12110137,12110637,12110737,12110837,12110937,12111037,12110237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12120147) -> #cfg_equip_combine{
+	id          = 12120147,
+	title       = "万世荣光女剑",
+	open_level  = 520,
+	gain        = [{12120147,1}],
+	cost        = [{13103,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12120647) -> #cfg_equip_combine{
+	id          = 12120647,
+	title       = "万世荣光头巾",
+	open_level  = 520,
+	gain        = [{12120647,1}],
+	cost        = [{13103,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12120747) -> #cfg_equip_combine{
+	id          = 12120747,
+	title       = "万世荣光战袍",
+	open_level  = 520,
+	gain        = [{12120747,1}],
+	cost        = [{13103,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12120847) -> #cfg_equip_combine{
+	id          = 12120847,
+	title       = "万世荣光裙甲",
+	open_level  = 520,
+	gain        = [{12120847,1}],
+	cost        = [{13103,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12120947) -> #cfg_equip_combine{
+	id          = 12120947,
+	title       = "万世荣光腕袖",
+	open_level  = 520,
+	gain        = [{12120947,1}],
+	cost        = [{13103,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12121047) -> #cfg_equip_combine{
+	id          = 12121047,
+	title       = "万世荣光女靴",
+	open_level  = 520,
+	gain        = [{12121047,1}],
+	cost        = [{13103,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12120247) -> #cfg_equip_combine{
+	id          = 12120247,
+	title       = "万世荣光袖剑",
+	open_level  = 520,
+	gain        = [{12120247,1}],
+	cost        = [{13104,12}],
+	other_cost  = [12120137,12120637,12120737,12120837,12120937,12121037,12120237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12130147) -> #cfg_equip_combine{
+	id          = 12130147,
+	title       = "超大陆女剑",
+	open_level  = 570,
+	gain        = [{12130147,1}],
+	cost        = [{13103,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12130647) -> #cfg_equip_combine{
+	id          = 12130647,
+	title       = "超大陆头巾",
+	open_level  = 570,
+	gain        = [{12130647,1}],
+	cost        = [{13103,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12130747) -> #cfg_equip_combine{
+	id          = 12130747,
+	title       = "超大陆战袍",
+	open_level  = 570,
+	gain        = [{12130747,1}],
+	cost        = [{13103,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12130847) -> #cfg_equip_combine{
+	id          = 12130847,
+	title       = "超大陆裙甲",
+	open_level  = 570,
+	gain        = [{12130847,1}],
+	cost        = [{13103,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12130947) -> #cfg_equip_combine{
+	id          = 12130947,
+	title       = "超大陆腕袖",
+	open_level  = 570,
+	gain        = [{12130947,1}],
+	cost        = [{13103,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12131047) -> #cfg_equip_combine{
+	id          = 12131047,
+	title       = "超大陆女靴",
+	open_level  = 570,
+	gain        = [{12131047,1}],
+	cost        = [{13103,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12130247) -> #cfg_equip_combine{
+	id          = 12130247,
+	title       = "超大陆袖剑",
+	open_level  = 570,
+	gain        = [{12130247,1}],
+	cost        = [{13104,18}],
+	other_cost  = [12130137,12130637,12130737,12130837,12130937,12131037,12130237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12140147) -> #cfg_equip_combine{
+	id          = 12140147,
+	title       = "超时空女剑",
+	open_level  = 620,
+	gain        = [{12140147,1}],
+	cost        = [{13103,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12140647) -> #cfg_equip_combine{
+	id          = 12140647,
+	title       = "超时空头巾",
+	open_level  = 620,
+	gain        = [{12140647,1}],
+	cost        = [{13103,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12140747) -> #cfg_equip_combine{
+	id          = 12140747,
+	title       = "超时空战袍",
+	open_level  = 620,
+	gain        = [{12140747,1}],
+	cost        = [{13103,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12140847) -> #cfg_equip_combine{
+	id          = 12140847,
+	title       = "超时空裙甲",
+	open_level  = 620,
+	gain        = [{12140847,1}],
+	cost        = [{13103,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12140947) -> #cfg_equip_combine{
+	id          = 12140947,
+	title       = "超时空腕袖",
+	open_level  = 620,
+	gain        = [{12140947,1}],
+	cost        = [{13103,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12141047) -> #cfg_equip_combine{
+	id          = 12141047,
+	title       = "超时空女靴",
+	open_level  = 620,
+	gain        = [{12141047,1}],
+	cost        = [{13103,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12140247) -> #cfg_equip_combine{
+	id          = 12140247,
+	title       = "超时空袖剑",
+	open_level  = 620,
+	gain        = [{12140247,1}],
+	cost        = [{13104,24}],
+	other_cost  = [12140137,12140637,12140737,12140837,12140937,12141037,12140237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12150147) -> #cfg_equip_combine{
+	id          = 12150147,
+	title       = "起源女剑",
+	open_level  = 640,
+	gain        = [{12150147,1}],
+	cost        = [{13103,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12150647) -> #cfg_equip_combine{
+	id          = 12150647,
+	title       = "起源头巾",
+	open_level  = 640,
+	gain        = [{12150647,1}],
+	cost        = [{13103,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12150747) -> #cfg_equip_combine{
+	id          = 12150747,
+	title       = "起源战袍",
+	open_level  = 640,
+	gain        = [{12150747,1}],
+	cost        = [{13103,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12150847) -> #cfg_equip_combine{
+	id          = 12150847,
+	title       = "起源裙甲",
+	open_level  = 640,
+	gain        = [{12150847,1}],
+	cost        = [{13103,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12150947) -> #cfg_equip_combine{
+	id          = 12150947,
+	title       = "起源腕袖",
+	open_level  = 640,
+	gain        = [{12150947,1}],
+	cost        = [{13103,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12151047) -> #cfg_equip_combine{
+	id          = 12151047,
+	title       = "起源女靴",
+	open_level  = 640,
+	gain        = [{12151047,1}],
+	cost        = [{13103,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12150247) -> #cfg_equip_combine{
+	id          = 12150247,
+	title       = "起源袖剑",
+	open_level  = 640,
+	gain        = [{12150247,1}],
+	cost        = [{13104,30}],
+	other_cost  = [12150137,12150637,12150737,12150837,12150937,12151037,12150237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12160147) -> #cfg_equip_combine{
+	id          = 12160147,
+	title       = "创世女剑",
+	open_level  = 730,
+	gain        = [{12160147,1}],
+	cost        = [{13103,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12160647) -> #cfg_equip_combine{
+	id          = 12160647,
+	title       = "创世头巾",
+	open_level  = 730,
+	gain        = [{12160647,1}],
+	cost        = [{13103,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12160747) -> #cfg_equip_combine{
+	id          = 12160747,
+	title       = "创世战袍",
+	open_level  = 730,
+	gain        = [{12160747,1}],
+	cost        = [{13103,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12160847) -> #cfg_equip_combine{
+	id          = 12160847,
+	title       = "创世裙甲",
+	open_level  = 730,
+	gain        = [{12160847,1}],
+	cost        = [{13103,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12160947) -> #cfg_equip_combine{
+	id          = 12160947,
+	title       = "创世腕袖",
+	open_level  = 730,
+	gain        = [{12160947,1}],
+	cost        = [{13103,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12161047) -> #cfg_equip_combine{
+	id          = 12161047,
+	title       = "创世女靴",
+	open_level  = 730,
+	gain        = [{12161047,1}],
+	cost        = [{13103,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(12160247) -> #cfg_equip_combine{
+	id          = 12160247,
+	title       = "创世袖剑",
+	open_level  = 730,
+	gain        = [{12160247,1}],
+	cost        = [{13104,36}],
+	other_cost  = [12160137,12160637,12160737,12160837,12160937,12161037,12160237],
+	min_num     = 1,
+	max_num     = 1,
+	probs       = [{1,100}],
+	compose_key = undefined
+};
+find(11050326) -> #cfg_equip_combine{
+	id          = 11050326,
+	title       = "破魔项链",
+	open_level  = 160,
+	gain        = [{11050326,1}],
+	cost        = [],
+	other_cost  = [11050325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,90},{4,95},{5,100}],
+	compose_key = {equipx_5_25,3}
+};
+find(11060326) -> #cfg_equip_combine{
+	id          = 11060326,
+	title       = "炎蟒项链",
+	open_level  = 220,
+	gain        = [{11060326,1}],
+	cost        = [],
+	other_cost  = [11060325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,85},{4,90},{5,100}],
+	compose_key = {equipx_6_25,3}
+};
+find(11070326) -> #cfg_equip_combine{
+	id          = 11070326,
+	title       = "流光项链",
+	open_level  = 240,
+	gain        = [{11070326,1}],
+	cost        = [],
+	other_cost  = [11070325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,80},{4,90},{5,100}],
+	compose_key = {equipx_7_25,3}
+};
+find(11080326) -> #cfg_equip_combine{
+	id          = 11080326,
+	title       = "远古项链",
+	open_level  = 260,
+	gain        = [{11080326,1}],
+	cost        = [],
+	other_cost  = [11080325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_8_25,3}
+};
+find(11090326) -> #cfg_equip_combine{
+	id          = 11090326,
+	title       = "幽魂项链",
+	open_level  = 300,
+	gain        = [{11090326,1}],
+	cost        = [],
+	other_cost  = [11090325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_9_25,3}
+};
+find(11100326) -> #cfg_equip_combine{
+	id          = 11100326,
+	title       = "天劫项链",
+	open_level  = 370,
+	gain        = [{11100326,1}],
+	cost        = [],
+	other_cost  = [11100325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_10_25,3}
+};
+find(11110326) -> #cfg_equip_combine{
+	id          = 11110326,
+	title       = "天御项链",
+	open_level  = 400,
+	gain        = [{11110326,1}],
+	cost        = [],
+	other_cost  = [11110325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_11_25,3}
+};
+find(11120326) -> #cfg_equip_combine{
+	id          = 11120326,
+	title       = "万世荣光项链",
+	open_level  = 500,
+	gain        = [{11120326,1}],
+	cost        = [],
+	other_cost  = [11120325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_12_25,3}
+};
+find(11130326) -> #cfg_equip_combine{
+	id          = 11130326,
+	title       = "超大陆项链",
+	open_level  = 550,
+	gain        = [{11130326,1}],
+	cost        = [],
+	other_cost  = [11130325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_13_25,3}
+};
+find(11140326) -> #cfg_equip_combine{
+	id          = 11140326,
+	title       = "超时空项链",
+	open_level  = 600,
+	gain        = [{11140326,1}],
+	cost        = [],
+	other_cost  = [11140325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_14_25,3}
+};
+find(11150326) -> #cfg_equip_combine{
+	id          = 11150326,
+	title       = "起源项链",
+	open_level  = 620,
+	gain        = [{11150326,1}],
+	cost        = [],
+	other_cost  = [11150325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_15_25,3}
+};
+find(11160326) -> #cfg_equip_combine{
+	id          = 11160326,
+	title       = "创世项链",
+	open_level  = 710,
+	gain        = [{11160326,1}],
+	cost        = [],
+	other_cost  = [11160325],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_16_25,3}
+};
+find(11050336) -> #cfg_equip_combine{
+	id          = 11050336,
+	title       = "破魔项链",
+	open_level  = 160,
+	gain        = [{11050336,1}],
+	cost        = [],
+	other_cost  = [11050326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_5_26,3}
+};
+find(11060336) -> #cfg_equip_combine{
+	id          = 11060336,
+	title       = "炎蟒项链",
+	open_level  = 220,
+	gain        = [{11060336,1}],
+	cost        = [],
+	other_cost  = [11060326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_6_26,3}
+};
+find(11070336) -> #cfg_equip_combine{
+	id          = 11070336,
+	title       = "流光项链",
+	open_level  = 240,
+	gain        = [{11070336,1}],
+	cost        = [],
+	other_cost  = [11070326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_7_26,3}
+};
+find(11080336) -> #cfg_equip_combine{
+	id          = 11080336,
+	title       = "远古项链",
+	open_level  = 260,
+	gain        = [{11080336,1}],
+	cost        = [],
+	other_cost  = [11080326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_8_26,3}
+};
+find(11090336) -> #cfg_equip_combine{
+	id          = 11090336,
+	title       = "幽魂项链",
+	open_level  = 300,
+	gain        = [{11090336,1}],
+	cost        = [],
+	other_cost  = [11090326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_9_26,3}
+};
+find(11100336) -> #cfg_equip_combine{
+	id          = 11100336,
+	title       = "天劫项链",
+	open_level  = 370,
+	gain        = [{11100336,1}],
+	cost        = [],
+	other_cost  = [11100326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_10_26,3}
+};
+find(11110336) -> #cfg_equip_combine{
+	id          = 11110336,
+	title       = "天御项链",
+	open_level  = 400,
+	gain        = [{11110336,1}],
+	cost        = [],
+	other_cost  = [11110326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_11_26,3}
+};
+find(11120336) -> #cfg_equip_combine{
+	id          = 11120336,
+	title       = "万世荣光项链",
+	open_level  = 500,
+	gain        = [{11120336,1}],
+	cost        = [],
+	other_cost  = [11120326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_12_26,3}
+};
+find(11130336) -> #cfg_equip_combine{
+	id          = 11130336,
+	title       = "超大陆项链",
+	open_level  = 550,
+	gain        = [{11130336,1}],
+	cost        = [],
+	other_cost  = [11130326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_13_26,3}
+};
+find(11140336) -> #cfg_equip_combine{
+	id          = 11140336,
+	title       = "超时空项链",
+	open_level  = 600,
+	gain        = [{11140336,1}],
+	cost        = [],
+	other_cost  = [11140326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_14_26,3}
+};
+find(11150336) -> #cfg_equip_combine{
+	id          = 11150336,
+	title       = "起源项链",
+	open_level  = 620,
+	gain        = [{11150336,1}],
+	cost        = [],
+	other_cost  = [11150326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_15_26,3}
+};
+find(11160336) -> #cfg_equip_combine{
+	id          = 11160336,
+	title       = "创世项链",
+	open_level  = 710,
+	gain        = [{11160336,1}],
+	cost        = [],
+	other_cost  = [11160326],
+	min_num     = 3,
+	max_num     = 5,
+	probs       = [{3,75},{4,88},{5,100}],
+	compose_key = {equipx_16_26,3}
+};
+find(11110337) -> #cfg_equip_combine{
+	id          = 11110337,
+	title       = "天御项链",
+	open_level  = 420,
+	gain        = [{11110337,1}],
+	cost        = [{11110336,3},{13104,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120337) -> #cfg_equip_combine{
+	id          = 11120337,
+	title       = "万世荣光项链",
+	open_level  = 520,
+	gain        = [{11120337,1}],
+	cost        = [{11120336,3},{13104,10}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130337) -> #cfg_equip_combine{
+	id          = 11130337,
+	title       = "超大陆项链",
+	open_level  = 570,
+	gain        = [{11130337,1}],
+	cost        = [{11130336,3},{13104,14}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140337) -> #cfg_equip_combine{
+	id          = 11140337,
+	title       = "超时空项链",
+	open_level  = 620,
+	gain        = [{11140337,1}],
+	cost        = [{11140336,3},{13104,20}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150337) -> #cfg_equip_combine{
+	id          = 11150337,
+	title       = "起源项链",
+	open_level  = 640,
+	gain        = [{11150337,1}],
+	cost        = [{11150336,3},{13104,26}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160337) -> #cfg_equip_combine{
+	id          = 11160337,
+	title       = "创世项链",
+	open_level  = 730,
+	gain        = [{11160337,1}],
+	cost        = [{11160336,3},{13104,32}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090347) -> #cfg_equip_combine{
+	id          = 11090347,
+	title       = "幽魂项链",
+	open_level  = 371,
+	gain        = [{11090347,1}],
+	cost        = [{11090336,3},{13104,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100347) -> #cfg_equip_combine{
+	id          = 11100347,
+	title       = "天劫项链",
+	open_level  = 390,
+	gain        = [{11100347,1}],
+	cost        = [{11100336,3},{13104,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110347) -> #cfg_equip_combine{
+	id          = 11110347,
+	title       = "天御项链",
+	open_level  = 420,
+	gain        = [{11110347,1}],
+	cost        = [{11110337,1},{13104,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120347) -> #cfg_equip_combine{
+	id          = 11120347,
+	title       = "万世荣光项链",
+	open_level  = 520,
+	gain        = [{11120347,1}],
+	cost        = [{11120337,1},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130347) -> #cfg_equip_combine{
+	id          = 11130347,
+	title       = "超大陆项链",
+	open_level  = 570,
+	gain        = [{11130347,1}],
+	cost        = [{11130337,1},{13104,18}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140347) -> #cfg_equip_combine{
+	id          = 11140347,
+	title       = "超时空项链",
+	open_level  = 620,
+	gain        = [{11140347,1}],
+	cost        = [{11140337,1},{13104,24}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150347) -> #cfg_equip_combine{
+	id          = 11150347,
+	title       = "起源项链",
+	open_level  = 640,
+	gain        = [{11150347,1}],
+	cost        = [{11150337,1},{13104,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160347) -> #cfg_equip_combine{
+	id          = 11160347,
+	title       = "创世项链",
+	open_level  = 730,
+	gain        = [{11160347,1}],
+	cost        = [{11160337,1},{13104,36}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11070414) -> #cfg_equip_combine{
+	id          = 11070414,
+	title       = "流光戒指",
+	open_level  = 240,
+	gain        = [{11070414,1}],
+	cost        = [{11060403,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11070514) -> #cfg_equip_combine{
+	id          = 11070514,
+	title       = "流光手镯",
+	open_level  = 240,
+	gain        = [{11070514,1}],
+	cost        = [{11060503,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11070425) -> #cfg_equip_combine{
+	id          = 11070425,
+	title       = "流光戒指",
+	open_level  = 240,
+	gain        = [{11070425,1}],
+	cost        = [{11070415,2},{13105,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11070525) -> #cfg_equip_combine{
+	id          = 11070525,
+	title       = "流光手镯",
+	open_level  = 240,
+	gain        = [{11070525,1}],
+	cost        = [{11070515,2},{13106,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090426) -> #cfg_equip_combine{
+	id          = 11090426,
+	title       = "幽魂戒指",
+	open_level  = 240,
+	gain        = [{11090426,1}],
+	cost        = [{11090416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090526) -> #cfg_equip_combine{
+	id          = 11090526,
+	title       = "幽魂手镯",
+	open_level  = 240,
+	gain        = [{11090526,1}],
+	cost        = [{11090516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100426) -> #cfg_equip_combine{
+	id          = 11100426,
+	title       = "天劫戒指",
+	open_level  = 240,
+	gain        = [{11100426,1}],
+	cost        = [{11100416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100526) -> #cfg_equip_combine{
+	id          = 11100526,
+	title       = "天劫手镯",
+	open_level  = 240,
+	gain        = [{11100526,1}],
+	cost        = [{11100516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110426) -> #cfg_equip_combine{
+	id          = 11110426,
+	title       = "天御戒指",
+	open_level  = 240,
+	gain        = [{11110426,1}],
+	cost        = [{11110416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110526) -> #cfg_equip_combine{
+	id          = 11110526,
+	title       = "天御手镯",
+	open_level  = 240,
+	gain        = [{11110526,1}],
+	cost        = [{11110516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120426) -> #cfg_equip_combine{
+	id          = 11120426,
+	title       = "万世荣光戒指",
+	open_level  = 240,
+	gain        = [{11120426,1}],
+	cost        = [{11120416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120526) -> #cfg_equip_combine{
+	id          = 11120526,
+	title       = "万世荣光手镯",
+	open_level  = 240,
+	gain        = [{11120526,1}],
+	cost        = [{11120516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130426) -> #cfg_equip_combine{
+	id          = 11130426,
+	title       = "超大陆戒指",
+	open_level  = 240,
+	gain        = [{11130426,1}],
+	cost        = [{11130416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130526) -> #cfg_equip_combine{
+	id          = 11130526,
+	title       = "超大陆手镯",
+	open_level  = 240,
+	gain        = [{11130526,1}],
+	cost        = [{11130516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140426) -> #cfg_equip_combine{
+	id          = 11140426,
+	title       = "超时空戒指",
+	open_level  = 240,
+	gain        = [{11140426,1}],
+	cost        = [{11140416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140526) -> #cfg_equip_combine{
+	id          = 11140526,
+	title       = "超时空手镯",
+	open_level  = 240,
+	gain        = [{11140526,1}],
+	cost        = [{11140516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150426) -> #cfg_equip_combine{
+	id          = 11150426,
+	title       = "起源戒指",
+	open_level  = 240,
+	gain        = [{11150426,1}],
+	cost        = [{11150416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150526) -> #cfg_equip_combine{
+	id          = 11150526,
+	title       = "起源手镯",
+	open_level  = 240,
+	gain        = [{11150526,1}],
+	cost        = [{11150516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160426) -> #cfg_equip_combine{
+	id          = 11160426,
+	title       = "创世戒指",
+	open_level  = 240,
+	gain        = [{11160426,1}],
+	cost        = [{11160416,1},{13105,1},{11070415,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160526) -> #cfg_equip_combine{
+	id          = 11160526,
+	title       = "创世手镯",
+	open_level  = 240,
+	gain        = [{11160526,1}],
+	cost        = [{11160516,1},{13106,1},{11070515,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090436) -> #cfg_equip_combine{
+	id          = 11090436,
+	title       = "幽魂戒指",
+	open_level  = 240,
+	gain        = [{11090436,1}],
+	cost        = [{11090426,1},{13105,2}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090536) -> #cfg_equip_combine{
+	id          = 11090536,
+	title       = "幽魂手镯",
+	open_level  = 240,
+	gain        = [{11090536,1}],
+	cost        = [{11090526,1},{13106,2}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100436) -> #cfg_equip_combine{
+	id          = 11100436,
+	title       = "天劫戒指",
+	open_level  = 240,
+	gain        = [{11100436,1}],
+	cost        = [{11100426,1},{13105,2},{13104,2}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100536) -> #cfg_equip_combine{
+	id          = 11100536,
+	title       = "天劫手镯",
+	open_level  = 240,
+	gain        = [{11100536,1}],
+	cost        = [{11100526,1},{13106,2},{13104,2}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110436) -> #cfg_equip_combine{
+	id          = 11110436,
+	title       = "天御戒指",
+	open_level  = 240,
+	gain        = [{11110436,1}],
+	cost        = [{11110426,1},{13105,2},{13104,6}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110536) -> #cfg_equip_combine{
+	id          = 11110536,
+	title       = "天御手镯",
+	open_level  = 240,
+	gain        = [{11110536,1}],
+	cost        = [{11110526,1},{13106,2},{13104,6}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120436) -> #cfg_equip_combine{
+	id          = 11120436,
+	title       = "万世荣光戒指",
+	open_level  = 240,
+	gain        = [{11120436,1}],
+	cost        = [{11120426,1},{13105,2},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120536) -> #cfg_equip_combine{
+	id          = 11120536,
+	title       = "万世荣光手镯",
+	open_level  = 240,
+	gain        = [{11120536,1}],
+	cost        = [{11120526,1},{13106,2},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130436) -> #cfg_equip_combine{
+	id          = 11130436,
+	title       = "超大陆戒指",
+	open_level  = 240,
+	gain        = [{11130436,1}],
+	cost        = [{11130426,1},{13105,2},{13104,21}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130536) -> #cfg_equip_combine{
+	id          = 11130536,
+	title       = "超大陆手镯",
+	open_level  = 240,
+	gain        = [{11130536,1}],
+	cost        = [{11130526,1},{13106,2},{13104,21}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140436) -> #cfg_equip_combine{
+	id          = 11140436,
+	title       = "超时空戒指",
+	open_level  = 240,
+	gain        = [{11140436,1}],
+	cost        = [{11140426,1},{13105,2},{13104,33}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140536) -> #cfg_equip_combine{
+	id          = 11140536,
+	title       = "超时空手镯",
+	open_level  = 240,
+	gain        = [{11140536,1}],
+	cost        = [{11140526,1},{13106,2},{13104,33}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150436) -> #cfg_equip_combine{
+	id          = 11150436,
+	title       = "起源戒指",
+	open_level  = 240,
+	gain        = [{11150436,1}],
+	cost        = [{11150426,1},{13105,2},{13104,48}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150536) -> #cfg_equip_combine{
+	id          = 11150536,
+	title       = "起源手镯",
+	open_level  = 240,
+	gain        = [{11150536,1}],
+	cost        = [{11150526,1},{13106,2},{13104,48}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160436) -> #cfg_equip_combine{
+	id          = 11160436,
+	title       = "创世戒指",
+	open_level  = 240,
+	gain        = [{11160436,1}],
+	cost        = [{11160426,1},{13105,2},{13104,66}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160536) -> #cfg_equip_combine{
+	id          = 11160536,
+	title       = "创世手镯",
+	open_level  = 240,
+	gain        = [{11160536,1}],
+	cost        = [{11160526,1},{13106,2},{13104,66}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090447) -> #cfg_equip_combine{
+	id          = 11090447,
+	title       = "幽魂戒指",
+	open_level  = 240,
+	gain        = [{11090447,1}],
+	cost        = [{11090436,1},{13105,2},{13104,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11090547) -> #cfg_equip_combine{
+	id          = 11090547,
+	title       = "幽魂手镯",
+	open_level  = 240,
+	gain        = [{11090547,1}],
+	cost        = [{11090536,1},{13106,2},{13104,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100447) -> #cfg_equip_combine{
+	id          = 11100447,
+	title       = "天劫戒指",
+	open_level  = 240,
+	gain        = [{11100447,1}],
+	cost        = [{11100436,1},{13105,2},{13104,2}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11100547) -> #cfg_equip_combine{
+	id          = 11100547,
+	title       = "天劫手镯",
+	open_level  = 240,
+	gain        = [{11100547,1}],
+	cost        = [{11100536,1},{13106,2},{13104,2}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110447) -> #cfg_equip_combine{
+	id          = 11110447,
+	title       = "天御戒指",
+	open_level  = 240,
+	gain        = [{11110447,1}],
+	cost        = [{11110436,1},{13105,2},{13104,6}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11110547) -> #cfg_equip_combine{
+	id          = 11110547,
+	title       = "天御手镯",
+	open_level  = 240,
+	gain        = [{11110547,1}],
+	cost        = [{11110536,1},{13106,2},{13104,6}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120447) -> #cfg_equip_combine{
+	id          = 11120447,
+	title       = "万世荣光戒指",
+	open_level  = 240,
+	gain        = [{11120447,1}],
+	cost        = [{11120436,1},{13105,2},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11120547) -> #cfg_equip_combine{
+	id          = 11120547,
+	title       = "万世荣光手镯",
+	open_level  = 240,
+	gain        = [{11120547,1}],
+	cost        = [{11120536,1},{13106,2},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130447) -> #cfg_equip_combine{
+	id          = 11130447,
+	title       = "超大陆戒指",
+	open_level  = 240,
+	gain        = [{11130447,1}],
+	cost        = [{11130436,1},{13105,2},{13104,21}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11130547) -> #cfg_equip_combine{
+	id          = 11130547,
+	title       = "超大陆手镯",
+	open_level  = 240,
+	gain        = [{11130547,1}],
+	cost        = [{11130536,1},{13106,2},{13104,21}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140447) -> #cfg_equip_combine{
+	id          = 11140447,
+	title       = "超时空戒指",
+	open_level  = 240,
+	gain        = [{11140447,1}],
+	cost        = [{11140436,1},{13105,2},{13104,33}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11140547) -> #cfg_equip_combine{
+	id          = 11140547,
+	title       = "超时空手镯",
+	open_level  = 240,
+	gain        = [{11140547,1}],
+	cost        = [{11140536,1},{13106,2},{13104,33}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150447) -> #cfg_equip_combine{
+	id          = 11150447,
+	title       = "起源戒指",
+	open_level  = 240,
+	gain        = [{11150447,1}],
+	cost        = [{11150436,1},{13105,2},{13104,48}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11150547) -> #cfg_equip_combine{
+	id          = 11150547,
+	title       = "起源手镯",
+	open_level  = 240,
+	gain        = [{11150547,1}],
+	cost        = [{11150536,1},{13106,2},{13104,48}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160447) -> #cfg_equip_combine{
+	id          = 11160447,
+	title       = "创世戒指",
+	open_level  = 240,
+	gain        = [{11160447,1}],
+	cost        = [{11160436,1},{13105,2},{13104,66}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11160547) -> #cfg_equip_combine{
+	id          = 11160547,
+	title       = "创世手镯",
+	open_level  = 240,
+	gain        = [{11160547,1}],
+	cost        = [{11160536,1},{13106,2},{13104,66}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11121) -> #cfg_equip_combine{
+	id          = 11121,
+	title       = "金徽章",
+	open_level  = 110,
+	gain        = [{11121,1}],
+	cost        = [{11120,20}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11135) -> #cfg_equip_combine{
+	id          = 11135,
+	title       = "9朵花",
+	open_level  = 170,
+	gain        = [{11129,1}],
+	cost        = [{11128,9}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11136) -> #cfg_equip_combine{
+	id          = 11136,
+	title       = "99朵花",
+	open_level  = 170,
+	gain        = [{11130,1}],
+	cost        = [{11129,11}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11139) -> #cfg_equip_combine{
+	id          = 11139,
+	title       = "999朵花",
+	open_level  = 170,
+	gain        = [{11131,1}],
+	cost        = [{11130,10}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(12009) -> #cfg_equip_combine{
+	id          = 12009,
+	title       = "觉醒石",
+	open_level  = 20,
+	gain        = [{12009,1}],
+	cost        = [{13102,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(11104) -> #cfg_equip_combine{
+	id          = 11104,
+	title       = "公会",
+	open_level  = 80,
+	gain        = [{11104,1}],
+	cost        = [{11106,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(13103) -> #cfg_equip_combine{
+	id          = 13103,
+	title       = "装备星陨",
+	open_level  = 300,
+	gain        = [{13103,1}],
+	cost        = [{100058,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(13104) -> #cfg_equip_combine{
+	id          = 13104,
+	title       = "首饰星陨",
+	open_level  = 300,
+	gain        = [{13104,1}],
+	cost        = [{100059,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(13153) -> #cfg_equip_combine{
+	id          = 13153,
+	title       = "灵器星陨",
+	open_level  = 300,
+	gain        = [{13153,1}],
+	cost        = [{13154,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(13175) -> #cfg_equip_combine{
+	id          = 13175,
+	title       = "宠装星陨",
+	open_level  = 390,
+	gain        = [{13175,1}],
+	cost        = [{13176,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30010) -> #cfg_equip_combine{
+	id          = 30010,
+	title       = "异兽星陨",
+	open_level  = 390,
+	gain        = [{30010,1}],
+	cost        = [{30011,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(300004) -> #cfg_equip_combine{
+	id          = 300004,
+	title       = "图腾星陨",
+	open_level  = 450,
+	gain        = [{300004,1}],
+	cost        = [{300005,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100033) -> #cfg_equip_combine{
+	id          = 100033,
+	title       = "2级攻击宝石",
+	open_level  = 105,
+	gain        = [{100033,1}],
+	cost        = [{100032,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100034) -> #cfg_equip_combine{
+	id          = 100034,
+	title       = "3级攻击宝石",
+	open_level  = 105,
+	gain        = [{100034,1}],
+	cost        = [{100033,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100035) -> #cfg_equip_combine{
+	id          = 100035,
+	title       = "4级攻击宝石",
+	open_level  = 105,
+	gain        = [{100035,1}],
+	cost        = [{100034,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100036) -> #cfg_equip_combine{
+	id          = 100036,
+	title       = "5级攻击宝石",
+	open_level  = 105,
+	gain        = [{100036,1}],
+	cost        = [{100035,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100037) -> #cfg_equip_combine{
+	id          = 100037,
+	title       = "6级攻击宝石",
+	open_level  = 105,
+	gain        = [{100037,1}],
+	cost        = [{100036,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100038) -> #cfg_equip_combine{
+	id          = 100038,
+	title       = "7级攻击宝石",
+	open_level  = 105,
+	gain        = [{100038,1}],
+	cost        = [{100037,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100039) -> #cfg_equip_combine{
+	id          = 100039,
+	title       = "8级攻击宝石",
+	open_level  = 105,
+	gain        = [{100039,1}],
+	cost        = [{100038,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100040) -> #cfg_equip_combine{
+	id          = 100040,
+	title       = "9级攻击宝石",
+	open_level  = 105,
+	gain        = [{100040,1}],
+	cost        = [{100039,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100042) -> #cfg_equip_combine{
+	id          = 100042,
+	title       = "2级防御宝石",
+	open_level  = 105,
+	gain        = [{100042,1}],
+	cost        = [{100041,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100043) -> #cfg_equip_combine{
+	id          = 100043,
+	title       = "3级防御宝石",
+	open_level  = 105,
+	gain        = [{100043,1}],
+	cost        = [{100042,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100044) -> #cfg_equip_combine{
+	id          = 100044,
+	title       = "4级防御宝石",
+	open_level  = 105,
+	gain        = [{100044,1}],
+	cost        = [{100043,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100045) -> #cfg_equip_combine{
+	id          = 100045,
+	title       = "5级防御宝石",
+	open_level  = 105,
+	gain        = [{100045,1}],
+	cost        = [{100044,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100046) -> #cfg_equip_combine{
+	id          = 100046,
+	title       = "6级防御宝石",
+	open_level  = 105,
+	gain        = [{100046,1}],
+	cost        = [{100045,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100047) -> #cfg_equip_combine{
+	id          = 100047,
+	title       = "7级防御宝石",
+	open_level  = 105,
+	gain        = [{100047,1}],
+	cost        = [{100046,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100048) -> #cfg_equip_combine{
+	id          = 100048,
+	title       = "8级防御宝石",
+	open_level  = 105,
+	gain        = [{100048,1}],
+	cost        = [{100047,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100049) -> #cfg_equip_combine{
+	id          = 100049,
+	title       = "9级防御宝石",
+	open_level  = 105,
+	gain        = [{100049,1}],
+	cost        = [{100048,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100012) -> #cfg_equip_combine{
+	id          = 100012,
+	title       = "不朽套装石（男头）",
+	open_level  = 240,
+	gain        = [{100012,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100013) -> #cfg_equip_combine{
+	id          = 100013,
+	title       = "不朽套装石（男甲）",
+	open_level  = 240,
+	gain        = [{100013,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100014) -> #cfg_equip_combine{
+	id          = 100014,
+	title       = "不朽套装石（男腿）",
+	open_level  = 240,
+	gain        = [{100014,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100015) -> #cfg_equip_combine{
+	id          = 100015,
+	title       = "不朽套装石（男手）",
+	open_level  = 240,
+	gain        = [{100015,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100016) -> #cfg_equip_combine{
+	id          = 100016,
+	title       = "不朽套装石（男鞋）",
+	open_level  = 240,
+	gain        = [{100016,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100017) -> #cfg_equip_combine{
+	id          = 100017,
+	title       = "不朽套装石（女头）",
+	open_level  = 240,
+	gain        = [{100017,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100018) -> #cfg_equip_combine{
+	id          = 100018,
+	title       = "不朽套装石（女甲）",
+	open_level  = 240,
+	gain        = [{100018,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100019) -> #cfg_equip_combine{
+	id          = 100019,
+	title       = "不朽套装石（女腿）",
+	open_level  = 240,
+	gain        = [{100019,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100020) -> #cfg_equip_combine{
+	id          = 100020,
+	title       = "不朽套装石（女手）",
+	open_level  = 240,
+	gain        = [{100020,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(100021) -> #cfg_equip_combine{
+	id          = 100021,
+	title       = "不朽套装石（女鞋）",
+	open_level  = 240,
+	gain        = [{100021,1}],
+	cost        = [{100050,7}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101002) -> #cfg_equip_combine{
+	id          = 101002,
+	title       = "2级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101002,1}],
+	cost        = [{101001,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101003) -> #cfg_equip_combine{
+	id          = 101003,
+	title       = "3级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101003,1}],
+	cost        = [{101002,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101004) -> #cfg_equip_combine{
+	id          = 101004,
+	title       = "4级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101004,1}],
+	cost        = [{101003,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101005) -> #cfg_equip_combine{
+	id          = 101005,
+	title       = "5级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101005,1}],
+	cost        = [{101004,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101006) -> #cfg_equip_combine{
+	id          = 101006,
+	title       = "6级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101006,1}],
+	cost        = [{101005,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101007) -> #cfg_equip_combine{
+	id          = 101007,
+	title       = "7级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101007,1}],
+	cost        = [{101006,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101008) -> #cfg_equip_combine{
+	id          = 101008,
+	title       = "8级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101008,1}],
+	cost        = [{101007,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(101009) -> #cfg_equip_combine{
+	id          = 101009,
+	title       = "9级仙灵之晶",
+	open_level  = 371,
+	gain        = [{101009,1}],
+	cost        = [{101008,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102002) -> #cfg_equip_combine{
+	id          = 102002,
+	title       = "2级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102002,1}],
+	cost        = [{102001,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102003) -> #cfg_equip_combine{
+	id          = 102003,
+	title       = "3级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102003,1}],
+	cost        = [{102002,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102004) -> #cfg_equip_combine{
+	id          = 102004,
+	title       = "4级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102004,1}],
+	cost        = [{102003,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102005) -> #cfg_equip_combine{
+	id          = 102005,
+	title       = "5级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102005,1}],
+	cost        = [{102004,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102006) -> #cfg_equip_combine{
+	id          = 102006,
+	title       = "6级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102006,1}],
+	cost        = [{102005,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102007) -> #cfg_equip_combine{
+	id          = 102007,
+	title       = "7级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102007,1}],
+	cost        = [{102006,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102008) -> #cfg_equip_combine{
+	id          = 102008,
+	title       = "8级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102008,1}],
+	cost        = [{102007,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(102009) -> #cfg_equip_combine{
+	id          = 102009,
+	title       = "9级霉毒之晶",
+	open_level  = 371,
+	gain        = [{102009,1}],
+	cost        = [{102008,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103001) -> #cfg_equip_combine{
+	id          = 103001,
+	title       = "霜之哀伤",
+	open_level  = 100,
+	gain        = [{53102,1}],
+	cost        = [{53109,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103002) -> #cfg_equip_combine{
+	id          = 103002,
+	title       = "血色黎明",
+	open_level  = 100,
+	gain        = [{53103,1}],
+	cost        = [{53110,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103003) -> #cfg_equip_combine{
+	id          = 103003,
+	title       = "钢铁之心",
+	open_level  = 100,
+	gain        = [{53106,1}],
+	cost        = [{53111,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103004) -> #cfg_equip_combine{
+	id          = 103004,
+	title       = "贤者圣剑",
+	open_level  = 100,
+	gain        = [{53107,1}],
+	cost        = [{53112,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103005) -> #cfg_equip_combine{
+	id          = 103005,
+	title       = "冥王暴杀",
+	open_level  = 100,
+	gain        = [{53108,1}],
+	cost        = [{53113,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103006) -> #cfg_equip_combine{
+	id          = 103006,
+	title       = "辉洁灵光",
+	open_level  = 100,
+	gain        = [{53119,1}],
+	cost        = [{53114,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103007) -> #cfg_equip_combine{
+	id          = 103007,
+	title       = "万圣夜魔",
+	open_level  = 100,
+	gain        = [{53120,1}],
+	cost        = [{53115,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103008) -> #cfg_equip_combine{
+	id          = 103008,
+	title       = "黑岩之炽",
+	open_level  = 100,
+	gain        = [{53121,1}],
+	cost        = [{53116,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103009) -> #cfg_equip_combine{
+	id          = 103009,
+	title       = "雷霆王者",
+	open_level  = 100,
+	gain        = [{53122,1}],
+	cost        = [{53117,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103010) -> #cfg_equip_combine{
+	id          = 103010,
+	title       = "轰炸大鱿鱼",
+	open_level  = 100,
+	gain        = [{53123,1}],
+	cost        = [{53118,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103011) -> #cfg_equip_combine{
+	id          = 103011,
+	title       = "铃兰飘香",
+	open_level  = 100,
+	gain        = [{53124,1}],
+	cost        = [{53128,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103012) -> #cfg_equip_combine{
+	id          = 103012,
+	title       = "玄铁赤炎",
+	open_level  = 100,
+	gain        = [{53125,1}],
+	cost        = [{53129,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103013) -> #cfg_equip_combine{
+	id          = 103013,
+	title       = "紫宸魂兵",
+	open_level  = 100,
+	gain        = [{53126,1}],
+	cost        = [{53130,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(103014) -> #cfg_equip_combine{
+	id          = 103014,
+	title       = "湛蓝冰语",
+	open_level  = 100,
+	gain        = [{53127,1}],
+	cost        = [{53131,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104001) -> #cfg_equip_combine{
+	id          = 104001,
+	title       = "胡萝卜邦妮",
+	open_level  = 100,
+	gain        = [{51208,1}],
+	cost        = [{51209,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104002) -> #cfg_equip_combine{
+	id          = 104002,
+	title       = "仙林幽羽",
+	open_level  = 100,
+	gain        = [{51102,1}],
+	cost        = [{51101,15}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104003) -> #cfg_equip_combine{
+	id          = 104003,
+	title       = "凝羽魔翼",
+	open_level  = 100,
+	gain        = [{51103,1}],
+	cost        = [{51102,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104004) -> #cfg_equip_combine{
+	id          = 104004,
+	title       = "钢铁之羽",
+	open_level  = 100,
+	gain        = [{51107,1}],
+	cost        = [{51213,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104005) -> #cfg_equip_combine{
+	id          = 104005,
+	title       = "灵光之翼",
+	open_level  = 100,
+	gain        = [{51109,1}],
+	cost        = [{51210,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104006) -> #cfg_equip_combine{
+	id          = 104006,
+	title       = "黑白煞羽",
+	open_level  = 100,
+	gain        = [{51110,1}],
+	cost        = [{51211,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104007) -> #cfg_equip_combine{
+	id          = 104007,
+	title       = "流樱化羽",
+	open_level  = 100,
+	gain        = [{51111,1}],
+	cost        = [{51212,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104008) -> #cfg_equip_combine{
+	id          = 104008,
+	title       = "夜王蝠翼",
+	open_level  = 100,
+	gain        = [{51112,1}],
+	cost        = [{51115,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104009) -> #cfg_equip_combine{
+	id          = 104009,
+	title       = "丹鸟之羽",
+	open_level  = 100,
+	gain        = [{51113,1}],
+	cost        = [{51116,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(104010) -> #cfg_equip_combine{
+	id          = 104010,
+	title       = "蒲英仙羽",
+	open_level  = 100,
+	gain        = [{51114,1}],
+	cost        = [{51117,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105001) -> #cfg_equip_combine{
+	id          = 105001,
+	title       = "远古光核",
+	open_level  = 100,
+	gain        = [{52102,1}],
+	cost        = [{52101,15}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105002) -> #cfg_equip_combine{
+	id          = 105002,
+	title       = "魔龙宝珠",
+	open_level  = 100,
+	gain        = [{52103,1}],
+	cost        = [{52102,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105003) -> #cfg_equip_combine{
+	id          = 105003,
+	title       = "钢铁之魂",
+	open_level  = 100,
+	gain        = [{52106,1}],
+	cost        = [{52117,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105004) -> #cfg_equip_combine{
+	id          = 105004,
+	title       = "轮回星愿",
+	open_level  = 100,
+	gain        = [{52108,1}],
+	cost        = [{52118,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105005) -> #cfg_equip_combine{
+	id          = 105005,
+	title       = "法老面具",
+	open_level  = 100,
+	gain        = [{52109,1}],
+	cost        = [{52119,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105006) -> #cfg_equip_combine{
+	id          = 105006,
+	title       = "魔法陀螺",
+	open_level  = 100,
+	gain        = [{52111,1}],
+	cost        = [{52114,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105007) -> #cfg_equip_combine{
+	id          = 105007,
+	title       = "翡翠灵台",
+	open_level  = 100,
+	gain        = [{52112,1}],
+	cost        = [{52115,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(105008) -> #cfg_equip_combine{
+	id          = 105008,
+	title       = "点翠团扇",
+	open_level  = 100,
+	gain        = [{52113,1}],
+	cost        = [{52116,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(56000) -> #cfg_equip_combine{
+	id          = 56000,
+	title       = "初级神灵升级丹",
+	open_level  = 230,
+	gain        = [{56000,1}],
+	cost        = [{56003,4}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(56001) -> #cfg_equip_combine{
+	id          = 56001,
+	title       = "中级神灵升级丹",
+	open_level  = 230,
+	gain        = [{56001,1}],
+	cost        = [{56003,24}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(56002) -> #cfg_equip_combine{
+	id          = 56002,
+	title       = "高级神灵升级丹",
+	open_level  = 230,
+	gain        = [{56002,1}],
+	cost        = [{56003,120}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10820) -> #cfg_equip_combine{
+	id          = 10820,
+	title       = "魔兽城堡次数卡",
+	open_level  = 250,
+	gain        = [{10820,1}],
+	cost        = [{11153,50}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10557) -> #cfg_equip_combine{
+	id          = 10557,
+	title       = "10元充值卡",
+	open_level  = 60,
+	gain        = [{10557,1}],
+	cost        = [{10563,100}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10558) -> #cfg_equip_combine{
+	id          = 10558,
+	title       = "30元充值卡",
+	open_level  = 60,
+	gain        = [{10558,1}],
+	cost        = [{10563,300}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10559) -> #cfg_equip_combine{
+	id          = 10559,
+	title       = "50元充值卡",
+	open_level  = 60,
+	gain        = [{10559,1}],
+	cost        = [{10563,500}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10560) -> #cfg_equip_combine{
+	id          = 10560,
+	title       = "100元充值卡",
+	open_level  = 60,
+	gain        = [{10560,1}],
+	cost        = [{10563,1000}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10561) -> #cfg_equip_combine{
+	id          = 10561,
+	title       = "300元充值卡",
+	open_level  = 60,
+	gain        = [{10561,1}],
+	cost        = [{10563,3000}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(10562) -> #cfg_equip_combine{
+	id          = 10562,
+	title       = "500元充值卡",
+	open_level  = 60,
+	gain        = [{10562,1}],
+	cost        = [{10563,5000}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80105) -> #cfg_equip_combine{
+	id          = 80105,
+	title       = "神之发冠",
+	open_level  = 220,
+	gain        = [{80105,1}],
+	cost        = [{13149,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80305) -> #cfg_equip_combine{
+	id          = 80305,
+	title       = "神之法衣",
+	open_level  = 220,
+	gain        = [{80305,1}],
+	cost        = [{13150,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80605) -> #cfg_equip_combine{
+	id          = 80605,
+	title       = "神之护符",
+	open_level  = 220,
+	gain        = [{80605,1}],
+	cost        = [{13151,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80905) -> #cfg_equip_combine{
+	id          = 80905,
+	title       = "神之右翼",
+	open_level  = 220,
+	gain        = [{80905,1}],
+	cost        = [{13152,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80205) -> #cfg_equip_combine{
+	id          = 80205,
+	title       = "神灵吊坠",
+	open_level  = 220,
+	gain        = [{80205,1}],
+	cost        = [],
+	other_cost  = [80204],
+	min_num     = 5,
+	max_num     = 5,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80405) -> #cfg_equip_combine{
+	id          = 80405,
+	title       = "神灵右戒",
+	open_level  = 220,
+	gain        = [{80405,1}],
+	cost        = [],
+	other_cost  = [80404],
+	min_num     = 5,
+	max_num     = 5,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80505) -> #cfg_equip_combine{
+	id          = 80505,
+	title       = "神灵手镯",
+	open_level  = 220,
+	gain        = [{80505,1}],
+	cost        = [],
+	other_cost  = [80504],
+	min_num     = 5,
+	max_num     = 5,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80705) -> #cfg_equip_combine{
+	id          = 80705,
+	title       = "神灵护手",
+	open_level  = 220,
+	gain        = [{80705,1}],
+	cost        = [],
+	other_cost  = [80704],
+	min_num     = 5,
+	max_num     = 5,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80805) -> #cfg_equip_combine{
+	id          = 80805,
+	title       = "神灵护腿",
+	open_level  = 220,
+	gain        = [{80805,1}],
+	cost        = [],
+	other_cost  = [80804],
+	min_num     = 5,
+	max_num     = 5,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(81005) -> #cfg_equip_combine{
+	id          = 81005,
+	title       = "神灵护靴",
+	open_level  = 220,
+	gain        = [{81005,1}],
+	cost        = [],
+	other_cost  = [81004],
+	min_num     = 5,
+	max_num     = 5,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80206) -> #cfg_equip_combine{
+	id          = 80206,
+	title       = "神灵吊坠",
+	open_level  = 220,
+	gain        = [{80206,1}],
+	cost        = [],
+	other_cost  = [80205],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80406) -> #cfg_equip_combine{
+	id          = 80406,
+	title       = "神灵右戒",
+	open_level  = 220,
+	gain        = [{80406,1}],
+	cost        = [],
+	other_cost  = [80405],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80506) -> #cfg_equip_combine{
+	id          = 80506,
+	title       = "神灵手镯",
+	open_level  = 220,
+	gain        = [{80506,1}],
+	cost        = [],
+	other_cost  = [80505],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80706) -> #cfg_equip_combine{
+	id          = 80706,
+	title       = "神灵护手",
+	open_level  = 220,
+	gain        = [{80706,1}],
+	cost        = [],
+	other_cost  = [80705],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80806) -> #cfg_equip_combine{
+	id          = 80806,
+	title       = "神灵护腿",
+	open_level  = 220,
+	gain        = [{80806,1}],
+	cost        = [],
+	other_cost  = [80805],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(81006) -> #cfg_equip_combine{
+	id          = 81006,
+	title       = "神灵护靴",
+	open_level  = 220,
+	gain        = [{81006,1}],
+	cost        = [],
+	other_cost  = [81005],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80106) -> #cfg_equip_combine{
+	id          = 80106,
+	title       = "神之发冠",
+	open_level  = 220,
+	gain        = [{80106,1}],
+	cost        = [],
+	other_cost  = [80105],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80306) -> #cfg_equip_combine{
+	id          = 80306,
+	title       = "神之法衣",
+	open_level  = 220,
+	gain        = [{80306,1}],
+	cost        = [],
+	other_cost  = [80305],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80606) -> #cfg_equip_combine{
+	id          = 80606,
+	title       = "神之护符",
+	open_level  = 220,
+	gain        = [{80606,1}],
+	cost        = [],
+	other_cost  = [80605],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80906) -> #cfg_equip_combine{
+	id          = 80906,
+	title       = "神之右翼",
+	open_level  = 220,
+	gain        = [{80906,1}],
+	cost        = [],
+	other_cost  = [80905],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80207) -> #cfg_equip_combine{
+	id          = 80207,
+	title       = "神灵吊坠",
+	open_level  = 220,
+	gain        = [{80207,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80206],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80407) -> #cfg_equip_combine{
+	id          = 80407,
+	title       = "神灵右戒",
+	open_level  = 220,
+	gain        = [{80407,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80406],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80507) -> #cfg_equip_combine{
+	id          = 80507,
+	title       = "神灵手镯",
+	open_level  = 220,
+	gain        = [{80507,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80506],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80707) -> #cfg_equip_combine{
+	id          = 80707,
+	title       = "神灵护手",
+	open_level  = 220,
+	gain        = [{80707,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80706],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80807) -> #cfg_equip_combine{
+	id          = 80807,
+	title       = "神灵护腿",
+	open_level  = 220,
+	gain        = [{80807,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80806],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(81007) -> #cfg_equip_combine{
+	id          = 81007,
+	title       = "神灵护靴",
+	open_level  = 220,
+	gain        = [{81007,1}],
+	cost        = [{13153,3}],
+	other_cost  = [81006],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80107) -> #cfg_equip_combine{
+	id          = 80107,
+	title       = "神之发冠",
+	open_level  = 220,
+	gain        = [{80107,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80106],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80307) -> #cfg_equip_combine{
+	id          = 80307,
+	title       = "神之法衣",
+	open_level  = 220,
+	gain        = [{80307,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80306],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80607) -> #cfg_equip_combine{
+	id          = 80607,
+	title       = "神之护符",
+	open_level  = 220,
+	gain        = [{80607,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80606],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(80907) -> #cfg_equip_combine{
+	id          = 80907,
+	title       = "神之右翼",
+	open_level  = 220,
+	gain        = [{80907,1}],
+	cost        = [{13153,3}],
+	other_cost  = [80906],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1090416) -> #cfg_equip_combine{
+	id          = 1090416,
+	title       = "幽魂戒指",
+	open_level  = 371,
+	gain        = [{11090416,1}],
+	cost        = [{11070415,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1090426) -> #cfg_equip_combine{
+	id          = 1090426,
+	title       = "幽魂戒指",
+	open_level  = 371,
+	gain        = [{11090426,1}],
+	cost        = [{11070425,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100416) -> #cfg_equip_combine{
+	id          = 1100416,
+	title       = "天劫戒指",
+	open_level  = 371,
+	gain        = [{11100416,1}],
+	cost        = [{11090416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100426) -> #cfg_equip_combine{
+	id          = 1100426,
+	title       = "天劫戒指",
+	open_level  = 371,
+	gain        = [{11100426,1}],
+	cost        = [{11090426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100436) -> #cfg_equip_combine{
+	id          = 1100436,
+	title       = "天劫戒指",
+	open_level  = 371,
+	gain        = [{11100436,1}],
+	cost        = [{11090436,1},{13107,1},{13104,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100447) -> #cfg_equip_combine{
+	id          = 1100447,
+	title       = "天劫戒指",
+	open_level  = 371,
+	gain        = [{11100447,1}],
+	cost        = [{11090447,1},{13107,1},{13104,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110416) -> #cfg_equip_combine{
+	id          = 1110416,
+	title       = "天御戒指",
+	open_level  = 371,
+	gain        = [{11110416,1}],
+	cost        = [{11100416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110426) -> #cfg_equip_combine{
+	id          = 1110426,
+	title       = "天御戒指",
+	open_level  = 371,
+	gain        = [{11110426,1}],
+	cost        = [{11100426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110436) -> #cfg_equip_combine{
+	id          = 1110436,
+	title       = "天御戒指",
+	open_level  = 371,
+	gain        = [{11110436,1}],
+	cost        = [{11100436,1},{13107,1},{13104,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110447) -> #cfg_equip_combine{
+	id          = 1110447,
+	title       = "天御戒指",
+	open_level  = 371,
+	gain        = [{11110447,1}],
+	cost        = [{11100447,1},{13107,1},{13104,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120416) -> #cfg_equip_combine{
+	id          = 1120416,
+	title       = "万世荣光戒指",
+	open_level  = 371,
+	gain        = [{11120416,1}],
+	cost        = [{11110416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120426) -> #cfg_equip_combine{
+	id          = 1120426,
+	title       = "万世荣光戒指",
+	open_level  = 371,
+	gain        = [{11120426,1}],
+	cost        = [{11110426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120436) -> #cfg_equip_combine{
+	id          = 1120436,
+	title       = "万世荣光戒指",
+	open_level  = 371,
+	gain        = [{11120436,1}],
+	cost        = [{11110436,1},{13107,1},{13104,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120447) -> #cfg_equip_combine{
+	id          = 1120447,
+	title       = "万世荣光戒指",
+	open_level  = 371,
+	gain        = [{11120447,1}],
+	cost        = [{11110447,1},{13107,1},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130416) -> #cfg_equip_combine{
+	id          = 1130416,
+	title       = "超大陆戒指",
+	open_level  = 371,
+	gain        = [{11130416,1}],
+	cost        = [{11120416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130426) -> #cfg_equip_combine{
+	id          = 1130426,
+	title       = "超大陆戒指",
+	open_level  = 371,
+	gain        = [{11130426,1}],
+	cost        = [{11120426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130436) -> #cfg_equip_combine{
+	id          = 1130436,
+	title       = "超大陆戒指",
+	open_level  = 371,
+	gain        = [{11130436,1}],
+	cost        = [{11120436,1},{13107,1},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130447) -> #cfg_equip_combine{
+	id          = 1130447,
+	title       = "超大陆戒指",
+	open_level  = 371,
+	gain        = [{11130447,1}],
+	cost        = [{11120447,1},{13107,1},{13104,18}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140416) -> #cfg_equip_combine{
+	id          = 1140416,
+	title       = "超时空戒指",
+	open_level  = 371,
+	gain        = [{11140416,1}],
+	cost        = [{11130416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140426) -> #cfg_equip_combine{
+	id          = 1140426,
+	title       = "超时空戒指",
+	open_level  = 371,
+	gain        = [{11140426,1}],
+	cost        = [{11130426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140436) -> #cfg_equip_combine{
+	id          = 1140436,
+	title       = "超时空戒指",
+	open_level  = 371,
+	gain        = [{11140436,1}],
+	cost        = [{11130436,1},{13107,1},{13104,18}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140447) -> #cfg_equip_combine{
+	id          = 1140447,
+	title       = "超时空戒指",
+	open_level  = 371,
+	gain        = [{11140447,1}],
+	cost        = [{11130447,1},{13107,1},{13104,24}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150416) -> #cfg_equip_combine{
+	id          = 1150416,
+	title       = "起源戒指",
+	open_level  = 371,
+	gain        = [{11150416,1}],
+	cost        = [{11140416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150426) -> #cfg_equip_combine{
+	id          = 1150426,
+	title       = "起源戒指",
+	open_level  = 371,
+	gain        = [{11150426,1}],
+	cost        = [{11140426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150436) -> #cfg_equip_combine{
+	id          = 1150436,
+	title       = "起源戒指",
+	open_level  = 371,
+	gain        = [{11150436,1}],
+	cost        = [{11140436,1},{13107,1},{13104,24}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150447) -> #cfg_equip_combine{
+	id          = 1150447,
+	title       = "起源戒指",
+	open_level  = 371,
+	gain        = [{11150447,1}],
+	cost        = [{11140447,1},{13107,1},{13104,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160416) -> #cfg_equip_combine{
+	id          = 1160416,
+	title       = "创世戒指",
+	open_level  = 371,
+	gain        = [{11160416,1}],
+	cost        = [{11150416,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160426) -> #cfg_equip_combine{
+	id          = 1160426,
+	title       = "创世戒指",
+	open_level  = 371,
+	gain        = [{11160426,1}],
+	cost        = [{11150426,1},{13107,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160436) -> #cfg_equip_combine{
+	id          = 1160436,
+	title       = "创世戒指",
+	open_level  = 371,
+	gain        = [{11160436,1}],
+	cost        = [{11150436,1},{13107,1},{13104,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160447) -> #cfg_equip_combine{
+	id          = 1160447,
+	title       = "创世戒指",
+	open_level  = 371,
+	gain        = [{11160447,1}],
+	cost        = [{11150447,1},{13107,1},{13104,36}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1090516) -> #cfg_equip_combine{
+	id          = 1090516,
+	title       = "幽魂手镯",
+	open_level  = 371,
+	gain        = [{11090516,1}],
+	cost        = [{11070515,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1090526) -> #cfg_equip_combine{
+	id          = 1090526,
+	title       = "幽魂手镯",
+	open_level  = 371,
+	gain        = [{11090526,1}],
+	cost        = [{11070525,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100516) -> #cfg_equip_combine{
+	id          = 1100516,
+	title       = "天劫手镯",
+	open_level  = 371,
+	gain        = [{11100516,1}],
+	cost        = [{11090516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100526) -> #cfg_equip_combine{
+	id          = 1100526,
+	title       = "天劫手镯",
+	open_level  = 371,
+	gain        = [{11100526,1}],
+	cost        = [{11090526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100536) -> #cfg_equip_combine{
+	id          = 1100536,
+	title       = "天劫手镯",
+	open_level  = 371,
+	gain        = [{11100536,1}],
+	cost        = [{11090536,1},{13108,1},{13104,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1100547) -> #cfg_equip_combine{
+	id          = 1100547,
+	title       = "天劫手镯",
+	open_level  = 371,
+	gain        = [{11100547,1}],
+	cost        = [{11090547,1},{13108,1},{13104,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110516) -> #cfg_equip_combine{
+	id          = 1110516,
+	title       = "天御手镯",
+	open_level  = 371,
+	gain        = [{11110516,1}],
+	cost        = [{11100516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110526) -> #cfg_equip_combine{
+	id          = 1110526,
+	title       = "天御手镯",
+	open_level  = 371,
+	gain        = [{11110526,1}],
+	cost        = [{11100526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110536) -> #cfg_equip_combine{
+	id          = 1110536,
+	title       = "天御手镯",
+	open_level  = 371,
+	gain        = [{11110536,1}],
+	cost        = [{11100536,1},{13108,1},{13104,3}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1110547) -> #cfg_equip_combine{
+	id          = 1110547,
+	title       = "天御手镯",
+	open_level  = 371,
+	gain        = [{11110547,1}],
+	cost        = [{11100547,1},{13108,1},{13104,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120516) -> #cfg_equip_combine{
+	id          = 1120516,
+	title       = "万世荣光手镯",
+	open_level  = 371,
+	gain        = [{11120516,1}],
+	cost        = [{11110516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120526) -> #cfg_equip_combine{
+	id          = 1120526,
+	title       = "万世荣光手镯",
+	open_level  = 371,
+	gain        = [{11120526,1}],
+	cost        = [{11110526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120536) -> #cfg_equip_combine{
+	id          = 1120536,
+	title       = "万世荣光手镯",
+	open_level  = 371,
+	gain        = [{11120536,1}],
+	cost        = [{11110536,1},{13108,1},{13104,8}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1120547) -> #cfg_equip_combine{
+	id          = 1120547,
+	title       = "万世荣光手镯",
+	open_level  = 371,
+	gain        = [{11120547,1}],
+	cost        = [{11110547,1},{13108,1},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130516) -> #cfg_equip_combine{
+	id          = 1130516,
+	title       = "超大陆手镯",
+	open_level  = 371,
+	gain        = [{11130516,1}],
+	cost        = [{11120516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130526) -> #cfg_equip_combine{
+	id          = 1130526,
+	title       = "超大陆手镯",
+	open_level  = 371,
+	gain        = [{11130526,1}],
+	cost        = [{11120526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130536) -> #cfg_equip_combine{
+	id          = 1130536,
+	title       = "超大陆手镯",
+	open_level  = 371,
+	gain        = [{11130536,1}],
+	cost        = [{11120536,1},{13108,1},{13104,12}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1130547) -> #cfg_equip_combine{
+	id          = 1130547,
+	title       = "超大陆手镯",
+	open_level  = 371,
+	gain        = [{11130547,1}],
+	cost        = [{11120547,1},{13108,1},{13104,18}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140516) -> #cfg_equip_combine{
+	id          = 1140516,
+	title       = "超时空手镯",
+	open_level  = 371,
+	gain        = [{11140516,1}],
+	cost        = [{11130516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140526) -> #cfg_equip_combine{
+	id          = 1140526,
+	title       = "超时空手镯",
+	open_level  = 371,
+	gain        = [{11140526,1}],
+	cost        = [{11130526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140536) -> #cfg_equip_combine{
+	id          = 1140536,
+	title       = "超时空手镯",
+	open_level  = 371,
+	gain        = [{11140536,1}],
+	cost        = [{11130536,1},{13108,1},{13104,18}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1140547) -> #cfg_equip_combine{
+	id          = 1140547,
+	title       = "超时空手镯",
+	open_level  = 371,
+	gain        = [{11140547,1}],
+	cost        = [{11130547,1},{13108,1},{13104,24}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150516) -> #cfg_equip_combine{
+	id          = 1150516,
+	title       = "起源手镯",
+	open_level  = 371,
+	gain        = [{11150516,1}],
+	cost        = [{11140516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150526) -> #cfg_equip_combine{
+	id          = 1150526,
+	title       = "起源手镯",
+	open_level  = 371,
+	gain        = [{11150526,1}],
+	cost        = [{11140526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150536) -> #cfg_equip_combine{
+	id          = 1150536,
+	title       = "起源手镯",
+	open_level  = 371,
+	gain        = [{11150536,1}],
+	cost        = [{11140536,1},{13108,1},{13104,24}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1150547) -> #cfg_equip_combine{
+	id          = 1150547,
+	title       = "起源手镯",
+	open_level  = 371,
+	gain        = [{11150547,1}],
+	cost        = [{11140547,1},{13108,1},{13104,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160516) -> #cfg_equip_combine{
+	id          = 1160516,
+	title       = "创世手镯",
+	open_level  = 371,
+	gain        = [{11160516,1}],
+	cost        = [{11150516,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160526) -> #cfg_equip_combine{
+	id          = 1160526,
+	title       = "创世手镯",
+	open_level  = 371,
+	gain        = [{11160526,1}],
+	cost        = [{11150526,1},{13108,1}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160536) -> #cfg_equip_combine{
+	id          = 1160536,
+	title       = "创世手镯",
+	open_level  = 371,
+	gain        = [{11160536,1}],
+	cost        = [{11150536,1},{13108,1},{13104,30}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(1160547) -> #cfg_equip_combine{
+	id          = 1160547,
+	title       = "创世手镯",
+	open_level  = 371,
+	gain        = [{11160547,1}],
+	cost        = [{11150547,1},{13108,1},{13104,36}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90505) -> #cfg_equip_combine{
+	id          = 90505,
+	title       = "闪光之矛·核心",
+	open_level  = 180,
+	gain        = [{90505,1}],
+	cost        = [{90001,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90805) -> #cfg_equip_combine{
+	id          = 90805,
+	title       = "毁灭之斧·核心",
+	open_level  = 180,
+	gain        = [{90805,1}],
+	cost        = [{90004,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(91105) -> #cfg_equip_combine{
+	id          = 91105,
+	title       = "守护之剑·核心",
+	open_level  = 180,
+	gain        = [{91105,1}],
+	cost        = [{90007,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(91305) -> #cfg_equip_combine{
+	id          = 91305,
+	title       = "死神镰刀·核心",
+	open_level  = 180,
+	gain        = [{91305,1}],
+	cost        = [{90009,5}],
+	other_cost  = [],
+	min_num     = 0,
+	max_num     = 0,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90106) -> #cfg_equip_combine{
+	id          = 90106,
+	title       = "防护罩",
+	open_level  = 180,
+	gain        = [{90106,1}],
+	cost        = [],
+	other_cost  = [90105],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90206) -> #cfg_equip_combine{
+	id          = 90206,
+	title       = "推进器",
+	open_level  = 180,
+	gain        = [{90206,1}],
+	cost        = [],
+	other_cost  = [90205],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90306) -> #cfg_equip_combine{
+	id          = 90306,
+	title       = "引擎",
+	open_level  = 180,
+	gain        = [{90306,1}],
+	cost        = [],
+	other_cost  = [90305],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90406) -> #cfg_equip_combine{
+	id          = 90406,
+	title       = "雷达",
+	open_level  = 180,
+	gain        = [{90406,1}],
+	cost        = [],
+	other_cost  = [90405],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90506) -> #cfg_equip_combine{
+	id          = 90506,
+	title       = "闪光之矛·核心",
+	open_level  = 180,
+	gain        = [{90506,1}],
+	cost        = [],
+	other_cost  = [90505],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90806) -> #cfg_equip_combine{
+	id          = 90806,
+	title       = "毁灭之斧·核心",
+	open_level  = 180,
+	gain        = [{90806,1}],
+	cost        = [],
+	other_cost  = [90805],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(91106) -> #cfg_equip_combine{
+	id          = 91106,
+	title       = "守护之剑·核心",
+	open_level  = 180,
+	gain        = [{91106,1}],
+	cost        = [],
+	other_cost  = [91105],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(91306) -> #cfg_equip_combine{
+	id          = 91306,
+	title       = "死神镰刀·核心",
+	open_level  = 180,
+	gain        = [{91306,1}],
+	cost        = [],
+	other_cost  = [91305],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90107) -> #cfg_equip_combine{
+	id          = 90107,
+	title       = "防护罩",
+	open_level  = 180,
+	gain        = [{90107,1}],
+	cost        = [{90051,3}],
+	other_cost  = [90106],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90207) -> #cfg_equip_combine{
+	id          = 90207,
+	title       = "推进器",
+	open_level  = 180,
+	gain        = [{90207,1}],
+	cost        = [{90051,3}],
+	other_cost  = [90206],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90307) -> #cfg_equip_combine{
+	id          = 90307,
+	title       = "引擎",
+	open_level  = 180,
+	gain        = [{90307,1}],
+	cost        = [{90051,3}],
+	other_cost  = [90306],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90407) -> #cfg_equip_combine{
+	id          = 90407,
+	title       = "雷达",
+	open_level  = 180,
+	gain        = [{90407,1}],
+	cost        = [{90051,3}],
+	other_cost  = [90406],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90507) -> #cfg_equip_combine{
+	id          = 90507,
+	title       = "闪光之矛·核心",
+	open_level  = 180,
+	gain        = [{90507,1}],
+	cost        = [{90052,3}],
+	other_cost  = [90506],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(90807) -> #cfg_equip_combine{
+	id          = 90807,
+	title       = "毁灭之斧·核心",
+	open_level  = 180,
+	gain        = [{90807,1}],
+	cost        = [{90052,3}],
+	other_cost  = [90806],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(91107) -> #cfg_equip_combine{
+	id          = 91107,
+	title       = "守护之剑·核心",
+	open_level  = 180,
+	gain        = [{91107,1}],
+	cost        = [{90052,3}],
+	other_cost  = [91106],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(91307) -> #cfg_equip_combine{
+	id          = 91307,
+	title       = "死神镰刀·核心",
+	open_level  = 180,
+	gain        = [{91307,1}],
+	cost        = [{90052,3}],
+	other_cost  = [91306],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(71007) -> #cfg_equip_combine{
+	id          = 71007,
+	title       = "竹蜻蜓",
+	open_level  = 260,
+	gain        = [{71007,1}],
+	cost        = [{13158,5}],
+	other_cost  = [71006],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(72007) -> #cfg_equip_combine{
+	id          = 72007,
+	title       = "玩具车",
+	open_level  = 260,
+	gain        = [{72007,1}],
+	cost        = [{13158,5}],
+	other_cost  = [72006],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(73007) -> #cfg_equip_combine{
+	id          = 73007,
+	title       = "小棉袄",
+	open_level  = 260,
+	gain        = [{73007,1}],
+	cost        = [{13158,5}],
+	other_cost  = [73006],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(74007) -> #cfg_equip_combine{
+	id          = 74007,
+	title       = "书包",
+	open_level  = 260,
+	gain        = [{74007,1}],
+	cost        = [{13158,5}],
+	other_cost  = [74006],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(75007) -> #cfg_equip_combine{
+	id          = 75007,
+	title       = "护身符",
+	open_level  = 260,
+	gain        = [{75007,1}],
+	cost        = [{13158,5}],
+	other_cost  = [75006],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(76007) -> #cfg_equip_combine{
+	id          = 76007,
+	title       = "鸭子鞋",
+	open_level  = 260,
+	gain        = [{76007,1}],
+	cost        = [{13158,5}],
+	other_cost  = [76006],
+	min_num     = 4,
+	max_num     = 4,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(216201) -> #cfg_equip_combine{
+	id          = 216201,
+	title       = "白鬃狼帽",
+	open_level  = 390,
+	gain        = [{216201,1}],
+	cost        = [],
+	other_cost  = [215201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(226201) -> #cfg_equip_combine{
+	id          = 226201,
+	title       = "星之精魄",
+	open_level  = 390,
+	gain        = [{226201,1}],
+	cost        = [],
+	other_cost  = [225201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(236201) -> #cfg_equip_combine{
+	id          = 236201,
+	title       = "暗影之爪",
+	open_level  = 390,
+	gain        = [{236201,1}],
+	cost        = [],
+	other_cost  = [235201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(246201) -> #cfg_equip_combine{
+	id          = 246201,
+	title       = "秘钥项圈",
+	open_level  = 390,
+	gain        = [{246201,1}],
+	cost        = [],
+	other_cost  = [245201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(216301) -> #cfg_equip_combine{
+	id          = 216301,
+	title       = "白鬃狼帽",
+	open_level  = 390,
+	gain        = [{216301,1}],
+	cost        = [],
+	other_cost  = [216201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(226301) -> #cfg_equip_combine{
+	id          = 226301,
+	title       = "星之精魄",
+	open_level  = 390,
+	gain        = [{226301,1}],
+	cost        = [],
+	other_cost  = [226201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(236301) -> #cfg_equip_combine{
+	id          = 236301,
+	title       = "暗影之爪",
+	open_level  = 390,
+	gain        = [{236301,1}],
+	cost        = [],
+	other_cost  = [236201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(246301) -> #cfg_equip_combine{
+	id          = 246301,
+	title       = "秘钥项圈",
+	open_level  = 390,
+	gain        = [{246301,1}],
+	cost        = [],
+	other_cost  = [246201],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(217301) -> #cfg_equip_combine{
+	id          = 217301,
+	title       = "白鬃狼帽",
+	open_level  = 390,
+	gain        = [{217301,1}],
+	cost        = [{13175,1}],
+	other_cost  = [216301],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(227301) -> #cfg_equip_combine{
+	id          = 227301,
+	title       = "星之精魄",
+	open_level  = 390,
+	gain        = [{227301,1}],
+	cost        = [{13175,1}],
+	other_cost  = [226301],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(237301) -> #cfg_equip_combine{
+	id          = 237301,
+	title       = "暗影之爪",
+	open_level  = 390,
+	gain        = [{237301,1}],
+	cost        = [{13175,1}],
+	other_cost  = [236301],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(247301) -> #cfg_equip_combine{
+	id          = 247301,
+	title       = "秘钥项圈",
+	open_level  = 390,
+	gain        = [{247301,1}],
+	cost        = [{13175,1}],
+	other_cost  = [246301],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101104) -> #cfg_equip_combine{
+	id          = 30101104,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101104,1}],
+	cost        = [],
+	other_cost  = [30101103,30101203,30101303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101204) -> #cfg_equip_combine{
+	id          = 30101204,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101204,1}],
+	cost        = [],
+	other_cost  = [30101103,30101203,30101303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101304) -> #cfg_equip_combine{
+	id          = 30101304,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101304,1}],
+	cost        = [],
+	other_cost  = [30101103,30101203,30101303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101105) -> #cfg_equip_combine{
+	id          = 30101105,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101105,1}],
+	cost        = [],
+	other_cost  = [30101104,30101204,30101304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101205) -> #cfg_equip_combine{
+	id          = 30101205,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101205,1}],
+	cost        = [],
+	other_cost  = [30101104,30101204,30101304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101305) -> #cfg_equip_combine{
+	id          = 30101305,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101305,1}],
+	cost        = [],
+	other_cost  = [30101104,30101204,30101304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101106) -> #cfg_equip_combine{
+	id          = 30101106,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101106,1}],
+	cost        = [],
+	other_cost  = [30101105,30101205,30101305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101206) -> #cfg_equip_combine{
+	id          = 30101206,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101206,1}],
+	cost        = [],
+	other_cost  = [30101105,30101205,30101305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101306) -> #cfg_equip_combine{
+	id          = 30101306,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101306,1}],
+	cost        = [],
+	other_cost  = [30101105,30101205,30101305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101107) -> #cfg_equip_combine{
+	id          = 30101107,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101107,1}],
+	cost        = [],
+	other_cost  = [30101106,30101206,30101306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101207) -> #cfg_equip_combine{
+	id          = 30101207,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101207,1}],
+	cost        = [],
+	other_cost  = [30101106,30101206,30101306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101307) -> #cfg_equip_combine{
+	id          = 30101307,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101307,1}],
+	cost        = [],
+	other_cost  = [30101106,30101206,30101306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101108) -> #cfg_equip_combine{
+	id          = 30101108,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101108,1}],
+	cost        = [],
+	other_cost  = [30101107,30101207,30101307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101208) -> #cfg_equip_combine{
+	id          = 30101208,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101208,1}],
+	cost        = [],
+	other_cost  = [30101107,30101207,30101307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101308) -> #cfg_equip_combine{
+	id          = 30101308,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101308,1}],
+	cost        = [],
+	other_cost  = [30101107,30101207,30101307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101109) -> #cfg_equip_combine{
+	id          = 30101109,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101109,1}],
+	cost        = [],
+	other_cost  = [30101108,30101208,30101308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101209) -> #cfg_equip_combine{
+	id          = 30101209,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101209,1}],
+	cost        = [],
+	other_cost  = [30101108,30101208,30101308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101309) -> #cfg_equip_combine{
+	id          = 30101309,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101309,1}],
+	cost        = [],
+	other_cost  = [30101108,30101208,30101308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101110) -> #cfg_equip_combine{
+	id          = 30101110,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101110,1}],
+	cost        = [],
+	other_cost  = [30101109,30101209,30101309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101210) -> #cfg_equip_combine{
+	id          = 30101210,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101210,1}],
+	cost        = [],
+	other_cost  = [30101109,30101209,30101309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101310) -> #cfg_equip_combine{
+	id          = 30101310,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101310,1}],
+	cost        = [],
+	other_cost  = [30101109,30101209,30101309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101111) -> #cfg_equip_combine{
+	id          = 30101111,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101111,1}],
+	cost        = [],
+	other_cost  = [30101110,30101210,30101310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101211) -> #cfg_equip_combine{
+	id          = 30101211,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101211,1}],
+	cost        = [],
+	other_cost  = [30101110,30101210,30101310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101311) -> #cfg_equip_combine{
+	id          = 30101311,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101311,1}],
+	cost        = [],
+	other_cost  = [30101110,30101210,30101310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101112) -> #cfg_equip_combine{
+	id          = 30101112,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101112,1}],
+	cost        = [],
+	other_cost  = [30101111,30101211,30101311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101212) -> #cfg_equip_combine{
+	id          = 30101212,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101212,1}],
+	cost        = [],
+	other_cost  = [30101111,30101211,30101311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101312) -> #cfg_equip_combine{
+	id          = 30101312,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101312,1}],
+	cost        = [],
+	other_cost  = [30101111,30101211,30101311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101113) -> #cfg_equip_combine{
+	id          = 30101113,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101113,1}],
+	cost        = [],
+	other_cost  = [30101112,30101212,30101312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101213) -> #cfg_equip_combine{
+	id          = 30101213,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101213,1}],
+	cost        = [],
+	other_cost  = [30101112,30101212,30101312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101313) -> #cfg_equip_combine{
+	id          = 30101313,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101313,1}],
+	cost        = [],
+	other_cost  = [30101112,30101212,30101312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101114) -> #cfg_equip_combine{
+	id          = 30101114,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101114,1}],
+	cost        = [],
+	other_cost  = [30101113,30101213,30101313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101214) -> #cfg_equip_combine{
+	id          = 30101214,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101214,1}],
+	cost        = [],
+	other_cost  = [30101113,30101213,30101313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101314) -> #cfg_equip_combine{
+	id          = 30101314,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101314,1}],
+	cost        = [],
+	other_cost  = [30101113,30101213,30101313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101115) -> #cfg_equip_combine{
+	id          = 30101115,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101115,1}],
+	cost        = [],
+	other_cost  = [30101114,30101214,30101314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101215) -> #cfg_equip_combine{
+	id          = 30101215,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101215,1}],
+	cost        = [],
+	other_cost  = [30101114,30101214,30101314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101315) -> #cfg_equip_combine{
+	id          = 30101315,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101315,1}],
+	cost        = [],
+	other_cost  = [30101114,30101214,30101314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101116) -> #cfg_equip_combine{
+	id          = 30101116,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101116,1}],
+	cost        = [],
+	other_cost  = [30101115,30101215,30101315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101216) -> #cfg_equip_combine{
+	id          = 30101216,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101216,1}],
+	cost        = [],
+	other_cost  = [30101115,30101215,30101315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101316) -> #cfg_equip_combine{
+	id          = 30101316,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101316,1}],
+	cost        = [],
+	other_cost  = [30101115,30101215,30101315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101117) -> #cfg_equip_combine{
+	id          = 30101117,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101117,1}],
+	cost        = [],
+	other_cost  = [30101116,30101216,30101316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101217) -> #cfg_equip_combine{
+	id          = 30101217,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101217,1}],
+	cost        = [],
+	other_cost  = [30101116,30101216,30101316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101317) -> #cfg_equip_combine{
+	id          = 30101317,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101317,1}],
+	cost        = [],
+	other_cost  = [30101116,30101216,30101316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101118) -> #cfg_equip_combine{
+	id          = 30101118,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101118,1}],
+	cost        = [],
+	other_cost  = [30101117,30101217,30101317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101218) -> #cfg_equip_combine{
+	id          = 30101218,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101218,1}],
+	cost        = [],
+	other_cost  = [30101117,30101217,30101317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101318) -> #cfg_equip_combine{
+	id          = 30101318,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101318,1}],
+	cost        = [],
+	other_cost  = [30101117,30101217,30101317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101119) -> #cfg_equip_combine{
+	id          = 30101119,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101119,1}],
+	cost        = [],
+	other_cost  = [30101118,30101218,30101318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101219) -> #cfg_equip_combine{
+	id          = 30101219,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101219,1}],
+	cost        = [],
+	other_cost  = [30101118,30101218,30101318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101319) -> #cfg_equip_combine{
+	id          = 30101319,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101319,1}],
+	cost        = [],
+	other_cost  = [30101118,30101218,30101318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101120) -> #cfg_equip_combine{
+	id          = 30101120,
+	title       = "死亡法典之花",
+	open_level  = 410,
+	gain        = [{30101120,1}],
+	cost        = [],
+	other_cost  = [30101119,30101219,30101319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101220) -> #cfg_equip_combine{
+	id          = 30101220,
+	title       = "暗晶杖",
+	open_level  = 410,
+	gain        = [{30101220,1}],
+	cost        = [],
+	other_cost  = [30101119,30101219,30101319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30101320) -> #cfg_equip_combine{
+	id          = 30101320,
+	title       = "至暗方玉",
+	open_level  = 410,
+	gain        = [{30101320,1}],
+	cost        = [],
+	other_cost  = [30101119,30101219,30101319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102104) -> #cfg_equip_combine{
+	id          = 30102104,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102104,1}],
+	cost        = [],
+	other_cost  = [30102103,30102203,30102303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102204) -> #cfg_equip_combine{
+	id          = 30102204,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102204,1}],
+	cost        = [],
+	other_cost  = [30102103,30102203,30102303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102304) -> #cfg_equip_combine{
+	id          = 30102304,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102304,1}],
+	cost        = [],
+	other_cost  = [30102103,30102203,30102303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102105) -> #cfg_equip_combine{
+	id          = 30102105,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102105,1}],
+	cost        = [],
+	other_cost  = [30102104,30102204,30102304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102205) -> #cfg_equip_combine{
+	id          = 30102205,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102205,1}],
+	cost        = [],
+	other_cost  = [30102104,30102204,30102304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102305) -> #cfg_equip_combine{
+	id          = 30102305,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102305,1}],
+	cost        = [],
+	other_cost  = [30102104,30102204,30102304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102106) -> #cfg_equip_combine{
+	id          = 30102106,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102106,1}],
+	cost        = [],
+	other_cost  = [30102105,30102205,30102305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102206) -> #cfg_equip_combine{
+	id          = 30102206,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102206,1}],
+	cost        = [],
+	other_cost  = [30102105,30102205,30102305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102306) -> #cfg_equip_combine{
+	id          = 30102306,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102306,1}],
+	cost        = [],
+	other_cost  = [30102105,30102205,30102305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102107) -> #cfg_equip_combine{
+	id          = 30102107,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102107,1}],
+	cost        = [],
+	other_cost  = [30102106,30102206,30102306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102207) -> #cfg_equip_combine{
+	id          = 30102207,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102207,1}],
+	cost        = [],
+	other_cost  = [30102106,30102206,30102306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102307) -> #cfg_equip_combine{
+	id          = 30102307,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102307,1}],
+	cost        = [],
+	other_cost  = [30102106,30102206,30102306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102108) -> #cfg_equip_combine{
+	id          = 30102108,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102108,1}],
+	cost        = [],
+	other_cost  = [30102107,30102207,30102307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102208) -> #cfg_equip_combine{
+	id          = 30102208,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102208,1}],
+	cost        = [],
+	other_cost  = [30102107,30102207,30102307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102308) -> #cfg_equip_combine{
+	id          = 30102308,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102308,1}],
+	cost        = [],
+	other_cost  = [30102107,30102207,30102307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102109) -> #cfg_equip_combine{
+	id          = 30102109,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102109,1}],
+	cost        = [],
+	other_cost  = [30102108,30102208,30102308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102209) -> #cfg_equip_combine{
+	id          = 30102209,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102209,1}],
+	cost        = [],
+	other_cost  = [30102108,30102208,30102308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102309) -> #cfg_equip_combine{
+	id          = 30102309,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102309,1}],
+	cost        = [],
+	other_cost  = [30102108,30102208,30102308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102110) -> #cfg_equip_combine{
+	id          = 30102110,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102110,1}],
+	cost        = [],
+	other_cost  = [30102109,30102209,30102309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102210) -> #cfg_equip_combine{
+	id          = 30102210,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102210,1}],
+	cost        = [],
+	other_cost  = [30102109,30102209,30102309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102310) -> #cfg_equip_combine{
+	id          = 30102310,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102310,1}],
+	cost        = [],
+	other_cost  = [30102109,30102209,30102309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102111) -> #cfg_equip_combine{
+	id          = 30102111,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102111,1}],
+	cost        = [],
+	other_cost  = [30102110,30102210,30102310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102211) -> #cfg_equip_combine{
+	id          = 30102211,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102211,1}],
+	cost        = [],
+	other_cost  = [30102110,30102210,30102310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102311) -> #cfg_equip_combine{
+	id          = 30102311,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102311,1}],
+	cost        = [],
+	other_cost  = [30102110,30102210,30102310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102112) -> #cfg_equip_combine{
+	id          = 30102112,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102112,1}],
+	cost        = [],
+	other_cost  = [30102111,30102211,30102311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102212) -> #cfg_equip_combine{
+	id          = 30102212,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102212,1}],
+	cost        = [],
+	other_cost  = [30102111,30102211,30102311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102312) -> #cfg_equip_combine{
+	id          = 30102312,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102312,1}],
+	cost        = [],
+	other_cost  = [30102111,30102211,30102311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102113) -> #cfg_equip_combine{
+	id          = 30102113,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102113,1}],
+	cost        = [],
+	other_cost  = [30102112,30102212,30102312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102213) -> #cfg_equip_combine{
+	id          = 30102213,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102213,1}],
+	cost        = [],
+	other_cost  = [30102112,30102212,30102312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102313) -> #cfg_equip_combine{
+	id          = 30102313,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102313,1}],
+	cost        = [],
+	other_cost  = [30102112,30102212,30102312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102114) -> #cfg_equip_combine{
+	id          = 30102114,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102114,1}],
+	cost        = [],
+	other_cost  = [30102113,30102213,30102313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102214) -> #cfg_equip_combine{
+	id          = 30102214,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102214,1}],
+	cost        = [],
+	other_cost  = [30102113,30102213,30102313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102314) -> #cfg_equip_combine{
+	id          = 30102314,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102314,1}],
+	cost        = [],
+	other_cost  = [30102113,30102213,30102313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102115) -> #cfg_equip_combine{
+	id          = 30102115,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102115,1}],
+	cost        = [],
+	other_cost  = [30102114,30102214,30102314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102215) -> #cfg_equip_combine{
+	id          = 30102215,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102215,1}],
+	cost        = [],
+	other_cost  = [30102114,30102214,30102314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102315) -> #cfg_equip_combine{
+	id          = 30102315,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102315,1}],
+	cost        = [],
+	other_cost  = [30102114,30102214,30102314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102116) -> #cfg_equip_combine{
+	id          = 30102116,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102116,1}],
+	cost        = [],
+	other_cost  = [30102115,30102215,30102315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102216) -> #cfg_equip_combine{
+	id          = 30102216,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102216,1}],
+	cost        = [],
+	other_cost  = [30102115,30102215,30102315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102316) -> #cfg_equip_combine{
+	id          = 30102316,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102316,1}],
+	cost        = [],
+	other_cost  = [30102115,30102215,30102315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102117) -> #cfg_equip_combine{
+	id          = 30102117,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102117,1}],
+	cost        = [],
+	other_cost  = [30102116,30102216,30102316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102217) -> #cfg_equip_combine{
+	id          = 30102217,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102217,1}],
+	cost        = [],
+	other_cost  = [30102116,30102216,30102316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102317) -> #cfg_equip_combine{
+	id          = 30102317,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102317,1}],
+	cost        = [],
+	other_cost  = [30102116,30102216,30102316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102118) -> #cfg_equip_combine{
+	id          = 30102118,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102118,1}],
+	cost        = [],
+	other_cost  = [30102117,30102217,30102317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102218) -> #cfg_equip_combine{
+	id          = 30102218,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102218,1}],
+	cost        = [],
+	other_cost  = [30102117,30102217,30102317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102318) -> #cfg_equip_combine{
+	id          = 30102318,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102318,1}],
+	cost        = [],
+	other_cost  = [30102117,30102217,30102317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102119) -> #cfg_equip_combine{
+	id          = 30102119,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102119,1}],
+	cost        = [],
+	other_cost  = [30102118,30102218,30102318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102219) -> #cfg_equip_combine{
+	id          = 30102219,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102219,1}],
+	cost        = [],
+	other_cost  = [30102118,30102218,30102318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102319) -> #cfg_equip_combine{
+	id          = 30102319,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102319,1}],
+	cost        = [],
+	other_cost  = [30102118,30102218,30102318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102120) -> #cfg_equip_combine{
+	id          = 30102120,
+	title       = "天青杖",
+	open_level  = 410,
+	gain        = [{30102120,1}],
+	cost        = [],
+	other_cost  = [30102119,30102219,30102319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102220) -> #cfg_equip_combine{
+	id          = 30102220,
+	title       = "树海之实",
+	open_level  = 410,
+	gain        = [{30102220,1}],
+	cost        = [],
+	other_cost  = [30102119,30102219,30102319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30102320) -> #cfg_equip_combine{
+	id          = 30102320,
+	title       = "青曜玉",
+	open_level  = 410,
+	gain        = [{30102320,1}],
+	cost        = [],
+	other_cost  = [30102119,30102219,30102319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103104) -> #cfg_equip_combine{
+	id          = 30103104,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103104,1}],
+	cost        = [],
+	other_cost  = [30103103,30103203,30103303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103204) -> #cfg_equip_combine{
+	id          = 30103204,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103204,1}],
+	cost        = [],
+	other_cost  = [30103103,30103203,30103303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103304) -> #cfg_equip_combine{
+	id          = 30103304,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103304,1}],
+	cost        = [],
+	other_cost  = [30103103,30103203,30103303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103105) -> #cfg_equip_combine{
+	id          = 30103105,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103105,1}],
+	cost        = [],
+	other_cost  = [30103104,30103204,30103304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103205) -> #cfg_equip_combine{
+	id          = 30103205,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103205,1}],
+	cost        = [],
+	other_cost  = [30103104,30103204,30103304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103305) -> #cfg_equip_combine{
+	id          = 30103305,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103305,1}],
+	cost        = [],
+	other_cost  = [30103104,30103204,30103304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103106) -> #cfg_equip_combine{
+	id          = 30103106,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103106,1}],
+	cost        = [],
+	other_cost  = [30103105,30103205,30103305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103206) -> #cfg_equip_combine{
+	id          = 30103206,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103206,1}],
+	cost        = [],
+	other_cost  = [30103105,30103205,30103305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103306) -> #cfg_equip_combine{
+	id          = 30103306,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103306,1}],
+	cost        = [],
+	other_cost  = [30103105,30103205,30103305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103107) -> #cfg_equip_combine{
+	id          = 30103107,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103107,1}],
+	cost        = [],
+	other_cost  = [30103106,30103206,30103306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103207) -> #cfg_equip_combine{
+	id          = 30103207,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103207,1}],
+	cost        = [],
+	other_cost  = [30103106,30103206,30103306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103307) -> #cfg_equip_combine{
+	id          = 30103307,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103307,1}],
+	cost        = [],
+	other_cost  = [30103106,30103206,30103306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103108) -> #cfg_equip_combine{
+	id          = 30103108,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103108,1}],
+	cost        = [],
+	other_cost  = [30103107,30103207,30103307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103208) -> #cfg_equip_combine{
+	id          = 30103208,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103208,1}],
+	cost        = [],
+	other_cost  = [30103107,30103207,30103307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103308) -> #cfg_equip_combine{
+	id          = 30103308,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103308,1}],
+	cost        = [],
+	other_cost  = [30103107,30103207,30103307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103109) -> #cfg_equip_combine{
+	id          = 30103109,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103109,1}],
+	cost        = [],
+	other_cost  = [30103108,30103208,30103308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103209) -> #cfg_equip_combine{
+	id          = 30103209,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103209,1}],
+	cost        = [],
+	other_cost  = [30103108,30103208,30103308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103309) -> #cfg_equip_combine{
+	id          = 30103309,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103309,1}],
+	cost        = [],
+	other_cost  = [30103108,30103208,30103308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103110) -> #cfg_equip_combine{
+	id          = 30103110,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103110,1}],
+	cost        = [],
+	other_cost  = [30103109,30103209,30103309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103210) -> #cfg_equip_combine{
+	id          = 30103210,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103210,1}],
+	cost        = [],
+	other_cost  = [30103109,30103209,30103309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103310) -> #cfg_equip_combine{
+	id          = 30103310,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103310,1}],
+	cost        = [],
+	other_cost  = [30103109,30103209,30103309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103111) -> #cfg_equip_combine{
+	id          = 30103111,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103111,1}],
+	cost        = [],
+	other_cost  = [30103110,30103210,30103310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103211) -> #cfg_equip_combine{
+	id          = 30103211,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103211,1}],
+	cost        = [],
+	other_cost  = [30103110,30103210,30103310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103311) -> #cfg_equip_combine{
+	id          = 30103311,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103311,1}],
+	cost        = [],
+	other_cost  = [30103110,30103210,30103310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103112) -> #cfg_equip_combine{
+	id          = 30103112,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103112,1}],
+	cost        = [],
+	other_cost  = [30103111,30103211,30103311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103212) -> #cfg_equip_combine{
+	id          = 30103212,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103212,1}],
+	cost        = [],
+	other_cost  = [30103111,30103211,30103311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103312) -> #cfg_equip_combine{
+	id          = 30103312,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103312,1}],
+	cost        = [],
+	other_cost  = [30103111,30103211,30103311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103113) -> #cfg_equip_combine{
+	id          = 30103113,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103113,1}],
+	cost        = [],
+	other_cost  = [30103112,30103212,30103312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103213) -> #cfg_equip_combine{
+	id          = 30103213,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103213,1}],
+	cost        = [],
+	other_cost  = [30103112,30103212,30103312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103313) -> #cfg_equip_combine{
+	id          = 30103313,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103313,1}],
+	cost        = [],
+	other_cost  = [30103112,30103212,30103312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103114) -> #cfg_equip_combine{
+	id          = 30103114,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103114,1}],
+	cost        = [],
+	other_cost  = [30103113,30103213,30103313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103214) -> #cfg_equip_combine{
+	id          = 30103214,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103214,1}],
+	cost        = [],
+	other_cost  = [30103113,30103213,30103313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103314) -> #cfg_equip_combine{
+	id          = 30103314,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103314,1}],
+	cost        = [],
+	other_cost  = [30103113,30103213,30103313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103115) -> #cfg_equip_combine{
+	id          = 30103115,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103115,1}],
+	cost        = [],
+	other_cost  = [30103114,30103214,30103314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103215) -> #cfg_equip_combine{
+	id          = 30103215,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103215,1}],
+	cost        = [],
+	other_cost  = [30103114,30103214,30103314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103315) -> #cfg_equip_combine{
+	id          = 30103315,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103315,1}],
+	cost        = [],
+	other_cost  = [30103114,30103214,30103314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103116) -> #cfg_equip_combine{
+	id          = 30103116,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103116,1}],
+	cost        = [],
+	other_cost  = [30103115,30103215,30103315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103216) -> #cfg_equip_combine{
+	id          = 30103216,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103216,1}],
+	cost        = [],
+	other_cost  = [30103115,30103215,30103315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103316) -> #cfg_equip_combine{
+	id          = 30103316,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103316,1}],
+	cost        = [],
+	other_cost  = [30103115,30103215,30103315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103117) -> #cfg_equip_combine{
+	id          = 30103117,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103117,1}],
+	cost        = [],
+	other_cost  = [30103116,30103216,30103316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103217) -> #cfg_equip_combine{
+	id          = 30103217,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103217,1}],
+	cost        = [],
+	other_cost  = [30103116,30103216,30103316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103317) -> #cfg_equip_combine{
+	id          = 30103317,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103317,1}],
+	cost        = [],
+	other_cost  = [30103116,30103216,30103316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103118) -> #cfg_equip_combine{
+	id          = 30103118,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103118,1}],
+	cost        = [],
+	other_cost  = [30103117,30103217,30103317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103218) -> #cfg_equip_combine{
+	id          = 30103218,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103218,1}],
+	cost        = [],
+	other_cost  = [30103117,30103217,30103317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103318) -> #cfg_equip_combine{
+	id          = 30103318,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103318,1}],
+	cost        = [],
+	other_cost  = [30103117,30103217,30103317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103119) -> #cfg_equip_combine{
+	id          = 30103119,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103119,1}],
+	cost        = [],
+	other_cost  = [30103118,30103218,30103318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103219) -> #cfg_equip_combine{
+	id          = 30103219,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103219,1}],
+	cost        = [],
+	other_cost  = [30103118,30103218,30103318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103319) -> #cfg_equip_combine{
+	id          = 30103319,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103319,1}],
+	cost        = [],
+	other_cost  = [30103118,30103218,30103318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103120) -> #cfg_equip_combine{
+	id          = 30103120,
+	title       = "黄金叉戟仗",
+	open_level  = 410,
+	gain        = [{30103120,1}],
+	cost        = [],
+	other_cost  = [30103119,30103219,30103319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103220) -> #cfg_equip_combine{
+	id          = 30103220,
+	title       = "魔力源晶",
+	open_level  = 410,
+	gain        = [{30103220,1}],
+	cost        = [],
+	other_cost  = [30103119,30103219,30103319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30103320) -> #cfg_equip_combine{
+	id          = 30103320,
+	title       = "神圣之证",
+	open_level  = 410,
+	gain        = [{30103320,1}],
+	cost        = [],
+	other_cost  = [30103119,30103219,30103319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104104) -> #cfg_equip_combine{
+	id          = 30104104,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104104,1}],
+	cost        = [],
+	other_cost  = [30104103,30104203,30104303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104204) -> #cfg_equip_combine{
+	id          = 30104204,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104204,1}],
+	cost        = [],
+	other_cost  = [30104103,30104203,30104303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104304) -> #cfg_equip_combine{
+	id          = 30104304,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104304,1}],
+	cost        = [],
+	other_cost  = [30104103,30104203,30104303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104105) -> #cfg_equip_combine{
+	id          = 30104105,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104105,1}],
+	cost        = [],
+	other_cost  = [30104104,30104204,30104304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104205) -> #cfg_equip_combine{
+	id          = 30104205,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104205,1}],
+	cost        = [],
+	other_cost  = [30104104,30104204,30104304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104305) -> #cfg_equip_combine{
+	id          = 30104305,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104305,1}],
+	cost        = [],
+	other_cost  = [30104104,30104204,30104304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104106) -> #cfg_equip_combine{
+	id          = 30104106,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104106,1}],
+	cost        = [],
+	other_cost  = [30104105,30104205,30104305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104206) -> #cfg_equip_combine{
+	id          = 30104206,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104206,1}],
+	cost        = [],
+	other_cost  = [30104105,30104205,30104305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104306) -> #cfg_equip_combine{
+	id          = 30104306,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104306,1}],
+	cost        = [],
+	other_cost  = [30104105,30104205,30104305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104107) -> #cfg_equip_combine{
+	id          = 30104107,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104107,1}],
+	cost        = [],
+	other_cost  = [30104106,30104206,30104306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104207) -> #cfg_equip_combine{
+	id          = 30104207,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104207,1}],
+	cost        = [],
+	other_cost  = [30104106,30104206,30104306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104307) -> #cfg_equip_combine{
+	id          = 30104307,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104307,1}],
+	cost        = [],
+	other_cost  = [30104106,30104206,30104306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104108) -> #cfg_equip_combine{
+	id          = 30104108,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104108,1}],
+	cost        = [],
+	other_cost  = [30104107,30104207,30104307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104208) -> #cfg_equip_combine{
+	id          = 30104208,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104208,1}],
+	cost        = [],
+	other_cost  = [30104107,30104207,30104307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104308) -> #cfg_equip_combine{
+	id          = 30104308,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104308,1}],
+	cost        = [],
+	other_cost  = [30104107,30104207,30104307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104109) -> #cfg_equip_combine{
+	id          = 30104109,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104109,1}],
+	cost        = [],
+	other_cost  = [30104108,30104208,30104308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104209) -> #cfg_equip_combine{
+	id          = 30104209,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104209,1}],
+	cost        = [],
+	other_cost  = [30104108,30104208,30104308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104309) -> #cfg_equip_combine{
+	id          = 30104309,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104309,1}],
+	cost        = [],
+	other_cost  = [30104108,30104208,30104308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104110) -> #cfg_equip_combine{
+	id          = 30104110,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104110,1}],
+	cost        = [],
+	other_cost  = [30104109,30104209,30104309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104210) -> #cfg_equip_combine{
+	id          = 30104210,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104210,1}],
+	cost        = [],
+	other_cost  = [30104109,30104209,30104309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104310) -> #cfg_equip_combine{
+	id          = 30104310,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104310,1}],
+	cost        = [],
+	other_cost  = [30104109,30104209,30104309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104111) -> #cfg_equip_combine{
+	id          = 30104111,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104111,1}],
+	cost        = [],
+	other_cost  = [30104110,30104210,30104310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104211) -> #cfg_equip_combine{
+	id          = 30104211,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104211,1}],
+	cost        = [],
+	other_cost  = [30104110,30104210,30104310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104311) -> #cfg_equip_combine{
+	id          = 30104311,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104311,1}],
+	cost        = [],
+	other_cost  = [30104110,30104210,30104310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104112) -> #cfg_equip_combine{
+	id          = 30104112,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104112,1}],
+	cost        = [],
+	other_cost  = [30104111,30104211,30104311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104212) -> #cfg_equip_combine{
+	id          = 30104212,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104212,1}],
+	cost        = [],
+	other_cost  = [30104111,30104211,30104311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104312) -> #cfg_equip_combine{
+	id          = 30104312,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104312,1}],
+	cost        = [],
+	other_cost  = [30104111,30104211,30104311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104113) -> #cfg_equip_combine{
+	id          = 30104113,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104113,1}],
+	cost        = [],
+	other_cost  = [30104112,30104212,30104312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104213) -> #cfg_equip_combine{
+	id          = 30104213,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104213,1}],
+	cost        = [],
+	other_cost  = [30104112,30104212,30104312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104313) -> #cfg_equip_combine{
+	id          = 30104313,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104313,1}],
+	cost        = [],
+	other_cost  = [30104112,30104212,30104312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104114) -> #cfg_equip_combine{
+	id          = 30104114,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104114,1}],
+	cost        = [],
+	other_cost  = [30104113,30104213,30104313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104214) -> #cfg_equip_combine{
+	id          = 30104214,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104214,1}],
+	cost        = [],
+	other_cost  = [30104113,30104213,30104313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104314) -> #cfg_equip_combine{
+	id          = 30104314,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104314,1}],
+	cost        = [],
+	other_cost  = [30104113,30104213,30104313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104115) -> #cfg_equip_combine{
+	id          = 30104115,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104115,1}],
+	cost        = [],
+	other_cost  = [30104114,30104214,30104314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104215) -> #cfg_equip_combine{
+	id          = 30104215,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104215,1}],
+	cost        = [],
+	other_cost  = [30104114,30104214,30104314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104315) -> #cfg_equip_combine{
+	id          = 30104315,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104315,1}],
+	cost        = [],
+	other_cost  = [30104114,30104214,30104314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104116) -> #cfg_equip_combine{
+	id          = 30104116,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104116,1}],
+	cost        = [],
+	other_cost  = [30104115,30104215,30104315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104216) -> #cfg_equip_combine{
+	id          = 30104216,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104216,1}],
+	cost        = [],
+	other_cost  = [30104115,30104215,30104315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104316) -> #cfg_equip_combine{
+	id          = 30104316,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104316,1}],
+	cost        = [],
+	other_cost  = [30104115,30104215,30104315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104117) -> #cfg_equip_combine{
+	id          = 30104117,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104117,1}],
+	cost        = [],
+	other_cost  = [30104116,30104216,30104316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104217) -> #cfg_equip_combine{
+	id          = 30104217,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104217,1}],
+	cost        = [],
+	other_cost  = [30104116,30104216,30104316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104317) -> #cfg_equip_combine{
+	id          = 30104317,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104317,1}],
+	cost        = [],
+	other_cost  = [30104116,30104216,30104316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104118) -> #cfg_equip_combine{
+	id          = 30104118,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104118,1}],
+	cost        = [],
+	other_cost  = [30104117,30104217,30104317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104218) -> #cfg_equip_combine{
+	id          = 30104218,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104218,1}],
+	cost        = [],
+	other_cost  = [30104117,30104217,30104317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104318) -> #cfg_equip_combine{
+	id          = 30104318,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104318,1}],
+	cost        = [],
+	other_cost  = [30104117,30104217,30104317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104119) -> #cfg_equip_combine{
+	id          = 30104119,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104119,1}],
+	cost        = [],
+	other_cost  = [30104118,30104218,30104318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104219) -> #cfg_equip_combine{
+	id          = 30104219,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104219,1}],
+	cost        = [],
+	other_cost  = [30104118,30104218,30104318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104319) -> #cfg_equip_combine{
+	id          = 30104319,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104319,1}],
+	cost        = [],
+	other_cost  = [30104118,30104218,30104318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104120) -> #cfg_equip_combine{
+	id          = 30104120,
+	title       = "腥红圣杯",
+	open_level  = 410,
+	gain        = [{30104120,1}],
+	cost        = [],
+	other_cost  = [30104119,30104219,30104319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104220) -> #cfg_equip_combine{
+	id          = 30104220,
+	title       = "血色臻钻",
+	open_level  = 410,
+	gain        = [{30104220,1}],
+	cost        = [],
+	other_cost  = [30104119,30104219,30104319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30104320) -> #cfg_equip_combine{
+	id          = 30104320,
+	title       = "鲜血室女",
+	open_level  = 410,
+	gain        = [{30104320,1}],
+	cost        = [],
+	other_cost  = [30104119,30104219,30104319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201104) -> #cfg_equip_combine{
+	id          = 30201104,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201104,1}],
+	cost        = [],
+	other_cost  = [30201103,30201203,30201303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201204) -> #cfg_equip_combine{
+	id          = 30201204,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201204,1}],
+	cost        = [],
+	other_cost  = [30201103,30201203,30201303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201304) -> #cfg_equip_combine{
+	id          = 30201304,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201304,1}],
+	cost        = [],
+	other_cost  = [30201103,30201203,30201303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201105) -> #cfg_equip_combine{
+	id          = 30201105,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201105,1}],
+	cost        = [],
+	other_cost  = [30201104,30201204,30201304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201205) -> #cfg_equip_combine{
+	id          = 30201205,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201205,1}],
+	cost        = [],
+	other_cost  = [30201104,30201204,30201304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201305) -> #cfg_equip_combine{
+	id          = 30201305,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201305,1}],
+	cost        = [],
+	other_cost  = [30201104,30201204,30201304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201106) -> #cfg_equip_combine{
+	id          = 30201106,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201106,1}],
+	cost        = [],
+	other_cost  = [30201105,30201205,30201305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201206) -> #cfg_equip_combine{
+	id          = 30201206,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201206,1}],
+	cost        = [],
+	other_cost  = [30201105,30201205,30201305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201306) -> #cfg_equip_combine{
+	id          = 30201306,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201306,1}],
+	cost        = [],
+	other_cost  = [30201105,30201205,30201305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201107) -> #cfg_equip_combine{
+	id          = 30201107,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201107,1}],
+	cost        = [],
+	other_cost  = [30201106,30201206,30201306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201207) -> #cfg_equip_combine{
+	id          = 30201207,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201207,1}],
+	cost        = [],
+	other_cost  = [30201106,30201206,30201306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201307) -> #cfg_equip_combine{
+	id          = 30201307,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201307,1}],
+	cost        = [],
+	other_cost  = [30201106,30201206,30201306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201108) -> #cfg_equip_combine{
+	id          = 30201108,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201108,1}],
+	cost        = [],
+	other_cost  = [30201107,30201207,30201307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201208) -> #cfg_equip_combine{
+	id          = 30201208,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201208,1}],
+	cost        = [],
+	other_cost  = [30201107,30201207,30201307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201308) -> #cfg_equip_combine{
+	id          = 30201308,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201308,1}],
+	cost        = [],
+	other_cost  = [30201107,30201207,30201307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201109) -> #cfg_equip_combine{
+	id          = 30201109,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201109,1}],
+	cost        = [],
+	other_cost  = [30201108,30201208,30201308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201209) -> #cfg_equip_combine{
+	id          = 30201209,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201209,1}],
+	cost        = [],
+	other_cost  = [30201108,30201208,30201308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201309) -> #cfg_equip_combine{
+	id          = 30201309,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201309,1}],
+	cost        = [],
+	other_cost  = [30201108,30201208,30201308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201110) -> #cfg_equip_combine{
+	id          = 30201110,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201110,1}],
+	cost        = [],
+	other_cost  = [30201109,30201209,30201309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201210) -> #cfg_equip_combine{
+	id          = 30201210,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201210,1}],
+	cost        = [],
+	other_cost  = [30201109,30201209,30201309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201310) -> #cfg_equip_combine{
+	id          = 30201310,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201310,1}],
+	cost        = [],
+	other_cost  = [30201109,30201209,30201309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201111) -> #cfg_equip_combine{
+	id          = 30201111,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201111,1}],
+	cost        = [],
+	other_cost  = [30201110,30201210,30201310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201211) -> #cfg_equip_combine{
+	id          = 30201211,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201211,1}],
+	cost        = [],
+	other_cost  = [30201110,30201210,30201310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201311) -> #cfg_equip_combine{
+	id          = 30201311,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201311,1}],
+	cost        = [],
+	other_cost  = [30201110,30201210,30201310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201112) -> #cfg_equip_combine{
+	id          = 30201112,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201112,1}],
+	cost        = [],
+	other_cost  = [30201111,30201211,30201311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201212) -> #cfg_equip_combine{
+	id          = 30201212,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201212,1}],
+	cost        = [],
+	other_cost  = [30201111,30201211,30201311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201312) -> #cfg_equip_combine{
+	id          = 30201312,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201312,1}],
+	cost        = [],
+	other_cost  = [30201111,30201211,30201311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201113) -> #cfg_equip_combine{
+	id          = 30201113,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201113,1}],
+	cost        = [],
+	other_cost  = [30201112,30201212,30201312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201213) -> #cfg_equip_combine{
+	id          = 30201213,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201213,1}],
+	cost        = [],
+	other_cost  = [30201112,30201212,30201312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201313) -> #cfg_equip_combine{
+	id          = 30201313,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201313,1}],
+	cost        = [],
+	other_cost  = [30201112,30201212,30201312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201114) -> #cfg_equip_combine{
+	id          = 30201114,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201114,1}],
+	cost        = [],
+	other_cost  = [30201113,30201213,30201313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201214) -> #cfg_equip_combine{
+	id          = 30201214,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201214,1}],
+	cost        = [],
+	other_cost  = [30201113,30201213,30201313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201314) -> #cfg_equip_combine{
+	id          = 30201314,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201314,1}],
+	cost        = [],
+	other_cost  = [30201113,30201213,30201313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201115) -> #cfg_equip_combine{
+	id          = 30201115,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201115,1}],
+	cost        = [],
+	other_cost  = [30201114,30201214,30201314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201215) -> #cfg_equip_combine{
+	id          = 30201215,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201215,1}],
+	cost        = [],
+	other_cost  = [30201114,30201214,30201314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201315) -> #cfg_equip_combine{
+	id          = 30201315,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201315,1}],
+	cost        = [],
+	other_cost  = [30201114,30201214,30201314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201116) -> #cfg_equip_combine{
+	id          = 30201116,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201116,1}],
+	cost        = [],
+	other_cost  = [30201115,30201215,30201315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201216) -> #cfg_equip_combine{
+	id          = 30201216,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201216,1}],
+	cost        = [],
+	other_cost  = [30201115,30201215,30201315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201316) -> #cfg_equip_combine{
+	id          = 30201316,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201316,1}],
+	cost        = [],
+	other_cost  = [30201115,30201215,30201315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201117) -> #cfg_equip_combine{
+	id          = 30201117,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201117,1}],
+	cost        = [],
+	other_cost  = [30201116,30201216,30201316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201217) -> #cfg_equip_combine{
+	id          = 30201217,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201217,1}],
+	cost        = [],
+	other_cost  = [30201116,30201216,30201316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201317) -> #cfg_equip_combine{
+	id          = 30201317,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201317,1}],
+	cost        = [],
+	other_cost  = [30201116,30201216,30201316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201118) -> #cfg_equip_combine{
+	id          = 30201118,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201118,1}],
+	cost        = [],
+	other_cost  = [30201117,30201217,30201317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201218) -> #cfg_equip_combine{
+	id          = 30201218,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201218,1}],
+	cost        = [],
+	other_cost  = [30201117,30201217,30201317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201318) -> #cfg_equip_combine{
+	id          = 30201318,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201318,1}],
+	cost        = [],
+	other_cost  = [30201117,30201217,30201317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201119) -> #cfg_equip_combine{
+	id          = 30201119,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201119,1}],
+	cost        = [],
+	other_cost  = [30201118,30201218,30201318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201219) -> #cfg_equip_combine{
+	id          = 30201219,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201219,1}],
+	cost        = [],
+	other_cost  = [30201118,30201218,30201318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201319) -> #cfg_equip_combine{
+	id          = 30201319,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201319,1}],
+	cost        = [],
+	other_cost  = [30201118,30201218,30201318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201120) -> #cfg_equip_combine{
+	id          = 30201120,
+	title       = "荣耀之冠",
+	open_level  = 410,
+	gain        = [{30201120,1}],
+	cost        = [],
+	other_cost  = [30201119,30201219,30201319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201220) -> #cfg_equip_combine{
+	id          = 30201220,
+	title       = "提亚光盾",
+	open_level  = 410,
+	gain        = [{30201220,1}],
+	cost        = [],
+	other_cost  = [30201119,30201219,30201319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30201320) -> #cfg_equip_combine{
+	id          = 30201320,
+	title       = "银星岩",
+	open_level  = 410,
+	gain        = [{30201320,1}],
+	cost        = [],
+	other_cost  = [30201119,30201219,30201319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202104) -> #cfg_equip_combine{
+	id          = 30202104,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202104,1}],
+	cost        = [],
+	other_cost  = [30202103,30202203,30202303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202204) -> #cfg_equip_combine{
+	id          = 30202204,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202204,1}],
+	cost        = [],
+	other_cost  = [30202103,30202203,30202303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202304) -> #cfg_equip_combine{
+	id          = 30202304,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202304,1}],
+	cost        = [],
+	other_cost  = [30202103,30202203,30202303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202105) -> #cfg_equip_combine{
+	id          = 30202105,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202105,1}],
+	cost        = [],
+	other_cost  = [30202104,30202204,30202304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202205) -> #cfg_equip_combine{
+	id          = 30202205,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202205,1}],
+	cost        = [],
+	other_cost  = [30202104,30202204,30202304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202305) -> #cfg_equip_combine{
+	id          = 30202305,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202305,1}],
+	cost        = [],
+	other_cost  = [30202104,30202204,30202304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202106) -> #cfg_equip_combine{
+	id          = 30202106,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202106,1}],
+	cost        = [],
+	other_cost  = [30202105,30202205,30202305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202206) -> #cfg_equip_combine{
+	id          = 30202206,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202206,1}],
+	cost        = [],
+	other_cost  = [30202105,30202205,30202305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202306) -> #cfg_equip_combine{
+	id          = 30202306,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202306,1}],
+	cost        = [],
+	other_cost  = [30202105,30202205,30202305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202107) -> #cfg_equip_combine{
+	id          = 30202107,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202107,1}],
+	cost        = [],
+	other_cost  = [30202106,30202206,30202306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202207) -> #cfg_equip_combine{
+	id          = 30202207,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202207,1}],
+	cost        = [],
+	other_cost  = [30202106,30202206,30202306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202307) -> #cfg_equip_combine{
+	id          = 30202307,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202307,1}],
+	cost        = [],
+	other_cost  = [30202106,30202206,30202306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202108) -> #cfg_equip_combine{
+	id          = 30202108,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202108,1}],
+	cost        = [],
+	other_cost  = [30202107,30202207,30202307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202208) -> #cfg_equip_combine{
+	id          = 30202208,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202208,1}],
+	cost        = [],
+	other_cost  = [30202107,30202207,30202307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202308) -> #cfg_equip_combine{
+	id          = 30202308,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202308,1}],
+	cost        = [],
+	other_cost  = [30202107,30202207,30202307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202109) -> #cfg_equip_combine{
+	id          = 30202109,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202109,1}],
+	cost        = [],
+	other_cost  = [30202108,30202208,30202308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202209) -> #cfg_equip_combine{
+	id          = 30202209,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202209,1}],
+	cost        = [],
+	other_cost  = [30202108,30202208,30202308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202309) -> #cfg_equip_combine{
+	id          = 30202309,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202309,1}],
+	cost        = [],
+	other_cost  = [30202108,30202208,30202308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202110) -> #cfg_equip_combine{
+	id          = 30202110,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202110,1}],
+	cost        = [],
+	other_cost  = [30202109,30202209,30202309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202210) -> #cfg_equip_combine{
+	id          = 30202210,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202210,1}],
+	cost        = [],
+	other_cost  = [30202109,30202209,30202309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202310) -> #cfg_equip_combine{
+	id          = 30202310,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202310,1}],
+	cost        = [],
+	other_cost  = [30202109,30202209,30202309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202111) -> #cfg_equip_combine{
+	id          = 30202111,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202111,1}],
+	cost        = [],
+	other_cost  = [30202110,30202210,30202310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202211) -> #cfg_equip_combine{
+	id          = 30202211,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202211,1}],
+	cost        = [],
+	other_cost  = [30202110,30202210,30202310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202311) -> #cfg_equip_combine{
+	id          = 30202311,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202311,1}],
+	cost        = [],
+	other_cost  = [30202110,30202210,30202310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202112) -> #cfg_equip_combine{
+	id          = 30202112,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202112,1}],
+	cost        = [],
+	other_cost  = [30202111,30202211,30202311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202212) -> #cfg_equip_combine{
+	id          = 30202212,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202212,1}],
+	cost        = [],
+	other_cost  = [30202111,30202211,30202311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202312) -> #cfg_equip_combine{
+	id          = 30202312,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202312,1}],
+	cost        = [],
+	other_cost  = [30202111,30202211,30202311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202113) -> #cfg_equip_combine{
+	id          = 30202113,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202113,1}],
+	cost        = [],
+	other_cost  = [30202112,30202212,30202312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202213) -> #cfg_equip_combine{
+	id          = 30202213,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202213,1}],
+	cost        = [],
+	other_cost  = [30202112,30202212,30202312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202313) -> #cfg_equip_combine{
+	id          = 30202313,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202313,1}],
+	cost        = [],
+	other_cost  = [30202112,30202212,30202312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202114) -> #cfg_equip_combine{
+	id          = 30202114,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202114,1}],
+	cost        = [],
+	other_cost  = [30202113,30202213,30202313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202214) -> #cfg_equip_combine{
+	id          = 30202214,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202214,1}],
+	cost        = [],
+	other_cost  = [30202113,30202213,30202313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202314) -> #cfg_equip_combine{
+	id          = 30202314,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202314,1}],
+	cost        = [],
+	other_cost  = [30202113,30202213,30202313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202115) -> #cfg_equip_combine{
+	id          = 30202115,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202115,1}],
+	cost        = [],
+	other_cost  = [30202114,30202214,30202314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202215) -> #cfg_equip_combine{
+	id          = 30202215,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202215,1}],
+	cost        = [],
+	other_cost  = [30202114,30202214,30202314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202315) -> #cfg_equip_combine{
+	id          = 30202315,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202315,1}],
+	cost        = [],
+	other_cost  = [30202114,30202214,30202314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202116) -> #cfg_equip_combine{
+	id          = 30202116,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202116,1}],
+	cost        = [],
+	other_cost  = [30202115,30202215,30202315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202216) -> #cfg_equip_combine{
+	id          = 30202216,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202216,1}],
+	cost        = [],
+	other_cost  = [30202115,30202215,30202315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202316) -> #cfg_equip_combine{
+	id          = 30202316,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202316,1}],
+	cost        = [],
+	other_cost  = [30202115,30202215,30202315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202117) -> #cfg_equip_combine{
+	id          = 30202117,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202117,1}],
+	cost        = [],
+	other_cost  = [30202116,30202216,30202316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202217) -> #cfg_equip_combine{
+	id          = 30202217,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202217,1}],
+	cost        = [],
+	other_cost  = [30202116,30202216,30202316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202317) -> #cfg_equip_combine{
+	id          = 30202317,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202317,1}],
+	cost        = [],
+	other_cost  = [30202116,30202216,30202316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202118) -> #cfg_equip_combine{
+	id          = 30202118,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202118,1}],
+	cost        = [],
+	other_cost  = [30202117,30202217,30202317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202218) -> #cfg_equip_combine{
+	id          = 30202218,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202218,1}],
+	cost        = [],
+	other_cost  = [30202117,30202217,30202317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202318) -> #cfg_equip_combine{
+	id          = 30202318,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202318,1}],
+	cost        = [],
+	other_cost  = [30202117,30202217,30202317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202119) -> #cfg_equip_combine{
+	id          = 30202119,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202119,1}],
+	cost        = [],
+	other_cost  = [30202118,30202218,30202318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202219) -> #cfg_equip_combine{
+	id          = 30202219,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202219,1}],
+	cost        = [],
+	other_cost  = [30202118,30202218,30202318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202319) -> #cfg_equip_combine{
+	id          = 30202319,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202319,1}],
+	cost        = [],
+	other_cost  = [30202118,30202218,30202318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202120) -> #cfg_equip_combine{
+	id          = 30202120,
+	title       = "银十字之盾",
+	open_level  = 410,
+	gain        = [{30202120,1}],
+	cost        = [],
+	other_cost  = [30202119,30202219,30202319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202220) -> #cfg_equip_combine{
+	id          = 30202220,
+	title       = "梦幻陨星",
+	open_level  = 410,
+	gain        = [{30202220,1}],
+	cost        = [],
+	other_cost  = [30202119,30202219,30202319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30202320) -> #cfg_equip_combine{
+	id          = 30202320,
+	title       = "星能手镯",
+	open_level  = 410,
+	gain        = [{30202320,1}],
+	cost        = [],
+	other_cost  = [30202119,30202219,30202319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203104) -> #cfg_equip_combine{
+	id          = 30203104,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203104,1}],
+	cost        = [],
+	other_cost  = [30203103,30203203,30203303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203204) -> #cfg_equip_combine{
+	id          = 30203204,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203204,1}],
+	cost        = [],
+	other_cost  = [30203103,30203203,30203303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203304) -> #cfg_equip_combine{
+	id          = 30203304,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203304,1}],
+	cost        = [],
+	other_cost  = [30203103,30203203,30203303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203105) -> #cfg_equip_combine{
+	id          = 30203105,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203105,1}],
+	cost        = [],
+	other_cost  = [30203104,30203204,30203304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203205) -> #cfg_equip_combine{
+	id          = 30203205,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203205,1}],
+	cost        = [],
+	other_cost  = [30203104,30203204,30203304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203305) -> #cfg_equip_combine{
+	id          = 30203305,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203305,1}],
+	cost        = [],
+	other_cost  = [30203104,30203204,30203304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203106) -> #cfg_equip_combine{
+	id          = 30203106,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203106,1}],
+	cost        = [],
+	other_cost  = [30203105,30203205,30203305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203206) -> #cfg_equip_combine{
+	id          = 30203206,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203206,1}],
+	cost        = [],
+	other_cost  = [30203105,30203205,30203305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203306) -> #cfg_equip_combine{
+	id          = 30203306,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203306,1}],
+	cost        = [],
+	other_cost  = [30203105,30203205,30203305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203107) -> #cfg_equip_combine{
+	id          = 30203107,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203107,1}],
+	cost        = [],
+	other_cost  = [30203106,30203206,30203306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203207) -> #cfg_equip_combine{
+	id          = 30203207,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203207,1}],
+	cost        = [],
+	other_cost  = [30203106,30203206,30203306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203307) -> #cfg_equip_combine{
+	id          = 30203307,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203307,1}],
+	cost        = [],
+	other_cost  = [30203106,30203206,30203306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203108) -> #cfg_equip_combine{
+	id          = 30203108,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203108,1}],
+	cost        = [],
+	other_cost  = [30203107,30203207,30203307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203208) -> #cfg_equip_combine{
+	id          = 30203208,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203208,1}],
+	cost        = [],
+	other_cost  = [30203107,30203207,30203307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203308) -> #cfg_equip_combine{
+	id          = 30203308,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203308,1}],
+	cost        = [],
+	other_cost  = [30203107,30203207,30203307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203109) -> #cfg_equip_combine{
+	id          = 30203109,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203109,1}],
+	cost        = [],
+	other_cost  = [30203108,30203208,30203308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203209) -> #cfg_equip_combine{
+	id          = 30203209,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203209,1}],
+	cost        = [],
+	other_cost  = [30203108,30203208,30203308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203309) -> #cfg_equip_combine{
+	id          = 30203309,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203309,1}],
+	cost        = [],
+	other_cost  = [30203108,30203208,30203308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203110) -> #cfg_equip_combine{
+	id          = 30203110,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203110,1}],
+	cost        = [],
+	other_cost  = [30203109,30203209,30203309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203210) -> #cfg_equip_combine{
+	id          = 30203210,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203210,1}],
+	cost        = [],
+	other_cost  = [30203109,30203209,30203309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203310) -> #cfg_equip_combine{
+	id          = 30203310,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203310,1}],
+	cost        = [],
+	other_cost  = [30203109,30203209,30203309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203111) -> #cfg_equip_combine{
+	id          = 30203111,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203111,1}],
+	cost        = [],
+	other_cost  = [30203110,30203210,30203310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203211) -> #cfg_equip_combine{
+	id          = 30203211,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203211,1}],
+	cost        = [],
+	other_cost  = [30203110,30203210,30203310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203311) -> #cfg_equip_combine{
+	id          = 30203311,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203311,1}],
+	cost        = [],
+	other_cost  = [30203110,30203210,30203310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203112) -> #cfg_equip_combine{
+	id          = 30203112,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203112,1}],
+	cost        = [],
+	other_cost  = [30203111,30203211,30203311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203212) -> #cfg_equip_combine{
+	id          = 30203212,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203212,1}],
+	cost        = [],
+	other_cost  = [30203111,30203211,30203311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203312) -> #cfg_equip_combine{
+	id          = 30203312,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203312,1}],
+	cost        = [],
+	other_cost  = [30203111,30203211,30203311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203113) -> #cfg_equip_combine{
+	id          = 30203113,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203113,1}],
+	cost        = [],
+	other_cost  = [30203112,30203212,30203312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203213) -> #cfg_equip_combine{
+	id          = 30203213,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203213,1}],
+	cost        = [],
+	other_cost  = [30203112,30203212,30203312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203313) -> #cfg_equip_combine{
+	id          = 30203313,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203313,1}],
+	cost        = [],
+	other_cost  = [30203112,30203212,30203312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203114) -> #cfg_equip_combine{
+	id          = 30203114,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203114,1}],
+	cost        = [],
+	other_cost  = [30203113,30203213,30203313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203214) -> #cfg_equip_combine{
+	id          = 30203214,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203214,1}],
+	cost        = [],
+	other_cost  = [30203113,30203213,30203313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203314) -> #cfg_equip_combine{
+	id          = 30203314,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203314,1}],
+	cost        = [],
+	other_cost  = [30203113,30203213,30203313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203115) -> #cfg_equip_combine{
+	id          = 30203115,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203115,1}],
+	cost        = [],
+	other_cost  = [30203114,30203214,30203314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203215) -> #cfg_equip_combine{
+	id          = 30203215,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203215,1}],
+	cost        = [],
+	other_cost  = [30203114,30203214,30203314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203315) -> #cfg_equip_combine{
+	id          = 30203315,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203315,1}],
+	cost        = [],
+	other_cost  = [30203114,30203214,30203314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203116) -> #cfg_equip_combine{
+	id          = 30203116,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203116,1}],
+	cost        = [],
+	other_cost  = [30203115,30203215,30203315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203216) -> #cfg_equip_combine{
+	id          = 30203216,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203216,1}],
+	cost        = [],
+	other_cost  = [30203115,30203215,30203315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203316) -> #cfg_equip_combine{
+	id          = 30203316,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203316,1}],
+	cost        = [],
+	other_cost  = [30203115,30203215,30203315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203117) -> #cfg_equip_combine{
+	id          = 30203117,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203117,1}],
+	cost        = [],
+	other_cost  = [30203116,30203216,30203316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203217) -> #cfg_equip_combine{
+	id          = 30203217,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203217,1}],
+	cost        = [],
+	other_cost  = [30203116,30203216,30203316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203317) -> #cfg_equip_combine{
+	id          = 30203317,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203317,1}],
+	cost        = [],
+	other_cost  = [30203116,30203216,30203316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203118) -> #cfg_equip_combine{
+	id          = 30203118,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203118,1}],
+	cost        = [],
+	other_cost  = [30203117,30203217,30203317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203218) -> #cfg_equip_combine{
+	id          = 30203218,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203218,1}],
+	cost        = [],
+	other_cost  = [30203117,30203217,30203317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203318) -> #cfg_equip_combine{
+	id          = 30203318,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203318,1}],
+	cost        = [],
+	other_cost  = [30203117,30203217,30203317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203119) -> #cfg_equip_combine{
+	id          = 30203119,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203119,1}],
+	cost        = [],
+	other_cost  = [30203118,30203218,30203318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203219) -> #cfg_equip_combine{
+	id          = 30203219,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203219,1}],
+	cost        = [],
+	other_cost  = [30203118,30203218,30203318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203319) -> #cfg_equip_combine{
+	id          = 30203319,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203319,1}],
+	cost        = [],
+	other_cost  = [30203118,30203218,30203318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203120) -> #cfg_equip_combine{
+	id          = 30203120,
+	title       = "狮心",
+	open_level  = 410,
+	gain        = [{30203120,1}],
+	cost        = [],
+	other_cost  = [30203119,30203219,30203319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203220) -> #cfg_equip_combine{
+	id          = 30203220,
+	title       = "神圣护身符",
+	open_level  = 410,
+	gain        = [{30203220,1}],
+	cost        = [],
+	other_cost  = [30203119,30203219,30203319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30203320) -> #cfg_equip_combine{
+	id          = 30203320,
+	title       = "神力冠",
+	open_level  = 410,
+	gain        = [{30203320,1}],
+	cost        = [],
+	other_cost  = [30203119,30203219,30203319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204104) -> #cfg_equip_combine{
+	id          = 30204104,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204104,1}],
+	cost        = [],
+	other_cost  = [30204103,30204203,30204303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204204) -> #cfg_equip_combine{
+	id          = 30204204,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204204,1}],
+	cost        = [],
+	other_cost  = [30204103,30204203,30204303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204304) -> #cfg_equip_combine{
+	id          = 30204304,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204304,1}],
+	cost        = [],
+	other_cost  = [30204103,30204203,30204303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204105) -> #cfg_equip_combine{
+	id          = 30204105,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204105,1}],
+	cost        = [],
+	other_cost  = [30204104,30204204,30204304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204205) -> #cfg_equip_combine{
+	id          = 30204205,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204205,1}],
+	cost        = [],
+	other_cost  = [30204104,30204204,30204304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204305) -> #cfg_equip_combine{
+	id          = 30204305,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204305,1}],
+	cost        = [],
+	other_cost  = [30204104,30204204,30204304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204106) -> #cfg_equip_combine{
+	id          = 30204106,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204106,1}],
+	cost        = [],
+	other_cost  = [30204105,30204205,30204305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204206) -> #cfg_equip_combine{
+	id          = 30204206,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204206,1}],
+	cost        = [],
+	other_cost  = [30204105,30204205,30204305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204306) -> #cfg_equip_combine{
+	id          = 30204306,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204306,1}],
+	cost        = [],
+	other_cost  = [30204105,30204205,30204305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204107) -> #cfg_equip_combine{
+	id          = 30204107,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204107,1}],
+	cost        = [],
+	other_cost  = [30204106,30204206,30204306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204207) -> #cfg_equip_combine{
+	id          = 30204207,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204207,1}],
+	cost        = [],
+	other_cost  = [30204106,30204206,30204306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204307) -> #cfg_equip_combine{
+	id          = 30204307,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204307,1}],
+	cost        = [],
+	other_cost  = [30204106,30204206,30204306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204108) -> #cfg_equip_combine{
+	id          = 30204108,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204108,1}],
+	cost        = [],
+	other_cost  = [30204107,30204207,30204307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204208) -> #cfg_equip_combine{
+	id          = 30204208,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204208,1}],
+	cost        = [],
+	other_cost  = [30204107,30204207,30204307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204308) -> #cfg_equip_combine{
+	id          = 30204308,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204308,1}],
+	cost        = [],
+	other_cost  = [30204107,30204207,30204307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204109) -> #cfg_equip_combine{
+	id          = 30204109,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204109,1}],
+	cost        = [],
+	other_cost  = [30204108,30204208,30204308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204209) -> #cfg_equip_combine{
+	id          = 30204209,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204209,1}],
+	cost        = [],
+	other_cost  = [30204108,30204208,30204308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204309) -> #cfg_equip_combine{
+	id          = 30204309,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204309,1}],
+	cost        = [],
+	other_cost  = [30204108,30204208,30204308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204110) -> #cfg_equip_combine{
+	id          = 30204110,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204110,1}],
+	cost        = [],
+	other_cost  = [30204109,30204209,30204309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204210) -> #cfg_equip_combine{
+	id          = 30204210,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204210,1}],
+	cost        = [],
+	other_cost  = [30204109,30204209,30204309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204310) -> #cfg_equip_combine{
+	id          = 30204310,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204310,1}],
+	cost        = [],
+	other_cost  = [30204109,30204209,30204309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204111) -> #cfg_equip_combine{
+	id          = 30204111,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204111,1}],
+	cost        = [],
+	other_cost  = [30204110,30204210,30204310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204211) -> #cfg_equip_combine{
+	id          = 30204211,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204211,1}],
+	cost        = [],
+	other_cost  = [30204110,30204210,30204310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204311) -> #cfg_equip_combine{
+	id          = 30204311,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204311,1}],
+	cost        = [],
+	other_cost  = [30204110,30204210,30204310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204112) -> #cfg_equip_combine{
+	id          = 30204112,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204112,1}],
+	cost        = [],
+	other_cost  = [30204111,30204211,30204311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204212) -> #cfg_equip_combine{
+	id          = 30204212,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204212,1}],
+	cost        = [],
+	other_cost  = [30204111,30204211,30204311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204312) -> #cfg_equip_combine{
+	id          = 30204312,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204312,1}],
+	cost        = [],
+	other_cost  = [30204111,30204211,30204311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204113) -> #cfg_equip_combine{
+	id          = 30204113,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204113,1}],
+	cost        = [],
+	other_cost  = [30204112,30204212,30204312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204213) -> #cfg_equip_combine{
+	id          = 30204213,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204213,1}],
+	cost        = [],
+	other_cost  = [30204112,30204212,30204312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204313) -> #cfg_equip_combine{
+	id          = 30204313,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204313,1}],
+	cost        = [],
+	other_cost  = [30204112,30204212,30204312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204114) -> #cfg_equip_combine{
+	id          = 30204114,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204114,1}],
+	cost        = [],
+	other_cost  = [30204113,30204213,30204313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204214) -> #cfg_equip_combine{
+	id          = 30204214,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204214,1}],
+	cost        = [],
+	other_cost  = [30204113,30204213,30204313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204314) -> #cfg_equip_combine{
+	id          = 30204314,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204314,1}],
+	cost        = [],
+	other_cost  = [30204113,30204213,30204313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204115) -> #cfg_equip_combine{
+	id          = 30204115,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204115,1}],
+	cost        = [],
+	other_cost  = [30204114,30204214,30204314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204215) -> #cfg_equip_combine{
+	id          = 30204215,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204215,1}],
+	cost        = [],
+	other_cost  = [30204114,30204214,30204314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204315) -> #cfg_equip_combine{
+	id          = 30204315,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204315,1}],
+	cost        = [],
+	other_cost  = [30204114,30204214,30204314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204116) -> #cfg_equip_combine{
+	id          = 30204116,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204116,1}],
+	cost        = [],
+	other_cost  = [30204115,30204215,30204315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204216) -> #cfg_equip_combine{
+	id          = 30204216,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204216,1}],
+	cost        = [],
+	other_cost  = [30204115,30204215,30204315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204316) -> #cfg_equip_combine{
+	id          = 30204316,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204316,1}],
+	cost        = [],
+	other_cost  = [30204115,30204215,30204315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204117) -> #cfg_equip_combine{
+	id          = 30204117,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204117,1}],
+	cost        = [],
+	other_cost  = [30204116,30204216,30204316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204217) -> #cfg_equip_combine{
+	id          = 30204217,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204217,1}],
+	cost        = [],
+	other_cost  = [30204116,30204216,30204316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204317) -> #cfg_equip_combine{
+	id          = 30204317,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204317,1}],
+	cost        = [],
+	other_cost  = [30204116,30204216,30204316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204118) -> #cfg_equip_combine{
+	id          = 30204118,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204118,1}],
+	cost        = [],
+	other_cost  = [30204117,30204217,30204317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204218) -> #cfg_equip_combine{
+	id          = 30204218,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204218,1}],
+	cost        = [],
+	other_cost  = [30204117,30204217,30204317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204318) -> #cfg_equip_combine{
+	id          = 30204318,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204318,1}],
+	cost        = [],
+	other_cost  = [30204117,30204217,30204317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204119) -> #cfg_equip_combine{
+	id          = 30204119,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204119,1}],
+	cost        = [],
+	other_cost  = [30204118,30204218,30204318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204219) -> #cfg_equip_combine{
+	id          = 30204219,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204219,1}],
+	cost        = [],
+	other_cost  = [30204118,30204218,30204318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204319) -> #cfg_equip_combine{
+	id          = 30204319,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204319,1}],
+	cost        = [],
+	other_cost  = [30204118,30204218,30204318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204120) -> #cfg_equip_combine{
+	id          = 30204120,
+	title       = "至纯魔矿",
+	open_level  = 410,
+	gain        = [{30204120,1}],
+	cost        = [],
+	other_cost  = [30204119,30204219,30204319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204220) -> #cfg_equip_combine{
+	id          = 30204220,
+	title       = "高地坚岩",
+	open_level  = 410,
+	gain        = [{30204220,1}],
+	cost        = [],
+	other_cost  = [30204119,30204219,30204319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30204320) -> #cfg_equip_combine{
+	id          = 30204320,
+	title       = "阿卡德符文盾牌",
+	open_level  = 410,
+	gain        = [{30204320,1}],
+	cost        = [],
+	other_cost  = [30204119,30204219,30204319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301104) -> #cfg_equip_combine{
+	id          = 30301104,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301104,1}],
+	cost        = [],
+	other_cost  = [30301103,30301203,30301303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301204) -> #cfg_equip_combine{
+	id          = 30301204,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301204,1}],
+	cost        = [],
+	other_cost  = [30301103,30301203,30301303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301304) -> #cfg_equip_combine{
+	id          = 30301304,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301304,1}],
+	cost        = [],
+	other_cost  = [30301103,30301203,30301303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301105) -> #cfg_equip_combine{
+	id          = 30301105,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301105,1}],
+	cost        = [],
+	other_cost  = [30301104,30301204,30301304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301205) -> #cfg_equip_combine{
+	id          = 30301205,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301205,1}],
+	cost        = [],
+	other_cost  = [30301104,30301204,30301304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301305) -> #cfg_equip_combine{
+	id          = 30301305,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301305,1}],
+	cost        = [],
+	other_cost  = [30301104,30301204,30301304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301106) -> #cfg_equip_combine{
+	id          = 30301106,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301106,1}],
+	cost        = [],
+	other_cost  = [30301105,30301205,30301305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301206) -> #cfg_equip_combine{
+	id          = 30301206,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301206,1}],
+	cost        = [],
+	other_cost  = [30301105,30301205,30301305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301306) -> #cfg_equip_combine{
+	id          = 30301306,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301306,1}],
+	cost        = [],
+	other_cost  = [30301105,30301205,30301305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301107) -> #cfg_equip_combine{
+	id          = 30301107,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301107,1}],
+	cost        = [],
+	other_cost  = [30301106,30301206,30301306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301207) -> #cfg_equip_combine{
+	id          = 30301207,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301207,1}],
+	cost        = [],
+	other_cost  = [30301106,30301206,30301306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301307) -> #cfg_equip_combine{
+	id          = 30301307,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301307,1}],
+	cost        = [],
+	other_cost  = [30301106,30301206,30301306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301108) -> #cfg_equip_combine{
+	id          = 30301108,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301108,1}],
+	cost        = [],
+	other_cost  = [30301107,30301207,30301307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301208) -> #cfg_equip_combine{
+	id          = 30301208,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301208,1}],
+	cost        = [],
+	other_cost  = [30301107,30301207,30301307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301308) -> #cfg_equip_combine{
+	id          = 30301308,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301308,1}],
+	cost        = [],
+	other_cost  = [30301107,30301207,30301307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301109) -> #cfg_equip_combine{
+	id          = 30301109,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301109,1}],
+	cost        = [],
+	other_cost  = [30301108,30301208,30301308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301209) -> #cfg_equip_combine{
+	id          = 30301209,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301209,1}],
+	cost        = [],
+	other_cost  = [30301108,30301208,30301308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301309) -> #cfg_equip_combine{
+	id          = 30301309,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301309,1}],
+	cost        = [],
+	other_cost  = [30301108,30301208,30301308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301110) -> #cfg_equip_combine{
+	id          = 30301110,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301110,1}],
+	cost        = [],
+	other_cost  = [30301109,30301209,30301309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301210) -> #cfg_equip_combine{
+	id          = 30301210,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301210,1}],
+	cost        = [],
+	other_cost  = [30301109,30301209,30301309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301310) -> #cfg_equip_combine{
+	id          = 30301310,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301310,1}],
+	cost        = [],
+	other_cost  = [30301109,30301209,30301309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301111) -> #cfg_equip_combine{
+	id          = 30301111,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301111,1}],
+	cost        = [],
+	other_cost  = [30301110,30301210,30301310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301211) -> #cfg_equip_combine{
+	id          = 30301211,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301211,1}],
+	cost        = [],
+	other_cost  = [30301110,30301210,30301310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301311) -> #cfg_equip_combine{
+	id          = 30301311,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301311,1}],
+	cost        = [],
+	other_cost  = [30301110,30301210,30301310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301112) -> #cfg_equip_combine{
+	id          = 30301112,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301112,1}],
+	cost        = [],
+	other_cost  = [30301111,30301211,30301311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301212) -> #cfg_equip_combine{
+	id          = 30301212,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301212,1}],
+	cost        = [],
+	other_cost  = [30301111,30301211,30301311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301312) -> #cfg_equip_combine{
+	id          = 30301312,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301312,1}],
+	cost        = [],
+	other_cost  = [30301111,30301211,30301311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301113) -> #cfg_equip_combine{
+	id          = 30301113,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301113,1}],
+	cost        = [],
+	other_cost  = [30301112,30301212,30301312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301213) -> #cfg_equip_combine{
+	id          = 30301213,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301213,1}],
+	cost        = [],
+	other_cost  = [30301112,30301212,30301312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301313) -> #cfg_equip_combine{
+	id          = 30301313,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301313,1}],
+	cost        = [],
+	other_cost  = [30301112,30301212,30301312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301114) -> #cfg_equip_combine{
+	id          = 30301114,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301114,1}],
+	cost        = [],
+	other_cost  = [30301113,30301213,30301313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301214) -> #cfg_equip_combine{
+	id          = 30301214,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301214,1}],
+	cost        = [],
+	other_cost  = [30301113,30301213,30301313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301314) -> #cfg_equip_combine{
+	id          = 30301314,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301314,1}],
+	cost        = [],
+	other_cost  = [30301113,30301213,30301313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301115) -> #cfg_equip_combine{
+	id          = 30301115,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301115,1}],
+	cost        = [],
+	other_cost  = [30301114,30301214,30301314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301215) -> #cfg_equip_combine{
+	id          = 30301215,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301215,1}],
+	cost        = [],
+	other_cost  = [30301114,30301214,30301314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301315) -> #cfg_equip_combine{
+	id          = 30301315,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301315,1}],
+	cost        = [],
+	other_cost  = [30301114,30301214,30301314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301116) -> #cfg_equip_combine{
+	id          = 30301116,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301116,1}],
+	cost        = [],
+	other_cost  = [30301115,30301215,30301315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301216) -> #cfg_equip_combine{
+	id          = 30301216,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301216,1}],
+	cost        = [],
+	other_cost  = [30301115,30301215,30301315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301316) -> #cfg_equip_combine{
+	id          = 30301316,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301316,1}],
+	cost        = [],
+	other_cost  = [30301115,30301215,30301315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301117) -> #cfg_equip_combine{
+	id          = 30301117,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301117,1}],
+	cost        = [],
+	other_cost  = [30301116,30301216,30301316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301217) -> #cfg_equip_combine{
+	id          = 30301217,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301217,1}],
+	cost        = [],
+	other_cost  = [30301116,30301216,30301316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301317) -> #cfg_equip_combine{
+	id          = 30301317,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301317,1}],
+	cost        = [],
+	other_cost  = [30301116,30301216,30301316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301118) -> #cfg_equip_combine{
+	id          = 30301118,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301118,1}],
+	cost        = [],
+	other_cost  = [30301117,30301217,30301317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301218) -> #cfg_equip_combine{
+	id          = 30301218,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301218,1}],
+	cost        = [],
+	other_cost  = [30301117,30301217,30301317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301318) -> #cfg_equip_combine{
+	id          = 30301318,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301318,1}],
+	cost        = [],
+	other_cost  = [30301117,30301217,30301317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301119) -> #cfg_equip_combine{
+	id          = 30301119,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301119,1}],
+	cost        = [],
+	other_cost  = [30301118,30301218,30301318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301219) -> #cfg_equip_combine{
+	id          = 30301219,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301219,1}],
+	cost        = [],
+	other_cost  = [30301118,30301218,30301318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301319) -> #cfg_equip_combine{
+	id          = 30301319,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301319,1}],
+	cost        = [],
+	other_cost  = [30301118,30301218,30301318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301120) -> #cfg_equip_combine{
+	id          = 30301120,
+	title       = "幽星环石",
+	open_level  = 410,
+	gain        = [{30301120,1}],
+	cost        = [],
+	other_cost  = [30301119,30301219,30301319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301220) -> #cfg_equip_combine{
+	id          = 30301220,
+	title       = "蓝骑士之弓",
+	open_level  = 410,
+	gain        = [{30301220,1}],
+	cost        = [],
+	other_cost  = [30301119,30301219,30301319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30301320) -> #cfg_equip_combine{
+	id          = 30301320,
+	title       = "暗月",
+	open_level  = 410,
+	gain        = [{30301320,1}],
+	cost        = [],
+	other_cost  = [30301119,30301219,30301319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302104) -> #cfg_equip_combine{
+	id          = 30302104,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302104,1}],
+	cost        = [],
+	other_cost  = [30302103,30302203,30302303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302204) -> #cfg_equip_combine{
+	id          = 30302204,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302204,1}],
+	cost        = [],
+	other_cost  = [30302103,30302203,30302303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302304) -> #cfg_equip_combine{
+	id          = 30302304,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302304,1}],
+	cost        = [],
+	other_cost  = [30302103,30302203,30302303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302105) -> #cfg_equip_combine{
+	id          = 30302105,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302105,1}],
+	cost        = [],
+	other_cost  = [30302104,30302204,30302304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302205) -> #cfg_equip_combine{
+	id          = 30302205,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302205,1}],
+	cost        = [],
+	other_cost  = [30302104,30302204,30302304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302305) -> #cfg_equip_combine{
+	id          = 30302305,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302305,1}],
+	cost        = [],
+	other_cost  = [30302104,30302204,30302304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302106) -> #cfg_equip_combine{
+	id          = 30302106,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302106,1}],
+	cost        = [],
+	other_cost  = [30302105,30302205,30302305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302206) -> #cfg_equip_combine{
+	id          = 30302206,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302206,1}],
+	cost        = [],
+	other_cost  = [30302105,30302205,30302305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302306) -> #cfg_equip_combine{
+	id          = 30302306,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302306,1}],
+	cost        = [],
+	other_cost  = [30302105,30302205,30302305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302107) -> #cfg_equip_combine{
+	id          = 30302107,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302107,1}],
+	cost        = [],
+	other_cost  = [30302106,30302206,30302306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302207) -> #cfg_equip_combine{
+	id          = 30302207,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302207,1}],
+	cost        = [],
+	other_cost  = [30302106,30302206,30302306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302307) -> #cfg_equip_combine{
+	id          = 30302307,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302307,1}],
+	cost        = [],
+	other_cost  = [30302106,30302206,30302306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302108) -> #cfg_equip_combine{
+	id          = 30302108,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302108,1}],
+	cost        = [],
+	other_cost  = [30302107,30302207,30302307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302208) -> #cfg_equip_combine{
+	id          = 30302208,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302208,1}],
+	cost        = [],
+	other_cost  = [30302107,30302207,30302307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302308) -> #cfg_equip_combine{
+	id          = 30302308,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302308,1}],
+	cost        = [],
+	other_cost  = [30302107,30302207,30302307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302109) -> #cfg_equip_combine{
+	id          = 30302109,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302109,1}],
+	cost        = [],
+	other_cost  = [30302108,30302208,30302308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302209) -> #cfg_equip_combine{
+	id          = 30302209,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302209,1}],
+	cost        = [],
+	other_cost  = [30302108,30302208,30302308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302309) -> #cfg_equip_combine{
+	id          = 30302309,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302309,1}],
+	cost        = [],
+	other_cost  = [30302108,30302208,30302308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302110) -> #cfg_equip_combine{
+	id          = 30302110,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302110,1}],
+	cost        = [],
+	other_cost  = [30302109,30302209,30302309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302210) -> #cfg_equip_combine{
+	id          = 30302210,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302210,1}],
+	cost        = [],
+	other_cost  = [30302109,30302209,30302309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302310) -> #cfg_equip_combine{
+	id          = 30302310,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302310,1}],
+	cost        = [],
+	other_cost  = [30302109,30302209,30302309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302111) -> #cfg_equip_combine{
+	id          = 30302111,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302111,1}],
+	cost        = [],
+	other_cost  = [30302110,30302210,30302310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302211) -> #cfg_equip_combine{
+	id          = 30302211,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302211,1}],
+	cost        = [],
+	other_cost  = [30302110,30302210,30302310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302311) -> #cfg_equip_combine{
+	id          = 30302311,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302311,1}],
+	cost        = [],
+	other_cost  = [30302110,30302210,30302310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302112) -> #cfg_equip_combine{
+	id          = 30302112,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302112,1}],
+	cost        = [],
+	other_cost  = [30302111,30302211,30302311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302212) -> #cfg_equip_combine{
+	id          = 30302212,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302212,1}],
+	cost        = [],
+	other_cost  = [30302111,30302211,30302311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302312) -> #cfg_equip_combine{
+	id          = 30302312,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302312,1}],
+	cost        = [],
+	other_cost  = [30302111,30302211,30302311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302113) -> #cfg_equip_combine{
+	id          = 30302113,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302113,1}],
+	cost        = [],
+	other_cost  = [30302112,30302212,30302312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302213) -> #cfg_equip_combine{
+	id          = 30302213,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302213,1}],
+	cost        = [],
+	other_cost  = [30302112,30302212,30302312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302313) -> #cfg_equip_combine{
+	id          = 30302313,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302313,1}],
+	cost        = [],
+	other_cost  = [30302112,30302212,30302312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302114) -> #cfg_equip_combine{
+	id          = 30302114,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302114,1}],
+	cost        = [],
+	other_cost  = [30302113,30302213,30302313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302214) -> #cfg_equip_combine{
+	id          = 30302214,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302214,1}],
+	cost        = [],
+	other_cost  = [30302113,30302213,30302313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302314) -> #cfg_equip_combine{
+	id          = 30302314,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302314,1}],
+	cost        = [],
+	other_cost  = [30302113,30302213,30302313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302115) -> #cfg_equip_combine{
+	id          = 30302115,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302115,1}],
+	cost        = [],
+	other_cost  = [30302114,30302214,30302314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302215) -> #cfg_equip_combine{
+	id          = 30302215,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302215,1}],
+	cost        = [],
+	other_cost  = [30302114,30302214,30302314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302315) -> #cfg_equip_combine{
+	id          = 30302315,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302315,1}],
+	cost        = [],
+	other_cost  = [30302114,30302214,30302314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302116) -> #cfg_equip_combine{
+	id          = 30302116,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302116,1}],
+	cost        = [],
+	other_cost  = [30302115,30302215,30302315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302216) -> #cfg_equip_combine{
+	id          = 30302216,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302216,1}],
+	cost        = [],
+	other_cost  = [30302115,30302215,30302315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302316) -> #cfg_equip_combine{
+	id          = 30302316,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302316,1}],
+	cost        = [],
+	other_cost  = [30302115,30302215,30302315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302117) -> #cfg_equip_combine{
+	id          = 30302117,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302117,1}],
+	cost        = [],
+	other_cost  = [30302116,30302216,30302316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302217) -> #cfg_equip_combine{
+	id          = 30302217,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302217,1}],
+	cost        = [],
+	other_cost  = [30302116,30302216,30302316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302317) -> #cfg_equip_combine{
+	id          = 30302317,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302317,1}],
+	cost        = [],
+	other_cost  = [30302116,30302216,30302316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302118) -> #cfg_equip_combine{
+	id          = 30302118,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302118,1}],
+	cost        = [],
+	other_cost  = [30302117,30302217,30302317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302218) -> #cfg_equip_combine{
+	id          = 30302218,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302218,1}],
+	cost        = [],
+	other_cost  = [30302117,30302217,30302317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302318) -> #cfg_equip_combine{
+	id          = 30302318,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302318,1}],
+	cost        = [],
+	other_cost  = [30302117,30302217,30302317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302119) -> #cfg_equip_combine{
+	id          = 30302119,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302119,1}],
+	cost        = [],
+	other_cost  = [30302118,30302218,30302318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302219) -> #cfg_equip_combine{
+	id          = 30302219,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302219,1}],
+	cost        = [],
+	other_cost  = [30302118,30302218,30302318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302319) -> #cfg_equip_combine{
+	id          = 30302319,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302319,1}],
+	cost        = [],
+	other_cost  = [30302118,30302218,30302318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302120) -> #cfg_equip_combine{
+	id          = 30302120,
+	title       = "疾风水晶",
+	open_level  = 410,
+	gain        = [{30302120,1}],
+	cost        = [],
+	other_cost  = [30302119,30302219,30302319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302220) -> #cfg_equip_combine{
+	id          = 30302220,
+	title       = "晶蓝之羽",
+	open_level  = 410,
+	gain        = [{30302220,1}],
+	cost        = [],
+	other_cost  = [30302119,30302219,30302319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30302320) -> #cfg_equip_combine{
+	id          = 30302320,
+	title       = "晶蓝翼神瓶",
+	open_level  = 410,
+	gain        = [{30302320,1}],
+	cost        = [],
+	other_cost  = [30302119,30302219,30302319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303104) -> #cfg_equip_combine{
+	id          = 30303104,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303104,1}],
+	cost        = [],
+	other_cost  = [30303103,30303203,30303303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303204) -> #cfg_equip_combine{
+	id          = 30303204,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303204,1}],
+	cost        = [],
+	other_cost  = [30303103,30303203,30303303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303304) -> #cfg_equip_combine{
+	id          = 30303304,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303304,1}],
+	cost        = [],
+	other_cost  = [30303103,30303203,30303303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303105) -> #cfg_equip_combine{
+	id          = 30303105,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303105,1}],
+	cost        = [],
+	other_cost  = [30303104,30303204,30303304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303205) -> #cfg_equip_combine{
+	id          = 30303205,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303205,1}],
+	cost        = [],
+	other_cost  = [30303104,30303204,30303304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303305) -> #cfg_equip_combine{
+	id          = 30303305,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303305,1}],
+	cost        = [],
+	other_cost  = [30303104,30303204,30303304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303106) -> #cfg_equip_combine{
+	id          = 30303106,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303106,1}],
+	cost        = [],
+	other_cost  = [30303105,30303205,30303305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303206) -> #cfg_equip_combine{
+	id          = 30303206,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303206,1}],
+	cost        = [],
+	other_cost  = [30303105,30303205,30303305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303306) -> #cfg_equip_combine{
+	id          = 30303306,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303306,1}],
+	cost        = [],
+	other_cost  = [30303105,30303205,30303305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303107) -> #cfg_equip_combine{
+	id          = 30303107,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303107,1}],
+	cost        = [],
+	other_cost  = [30303106,30303206,30303306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303207) -> #cfg_equip_combine{
+	id          = 30303207,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303207,1}],
+	cost        = [],
+	other_cost  = [30303106,30303206,30303306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303307) -> #cfg_equip_combine{
+	id          = 30303307,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303307,1}],
+	cost        = [],
+	other_cost  = [30303106,30303206,30303306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303108) -> #cfg_equip_combine{
+	id          = 30303108,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303108,1}],
+	cost        = [],
+	other_cost  = [30303107,30303207,30303307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303208) -> #cfg_equip_combine{
+	id          = 30303208,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303208,1}],
+	cost        = [],
+	other_cost  = [30303107,30303207,30303307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303308) -> #cfg_equip_combine{
+	id          = 30303308,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303308,1}],
+	cost        = [],
+	other_cost  = [30303107,30303207,30303307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303109) -> #cfg_equip_combine{
+	id          = 30303109,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303109,1}],
+	cost        = [],
+	other_cost  = [30303108,30303208,30303308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303209) -> #cfg_equip_combine{
+	id          = 30303209,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303209,1}],
+	cost        = [],
+	other_cost  = [30303108,30303208,30303308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303309) -> #cfg_equip_combine{
+	id          = 30303309,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303309,1}],
+	cost        = [],
+	other_cost  = [30303108,30303208,30303308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303110) -> #cfg_equip_combine{
+	id          = 30303110,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303110,1}],
+	cost        = [],
+	other_cost  = [30303109,30303209,30303309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303210) -> #cfg_equip_combine{
+	id          = 30303210,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303210,1}],
+	cost        = [],
+	other_cost  = [30303109,30303209,30303309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303310) -> #cfg_equip_combine{
+	id          = 30303310,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303310,1}],
+	cost        = [],
+	other_cost  = [30303109,30303209,30303309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303111) -> #cfg_equip_combine{
+	id          = 30303111,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303111,1}],
+	cost        = [],
+	other_cost  = [30303110,30303210,30303310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303211) -> #cfg_equip_combine{
+	id          = 30303211,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303211,1}],
+	cost        = [],
+	other_cost  = [30303110,30303210,30303310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303311) -> #cfg_equip_combine{
+	id          = 30303311,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303311,1}],
+	cost        = [],
+	other_cost  = [30303110,30303210,30303310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303112) -> #cfg_equip_combine{
+	id          = 30303112,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303112,1}],
+	cost        = [],
+	other_cost  = [30303111,30303211,30303311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303212) -> #cfg_equip_combine{
+	id          = 30303212,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303212,1}],
+	cost        = [],
+	other_cost  = [30303111,30303211,30303311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303312) -> #cfg_equip_combine{
+	id          = 30303312,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303312,1}],
+	cost        = [],
+	other_cost  = [30303111,30303211,30303311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303113) -> #cfg_equip_combine{
+	id          = 30303113,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303113,1}],
+	cost        = [],
+	other_cost  = [30303112,30303212,30303312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303213) -> #cfg_equip_combine{
+	id          = 30303213,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303213,1}],
+	cost        = [],
+	other_cost  = [30303112,30303212,30303312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303313) -> #cfg_equip_combine{
+	id          = 30303313,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303313,1}],
+	cost        = [],
+	other_cost  = [30303112,30303212,30303312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303114) -> #cfg_equip_combine{
+	id          = 30303114,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303114,1}],
+	cost        = [],
+	other_cost  = [30303113,30303213,30303313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303214) -> #cfg_equip_combine{
+	id          = 30303214,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303214,1}],
+	cost        = [],
+	other_cost  = [30303113,30303213,30303313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303314) -> #cfg_equip_combine{
+	id          = 30303314,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303314,1}],
+	cost        = [],
+	other_cost  = [30303113,30303213,30303313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303115) -> #cfg_equip_combine{
+	id          = 30303115,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303115,1}],
+	cost        = [],
+	other_cost  = [30303114,30303214,30303314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303215) -> #cfg_equip_combine{
+	id          = 30303215,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303215,1}],
+	cost        = [],
+	other_cost  = [30303114,30303214,30303314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303315) -> #cfg_equip_combine{
+	id          = 30303315,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303315,1}],
+	cost        = [],
+	other_cost  = [30303114,30303214,30303314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303116) -> #cfg_equip_combine{
+	id          = 30303116,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303116,1}],
+	cost        = [],
+	other_cost  = [30303115,30303215,30303315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303216) -> #cfg_equip_combine{
+	id          = 30303216,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303216,1}],
+	cost        = [],
+	other_cost  = [30303115,30303215,30303315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303316) -> #cfg_equip_combine{
+	id          = 30303316,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303316,1}],
+	cost        = [],
+	other_cost  = [30303115,30303215,30303315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303117) -> #cfg_equip_combine{
+	id          = 30303117,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303117,1}],
+	cost        = [],
+	other_cost  = [30303116,30303216,30303316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303217) -> #cfg_equip_combine{
+	id          = 30303217,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303217,1}],
+	cost        = [],
+	other_cost  = [30303116,30303216,30303316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303317) -> #cfg_equip_combine{
+	id          = 30303317,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303317,1}],
+	cost        = [],
+	other_cost  = [30303116,30303216,30303316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303118) -> #cfg_equip_combine{
+	id          = 30303118,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303118,1}],
+	cost        = [],
+	other_cost  = [30303117,30303217,30303317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303218) -> #cfg_equip_combine{
+	id          = 30303218,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303218,1}],
+	cost        = [],
+	other_cost  = [30303117,30303217,30303317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303318) -> #cfg_equip_combine{
+	id          = 30303318,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303318,1}],
+	cost        = [],
+	other_cost  = [30303117,30303217,30303317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303119) -> #cfg_equip_combine{
+	id          = 30303119,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303119,1}],
+	cost        = [],
+	other_cost  = [30303118,30303218,30303318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303219) -> #cfg_equip_combine{
+	id          = 30303219,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303219,1}],
+	cost        = [],
+	other_cost  = [30303118,30303218,30303318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303319) -> #cfg_equip_combine{
+	id          = 30303319,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303319,1}],
+	cost        = [],
+	other_cost  = [30303118,30303218,30303318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303120) -> #cfg_equip_combine{
+	id          = 30303120,
+	title       = "炎魔弓",
+	open_level  = 410,
+	gain        = [{30303120,1}],
+	cost        = [],
+	other_cost  = [30303119,30303219,30303319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303220) -> #cfg_equip_combine{
+	id          = 30303220,
+	title       = "炎龙晶",
+	open_level  = 410,
+	gain        = [{30303220,1}],
+	cost        = [],
+	other_cost  = [30303119,30303219,30303319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30303320) -> #cfg_equip_combine{
+	id          = 30303320,
+	title       = "虫焰石",
+	open_level  = 410,
+	gain        = [{30303320,1}],
+	cost        = [],
+	other_cost  = [30303119,30303219,30303319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304104) -> #cfg_equip_combine{
+	id          = 30304104,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304104,1}],
+	cost        = [],
+	other_cost  = [30304103,30304203,30304303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304204) -> #cfg_equip_combine{
+	id          = 30304204,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304204,1}],
+	cost        = [],
+	other_cost  = [30304103,30304203,30304303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304304) -> #cfg_equip_combine{
+	id          = 30304304,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304304,1}],
+	cost        = [],
+	other_cost  = [30304103,30304203,30304303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304105) -> #cfg_equip_combine{
+	id          = 30304105,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304105,1}],
+	cost        = [],
+	other_cost  = [30304104,30304204,30304304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304205) -> #cfg_equip_combine{
+	id          = 30304205,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304205,1}],
+	cost        = [],
+	other_cost  = [30304104,30304204,30304304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304305) -> #cfg_equip_combine{
+	id          = 30304305,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304305,1}],
+	cost        = [],
+	other_cost  = [30304104,30304204,30304304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304106) -> #cfg_equip_combine{
+	id          = 30304106,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304106,1}],
+	cost        = [],
+	other_cost  = [30304105,30304205,30304305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304206) -> #cfg_equip_combine{
+	id          = 30304206,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304206,1}],
+	cost        = [],
+	other_cost  = [30304105,30304205,30304305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304306) -> #cfg_equip_combine{
+	id          = 30304306,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304306,1}],
+	cost        = [],
+	other_cost  = [30304105,30304205,30304305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304107) -> #cfg_equip_combine{
+	id          = 30304107,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304107,1}],
+	cost        = [],
+	other_cost  = [30304106,30304206,30304306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304207) -> #cfg_equip_combine{
+	id          = 30304207,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304207,1}],
+	cost        = [],
+	other_cost  = [30304106,30304206,30304306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304307) -> #cfg_equip_combine{
+	id          = 30304307,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304307,1}],
+	cost        = [],
+	other_cost  = [30304106,30304206,30304306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304108) -> #cfg_equip_combine{
+	id          = 30304108,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304108,1}],
+	cost        = [],
+	other_cost  = [30304107,30304207,30304307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304208) -> #cfg_equip_combine{
+	id          = 30304208,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304208,1}],
+	cost        = [],
+	other_cost  = [30304107,30304207,30304307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304308) -> #cfg_equip_combine{
+	id          = 30304308,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304308,1}],
+	cost        = [],
+	other_cost  = [30304107,30304207,30304307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304109) -> #cfg_equip_combine{
+	id          = 30304109,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304109,1}],
+	cost        = [],
+	other_cost  = [30304108,30304208,30304308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304209) -> #cfg_equip_combine{
+	id          = 30304209,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304209,1}],
+	cost        = [],
+	other_cost  = [30304108,30304208,30304308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304309) -> #cfg_equip_combine{
+	id          = 30304309,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304309,1}],
+	cost        = [],
+	other_cost  = [30304108,30304208,30304308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304110) -> #cfg_equip_combine{
+	id          = 30304110,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304110,1}],
+	cost        = [],
+	other_cost  = [30304109,30304209,30304309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304210) -> #cfg_equip_combine{
+	id          = 30304210,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304210,1}],
+	cost        = [],
+	other_cost  = [30304109,30304209,30304309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304310) -> #cfg_equip_combine{
+	id          = 30304310,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304310,1}],
+	cost        = [],
+	other_cost  = [30304109,30304209,30304309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304111) -> #cfg_equip_combine{
+	id          = 30304111,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304111,1}],
+	cost        = [],
+	other_cost  = [30304110,30304210,30304310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304211) -> #cfg_equip_combine{
+	id          = 30304211,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304211,1}],
+	cost        = [],
+	other_cost  = [30304110,30304210,30304310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304311) -> #cfg_equip_combine{
+	id          = 30304311,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304311,1}],
+	cost        = [],
+	other_cost  = [30304110,30304210,30304310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304112) -> #cfg_equip_combine{
+	id          = 30304112,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304112,1}],
+	cost        = [],
+	other_cost  = [30304111,30304211,30304311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304212) -> #cfg_equip_combine{
+	id          = 30304212,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304212,1}],
+	cost        = [],
+	other_cost  = [30304111,30304211,30304311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304312) -> #cfg_equip_combine{
+	id          = 30304312,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304312,1}],
+	cost        = [],
+	other_cost  = [30304111,30304211,30304311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304113) -> #cfg_equip_combine{
+	id          = 30304113,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304113,1}],
+	cost        = [],
+	other_cost  = [30304112,30304212,30304312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304213) -> #cfg_equip_combine{
+	id          = 30304213,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304213,1}],
+	cost        = [],
+	other_cost  = [30304112,30304212,30304312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304313) -> #cfg_equip_combine{
+	id          = 30304313,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304313,1}],
+	cost        = [],
+	other_cost  = [30304112,30304212,30304312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304114) -> #cfg_equip_combine{
+	id          = 30304114,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304114,1}],
+	cost        = [],
+	other_cost  = [30304113,30304213,30304313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304214) -> #cfg_equip_combine{
+	id          = 30304214,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304214,1}],
+	cost        = [],
+	other_cost  = [30304113,30304213,30304313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304314) -> #cfg_equip_combine{
+	id          = 30304314,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304314,1}],
+	cost        = [],
+	other_cost  = [30304113,30304213,30304313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304115) -> #cfg_equip_combine{
+	id          = 30304115,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304115,1}],
+	cost        = [],
+	other_cost  = [30304114,30304214,30304314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304215) -> #cfg_equip_combine{
+	id          = 30304215,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304215,1}],
+	cost        = [],
+	other_cost  = [30304114,30304214,30304314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304315) -> #cfg_equip_combine{
+	id          = 30304315,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304315,1}],
+	cost        = [],
+	other_cost  = [30304114,30304214,30304314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304116) -> #cfg_equip_combine{
+	id          = 30304116,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304116,1}],
+	cost        = [],
+	other_cost  = [30304115,30304215,30304315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304216) -> #cfg_equip_combine{
+	id          = 30304216,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304216,1}],
+	cost        = [],
+	other_cost  = [30304115,30304215,30304315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304316) -> #cfg_equip_combine{
+	id          = 30304316,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304316,1}],
+	cost        = [],
+	other_cost  = [30304115,30304215,30304315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304117) -> #cfg_equip_combine{
+	id          = 30304117,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304117,1}],
+	cost        = [],
+	other_cost  = [30304116,30304216,30304316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304217) -> #cfg_equip_combine{
+	id          = 30304217,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304217,1}],
+	cost        = [],
+	other_cost  = [30304116,30304216,30304316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304317) -> #cfg_equip_combine{
+	id          = 30304317,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304317,1}],
+	cost        = [],
+	other_cost  = [30304116,30304216,30304316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304118) -> #cfg_equip_combine{
+	id          = 30304118,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304118,1}],
+	cost        = [],
+	other_cost  = [30304117,30304217,30304317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304218) -> #cfg_equip_combine{
+	id          = 30304218,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304218,1}],
+	cost        = [],
+	other_cost  = [30304117,30304217,30304317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304318) -> #cfg_equip_combine{
+	id          = 30304318,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304318,1}],
+	cost        = [],
+	other_cost  = [30304117,30304217,30304317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304119) -> #cfg_equip_combine{
+	id          = 30304119,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304119,1}],
+	cost        = [],
+	other_cost  = [30304118,30304218,30304318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304219) -> #cfg_equip_combine{
+	id          = 30304219,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304219,1}],
+	cost        = [],
+	other_cost  = [30304118,30304218,30304318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304319) -> #cfg_equip_combine{
+	id          = 30304319,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304319,1}],
+	cost        = [],
+	other_cost  = [30304118,30304218,30304318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304120) -> #cfg_equip_combine{
+	id          = 30304120,
+	title       = "凋零魔弓",
+	open_level  = 410,
+	gain        = [{30304120,1}],
+	cost        = [],
+	other_cost  = [30304119,30304219,30304319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304220) -> #cfg_equip_combine{
+	id          = 30304220,
+	title       = "暗影魂石",
+	open_level  = 410,
+	gain        = [{30304220,1}],
+	cost        = [],
+	other_cost  = [30304119,30304219,30304319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30304320) -> #cfg_equip_combine{
+	id          = 30304320,
+	title       = "枯萎魔木",
+	open_level  = 410,
+	gain        = [{30304320,1}],
+	cost        = [],
+	other_cost  = [30304119,30304219,30304319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401104) -> #cfg_equip_combine{
+	id          = 30401104,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401104,1}],
+	cost        = [],
+	other_cost  = [30401103,30401203,30401303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401204) -> #cfg_equip_combine{
+	id          = 30401204,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401204,1}],
+	cost        = [],
+	other_cost  = [30401103,30401203,30401303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401304) -> #cfg_equip_combine{
+	id          = 30401304,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401304,1}],
+	cost        = [],
+	other_cost  = [30401103,30401203,30401303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401105) -> #cfg_equip_combine{
+	id          = 30401105,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401105,1}],
+	cost        = [],
+	other_cost  = [30401104,30401204,30401304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401205) -> #cfg_equip_combine{
+	id          = 30401205,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401205,1}],
+	cost        = [],
+	other_cost  = [30401104,30401204,30401304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401305) -> #cfg_equip_combine{
+	id          = 30401305,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401305,1}],
+	cost        = [],
+	other_cost  = [30401104,30401204,30401304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401106) -> #cfg_equip_combine{
+	id          = 30401106,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401106,1}],
+	cost        = [],
+	other_cost  = [30401105,30401205,30401305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401206) -> #cfg_equip_combine{
+	id          = 30401206,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401206,1}],
+	cost        = [],
+	other_cost  = [30401105,30401205,30401305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401306) -> #cfg_equip_combine{
+	id          = 30401306,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401306,1}],
+	cost        = [],
+	other_cost  = [30401105,30401205,30401305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401107) -> #cfg_equip_combine{
+	id          = 30401107,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401107,1}],
+	cost        = [],
+	other_cost  = [30401106,30401206,30401306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401207) -> #cfg_equip_combine{
+	id          = 30401207,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401207,1}],
+	cost        = [],
+	other_cost  = [30401106,30401206,30401306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401307) -> #cfg_equip_combine{
+	id          = 30401307,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401307,1}],
+	cost        = [],
+	other_cost  = [30401106,30401206,30401306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401108) -> #cfg_equip_combine{
+	id          = 30401108,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401108,1}],
+	cost        = [],
+	other_cost  = [30401107,30401207,30401307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401208) -> #cfg_equip_combine{
+	id          = 30401208,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401208,1}],
+	cost        = [],
+	other_cost  = [30401107,30401207,30401307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401308) -> #cfg_equip_combine{
+	id          = 30401308,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401308,1}],
+	cost        = [],
+	other_cost  = [30401107,30401207,30401307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401109) -> #cfg_equip_combine{
+	id          = 30401109,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401109,1}],
+	cost        = [],
+	other_cost  = [30401108,30401208,30401308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401209) -> #cfg_equip_combine{
+	id          = 30401209,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401209,1}],
+	cost        = [],
+	other_cost  = [30401108,30401208,30401308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401309) -> #cfg_equip_combine{
+	id          = 30401309,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401309,1}],
+	cost        = [],
+	other_cost  = [30401108,30401208,30401308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401110) -> #cfg_equip_combine{
+	id          = 30401110,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401110,1}],
+	cost        = [],
+	other_cost  = [30401109,30401209,30401309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401210) -> #cfg_equip_combine{
+	id          = 30401210,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401210,1}],
+	cost        = [],
+	other_cost  = [30401109,30401209,30401309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401310) -> #cfg_equip_combine{
+	id          = 30401310,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401310,1}],
+	cost        = [],
+	other_cost  = [30401109,30401209,30401309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401111) -> #cfg_equip_combine{
+	id          = 30401111,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401111,1}],
+	cost        = [],
+	other_cost  = [30401110,30401210,30401310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401211) -> #cfg_equip_combine{
+	id          = 30401211,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401211,1}],
+	cost        = [],
+	other_cost  = [30401110,30401210,30401310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401311) -> #cfg_equip_combine{
+	id          = 30401311,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401311,1}],
+	cost        = [],
+	other_cost  = [30401110,30401210,30401310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401112) -> #cfg_equip_combine{
+	id          = 30401112,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401112,1}],
+	cost        = [],
+	other_cost  = [30401111,30401211,30401311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401212) -> #cfg_equip_combine{
+	id          = 30401212,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401212,1}],
+	cost        = [],
+	other_cost  = [30401111,30401211,30401311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401312) -> #cfg_equip_combine{
+	id          = 30401312,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401312,1}],
+	cost        = [],
+	other_cost  = [30401111,30401211,30401311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401113) -> #cfg_equip_combine{
+	id          = 30401113,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401113,1}],
+	cost        = [],
+	other_cost  = [30401112,30401212,30401312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401213) -> #cfg_equip_combine{
+	id          = 30401213,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401213,1}],
+	cost        = [],
+	other_cost  = [30401112,30401212,30401312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401313) -> #cfg_equip_combine{
+	id          = 30401313,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401313,1}],
+	cost        = [],
+	other_cost  = [30401112,30401212,30401312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401114) -> #cfg_equip_combine{
+	id          = 30401114,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401114,1}],
+	cost        = [],
+	other_cost  = [30401113,30401213,30401313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401214) -> #cfg_equip_combine{
+	id          = 30401214,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401214,1}],
+	cost        = [],
+	other_cost  = [30401113,30401213,30401313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401314) -> #cfg_equip_combine{
+	id          = 30401314,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401314,1}],
+	cost        = [],
+	other_cost  = [30401113,30401213,30401313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401115) -> #cfg_equip_combine{
+	id          = 30401115,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401115,1}],
+	cost        = [],
+	other_cost  = [30401114,30401214,30401314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401215) -> #cfg_equip_combine{
+	id          = 30401215,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401215,1}],
+	cost        = [],
+	other_cost  = [30401114,30401214,30401314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401315) -> #cfg_equip_combine{
+	id          = 30401315,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401315,1}],
+	cost        = [],
+	other_cost  = [30401114,30401214,30401314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401116) -> #cfg_equip_combine{
+	id          = 30401116,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401116,1}],
+	cost        = [],
+	other_cost  = [30401115,30401215,30401315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401216) -> #cfg_equip_combine{
+	id          = 30401216,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401216,1}],
+	cost        = [],
+	other_cost  = [30401115,30401215,30401315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401316) -> #cfg_equip_combine{
+	id          = 30401316,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401316,1}],
+	cost        = [],
+	other_cost  = [30401115,30401215,30401315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401117) -> #cfg_equip_combine{
+	id          = 30401117,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401117,1}],
+	cost        = [],
+	other_cost  = [30401116,30401216,30401316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401217) -> #cfg_equip_combine{
+	id          = 30401217,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401217,1}],
+	cost        = [],
+	other_cost  = [30401116,30401216,30401316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401317) -> #cfg_equip_combine{
+	id          = 30401317,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401317,1}],
+	cost        = [],
+	other_cost  = [30401116,30401216,30401316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401118) -> #cfg_equip_combine{
+	id          = 30401118,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401118,1}],
+	cost        = [],
+	other_cost  = [30401117,30401217,30401317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401218) -> #cfg_equip_combine{
+	id          = 30401218,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401218,1}],
+	cost        = [],
+	other_cost  = [30401117,30401217,30401317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401318) -> #cfg_equip_combine{
+	id          = 30401318,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401318,1}],
+	cost        = [],
+	other_cost  = [30401117,30401217,30401317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401119) -> #cfg_equip_combine{
+	id          = 30401119,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401119,1}],
+	cost        = [],
+	other_cost  = [30401118,30401218,30401318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401219) -> #cfg_equip_combine{
+	id          = 30401219,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401219,1}],
+	cost        = [],
+	other_cost  = [30401118,30401218,30401318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401319) -> #cfg_equip_combine{
+	id          = 30401319,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401319,1}],
+	cost        = [],
+	other_cost  = [30401118,30401218,30401318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401120) -> #cfg_equip_combine{
+	id          = 30401120,
+	title       = "宝石花",
+	open_level  = 410,
+	gain        = [{30401120,1}],
+	cost        = [],
+	other_cost  = [30401119,30401219,30401319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401220) -> #cfg_equip_combine{
+	id          = 30401220,
+	title       = "幻想之布",
+	open_level  = 410,
+	gain        = [{30401220,1}],
+	cost        = [],
+	other_cost  = [30401119,30401219,30401319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30401320) -> #cfg_equip_combine{
+	id          = 30401320,
+	title       = "深蓝之语",
+	open_level  = 410,
+	gain        = [{30401320,1}],
+	cost        = [],
+	other_cost  = [30401119,30401219,30401319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402104) -> #cfg_equip_combine{
+	id          = 30402104,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402104,1}],
+	cost        = [],
+	other_cost  = [30402103,30402203,30402303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402204) -> #cfg_equip_combine{
+	id          = 30402204,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402204,1}],
+	cost        = [],
+	other_cost  = [30402103,30402203,30402303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402304) -> #cfg_equip_combine{
+	id          = 30402304,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402304,1}],
+	cost        = [],
+	other_cost  = [30402103,30402203,30402303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402105) -> #cfg_equip_combine{
+	id          = 30402105,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402105,1}],
+	cost        = [],
+	other_cost  = [30402104,30402204,30402304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402205) -> #cfg_equip_combine{
+	id          = 30402205,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402205,1}],
+	cost        = [],
+	other_cost  = [30402104,30402204,30402304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402305) -> #cfg_equip_combine{
+	id          = 30402305,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402305,1}],
+	cost        = [],
+	other_cost  = [30402104,30402204,30402304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402106) -> #cfg_equip_combine{
+	id          = 30402106,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402106,1}],
+	cost        = [],
+	other_cost  = [30402105,30402205,30402305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402206) -> #cfg_equip_combine{
+	id          = 30402206,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402206,1}],
+	cost        = [],
+	other_cost  = [30402105,30402205,30402305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402306) -> #cfg_equip_combine{
+	id          = 30402306,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402306,1}],
+	cost        = [],
+	other_cost  = [30402105,30402205,30402305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402107) -> #cfg_equip_combine{
+	id          = 30402107,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402107,1}],
+	cost        = [],
+	other_cost  = [30402106,30402206,30402306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402207) -> #cfg_equip_combine{
+	id          = 30402207,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402207,1}],
+	cost        = [],
+	other_cost  = [30402106,30402206,30402306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402307) -> #cfg_equip_combine{
+	id          = 30402307,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402307,1}],
+	cost        = [],
+	other_cost  = [30402106,30402206,30402306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402108) -> #cfg_equip_combine{
+	id          = 30402108,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402108,1}],
+	cost        = [],
+	other_cost  = [30402107,30402207,30402307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402208) -> #cfg_equip_combine{
+	id          = 30402208,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402208,1}],
+	cost        = [],
+	other_cost  = [30402107,30402207,30402307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402308) -> #cfg_equip_combine{
+	id          = 30402308,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402308,1}],
+	cost        = [],
+	other_cost  = [30402107,30402207,30402307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402109) -> #cfg_equip_combine{
+	id          = 30402109,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402109,1}],
+	cost        = [],
+	other_cost  = [30402108,30402208,30402308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402209) -> #cfg_equip_combine{
+	id          = 30402209,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402209,1}],
+	cost        = [],
+	other_cost  = [30402108,30402208,30402308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402309) -> #cfg_equip_combine{
+	id          = 30402309,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402309,1}],
+	cost        = [],
+	other_cost  = [30402108,30402208,30402308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402110) -> #cfg_equip_combine{
+	id          = 30402110,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402110,1}],
+	cost        = [],
+	other_cost  = [30402109,30402209,30402309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402210) -> #cfg_equip_combine{
+	id          = 30402210,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402210,1}],
+	cost        = [],
+	other_cost  = [30402109,30402209,30402309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402310) -> #cfg_equip_combine{
+	id          = 30402310,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402310,1}],
+	cost        = [],
+	other_cost  = [30402109,30402209,30402309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402111) -> #cfg_equip_combine{
+	id          = 30402111,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402111,1}],
+	cost        = [],
+	other_cost  = [30402110,30402210,30402310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402211) -> #cfg_equip_combine{
+	id          = 30402211,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402211,1}],
+	cost        = [],
+	other_cost  = [30402110,30402210,30402310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402311) -> #cfg_equip_combine{
+	id          = 30402311,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402311,1}],
+	cost        = [],
+	other_cost  = [30402110,30402210,30402310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402112) -> #cfg_equip_combine{
+	id          = 30402112,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402112,1}],
+	cost        = [],
+	other_cost  = [30402111,30402211,30402311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402212) -> #cfg_equip_combine{
+	id          = 30402212,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402212,1}],
+	cost        = [],
+	other_cost  = [30402111,30402211,30402311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402312) -> #cfg_equip_combine{
+	id          = 30402312,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402312,1}],
+	cost        = [],
+	other_cost  = [30402111,30402211,30402311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402113) -> #cfg_equip_combine{
+	id          = 30402113,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402113,1}],
+	cost        = [],
+	other_cost  = [30402112,30402212,30402312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402213) -> #cfg_equip_combine{
+	id          = 30402213,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402213,1}],
+	cost        = [],
+	other_cost  = [30402112,30402212,30402312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402313) -> #cfg_equip_combine{
+	id          = 30402313,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402313,1}],
+	cost        = [],
+	other_cost  = [30402112,30402212,30402312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402114) -> #cfg_equip_combine{
+	id          = 30402114,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402114,1}],
+	cost        = [],
+	other_cost  = [30402113,30402213,30402313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402214) -> #cfg_equip_combine{
+	id          = 30402214,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402214,1}],
+	cost        = [],
+	other_cost  = [30402113,30402213,30402313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402314) -> #cfg_equip_combine{
+	id          = 30402314,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402314,1}],
+	cost        = [],
+	other_cost  = [30402113,30402213,30402313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402115) -> #cfg_equip_combine{
+	id          = 30402115,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402115,1}],
+	cost        = [],
+	other_cost  = [30402114,30402214,30402314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402215) -> #cfg_equip_combine{
+	id          = 30402215,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402215,1}],
+	cost        = [],
+	other_cost  = [30402114,30402214,30402314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402315) -> #cfg_equip_combine{
+	id          = 30402315,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402315,1}],
+	cost        = [],
+	other_cost  = [30402114,30402214,30402314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402116) -> #cfg_equip_combine{
+	id          = 30402116,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402116,1}],
+	cost        = [],
+	other_cost  = [30402115,30402215,30402315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402216) -> #cfg_equip_combine{
+	id          = 30402216,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402216,1}],
+	cost        = [],
+	other_cost  = [30402115,30402215,30402315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402316) -> #cfg_equip_combine{
+	id          = 30402316,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402316,1}],
+	cost        = [],
+	other_cost  = [30402115,30402215,30402315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402117) -> #cfg_equip_combine{
+	id          = 30402117,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402117,1}],
+	cost        = [],
+	other_cost  = [30402116,30402216,30402316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402217) -> #cfg_equip_combine{
+	id          = 30402217,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402217,1}],
+	cost        = [],
+	other_cost  = [30402116,30402216,30402316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402317) -> #cfg_equip_combine{
+	id          = 30402317,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402317,1}],
+	cost        = [],
+	other_cost  = [30402116,30402216,30402316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402118) -> #cfg_equip_combine{
+	id          = 30402118,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402118,1}],
+	cost        = [],
+	other_cost  = [30402117,30402217,30402317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402218) -> #cfg_equip_combine{
+	id          = 30402218,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402218,1}],
+	cost        = [],
+	other_cost  = [30402117,30402217,30402317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402318) -> #cfg_equip_combine{
+	id          = 30402318,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402318,1}],
+	cost        = [],
+	other_cost  = [30402117,30402217,30402317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402119) -> #cfg_equip_combine{
+	id          = 30402119,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402119,1}],
+	cost        = [],
+	other_cost  = [30402118,30402218,30402318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402219) -> #cfg_equip_combine{
+	id          = 30402219,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402219,1}],
+	cost        = [],
+	other_cost  = [30402118,30402218,30402318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402319) -> #cfg_equip_combine{
+	id          = 30402319,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402319,1}],
+	cost        = [],
+	other_cost  = [30402118,30402218,30402318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402120) -> #cfg_equip_combine{
+	id          = 30402120,
+	title       = "奢华金扇",
+	open_level  = 410,
+	gain        = [{30402120,1}],
+	cost        = [],
+	other_cost  = [30402119,30402219,30402319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402220) -> #cfg_equip_combine{
+	id          = 30402220,
+	title       = "星星粉末",
+	open_level  = 410,
+	gain        = [{30402220,1}],
+	cost        = [],
+	other_cost  = [30402119,30402219,30402319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30402320) -> #cfg_equip_combine{
+	id          = 30402320,
+	title       = "星河之源",
+	open_level  = 410,
+	gain        = [{30402320,1}],
+	cost        = [],
+	other_cost  = [30402119,30402219,30402319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403104) -> #cfg_equip_combine{
+	id          = 30403104,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403104,1}],
+	cost        = [],
+	other_cost  = [30403103,30403203,30403303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403204) -> #cfg_equip_combine{
+	id          = 30403204,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403204,1}],
+	cost        = [],
+	other_cost  = [30403103,30403203,30403303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403304) -> #cfg_equip_combine{
+	id          = 30403304,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403304,1}],
+	cost        = [],
+	other_cost  = [30403103,30403203,30403303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403105) -> #cfg_equip_combine{
+	id          = 30403105,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403105,1}],
+	cost        = [],
+	other_cost  = [30403104,30403204,30403304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403205) -> #cfg_equip_combine{
+	id          = 30403205,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403205,1}],
+	cost        = [],
+	other_cost  = [30403104,30403204,30403304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403305) -> #cfg_equip_combine{
+	id          = 30403305,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403305,1}],
+	cost        = [],
+	other_cost  = [30403104,30403204,30403304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403106) -> #cfg_equip_combine{
+	id          = 30403106,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403106,1}],
+	cost        = [],
+	other_cost  = [30403105,30403205,30403305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403206) -> #cfg_equip_combine{
+	id          = 30403206,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403206,1}],
+	cost        = [],
+	other_cost  = [30403105,30403205,30403305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403306) -> #cfg_equip_combine{
+	id          = 30403306,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403306,1}],
+	cost        = [],
+	other_cost  = [30403105,30403205,30403305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403107) -> #cfg_equip_combine{
+	id          = 30403107,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403107,1}],
+	cost        = [],
+	other_cost  = [30403106,30403206,30403306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403207) -> #cfg_equip_combine{
+	id          = 30403207,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403207,1}],
+	cost        = [],
+	other_cost  = [30403106,30403206,30403306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403307) -> #cfg_equip_combine{
+	id          = 30403307,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403307,1}],
+	cost        = [],
+	other_cost  = [30403106,30403206,30403306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403108) -> #cfg_equip_combine{
+	id          = 30403108,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403108,1}],
+	cost        = [],
+	other_cost  = [30403107,30403207,30403307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403208) -> #cfg_equip_combine{
+	id          = 30403208,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403208,1}],
+	cost        = [],
+	other_cost  = [30403107,30403207,30403307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403308) -> #cfg_equip_combine{
+	id          = 30403308,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403308,1}],
+	cost        = [],
+	other_cost  = [30403107,30403207,30403307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403109) -> #cfg_equip_combine{
+	id          = 30403109,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403109,1}],
+	cost        = [],
+	other_cost  = [30403108,30403208,30403308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403209) -> #cfg_equip_combine{
+	id          = 30403209,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403209,1}],
+	cost        = [],
+	other_cost  = [30403108,30403208,30403308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403309) -> #cfg_equip_combine{
+	id          = 30403309,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403309,1}],
+	cost        = [],
+	other_cost  = [30403108,30403208,30403308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403110) -> #cfg_equip_combine{
+	id          = 30403110,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403110,1}],
+	cost        = [],
+	other_cost  = [30403109,30403209,30403309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403210) -> #cfg_equip_combine{
+	id          = 30403210,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403210,1}],
+	cost        = [],
+	other_cost  = [30403109,30403209,30403309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403310) -> #cfg_equip_combine{
+	id          = 30403310,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403310,1}],
+	cost        = [],
+	other_cost  = [30403109,30403209,30403309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403111) -> #cfg_equip_combine{
+	id          = 30403111,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403111,1}],
+	cost        = [],
+	other_cost  = [30403110,30403210,30403310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403211) -> #cfg_equip_combine{
+	id          = 30403211,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403211,1}],
+	cost        = [],
+	other_cost  = [30403110,30403210,30403310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403311) -> #cfg_equip_combine{
+	id          = 30403311,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403311,1}],
+	cost        = [],
+	other_cost  = [30403110,30403210,30403310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403112) -> #cfg_equip_combine{
+	id          = 30403112,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403112,1}],
+	cost        = [],
+	other_cost  = [30403111,30403211,30403311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403212) -> #cfg_equip_combine{
+	id          = 30403212,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403212,1}],
+	cost        = [],
+	other_cost  = [30403111,30403211,30403311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403312) -> #cfg_equip_combine{
+	id          = 30403312,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403312,1}],
+	cost        = [],
+	other_cost  = [30403111,30403211,30403311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403113) -> #cfg_equip_combine{
+	id          = 30403113,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403113,1}],
+	cost        = [],
+	other_cost  = [30403112,30403212,30403312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403213) -> #cfg_equip_combine{
+	id          = 30403213,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403213,1}],
+	cost        = [],
+	other_cost  = [30403112,30403212,30403312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403313) -> #cfg_equip_combine{
+	id          = 30403313,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403313,1}],
+	cost        = [],
+	other_cost  = [30403112,30403212,30403312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403114) -> #cfg_equip_combine{
+	id          = 30403114,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403114,1}],
+	cost        = [],
+	other_cost  = [30403113,30403213,30403313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403214) -> #cfg_equip_combine{
+	id          = 30403214,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403214,1}],
+	cost        = [],
+	other_cost  = [30403113,30403213,30403313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403314) -> #cfg_equip_combine{
+	id          = 30403314,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403314,1}],
+	cost        = [],
+	other_cost  = [30403113,30403213,30403313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403115) -> #cfg_equip_combine{
+	id          = 30403115,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403115,1}],
+	cost        = [],
+	other_cost  = [30403114,30403214,30403314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403215) -> #cfg_equip_combine{
+	id          = 30403215,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403215,1}],
+	cost        = [],
+	other_cost  = [30403114,30403214,30403314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403315) -> #cfg_equip_combine{
+	id          = 30403315,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403315,1}],
+	cost        = [],
+	other_cost  = [30403114,30403214,30403314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403116) -> #cfg_equip_combine{
+	id          = 30403116,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403116,1}],
+	cost        = [],
+	other_cost  = [30403115,30403215,30403315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403216) -> #cfg_equip_combine{
+	id          = 30403216,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403216,1}],
+	cost        = [],
+	other_cost  = [30403115,30403215,30403315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403316) -> #cfg_equip_combine{
+	id          = 30403316,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403316,1}],
+	cost        = [],
+	other_cost  = [30403115,30403215,30403315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403117) -> #cfg_equip_combine{
+	id          = 30403117,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403117,1}],
+	cost        = [],
+	other_cost  = [30403116,30403216,30403316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403217) -> #cfg_equip_combine{
+	id          = 30403217,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403217,1}],
+	cost        = [],
+	other_cost  = [30403116,30403216,30403316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403317) -> #cfg_equip_combine{
+	id          = 30403317,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403317,1}],
+	cost        = [],
+	other_cost  = [30403116,30403216,30403316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403118) -> #cfg_equip_combine{
+	id          = 30403118,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403118,1}],
+	cost        = [],
+	other_cost  = [30403117,30403217,30403317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403218) -> #cfg_equip_combine{
+	id          = 30403218,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403218,1}],
+	cost        = [],
+	other_cost  = [30403117,30403217,30403317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403318) -> #cfg_equip_combine{
+	id          = 30403318,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403318,1}],
+	cost        = [],
+	other_cost  = [30403117,30403217,30403317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403119) -> #cfg_equip_combine{
+	id          = 30403119,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403119,1}],
+	cost        = [],
+	other_cost  = [30403118,30403218,30403318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403219) -> #cfg_equip_combine{
+	id          = 30403219,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403219,1}],
+	cost        = [],
+	other_cost  = [30403118,30403218,30403318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403319) -> #cfg_equip_combine{
+	id          = 30403319,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403319,1}],
+	cost        = [],
+	other_cost  = [30403118,30403218,30403318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403120) -> #cfg_equip_combine{
+	id          = 30403120,
+	title       = "至白之扇",
+	open_level  = 410,
+	gain        = [{30403120,1}],
+	cost        = [],
+	other_cost  = [30403119,30403219,30403319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403220) -> #cfg_equip_combine{
+	id          = 30403220,
+	title       = "黑羽捕梦网",
+	open_level  = 410,
+	gain        = [{30403220,1}],
+	cost        = [],
+	other_cost  = [30403119,30403219,30403319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30403320) -> #cfg_equip_combine{
+	id          = 30403320,
+	title       = "神秘卷轴",
+	open_level  = 410,
+	gain        = [{30403320,1}],
+	cost        = [],
+	other_cost  = [30403119,30403219,30403319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404104) -> #cfg_equip_combine{
+	id          = 30404104,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404104,1}],
+	cost        = [],
+	other_cost  = [30404103,30404203,30404303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404204) -> #cfg_equip_combine{
+	id          = 30404204,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404204,1}],
+	cost        = [],
+	other_cost  = [30404103,30404203,30404303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404304) -> #cfg_equip_combine{
+	id          = 30404304,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404304,1}],
+	cost        = [],
+	other_cost  = [30404103,30404203,30404303],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404105) -> #cfg_equip_combine{
+	id          = 30404105,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404105,1}],
+	cost        = [],
+	other_cost  = [30404104,30404204,30404304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404205) -> #cfg_equip_combine{
+	id          = 30404205,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404205,1}],
+	cost        = [],
+	other_cost  = [30404104,30404204,30404304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404305) -> #cfg_equip_combine{
+	id          = 30404305,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404305,1}],
+	cost        = [],
+	other_cost  = [30404104,30404204,30404304],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404106) -> #cfg_equip_combine{
+	id          = 30404106,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404106,1}],
+	cost        = [],
+	other_cost  = [30404105,30404205,30404305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404206) -> #cfg_equip_combine{
+	id          = 30404206,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404206,1}],
+	cost        = [],
+	other_cost  = [30404105,30404205,30404305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404306) -> #cfg_equip_combine{
+	id          = 30404306,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404306,1}],
+	cost        = [],
+	other_cost  = [30404105,30404205,30404305],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404107) -> #cfg_equip_combine{
+	id          = 30404107,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404107,1}],
+	cost        = [],
+	other_cost  = [30404106,30404206,30404306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404207) -> #cfg_equip_combine{
+	id          = 30404207,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404207,1}],
+	cost        = [],
+	other_cost  = [30404106,30404206,30404306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404307) -> #cfg_equip_combine{
+	id          = 30404307,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404307,1}],
+	cost        = [],
+	other_cost  = [30404106,30404206,30404306],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404108) -> #cfg_equip_combine{
+	id          = 30404108,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404108,1}],
+	cost        = [],
+	other_cost  = [30404107,30404207,30404307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404208) -> #cfg_equip_combine{
+	id          = 30404208,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404208,1}],
+	cost        = [],
+	other_cost  = [30404107,30404207,30404307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404308) -> #cfg_equip_combine{
+	id          = 30404308,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404308,1}],
+	cost        = [],
+	other_cost  = [30404107,30404207,30404307],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404109) -> #cfg_equip_combine{
+	id          = 30404109,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404109,1}],
+	cost        = [],
+	other_cost  = [30404108,30404208,30404308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404209) -> #cfg_equip_combine{
+	id          = 30404209,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404209,1}],
+	cost        = [],
+	other_cost  = [30404108,30404208,30404308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404309) -> #cfg_equip_combine{
+	id          = 30404309,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404309,1}],
+	cost        = [],
+	other_cost  = [30404108,30404208,30404308],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404110) -> #cfg_equip_combine{
+	id          = 30404110,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404110,1}],
+	cost        = [],
+	other_cost  = [30404109,30404209,30404309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404210) -> #cfg_equip_combine{
+	id          = 30404210,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404210,1}],
+	cost        = [],
+	other_cost  = [30404109,30404209,30404309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404310) -> #cfg_equip_combine{
+	id          = 30404310,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404310,1}],
+	cost        = [],
+	other_cost  = [30404109,30404209,30404309],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404111) -> #cfg_equip_combine{
+	id          = 30404111,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404111,1}],
+	cost        = [],
+	other_cost  = [30404110,30404210,30404310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404211) -> #cfg_equip_combine{
+	id          = 30404211,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404211,1}],
+	cost        = [],
+	other_cost  = [30404110,30404210,30404310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404311) -> #cfg_equip_combine{
+	id          = 30404311,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404311,1}],
+	cost        = [],
+	other_cost  = [30404110,30404210,30404310],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404112) -> #cfg_equip_combine{
+	id          = 30404112,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404112,1}],
+	cost        = [],
+	other_cost  = [30404111,30404211,30404311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404212) -> #cfg_equip_combine{
+	id          = 30404212,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404212,1}],
+	cost        = [],
+	other_cost  = [30404111,30404211,30404311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404312) -> #cfg_equip_combine{
+	id          = 30404312,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404312,1}],
+	cost        = [],
+	other_cost  = [30404111,30404211,30404311],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404113) -> #cfg_equip_combine{
+	id          = 30404113,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404113,1}],
+	cost        = [],
+	other_cost  = [30404112,30404212,30404312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404213) -> #cfg_equip_combine{
+	id          = 30404213,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404213,1}],
+	cost        = [],
+	other_cost  = [30404112,30404212,30404312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404313) -> #cfg_equip_combine{
+	id          = 30404313,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404313,1}],
+	cost        = [],
+	other_cost  = [30404112,30404212,30404312],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404114) -> #cfg_equip_combine{
+	id          = 30404114,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404114,1}],
+	cost        = [],
+	other_cost  = [30404113,30404213,30404313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404214) -> #cfg_equip_combine{
+	id          = 30404214,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404214,1}],
+	cost        = [],
+	other_cost  = [30404113,30404213,30404313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404314) -> #cfg_equip_combine{
+	id          = 30404314,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404314,1}],
+	cost        = [],
+	other_cost  = [30404113,30404213,30404313],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404115) -> #cfg_equip_combine{
+	id          = 30404115,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404115,1}],
+	cost        = [],
+	other_cost  = [30404114,30404214,30404314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404215) -> #cfg_equip_combine{
+	id          = 30404215,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404215,1}],
+	cost        = [],
+	other_cost  = [30404114,30404214,30404314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404315) -> #cfg_equip_combine{
+	id          = 30404315,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404315,1}],
+	cost        = [],
+	other_cost  = [30404114,30404214,30404314],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404116) -> #cfg_equip_combine{
+	id          = 30404116,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404116,1}],
+	cost        = [],
+	other_cost  = [30404115,30404215,30404315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404216) -> #cfg_equip_combine{
+	id          = 30404216,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404216,1}],
+	cost        = [],
+	other_cost  = [30404115,30404215,30404315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404316) -> #cfg_equip_combine{
+	id          = 30404316,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404316,1}],
+	cost        = [],
+	other_cost  = [30404115,30404215,30404315],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404117) -> #cfg_equip_combine{
+	id          = 30404117,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404117,1}],
+	cost        = [],
+	other_cost  = [30404116,30404216,30404316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404217) -> #cfg_equip_combine{
+	id          = 30404217,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404217,1}],
+	cost        = [],
+	other_cost  = [30404116,30404216,30404316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404317) -> #cfg_equip_combine{
+	id          = 30404317,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404317,1}],
+	cost        = [],
+	other_cost  = [30404116,30404216,30404316],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404118) -> #cfg_equip_combine{
+	id          = 30404118,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404118,1}],
+	cost        = [],
+	other_cost  = [30404117,30404217,30404317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404218) -> #cfg_equip_combine{
+	id          = 30404218,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404218,1}],
+	cost        = [],
+	other_cost  = [30404117,30404217,30404317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404318) -> #cfg_equip_combine{
+	id          = 30404318,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404318,1}],
+	cost        = [],
+	other_cost  = [30404117,30404217,30404317],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404119) -> #cfg_equip_combine{
+	id          = 30404119,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404119,1}],
+	cost        = [],
+	other_cost  = [30404118,30404218,30404318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404219) -> #cfg_equip_combine{
+	id          = 30404219,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404219,1}],
+	cost        = [],
+	other_cost  = [30404118,30404218,30404318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404319) -> #cfg_equip_combine{
+	id          = 30404319,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404319,1}],
+	cost        = [],
+	other_cost  = [30404118,30404218,30404318],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404120) -> #cfg_equip_combine{
+	id          = 30404120,
+	title       = "火鸟扇坠",
+	open_level  = 410,
+	gain        = [{30404120,1}],
+	cost        = [],
+	other_cost  = [30404119,30404219,30404319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404220) -> #cfg_equip_combine{
+	id          = 30404220,
+	title       = "不灭之火",
+	open_level  = 410,
+	gain        = [{30404220,1}],
+	cost        = [],
+	other_cost  = [30404119,30404219,30404319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(30404320) -> #cfg_equip_combine{
+	id          = 30404320,
+	title       = "凝华",
+	open_level  = 410,
+	gain        = [{30404320,1}],
+	cost        = [],
+	other_cost  = [30404119,30404219,30404319],
+	min_num     = 2,
+	max_num     = 2,
+	probs       = [{0,100}],
+	compose_key = undefined
+};
+find(21070136) -> #cfg_equip_combine{
+	id          = 21070136,
+	title       = "流光男剑",
+	open_level  = 240,
+	gain        = [{11070136,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21070636) -> #cfg_equip_combine{
+	id          = 21070636,
+	title       = "流光头盔",
+	open_level  = 240,
+	gain        = [{11070636,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21070736) -> #cfg_equip_combine{
+	id          = 21070736,
+	title       = "流光胸甲",
+	open_level  = 240,
+	gain        = [{11070736,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21070836) -> #cfg_equip_combine{
+	id          = 21070836,
+	title       = "流光腿甲",
+	open_level  = 240,
+	gain        = [{11070836,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21070936) -> #cfg_equip_combine{
+	id          = 21070936,
+	title       = "流光男腕",
+	open_level  = 240,
+	gain        = [{11070936,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21071036) -> #cfg_equip_combine{
+	id          = 21071036,
+	title       = "流光男鞋",
+	open_level  = 240,
+	gain        = [{11071036,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21070236) -> #cfg_equip_combine{
+	id          = 21070236,
+	title       = "流光匕首",
+	open_level  = 240,
+	gain        = [{11070236,1}],
+	cost        = [],
+	other_cost  = [11060136,11060636,11060736,11060836,11060936,11061036,11060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080136) -> #cfg_equip_combine{
+	id          = 21080136,
+	title       = "远古男剑",
+	open_level  = 260,
+	gain        = [{11080136,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080636) -> #cfg_equip_combine{
+	id          = 21080636,
+	title       = "远古头盔",
+	open_level  = 260,
+	gain        = [{11080636,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080736) -> #cfg_equip_combine{
+	id          = 21080736,
+	title       = "远古胸甲",
+	open_level  = 260,
+	gain        = [{11080736,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080836) -> #cfg_equip_combine{
+	id          = 21080836,
+	title       = "远古腿甲",
+	open_level  = 260,
+	gain        = [{11080836,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080936) -> #cfg_equip_combine{
+	id          = 21080936,
+	title       = "远古男腕",
+	open_level  = 260,
+	gain        = [{11080936,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21081036) -> #cfg_equip_combine{
+	id          = 21081036,
+	title       = "远古男鞋",
+	open_level  = 260,
+	gain        = [{11081036,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080236) -> #cfg_equip_combine{
+	id          = 21080236,
+	title       = "远古匕首",
+	open_level  = 260,
+	gain        = [{11080236,1}],
+	cost        = [],
+	other_cost  = [11070136,11070636,11070736,11070836,11070936,11071036,11070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090136) -> #cfg_equip_combine{
+	id          = 21090136,
+	title       = "幽魂男剑",
+	open_level  = 300,
+	gain        = [{11090136,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090636) -> #cfg_equip_combine{
+	id          = 21090636,
+	title       = "幽魂头盔",
+	open_level  = 300,
+	gain        = [{11090636,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090736) -> #cfg_equip_combine{
+	id          = 21090736,
+	title       = "幽魂胸甲",
+	open_level  = 300,
+	gain        = [{11090736,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090836) -> #cfg_equip_combine{
+	id          = 21090836,
+	title       = "幽魂腿甲",
+	open_level  = 300,
+	gain        = [{11090836,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090936) -> #cfg_equip_combine{
+	id          = 21090936,
+	title       = "幽魂男腕",
+	open_level  = 300,
+	gain        = [{11090936,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21091036) -> #cfg_equip_combine{
+	id          = 21091036,
+	title       = "幽魂男鞋",
+	open_level  = 300,
+	gain        = [{11091036,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090236) -> #cfg_equip_combine{
+	id          = 21090236,
+	title       = "幽魂匕首",
+	open_level  = 300,
+	gain        = [{11090236,1}],
+	cost        = [],
+	other_cost  = [11080136,11080636,11080736,11080836,11080936,11081036,11080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100136) -> #cfg_equip_combine{
+	id          = 21100136,
+	title       = "天劫男剑",
+	open_level  = 370,
+	gain        = [{11100136,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100636) -> #cfg_equip_combine{
+	id          = 21100636,
+	title       = "天劫头盔",
+	open_level  = 370,
+	gain        = [{11100636,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100736) -> #cfg_equip_combine{
+	id          = 21100736,
+	title       = "天劫胸甲",
+	open_level  = 370,
+	gain        = [{11100736,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100836) -> #cfg_equip_combine{
+	id          = 21100836,
+	title       = "天劫腿甲",
+	open_level  = 370,
+	gain        = [{11100836,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100936) -> #cfg_equip_combine{
+	id          = 21100936,
+	title       = "天劫男腕",
+	open_level  = 370,
+	gain        = [{11100936,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21101036) -> #cfg_equip_combine{
+	id          = 21101036,
+	title       = "天劫男鞋",
+	open_level  = 370,
+	gain        = [{11101036,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100236) -> #cfg_equip_combine{
+	id          = 21100236,
+	title       = "天劫匕首",
+	open_level  = 370,
+	gain        = [{11100236,1}],
+	cost        = [],
+	other_cost  = [11090136,11090636,11090736,11090836,11090936,11091036,11090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110136) -> #cfg_equip_combine{
+	id          = 21110136,
+	title       = "天御男剑",
+	open_level  = 400,
+	gain        = [{11110136,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110636) -> #cfg_equip_combine{
+	id          = 21110636,
+	title       = "天御头盔",
+	open_level  = 400,
+	gain        = [{11110636,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110736) -> #cfg_equip_combine{
+	id          = 21110736,
+	title       = "天御胸甲",
+	open_level  = 400,
+	gain        = [{11110736,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110836) -> #cfg_equip_combine{
+	id          = 21110836,
+	title       = "天御腿甲",
+	open_level  = 400,
+	gain        = [{11110836,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110936) -> #cfg_equip_combine{
+	id          = 21110936,
+	title       = "天御男腕",
+	open_level  = 400,
+	gain        = [{11110936,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21111036) -> #cfg_equip_combine{
+	id          = 21111036,
+	title       = "天御男鞋",
+	open_level  = 400,
+	gain        = [{11111036,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110236) -> #cfg_equip_combine{
+	id          = 21110236,
+	title       = "天御匕首",
+	open_level  = 400,
+	gain        = [{11110236,1}],
+	cost        = [],
+	other_cost  = [11100136,11100636,11100736,11100836,11100936,11101036,11100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120136) -> #cfg_equip_combine{
+	id          = 21120136,
+	title       = "万世荣光男剑",
+	open_level  = 500,
+	gain        = [{11120136,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120636) -> #cfg_equip_combine{
+	id          = 21120636,
+	title       = "万世荣光头盔",
+	open_level  = 500,
+	gain        = [{11120636,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120736) -> #cfg_equip_combine{
+	id          = 21120736,
+	title       = "万世荣光胸甲",
+	open_level  = 500,
+	gain        = [{11120736,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120836) -> #cfg_equip_combine{
+	id          = 21120836,
+	title       = "万世荣光腿甲",
+	open_level  = 500,
+	gain        = [{11120836,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120936) -> #cfg_equip_combine{
+	id          = 21120936,
+	title       = "万世荣光男腕",
+	open_level  = 500,
+	gain        = [{11120936,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21121036) -> #cfg_equip_combine{
+	id          = 21121036,
+	title       = "万世荣光男鞋",
+	open_level  = 500,
+	gain        = [{11121036,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120236) -> #cfg_equip_combine{
+	id          = 21120236,
+	title       = "万世荣光匕首",
+	open_level  = 500,
+	gain        = [{11120236,1}],
+	cost        = [],
+	other_cost  = [11110136,11110636,11110736,11110836,11110936,11111036,11110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130136) -> #cfg_equip_combine{
+	id          = 21130136,
+	title       = "超大陆男剑",
+	open_level  = 550,
+	gain        = [{11130136,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130636) -> #cfg_equip_combine{
+	id          = 21130636,
+	title       = "超大陆头盔",
+	open_level  = 550,
+	gain        = [{11130636,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130736) -> #cfg_equip_combine{
+	id          = 21130736,
+	title       = "超大陆胸甲",
+	open_level  = 550,
+	gain        = [{11130736,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130836) -> #cfg_equip_combine{
+	id          = 21130836,
+	title       = "超大陆腿甲",
+	open_level  = 550,
+	gain        = [{11130836,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130936) -> #cfg_equip_combine{
+	id          = 21130936,
+	title       = "超大陆男腕",
+	open_level  = 550,
+	gain        = [{11130936,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21131036) -> #cfg_equip_combine{
+	id          = 21131036,
+	title       = "超大陆男鞋",
+	open_level  = 550,
+	gain        = [{11131036,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130236) -> #cfg_equip_combine{
+	id          = 21130236,
+	title       = "超大陆匕首",
+	open_level  = 550,
+	gain        = [{11130236,1}],
+	cost        = [],
+	other_cost  = [11120136,11120636,11120736,11120836,11120936,11121036,11120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140136) -> #cfg_equip_combine{
+	id          = 21140136,
+	title       = "超时空男剑",
+	open_level  = 600,
+	gain        = [{11140136,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140636) -> #cfg_equip_combine{
+	id          = 21140636,
+	title       = "超时空头盔",
+	open_level  = 600,
+	gain        = [{11140636,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140736) -> #cfg_equip_combine{
+	id          = 21140736,
+	title       = "超时空胸甲",
+	open_level  = 600,
+	gain        = [{11140736,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140836) -> #cfg_equip_combine{
+	id          = 21140836,
+	title       = "超时空腿甲",
+	open_level  = 600,
+	gain        = [{11140836,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140936) -> #cfg_equip_combine{
+	id          = 21140936,
+	title       = "超时空男腕",
+	open_level  = 600,
+	gain        = [{11140936,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21141036) -> #cfg_equip_combine{
+	id          = 21141036,
+	title       = "超时空男鞋",
+	open_level  = 600,
+	gain        = [{11141036,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140236) -> #cfg_equip_combine{
+	id          = 21140236,
+	title       = "超时空匕首",
+	open_level  = 600,
+	gain        = [{11140236,1}],
+	cost        = [],
+	other_cost  = [11130136,11130636,11130736,11130836,11130936,11131036,11130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150136) -> #cfg_equip_combine{
+	id          = 21150136,
+	title       = "起源男剑",
+	open_level  = 620,
+	gain        = [{11150136,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150636) -> #cfg_equip_combine{
+	id          = 21150636,
+	title       = "起源头盔",
+	open_level  = 620,
+	gain        = [{11150636,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150736) -> #cfg_equip_combine{
+	id          = 21150736,
+	title       = "起源胸甲",
+	open_level  = 620,
+	gain        = [{11150736,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150836) -> #cfg_equip_combine{
+	id          = 21150836,
+	title       = "起源腿甲",
+	open_level  = 620,
+	gain        = [{11150836,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150936) -> #cfg_equip_combine{
+	id          = 21150936,
+	title       = "起源男腕",
+	open_level  = 620,
+	gain        = [{11150936,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21151036) -> #cfg_equip_combine{
+	id          = 21151036,
+	title       = "起源男鞋",
+	open_level  = 620,
+	gain        = [{11151036,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150236) -> #cfg_equip_combine{
+	id          = 21150236,
+	title       = "起源匕首",
+	open_level  = 620,
+	gain        = [{11150236,1}],
+	cost        = [],
+	other_cost  = [11140136,11140636,11140736,11140836,11140936,11141036,11140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160136) -> #cfg_equip_combine{
+	id          = 21160136,
+	title       = "创世男剑",
+	open_level  = 710,
+	gain        = [{11160136,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160636) -> #cfg_equip_combine{
+	id          = 21160636,
+	title       = "创世头盔",
+	open_level  = 710,
+	gain        = [{11160636,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160736) -> #cfg_equip_combine{
+	id          = 21160736,
+	title       = "创世胸甲",
+	open_level  = 710,
+	gain        = [{11160736,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160836) -> #cfg_equip_combine{
+	id          = 21160836,
+	title       = "创世腿甲",
+	open_level  = 710,
+	gain        = [{11160836,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160936) -> #cfg_equip_combine{
+	id          = 21160936,
+	title       = "创世男腕",
+	open_level  = 710,
+	gain        = [{11160936,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21161036) -> #cfg_equip_combine{
+	id          = 21161036,
+	title       = "创世男鞋",
+	open_level  = 710,
+	gain        = [{11161036,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160236) -> #cfg_equip_combine{
+	id          = 21160236,
+	title       = "创世匕首",
+	open_level  = 710,
+	gain        = [{11160236,1}],
+	cost        = [],
+	other_cost  = [11150136,11150636,11150736,11150836,11150936,11151036,11150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22070136) -> #cfg_equip_combine{
+	id          = 22070136,
+	title       = "流光女剑",
+	open_level  = 240,
+	gain        = [{12070136,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22070636) -> #cfg_equip_combine{
+	id          = 22070636,
+	title       = "流光头巾",
+	open_level  = 240,
+	gain        = [{12070636,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22070736) -> #cfg_equip_combine{
+	id          = 22070736,
+	title       = "流光战袍",
+	open_level  = 240,
+	gain        = [{12070736,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22070836) -> #cfg_equip_combine{
+	id          = 22070836,
+	title       = "流光裙甲",
+	open_level  = 240,
+	gain        = [{12070836,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22070936) -> #cfg_equip_combine{
+	id          = 22070936,
+	title       = "流光腕袖",
+	open_level  = 240,
+	gain        = [{12070936,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22071036) -> #cfg_equip_combine{
+	id          = 22071036,
+	title       = "流光女靴",
+	open_level  = 240,
+	gain        = [{12071036,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22070236) -> #cfg_equip_combine{
+	id          = 22070236,
+	title       = "流光袖剑",
+	open_level  = 240,
+	gain        = [{12070236,1}],
+	cost        = [],
+	other_cost  = [12060136,12060636,12060736,12060836,12060936,12061036,12060236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22080136) -> #cfg_equip_combine{
+	id          = 22080136,
+	title       = "远古女剑",
+	open_level  = 260,
+	gain        = [{12080136,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22080636) -> #cfg_equip_combine{
+	id          = 22080636,
+	title       = "远古头巾",
+	open_level  = 260,
+	gain        = [{12080636,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22080736) -> #cfg_equip_combine{
+	id          = 22080736,
+	title       = "远古战袍",
+	open_level  = 260,
+	gain        = [{12080736,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22080836) -> #cfg_equip_combine{
+	id          = 22080836,
+	title       = "远古裙甲",
+	open_level  = 260,
+	gain        = [{12080836,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22080936) -> #cfg_equip_combine{
+	id          = 22080936,
+	title       = "远古腕袖",
+	open_level  = 260,
+	gain        = [{12080936,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22081036) -> #cfg_equip_combine{
+	id          = 22081036,
+	title       = "远古女靴",
+	open_level  = 260,
+	gain        = [{12081036,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22080236) -> #cfg_equip_combine{
+	id          = 22080236,
+	title       = "远古袖剑",
+	open_level  = 260,
+	gain        = [{12080236,1}],
+	cost        = [],
+	other_cost  = [12070136,12070636,12070736,12070836,12070936,12071036,12070236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22090136) -> #cfg_equip_combine{
+	id          = 22090136,
+	title       = "幽魂女剑",
+	open_level  = 300,
+	gain        = [{12090136,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22090636) -> #cfg_equip_combine{
+	id          = 22090636,
+	title       = "幽魂头巾",
+	open_level  = 300,
+	gain        = [{12090636,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22090736) -> #cfg_equip_combine{
+	id          = 22090736,
+	title       = "幽魂战袍",
+	open_level  = 300,
+	gain        = [{12090736,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22090836) -> #cfg_equip_combine{
+	id          = 22090836,
+	title       = "幽魂裙甲",
+	open_level  = 300,
+	gain        = [{12090836,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22090936) -> #cfg_equip_combine{
+	id          = 22090936,
+	title       = "幽魂腕袖",
+	open_level  = 300,
+	gain        = [{12090936,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22091036) -> #cfg_equip_combine{
+	id          = 22091036,
+	title       = "幽魂女靴",
+	open_level  = 300,
+	gain        = [{12091036,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22090236) -> #cfg_equip_combine{
+	id          = 22090236,
+	title       = "幽魂袖剑",
+	open_level  = 300,
+	gain        = [{12090236,1}],
+	cost        = [],
+	other_cost  = [12080136,12080636,12080736,12080836,12080936,12081036,12080236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22100136) -> #cfg_equip_combine{
+	id          = 22100136,
+	title       = "天劫女剑",
+	open_level  = 370,
+	gain        = [{12100136,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22100636) -> #cfg_equip_combine{
+	id          = 22100636,
+	title       = "天劫头巾",
+	open_level  = 370,
+	gain        = [{12100636,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22100736) -> #cfg_equip_combine{
+	id          = 22100736,
+	title       = "天劫战袍",
+	open_level  = 370,
+	gain        = [{12100736,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22100836) -> #cfg_equip_combine{
+	id          = 22100836,
+	title       = "天劫裙甲",
+	open_level  = 370,
+	gain        = [{12100836,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22100936) -> #cfg_equip_combine{
+	id          = 22100936,
+	title       = "天劫腕袖",
+	open_level  = 370,
+	gain        = [{12100936,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22101036) -> #cfg_equip_combine{
+	id          = 22101036,
+	title       = "天劫女靴",
+	open_level  = 370,
+	gain        = [{12101036,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22100236) -> #cfg_equip_combine{
+	id          = 22100236,
+	title       = "天劫袖剑",
+	open_level  = 370,
+	gain        = [{12100236,1}],
+	cost        = [],
+	other_cost  = [12090136,12090636,12090736,12090836,12090936,12091036,12090236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22110136) -> #cfg_equip_combine{
+	id          = 22110136,
+	title       = "天御女剑",
+	open_level  = 400,
+	gain        = [{12110136,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22110636) -> #cfg_equip_combine{
+	id          = 22110636,
+	title       = "天御头巾",
+	open_level  = 400,
+	gain        = [{12110636,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22110736) -> #cfg_equip_combine{
+	id          = 22110736,
+	title       = "天御战袍",
+	open_level  = 400,
+	gain        = [{12110736,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22110836) -> #cfg_equip_combine{
+	id          = 22110836,
+	title       = "天御裙甲",
+	open_level  = 400,
+	gain        = [{12110836,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22110936) -> #cfg_equip_combine{
+	id          = 22110936,
+	title       = "天御腕袖",
+	open_level  = 400,
+	gain        = [{12110936,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22111036) -> #cfg_equip_combine{
+	id          = 22111036,
+	title       = "天御女靴",
+	open_level  = 400,
+	gain        = [{12111036,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22110236) -> #cfg_equip_combine{
+	id          = 22110236,
+	title       = "天御袖剑",
+	open_level  = 400,
+	gain        = [{12110236,1}],
+	cost        = [],
+	other_cost  = [12100136,12100636,12100736,12100836,12100936,12101036,12100236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22120136) -> #cfg_equip_combine{
+	id          = 22120136,
+	title       = "万世荣光女剑",
+	open_level  = 500,
+	gain        = [{12120136,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22120636) -> #cfg_equip_combine{
+	id          = 22120636,
+	title       = "万世荣光头巾",
+	open_level  = 500,
+	gain        = [{12120636,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22120736) -> #cfg_equip_combine{
+	id          = 22120736,
+	title       = "万世荣光战袍",
+	open_level  = 500,
+	gain        = [{12120736,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22120836) -> #cfg_equip_combine{
+	id          = 22120836,
+	title       = "万世荣光裙甲",
+	open_level  = 500,
+	gain        = [{12120836,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22120936) -> #cfg_equip_combine{
+	id          = 22120936,
+	title       = "万世荣光腕袖",
+	open_level  = 500,
+	gain        = [{12120936,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22121036) -> #cfg_equip_combine{
+	id          = 22121036,
+	title       = "万世荣光女靴",
+	open_level  = 500,
+	gain        = [{12121036,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22120236) -> #cfg_equip_combine{
+	id          = 22120236,
+	title       = "万世荣光袖剑",
+	open_level  = 500,
+	gain        = [{12120236,1}],
+	cost        = [],
+	other_cost  = [12110136,12110636,12110736,12110836,12110936,12111036,12110236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22130136) -> #cfg_equip_combine{
+	id          = 22130136,
+	title       = "超大陆女剑",
+	open_level  = 550,
+	gain        = [{12130136,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22130636) -> #cfg_equip_combine{
+	id          = 22130636,
+	title       = "超大陆头巾",
+	open_level  = 550,
+	gain        = [{12130636,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22130736) -> #cfg_equip_combine{
+	id          = 22130736,
+	title       = "超大陆战袍",
+	open_level  = 550,
+	gain        = [{12130736,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22130836) -> #cfg_equip_combine{
+	id          = 22130836,
+	title       = "超大陆裙甲",
+	open_level  = 550,
+	gain        = [{12130836,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22130936) -> #cfg_equip_combine{
+	id          = 22130936,
+	title       = "超大陆腕袖",
+	open_level  = 550,
+	gain        = [{12130936,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22131036) -> #cfg_equip_combine{
+	id          = 22131036,
+	title       = "超大陆女靴",
+	open_level  = 550,
+	gain        = [{12131036,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22130236) -> #cfg_equip_combine{
+	id          = 22130236,
+	title       = "超大陆袖剑",
+	open_level  = 550,
+	gain        = [{12130236,1}],
+	cost        = [],
+	other_cost  = [12120136,12120636,12120736,12120836,12120936,12121036,12120236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22140136) -> #cfg_equip_combine{
+	id          = 22140136,
+	title       = "超时空女剑",
+	open_level  = 600,
+	gain        = [{12140136,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22140636) -> #cfg_equip_combine{
+	id          = 22140636,
+	title       = "超时空头巾",
+	open_level  = 600,
+	gain        = [{12140636,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22140736) -> #cfg_equip_combine{
+	id          = 22140736,
+	title       = "超时空战袍",
+	open_level  = 600,
+	gain        = [{12140736,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22140836) -> #cfg_equip_combine{
+	id          = 22140836,
+	title       = "超时空裙甲",
+	open_level  = 600,
+	gain        = [{12140836,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22140936) -> #cfg_equip_combine{
+	id          = 22140936,
+	title       = "超时空腕袖",
+	open_level  = 600,
+	gain        = [{12140936,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22141036) -> #cfg_equip_combine{
+	id          = 22141036,
+	title       = "超时空女靴",
+	open_level  = 600,
+	gain        = [{12141036,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22140236) -> #cfg_equip_combine{
+	id          = 22140236,
+	title       = "超时空袖剑",
+	open_level  = 600,
+	gain        = [{12140236,1}],
+	cost        = [],
+	other_cost  = [12130136,12130636,12130736,12130836,12130936,12131036,12130236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22150136) -> #cfg_equip_combine{
+	id          = 22150136,
+	title       = "起源女剑",
+	open_level  = 620,
+	gain        = [{12150136,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22150636) -> #cfg_equip_combine{
+	id          = 22150636,
+	title       = "起源头巾",
+	open_level  = 620,
+	gain        = [{12150636,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22150736) -> #cfg_equip_combine{
+	id          = 22150736,
+	title       = "起源战袍",
+	open_level  = 620,
+	gain        = [{12150736,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22150836) -> #cfg_equip_combine{
+	id          = 22150836,
+	title       = "起源裙甲",
+	open_level  = 620,
+	gain        = [{12150836,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22150936) -> #cfg_equip_combine{
+	id          = 22150936,
+	title       = "起源腕袖",
+	open_level  = 620,
+	gain        = [{12150936,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22151036) -> #cfg_equip_combine{
+	id          = 22151036,
+	title       = "起源女靴",
+	open_level  = 620,
+	gain        = [{12151036,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22150236) -> #cfg_equip_combine{
+	id          = 22150236,
+	title       = "起源袖剑",
+	open_level  = 620,
+	gain        = [{12150236,1}],
+	cost        = [],
+	other_cost  = [12140136,12140636,12140736,12140836,12140936,12141036,12140236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22160136) -> #cfg_equip_combine{
+	id          = 22160136,
+	title       = "创世女剑",
+	open_level  = 710,
+	gain        = [{12160136,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22160636) -> #cfg_equip_combine{
+	id          = 22160636,
+	title       = "创世头巾",
+	open_level  = 710,
+	gain        = [{12160636,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22160736) -> #cfg_equip_combine{
+	id          = 22160736,
+	title       = "创世战袍",
+	open_level  = 710,
+	gain        = [{12160736,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22160836) -> #cfg_equip_combine{
+	id          = 22160836,
+	title       = "创世裙甲",
+	open_level  = 710,
+	gain        = [{12160836,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22160936) -> #cfg_equip_combine{
+	id          = 22160936,
+	title       = "创世腕袖",
+	open_level  = 710,
+	gain        = [{12160936,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22161036) -> #cfg_equip_combine{
+	id          = 22161036,
+	title       = "创世女靴",
+	open_level  = 710,
+	gain        = [{12161036,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(22160236) -> #cfg_equip_combine{
+	id          = 22160236,
+	title       = "创世袖剑",
+	open_level  = 710,
+	gain        = [{12160236,1}],
+	cost        = [],
+	other_cost  = [12150136,12150636,12150736,12150836,12150936,12151036,12150236],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21070336) -> #cfg_equip_combine{
+	id          = 21070336,
+	title       = "流光项链",
+	open_level  = 240,
+	gain        = [{11070336,1}],
+	cost        = [],
+	other_cost  = [11060336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21080336) -> #cfg_equip_combine{
+	id          = 21080336,
+	title       = "远古项链",
+	open_level  = 260,
+	gain        = [{11080336,1}],
+	cost        = [],
+	other_cost  = [11070336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21090336) -> #cfg_equip_combine{
+	id          = 21090336,
+	title       = "幽魂项链",
+	open_level  = 300,
+	gain        = [{11090336,1}],
+	cost        = [],
+	other_cost  = [11080336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21100336) -> #cfg_equip_combine{
+	id          = 21100336,
+	title       = "天劫项链",
+	open_level  = 370,
+	gain        = [{11100336,1}],
+	cost        = [],
+	other_cost  = [11090336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21110336) -> #cfg_equip_combine{
+	id          = 21110336,
+	title       = "天御项链",
+	open_level  = 400,
+	gain        = [{11110336,1}],
+	cost        = [],
+	other_cost  = [11100336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21120336) -> #cfg_equip_combine{
+	id          = 21120336,
+	title       = "万世荣光项链",
+	open_level  = 500,
+	gain        = [{11120336,1}],
+	cost        = [],
+	other_cost  = [11110336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21130336) -> #cfg_equip_combine{
+	id          = 21130336,
+	title       = "超大陆项链",
+	open_level  = 550,
+	gain        = [{11130336,1}],
+	cost        = [],
+	other_cost  = [11120336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21140336) -> #cfg_equip_combine{
+	id          = 21140336,
+	title       = "超时空项链",
+	open_level  = 600,
+	gain        = [{11140336,1}],
+	cost        = [],
+	other_cost  = [11130336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21150336) -> #cfg_equip_combine{
+	id          = 21150336,
+	title       = "起源项链",
+	open_level  = 620,
+	gain        = [{11150336,1}],
+	cost        = [],
+	other_cost  = [11140336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(21160336) -> #cfg_equip_combine{
+	id          = 21160336,
+	title       = "创世项链",
+	open_level  = 710,
+	gain        = [{11160336,1}],
+	cost        = [],
+	other_cost  = [11150336],
+	min_num     = 3,
+	max_num     = 3,
+	probs       = [{3,100}],
+	compose_key = undefined
+};
+find(_) -> undefined.

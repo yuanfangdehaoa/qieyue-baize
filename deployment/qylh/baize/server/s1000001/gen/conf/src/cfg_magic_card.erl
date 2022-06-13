@@ -1,0 +1,11007 @@
+% Automatically generated, do not edit
+-module(cfg_magic_card).
+
+-compile([export_all]).
+-compile(nowarn_export_all).
+
+-include("magic_card.hrl").
+
+find(20001) -> #cfg_magic_card{
+	id        = 20001,
+	star      = 0,
+	max_star  = 0,
+	cost      = [{20110,1}],
+	slot      = 0,
+	attr_type = "",
+	base      = [],
+	rare      = [],
+	gate      = 0,
+	score     = 0,
+	gain      = [{90010012,100}]
+};
+find(20002) -> #cfg_magic_card{
+	id        = 20002,
+	star      = 0,
+	max_star  = 0,
+	cost      = [{20110,1}],
+	slot      = 0,
+	attr_type = "",
+	base      = [],
+	rare      = [],
+	gate      = 0,
+	score     = 0,
+	gain      = [{90010012,255}]
+};
+find(20003) -> #cfg_magic_card{
+	id        = 20003,
+	star      = 0,
+	max_star  = 0,
+	cost      = [{20110,2}],
+	slot      = 0,
+	attr_type = "",
+	base      = [],
+	rare      = [],
+	gate      = 0,
+	score     = 0,
+	gain      = [{90010012,450}]
+};
+find(20004) -> #cfg_magic_card{
+	id        = 20004,
+	star      = 0,
+	max_star  = 0,
+	cost      = [{20110,3}],
+	slot      = 0,
+	attr_type = "",
+	base      = [],
+	rare      = [],
+	gate      = 0,
+	score     = 0,
+	gain      = [{90010012,800}]
+};
+find(20005) -> #cfg_magic_card{
+	id        = 20005,
+	star      = 0,
+	max_star  = 0,
+	cost      = [{20110,5}],
+	slot      = 0,
+	attr_type = "",
+	base      = [],
+	rare      = [],
+	gate      = 0,
+	score     = 0,
+	gain      = [{90010012,1450}]
+};
+find(20006) -> #cfg_magic_card{
+	id        = 20006,
+	star      = 0,
+	max_star  = 0,
+	cost      = [{20110,8}],
+	slot      = 0,
+	attr_type = "",
+	base      = [],
+	rare      = [],
+	gate      = 0,
+	score     = 0,
+	gain      = [{90010012,3000}]
+};
+find(20110) -> #cfg_magic_card{
+	id        = 20110,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20110,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 4098,
+	gain      = [{90010012,100}]
+};
+find(20111) -> #cfg_magic_card{
+	id        = 20111,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20110,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 5737,
+	gain      = [{90010012,0},{20110,2}]
+};
+find(20112) -> #cfg_magic_card{
+	id        = 20112,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20110,2}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 7581,
+	gain      = [{90010012,0},{20110,3}]
+};
+find(20113) -> #cfg_magic_card{
+	id        = 20113,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20110,3}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 9630,
+	gain      = [{90010012,0},{20110,5}]
+};
+find(20114) -> #cfg_magic_card{
+	id        = 20114,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20110,5}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 11884,
+	gain      = [{90010012,0},{20110,8}]
+};
+find(20115) -> #cfg_magic_card{
+	id        = 20115,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20110,8}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 14343,
+	gain      = [{90010012,0},{20110,13}]
+};
+find(20116) -> #cfg_magic_card{
+	id        = 20116,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20110,999}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 17212,
+	gain      = [{90010012,0},{20110,21}]
+};
+find(20130) -> #cfg_magic_card{
+	id        = 20130,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20130,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 7250,
+	gain      = [{90010012,600}]
+};
+find(20131) -> #cfg_magic_card{
+	id        = 20131,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20130,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 10150,
+	gain      = [{90010012,0},{20130,2}]
+};
+find(20132) -> #cfg_magic_card{
+	id        = 20132,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20130,2}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 13413,
+	gain      = [{90010012,0},{20130,3}]
+};
+find(20133) -> #cfg_magic_card{
+	id        = 20133,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20130,3}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 17038,
+	gain      = [{90010012,0},{20130,5}]
+};
+find(20134) -> #cfg_magic_card{
+	id        = 20134,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20130,5}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 21026,
+	gain      = [{90010012,0},{20130,8}]
+};
+find(20135) -> #cfg_magic_card{
+	id        = 20135,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20130,8}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 25376,
+	gain      = [{90010012,0},{20130,13}]
+};
+find(20136) -> #cfg_magic_card{
+	id        = 20136,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20130,999}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 30452,
+	gain      = [{90010012,0},{20130,21}]
+};
+find(20140) -> #cfg_magic_card{
+	id        = 20140,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20140,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,1600}],
+	rare      = [],
+	gate      = 0,
+	score     = 15762,
+	gain      = [{90010012,3000}]
+};
+find(20141) -> #cfg_magic_card{
+	id        = 20141,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20140,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,2100}],
+	rare      = [],
+	gate      = 0,
+	score     = 22066,
+	gain      = [{90010012,0},{20140,2}]
+};
+find(20142) -> #cfg_magic_card{
+	id        = 20142,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20140,2}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,2600}],
+	rare      = [],
+	gate      = 0,
+	score     = 29159,
+	gain      = [{90010012,0},{20140,3}]
+};
+find(20143) -> #cfg_magic_card{
+	id        = 20143,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20140,3}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,3200}],
+	rare      = [],
+	gate      = 0,
+	score     = 37040,
+	gain      = [{90010012,0},{20140,5}]
+};
+find(20144) -> #cfg_magic_card{
+	id        = 20144,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20140,5}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,3900}],
+	rare      = [],
+	gate      = 0,
+	score     = 45709,
+	gain      = [{90010012,0},{20140,8}]
+};
+find(20145) -> #cfg_magic_card{
+	id        = 20145,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20140,8}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,4700}],
+	rare      = [],
+	gate      = 0,
+	score     = 55167,
+	gain      = [{90010012,0},{20140,13}]
+};
+find(20146) -> #cfg_magic_card{
+	id        = 20146,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20140,999}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,5700}],
+	rare      = [],
+	gate      = 0,
+	score     = 66200,
+	gain      = [{90010012,0},{20140,21}]
+};
+find(20150) -> #cfg_magic_card{
+	id        = 20150,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20150,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,2280}],
+	rare      = [],
+	gate      = 0,
+	score     = 26795,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20151) -> #cfg_magic_card{
+	id        = 20151,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20150,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,3705}],
+	rare      = [],
+	gate      = 0,
+	score     = 37513,
+	gain      = [{90010012,0},{20150,2}]
+};
+find(20152) -> #cfg_magic_card{
+	id        = 20152,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20150,2}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,5130}],
+	rare      = [],
+	gate      = 0,
+	score     = 49571,
+	gain      = [{90010012,0},{20150,3}]
+};
+find(20153) -> #cfg_magic_card{
+	id        = 20153,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20150,3}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,6840}],
+	rare      = [],
+	gate      = 0,
+	score     = 62969,
+	gain      = [{90010012,0},{20150,5}]
+};
+find(20154) -> #cfg_magic_card{
+	id        = 20154,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20150,5}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,8835}],
+	rare      = [],
+	gate      = 0,
+	score     = 77706,
+	gain      = [{90010012,0},{20150,8}]
+};
+find(20155) -> #cfg_magic_card{
+	id        = 20155,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20150,8}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,11115}],
+	rare      = [],
+	gate      = 0,
+	score     = 93783,
+	gain      = [{90010012,0},{20150,13}]
+};
+find(20156) -> #cfg_magic_card{
+	id        = 20156,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20150,999}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,13965}],
+	rare      = [],
+	gate      = 0,
+	score     = 112540,
+	gain      = [{90010012,0},{20150,21}]
+};
+find(20160) -> #cfg_magic_card{
+	id        = 20160,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20160,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,3200}],
+	rare      = [],
+	gate      = 0,
+	score     = 44133,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20161) -> #cfg_magic_card{
+	id        = 20161,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20160,1}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,5200}],
+	rare      = [],
+	gate      = 0,
+	score     = 61787,
+	gain      = [{90010012,0},{20160,2}]
+};
+find(20162) -> #cfg_magic_card{
+	id        = 20162,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20160,2}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,7200}],
+	rare      = [],
+	gate      = 0,
+	score     = 81647,
+	gain      = [{90010012,0},{20160,3}]
+};
+find(20163) -> #cfg_magic_card{
+	id        = 20163,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20160,3}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,9600}],
+	rare      = [],
+	gate      = 0,
+	score     = 103713,
+	gain      = [{90010012,0},{20160,5}]
+};
+find(20164) -> #cfg_magic_card{
+	id        = 20164,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20160,5}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,12400}],
+	rare      = [],
+	gate      = 0,
+	score     = 127987,
+	gain      = [{90010012,0},{20160,8}]
+};
+find(20165) -> #cfg_magic_card{
+	id        = 20165,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20160,8}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,15600}],
+	rare      = [],
+	gate      = 0,
+	score     = 154467,
+	gain      = [{90010012,0},{20160,13}]
+};
+find(20166) -> #cfg_magic_card{
+	id        = 20166,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20160,999}],
+	slot      = 1,
+	attr_type = "4",
+	base      = [{4,19600}],
+	rare      = [],
+	gate      = 0,
+	score     = 185361,
+	gain      = [{90010012,0},{20160,21}]
+};
+find(20210) -> #cfg_magic_card{
+	id        = 20210,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20210,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 4098,
+	gain      = [{90010012,100}]
+};
+find(20211) -> #cfg_magic_card{
+	id        = 20211,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20210,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 5737,
+	gain      = [{90010012,0},{20210,2}]
+};
+find(20212) -> #cfg_magic_card{
+	id        = 20212,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20210,2}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 7581,
+	gain      = [{90010012,0},{20210,3}]
+};
+find(20213) -> #cfg_magic_card{
+	id        = 20213,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20210,3}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 9630,
+	gain      = [{90010012,0},{20210,5}]
+};
+find(20214) -> #cfg_magic_card{
+	id        = 20214,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20210,5}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 11884,
+	gain      = [{90010012,0},{20210,8}]
+};
+find(20215) -> #cfg_magic_card{
+	id        = 20215,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20210,8}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 14343,
+	gain      = [{90010012,0},{20210,13}]
+};
+find(20216) -> #cfg_magic_card{
+	id        = 20216,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20210,999}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,10460}],
+	rare      = [],
+	gate      = 0,
+	score     = 17212,
+	gain      = [{90010012,0},{20210,21}]
+};
+find(20230) -> #cfg_magic_card{
+	id        = 20230,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20230,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 7250,
+	gain      = [{90010012,600}]
+};
+find(20231) -> #cfg_magic_card{
+	id        = 20231,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20230,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 10150,
+	gain      = [{90010012,0},{20230,2}]
+};
+find(20232) -> #cfg_magic_card{
+	id        = 20232,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20230,2}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 13413,
+	gain      = [{90010012,0},{20230,3}]
+};
+find(20233) -> #cfg_magic_card{
+	id        = 20233,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20230,3}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 17038,
+	gain      = [{90010012,0},{20230,5}]
+};
+find(20234) -> #cfg_magic_card{
+	id        = 20234,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20230,5}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 21026,
+	gain      = [{90010012,0},{20230,8}]
+};
+find(20235) -> #cfg_magic_card{
+	id        = 20235,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20230,8}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 25376,
+	gain      = [{90010012,0},{20230,13}]
+};
+find(20236) -> #cfg_magic_card{
+	id        = 20236,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20230,999}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,18330}],
+	rare      = [],
+	gate      = 0,
+	score     = 30452,
+	gain      = [{90010012,0},{20230,21}]
+};
+find(20240) -> #cfg_magic_card{
+	id        = 20240,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20240,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,31980}],
+	rare      = [],
+	gate      = 0,
+	score     = 15762,
+	gain      = [{90010012,3000}]
+};
+find(20241) -> #cfg_magic_card{
+	id        = 20241,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20240,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,41974}],
+	rare      = [],
+	gate      = 0,
+	score     = 22066,
+	gain      = [{90010012,0},{20240,2}]
+};
+find(20242) -> #cfg_magic_card{
+	id        = 20242,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20240,2}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,51968}],
+	rare      = [],
+	gate      = 0,
+	score     = 29159,
+	gain      = [{90010012,0},{20240,3}]
+};
+find(20243) -> #cfg_magic_card{
+	id        = 20243,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20240,3}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,63961}],
+	rare      = [],
+	gate      = 0,
+	score     = 37040,
+	gain      = [{90010012,0},{20240,5}]
+};
+find(20244) -> #cfg_magic_card{
+	id        = 20244,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20240,5}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,77953}],
+	rare      = [],
+	gate      = 0,
+	score     = 45709,
+	gain      = [{90010012,0},{20240,8}]
+};
+find(20245) -> #cfg_magic_card{
+	id        = 20245,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20240,8}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,93944}],
+	rare      = [],
+	gate      = 0,
+	score     = 55167,
+	gain      = [{90010012,0},{20240,13}]
+};
+find(20246) -> #cfg_magic_card{
+	id        = 20246,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20240,999}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,113933}],
+	rare      = [],
+	gate      = 0,
+	score     = 66200,
+	gain      = [{90010012,0},{20240,21}]
+};
+find(20250) -> #cfg_magic_card{
+	id        = 20250,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20250,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,45630}],
+	rare      = [],
+	gate      = 0,
+	score     = 26795,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20251) -> #cfg_magic_card{
+	id        = 20251,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20250,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,74149}],
+	rare      = [],
+	gate      = 0,
+	score     = 37513,
+	gain      = [{90010012,0},{20250,2}]
+};
+find(20252) -> #cfg_magic_card{
+	id        = 20252,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20250,2}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,102668}],
+	rare      = [],
+	gate      = 0,
+	score     = 49571,
+	gain      = [{90010012,0},{20250,3}]
+};
+find(20253) -> #cfg_magic_card{
+	id        = 20253,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20250,3}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,136891}],
+	rare      = [],
+	gate      = 0,
+	score     = 62969,
+	gain      = [{90010012,0},{20250,5}]
+};
+find(20254) -> #cfg_magic_card{
+	id        = 20254,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20250,5}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,176818}],
+	rare      = [],
+	gate      = 0,
+	score     = 77706,
+	gain      = [{90010012,0},{20250,8}]
+};
+find(20255) -> #cfg_magic_card{
+	id        = 20255,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20250,8}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,222449}],
+	rare      = [],
+	gate      = 0,
+	score     = 93783,
+	gain      = [{90010012,0},{20250,13}]
+};
+find(20256) -> #cfg_magic_card{
+	id        = 20256,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20250,999}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,279488}],
+	rare      = [],
+	gate      = 0,
+	score     = 112540,
+	gain      = [{90010012,0},{20250,21}]
+};
+find(20260) -> #cfg_magic_card{
+	id        = 20260,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20260,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,64010}],
+	rare      = [],
+	gate      = 0,
+	score     = 44133,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20261) -> #cfg_magic_card{
+	id        = 20261,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20260,1}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,104016}],
+	rare      = [],
+	gate      = 0,
+	score     = 61787,
+	gain      = [{90010012,0},{20260,2}]
+};
+find(20262) -> #cfg_magic_card{
+	id        = 20262,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20260,2}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,144022}],
+	rare      = [],
+	gate      = 0,
+	score     = 81647,
+	gain      = [{90010012,0},{20260,3}]
+};
+find(20263) -> #cfg_magic_card{
+	id        = 20263,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20260,3}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,192029}],
+	rare      = [],
+	gate      = 0,
+	score     = 103713,
+	gain      = [{90010012,0},{20260,5}]
+};
+find(20264) -> #cfg_magic_card{
+	id        = 20264,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20260,5}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,248037}],
+	rare      = [],
+	gate      = 0,
+	score     = 127987,
+	gain      = [{90010012,0},{20260,8}]
+};
+find(20265) -> #cfg_magic_card{
+	id        = 20265,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20260,8}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,312046}],
+	rare      = [],
+	gate      = 0,
+	score     = 154467,
+	gain      = [{90010012,0},{20260,13}]
+};
+find(20266) -> #cfg_magic_card{
+	id        = 20266,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20260,999}],
+	slot      = 1,
+	attr_type = "2",
+	base      = [{2,392057}],
+	rare      = [],
+	gate      = 0,
+	score     = 185361,
+	gain      = [{90010012,0},{20260,21}]
+};
+find(20310) -> #cfg_magic_card{
+	id        = 20310,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20310,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 4098,
+	gain      = [{90010012,100}]
+};
+find(20311) -> #cfg_magic_card{
+	id        = 20311,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20310,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 5737,
+	gain      = [{90010012,0},{20310,2}]
+};
+find(20312) -> #cfg_magic_card{
+	id        = 20312,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20310,2}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 7581,
+	gain      = [{90010012,0},{20310,3}]
+};
+find(20313) -> #cfg_magic_card{
+	id        = 20313,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20310,3}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 9630,
+	gain      = [{90010012,0},{20310,5}]
+};
+find(20314) -> #cfg_magic_card{
+	id        = 20314,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20310,5}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 11884,
+	gain      = [{90010012,0},{20310,8}]
+};
+find(20315) -> #cfg_magic_card{
+	id        = 20315,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20310,8}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 14343,
+	gain      = [{90010012,0},{20310,13}]
+};
+find(20316) -> #cfg_magic_card{
+	id        = 20316,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20310,999}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 17212,
+	gain      = [{90010012,0},{20310,21}]
+};
+find(20330) -> #cfg_magic_card{
+	id        = 20330,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20330,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 7250,
+	gain      = [{90010012,600}]
+};
+find(20331) -> #cfg_magic_card{
+	id        = 20331,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20330,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 10150,
+	gain      = [{90010012,0},{20330,2}]
+};
+find(20332) -> #cfg_magic_card{
+	id        = 20332,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20330,2}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 13413,
+	gain      = [{90010012,0},{20330,3}]
+};
+find(20333) -> #cfg_magic_card{
+	id        = 20333,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20330,3}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 17038,
+	gain      = [{90010012,0},{20330,5}]
+};
+find(20334) -> #cfg_magic_card{
+	id        = 20334,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20330,5}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 21026,
+	gain      = [{90010012,0},{20330,8}]
+};
+find(20335) -> #cfg_magic_card{
+	id        = 20335,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20330,8}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 25376,
+	gain      = [{90010012,0},{20330,13}]
+};
+find(20336) -> #cfg_magic_card{
+	id        = 20336,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20330,999}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 30452,
+	gain      = [{90010012,0},{20330,21}]
+};
+find(20340) -> #cfg_magic_card{
+	id        = 20340,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20340,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,1600}],
+	rare      = [],
+	gate      = 0,
+	score     = 15762,
+	gain      = [{90010012,3000}]
+};
+find(20341) -> #cfg_magic_card{
+	id        = 20341,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20340,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,2100}],
+	rare      = [],
+	gate      = 0,
+	score     = 22066,
+	gain      = [{90010012,0},{20340,2}]
+};
+find(20342) -> #cfg_magic_card{
+	id        = 20342,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20340,2}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,2600}],
+	rare      = [],
+	gate      = 0,
+	score     = 29159,
+	gain      = [{90010012,0},{20340,3}]
+};
+find(20343) -> #cfg_magic_card{
+	id        = 20343,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20340,3}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,3200}],
+	rare      = [],
+	gate      = 0,
+	score     = 37040,
+	gain      = [{90010012,0},{20340,5}]
+};
+find(20344) -> #cfg_magic_card{
+	id        = 20344,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20340,5}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,3900}],
+	rare      = [],
+	gate      = 0,
+	score     = 45709,
+	gain      = [{90010012,0},{20340,8}]
+};
+find(20345) -> #cfg_magic_card{
+	id        = 20345,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20340,8}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,4700}],
+	rare      = [],
+	gate      = 0,
+	score     = 55167,
+	gain      = [{90010012,0},{20340,13}]
+};
+find(20346) -> #cfg_magic_card{
+	id        = 20346,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20340,999}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,5700}],
+	rare      = [],
+	gate      = 0,
+	score     = 66200,
+	gain      = [{90010012,0},{20340,21}]
+};
+find(20350) -> #cfg_magic_card{
+	id        = 20350,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20350,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,2280}],
+	rare      = [],
+	gate      = 0,
+	score     = 26795,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20351) -> #cfg_magic_card{
+	id        = 20351,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20350,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,3705}],
+	rare      = [],
+	gate      = 0,
+	score     = 37513,
+	gain      = [{90010012,0},{20350,2}]
+};
+find(20352) -> #cfg_magic_card{
+	id        = 20352,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20350,2}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,5130}],
+	rare      = [],
+	gate      = 0,
+	score     = 49571,
+	gain      = [{90010012,0},{20350,3}]
+};
+find(20353) -> #cfg_magic_card{
+	id        = 20353,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20350,3}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,6840}],
+	rare      = [],
+	gate      = 0,
+	score     = 62969,
+	gain      = [{90010012,0},{20350,5}]
+};
+find(20354) -> #cfg_magic_card{
+	id        = 20354,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20350,5}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,8835}],
+	rare      = [],
+	gate      = 0,
+	score     = 77706,
+	gain      = [{90010012,0},{20350,8}]
+};
+find(20355) -> #cfg_magic_card{
+	id        = 20355,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20350,8}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,11115}],
+	rare      = [],
+	gate      = 0,
+	score     = 93783,
+	gain      = [{90010012,0},{20350,13}]
+};
+find(20356) -> #cfg_magic_card{
+	id        = 20356,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20350,999}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,13965}],
+	rare      = [],
+	gate      = 0,
+	score     = 112540,
+	gain      = [{90010012,0},{20350,21}]
+};
+find(20360) -> #cfg_magic_card{
+	id        = 20360,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20360,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,3200}],
+	rare      = [],
+	gate      = 0,
+	score     = 44133,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20361) -> #cfg_magic_card{
+	id        = 20361,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20360,1}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,5200}],
+	rare      = [],
+	gate      = 0,
+	score     = 61787,
+	gain      = [{90010012,0},{20360,2}]
+};
+find(20362) -> #cfg_magic_card{
+	id        = 20362,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20360,2}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,7200}],
+	rare      = [],
+	gate      = 0,
+	score     = 81647,
+	gain      = [{90010012,0},{20360,3}]
+};
+find(20363) -> #cfg_magic_card{
+	id        = 20363,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20360,3}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,9600}],
+	rare      = [],
+	gate      = 0,
+	score     = 103713,
+	gain      = [{90010012,0},{20360,5}]
+};
+find(20364) -> #cfg_magic_card{
+	id        = 20364,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20360,5}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,12400}],
+	rare      = [],
+	gate      = 0,
+	score     = 127987,
+	gain      = [{90010012,0},{20360,8}]
+};
+find(20365) -> #cfg_magic_card{
+	id        = 20365,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20360,8}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,15600}],
+	rare      = [],
+	gate      = 0,
+	score     = 154467,
+	gain      = [{90010012,0},{20360,13}]
+};
+find(20366) -> #cfg_magic_card{
+	id        = 20366,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20360,999}],
+	slot      = 1,
+	attr_type = "6",
+	base      = [{6,19600}],
+	rare      = [],
+	gate      = 0,
+	score     = 185361,
+	gain      = [{90010012,0},{20360,21}]
+};
+find(20410) -> #cfg_magic_card{
+	id        = 20410,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20410,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 4098,
+	gain      = [{90010012,100}]
+};
+find(20411) -> #cfg_magic_card{
+	id        = 20411,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20410,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 5737,
+	gain      = [{90010012,0},{20410,2}]
+};
+find(20412) -> #cfg_magic_card{
+	id        = 20412,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20410,2}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 7581,
+	gain      = [{90010012,0},{20410,3}]
+};
+find(20413) -> #cfg_magic_card{
+	id        = 20413,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20410,3}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 9630,
+	gain      = [{90010012,0},{20410,5}]
+};
+find(20414) -> #cfg_magic_card{
+	id        = 20414,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20410,5}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 11884,
+	gain      = [{90010012,0},{20410,8}]
+};
+find(20415) -> #cfg_magic_card{
+	id        = 20415,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20410,8}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 14343,
+	gain      = [{90010012,0},{20410,13}]
+};
+find(20416) -> #cfg_magic_card{
+	id        = 20416,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20410,999}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,525}],
+	rare      = [],
+	gate      = 0,
+	score     = 17212,
+	gain      = [{90010012,0},{20410,21}]
+};
+find(20430) -> #cfg_magic_card{
+	id        = 20430,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20430,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 7250,
+	gain      = [{90010012,600}]
+};
+find(20431) -> #cfg_magic_card{
+	id        = 20431,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20430,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 10150,
+	gain      = [{90010012,0},{20430,2}]
+};
+find(20432) -> #cfg_magic_card{
+	id        = 20432,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20430,2}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 13413,
+	gain      = [{90010012,0},{20430,3}]
+};
+find(20433) -> #cfg_magic_card{
+	id        = 20433,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20430,3}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 17038,
+	gain      = [{90010012,0},{20430,5}]
+};
+find(20434) -> #cfg_magic_card{
+	id        = 20434,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20430,5}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 21026,
+	gain      = [{90010012,0},{20430,8}]
+};
+find(20435) -> #cfg_magic_card{
+	id        = 20435,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20430,8}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 25376,
+	gain      = [{90010012,0},{20430,13}]
+};
+find(20436) -> #cfg_magic_card{
+	id        = 20436,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20430,999}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,915}],
+	rare      = [],
+	gate      = 0,
+	score     = 30452,
+	gain      = [{90010012,0},{20430,21}]
+};
+find(20440) -> #cfg_magic_card{
+	id        = 20440,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20440,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,1600}],
+	rare      = [],
+	gate      = 0,
+	score     = 15762,
+	gain      = [{90010012,3000}]
+};
+find(20441) -> #cfg_magic_card{
+	id        = 20441,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20440,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,2100}],
+	rare      = [],
+	gate      = 0,
+	score     = 22066,
+	gain      = [{90010012,0},{20440,2}]
+};
+find(20442) -> #cfg_magic_card{
+	id        = 20442,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20440,2}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,2600}],
+	rare      = [],
+	gate      = 0,
+	score     = 29159,
+	gain      = [{90010012,0},{20440,3}]
+};
+find(20443) -> #cfg_magic_card{
+	id        = 20443,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20440,3}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,3200}],
+	rare      = [],
+	gate      = 0,
+	score     = 37040,
+	gain      = [{90010012,0},{20440,5}]
+};
+find(20444) -> #cfg_magic_card{
+	id        = 20444,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20440,5}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,3900}],
+	rare      = [],
+	gate      = 0,
+	score     = 45709,
+	gain      = [{90010012,0},{20440,8}]
+};
+find(20445) -> #cfg_magic_card{
+	id        = 20445,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20440,8}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,4700}],
+	rare      = [],
+	gate      = 0,
+	score     = 55167,
+	gain      = [{90010012,0},{20440,13}]
+};
+find(20446) -> #cfg_magic_card{
+	id        = 20446,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20440,999}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,5700}],
+	rare      = [],
+	gate      = 0,
+	score     = 66200,
+	gain      = [{90010012,0},{20440,21}]
+};
+find(20450) -> #cfg_magic_card{
+	id        = 20450,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20450,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,2280}],
+	rare      = [],
+	gate      = 0,
+	score     = 26795,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20451) -> #cfg_magic_card{
+	id        = 20451,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20450,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,3705}],
+	rare      = [],
+	gate      = 0,
+	score     = 37513,
+	gain      = [{90010012,0},{20450,2}]
+};
+find(20452) -> #cfg_magic_card{
+	id        = 20452,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20450,2}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,5130}],
+	rare      = [],
+	gate      = 0,
+	score     = 49571,
+	gain      = [{90010012,0},{20450,3}]
+};
+find(20453) -> #cfg_magic_card{
+	id        = 20453,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20450,3}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,6840}],
+	rare      = [],
+	gate      = 0,
+	score     = 62969,
+	gain      = [{90010012,0},{20450,5}]
+};
+find(20454) -> #cfg_magic_card{
+	id        = 20454,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20450,5}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,8835}],
+	rare      = [],
+	gate      = 0,
+	score     = 77706,
+	gain      = [{90010012,0},{20450,8}]
+};
+find(20455) -> #cfg_magic_card{
+	id        = 20455,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20450,8}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,11115}],
+	rare      = [],
+	gate      = 0,
+	score     = 93783,
+	gain      = [{90010012,0},{20450,13}]
+};
+find(20456) -> #cfg_magic_card{
+	id        = 20456,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20450,999}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,13965}],
+	rare      = [],
+	gate      = 0,
+	score     = 112540,
+	gain      = [{90010012,0},{20450,21}]
+};
+find(20460) -> #cfg_magic_card{
+	id        = 20460,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20460,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,3200}],
+	rare      = [],
+	gate      = 0,
+	score     = 44133,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20461) -> #cfg_magic_card{
+	id        = 20461,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20460,1}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,5200}],
+	rare      = [],
+	gate      = 0,
+	score     = 61787,
+	gain      = [{90010012,0},{20460,2}]
+};
+find(20462) -> #cfg_magic_card{
+	id        = 20462,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20460,2}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,7200}],
+	rare      = [],
+	gate      = 0,
+	score     = 81647,
+	gain      = [{90010012,0},{20460,3}]
+};
+find(20463) -> #cfg_magic_card{
+	id        = 20463,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20460,3}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,9600}],
+	rare      = [],
+	gate      = 0,
+	score     = 103713,
+	gain      = [{90010012,0},{20460,5}]
+};
+find(20464) -> #cfg_magic_card{
+	id        = 20464,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20460,5}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,12400}],
+	rare      = [],
+	gate      = 0,
+	score     = 127987,
+	gain      = [{90010012,0},{20460,8}]
+};
+find(20465) -> #cfg_magic_card{
+	id        = 20465,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20460,8}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,15600}],
+	rare      = [],
+	gate      = 0,
+	score     = 154467,
+	gain      = [{90010012,0},{20460,13}]
+};
+find(20466) -> #cfg_magic_card{
+	id        = 20466,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20460,999}],
+	slot      = 1,
+	attr_type = "5",
+	base      = [{5,19600}],
+	rare      = [],
+	gate      = 0,
+	score     = 185361,
+	gain      = [{90010012,0},{20460,21}]
+};
+find(20510) -> #cfg_magic_card{
+	id        = 20510,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20510,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 11474,
+	gain      = [{90010012,100}]
+};
+find(20511) -> #cfg_magic_card{
+	id        = 20511,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20510,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 16064,
+	gain      = [{90010012,0},{20510,2}]
+};
+find(20512) -> #cfg_magic_card{
+	id        = 20512,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20510,2}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 21228,
+	gain      = [{90010012,0},{20510,3}]
+};
+find(20513) -> #cfg_magic_card{
+	id        = 20513,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20510,3}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 26965,
+	gain      = [{90010012,0},{20510,5}]
+};
+find(20514) -> #cfg_magic_card{
+	id        = 20514,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20510,5}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 33276,
+	gain      = [{90010012,0},{20510,8}]
+};
+find(20515) -> #cfg_magic_card{
+	id        = 20515,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20510,8}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 40161,
+	gain      = [{90010012,0},{20510,13}]
+};
+find(20516) -> #cfg_magic_card{
+	id        = 20516,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20510,999}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 48193,
+	gain      = [{90010012,0},{20510,21}]
+};
+find(20530) -> #cfg_magic_card{
+	id        = 20530,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20530,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 20301,
+	gain      = [{90010012,600}]
+};
+find(20531) -> #cfg_magic_card{
+	id        = 20531,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20530,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 28422,
+	gain      = [{90010012,0},{20530,2}]
+};
+find(20532) -> #cfg_magic_card{
+	id        = 20532,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20530,2}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 37557,
+	gain      = [{90010012,0},{20530,3}]
+};
+find(20533) -> #cfg_magic_card{
+	id        = 20533,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20530,3}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 47708,
+	gain      = [{90010012,0},{20530,5}]
+};
+find(20534) -> #cfg_magic_card{
+	id        = 20534,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20530,5}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 58874,
+	gain      = [{90010012,0},{20530,8}]
+};
+find(20535) -> #cfg_magic_card{
+	id        = 20535,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20530,8}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 71055,
+	gain      = [{90010012,0},{20530,13}]
+};
+find(20536) -> #cfg_magic_card{
+	id        = 20536,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20530,999}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,0}],
+	rare      = [],
+	gate      = 8,
+	score     = 85266,
+	gain      = [{90010012,0},{20530,21}]
+};
+find(20540) -> #cfg_magic_card{
+	id        = 20540,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20540,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,150}],
+	rare      = [],
+	gate      = 8,
+	score     = 44133,
+	gain      = [{90010012,3000}]
+};
+find(20541) -> #cfg_magic_card{
+	id        = 20541,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20540,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,160}],
+	rare      = [],
+	gate      = 8,
+	score     = 61787,
+	gain      = [{90010012,0},{20540,2}]
+};
+find(20542) -> #cfg_magic_card{
+	id        = 20542,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20540,2}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,170}],
+	rare      = [],
+	gate      = 8,
+	score     = 81647,
+	gain      = [{90010012,0},{20540,3}]
+};
+find(20543) -> #cfg_magic_card{
+	id        = 20543,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20540,3}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,180}],
+	rare      = [],
+	gate      = 8,
+	score     = 103713,
+	gain      = [{90010012,0},{20540,5}]
+};
+find(20544) -> #cfg_magic_card{
+	id        = 20544,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20540,5}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,190}],
+	rare      = [],
+	gate      = 8,
+	score     = 127987,
+	gain      = [{90010012,0},{20540,8}]
+};
+find(20545) -> #cfg_magic_card{
+	id        = 20545,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20540,8}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,200}],
+	rare      = [],
+	gate      = 8,
+	score     = 154467,
+	gain      = [{90010012,0},{20540,13}]
+};
+find(20546) -> #cfg_magic_card{
+	id        = 20546,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20540,999}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,210}],
+	rare      = [],
+	gate      = 8,
+	score     = 185361,
+	gain      = [{90010012,0},{20540,21}]
+};
+find(20550) -> #cfg_magic_card{
+	id        = 20550,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20550,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,250}],
+	rare      = [],
+	gate      = 8,
+	score     = 75027,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20551) -> #cfg_magic_card{
+	id        = 20551,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20550,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,280}],
+	rare      = [],
+	gate      = 8,
+	score     = 105037,
+	gain      = [{90010012,0},{20550,2}]
+};
+find(20552) -> #cfg_magic_card{
+	id        = 20552,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20550,2}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,310}],
+	rare      = [],
+	gate      = 8,
+	score     = 138800,
+	gain      = [{90010012,0},{20550,3}]
+};
+find(20553) -> #cfg_magic_card{
+	id        = 20553,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20550,3}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,340}],
+	rare      = [],
+	gate      = 8,
+	score     = 176313,
+	gain      = [{90010012,0},{20550,5}]
+};
+find(20554) -> #cfg_magic_card{
+	id        = 20554,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20550,5}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,370}],
+	rare      = [],
+	gate      = 8,
+	score     = 217578,
+	gain      = [{90010012,0},{20550,8}]
+};
+find(20555) -> #cfg_magic_card{
+	id        = 20555,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20550,8}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,400}],
+	rare      = [],
+	gate      = 8,
+	score     = 262594,
+	gain      = [{90010012,0},{20550,13}]
+};
+find(20556) -> #cfg_magic_card{
+	id        = 20556,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20550,999}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,430}],
+	rare      = [],
+	gate      = 8,
+	score     = 315113,
+	gain      = [{90010012,0},{20550,21}]
+};
+find(20560) -> #cfg_magic_card{
+	id        = 20560,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20560,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,350}],
+	rare      = [],
+	gate      = 8,
+	score     = 123574,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20561) -> #cfg_magic_card{
+	id        = 20561,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20560,1}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,400}],
+	rare      = [],
+	gate      = 8,
+	score     = 173003,
+	gain      = [{90010012,0},{20560,2}]
+};
+find(20562) -> #cfg_magic_card{
+	id        = 20562,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20560,2}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,450}],
+	rare      = [],
+	gate      = 8,
+	score     = 228612,
+	gain      = [{90010012,0},{20560,3}]
+};
+find(20563) -> #cfg_magic_card{
+	id        = 20563,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20560,3}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,500}],
+	rare      = [],
+	gate      = 8,
+	score     = 290399,
+	gain      = [{90010012,0},{20560,5}]
+};
+find(20564) -> #cfg_magic_card{
+	id        = 20564,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20560,5}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,550}],
+	rare      = [],
+	gate      = 8,
+	score     = 358364,
+	gain      = [{90010012,0},{20560,8}]
+};
+find(20565) -> #cfg_magic_card{
+	id        = 20565,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20560,8}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,600}],
+	rare      = [],
+	gate      = 8,
+	score     = 432509,
+	gain      = [{90010012,0},{20560,13}]
+};
+find(20566) -> #cfg_magic_card{
+	id        = 20566,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20560,999}],
+	slot      = 2,
+	attr_type = "45",
+	base      = [{45,650}],
+	rare      = [],
+	gate      = 8,
+	score     = 519011,
+	gain      = [{90010012,0},{20560,21}]
+};
+find(20610) -> #cfg_magic_card{
+	id        = 20610,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20610,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 11474,
+	gain      = [{90010012,100}]
+};
+find(20611) -> #cfg_magic_card{
+	id        = 20611,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20610,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 16064,
+	gain      = [{90010012,0},{20610,2}]
+};
+find(20612) -> #cfg_magic_card{
+	id        = 20612,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20610,2}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 21228,
+	gain      = [{90010012,0},{20610,3}]
+};
+find(20613) -> #cfg_magic_card{
+	id        = 20613,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20610,3}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 26965,
+	gain      = [{90010012,0},{20610,5}]
+};
+find(20614) -> #cfg_magic_card{
+	id        = 20614,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20610,5}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 33276,
+	gain      = [{90010012,0},{20610,8}]
+};
+find(20615) -> #cfg_magic_card{
+	id        = 20615,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20610,8}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 40161,
+	gain      = [{90010012,0},{20610,13}]
+};
+find(20616) -> #cfg_magic_card{
+	id        = 20616,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20610,999}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 48193,
+	gain      = [{90010012,0},{20610,21}]
+};
+find(20630) -> #cfg_magic_card{
+	id        = 20630,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20630,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 20301,
+	gain      = [{90010012,600}]
+};
+find(20631) -> #cfg_magic_card{
+	id        = 20631,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20630,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 28422,
+	gain      = [{90010012,0},{20630,2}]
+};
+find(20632) -> #cfg_magic_card{
+	id        = 20632,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20630,2}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 37557,
+	gain      = [{90010012,0},{20630,3}]
+};
+find(20633) -> #cfg_magic_card{
+	id        = 20633,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20630,3}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 47708,
+	gain      = [{90010012,0},{20630,5}]
+};
+find(20634) -> #cfg_magic_card{
+	id        = 20634,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20630,5}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 58874,
+	gain      = [{90010012,0},{20630,8}]
+};
+find(20635) -> #cfg_magic_card{
+	id        = 20635,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20630,8}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 71055,
+	gain      = [{90010012,0},{20630,13}]
+};
+find(20636) -> #cfg_magic_card{
+	id        = 20636,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20630,999}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,0}],
+	rare      = [],
+	gate      = 16,
+	score     = 85266,
+	gain      = [{90010012,0},{20630,21}]
+};
+find(20640) -> #cfg_magic_card{
+	id        = 20640,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20640,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,150}],
+	rare      = [],
+	gate      = 16,
+	score     = 44133,
+	gain      = [{90010012,3000}]
+};
+find(20641) -> #cfg_magic_card{
+	id        = 20641,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20640,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,160}],
+	rare      = [],
+	gate      = 16,
+	score     = 61787,
+	gain      = [{90010012,0},{20640,2}]
+};
+find(20642) -> #cfg_magic_card{
+	id        = 20642,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20640,2}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,170}],
+	rare      = [],
+	gate      = 16,
+	score     = 81647,
+	gain      = [{90010012,0},{20640,3}]
+};
+find(20643) -> #cfg_magic_card{
+	id        = 20643,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20640,3}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,180}],
+	rare      = [],
+	gate      = 16,
+	score     = 103713,
+	gain      = [{90010012,0},{20640,5}]
+};
+find(20644) -> #cfg_magic_card{
+	id        = 20644,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20640,5}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,190}],
+	rare      = [],
+	gate      = 16,
+	score     = 127987,
+	gain      = [{90010012,0},{20640,8}]
+};
+find(20645) -> #cfg_magic_card{
+	id        = 20645,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20640,8}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,200}],
+	rare      = [],
+	gate      = 16,
+	score     = 154467,
+	gain      = [{90010012,0},{20640,13}]
+};
+find(20646) -> #cfg_magic_card{
+	id        = 20646,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20640,999}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,210}],
+	rare      = [],
+	gate      = 16,
+	score     = 185361,
+	gain      = [{90010012,0},{20640,21}]
+};
+find(20650) -> #cfg_magic_card{
+	id        = 20650,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20650,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,250}],
+	rare      = [],
+	gate      = 16,
+	score     = 75027,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20651) -> #cfg_magic_card{
+	id        = 20651,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20650,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,280}],
+	rare      = [],
+	gate      = 16,
+	score     = 105037,
+	gain      = [{90010012,0},{20650,2}]
+};
+find(20652) -> #cfg_magic_card{
+	id        = 20652,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20650,2}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,310}],
+	rare      = [],
+	gate      = 16,
+	score     = 138800,
+	gain      = [{90010012,0},{20650,3}]
+};
+find(20653) -> #cfg_magic_card{
+	id        = 20653,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20650,3}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,340}],
+	rare      = [],
+	gate      = 16,
+	score     = 176313,
+	gain      = [{90010012,0},{20650,5}]
+};
+find(20654) -> #cfg_magic_card{
+	id        = 20654,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20650,5}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,370}],
+	rare      = [],
+	gate      = 16,
+	score     = 217578,
+	gain      = [{90010012,0},{20650,8}]
+};
+find(20655) -> #cfg_magic_card{
+	id        = 20655,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20650,8}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,400}],
+	rare      = [],
+	gate      = 16,
+	score     = 262594,
+	gain      = [{90010012,0},{20650,13}]
+};
+find(20656) -> #cfg_magic_card{
+	id        = 20656,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20650,999}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,430}],
+	rare      = [],
+	gate      = 16,
+	score     = 315113,
+	gain      = [{90010012,0},{20650,21}]
+};
+find(20660) -> #cfg_magic_card{
+	id        = 20660,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20660,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,350}],
+	rare      = [],
+	gate      = 16,
+	score     = 123574,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20661) -> #cfg_magic_card{
+	id        = 20661,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20660,1}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,400}],
+	rare      = [],
+	gate      = 16,
+	score     = 173003,
+	gain      = [{90010012,0},{20660,2}]
+};
+find(20662) -> #cfg_magic_card{
+	id        = 20662,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20660,2}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,450}],
+	rare      = [],
+	gate      = 16,
+	score     = 228612,
+	gain      = [{90010012,0},{20660,3}]
+};
+find(20663) -> #cfg_magic_card{
+	id        = 20663,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20660,3}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,500}],
+	rare      = [],
+	gate      = 16,
+	score     = 290399,
+	gain      = [{90010012,0},{20660,5}]
+};
+find(20664) -> #cfg_magic_card{
+	id        = 20664,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20660,5}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,550}],
+	rare      = [],
+	gate      = 16,
+	score     = 358364,
+	gain      = [{90010012,0},{20660,8}]
+};
+find(20665) -> #cfg_magic_card{
+	id        = 20665,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20660,8}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,600}],
+	rare      = [],
+	gate      = 16,
+	score     = 432509,
+	gain      = [{90010012,0},{20660,13}]
+};
+find(20666) -> #cfg_magic_card{
+	id        = 20666,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20660,999}],
+	slot      = 2,
+	attr_type = "46",
+	base      = [{46,650}],
+	rare      = [],
+	gate      = 16,
+	score     = 519011,
+	gain      = [{90010012,0},{20660,21}]
+};
+find(20710) -> #cfg_magic_card{
+	id        = 20710,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20710,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(20711) -> #cfg_magic_card{
+	id        = 20711,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20710,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 8032,
+	gain      = [{90010012,0},{20710,2}]
+};
+find(20712) -> #cfg_magic_card{
+	id        = 20712,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20710,2}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 10614,
+	gain      = [{90010012,0},{20710,3}]
+};
+find(20713) -> #cfg_magic_card{
+	id        = 20713,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20710,3}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 13482,
+	gain      = [{90010012,0},{20710,5}]
+};
+find(20714) -> #cfg_magic_card{
+	id        = 20714,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20710,5}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 16638,
+	gain      = [{90010012,0},{20710,8}]
+};
+find(20715) -> #cfg_magic_card{
+	id        = 20715,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20710,8}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 20080,
+	gain      = [{90010012,0},{20710,13}]
+};
+find(20716) -> #cfg_magic_card{
+	id        = 20716,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20710,999}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 24096,
+	gain      = [{90010012,0},{20710,21}]
+};
+find(20730) -> #cfg_magic_card{
+	id        = 20730,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20730,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(20731) -> #cfg_magic_card{
+	id        = 20731,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20730,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 14211,
+	gain      = [{90010012,0},{20730,2}]
+};
+find(20732) -> #cfg_magic_card{
+	id        = 20732,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20730,2}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 18778,
+	gain      = [{90010012,0},{20730,3}]
+};
+find(20733) -> #cfg_magic_card{
+	id        = 20733,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20730,3}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 23854,
+	gain      = [{90010012,0},{20730,5}]
+};
+find(20734) -> #cfg_magic_card{
+	id        = 20734,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20730,5}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 29437,
+	gain      = [{90010012,0},{20730,8}]
+};
+find(20735) -> #cfg_magic_card{
+	id        = 20735,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20730,8}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 35527,
+	gain      = [{90010012,0},{20730,13}]
+};
+find(20736) -> #cfg_magic_card{
+	id        = 20736,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20730,999}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,0}],
+	rare      = [],
+	gate      = 4,
+	score     = 42633,
+	gain      = [{90010012,0},{20730,21}]
+};
+find(20740) -> #cfg_magic_card{
+	id        = 20740,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20740,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,690}],
+	rare      = [],
+	gate      = 4,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(20741) -> #cfg_magic_card{
+	id        = 20741,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20740,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,862.5}],
+	rare      = [],
+	gate      = 4,
+	score     = 30893,
+	gain      = [{90010012,0},{20740,2}]
+};
+find(20742) -> #cfg_magic_card{
+	id        = 20742,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20740,2}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1035}],
+	rare      = [],
+	gate      = 4,
+	score     = 40823,
+	gain      = [{90010012,0},{20740,3}]
+};
+find(20743) -> #cfg_magic_card{
+	id        = 20743,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20740,3}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1242.5}],
+	rare      = [],
+	gate      = 4,
+	score     = 51856,
+	gain      = [{90010012,0},{20740,5}]
+};
+find(20744) -> #cfg_magic_card{
+	id        = 20744,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20740,5}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1485}],
+	rare      = [],
+	gate      = 4,
+	score     = 63993,
+	gain      = [{90010012,0},{20740,8}]
+};
+find(20745) -> #cfg_magic_card{
+	id        = 20745,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20740,8}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1762.5}],
+	rare      = [],
+	gate      = 4,
+	score     = 77233,
+	gain      = [{90010012,0},{20740,13}]
+};
+find(20746) -> #cfg_magic_card{
+	id        = 20746,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20740,999}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,2110}],
+	rare      = [],
+	gate      = 4,
+	score     = 92680,
+	gain      = [{90010012,0},{20740,21}]
+};
+find(20750) -> #cfg_magic_card{
+	id        = 20750,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20750,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1030}],
+	rare      = [],
+	gate      = 4,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20751) -> #cfg_magic_card{
+	id        = 20751,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20750,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1545}],
+	rare      = [],
+	gate      = 4,
+	score     = 52518,
+	gain      = [{90010012,0},{20750,2}]
+};
+find(20752) -> #cfg_magic_card{
+	id        = 20752,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20750,2}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,2060}],
+	rare      = [],
+	gate      = 4,
+	score     = 69400,
+	gain      = [{90010012,0},{20750,3}]
+};
+find(20753) -> #cfg_magic_card{
+	id        = 20753,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20750,3}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,2680}],
+	rare      = [],
+	gate      = 4,
+	score     = 88156,
+	gain      = [{90010012,0},{20750,5}]
+};
+find(20754) -> #cfg_magic_card{
+	id        = 20754,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20750,5}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,3405}],
+	rare      = [],
+	gate      = 4,
+	score     = 108789,
+	gain      = [{90010012,0},{20750,8}]
+};
+find(20755) -> #cfg_magic_card{
+	id        = 20755,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20750,8}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,4235}],
+	rare      = [],
+	gate      = 4,
+	score     = 131297,
+	gain      = [{90010012,0},{20750,13}]
+};
+find(20756) -> #cfg_magic_card{
+	id        = 20756,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20750,999}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,5275}],
+	rare      = [],
+	gate      = 4,
+	score     = 157556,
+	gain      = [{90010012,0},{20750,21}]
+};
+find(20760) -> #cfg_magic_card{
+	id        = 20760,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20760,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,1375}],
+	rare      = [],
+	gate      = 4,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20761) -> #cfg_magic_card{
+	id        = 20761,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20760,1}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,2065}],
+	rare      = [],
+	gate      = 4,
+	score     = 86501,
+	gain      = [{90010012,0},{20760,2}]
+};
+find(20762) -> #cfg_magic_card{
+	id        = 20762,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20760,2}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,2755}],
+	rare      = [],
+	gate      = 4,
+	score     = 114306,
+	gain      = [{90010012,0},{20760,3}]
+};
+find(20763) -> #cfg_magic_card{
+	id        = 20763,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20760,3}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,3585}],
+	rare      = [],
+	gate      = 4,
+	score     = 145199,
+	gain      = [{90010012,0},{20760,5}]
+};
+find(20764) -> #cfg_magic_card{
+	id        = 20764,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20760,5}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,4555}],
+	rare      = [],
+	gate      = 4,
+	score     = 179182,
+	gain      = [{90010012,0},{20760,8}]
+};
+find(20765) -> #cfg_magic_card{
+	id        = 20765,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20760,8}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,5665}],
+	rare      = [],
+	gate      = 4,
+	score     = 216254,
+	gain      = [{90010012,0},{20760,13}]
+};
+find(20766) -> #cfg_magic_card{
+	id        = 20766,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20760,999}],
+	slot      = 2,
+	attr_type = "2000",
+	base      = [{2000,7055}],
+	rare      = [],
+	gate      = 4,
+	score     = 259505,
+	gain      = [{90010012,0},{20760,21}]
+};
+find(20810) -> #cfg_magic_card{
+	id        = 20810,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20810,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(20811) -> #cfg_magic_card{
+	id        = 20811,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20810,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 8032,
+	gain      = [{90010012,0},{20810,2}]
+};
+find(20812) -> #cfg_magic_card{
+	id        = 20812,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20810,2}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 10614,
+	gain      = [{90010012,0},{20810,3}]
+};
+find(20813) -> #cfg_magic_card{
+	id        = 20813,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20810,3}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 13482,
+	gain      = [{90010012,0},{20810,5}]
+};
+find(20814) -> #cfg_magic_card{
+	id        = 20814,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20810,5}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 16638,
+	gain      = [{90010012,0},{20810,8}]
+};
+find(20815) -> #cfg_magic_card{
+	id        = 20815,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20810,8}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 20080,
+	gain      = [{90010012,0},{20810,13}]
+};
+find(20816) -> #cfg_magic_card{
+	id        = 20816,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20810,999}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 24096,
+	gain      = [{90010012,0},{20810,21}]
+};
+find(20830) -> #cfg_magic_card{
+	id        = 20830,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20830,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(20831) -> #cfg_magic_card{
+	id        = 20831,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20830,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 14211,
+	gain      = [{90010012,0},{20830,2}]
+};
+find(20832) -> #cfg_magic_card{
+	id        = 20832,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20830,2}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 18778,
+	gain      = [{90010012,0},{20830,3}]
+};
+find(20833) -> #cfg_magic_card{
+	id        = 20833,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20830,3}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 23854,
+	gain      = [{90010012,0},{20830,5}]
+};
+find(20834) -> #cfg_magic_card{
+	id        = 20834,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20830,5}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 29437,
+	gain      = [{90010012,0},{20830,8}]
+};
+find(20835) -> #cfg_magic_card{
+	id        = 20835,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20830,8}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 35527,
+	gain      = [{90010012,0},{20830,13}]
+};
+find(20836) -> #cfg_magic_card{
+	id        = 20836,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20830,999}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,0}],
+	rare      = [],
+	gate      = 48,
+	score     = 42633,
+	gain      = [{90010012,0},{20830,21}]
+};
+find(20840) -> #cfg_magic_card{
+	id        = 20840,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20840,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,10315}],
+	rare      = [],
+	gate      = 48,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(20841) -> #cfg_magic_card{
+	id        = 20841,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20840,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,12892.5}],
+	rare      = [],
+	gate      = 48,
+	score     = 30893,
+	gain      = [{90010012,0},{20840,2}]
+};
+find(20842) -> #cfg_magic_card{
+	id        = 20842,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20840,2}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,15470}],
+	rare      = [],
+	gate      = 48,
+	score     = 40823,
+	gain      = [{90010012,0},{20840,3}]
+};
+find(20843) -> #cfg_magic_card{
+	id        = 20843,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20840,3}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,18562.5}],
+	rare      = [],
+	gate      = 48,
+	score     = 51856,
+	gain      = [{90010012,0},{20840,5}]
+};
+find(20844) -> #cfg_magic_card{
+	id        = 20844,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20840,5}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,22170}],
+	rare      = [],
+	gate      = 48,
+	score     = 63993,
+	gain      = [{90010012,0},{20840,8}]
+};
+find(20845) -> #cfg_magic_card{
+	id        = 20845,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20840,8}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,26292.5}],
+	rare      = [],
+	gate      = 48,
+	score     = 77233,
+	gain      = [{90010012,0},{20840,13}]
+};
+find(20846) -> #cfg_magic_card{
+	id        = 20846,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20840,999}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,31445}],
+	rare      = [],
+	gate      = 48,
+	score     = 92680,
+	gain      = [{90010012,0},{20840,21}]
+};
+find(20850) -> #cfg_magic_card{
+	id        = 20850,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20850,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,15845}],
+	rare      = [],
+	gate      = 48,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20851) -> #cfg_magic_card{
+	id        = 20851,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20850,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,23765}],
+	rare      = [],
+	gate      = 48,
+	score     = 52518,
+	gain      = [{90010012,0},{20850,2}]
+};
+find(20852) -> #cfg_magic_card{
+	id        = 20852,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20850,2}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,31685}],
+	rare      = [],
+	gate      = 48,
+	score     = 69400,
+	gain      = [{90010012,0},{20850,3}]
+};
+find(20853) -> #cfg_magic_card{
+	id        = 20853,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20850,3}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,41190}],
+	rare      = [],
+	gate      = 48,
+	score     = 88156,
+	gain      = [{90010012,0},{20850,5}]
+};
+find(20854) -> #cfg_magic_card{
+	id        = 20854,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20850,5}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,52280}],
+	rare      = [],
+	gate      = 48,
+	score     = 108789,
+	gain      = [{90010012,0},{20850,8}]
+};
+find(20855) -> #cfg_magic_card{
+	id        = 20855,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20850,8}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,64955}],
+	rare      = [],
+	gate      = 48,
+	score     = 131297,
+	gain      = [{90010012,0},{20850,13}]
+};
+find(20856) -> #cfg_magic_card{
+	id        = 20856,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20850,999}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,80800}],
+	rare      = [],
+	gate      = 48,
+	score     = 157556,
+	gain      = [{90010012,0},{20850,21}]
+};
+find(20860) -> #cfg_magic_card{
+	id        = 20860,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20860,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,20625}],
+	rare      = [],
+	gate      = 48,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20861) -> #cfg_magic_card{
+	id        = 20861,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20860,1}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,30940}],
+	rare      = [],
+	gate      = 48,
+	score     = 86501,
+	gain      = [{90010012,0},{20860,2}]
+};
+find(20862) -> #cfg_magic_card{
+	id        = 20862,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20860,2}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,41255}],
+	rare      = [],
+	gate      = 48,
+	score     = 114306,
+	gain      = [{90010012,0},{20860,3}]
+};
+find(20863) -> #cfg_magic_card{
+	id        = 20863,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20860,3}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,53635}],
+	rare      = [],
+	gate      = 48,
+	score     = 145199,
+	gain      = [{90010012,0},{20860,5}]
+};
+find(20864) -> #cfg_magic_card{
+	id        = 20864,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20860,5}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,68080}],
+	rare      = [],
+	gate      = 48,
+	score     = 179182,
+	gain      = [{90010012,0},{20860,8}]
+};
+find(20865) -> #cfg_magic_card{
+	id        = 20865,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20860,8}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,84590}],
+	rare      = [],
+	gate      = 48,
+	score     = 216254,
+	gain      = [{90010012,0},{20860,13}]
+};
+find(20866) -> #cfg_magic_card{
+	id        = 20866,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20860,999}],
+	slot      = 2,
+	attr_type = "1604",
+	base      = [{1604,105230}],
+	rare      = [],
+	gate      = 48,
+	score     = 259505,
+	gain      = [{90010012,0},{20860,21}]
+};
+find(20910) -> #cfg_magic_card{
+	id        = 20910,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20910,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(20911) -> #cfg_magic_card{
+	id        = 20911,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20910,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 8032,
+	gain      = [{90010012,0},{20910,2}]
+};
+find(20912) -> #cfg_magic_card{
+	id        = 20912,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20910,2}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 10614,
+	gain      = [{90010012,0},{20910,3}]
+};
+find(20913) -> #cfg_magic_card{
+	id        = 20913,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20910,3}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 13482,
+	gain      = [{90010012,0},{20910,5}]
+};
+find(20914) -> #cfg_magic_card{
+	id        = 20914,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20910,5}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 16638,
+	gain      = [{90010012,0},{20910,8}]
+};
+find(20915) -> #cfg_magic_card{
+	id        = 20915,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20910,8}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 20080,
+	gain      = [{90010012,0},{20910,13}]
+};
+find(20916) -> #cfg_magic_card{
+	id        = 20916,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20910,999}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,620}],
+	rare      = [],
+	gate      = 80,
+	score     = 24096,
+	gain      = [{90010012,0},{20910,21}]
+};
+find(20930) -> #cfg_magic_card{
+	id        = 20930,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20930,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(20931) -> #cfg_magic_card{
+	id        = 20931,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20930,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 14211,
+	gain      = [{90010012,0},{20930,2}]
+};
+find(20932) -> #cfg_magic_card{
+	id        = 20932,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20930,2}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 18778,
+	gain      = [{90010012,0},{20930,3}]
+};
+find(20933) -> #cfg_magic_card{
+	id        = 20933,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20930,3}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 23854,
+	gain      = [{90010012,0},{20930,5}]
+};
+find(20934) -> #cfg_magic_card{
+	id        = 20934,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20930,5}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 29437,
+	gain      = [{90010012,0},{20930,8}]
+};
+find(20935) -> #cfg_magic_card{
+	id        = 20935,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20930,8}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 35527,
+	gain      = [{90010012,0},{20930,13}]
+};
+find(20936) -> #cfg_magic_card{
+	id        = 20936,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20930,999}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1030}],
+	rare      = [],
+	gate      = 80,
+	score     = 42633,
+	gain      = [{90010012,0},{20930,21}]
+};
+find(20940) -> #cfg_magic_card{
+	id        = 20940,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20940,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1515}],
+	rare      = [],
+	gate      = 80,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(20941) -> #cfg_magic_card{
+	id        = 20941,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20940,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,1892.5}],
+	rare      = [],
+	gate      = 80,
+	score     = 30893,
+	gain      = [{90010012,0},{20940,2}]
+};
+find(20942) -> #cfg_magic_card{
+	id        = 20942,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20940,2}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,2270}],
+	rare      = [],
+	gate      = 80,
+	score     = 40823,
+	gain      = [{90010012,0},{20940,3}]
+};
+find(20943) -> #cfg_magic_card{
+	id        = 20943,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20940,3}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,2722.5}],
+	rare      = [],
+	gate      = 80,
+	score     = 51856,
+	gain      = [{90010012,0},{20940,5}]
+};
+find(20944) -> #cfg_magic_card{
+	id        = 20944,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20940,5}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,3250}],
+	rare      = [],
+	gate      = 80,
+	score     = 63993,
+	gain      = [{90010012,0},{20940,8}]
+};
+find(20945) -> #cfg_magic_card{
+	id        = 20945,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20940,8}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,3852.5}],
+	rare      = [],
+	gate      = 80,
+	score     = 77233,
+	gain      = [{90010012,0},{20940,13}]
+};
+find(20946) -> #cfg_magic_card{
+	id        = 20946,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20940,999}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,4605}],
+	rare      = [],
+	gate      = 80,
+	score     = 92680,
+	gain      = [{90010012,0},{20940,21}]
+};
+find(20950) -> #cfg_magic_card{
+	id        = 20950,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20950,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,2270}],
+	rare      = [],
+	gate      = 80,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(20951) -> #cfg_magic_card{
+	id        = 20951,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20950,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,3405}],
+	rare      = [],
+	gate      = 80,
+	score     = 52518,
+	gain      = [{90010012,0},{20950,2}]
+};
+find(20952) -> #cfg_magic_card{
+	id        = 20952,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20950,2}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,4540}],
+	rare      = [],
+	gate      = 80,
+	score     = 69400,
+	gain      = [{90010012,0},{20950,3}]
+};
+find(20953) -> #cfg_magic_card{
+	id        = 20953,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20950,3}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,5900}],
+	rare      = [],
+	gate      = 80,
+	score     = 88156,
+	gain      = [{90010012,0},{20950,5}]
+};
+find(20954) -> #cfg_magic_card{
+	id        = 20954,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20950,5}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,7485}],
+	rare      = [],
+	gate      = 80,
+	score     = 108789,
+	gain      = [{90010012,0},{20950,8}]
+};
+find(20955) -> #cfg_magic_card{
+	id        = 20955,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20950,8}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,9295}],
+	rare      = [],
+	gate      = 80,
+	score     = 131297,
+	gain      = [{90010012,0},{20950,13}]
+};
+find(20956) -> #cfg_magic_card{
+	id        = 20956,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20950,999}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,11560}],
+	rare      = [],
+	gate      = 80,
+	score     = 157556,
+	gain      = [{90010012,0},{20950,21}]
+};
+find(20960) -> #cfg_magic_card{
+	id        = 20960,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{20960,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,3025}],
+	rare      = [],
+	gate      = 80,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(20961) -> #cfg_magic_card{
+	id        = 20961,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{20960,1}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,4540}],
+	rare      = [],
+	gate      = 80,
+	score     = 86501,
+	gain      = [{90010012,0},{20960,2}]
+};
+find(20962) -> #cfg_magic_card{
+	id        = 20962,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{20960,2}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,6055}],
+	rare      = [],
+	gate      = 80,
+	score     = 114306,
+	gain      = [{90010012,0},{20960,3}]
+};
+find(20963) -> #cfg_magic_card{
+	id        = 20963,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{20960,3}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,7875}],
+	rare      = [],
+	gate      = 80,
+	score     = 145199,
+	gain      = [{90010012,0},{20960,5}]
+};
+find(20964) -> #cfg_magic_card{
+	id        = 20964,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{20960,5}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,10000}],
+	rare      = [],
+	gate      = 80,
+	score     = 179182,
+	gain      = [{90010012,0},{20960,8}]
+};
+find(20965) -> #cfg_magic_card{
+	id        = 20965,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{20960,8}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,12430}],
+	rare      = [],
+	gate      = 80,
+	score     = 216254,
+	gain      = [{90010012,0},{20960,13}]
+};
+find(20966) -> #cfg_magic_card{
+	id        = 20966,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{20960,999}],
+	slot      = 1,
+	attr_type = "1304",
+	base      = [{1304,15470}],
+	rare      = [],
+	gate      = 80,
+	score     = 259505,
+	gain      = [{90010012,0},{20960,21}]
+};
+find(21010) -> #cfg_magic_card{
+	id        = 21010,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21010,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21011) -> #cfg_magic_card{
+	id        = 21011,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21010,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 8032,
+	gain      = [{90010012,0},{21010,2}]
+};
+find(21012) -> #cfg_magic_card{
+	id        = 21012,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21010,2}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 10614,
+	gain      = [{90010012,0},{21010,3}]
+};
+find(21013) -> #cfg_magic_card{
+	id        = 21013,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21010,3}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 13482,
+	gain      = [{90010012,0},{21010,5}]
+};
+find(21014) -> #cfg_magic_card{
+	id        = 21014,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21010,5}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 16638,
+	gain      = [{90010012,0},{21010,8}]
+};
+find(21015) -> #cfg_magic_card{
+	id        = 21015,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21010,8}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 20080,
+	gain      = [{90010012,0},{21010,13}]
+};
+find(21016) -> #cfg_magic_card{
+	id        = 21016,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21010,999}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,505}],
+	rare      = [],
+	gate      = 64,
+	score     = 24096,
+	gain      = [{90010012,0},{21010,21}]
+};
+find(21030) -> #cfg_magic_card{
+	id        = 21030,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21030,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21031) -> #cfg_magic_card{
+	id        = 21031,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21030,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 14211,
+	gain      = [{90010012,0},{21030,2}]
+};
+find(21032) -> #cfg_magic_card{
+	id        = 21032,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21030,2}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 18778,
+	gain      = [{90010012,0},{21030,3}]
+};
+find(21033) -> #cfg_magic_card{
+	id        = 21033,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21030,3}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 23854,
+	gain      = [{90010012,0},{21030,5}]
+};
+find(21034) -> #cfg_magic_card{
+	id        = 21034,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21030,5}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 29437,
+	gain      = [{90010012,0},{21030,8}]
+};
+find(21035) -> #cfg_magic_card{
+	id        = 21035,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21030,8}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 35527,
+	gain      = [{90010012,0},{21030,13}]
+};
+find(21036) -> #cfg_magic_card{
+	id        = 21036,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21030,999}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,845}],
+	rare      = [],
+	gate      = 64,
+	score     = 42633,
+	gain      = [{90010012,0},{21030,21}]
+};
+find(21040) -> #cfg_magic_card{
+	id        = 21040,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21040,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,1240}],
+	rare      = [],
+	gate      = 64,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21041) -> #cfg_magic_card{
+	id        = 21041,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21040,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,1550}],
+	rare      = [],
+	gate      = 64,
+	score     = 30893,
+	gain      = [{90010012,0},{21040,2}]
+};
+find(21042) -> #cfg_magic_card{
+	id        = 21042,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21040,2}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,1860}],
+	rare      = [],
+	gate      = 64,
+	score     = 40823,
+	gain      = [{90010012,0},{21040,3}]
+};
+find(21043) -> #cfg_magic_card{
+	id        = 21043,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21040,3}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,2232.5}],
+	rare      = [],
+	gate      = 64,
+	score     = 51856,
+	gain      = [{90010012,0},{21040,5}]
+};
+find(21044) -> #cfg_magic_card{
+	id        = 21044,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21040,5}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,2667.5}],
+	rare      = [],
+	gate      = 64,
+	score     = 63993,
+	gain      = [{90010012,0},{21040,8}]
+};
+find(21045) -> #cfg_magic_card{
+	id        = 21045,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21040,8}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,3165}],
+	rare      = [],
+	gate      = 64,
+	score     = 77233,
+	gain      = [{90010012,0},{21040,13}]
+};
+find(21046) -> #cfg_magic_card{
+	id        = 21046,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21040,999}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,3787.5}],
+	rare      = [],
+	gate      = 64,
+	score     = 92680,
+	gain      = [{90010012,0},{21040,21}]
+};
+find(21050) -> #cfg_magic_card{
+	id        = 21050,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21050,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,1855}],
+	rare      = [],
+	gate      = 64,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21051) -> #cfg_magic_card{
+	id        = 21051,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21050,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,2785}],
+	rare      = [],
+	gate      = 64,
+	score     = 52518,
+	gain      = [{90010012,0},{21050,2}]
+};
+find(21052) -> #cfg_magic_card{
+	id        = 21052,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21050,2}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,3715}],
+	rare      = [],
+	gate      = 64,
+	score     = 69400,
+	gain      = [{90010012,0},{21050,3}]
+};
+find(21053) -> #cfg_magic_card{
+	id        = 21053,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21050,3}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,4830}],
+	rare      = [],
+	gate      = 64,
+	score     = 88156,
+	gain      = [{90010012,0},{21050,5}]
+};
+find(21054) -> #cfg_magic_card{
+	id        = 21054,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21050,5}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,6130}],
+	rare      = [],
+	gate      = 64,
+	score     = 108789,
+	gain      = [{90010012,0},{21050,8}]
+};
+find(21055) -> #cfg_magic_card{
+	id        = 21055,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21050,8}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,7615}],
+	rare      = [],
+	gate      = 64,
+	score     = 131297,
+	gain      = [{90010012,0},{21050,13}]
+};
+find(21056) -> #cfg_magic_card{
+	id        = 21056,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21050,999}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,9470}],
+	rare      = [],
+	gate      = 64,
+	score     = 157556,
+	gain      = [{90010012,0},{21050,21}]
+};
+find(21060) -> #cfg_magic_card{
+	id        = 21060,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21060,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,2475}],
+	rare      = [],
+	gate      = 64,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21061) -> #cfg_magic_card{
+	id        = 21061,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21060,1}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,3715}],
+	rare      = [],
+	gate      = 64,
+	score     = 86501,
+	gain      = [{90010012,0},{21060,2}]
+};
+find(21062) -> #cfg_magic_card{
+	id        = 21062,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21060,2}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,4955}],
+	rare      = [],
+	gate      = 64,
+	score     = 114306,
+	gain      = [{90010012,0},{21060,3}]
+};
+find(21063) -> #cfg_magic_card{
+	id        = 21063,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21060,3}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,6445}],
+	rare      = [],
+	gate      = 64,
+	score     = 145199,
+	gain      = [{90010012,0},{21060,5}]
+};
+find(21064) -> #cfg_magic_card{
+	id        = 21064,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21060,5}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,8185}],
+	rare      = [],
+	gate      = 64,
+	score     = 179182,
+	gain      = [{90010012,0},{21060,8}]
+};
+find(21065) -> #cfg_magic_card{
+	id        = 21065,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21060,8}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,10175}],
+	rare      = [],
+	gate      = 64,
+	score     = 216254,
+	gain      = [{90010012,0},{21060,13}]
+};
+find(21066) -> #cfg_magic_card{
+	id        = 21066,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21060,999}],
+	slot      = 1,
+	attr_type = "1302",
+	base      = [{1302,12665}],
+	rare      = [],
+	gate      = 64,
+	score     = 259505,
+	gain      = [{90010012,0},{21060,21}]
+};
+find(21110) -> #cfg_magic_card{
+	id        = 21110,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21110,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21111) -> #cfg_magic_card{
+	id        = 21111,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21110,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 8032,
+	gain      = [{90010012,0},{21110,2}]
+};
+find(21112) -> #cfg_magic_card{
+	id        = 21112,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21110,2}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 10614,
+	gain      = [{90010012,0},{21110,3}]
+};
+find(21113) -> #cfg_magic_card{
+	id        = 21113,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21110,3}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 13482,
+	gain      = [{90010012,0},{21110,5}]
+};
+find(21114) -> #cfg_magic_card{
+	id        = 21114,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21110,5}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 16638,
+	gain      = [{90010012,0},{21110,8}]
+};
+find(21115) -> #cfg_magic_card{
+	id        = 21115,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21110,8}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 20080,
+	gain      = [{90010012,0},{21110,13}]
+};
+find(21116) -> #cfg_magic_card{
+	id        = 21116,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21110,999}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1155}],
+	rare      = [],
+	gate      = 56,
+	score     = 24096,
+	gain      = [{90010012,0},{21110,21}]
+};
+find(21130) -> #cfg_magic_card{
+	id        = 21130,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21130,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21131) -> #cfg_magic_card{
+	id        = 21131,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21130,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 14211,
+	gain      = [{90010012,0},{21130,2}]
+};
+find(21132) -> #cfg_magic_card{
+	id        = 21132,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21130,2}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 18778,
+	gain      = [{90010012,0},{21130,3}]
+};
+find(21133) -> #cfg_magic_card{
+	id        = 21133,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21130,3}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 23854,
+	gain      = [{90010012,0},{21130,5}]
+};
+find(21134) -> #cfg_magic_card{
+	id        = 21134,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21130,5}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 29437,
+	gain      = [{90010012,0},{21130,8}]
+};
+find(21135) -> #cfg_magic_card{
+	id        = 21135,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21130,8}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 35527,
+	gain      = [{90010012,0},{21130,13}]
+};
+find(21136) -> #cfg_magic_card{
+	id        = 21136,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21130,999}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,1925}],
+	rare      = [],
+	gate      = 56,
+	score     = 42633,
+	gain      = [{90010012,0},{21130,21}]
+};
+find(21140) -> #cfg_magic_card{
+	id        = 21140,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21140,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,2820}],
+	rare      = [],
+	gate      = 56,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21141) -> #cfg_magic_card{
+	id        = 21141,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21140,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,3525}],
+	rare      = [],
+	gate      = 56,
+	score     = 30893,
+	gain      = [{90010012,0},{21140,2}]
+};
+find(21142) -> #cfg_magic_card{
+	id        = 21142,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21140,2}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,4230}],
+	rare      = [],
+	gate      = 56,
+	score     = 40823,
+	gain      = [{90010012,0},{21140,3}]
+};
+find(21143) -> #cfg_magic_card{
+	id        = 21143,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21140,3}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,5075}],
+	rare      = [],
+	gate      = 56,
+	score     = 51856,
+	gain      = [{90010012,0},{21140,5}]
+};
+find(21144) -> #cfg_magic_card{
+	id        = 21144,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21140,5}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,6060}],
+	rare      = [],
+	gate      = 56,
+	score     = 63993,
+	gain      = [{90010012,0},{21140,8}]
+};
+find(21145) -> #cfg_magic_card{
+	id        = 21145,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21140,8}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,7185}],
+	rare      = [],
+	gate      = 56,
+	score     = 77233,
+	gain      = [{90010012,0},{21140,13}]
+};
+find(21146) -> #cfg_magic_card{
+	id        = 21146,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21140,999}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,8592.5}],
+	rare      = [],
+	gate      = 56,
+	score     = 92680,
+	gain      = [{90010012,0},{21140,21}]
+};
+find(21150) -> #cfg_magic_card{
+	id        = 21150,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21150,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,4230}],
+	rare      = [],
+	gate      = 56,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21151) -> #cfg_magic_card{
+	id        = 21151,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21150,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,6345}],
+	rare      = [],
+	gate      = 56,
+	score     = 52518,
+	gain      = [{90010012,0},{21150,2}]
+};
+find(21152) -> #cfg_magic_card{
+	id        = 21152,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21150,2}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,8460}],
+	rare      = [],
+	gate      = 56,
+	score     = 69400,
+	gain      = [{90010012,0},{21150,3}]
+};
+find(21153) -> #cfg_magic_card{
+	id        = 21153,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21150,3}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,11000}],
+	rare      = [],
+	gate      = 56,
+	score     = 88156,
+	gain      = [{90010012,0},{21150,5}]
+};
+find(21154) -> #cfg_magic_card{
+	id        = 21154,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21150,5}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,13965}],
+	rare      = [],
+	gate      = 56,
+	score     = 108789,
+	gain      = [{90010012,0},{21150,8}]
+};
+find(21155) -> #cfg_magic_card{
+	id        = 21155,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21150,8}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,17355}],
+	rare      = [],
+	gate      = 56,
+	score     = 131297,
+	gain      = [{90010012,0},{21150,13}]
+};
+find(21156) -> #cfg_magic_card{
+	id        = 21156,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21150,999}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,21595}],
+	rare      = [],
+	gate      = 56,
+	score     = 157556,
+	gain      = [{90010012,0},{21150,21}]
+};
+find(21160) -> #cfg_magic_card{
+	id        = 21160,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21160,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,5640}],
+	rare      = [],
+	gate      = 56,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21161) -> #cfg_magic_card{
+	id        = 21161,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21160,1}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,8460}],
+	rare      = [],
+	gate      = 56,
+	score     = 86501,
+	gain      = [{90010012,0},{21160,2}]
+};
+find(21162) -> #cfg_magic_card{
+	id        = 21162,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21160,2}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,11280}],
+	rare      = [],
+	gate      = 56,
+	score     = 114306,
+	gain      = [{90010012,0},{21160,3}]
+};
+find(21163) -> #cfg_magic_card{
+	id        = 21163,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21160,3}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,14665}],
+	rare      = [],
+	gate      = 56,
+	score     = 145199,
+	gain      = [{90010012,0},{21160,5}]
+};
+find(21164) -> #cfg_magic_card{
+	id        = 21164,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21160,5}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,18615}],
+	rare      = [],
+	gate      = 56,
+	score     = 179182,
+	gain      = [{90010012,0},{21160,8}]
+};
+find(21165) -> #cfg_magic_card{
+	id        = 21165,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21160,8}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,23130}],
+	rare      = [],
+	gate      = 56,
+	score     = 216254,
+	gain      = [{90010012,0},{21160,13}]
+};
+find(21166) -> #cfg_magic_card{
+	id        = 21166,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21160,999}],
+	slot      = 1,
+	attr_type = "1306",
+	base      = [{1306,28775}],
+	rare      = [],
+	gate      = 56,
+	score     = 259505,
+	gain      = [{90010012,0},{21160,21}]
+};
+find(21210) -> #cfg_magic_card{
+	id        = 21210,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21210,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21211) -> #cfg_magic_card{
+	id        = 21211,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21210,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 8032,
+	gain      = [{90010012,0},{21210,2}]
+};
+find(21212) -> #cfg_magic_card{
+	id        = 21212,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21210,2}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 10614,
+	gain      = [{90010012,0},{21210,3}]
+};
+find(21213) -> #cfg_magic_card{
+	id        = 21213,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21210,3}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 13482,
+	gain      = [{90010012,0},{21210,5}]
+};
+find(21214) -> #cfg_magic_card{
+	id        = 21214,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21210,5}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 16638,
+	gain      = [{90010012,0},{21210,8}]
+};
+find(21215) -> #cfg_magic_card{
+	id        = 21215,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21210,8}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 20080,
+	gain      = [{90010012,0},{21210,13}]
+};
+find(21216) -> #cfg_magic_card{
+	id        = 21216,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21210,999}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,955}],
+	rare      = [],
+	gate      = 72,
+	score     = 24096,
+	gain      = [{90010012,0},{21210,21}]
+};
+find(21230) -> #cfg_magic_card{
+	id        = 21230,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21230,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21231) -> #cfg_magic_card{
+	id        = 21231,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21230,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 14211,
+	gain      = [{90010012,0},{21230,2}]
+};
+find(21232) -> #cfg_magic_card{
+	id        = 21232,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21230,2}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 18778,
+	gain      = [{90010012,0},{21230,3}]
+};
+find(21233) -> #cfg_magic_card{
+	id        = 21233,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21230,3}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 23854,
+	gain      = [{90010012,0},{21230,5}]
+};
+find(21234) -> #cfg_magic_card{
+	id        = 21234,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21230,5}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 29437,
+	gain      = [{90010012,0},{21230,8}]
+};
+find(21235) -> #cfg_magic_card{
+	id        = 21235,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21230,8}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 35527,
+	gain      = [{90010012,0},{21230,13}]
+};
+find(21236) -> #cfg_magic_card{
+	id        = 21236,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21230,999}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,1595}],
+	rare      = [],
+	gate      = 72,
+	score     = 42633,
+	gain      = [{90010012,0},{21230,21}]
+};
+find(21240) -> #cfg_magic_card{
+	id        = 21240,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21240,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,2340}],
+	rare      = [],
+	gate      = 72,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21241) -> #cfg_magic_card{
+	id        = 21241,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21240,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,2925}],
+	rare      = [],
+	gate      = 72,
+	score     = 30893,
+	gain      = [{90010012,0},{21240,2}]
+};
+find(21242) -> #cfg_magic_card{
+	id        = 21242,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21240,2}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,3510}],
+	rare      = [],
+	gate      = 72,
+	score     = 40823,
+	gain      = [{90010012,0},{21240,3}]
+};
+find(21243) -> #cfg_magic_card{
+	id        = 21243,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21240,3}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,4212.5}],
+	rare      = [],
+	gate      = 72,
+	score     = 51856,
+	gain      = [{90010012,0},{21240,5}]
+};
+find(21244) -> #cfg_magic_card{
+	id        = 21244,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21240,5}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,5032.5}],
+	rare      = [],
+	gate      = 72,
+	score     = 63993,
+	gain      = [{90010012,0},{21240,8}]
+};
+find(21245) -> #cfg_magic_card{
+	id        = 21245,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21240,8}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,5970}],
+	rare      = [],
+	gate      = 72,
+	score     = 77233,
+	gain      = [{90010012,0},{21240,13}]
+};
+find(21246) -> #cfg_magic_card{
+	id        = 21246,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21240,999}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,7142.5}],
+	rare      = [],
+	gate      = 72,
+	score     = 92680,
+	gain      = [{90010012,0},{21240,21}]
+};
+find(21250) -> #cfg_magic_card{
+	id        = 21250,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21250,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,3505}],
+	rare      = [],
+	gate      = 72,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21251) -> #cfg_magic_card{
+	id        = 21251,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21250,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,5260}],
+	rare      = [],
+	gate      = 72,
+	score     = 52518,
+	gain      = [{90010012,0},{21250,2}]
+};
+find(21252) -> #cfg_magic_card{
+	id        = 21252,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21250,2}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,7015}],
+	rare      = [],
+	gate      = 72,
+	score     = 69400,
+	gain      = [{90010012,0},{21250,3}]
+};
+find(21253) -> #cfg_magic_card{
+	id        = 21253,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21250,3}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,9120}],
+	rare      = [],
+	gate      = 72,
+	score     = 88156,
+	gain      = [{90010012,0},{21250,5}]
+};
+find(21254) -> #cfg_magic_card{
+	id        = 21254,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21250,5}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,11575}],
+	rare      = [],
+	gate      = 72,
+	score     = 108789,
+	gain      = [{90010012,0},{21250,8}]
+};
+find(21255) -> #cfg_magic_card{
+	id        = 21255,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21250,8}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,14380}],
+	rare      = [],
+	gate      = 72,
+	score     = 131297,
+	gain      = [{90010012,0},{21250,13}]
+};
+find(21256) -> #cfg_magic_card{
+	id        = 21256,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21250,999}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,17885}],
+	rare      = [],
+	gate      = 72,
+	score     = 157556,
+	gain      = [{90010012,0},{21250,21}]
+};
+find(21260) -> #cfg_magic_card{
+	id        = 21260,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21260,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,4675}],
+	rare      = [],
+	gate      = 72,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21261) -> #cfg_magic_card{
+	id        = 21261,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21260,1}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,7015}],
+	rare      = [],
+	gate      = 72,
+	score     = 86501,
+	gain      = [{90010012,0},{21260,2}]
+};
+find(21262) -> #cfg_magic_card{
+	id        = 21262,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21260,2}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,9355}],
+	rare      = [],
+	gate      = 72,
+	score     = 114306,
+	gain      = [{90010012,0},{21260,3}]
+};
+find(21263) -> #cfg_magic_card{
+	id        = 21263,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21260,3}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,12165}],
+	rare      = [],
+	gate      = 72,
+	score     = 145199,
+	gain      = [{90010012,0},{21260,5}]
+};
+find(21264) -> #cfg_magic_card{
+	id        = 21264,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21260,5}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,15445}],
+	rare      = [],
+	gate      = 72,
+	score     = 179182,
+	gain      = [{90010012,0},{21260,8}]
+};
+find(21265) -> #cfg_magic_card{
+	id        = 21265,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21260,8}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,19195}],
+	rare      = [],
+	gate      = 72,
+	score     = 216254,
+	gain      = [{90010012,0},{21260,13}]
+};
+find(21266) -> #cfg_magic_card{
+	id        = 21266,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21260,999}],
+	slot      = 1,
+	attr_type = "1305",
+	base      = [{1305,23885}],
+	rare      = [],
+	gate      = 72,
+	score     = 259505,
+	gain      = [{90010012,0},{21260,21}]
+};
+find(21310) -> #cfg_magic_card{
+	id        = 21310,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21310,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21311) -> #cfg_magic_card{
+	id        = 21311,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21310,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 8032,
+	gain      = [{90010012,0},{21310,2}]
+};
+find(21312) -> #cfg_magic_card{
+	id        = 21312,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21310,2}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 10614,
+	gain      = [{90010012,0},{21310,3}]
+};
+find(21313) -> #cfg_magic_card{
+	id        = 21313,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21310,3}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 13482,
+	gain      = [{90010012,0},{21310,5}]
+};
+find(21314) -> #cfg_magic_card{
+	id        = 21314,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21310,5}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 16638,
+	gain      = [{90010012,0},{21310,8}]
+};
+find(21315) -> #cfg_magic_card{
+	id        = 21315,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21310,8}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 20080,
+	gain      = [{90010012,0},{21310,13}]
+};
+find(21316) -> #cfg_magic_card{
+	id        = 21316,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21310,999}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,2395}],
+	rare      = [],
+	gate      = 40,
+	score     = 24096,
+	gain      = [{90010012,0},{21310,21}]
+};
+find(21330) -> #cfg_magic_card{
+	id        = 21330,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21330,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21331) -> #cfg_magic_card{
+	id        = 21331,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21330,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 14211,
+	gain      = [{90010012,0},{21330,2}]
+};
+find(21332) -> #cfg_magic_card{
+	id        = 21332,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21330,2}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 18778,
+	gain      = [{90010012,0},{21330,3}]
+};
+find(21333) -> #cfg_magic_card{
+	id        = 21333,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21330,3}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 23854,
+	gain      = [{90010012,0},{21330,5}]
+};
+find(21334) -> #cfg_magic_card{
+	id        = 21334,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21330,5}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 29437,
+	gain      = [{90010012,0},{21330,8}]
+};
+find(21335) -> #cfg_magic_card{
+	id        = 21335,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21330,8}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 35527,
+	gain      = [{90010012,0},{21330,13}]
+};
+find(21336) -> #cfg_magic_card{
+	id        = 21336,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21330,999}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,3990}],
+	rare      = [],
+	gate      = 40,
+	score     = 42633,
+	gain      = [{90010012,0},{21330,21}]
+};
+find(21340) -> #cfg_magic_card{
+	id        = 21340,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21340,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,5845}],
+	rare      = [],
+	gate      = 40,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21341) -> #cfg_magic_card{
+	id        = 21341,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21340,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,7305}],
+	rare      = [],
+	gate      = 40,
+	score     = 30893,
+	gain      = [{90010012,0},{21340,2}]
+};
+find(21342) -> #cfg_magic_card{
+	id        = 21342,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21340,2}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,8765}],
+	rare      = [],
+	gate      = 40,
+	score     = 40823,
+	gain      = [{90010012,0},{21340,3}]
+};
+find(21343) -> #cfg_magic_card{
+	id        = 21343,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21340,3}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,10517.5}],
+	rare      = [],
+	gate      = 40,
+	score     = 51856,
+	gain      = [{90010012,0},{21340,5}]
+};
+find(21344) -> #cfg_magic_card{
+	id        = 21344,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21340,5}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,12562.5}],
+	rare      = [],
+	gate      = 40,
+	score     = 63993,
+	gain      = [{90010012,0},{21340,8}]
+};
+find(21345) -> #cfg_magic_card{
+	id        = 21345,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21340,8}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,14900}],
+	rare      = [],
+	gate      = 40,
+	score     = 77233,
+	gain      = [{90010012,0},{21340,13}]
+};
+find(21346) -> #cfg_magic_card{
+	id        = 21346,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21340,999}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,17822.5}],
+	rare      = [],
+	gate      = 40,
+	score     = 92680,
+	gain      = [{90010012,0},{21340,21}]
+};
+find(21350) -> #cfg_magic_card{
+	id        = 21350,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21350,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,8770}],
+	rare      = [],
+	gate      = 40,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21351) -> #cfg_magic_card{
+	id        = 21351,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21350,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,13155}],
+	rare      = [],
+	gate      = 40,
+	score     = 52518,
+	gain      = [{90010012,0},{21350,2}]
+};
+find(21352) -> #cfg_magic_card{
+	id        = 21352,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21350,2}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,17540}],
+	rare      = [],
+	gate      = 40,
+	score     = 69400,
+	gain      = [{90010012,0},{21350,3}]
+};
+find(21353) -> #cfg_magic_card{
+	id        = 21353,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21350,3}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,22800}],
+	rare      = [],
+	gate      = 40,
+	score     = 88156,
+	gain      = [{90010012,0},{21350,5}]
+};
+find(21354) -> #cfg_magic_card{
+	id        = 21354,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21350,5}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,28935}],
+	rare      = [],
+	gate      = 40,
+	score     = 108789,
+	gain      = [{90010012,0},{21350,8}]
+};
+find(21355) -> #cfg_magic_card{
+	id        = 21355,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21350,8}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,35945}],
+	rare      = [],
+	gate      = 40,
+	score     = 131297,
+	gain      = [{90010012,0},{21350,13}]
+};
+find(21356) -> #cfg_magic_card{
+	id        = 21356,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21350,999}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,44710}],
+	rare      = [],
+	gate      = 40,
+	score     = 157556,
+	gain      = [{90010012,0},{21350,21}]
+};
+find(21360) -> #cfg_magic_card{
+	id        = 21360,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21360,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,11690}],
+	rare      = [],
+	gate      = 40,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21361) -> #cfg_magic_card{
+	id        = 21361,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21360,1}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,17535}],
+	rare      = [],
+	gate      = 40,
+	score     = 86501,
+	gain      = [{90010012,0},{21360,2}]
+};
+find(21362) -> #cfg_magic_card{
+	id        = 21362,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21360,2}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,23380}],
+	rare      = [],
+	gate      = 40,
+	score     = 114306,
+	gain      = [{90010012,0},{21360,3}]
+};
+find(21363) -> #cfg_magic_card{
+	id        = 21363,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21360,3}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,30395}],
+	rare      = [],
+	gate      = 40,
+	score     = 145199,
+	gain      = [{90010012,0},{21360,5}]
+};
+find(21364) -> #cfg_magic_card{
+	id        = 21364,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21360,5}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,38580}],
+	rare      = [],
+	gate      = 40,
+	score     = 179182,
+	gain      = [{90010012,0},{21360,8}]
+};
+find(21365) -> #cfg_magic_card{
+	id        = 21365,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21360,8}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,47935}],
+	rare      = [],
+	gate      = 40,
+	score     = 216254,
+	gain      = [{90010012,0},{21360,13}]
+};
+find(21366) -> #cfg_magic_card{
+	id        = 21366,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21360,999}],
+	slot      = 1,
+	attr_type = "1404",
+	base      = [{1404,59630}],
+	rare      = [],
+	gate      = 40,
+	score     = 259505,
+	gain      = [{90010012,0},{21360,21}]
+};
+find(21410) -> #cfg_magic_card{
+	id        = 21410,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21410,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21411) -> #cfg_magic_card{
+	id        = 21411,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21410,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 8032,
+	gain      = [{90010012,0},{21410,2}]
+};
+find(21412) -> #cfg_magic_card{
+	id        = 21412,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21410,2}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 10614,
+	gain      = [{90010012,0},{21410,3}]
+};
+find(21413) -> #cfg_magic_card{
+	id        = 21413,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21410,3}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 13482,
+	gain      = [{90010012,0},{21410,5}]
+};
+find(21414) -> #cfg_magic_card{
+	id        = 21414,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21410,5}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 16638,
+	gain      = [{90010012,0},{21410,8}]
+};
+find(21415) -> #cfg_magic_card{
+	id        = 21415,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21410,8}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 20080,
+	gain      = [{90010012,0},{21410,13}]
+};
+find(21416) -> #cfg_magic_card{
+	id        = 21416,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21410,999}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,675}],
+	rare      = [],
+	gate      = 12,
+	score     = 24096,
+	gain      = [{90010012,0},{21410,21}]
+};
+find(21430) -> #cfg_magic_card{
+	id        = 21430,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21430,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21431) -> #cfg_magic_card{
+	id        = 21431,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21430,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 14211,
+	gain      = [{90010012,0},{21430,2}]
+};
+find(21432) -> #cfg_magic_card{
+	id        = 21432,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21430,2}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 18778,
+	gain      = [{90010012,0},{21430,3}]
+};
+find(21433) -> #cfg_magic_card{
+	id        = 21433,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21430,3}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 23854,
+	gain      = [{90010012,0},{21430,5}]
+};
+find(21434) -> #cfg_magic_card{
+	id        = 21434,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21430,5}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 29437,
+	gain      = [{90010012,0},{21430,8}]
+};
+find(21435) -> #cfg_magic_card{
+	id        = 21435,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21430,8}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 35527,
+	gain      = [{90010012,0},{21430,13}]
+};
+find(21436) -> #cfg_magic_card{
+	id        = 21436,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21430,999}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1125}],
+	rare      = [],
+	gate      = 12,
+	score     = 42633,
+	gain      = [{90010012,0},{21430,21}]
+};
+find(21440) -> #cfg_magic_card{
+	id        = 21440,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21440,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,1650}],
+	rare      = [],
+	gate      = 12,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21441) -> #cfg_magic_card{
+	id        = 21441,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21440,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,2062.5}],
+	rare      = [],
+	gate      = 12,
+	score     = 30893,
+	gain      = [{90010012,0},{21440,2}]
+};
+find(21442) -> #cfg_magic_card{
+	id        = 21442,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21440,2}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,2475}],
+	rare      = [],
+	gate      = 12,
+	score     = 40823,
+	gain      = [{90010012,0},{21440,3}]
+};
+find(21443) -> #cfg_magic_card{
+	id        = 21443,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21440,3}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,2970}],
+	rare      = [],
+	gate      = 12,
+	score     = 51856,
+	gain      = [{90010012,0},{21440,5}]
+};
+find(21444) -> #cfg_magic_card{
+	id        = 21444,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21440,5}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,3547.5}],
+	rare      = [],
+	gate      = 12,
+	score     = 63993,
+	gain      = [{90010012,0},{21440,8}]
+};
+find(21445) -> #cfg_magic_card{
+	id        = 21445,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21440,8}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,4207.5}],
+	rare      = [],
+	gate      = 12,
+	score     = 77233,
+	gain      = [{90010012,0},{21440,13}]
+};
+find(21446) -> #cfg_magic_card{
+	id        = 21446,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21440,999}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,5032.5}],
+	rare      = [],
+	gate      = 12,
+	score     = 92680,
+	gain      = [{90010012,0},{21440,21}]
+};
+find(21450) -> #cfg_magic_card{
+	id        = 21450,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21450,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,2475}],
+	rare      = [],
+	gate      = 12,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21451) -> #cfg_magic_card{
+	id        = 21451,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21450,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,3715}],
+	rare      = [],
+	gate      = 12,
+	score     = 52518,
+	gain      = [{90010012,0},{21450,2}]
+};
+find(21452) -> #cfg_magic_card{
+	id        = 21452,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21450,2}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,4955}],
+	rare      = [],
+	gate      = 12,
+	score     = 69400,
+	gain      = [{90010012,0},{21450,3}]
+};
+find(21453) -> #cfg_magic_card{
+	id        = 21453,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21450,3}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,6445}],
+	rare      = [],
+	gate      = 12,
+	score     = 88156,
+	gain      = [{90010012,0},{21450,5}]
+};
+find(21454) -> #cfg_magic_card{
+	id        = 21454,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21450,5}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,8185}],
+	rare      = [],
+	gate      = 12,
+	score     = 108789,
+	gain      = [{90010012,0},{21450,8}]
+};
+find(21455) -> #cfg_magic_card{
+	id        = 21455,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21450,8}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,10175}],
+	rare      = [],
+	gate      = 12,
+	score     = 131297,
+	gain      = [{90010012,0},{21450,13}]
+};
+find(21456) -> #cfg_magic_card{
+	id        = 21456,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21450,999}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,12665}],
+	rare      = [],
+	gate      = 12,
+	score     = 157556,
+	gain      = [{90010012,0},{21450,21}]
+};
+find(21460) -> #cfg_magic_card{
+	id        = 21460,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21460,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,3300}],
+	rare      = [],
+	gate      = 12,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21461) -> #cfg_magic_card{
+	id        = 21461,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21460,1}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,4950}],
+	rare      = [],
+	gate      = 12,
+	score     = 86501,
+	gain      = [{90010012,0},{21460,2}]
+};
+find(21462) -> #cfg_magic_card{
+	id        = 21462,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21460,2}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,6600}],
+	rare      = [],
+	gate      = 12,
+	score     = 114306,
+	gain      = [{90010012,0},{21460,3}]
+};
+find(21463) -> #cfg_magic_card{
+	id        = 21463,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21460,3}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,8580}],
+	rare      = [],
+	gate      = 12,
+	score     = 145199,
+	gain      = [{90010012,0},{21460,5}]
+};
+find(21464) -> #cfg_magic_card{
+	id        = 21464,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21460,5}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,10890}],
+	rare      = [],
+	gate      = 12,
+	score     = 179182,
+	gain      = [{90010012,0},{21460,8}]
+};
+find(21465) -> #cfg_magic_card{
+	id        = 21465,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21460,8}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,13530}],
+	rare      = [],
+	gate      = 12,
+	score     = 216254,
+	gain      = [{90010012,0},{21460,13}]
+};
+find(21466) -> #cfg_magic_card{
+	id        = 21466,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21460,999}],
+	slot      = 1,
+	attr_type = "1502",
+	base      = [{1502,16830}],
+	rare      = [],
+	gate      = 12,
+	score     = 259505,
+	gain      = [{90010012,0},{21460,21}]
+};
+find(21510) -> #cfg_magic_card{
+	id        = 21510,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21510,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21511) -> #cfg_magic_card{
+	id        = 21511,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21510,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 8032,
+	gain      = [{90010012,0},{21510,2}]
+};
+find(21512) -> #cfg_magic_card{
+	id        = 21512,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21510,2}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 10614,
+	gain      = [{90010012,0},{21510,3}]
+};
+find(21513) -> #cfg_magic_card{
+	id        = 21513,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21510,3}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 13482,
+	gain      = [{90010012,0},{21510,5}]
+};
+find(21514) -> #cfg_magic_card{
+	id        = 21514,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21510,5}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 16638,
+	gain      = [{90010012,0},{21510,8}]
+};
+find(21515) -> #cfg_magic_card{
+	id        = 21515,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21510,8}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 20080,
+	gain      = [{90010012,0},{21510,13}]
+};
+find(21516) -> #cfg_magic_card{
+	id        = 21516,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21510,999}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,4500}],
+	rare      = [],
+	gate      = 32,
+	score     = 24096,
+	gain      = [{90010012,0},{21510,21}]
+};
+find(21530) -> #cfg_magic_card{
+	id        = 21530,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21530,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21531) -> #cfg_magic_card{
+	id        = 21531,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21530,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 14211,
+	gain      = [{90010012,0},{21530,2}]
+};
+find(21532) -> #cfg_magic_card{
+	id        = 21532,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21530,2}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 18778,
+	gain      = [{90010012,0},{21530,3}]
+};
+find(21533) -> #cfg_magic_card{
+	id        = 21533,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21530,3}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 23854,
+	gain      = [{90010012,0},{21530,5}]
+};
+find(21534) -> #cfg_magic_card{
+	id        = 21534,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21530,5}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 29437,
+	gain      = [{90010012,0},{21530,8}]
+};
+find(21535) -> #cfg_magic_card{
+	id        = 21535,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21530,8}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 35527,
+	gain      = [{90010012,0},{21530,13}]
+};
+find(21536) -> #cfg_magic_card{
+	id        = 21536,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21530,999}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,7500}],
+	rare      = [],
+	gate      = 32,
+	score     = 42633,
+	gain      = [{90010012,0},{21530,21}]
+};
+find(21540) -> #cfg_magic_card{
+	id        = 21540,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21540,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,11000}],
+	rare      = [],
+	gate      = 32,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21541) -> #cfg_magic_card{
+	id        = 21541,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21540,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,13750}],
+	rare      = [],
+	gate      = 32,
+	score     = 30893,
+	gain      = [{90010012,0},{21540,2}]
+};
+find(21542) -> #cfg_magic_card{
+	id        = 21542,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21540,2}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,16500}],
+	rare      = [],
+	gate      = 32,
+	score     = 40823,
+	gain      = [{90010012,0},{21540,3}]
+};
+find(21543) -> #cfg_magic_card{
+	id        = 21543,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21540,3}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,19800}],
+	rare      = [],
+	gate      = 32,
+	score     = 51856,
+	gain      = [{90010012,0},{21540,5}]
+};
+find(21544) -> #cfg_magic_card{
+	id        = 21544,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21540,5}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,23650}],
+	rare      = [],
+	gate      = 32,
+	score     = 63993,
+	gain      = [{90010012,0},{21540,8}]
+};
+find(21545) -> #cfg_magic_card{
+	id        = 21545,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21540,8}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,28050}],
+	rare      = [],
+	gate      = 32,
+	score     = 77233,
+	gain      = [{90010012,0},{21540,13}]
+};
+find(21546) -> #cfg_magic_card{
+	id        = 21546,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21540,999}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,33550}],
+	rare      = [],
+	gate      = 32,
+	score     = 92680,
+	gain      = [{90010012,0},{21540,21}]
+};
+find(21550) -> #cfg_magic_card{
+	id        = 21550,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21550,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,16500}],
+	rare      = [],
+	gate      = 32,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21551) -> #cfg_magic_card{
+	id        = 21551,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21550,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,24750}],
+	rare      = [],
+	gate      = 32,
+	score     = 52518,
+	gain      = [{90010012,0},{21550,2}]
+};
+find(21552) -> #cfg_magic_card{
+	id        = 21552,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21550,2}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,33000}],
+	rare      = [],
+	gate      = 32,
+	score     = 69400,
+	gain      = [{90010012,0},{21550,3}]
+};
+find(21553) -> #cfg_magic_card{
+	id        = 21553,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21550,3}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,42900}],
+	rare      = [],
+	gate      = 32,
+	score     = 88156,
+	gain      = [{90010012,0},{21550,5}]
+};
+find(21554) -> #cfg_magic_card{
+	id        = 21554,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21550,5}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,54450}],
+	rare      = [],
+	gate      = 32,
+	score     = 108789,
+	gain      = [{90010012,0},{21550,8}]
+};
+find(21555) -> #cfg_magic_card{
+	id        = 21555,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21550,8}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,67650}],
+	rare      = [],
+	gate      = 32,
+	score     = 131297,
+	gain      = [{90010012,0},{21550,13}]
+};
+find(21556) -> #cfg_magic_card{
+	id        = 21556,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21550,999}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,84150}],
+	rare      = [],
+	gate      = 32,
+	score     = 157556,
+	gain      = [{90010012,0},{21550,21}]
+};
+find(21560) -> #cfg_magic_card{
+	id        = 21560,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21560,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,22000}],
+	rare      = [],
+	gate      = 32,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21561) -> #cfg_magic_card{
+	id        = 21561,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21560,1}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,33000}],
+	rare      = [],
+	gate      = 32,
+	score     = 86501,
+	gain      = [{90010012,0},{21560,2}]
+};
+find(21562) -> #cfg_magic_card{
+	id        = 21562,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21560,2}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,44000}],
+	rare      = [],
+	gate      = 32,
+	score     = 114306,
+	gain      = [{90010012,0},{21560,3}]
+};
+find(21563) -> #cfg_magic_card{
+	id        = 21563,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21560,3}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,57200}],
+	rare      = [],
+	gate      = 32,
+	score     = 145199,
+	gain      = [{90010012,0},{21560,5}]
+};
+find(21564) -> #cfg_magic_card{
+	id        = 21564,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21560,5}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,72600}],
+	rare      = [],
+	gate      = 32,
+	score     = 179182,
+	gain      = [{90010012,0},{21560,8}]
+};
+find(21565) -> #cfg_magic_card{
+	id        = 21565,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21560,8}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,90200}],
+	rare      = [],
+	gate      = 32,
+	score     = 216254,
+	gain      = [{90010012,0},{21560,13}]
+};
+find(21566) -> #cfg_magic_card{
+	id        = 21566,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21560,999}],
+	slot      = 1,
+	attr_type = "1406",
+	base      = [{1406,112200}],
+	rare      = [],
+	gate      = 32,
+	score     = 259505,
+	gain      = [{90010012,0},{21560,21}]
+};
+find(21610) -> #cfg_magic_card{
+	id        = 21610,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21610,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 5737,
+	gain      = [{90010012,100}]
+};
+find(21611) -> #cfg_magic_card{
+	id        = 21611,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21610,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 8032,
+	gain      = [{90010012,0},{21610,2}]
+};
+find(21612) -> #cfg_magic_card{
+	id        = 21612,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21610,2}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 10614,
+	gain      = [{90010012,0},{21610,3}]
+};
+find(21613) -> #cfg_magic_card{
+	id        = 21613,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21610,3}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 13482,
+	gain      = [{90010012,0},{21610,5}]
+};
+find(21614) -> #cfg_magic_card{
+	id        = 21614,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21610,5}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 16638,
+	gain      = [{90010012,0},{21610,8}]
+};
+find(21615) -> #cfg_magic_card{
+	id        = 21615,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21610,8}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 20080,
+	gain      = [{90010012,0},{21610,13}]
+};
+find(21616) -> #cfg_magic_card{
+	id        = 21616,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21610,999}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,1240}],
+	rare      = [],
+	gate      = 24,
+	score     = 24096,
+	gain      = [{90010012,0},{21610,21}]
+};
+find(21630) -> #cfg_magic_card{
+	id        = 21630,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21630,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 10150,
+	gain      = [{90010012,600}]
+};
+find(21631) -> #cfg_magic_card{
+	id        = 21631,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21630,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 14211,
+	gain      = [{90010012,0},{21630,2}]
+};
+find(21632) -> #cfg_magic_card{
+	id        = 21632,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21630,2}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 18778,
+	gain      = [{90010012,0},{21630,3}]
+};
+find(21633) -> #cfg_magic_card{
+	id        = 21633,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21630,3}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 23854,
+	gain      = [{90010012,0},{21630,5}]
+};
+find(21634) -> #cfg_magic_card{
+	id        = 21634,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21630,5}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 29437,
+	gain      = [{90010012,0},{21630,8}]
+};
+find(21635) -> #cfg_magic_card{
+	id        = 21635,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21630,8}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 35527,
+	gain      = [{90010012,0},{21630,13}]
+};
+find(21636) -> #cfg_magic_card{
+	id        = 21636,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21630,999}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,2065}],
+	rare      = [],
+	gate      = 24,
+	score     = 42633,
+	gain      = [{90010012,0},{21630,21}]
+};
+find(21640) -> #cfg_magic_card{
+	id        = 21640,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21640,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,3025}],
+	rare      = [],
+	gate      = 24,
+	score     = 22066,
+	gain      = [{90010012,3000}]
+};
+find(21641) -> #cfg_magic_card{
+	id        = 21641,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21640,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,3782.5}],
+	rare      = [],
+	gate      = 24,
+	score     = 30893,
+	gain      = [{90010012,0},{21640,2}]
+};
+find(21642) -> #cfg_magic_card{
+	id        = 21642,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21640,2}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,4540}],
+	rare      = [],
+	gate      = 24,
+	score     = 40823,
+	gain      = [{90010012,0},{21640,3}]
+};
+find(21643) -> #cfg_magic_card{
+	id        = 21643,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21640,3}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,5450}],
+	rare      = [],
+	gate      = 24,
+	score     = 51856,
+	gain      = [{90010012,0},{21640,5}]
+};
+find(21644) -> #cfg_magic_card{
+	id        = 21644,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21640,5}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,6512.5}],
+	rare      = [],
+	gate      = 24,
+	score     = 63993,
+	gain      = [{90010012,0},{21640,8}]
+};
+find(21645) -> #cfg_magic_card{
+	id        = 21645,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21640,8}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,7727.5}],
+	rare      = [],
+	gate      = 24,
+	score     = 77233,
+	gain      = [{90010012,0},{21640,13}]
+};
+find(21646) -> #cfg_magic_card{
+	id        = 21646,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21640,999}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,9247.5}],
+	rare      = [],
+	gate      = 24,
+	score     = 92680,
+	gain      = [{90010012,0},{21640,21}]
+};
+find(21650) -> #cfg_magic_card{
+	id        = 21650,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21650,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,4540}],
+	rare      = [],
+	gate      = 24,
+	score     = 37513,
+	gain      = [{90010012,15000},{90010013,16}]
+};
+find(21651) -> #cfg_magic_card{
+	id        = 21651,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21650,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,6810}],
+	rare      = [],
+	gate      = 24,
+	score     = 52518,
+	gain      = [{90010012,0},{21650,2}]
+};
+find(21652) -> #cfg_magic_card{
+	id        = 21652,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21650,2}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,9080}],
+	rare      = [],
+	gate      = 24,
+	score     = 69400,
+	gain      = [{90010012,0},{21650,3}]
+};
+find(21653) -> #cfg_magic_card{
+	id        = 21653,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21650,3}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,11805}],
+	rare      = [],
+	gate      = 24,
+	score     = 88156,
+	gain      = [{90010012,0},{21650,5}]
+};
+find(21654) -> #cfg_magic_card{
+	id        = 21654,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21650,5}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,14985}],
+	rare      = [],
+	gate      = 24,
+	score     = 108789,
+	gain      = [{90010012,0},{21650,8}]
+};
+find(21655) -> #cfg_magic_card{
+	id        = 21655,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21650,8}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,18620}],
+	rare      = [],
+	gate      = 24,
+	score     = 131297,
+	gain      = [{90010012,0},{21650,13}]
+};
+find(21656) -> #cfg_magic_card{
+	id        = 21656,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21650,999}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,23165}],
+	rare      = [],
+	gate      = 24,
+	score     = 157556,
+	gain      = [{90010012,0},{21650,21}]
+};
+find(21660) -> #cfg_magic_card{
+	id        = 21660,
+	star      = 0,
+	max_star  = 3,
+	cost      = [{21660,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,6050}],
+	rare      = [],
+	gate      = 24,
+	score     = 61787,
+	gain      = [{90010012,45000},{90010013,50}]
+};
+find(21661) -> #cfg_magic_card{
+	id        = 21661,
+	star      = 1,
+	max_star  = 3,
+	cost      = [{21660,1}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,9075}],
+	rare      = [],
+	gate      = 24,
+	score     = 86501,
+	gain      = [{90010012,0},{21660,2}]
+};
+find(21662) -> #cfg_magic_card{
+	id        = 21662,
+	star      = 2,
+	max_star  = 3,
+	cost      = [{21660,2}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,12100}],
+	rare      = [],
+	gate      = 24,
+	score     = 114306,
+	gain      = [{90010012,0},{21660,3}]
+};
+find(21663) -> #cfg_magic_card{
+	id        = 21663,
+	star      = 3,
+	max_star  = 3,
+	cost      = [{21660,3}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,15730}],
+	rare      = [],
+	gate      = 24,
+	score     = 145199,
+	gain      = [{90010012,0},{21660,5}]
+};
+find(21664) -> #cfg_magic_card{
+	id        = 21664,
+	star      = 4,
+	max_star  = 3,
+	cost      = [{21660,5}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,19965}],
+	rare      = [],
+	gate      = 24,
+	score     = 179182,
+	gain      = [{90010012,0},{21660,8}]
+};
+find(21665) -> #cfg_magic_card{
+	id        = 21665,
+	star      = 5,
+	max_star  = 3,
+	cost      = [{21660,8}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,24805}],
+	rare      = [],
+	gate      = 24,
+	score     = 216254,
+	gain      = [{90010012,0},{21660,13}]
+};
+find(21666) -> #cfg_magic_card{
+	id        = 21666,
+	star      = 6,
+	max_star  = 3,
+	cost      = [{21660,999}],
+	slot      = 1,
+	attr_type = "1505",
+	base      = [{1505,30855}],
+	rare      = [],
+	gate      = 24,
+	score     = 259505,
+	gain      = [{90010012,0},{21660,21}]
+};
+find(21710) -> #cfg_magic_card{
+	id        = 21710,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20810,1},{20610,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 17211,
+	gain      = [{90010012,0},{20810,1},{20610,1}]
+};
+find(21711) -> #cfg_magic_card{
+	id        = 21711,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20810,1},{20610,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 24096,
+	gain      = [{90010012,0},{20810,2},{20610,2}]
+};
+find(21712) -> #cfg_magic_card{
+	id        = 21712,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20810,2},{20610,2}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 31842,
+	gain      = [{90010012,0},{20810,3},{20610,3}]
+};
+find(21713) -> #cfg_magic_card{
+	id        = 21713,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20810,3},{20610,3}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 40447,
+	gain      = [{90010012,0},{20810,5},{20610,5}]
+};
+find(21714) -> #cfg_magic_card{
+	id        = 21714,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20810,5},{20610,5}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 49914,
+	gain      = [{90010012,0},{20810,8},{20610,8}]
+};
+find(21715) -> #cfg_magic_card{
+	id        = 21715,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20810,8},{20610,8}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 60241,
+	gain      = [{90010012,0},{20810,13},{20610,13}]
+};
+find(21716) -> #cfg_magic_card{
+	id        = 21716,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20810,999},{20610,999}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 72289,
+	gain      = [{90010012,0},{20810,21},{20610,21}]
+};
+find(21730) -> #cfg_magic_card{
+	id        = 21730,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20830,1},{20630,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 30451,
+	gain      = [{90010012,0},{20830,1},{20630,1}]
+};
+find(21731) -> #cfg_magic_card{
+	id        = 21731,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20830,1},{20630,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 42633,
+	gain      = [{90010012,0},{20830,2},{20630,2}]
+};
+find(21732) -> #cfg_magic_card{
+	id        = 21732,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20830,2},{20630,2}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 56335,
+	gain      = [{90010012,0},{20830,3},{20630,3}]
+};
+find(21733) -> #cfg_magic_card{
+	id        = 21733,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20830,3},{20630,3}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 71562,
+	gain      = [{90010012,0},{20830,5},{20630,5}]
+};
+find(21734) -> #cfg_magic_card{
+	id        = 21734,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20830,5},{20630,5}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 88311,
+	gain      = [{90010012,0},{20830,8},{20630,8}]
+};
+find(21735) -> #cfg_magic_card{
+	id        = 21735,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20830,8},{20630,8}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 106582,
+	gain      = [{90010012,0},{20830,13},{20630,13}]
+};
+find(21736) -> #cfg_magic_card{
+	id        = 21736,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20830,999},{20630,999}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,0},{1604,0}],
+	rare      = [],
+	gate      = 50,
+	score     = 127899,
+	gain      = [{90010012,0},{20830,21},{20630,21}]
+};
+find(21740) -> #cfg_magic_card{
+	id        = 21740,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20840,1},{20640,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,150},{1604,10315}],
+	rare      = [],
+	gate      = 50,
+	score     = 66199,
+	gain      = [{90010012,0},{90010014,625},{20840,1},{20640,1}]
+};
+find(21741) -> #cfg_magic_card{
+	id        = 21741,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20840,1},{20640,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,160},{1604,12892.5}],
+	rare      = [],
+	gate      = 50,
+	score     = 92680,
+	gain      = [{90010012,0},{90010014,625},{20840,2},{20640,2}]
+};
+find(21742) -> #cfg_magic_card{
+	id        = 21742,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20840,2},{20640,2}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,170},{1604,15470}],
+	rare      = [],
+	gate      = 50,
+	score     = 122470,
+	gain      = [{90010012,0},{90010014,625},{20840,3},{20640,3}]
+};
+find(21743) -> #cfg_magic_card{
+	id        = 21743,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20840,3},{20640,3}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,180},{1604,18562.5}],
+	rare      = [],
+	gate      = 50,
+	score     = 155569,
+	gain      = [{90010012,0},{90010014,625},{20840,5},{20640,5}]
+};
+find(21744) -> #cfg_magic_card{
+	id        = 21744,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20840,5},{20640,5}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,190},{1604,22170}],
+	rare      = [],
+	gate      = 50,
+	score     = 191980,
+	gain      = [{90010012,0},{90010014,625},{20840,8},{20640,8}]
+};
+find(21745) -> #cfg_magic_card{
+	id        = 21745,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20840,8},{20640,8}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,200},{1604,26292.5}],
+	rare      = [],
+	gate      = 50,
+	score     = 231700,
+	gain      = [{90010012,0},{90010014,625},{20840,13},{20640,13}]
+};
+find(21746) -> #cfg_magic_card{
+	id        = 21746,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20840,999},{20640,999}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,210},{1604,31445}],
+	rare      = [],
+	gate      = 50,
+	score     = 278041,
+	gain      = [{90010012,0},{90010014,625},{20840,21},{20640,21}]
+};
+find(21750) -> #cfg_magic_card{
+	id        = 21750,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20850,1},{20650,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,250},{1604,15845}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 112540,
+	gain      = [{90010012,0},{90010014,930},{20850,1},{20650,1}]
+};
+find(21751) -> #cfg_magic_card{
+	id        = 21751,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20850,1},{20650,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,280},{1604,23765}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 157555,
+	gain      = [{90010012,0},{90010014,930},{20850,2},{20650,2}]
+};
+find(21752) -> #cfg_magic_card{
+	id        = 21752,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20850,2},{20650,2}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,310},{1604,31685}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 208200,
+	gain      = [{90010012,0},{90010014,930},{20850,3},{20650,3}]
+};
+find(21753) -> #cfg_magic_card{
+	id        = 21753,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20850,3},{20650,3}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,340},{1604,41190}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 264469,
+	gain      = [{90010012,0},{90010014,930},{20850,5},{20650,5}]
+};
+find(21754) -> #cfg_magic_card{
+	id        = 21754,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20850,5},{20650,5}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,370},{1604,52280}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 326367,
+	gain      = [{90010012,0},{90010014,930},{20850,8},{20650,8}]
+};
+find(21755) -> #cfg_magic_card{
+	id        = 21755,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20850,8},{20650,8}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,400},{1604,64955}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 393891,
+	gain      = [{90010012,0},{90010014,930},{20850,13},{20650,13}]
+};
+find(21756) -> #cfg_magic_card{
+	id        = 21756,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20850,999},{20650,999}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,430},{1604,80800}],
+	rare      = [{16,50}],
+	gate      = 50,
+	score     = 472669,
+	gain      = [{90010012,0},{90010014,930},{20850,21},{20650,21}]
+};
+find(21760) -> #cfg_magic_card{
+	id        = 21760,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20860,1},{20660,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,350},{1604,20625}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 185361,
+	gain      = [{90010012,0},{90010014,2000},{20860,1},{20660,1}]
+};
+find(21761) -> #cfg_magic_card{
+	id        = 21761,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20860,1},{20660,1}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,400},{1604,30940}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 259504,
+	gain      = [{90010012,0},{90010014,2000},{20860,2},{20660,2}]
+};
+find(21762) -> #cfg_magic_card{
+	id        = 21762,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20860,2},{20660,2}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,450},{1604,41255}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 342918,
+	gain      = [{90010012,0},{90010014,2000},{20860,3},{20660,3}]
+};
+find(21763) -> #cfg_magic_card{
+	id        = 21763,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20860,3},{20660,3}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,500},{1604,53635}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 435598,
+	gain      = [{90010012,0},{90010014,2000},{20860,5},{20660,5}]
+};
+find(21764) -> #cfg_magic_card{
+	id        = 21764,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20860,5},{20660,5}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,550},{1604,68080}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 537546,
+	gain      = [{90010012,0},{90010014,2000},{20860,8},{20660,8}]
+};
+find(21765) -> #cfg_magic_card{
+	id        = 21765,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20860,8},{20660,8}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,600},{1604,84590}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 648763,
+	gain      = [{90010012,0},{90010014,2000},{20860,13},{20660,13}]
+};
+find(21766) -> #cfg_magic_card{
+	id        = 21766,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20860,999},{20660,999}],
+	slot      = 2,
+	attr_type = "46@1604",
+	base      = [{46,650},{1604,105230}],
+	rare      = [{16,100}],
+	gate      = 50,
+	score     = 778516,
+	gain      = [{90010012,0},{90010014,2000},{20860,21},{20660,21}]
+};
+find(21810) -> #cfg_magic_card{
+	id        = 21810,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20510,1},{20710,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 17211,
+	gain      = [{90010012,0},{20510,1},{20710,1}]
+};
+find(21811) -> #cfg_magic_card{
+	id        = 21811,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20510,1},{20710,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 24096,
+	gain      = [{90010012,0},{20510,2},{20710,2}]
+};
+find(21812) -> #cfg_magic_card{
+	id        = 21812,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20510,2},{20710,2}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 31842,
+	gain      = [{90010012,0},{20510,3},{20710,3}]
+};
+find(21813) -> #cfg_magic_card{
+	id        = 21813,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20510,3},{20710,3}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 40447,
+	gain      = [{90010012,0},{20510,5},{20710,5}]
+};
+find(21814) -> #cfg_magic_card{
+	id        = 21814,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20510,5},{20710,5}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 49914,
+	gain      = [{90010012,0},{20510,8},{20710,8}]
+};
+find(21815) -> #cfg_magic_card{
+	id        = 21815,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20510,8},{20710,8}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 60241,
+	gain      = [{90010012,0},{20510,13},{20710,13}]
+};
+find(21816) -> #cfg_magic_card{
+	id        = 21816,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20510,999},{20710,999}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 72289,
+	gain      = [{90010012,0},{20510,21},{20710,21}]
+};
+find(21830) -> #cfg_magic_card{
+	id        = 21830,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20530,1},{20730,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 30451,
+	gain      = [{90010012,0},{20530,1},{20730,1}]
+};
+find(21831) -> #cfg_magic_card{
+	id        = 21831,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20530,1},{20730,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 42633,
+	gain      = [{90010012,0},{20530,2},{20730,2}]
+};
+find(21832) -> #cfg_magic_card{
+	id        = 21832,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20530,2},{20730,2}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 56335,
+	gain      = [{90010012,0},{20530,3},{20730,3}]
+};
+find(21833) -> #cfg_magic_card{
+	id        = 21833,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20530,3},{20730,3}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 71562,
+	gain      = [{90010012,0},{20530,5},{20730,5}]
+};
+find(21834) -> #cfg_magic_card{
+	id        = 21834,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20530,5},{20730,5}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 88311,
+	gain      = [{90010012,0},{20530,8},{20730,8}]
+};
+find(21835) -> #cfg_magic_card{
+	id        = 21835,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20530,8},{20730,8}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 106582,
+	gain      = [{90010012,0},{20530,13},{20730,13}]
+};
+find(21836) -> #cfg_magic_card{
+	id        = 21836,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20530,999},{20730,999}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,0},{2000,0}],
+	rare      = [],
+	gate      = 54,
+	score     = 127899,
+	gain      = [{90010012,0},{20530,21},{20730,21}]
+};
+find(21840) -> #cfg_magic_card{
+	id        = 21840,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20540,1},{20740,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,150},{2000,690}],
+	rare      = [],
+	gate      = 54,
+	score     = 66199,
+	gain      = [{90010012,0},{90010014,625},{20540,1},{20740,1}]
+};
+find(21841) -> #cfg_magic_card{
+	id        = 21841,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20540,1},{20740,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,160},{2000,862.5}],
+	rare      = [],
+	gate      = 54,
+	score     = 92680,
+	gain      = [{90010012,0},{90010014,625},{20540,2},{20740,2}]
+};
+find(21842) -> #cfg_magic_card{
+	id        = 21842,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20540,2},{20740,2}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,170},{2000,1035}],
+	rare      = [],
+	gate      = 54,
+	score     = 122470,
+	gain      = [{90010012,0},{90010014,625},{20540,3},{20740,3}]
+};
+find(21843) -> #cfg_magic_card{
+	id        = 21843,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20540,3},{20740,3}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,180},{2000,1242.5}],
+	rare      = [],
+	gate      = 54,
+	score     = 155569,
+	gain      = [{90010012,0},{90010014,625},{20540,5},{20740,5}]
+};
+find(21844) -> #cfg_magic_card{
+	id        = 21844,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20540,5},{20740,5}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,190},{2000,1485}],
+	rare      = [],
+	gate      = 54,
+	score     = 191980,
+	gain      = [{90010012,0},{90010014,625},{20540,8},{20740,8}]
+};
+find(21845) -> #cfg_magic_card{
+	id        = 21845,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20540,8},{20740,8}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,200},{2000,1762.5}],
+	rare      = [],
+	gate      = 54,
+	score     = 231700,
+	gain      = [{90010012,0},{90010014,625},{20540,13},{20740,13}]
+};
+find(21846) -> #cfg_magic_card{
+	id        = 21846,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20540,999},{20740,999}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,210},{2000,2110}],
+	rare      = [],
+	gate      = 54,
+	score     = 278041,
+	gain      = [{90010012,0},{90010014,625},{20540,21},{20740,21}]
+};
+find(21850) -> #cfg_magic_card{
+	id        = 21850,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20550,1},{20750,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,250},{2000,1030}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 112540,
+	gain      = [{90010012,0},{90010014,930},{20550,1},{20750,1}]
+};
+find(21851) -> #cfg_magic_card{
+	id        = 21851,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20550,1},{20750,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,280},{2000,1545}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 157555,
+	gain      = [{90010012,0},{90010014,930},{20550,2},{20750,2}]
+};
+find(21852) -> #cfg_magic_card{
+	id        = 21852,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20550,2},{20750,2}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,310},{2000,2060}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 208200,
+	gain      = [{90010012,0},{90010014,930},{20550,3},{20750,3}]
+};
+find(21853) -> #cfg_magic_card{
+	id        = 21853,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20550,3},{20750,3}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,340},{2000,2680}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 264469,
+	gain      = [{90010012,0},{90010014,930},{20550,5},{20750,5}]
+};
+find(21854) -> #cfg_magic_card{
+	id        = 21854,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20550,5},{20750,5}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,370},{2000,3405}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 326367,
+	gain      = [{90010012,0},{90010014,930},{20550,8},{20750,8}]
+};
+find(21855) -> #cfg_magic_card{
+	id        = 21855,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20550,8},{20750,8}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,400},{2000,4235}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 393891,
+	gain      = [{90010012,0},{90010014,930},{20550,13},{20750,13}]
+};
+find(21856) -> #cfg_magic_card{
+	id        = 21856,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20550,999},{20750,999}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,430},{2000,5275}],
+	rare      = [{21,50}],
+	gate      = 54,
+	score     = 472669,
+	gain      = [{90010012,0},{90010014,930},{20550,21},{20750,21}]
+};
+find(21860) -> #cfg_magic_card{
+	id        = 21860,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20560,1},{20760,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,350},{2000,1375}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 185361,
+	gain      = [{90010012,0},{90010014,2000},{20560,1},{20760,1}]
+};
+find(21861) -> #cfg_magic_card{
+	id        = 21861,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20560,1},{20760,1}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,400},{2000,2065}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 259504,
+	gain      = [{90010012,0},{90010014,2000},{20560,2},{20760,2}]
+};
+find(21862) -> #cfg_magic_card{
+	id        = 21862,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20560,2},{20760,2}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,450},{2000,2755}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 342918,
+	gain      = [{90010012,0},{90010014,2000},{20560,3},{20760,3}]
+};
+find(21863) -> #cfg_magic_card{
+	id        = 21863,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20560,3},{20760,3}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,500},{2000,3585}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 435598,
+	gain      = [{90010012,0},{90010014,2000},{20560,5},{20760,5}]
+};
+find(21864) -> #cfg_magic_card{
+	id        = 21864,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20560,5},{20760,5}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,550},{2000,4555}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 537546,
+	gain      = [{90010012,0},{90010014,2000},{20560,8},{20760,8}]
+};
+find(21865) -> #cfg_magic_card{
+	id        = 21865,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20560,8},{20760,8}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,600},{2000,5665}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 648763,
+	gain      = [{90010012,0},{90010014,2000},{20560,13},{20760,13}]
+};
+find(21866) -> #cfg_magic_card{
+	id        = 21866,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20560,999},{20760,999}],
+	slot      = 2,
+	attr_type = "45@2000",
+	base      = [{45,650},{2000,7055}],
+	rare      = [{21,100}],
+	gate      = 54,
+	score     = 778516,
+	gain      = [{90010012,0},{90010014,2000},{20560,21},{20760,21}]
+};
+find(21910) -> #cfg_magic_card{
+	id        = 21910,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20210,1},{21410,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 9835,
+	gain      = [{90010012,0},{20210,1},{21410,1}]
+};
+find(21911) -> #cfg_magic_card{
+	id        = 21911,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20210,1},{21410,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 13769,
+	gain      = [{90010012,0},{20210,2},{21410,2}]
+};
+find(21912) -> #cfg_magic_card{
+	id        = 21912,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20210,2},{21410,2}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 18195,
+	gain      = [{90010012,0},{20210,3},{21410,3}]
+};
+find(21913) -> #cfg_magic_card{
+	id        = 21913,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20210,3},{21410,3}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 23112,
+	gain      = [{90010012,0},{20210,5},{21410,5}]
+};
+find(21914) -> #cfg_magic_card{
+	id        = 21914,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20210,5},{21410,5}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 28522,
+	gain      = [{90010012,0},{20210,8},{21410,8}]
+};
+find(21915) -> #cfg_magic_card{
+	id        = 21915,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20210,8},{21410,8}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 34423,
+	gain      = [{90010012,0},{20210,13},{21410,13}]
+};
+find(21916) -> #cfg_magic_card{
+	id        = 21916,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20210,999},{21410,999}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,31380},{1502,675}],
+	rare      = [],
+	gate      = 58,
+	score     = 41308,
+	gain      = [{90010012,0},{20210,21},{21410,21}]
+};
+find(21930) -> #cfg_magic_card{
+	id        = 21930,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20230,1},{21430,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 17400,
+	gain      = [{90010012,0},{20230,1},{21430,1}]
+};
+find(21931) -> #cfg_magic_card{
+	id        = 21931,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20230,1},{21430,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 24361,
+	gain      = [{90010012,0},{20230,2},{21430,2}]
+};
+find(21932) -> #cfg_magic_card{
+	id        = 21932,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20230,2},{21430,2}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 32191,
+	gain      = [{90010012,0},{20230,3},{21430,3}]
+};
+find(21933) -> #cfg_magic_card{
+	id        = 21933,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20230,3},{21430,3}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 40892,
+	gain      = [{90010012,0},{20230,5},{21430,5}]
+};
+find(21934) -> #cfg_magic_card{
+	id        = 21934,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20230,5},{21430,5}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 50463,
+	gain      = [{90010012,0},{20230,8},{21430,8}]
+};
+find(21935) -> #cfg_magic_card{
+	id        = 21935,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20230,8},{21430,8}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 60903,
+	gain      = [{90010012,0},{20230,13},{21430,13}]
+};
+find(21936) -> #cfg_magic_card{
+	id        = 21936,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20230,999},{21430,999}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,54990},{1502,1125}],
+	rare      = [],
+	gate      = 58,
+	score     = 73085,
+	gain      = [{90010012,0},{20230,21},{21430,21}]
+};
+find(21940) -> #cfg_magic_card{
+	id        = 21940,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20240,1},{21440,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,95940},{1502,1650}],
+	rare      = [],
+	gate      = 58,
+	score     = 37828,
+	gain      = [{90010012,0},{90010014,625},{20240,1},{21440,1}]
+};
+find(21941) -> #cfg_magic_card{
+	id        = 21941,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20240,1},{21440,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,125922},{1502,2062.5}],
+	rare      = [],
+	gate      = 58,
+	score     = 52959,
+	gain      = [{90010012,0},{90010014,625},{20240,2},{21440,2}]
+};
+find(21942) -> #cfg_magic_card{
+	id        = 21942,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20240,2},{21440,2}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,155904},{1502,2475}],
+	rare      = [],
+	gate      = 58,
+	score     = 69982,
+	gain      = [{90010012,0},{90010014,625},{20240,3},{21440,3}]
+};
+find(21943) -> #cfg_magic_card{
+	id        = 21943,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20240,3},{21440,3}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,191883},{1502,2970}],
+	rare      = [],
+	gate      = 58,
+	score     = 88896,
+	gain      = [{90010012,0},{90010014,625},{20240,5},{21440,5}]
+};
+find(21944) -> #cfg_magic_card{
+	id        = 21944,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20240,5},{21440,5}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,233859},{1502,3547.5}],
+	rare      = [],
+	gate      = 58,
+	score     = 109702,
+	gain      = [{90010012,0},{90010014,625},{20240,8},{21440,8}]
+};
+find(21945) -> #cfg_magic_card{
+	id        = 21945,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20240,8},{21440,8}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,281832},{1502,4207.5}],
+	rare      = [],
+	gate      = 58,
+	score     = 132400,
+	gain      = [{90010012,0},{90010014,625},{20240,13},{21440,13}]
+};
+find(21946) -> #cfg_magic_card{
+	id        = 21946,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20240,999},{21440,999}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,341799},{1502,5032.5}],
+	rare      = [],
+	gate      = 58,
+	score     = 158880,
+	gain      = [{90010012,0},{90010014,625},{20240,21},{21440,21}]
+};
+find(21950) -> #cfg_magic_card{
+	id        = 21950,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20250,1},{21450,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,136890},{1502,2475}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 64308,
+	gain      = [{90010012,0},{90010014,930},{20250,1},{21450,1}]
+};
+find(21951) -> #cfg_magic_card{
+	id        = 21951,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20250,1},{21450,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,222447},{1502,3715}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 90031,
+	gain      = [{90010012,0},{90010014,930},{20250,2},{21450,2}]
+};
+find(21952) -> #cfg_magic_card{
+	id        = 21952,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20250,2},{21450,2}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,308004},{1502,4955}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 118971,
+	gain      = [{90010012,0},{90010014,930},{20250,3},{21450,3}]
+};
+find(21953) -> #cfg_magic_card{
+	id        = 21953,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20250,3},{21450,3}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,410673},{1502,6445}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 151125,
+	gain      = [{90010012,0},{90010014,930},{20250,5},{21450,5}]
+};
+find(21954) -> #cfg_magic_card{
+	id        = 21954,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20250,5},{21450,5}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,530454},{1502,8185}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 186495,
+	gain      = [{90010012,0},{90010014,930},{20250,8},{21450,8}]
+};
+find(21955) -> #cfg_magic_card{
+	id        = 21955,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20250,8},{21450,8}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,667347},{1502,10175}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 225080,
+	gain      = [{90010012,0},{90010014,930},{20250,13},{21450,13}]
+};
+find(21956) -> #cfg_magic_card{
+	id        = 21956,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20250,999},{21450,999}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,838464},{1502,12665}],
+	rare      = [{1102,100}],
+	gate      = 58,
+	score     = 270096,
+	gain      = [{90010012,0},{90010014,930},{20250,21},{21450,21}]
+};
+find(21960) -> #cfg_magic_card{
+	id        = 21960,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20260,1},{21460,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,192030},{1502,3300}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 105920,
+	gain      = [{90010012,0},{90010014,2000},{20260,1},{21460,1}]
+};
+find(21961) -> #cfg_magic_card{
+	id        = 21961,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20260,1},{21460,1}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,312048},{1502,4950}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 148288,
+	gain      = [{90010012,0},{90010014,2000},{20260,2},{21460,2}]
+};
+find(21962) -> #cfg_magic_card{
+	id        = 21962,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20260,2},{21460,2}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,432066},{1502,6600}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 195953,
+	gain      = [{90010012,0},{90010014,2000},{20260,3},{21460,3}]
+};
+find(21963) -> #cfg_magic_card{
+	id        = 21963,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20260,3},{21460,3}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,576087},{1502,8580}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 248912,
+	gain      = [{90010012,0},{90010014,2000},{20260,5},{21460,5}]
+};
+find(21964) -> #cfg_magic_card{
+	id        = 21964,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20260,5},{21460,5}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,744111},{1502,10890}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 307169,
+	gain      = [{90010012,0},{90010014,2000},{20260,8},{21460,8}]
+};
+find(21965) -> #cfg_magic_card{
+	id        = 21965,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20260,8},{21460,8}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,936138},{1502,13530}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 370721,
+	gain      = [{90010012,0},{90010014,2000},{20260,13},{21460,13}]
+};
+find(21966) -> #cfg_magic_card{
+	id        = 21966,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20260,999},{21460,999}],
+	slot      = 1,
+	attr_type = "2@1502",
+	base      = [{2,1176171},{1502,16830}],
+	rare      = [{1102,200}],
+	gate      = 58,
+	score     = 444866,
+	gain      = [{90010012,0},{90010014,2000},{20260,21},{21460,21}]
+};
+find(22010) -> #cfg_magic_card{
+	id        = 22010,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20410,1},{21610,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 9835,
+	gain      = [{90010012,0},{20410,1},{21610,1}]
+};
+find(22011) -> #cfg_magic_card{
+	id        = 22011,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20410,1},{21610,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 13769,
+	gain      = [{90010012,0},{20410,2},{21610,2}]
+};
+find(22012) -> #cfg_magic_card{
+	id        = 22012,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20410,2},{21610,2}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 18195,
+	gain      = [{90010012,0},{20410,3},{21610,3}]
+};
+find(22013) -> #cfg_magic_card{
+	id        = 22013,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20410,3},{21610,3}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 23112,
+	gain      = [{90010012,0},{20410,5},{21610,5}]
+};
+find(22014) -> #cfg_magic_card{
+	id        = 22014,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20410,5},{21610,5}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 28522,
+	gain      = [{90010012,0},{20410,8},{21610,8}]
+};
+find(22015) -> #cfg_magic_card{
+	id        = 22015,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20410,8},{21610,8}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 34423,
+	gain      = [{90010012,0},{20410,13},{21610,13}]
+};
+find(22016) -> #cfg_magic_card{
+	id        = 22016,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20410,999},{21610,999}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,1575},{1505,1240}],
+	rare      = [],
+	gate      = 62,
+	score     = 41308,
+	gain      = [{90010012,0},{20410,21},{21610,21}]
+};
+find(22030) -> #cfg_magic_card{
+	id        = 22030,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20430,1},{21630,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 17400,
+	gain      = [{90010012,0},{20430,1},{21630,1}]
+};
+find(22031) -> #cfg_magic_card{
+	id        = 22031,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20430,1},{21630,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 24361,
+	gain      = [{90010012,0},{20430,2},{21630,2}]
+};
+find(22032) -> #cfg_magic_card{
+	id        = 22032,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20430,2},{21630,2}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 32191,
+	gain      = [{90010012,0},{20430,3},{21630,3}]
+};
+find(22033) -> #cfg_magic_card{
+	id        = 22033,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20430,3},{21630,3}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 40892,
+	gain      = [{90010012,0},{20430,5},{21630,5}]
+};
+find(22034) -> #cfg_magic_card{
+	id        = 22034,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20430,5},{21630,5}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 50463,
+	gain      = [{90010012,0},{20430,8},{21630,8}]
+};
+find(22035) -> #cfg_magic_card{
+	id        = 22035,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20430,8},{21630,8}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 60903,
+	gain      = [{90010012,0},{20430,13},{21630,13}]
+};
+find(22036) -> #cfg_magic_card{
+	id        = 22036,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20430,999},{21630,999}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,2745},{1505,2065}],
+	rare      = [],
+	gate      = 62,
+	score     = 73085,
+	gain      = [{90010012,0},{20430,21},{21630,21}]
+};
+find(22040) -> #cfg_magic_card{
+	id        = 22040,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20440,1},{21640,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,4800},{1505,3025}],
+	rare      = [],
+	gate      = 62,
+	score     = 37828,
+	gain      = [{90010012,0},{90010014,625},{20440,1},{21640,1}]
+};
+find(22041) -> #cfg_magic_card{
+	id        = 22041,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20440,1},{21640,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,6300},{1505,3782.5}],
+	rare      = [],
+	gate      = 62,
+	score     = 52959,
+	gain      = [{90010012,0},{90010014,625},{20440,2},{21640,2}]
+};
+find(22042) -> #cfg_magic_card{
+	id        = 22042,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20440,2},{21640,2}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,7800},{1505,4540}],
+	rare      = [],
+	gate      = 62,
+	score     = 69982,
+	gain      = [{90010012,0},{90010014,625},{20440,3},{21640,3}]
+};
+find(22043) -> #cfg_magic_card{
+	id        = 22043,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20440,3},{21640,3}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,9600},{1505,5450}],
+	rare      = [],
+	gate      = 62,
+	score     = 88896,
+	gain      = [{90010012,0},{90010014,625},{20440,5},{21640,5}]
+};
+find(22044) -> #cfg_magic_card{
+	id        = 22044,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20440,5},{21640,5}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,11700},{1505,6512.5}],
+	rare      = [],
+	gate      = 62,
+	score     = 109702,
+	gain      = [{90010012,0},{90010014,625},{20440,8},{21640,8}]
+};
+find(22045) -> #cfg_magic_card{
+	id        = 22045,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20440,8},{21640,8}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,14100},{1505,7727.5}],
+	rare      = [],
+	gate      = 62,
+	score     = 132400,
+	gain      = [{90010012,0},{90010014,625},{20440,13},{21640,13}]
+};
+find(22046) -> #cfg_magic_card{
+	id        = 22046,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20440,999},{21640,999}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,17100},{1505,9247.5}],
+	rare      = [],
+	gate      = 62,
+	score     = 158880,
+	gain      = [{90010012,0},{90010014,625},{20440,21},{21640,21}]
+};
+find(22050) -> #cfg_magic_card{
+	id        = 22050,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20450,1},{21650,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,6840},{1505,4540}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 64308,
+	gain      = [{90010012,0},{90010014,930},{20450,1},{21650,1}]
+};
+find(22051) -> #cfg_magic_card{
+	id        = 22051,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20450,1},{21650,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,11115},{1505,6810}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 90031,
+	gain      = [{90010012,0},{90010014,930},{20450,2},{21650,2}]
+};
+find(22052) -> #cfg_magic_card{
+	id        = 22052,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20450,2},{21650,2}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,15390},{1505,9080}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 118971,
+	gain      = [{90010012,0},{90010014,930},{20450,3},{21650,3}]
+};
+find(22053) -> #cfg_magic_card{
+	id        = 22053,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20450,3},{21650,3}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,20520},{1505,11805}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 151125,
+	gain      = [{90010012,0},{90010014,930},{20450,5},{21650,5}]
+};
+find(22054) -> #cfg_magic_card{
+	id        = 22054,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20450,5},{21650,5}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,26505},{1505,14985}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 186495,
+	gain      = [{90010012,0},{90010014,930},{20450,8},{21650,8}]
+};
+find(22055) -> #cfg_magic_card{
+	id        = 22055,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20450,8},{21650,8}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,33345},{1505,18620}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 225080,
+	gain      = [{90010012,0},{90010014,930},{20450,13},{21650,13}]
+};
+find(22056) -> #cfg_magic_card{
+	id        = 22056,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20450,999},{21650,999}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,41895},{1505,23165}],
+	rare      = [{1105,100}],
+	gate      = 62,
+	score     = 270096,
+	gain      = [{90010012,0},{90010014,930},{20450,21},{21650,21}]
+};
+find(22060) -> #cfg_magic_card{
+	id        = 22060,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20460,1},{21660,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,9600},{1505,6050}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 105920,
+	gain      = [{90010012,0},{90010014,2000},{20460,1},{21660,1}]
+};
+find(22061) -> #cfg_magic_card{
+	id        = 22061,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20460,1},{21660,1}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,15600},{1505,9075}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 148288,
+	gain      = [{90010012,0},{90010014,2000},{20460,2},{21660,2}]
+};
+find(22062) -> #cfg_magic_card{
+	id        = 22062,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20460,2},{21660,2}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,21600},{1505,12100}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 195953,
+	gain      = [{90010012,0},{90010014,2000},{20460,3},{21660,3}]
+};
+find(22063) -> #cfg_magic_card{
+	id        = 22063,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20460,3},{21660,3}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,28800},{1505,15730}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 248912,
+	gain      = [{90010012,0},{90010014,2000},{20460,5},{21660,5}]
+};
+find(22064) -> #cfg_magic_card{
+	id        = 22064,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20460,5},{21660,5}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,37200},{1505,19965}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 307169,
+	gain      = [{90010012,0},{90010014,2000},{20460,8},{21660,8}]
+};
+find(22065) -> #cfg_magic_card{
+	id        = 22065,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20460,8},{21660,8}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,46800},{1505,24805}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 370721,
+	gain      = [{90010012,0},{90010014,2000},{20460,13},{21660,13}]
+};
+find(22066) -> #cfg_magic_card{
+	id        = 22066,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20460,999},{21660,999}],
+	slot      = 1,
+	attr_type = "5@1505",
+	base      = [{5,58800},{1505,30855}],
+	rare      = [{1105,200}],
+	gate      = 62,
+	score     = 444866,
+	gain      = [{90010012,0},{90010014,2000},{20460,21},{21660,21}]
+};
+find(22110) -> #cfg_magic_card{
+	id        = 22110,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{21010,1},{21210,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 11474,
+	gain      = [{90010012,0},{21010,1},{21210,1}]
+};
+find(22111) -> #cfg_magic_card{
+	id        = 22111,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{21010,1},{21210,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 16064,
+	gain      = [{90010012,0},{21010,2},{21210,2}]
+};
+find(22112) -> #cfg_magic_card{
+	id        = 22112,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{21010,2},{21210,2}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 21228,
+	gain      = [{90010012,0},{21010,3},{21210,3}]
+};
+find(22113) -> #cfg_magic_card{
+	id        = 22113,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{21010,3},{21210,3}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 26964,
+	gain      = [{90010012,0},{21010,5},{21210,5}]
+};
+find(22114) -> #cfg_magic_card{
+	id        = 22114,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{21010,5},{21210,5}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 33276,
+	gain      = [{90010012,0},{21010,8},{21210,8}]
+};
+find(22115) -> #cfg_magic_card{
+	id        = 22115,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{21010,8},{21210,8}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 40160,
+	gain      = [{90010012,0},{21010,13},{21210,13}]
+};
+find(22116) -> #cfg_magic_card{
+	id        = 22116,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{21010,999},{21210,999}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,505},{1305,955}],
+	rare      = [],
+	gate      = 74,
+	score     = 48192,
+	gain      = [{90010012,0},{21010,21},{21210,21}]
+};
+find(22130) -> #cfg_magic_card{
+	id        = 22130,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{21030,1},{21230,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 20300,
+	gain      = [{90010012,0},{21030,1},{21230,1}]
+};
+find(22131) -> #cfg_magic_card{
+	id        = 22131,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{21030,1},{21230,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 28422,
+	gain      = [{90010012,0},{21030,2},{21230,2}]
+};
+find(22132) -> #cfg_magic_card{
+	id        = 22132,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{21030,2},{21230,2}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 37556,
+	gain      = [{90010012,0},{21030,3},{21230,3}]
+};
+find(22133) -> #cfg_magic_card{
+	id        = 22133,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{21030,3},{21230,3}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 47708,
+	gain      = [{90010012,0},{21030,5},{21230,5}]
+};
+find(22134) -> #cfg_magic_card{
+	id        = 22134,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{21030,5},{21230,5}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 58874,
+	gain      = [{90010012,0},{21030,8},{21230,8}]
+};
+find(22135) -> #cfg_magic_card{
+	id        = 22135,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{21030,8},{21230,8}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 71054,
+	gain      = [{90010012,0},{21030,13},{21230,13}]
+};
+find(22136) -> #cfg_magic_card{
+	id        = 22136,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{21030,999},{21230,999}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,845},{1305,1595}],
+	rare      = [],
+	gate      = 74,
+	score     = 85266,
+	gain      = [{90010012,0},{21030,21},{21230,21}]
+};
+find(22140) -> #cfg_magic_card{
+	id        = 22140,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{21040,1},{21240,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,1240},{1305,2340}],
+	rare      = [],
+	gate      = 74,
+	score     = 44132,
+	gain      = [{90010012,0},{90010014,625},{21040,1},{21240,1}]
+};
+find(22141) -> #cfg_magic_card{
+	id        = 22141,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{21040,1},{21240,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,1550},{1305,2925}],
+	rare      = [],
+	gate      = 74,
+	score     = 61786,
+	gain      = [{90010012,0},{90010014,625},{21040,2},{21240,2}]
+};
+find(22142) -> #cfg_magic_card{
+	id        = 22142,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{21040,2},{21240,2}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,1860},{1305,3510}],
+	rare      = [],
+	gate      = 74,
+	score     = 81646,
+	gain      = [{90010012,0},{90010014,625},{21040,3},{21240,3}]
+};
+find(22143) -> #cfg_magic_card{
+	id        = 22143,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{21040,3},{21240,3}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,2232.5},{1305,4212.5}],
+	rare      = [],
+	gate      = 74,
+	score     = 103712,
+	gain      = [{90010012,0},{90010014,625},{21040,5},{21240,5}]
+};
+find(22144) -> #cfg_magic_card{
+	id        = 22144,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{21040,5},{21240,5}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,2667.5},{1305,5032.5}],
+	rare      = [],
+	gate      = 74,
+	score     = 127986,
+	gain      = [{90010012,0},{90010014,625},{21040,8},{21240,8}]
+};
+find(22145) -> #cfg_magic_card{
+	id        = 22145,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{21040,8},{21240,8}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,3165},{1305,5970}],
+	rare      = [],
+	gate      = 74,
+	score     = 154466,
+	gain      = [{90010012,0},{90010014,625},{21040,13},{21240,13}]
+};
+find(22146) -> #cfg_magic_card{
+	id        = 22146,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{21040,999},{21240,999}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,3787.5},{1305,7142.5}],
+	rare      = [],
+	gate      = 74,
+	score     = 185360,
+	gain      = [{90010012,0},{90010014,625},{21040,21},{21240,21}]
+};
+find(22150) -> #cfg_magic_card{
+	id        = 22150,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{21050,1},{21250,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,1855},{1305,3505}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 75026,
+	gain      = [{90010012,0},{90010014,930},{21050,1},{21250,1}]
+};
+find(22151) -> #cfg_magic_card{
+	id        = 22151,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{21050,1},{21250,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,2785},{1305,5260}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 105036,
+	gain      = [{90010012,0},{90010014,930},{21050,2},{21250,2}]
+};
+find(22152) -> #cfg_magic_card{
+	id        = 22152,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{21050,2},{21250,2}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,3715},{1305,7015}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 138800,
+	gain      = [{90010012,0},{90010014,930},{21050,3},{21250,3}]
+};
+find(22153) -> #cfg_magic_card{
+	id        = 22153,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{21050,3},{21250,3}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,4830},{1305,9120}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 176312,
+	gain      = [{90010012,0},{90010014,930},{21050,5},{21250,5}]
+};
+find(22154) -> #cfg_magic_card{
+	id        = 22154,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{21050,5},{21250,5}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,6130},{1305,11575}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 217578,
+	gain      = [{90010012,0},{90010014,930},{21050,8},{21250,8}]
+};
+find(22155) -> #cfg_magic_card{
+	id        = 22155,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{21050,8},{21250,8}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,7615},{1305,14380}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 262594,
+	gain      = [{90010012,0},{90010014,930},{21050,13},{21250,13}]
+};
+find(22156) -> #cfg_magic_card{
+	id        = 22156,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{21050,999},{21250,999}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,9470},{1305,17885}],
+	rare      = [{41,50}],
+	gate      = 74,
+	score     = 315112,
+	gain      = [{90010012,0},{90010014,930},{21050,21},{21250,21}]
+};
+find(22160) -> #cfg_magic_card{
+	id        = 22160,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{21060,1},{21260,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,2475},{1305,4675}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 123574,
+	gain      = [{90010012,0},{90010014,2000},{21060,1},{21260,1}]
+};
+find(22161) -> #cfg_magic_card{
+	id        = 22161,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{21060,1},{21260,1}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,3715},{1305,7015}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 173002,
+	gain      = [{90010012,0},{90010014,2000},{21060,2},{21260,2}]
+};
+find(22162) -> #cfg_magic_card{
+	id        = 22162,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{21060,2},{21260,2}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,4955},{1305,9355}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 228612,
+	gain      = [{90010012,0},{90010014,2000},{21060,3},{21260,3}]
+};
+find(22163) -> #cfg_magic_card{
+	id        = 22163,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{21060,3},{21260,3}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,6445},{1305,12165}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 290398,
+	gain      = [{90010012,0},{90010014,2000},{21060,5},{21260,5}]
+};
+find(22164) -> #cfg_magic_card{
+	id        = 22164,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{21060,5},{21260,5}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,8185},{1305,15445}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 358364,
+	gain      = [{90010012,0},{90010014,2000},{21060,8},{21260,8}]
+};
+find(22165) -> #cfg_magic_card{
+	id        = 22165,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{21060,8},{21260,8}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,10175},{1305,19195}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 432508,
+	gain      = [{90010012,0},{90010014,2000},{21060,13},{21260,13}]
+};
+find(22166) -> #cfg_magic_card{
+	id        = 22166,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{21060,999},{21260,999}],
+	slot      = 1,
+	attr_type = "1302@1305",
+	base      = [{1302,12665},{1305,23885}],
+	rare      = [{41,100}],
+	gate      = 74,
+	score     = 519010,
+	gain      = [{90010012,0},{90010014,2000},{21060,21},{21260,21}]
+};
+find(22210) -> #cfg_magic_card{
+	id        = 22210,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20910,1},{21110,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 11474,
+	gain      = [{90010012,0},{20910,1},{21110,1}]
+};
+find(22211) -> #cfg_magic_card{
+	id        = 22211,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20910,1},{21110,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 16064,
+	gain      = [{90010012,0},{20910,2},{21110,2}]
+};
+find(22212) -> #cfg_magic_card{
+	id        = 22212,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20910,2},{21110,2}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 21228,
+	gain      = [{90010012,0},{20910,3},{21110,3}]
+};
+find(22213) -> #cfg_magic_card{
+	id        = 22213,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20910,3},{21110,3}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 26964,
+	gain      = [{90010012,0},{20910,5},{21110,5}]
+};
+find(22214) -> #cfg_magic_card{
+	id        = 22214,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20910,5},{21110,5}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 33276,
+	gain      = [{90010012,0},{20910,8},{21110,8}]
+};
+find(22215) -> #cfg_magic_card{
+	id        = 22215,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20910,8},{21110,8}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 40160,
+	gain      = [{90010012,0},{20910,13},{21110,13}]
+};
+find(22216) -> #cfg_magic_card{
+	id        = 22216,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20910,999},{21110,999}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,620},{1306,1155}],
+	rare      = [],
+	gate      = 78,
+	score     = 48192,
+	gain      = [{90010012,0},{20910,21},{21110,21}]
+};
+find(22230) -> #cfg_magic_card{
+	id        = 22230,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20930,1},{21130,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 20300,
+	gain      = [{90010012,0},{20930,1},{21130,1}]
+};
+find(22231) -> #cfg_magic_card{
+	id        = 22231,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20930,1},{21130,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 28422,
+	gain      = [{90010012,0},{20930,2},{21130,2}]
+};
+find(22232) -> #cfg_magic_card{
+	id        = 22232,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20930,2},{21130,2}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 37556,
+	gain      = [{90010012,0},{20930,3},{21130,3}]
+};
+find(22233) -> #cfg_magic_card{
+	id        = 22233,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20930,3},{21130,3}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 47708,
+	gain      = [{90010012,0},{20930,5},{21130,5}]
+};
+find(22234) -> #cfg_magic_card{
+	id        = 22234,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20930,5},{21130,5}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 58874,
+	gain      = [{90010012,0},{20930,8},{21130,8}]
+};
+find(22235) -> #cfg_magic_card{
+	id        = 22235,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20930,8},{21130,8}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 71054,
+	gain      = [{90010012,0},{20930,13},{21130,13}]
+};
+find(22236) -> #cfg_magic_card{
+	id        = 22236,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20930,999},{21130,999}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1030},{1306,1925}],
+	rare      = [],
+	gate      = 78,
+	score     = 85266,
+	gain      = [{90010012,0},{20930,21},{21130,21}]
+};
+find(22240) -> #cfg_magic_card{
+	id        = 22240,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20940,1},{21140,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1515},{1306,2820}],
+	rare      = [],
+	gate      = 78,
+	score     = 44132,
+	gain      = [{90010012,0},{90010014,625},{20940,1},{21140,1}]
+};
+find(22241) -> #cfg_magic_card{
+	id        = 22241,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20940,1},{21140,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,1892.5},{1306,3525}],
+	rare      = [],
+	gate      = 78,
+	score     = 61786,
+	gain      = [{90010012,0},{90010014,625},{20940,2},{21140,2}]
+};
+find(22242) -> #cfg_magic_card{
+	id        = 22242,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20940,2},{21140,2}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,2270},{1306,4230}],
+	rare      = [],
+	gate      = 78,
+	score     = 81646,
+	gain      = [{90010012,0},{90010014,625},{20940,3},{21140,3}]
+};
+find(22243) -> #cfg_magic_card{
+	id        = 22243,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20940,3},{21140,3}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,2722.5},{1306,5075}],
+	rare      = [],
+	gate      = 78,
+	score     = 103712,
+	gain      = [{90010012,0},{90010014,625},{20940,5},{21140,5}]
+};
+find(22244) -> #cfg_magic_card{
+	id        = 22244,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20940,5},{21140,5}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,3250},{1306,6060}],
+	rare      = [],
+	gate      = 78,
+	score     = 127986,
+	gain      = [{90010012,0},{90010014,625},{20940,8},{21140,8}]
+};
+find(22245) -> #cfg_magic_card{
+	id        = 22245,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20940,8},{21140,8}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,3852.5},{1306,7185}],
+	rare      = [],
+	gate      = 78,
+	score     = 154466,
+	gain      = [{90010012,0},{90010014,625},{20940,13},{21140,13}]
+};
+find(22246) -> #cfg_magic_card{
+	id        = 22246,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20940,999},{21140,999}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,4605},{1306,8592.5}],
+	rare      = [],
+	gate      = 78,
+	score     = 185360,
+	gain      = [{90010012,0},{90010014,625},{20940,21},{21140,21}]
+};
+find(22250) -> #cfg_magic_card{
+	id        = 22250,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20950,1},{21150,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,2270},{1306,4230}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 75026,
+	gain      = [{90010012,0},{90010014,930},{20950,1},{21150,1}]
+};
+find(22251) -> #cfg_magic_card{
+	id        = 22251,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20950,1},{21150,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,3405},{1306,6345}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 105036,
+	gain      = [{90010012,0},{90010014,930},{20950,2},{21150,2}]
+};
+find(22252) -> #cfg_magic_card{
+	id        = 22252,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20950,2},{21150,2}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,4540},{1306,8460}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 138800,
+	gain      = [{90010012,0},{90010014,930},{20950,3},{21150,3}]
+};
+find(22253) -> #cfg_magic_card{
+	id        = 22253,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20950,3},{21150,3}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,5900},{1306,11000}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 176312,
+	gain      = [{90010012,0},{90010014,930},{20950,5},{21150,5}]
+};
+find(22254) -> #cfg_magic_card{
+	id        = 22254,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20950,5},{21150,5}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,7485},{1306,13965}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 217578,
+	gain      = [{90010012,0},{90010014,930},{20950,8},{21150,8}]
+};
+find(22255) -> #cfg_magic_card{
+	id        = 22255,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20950,8},{21150,8}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,9295},{1306,17355}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 262594,
+	gain      = [{90010012,0},{90010014,930},{20950,13},{21150,13}]
+};
+find(22256) -> #cfg_magic_card{
+	id        = 22256,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20950,999},{21150,999}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,11560},{1306,21595}],
+	rare      = [{13,50}],
+	gate      = 78,
+	score     = 315112,
+	gain      = [{90010012,0},{90010014,930},{20950,21},{21150,21}]
+};
+find(22260) -> #cfg_magic_card{
+	id        = 22260,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20960,1},{21160,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,3025},{1306,5640}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 123574,
+	gain      = [{90010012,0},{90010014,2000},{20960,1},{21160,1}]
+};
+find(22261) -> #cfg_magic_card{
+	id        = 22261,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20960,1},{21160,1}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,4540},{1306,8460}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 173002,
+	gain      = [{90010012,0},{90010014,2000},{20960,2},{21160,2}]
+};
+find(22262) -> #cfg_magic_card{
+	id        = 22262,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20960,2},{21160,2}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,6055},{1306,11280}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 228612,
+	gain      = [{90010012,0},{90010014,2000},{20960,3},{21160,3}]
+};
+find(22263) -> #cfg_magic_card{
+	id        = 22263,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20960,3},{21160,3}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,7875},{1306,14665}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 290398,
+	gain      = [{90010012,0},{90010014,2000},{20960,5},{21160,5}]
+};
+find(22264) -> #cfg_magic_card{
+	id        = 22264,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20960,5},{21160,5}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,10000},{1306,18615}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 358364,
+	gain      = [{90010012,0},{90010014,2000},{20960,8},{21160,8}]
+};
+find(22265) -> #cfg_magic_card{
+	id        = 22265,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20960,8},{21160,8}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,12430},{1306,23130}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 432508,
+	gain      = [{90010012,0},{90010014,2000},{20960,13},{21160,13}]
+};
+find(22266) -> #cfg_magic_card{
+	id        = 22266,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20960,999},{21160,999}],
+	slot      = 1,
+	attr_type = "1304@1306",
+	base      = [{1304,15470},{1306,28775}],
+	rare      = [{13,100}],
+	gate      = 78,
+	score     = 519010,
+	gain      = [{90010012,0},{90010014,2000},{20960,21},{21160,21}]
+};
+find(22310) -> #cfg_magic_card{
+	id        = 22310,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20110,1},{21310,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 9835,
+	gain      = [{90010012,0},{20110,1},{21310,1}]
+};
+find(22311) -> #cfg_magic_card{
+	id        = 22311,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20110,1},{21310,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 13769,
+	gain      = [{90010012,0},{20110,2},{21310,2}]
+};
+find(22312) -> #cfg_magic_card{
+	id        = 22312,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20110,2},{21310,2}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 18195,
+	gain      = [{90010012,0},{20110,3},{21310,3}]
+};
+find(22313) -> #cfg_magic_card{
+	id        = 22313,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20110,3},{21310,3}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 23112,
+	gain      = [{90010012,0},{20110,5},{21310,5}]
+};
+find(22314) -> #cfg_magic_card{
+	id        = 22314,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20110,5},{21310,5}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 28522,
+	gain      = [{90010012,0},{20110,8},{21310,8}]
+};
+find(22315) -> #cfg_magic_card{
+	id        = 22315,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20110,8},{21310,8}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 34423,
+	gain      = [{90010012,0},{20110,13},{21310,13}]
+};
+find(22316) -> #cfg_magic_card{
+	id        = 22316,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20110,999},{21310,999}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,1575},{1404,2395}],
+	rare      = [],
+	gate      = 66,
+	score     = 41308,
+	gain      = [{90010012,0},{20110,21},{21310,21}]
+};
+find(22330) -> #cfg_magic_card{
+	id        = 22330,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20130,1},{21330,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 17400,
+	gain      = [{90010012,0},{20130,1},{21330,1}]
+};
+find(22331) -> #cfg_magic_card{
+	id        = 22331,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20130,1},{21330,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 24361,
+	gain      = [{90010012,0},{20130,2},{21330,2}]
+};
+find(22332) -> #cfg_magic_card{
+	id        = 22332,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20130,2},{21330,2}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 32191,
+	gain      = [{90010012,0},{20130,3},{21330,3}]
+};
+find(22333) -> #cfg_magic_card{
+	id        = 22333,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20130,3},{21330,3}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 40892,
+	gain      = [{90010012,0},{20130,5},{21330,5}]
+};
+find(22334) -> #cfg_magic_card{
+	id        = 22334,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20130,5},{21330,5}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 50463,
+	gain      = [{90010012,0},{20130,8},{21330,8}]
+};
+find(22335) -> #cfg_magic_card{
+	id        = 22335,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20130,8},{21330,8}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 60903,
+	gain      = [{90010012,0},{20130,13},{21330,13}]
+};
+find(22336) -> #cfg_magic_card{
+	id        = 22336,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20130,999},{21330,999}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,2745},{1404,3990}],
+	rare      = [],
+	gate      = 66,
+	score     = 73085,
+	gain      = [{90010012,0},{20130,21},{21330,21}]
+};
+find(22340) -> #cfg_magic_card{
+	id        = 22340,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20140,1},{21340,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,4800},{1404,5845}],
+	rare      = [],
+	gate      = 66,
+	score     = 37828,
+	gain      = [{90010012,0},{90010014,625},{20140,1},{21340,1}]
+};
+find(22341) -> #cfg_magic_card{
+	id        = 22341,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20140,1},{21340,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,6300},{1404,7305}],
+	rare      = [],
+	gate      = 66,
+	score     = 52959,
+	gain      = [{90010012,0},{90010014,625},{20140,2},{21340,2}]
+};
+find(22342) -> #cfg_magic_card{
+	id        = 22342,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20140,2},{21340,2}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,7800},{1404,8765}],
+	rare      = [],
+	gate      = 66,
+	score     = 69982,
+	gain      = [{90010012,0},{90010014,625},{20140,3},{21340,3}]
+};
+find(22343) -> #cfg_magic_card{
+	id        = 22343,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20140,3},{21340,3}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,9600},{1404,10517.5}],
+	rare      = [],
+	gate      = 66,
+	score     = 88896,
+	gain      = [{90010012,0},{90010014,625},{20140,5},{21340,5}]
+};
+find(22344) -> #cfg_magic_card{
+	id        = 22344,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20140,5},{21340,5}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,11700},{1404,12562.5}],
+	rare      = [],
+	gate      = 66,
+	score     = 109702,
+	gain      = [{90010012,0},{90010014,625},{20140,8},{21340,8}]
+};
+find(22345) -> #cfg_magic_card{
+	id        = 22345,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20140,8},{21340,8}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,14100},{1404,14900}],
+	rare      = [],
+	gate      = 66,
+	score     = 132400,
+	gain      = [{90010012,0},{90010014,625},{20140,13},{21340,13}]
+};
+find(22346) -> #cfg_magic_card{
+	id        = 22346,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20140,999},{21340,999}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,17100},{1404,17822.5}],
+	rare      = [],
+	gate      = 66,
+	score     = 158880,
+	gain      = [{90010012,0},{90010014,625},{20140,21},{21340,21}]
+};
+find(22350) -> #cfg_magic_card{
+	id        = 22350,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20150,1},{21350,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,6840},{1404,8770}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 64308,
+	gain      = [{90010012,0},{90010014,930},{20150,1},{21350,1}]
+};
+find(22351) -> #cfg_magic_card{
+	id        = 22351,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20150,1},{21350,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,11115},{1404,13155}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 90031,
+	gain      = [{90010012,0},{90010014,930},{20150,2},{21350,2}]
+};
+find(22352) -> #cfg_magic_card{
+	id        = 22352,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20150,2},{21350,2}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,15390},{1404,17540}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 118971,
+	gain      = [{90010012,0},{90010014,930},{20150,3},{21350,3}]
+};
+find(22353) -> #cfg_magic_card{
+	id        = 22353,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20150,3},{21350,3}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,20520},{1404,22800}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 151125,
+	gain      = [{90010012,0},{90010014,930},{20150,5},{21350,5}]
+};
+find(22354) -> #cfg_magic_card{
+	id        = 22354,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20150,5},{21350,5}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,26505},{1404,28935}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 186495,
+	gain      = [{90010012,0},{90010014,930},{20150,8},{21350,8}]
+};
+find(22355) -> #cfg_magic_card{
+	id        = 22355,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20150,8},{21350,8}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,33345},{1404,35945}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 225080,
+	gain      = [{90010012,0},{90010014,930},{20150,13},{21350,13}]
+};
+find(22356) -> #cfg_magic_card{
+	id        = 22356,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20150,999},{21350,999}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,41895},{1404,44710}],
+	rare      = [{1104,100}],
+	gate      = 66,
+	score     = 270096,
+	gain      = [{90010012,0},{90010014,930},{20150,21},{21350,21}]
+};
+find(22360) -> #cfg_magic_card{
+	id        = 22360,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20160,1},{21360,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,9600},{1404,11690}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 105920,
+	gain      = [{90010012,0},{90010014,2000},{20160,1},{21360,1}]
+};
+find(22361) -> #cfg_magic_card{
+	id        = 22361,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20160,1},{21360,1}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,15600},{1404,17535}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 148288,
+	gain      = [{90010012,0},{90010014,2000},{20160,2},{21360,2}]
+};
+find(22362) -> #cfg_magic_card{
+	id        = 22362,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20160,2},{21360,2}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,21600},{1404,23380}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 195953,
+	gain      = [{90010012,0},{90010014,2000},{20160,3},{21360,3}]
+};
+find(22363) -> #cfg_magic_card{
+	id        = 22363,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20160,3},{21360,3}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,28800},{1404,30395}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 248912,
+	gain      = [{90010012,0},{90010014,2000},{20160,5},{21360,5}]
+};
+find(22364) -> #cfg_magic_card{
+	id        = 22364,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20160,5},{21360,5}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,37200},{1404,38580}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 307169,
+	gain      = [{90010012,0},{90010014,2000},{20160,8},{21360,8}]
+};
+find(22365) -> #cfg_magic_card{
+	id        = 22365,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20160,8},{21360,8}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,46800},{1404,47935}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 370721,
+	gain      = [{90010012,0},{90010014,2000},{20160,13},{21360,13}]
+};
+find(22366) -> #cfg_magic_card{
+	id        = 22366,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20160,999},{21360,999}],
+	slot      = 1,
+	attr_type = "4@1404",
+	base      = [{4,58800},{1404,59630}],
+	rare      = [{1104,200}],
+	gate      = 66,
+	score     = 444866,
+	gain      = [{90010012,0},{90010014,2000},{20160,21},{21360,21}]
+};
+find(22410) -> #cfg_magic_card{
+	id        = 22410,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20310,1},{21510,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 9835,
+	gain      = [{90010012,0},{20310,1},{21510,1}]
+};
+find(22411) -> #cfg_magic_card{
+	id        = 22411,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20310,1},{21510,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 13769,
+	gain      = [{90010012,0},{20310,2},{21510,2}]
+};
+find(22412) -> #cfg_magic_card{
+	id        = 22412,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20310,2},{21510,2}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 18195,
+	gain      = [{90010012,0},{20310,3},{21510,3}]
+};
+find(22413) -> #cfg_magic_card{
+	id        = 22413,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20310,3},{21510,3}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 23112,
+	gain      = [{90010012,0},{20310,5},{21510,5}]
+};
+find(22414) -> #cfg_magic_card{
+	id        = 22414,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20310,5},{21510,5}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 28522,
+	gain      = [{90010012,0},{20310,8},{21510,8}]
+};
+find(22415) -> #cfg_magic_card{
+	id        = 22415,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20310,8},{21510,8}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 34423,
+	gain      = [{90010012,0},{20310,13},{21510,13}]
+};
+find(22416) -> #cfg_magic_card{
+	id        = 22416,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20310,999},{21510,999}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,1575},{1406,4500}],
+	rare      = [],
+	gate      = 70,
+	score     = 41308,
+	gain      = [{90010012,0},{20310,21},{21510,21}]
+};
+find(22430) -> #cfg_magic_card{
+	id        = 22430,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20330,1},{21530,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 17400,
+	gain      = [{90010012,0},{20330,1},{21530,1}]
+};
+find(22431) -> #cfg_magic_card{
+	id        = 22431,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20330,1},{21530,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 24361,
+	gain      = [{90010012,0},{20330,2},{21530,2}]
+};
+find(22432) -> #cfg_magic_card{
+	id        = 22432,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20330,2},{21530,2}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 32191,
+	gain      = [{90010012,0},{20330,3},{21530,3}]
+};
+find(22433) -> #cfg_magic_card{
+	id        = 22433,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20330,3},{21530,3}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 40892,
+	gain      = [{90010012,0},{20330,5},{21530,5}]
+};
+find(22434) -> #cfg_magic_card{
+	id        = 22434,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20330,5},{21530,5}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 50463,
+	gain      = [{90010012,0},{20330,8},{21530,8}]
+};
+find(22435) -> #cfg_magic_card{
+	id        = 22435,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20330,8},{21530,8}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 60903,
+	gain      = [{90010012,0},{20330,13},{21530,13}]
+};
+find(22436) -> #cfg_magic_card{
+	id        = 22436,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20330,999},{21530,999}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,2745},{1406,7500}],
+	rare      = [],
+	gate      = 70,
+	score     = 73085,
+	gain      = [{90010012,0},{20330,21},{21530,21}]
+};
+find(22440) -> #cfg_magic_card{
+	id        = 22440,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20340,1},{21540,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,4800},{1406,11000}],
+	rare      = [],
+	gate      = 70,
+	score     = 37828,
+	gain      = [{90010012,0},{90010014,625},{20340,1},{21540,1}]
+};
+find(22441) -> #cfg_magic_card{
+	id        = 22441,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20340,1},{21540,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,6300},{1406,13750}],
+	rare      = [],
+	gate      = 70,
+	score     = 52959,
+	gain      = [{90010012,0},{90010014,625},{20340,2},{21540,2}]
+};
+find(22442) -> #cfg_magic_card{
+	id        = 22442,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20340,2},{21540,2}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,7800},{1406,16500}],
+	rare      = [],
+	gate      = 70,
+	score     = 69982,
+	gain      = [{90010012,0},{90010014,625},{20340,3},{21540,3}]
+};
+find(22443) -> #cfg_magic_card{
+	id        = 22443,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20340,3},{21540,3}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,9600},{1406,19800}],
+	rare      = [],
+	gate      = 70,
+	score     = 88896,
+	gain      = [{90010012,0},{90010014,625},{20340,5},{21540,5}]
+};
+find(22444) -> #cfg_magic_card{
+	id        = 22444,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20340,5},{21540,5}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,11700},{1406,23650}],
+	rare      = [],
+	gate      = 70,
+	score     = 109702,
+	gain      = [{90010012,0},{90010014,625},{20340,8},{21540,8}]
+};
+find(22445) -> #cfg_magic_card{
+	id        = 22445,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20340,8},{21540,8}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,14100},{1406,28050}],
+	rare      = [],
+	gate      = 70,
+	score     = 132400,
+	gain      = [{90010012,0},{90010014,625},{20340,13},{21540,13}]
+};
+find(22446) -> #cfg_magic_card{
+	id        = 22446,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20340,999},{21540,999}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,17100},{1406,33550}],
+	rare      = [],
+	gate      = 70,
+	score     = 158880,
+	gain      = [{90010012,0},{90010014,625},{20340,21},{21540,21}]
+};
+find(22450) -> #cfg_magic_card{
+	id        = 22450,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20350,1},{21550,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,6840},{1406,16500}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 64308,
+	gain      = [{90010012,0},{90010014,930},{20350,1},{21550,1}]
+};
+find(22451) -> #cfg_magic_card{
+	id        = 22451,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20350,1},{21550,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,11115},{1406,24750}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 90031,
+	gain      = [{90010012,0},{90010014,930},{20350,2},{21550,2}]
+};
+find(22452) -> #cfg_magic_card{
+	id        = 22452,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20350,2},{21550,2}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,15390},{1406,33000}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 118971,
+	gain      = [{90010012,0},{90010014,930},{20350,3},{21550,3}]
+};
+find(22453) -> #cfg_magic_card{
+	id        = 22453,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20350,3},{21550,3}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,20520},{1406,42900}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 151125,
+	gain      = [{90010012,0},{90010014,930},{20350,5},{21550,5}]
+};
+find(22454) -> #cfg_magic_card{
+	id        = 22454,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20350,5},{21550,5}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,26505},{1406,54450}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 186495,
+	gain      = [{90010012,0},{90010014,930},{20350,8},{21550,8}]
+};
+find(22455) -> #cfg_magic_card{
+	id        = 22455,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20350,8},{21550,8}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,33345},{1406,67650}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 225080,
+	gain      = [{90010012,0},{90010014,930},{20350,13},{21550,13}]
+};
+find(22456) -> #cfg_magic_card{
+	id        = 22456,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20350,999},{21550,999}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,41895},{1406,84150}],
+	rare      = [{1106,100}],
+	gate      = 70,
+	score     = 270096,
+	gain      = [{90010012,0},{90010014,930},{20350,21},{21550,21}]
+};
+find(22460) -> #cfg_magic_card{
+	id        = 22460,
+	star      = 0,
+	max_star  = 6,
+	cost      = [{20360,1},{21560,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,9600},{1406,22000}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 105920,
+	gain      = [{90010012,0},{90010014,2000},{20360,1},{21560,1}]
+};
+find(22461) -> #cfg_magic_card{
+	id        = 22461,
+	star      = 1,
+	max_star  = 6,
+	cost      = [{20360,1},{21560,1}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,15600},{1406,33000}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 148288,
+	gain      = [{90010012,0},{90010014,2000},{20360,2},{21560,2}]
+};
+find(22462) -> #cfg_magic_card{
+	id        = 22462,
+	star      = 2,
+	max_star  = 6,
+	cost      = [{20360,2},{21560,2}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,21600},{1406,44000}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 195953,
+	gain      = [{90010012,0},{90010014,2000},{20360,3},{21560,3}]
+};
+find(22463) -> #cfg_magic_card{
+	id        = 22463,
+	star      = 3,
+	max_star  = 6,
+	cost      = [{20360,3},{21560,3}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,28800},{1406,57200}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 248912,
+	gain      = [{90010012,0},{90010014,2000},{20360,5},{21560,5}]
+};
+find(22464) -> #cfg_magic_card{
+	id        = 22464,
+	star      = 4,
+	max_star  = 6,
+	cost      = [{20360,5},{21560,5}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,37200},{1406,72600}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 307169,
+	gain      = [{90010012,0},{90010014,2000},{20360,8},{21560,8}]
+};
+find(22465) -> #cfg_magic_card{
+	id        = 22465,
+	star      = 5,
+	max_star  = 6,
+	cost      = [{20360,8},{21560,8}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,46800},{1406,90200}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 370721,
+	gain      = [{90010012,0},{90010014,2000},{20360,13},{21560,13}]
+};
+find(22466) -> #cfg_magic_card{
+	id        = 22466,
+	star      = 6,
+	max_star  = 6,
+	cost      = [{20360,999},{21560,999}],
+	slot      = 1,
+	attr_type = "6@1406",
+	base      = [{6,58800},{1406,112200}],
+	rare      = [{1106,200}],
+	gate      = 70,
+	score     = 444866,
+	gain      = [{90010012,0},{90010014,2000},{20360,21},{21560,21}]
+};
+find(_) -> undefined.

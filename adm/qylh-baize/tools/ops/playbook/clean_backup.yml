@@ -1,0 +1,20 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+  - name: find backup file which {{ days_ago }} ago
+    find:
+      paths: "{{ backup_path }}"
+      age: "{{ days_ago }}"
+    register: files_to_delete
+
+  - name: remove backup file
+    file:
+      path: "{{ item.path }}"
+      state: absent
+    with_items: "{{ files_to_delete.files }}"

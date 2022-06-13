@@ -1,0 +1,6 @@
+---
+
+- name: stop server
+  shell: sh xctl stop
+  args:
+    chdir: "{{ serv_path }}"

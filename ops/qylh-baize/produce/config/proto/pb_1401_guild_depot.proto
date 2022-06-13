@@ -1,0 +1,82 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 仓库信息
+message m_guild_depot_info_tos { //1401001
+
+}
+
+message m_guild_depot_info_toc { //1401001
+	required int32        score = 1; // 仓库积分
+	repeated p_item_base  items = 2; // 物品列表
+	repeated p_donate_log logs  = 3; // 捐献日志
+}
+
+// 物品信息
+message m_guild_depot_detail_tos { //1401002
+	required int32 uid = 1;
+}
+
+message m_guild_depot_detail_toc{ //1401002
+	required p_item item = 1;
+}
+
+// 捐献
+message m_guild_depot_donate_tos { //1401003
+	required int32 uid = 1; // #p_item.uid
+}
+
+message m_guild_depot_donate_toc { //1401003
+	required fixed64 role_id   = 1; // 捐献者id
+	required string  role_name = 2; // 捐献者名称
+	required p_item  item      = 3; // 所捐道具
+	required int32   score     = 4; // 所获积分
+	required int32   time      = 5;
+}
+
+// 兑换
+message m_guild_depot_exch_tos { //1401004
+	required int32 uid = 1; // #p_item.uid
+}
+
+message m_guild_depot_exch_toc { //1401004
+	required fixed64 role_id   = 1; // 兑换者id
+	required string  role_name = 2; // 兑换者名称
+	required p_item  item      = 3; // 所兑道具
+	required int32   score     = 4; // 消耗积分
+	required int32   time      = 5;
+}
+
+// 换购
+message m_guild_depot_buy_tos { //1401005
+	required int32 item_id = 1;
+	required int32 num     = 2;
+}
+
+message m_guild_depot_buy_toc { //1401005
+	required fixed64 role_id   = 1; // 兑换者id
+	required string  role_name = 2; // 兑换者名称
+	required p_item  item      = 3; // 所兑道具
+	required int32   score     = 4; // 消耗积分
+	required int32   time      = 5;
+}
+
+// 销毁
+message m_guild_depot_destroy_tos { //1401006
+	repeated int32 uids = 1;
+}
+
+message m_guild_depot_destroy_toc { //1401006
+	repeated int32 uids = 1;
+}
+
+
+// 捐献日志
+message p_donate_log {
+	required int32   type      = 1; // 1=捐献; 2=兑换
+	required fixed64 role_id   = 2;
+	required string  role_name = 3;
+	required p_item  item      = 4;
+	required int32   score     = 5;
+	required int32   time      = 6;
+}

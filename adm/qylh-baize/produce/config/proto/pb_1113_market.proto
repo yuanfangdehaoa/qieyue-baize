@@ -1,0 +1,171 @@
+syntax = "proto2";
+import "pb_comm.proto";
+
+// 商品统计
+message m_market_stat_tos { //1113001
+	required int32 type = 1; // 类型
+}
+
+message m_market_stat_toc { //1113001
+	required int32    type  = 1; // 类型
+	map<int32, int32> stat  = 2; // key=子类, val=数量
+	required int32    times = 3; // 交易次数
+}
+
+// 商品列表
+message m_market_list_tos { //1113002
+	required int32 type  = 1; // 类型
+	required int32 stype = 2; // 子类
+}
+
+message m_market_list_toc { //1113002
+	required int32         type  = 1;
+	required int32         stype = 2; // 子类
+	repeated p_market_item items = 3;
+}
+
+// 商品详情
+message m_market_detail_tos { //1113003
+	required fixed64 uid = 1; // p_market_item.uid
+}
+
+message m_market_detail_toc { //1113003
+	required p_item item = 1;
+}
+
+// 搜索
+message m_market_search_tos { //1113004
+	repeated int32 item_ids = 1;
+}
+
+message m_market_search_toc { //1113004
+	repeated p_market_item items = 1;
+}
+
+// 已上架商品
+message m_market_saling_tos { //1113005
+}
+
+message m_market_saling_toc { //1113005
+	repeated p_market_item items = 1;
+}
+
+// 上架
+message m_market_sale_tos { //1113006
+	required int32 uid   = 1; // p_item.uid
+	required int32 num   = 2;
+	required int32 price = 3; // 单价
+}
+
+message m_market_sale_toc { //1113006
+	required p_market_item item = 1;
+}
+
+// 指定交易信息
+message m_market_dealing_tos { //1113007
+
+}
+
+message m_market_dealing_toc { //1113007
+	repeated p_market_deal from_me = 1;
+	repeated p_market_deal to_me   = 2;
+}
+
+// 指定交易上架
+message m_market_deal_tos { //1113008
+	required fixed64 to_role  = 1; // 指定与谁交易
+	required int32   item_uid = 2; // p_item.uid
+	required int32   item_num = 3;
+	required int32   price    = 4; // 单价
+}
+
+message m_market_deal_toc { //1113008
+	required p_market_deal deal = 1;
+}
+
+// 下架
+message m_market_remove_tos { //1113009
+	required int32   type = 1; // 1=市场交易; 2=指定交易
+	required fixed64 uid  = 2; // p_market_item.uid
+}
+
+message m_market_remove_toc { //1113009
+	required int32   type = 1; // 1=市场交易; 2=指定交易
+	required fixed64 uid  = 2; // p_market_item.uid
+}
+
+// 修改价格
+message m_market_alter_tos { //1113010
+	required fixed64 uid   = 1; // p_market_item.uid
+	required int32   price = 2;
+}
+
+message m_market_alter_toc { //1113010
+	required fixed64 uid   = 1; // p_market_item.uid
+	required int32   price = 2;
+}
+
+// 购买
+message m_market_buy_tos { //1113011
+	required int32   type  = 1; // 1=市场交易; 2=指定交易
+	required fixed64 uid   = 2; // p_market_item.uid
+	required int32   num   = 3; // 购买数量
+	required int32   price = 4; // 购买单价
+}
+
+message m_market_buy_toc { //1113011
+	required int32   type = 1; // 1=市场交易; 2=指定交易
+	required fixed64 uid  = 2; // p_market_item.uid
+}
+
+// 拒绝交易
+message m_market_refuse_tos { //1113012
+	required fixed64 uid = 1; // p_market_item.uid
+}
+
+message m_market_refuse_toc { //1113012
+	required fixed64 uid = 1; // p_market_item.uid
+}
+
+// 交易日志
+message m_market_log_tos { //1113013
+}
+
+message m_market_log_toc { //1113013
+	repeated p_market_log logs = 1;
+}
+
+// 交易次数更新
+message m_market_dealtimes_toc { //1113014
+	required int32    times = 1; // 交易次数
+}
+
+message p_market_item {
+	required fixed64  uid    = 1;  // 唯一id
+	required int32    id     = 2;  // 道具id
+	required fixed64  owner  = 3;  // 所属玩家
+	required int32    num    = 4;  // 数量
+	required bool     bind   = 5;  // 是否绑定
+	required int32    gender = 6;  // 性别
+	optional int32    score  = 7;  // 评分
+	optional int32    extra  = 8;  // 附加数据(物品自定义使用:魔法卡强化等级)
+	required int32    price  = 9;  // 单价
+	required int32    time   = 10; // 上架时间
+	map<string,int32> misc   = 11;
+}
+
+message p_market_deal {
+	required fixed64       from_id   = 1; // 由谁发起
+	required string        from_name = 2;
+	required fixed64       to_id     = 3; // 向谁发起
+	required string        to_name   = 4;
+	required p_market_item item      = 5;
+}
+
+message p_market_log {
+	required p_market_item item  = 1;
+	required int32         type  = 2; // 交易类型 1=市场交易; 2=指定交易
+	required int32         time  = 3; // 交易时间
+	required int32         tax   = 4; // 交易税
+	required int32         inout = 5; // 收支
+}

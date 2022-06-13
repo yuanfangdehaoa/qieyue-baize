@@ -1,0 +1,7 @@
+wan_adm ansible_ssh_host=42.193.1.56
+wan_ops ansible_ssh_host=42.193.1.56
+wan_cdn ansible_ssh_host=42.193.1.56
+
+lan_adm ansible_ssh_host=172.27.0.9
+lan_ops ansible_ssh_host=172.27.0.9
+lan_cdn ansible_ssh_host=172.27.0.9

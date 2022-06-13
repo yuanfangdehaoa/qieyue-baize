@@ -1,0 +1,42 @@
+syntax = "proto2";
+
+// 日常活跃度
+message m_weekly_info_tos { //1115001
+
+}
+
+message m_weekly_info_toc { //1115001
+    repeated p_weekly   list     = 1;
+    repeated int32      rewarded = 2; //已领奖的ID
+    required int32      total    = 3; //累计完成的活跃度
+}
+
+// 推送活跃度更新
+message m_weekly_update_toc { //1115002
+    required p_weekly    weekly  = 1;
+}
+
+// 完成单项活动， 领取奖励
+message m_weekly_finish_tos { //1115003
+    required int32      id      = 1;
+}
+
+message m_weekly_finish_toc { //1115003
+    required p_weekly    weekly   = 1;
+    required int32       total    = 2; //累计完成的活跃度
+}
+
+// 领取奖励
+message m_weekly_reward_tos { //1115004
+    required int32      id      = 1; //奖励ID
+}
+
+message m_weekly_reward_toc { //1115004
+    required int32      id      = 1; //领取成功
+}
+
+message p_weekly {
+    required int32      id       = 1;
+    required int32      progress = 2; //完成的次数
+    required bool       rewarded = 3; //是否领取奖励
+}

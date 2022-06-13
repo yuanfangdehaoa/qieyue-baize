@@ -1,0 +1,50 @@
+---
+
+- hosts: "{{ servers }}"
+  remote_user: root
+  gather_facts: no
+  vars_files:
+    - "vars/common.yml"
+
+  tasks:
+    - name: rm old data
+      file:
+        path: "{{ serv_path }}/data"
+        state: absent
+
+    - name: mkdir dir {{ serv_path }}/data
+        file:
+          path: "{{ serv_path }}/data"
+          state: directory
+
+    - name: create data schema
+      args:
+        chdir: "{{ serv_path }}"
+        shell: sh xctl schema
+
+    - name: backup mnesia schema file
+      shell: mv -f ./data/schema.DAT ./
+      args:
+        chdir: "{{ serv_path }}"
+
+    - name: rm old data
+      file:
+        path: "{{ serv_path }}/data"
+        state: absent
+
+    - name: mkdir dir {{ serv_path }}/data
+        file:
+          path: "{{ serv_path }}/data"
+          state: directory
+
+    - name: unarchive lastest backup db file
+      unarchive:
+        remote_src: yes
+        dest: "{{ serv_path }}/data"
+        src: "{{ dir_backup }}/server-{{ plat_name }}-{{ serv_id }}-lastest.tar.gz"
+
+
+    - name: restore mnesia schema file
+      shell: mv -f ./schema.DAT ./data/
+      args:
+        chdir: "{{ serv_path }}"

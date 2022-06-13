@@ -1,0 +1,4 @@
+drop
+game_cheat
+i18n
+i18n_cols

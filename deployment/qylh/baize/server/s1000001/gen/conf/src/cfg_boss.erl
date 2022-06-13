@@ -1,0 +1,5070 @@
+% Automatically generated, do not edit
+-module(cfg_boss).
+
+-compile([export_all]).
+-compile(nowarn_export_all).
+
+-include("boss.hrl").
+
+find(20000001) -> #cfg_boss{
+	id     = 20000001,
+	name   = "空灵领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 0,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20000,
+	coord  = {1780,1562},
+	reborn = [{1,999,180}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20000002) -> #cfg_boss{
+	id     = 20000002,
+	name   = "鲨鱼猎手",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 0,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20000,
+	coord  = {4612,2764},
+	reborn = [{1,999,300}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20000003) -> #cfg_boss{
+	id     = 20000003,
+	name   = "剧毒蜘蛛",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 0,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20000,
+	coord  = {8294,2838},
+	reborn = [{1,999,300}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20000004) -> #cfg_boss{
+	id     = 20000004,
+	name   = "守卫魔犬",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 0,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20000,
+	coord  = {958,3982},
+	reborn = [{1,999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20000005) -> #cfg_boss{
+	id     = 20000005,
+	name   = "烈焰魔人",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 0,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20000,
+	coord  = {2572,5640},
+	reborn = [{1,999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20000006) -> #cfg_boss{
+	id     = 20000006,
+	name   = "心灵巨龙",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 0,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20000,
+	coord  = {6123,5435},
+	reborn = [{1,999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001001) -> #cfg_boss{
+	id     = 20001001,
+	name   = "空灵领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {812,1102},
+	reborn = [{1,9999,600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001002) -> #cfg_boss{
+	id     = 20001002,
+	name   = "火岩领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {7198,1318},
+	reborn = [{1,9999,1200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001003) -> #cfg_boss{
+	id     = 20001003,
+	name   = "狂风领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {908,4654},
+	reborn = [{1,9999,1200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001004) -> #cfg_boss{
+	id     = 20001004,
+	name   = "巨石领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {4124,4247},
+	reborn = [{1,149,1200},{150,169,900},{170,9999,600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001005) -> #cfg_boss{
+	id     = 20001005,
+	name   = "虚无领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {7118,3896},
+	reborn = [{1,179,1200},{180,9999,900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001006) -> #cfg_boss{
+	id     = 20001006,
+	name   = "巨力领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {972,7201},
+	reborn = [{1,179,1800},{180,199,1350},{200,9999,900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001007) -> #cfg_boss{
+	id     = 20001007,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {3638,7089},
+	reborn = [{1,179,1800},{180,199,1350},{200,9999,900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20001008) -> #cfg_boss{
+	id     = 20001008,
+	name   = "蓝龙领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20001,
+	coord  = {7070,6243},
+	reborn = [{1,209,3600},{210,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002001) -> #cfg_boss{
+	id     = 20002001,
+	name   = "岩石巨人",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {4055,434},
+	reborn = [{1,209,1800},{210,9999,1350}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002002) -> #cfg_boss{
+	id     = 20002002,
+	name   = "熔岩蜘蛛",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {4330,2226},
+	reborn = [{1,229,3000},{230,9999,2250}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002003) -> #cfg_boss{
+	id     = 20002003,
+	name   = "火焰暴君",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {3220,3424},
+	reborn = [{1,2999,3000}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002004) -> #cfg_boss{
+	id     = 20002004,
+	name   = "炼狱魔犬",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {727,3300},
+	reborn = [{1,269,3000},{270,9999,2250}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002005) -> #cfg_boss{
+	id     = 20002005,
+	name   = "炎神怪力",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {2120,4950},
+	reborn = [{1,9999,3000}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002006) -> #cfg_boss{
+	id     = 20002006,
+	name   = "火焰行者",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {5300,5039},
+	reborn = [{1,269,3000},{270,309,2250},{310,9999,1500}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002007) -> #cfg_boss{
+	id     = 20002007,
+	name   = "黑龙天照",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {6140,3800},
+	reborn = [{1,299,4800},{300,359,3600},{360,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20002008) -> #cfg_boss{
+	id     = 20002008,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20002,
+	coord  = {6876,2350},
+	reborn = [{1,369,4800},{370,389,3600},{390,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003000) -> #cfg_boss{
+	id     = 20003000,
+	name   = "深海精灵",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {3781,1214},
+	reborn = [{1,269,3000},{270,3999,1850}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003001) -> #cfg_boss{
+	id     = 20003001,
+	name   = "狂暴斗鱼",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {2800,2500},
+	reborn = [{1,269,3000},{270,3999,2250}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003002) -> #cfg_boss{
+	id     = 20003002,
+	name   = "海龙王子",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {920,780},
+	reborn = [{1,299,3000},{300,3999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003003) -> #cfg_boss{
+	id     = 20003003,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {6284,3285},
+	reborn = [{1,269,2280},{270,3999,1710}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003004) -> #cfg_boss{
+	id     = 20003004,
+	name   = "霜毒蜘蛛",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {3847,3820},
+	reborn = [{1,299,3000},{300,359,2250},{360,9999,1500}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003005) -> #cfg_boss{
+	id     = 20003005,
+	name   = "深海巨兽",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {1150,3775},
+	reborn = [{1,299,3600},{300,359,2700},{360,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003006) -> #cfg_boss{
+	id     = 20003006,
+	name   = "鲨鱼杀手",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {4462,5244},
+	reborn = [{1,369,3600},{370,389,2700},{390,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003007) -> #cfg_boss{
+	id     = 20003007,
+	name   = "深海游龙",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {1000,6463},
+	reborn = [{1,369,4800},{370,389,3600},{390,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003008) -> #cfg_boss{
+	id     = 20003008,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {3824,6793},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20003009) -> #cfg_boss{
+	id     = 20003009,
+	name   = "海底龙神",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20003,
+	coord  = {6409,6383},
+	reborn = [{1,399,7080},{400,439,5310},{440,9999,3540}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004001) -> #cfg_boss{
+	id     = 20004001,
+	name   = "冰之怨灵",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {1844,944},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004002) -> #cfg_boss{
+	id     = 20004002,
+	name   = "寒冰斧王",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {3266,2403},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004003) -> #cfg_boss{
+	id     = 20004003,
+	name   = "雪铠神将",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {5765,2725},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004004) -> #cfg_boss{
+	id     = 20004004,
+	name   = "冰霜猛犸",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {1818,3633},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004005) -> #cfg_boss{
+	id     = 20004005,
+	name   = "霜雪枪王",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {3000,5059},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004006) -> #cfg_boss{
+	id     = 20004006,
+	name   = "冰甲人马",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {6100,5500},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004007) -> #cfg_boss{
+	id     = 20004007,
+	name   = "北方龙神",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {1287,6000},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20004008) -> #cfg_boss{
+	id     = 20004008,
+	name   = "冰霜战神",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20004,
+	coord  = {3720,6850},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005001) -> #cfg_boss{
+	id     = 20005001,
+	name   = "巨石领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {1844,944},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005002) -> #cfg_boss{
+	id     = 20005002,
+	name   = "熔岩蜘蛛",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {3266,2403},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005003) -> #cfg_boss{
+	id     = 20005003,
+	name   = "暴风龙",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {5765,2725},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005004) -> #cfg_boss{
+	id     = 20005004,
+	name   = "火焰暴君",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {1818,3633},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005005) -> #cfg_boss{
+	id     = 20005005,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {6100,5500},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005006) -> #cfg_boss{
+	id     = 20005006,
+	name   = "守卫魔犬",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {3000,5059},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005007) -> #cfg_boss{
+	id     = 20005007,
+	name   = "心灵巨龙",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {1287,6000},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20005008) -> #cfg_boss{
+	id     = 20005008,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20005,
+	coord  = {3720,6850},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006001) -> #cfg_boss{
+	id     = 20006001,
+	name   = "海龙王子",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {1844,944},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006002) -> #cfg_boss{
+	id     = 20006002,
+	name   = "鲨鱼猎手",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {3266,2403},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006003) -> #cfg_boss{
+	id     = 20006003,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {5765,2725},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006004) -> #cfg_boss{
+	id     = 20006004,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {1818,3633},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006005) -> #cfg_boss{
+	id     = 20006005,
+	name   = "雪铠神将",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {3000,5059},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006006) -> #cfg_boss{
+	id     = 20006006,
+	name   = "冰霜战神",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {6100,5500},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006007) -> #cfg_boss{
+	id     = 20006007,
+	name   = "深渊领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {1287,6000},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20006008) -> #cfg_boss{
+	id     = 20006008,
+	name   = "冰甲人马",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20006,
+	coord  = {3720,6850},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007001) -> #cfg_boss{
+	id     = 20007001,
+	name   = "海龙王子",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {1844,944},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007002) -> #cfg_boss{
+	id     = 20007002,
+	name   = "鲨鱼猎手",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {3266,2403},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007003) -> #cfg_boss{
+	id     = 20007003,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {5765,2725},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007004) -> #cfg_boss{
+	id     = 20007004,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {1818,3633},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007005) -> #cfg_boss{
+	id     = 20007005,
+	name   = "雪铠神将",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {3000,5059},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007006) -> #cfg_boss{
+	id     = 20007006,
+	name   = "冰霜战神",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {6100,5500},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007007) -> #cfg_boss{
+	id     = 20007007,
+	name   = "深渊领主",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {1287,6000},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20007008) -> #cfg_boss{
+	id     = 20007008,
+	name   = "冰甲人马",
+	kind   = 1,
+	type   = 1,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20007,
+	coord  = {3720,6850},
+	reborn = [{1,399,6780},{400,439,5085},{440,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100001) -> #cfg_boss{
+	id     = 20100001,
+	name   = "空灵守卫",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {4971,900},
+	reborn = [{1,999,345}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100002) -> #cfg_boss{
+	id     = 20100002,
+	name   = "焰掌控使",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {5185,2382},
+	reborn = [{1,999,414}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100003) -> #cfg_boss{
+	id     = 20100003,
+	name   = "巨石守卫",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {2214,2360},
+	reborn = [{1,999,483}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100004) -> #cfg_boss{
+	id     = 20100004,
+	name   = "虚无先锋",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {3945,3386},
+	reborn = [{1,999,552}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100005) -> #cfg_boss{
+	id     = 20100005,
+	name   = "巨力将军",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {2011,4214},
+	reborn = [{1,999,690}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100006) -> #cfg_boss{
+	id     = 20100006,
+	name   = "火岩禁卫",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {5765,4417},
+	reborn = [{1,999,1035}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20100007) -> #cfg_boss{
+	id     = 20100007,
+	name   = "熔岩暴君",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20100,
+	coord  = {3781,5342},
+	reborn = [{1,999,1035}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101001) -> #cfg_boss{
+	id     = 20101001,
+	name   = "巨力领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {4971,900},
+	reborn = [{1,999,690}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101002) -> #cfg_boss{
+	id     = 20101002,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {5185,2382},
+	reborn = [{1,999,690}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101003) -> #cfg_boss{
+	id     = 20101003,
+	name   = "火焰暴君",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {2214,2360},
+	reborn = [{1,999,1035}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101004) -> #cfg_boss{
+	id     = 20101004,
+	name   = "炼狱魔犬",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {3945,3386},
+	reborn = [{1,999,1035}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101005) -> #cfg_boss{
+	id     = 20101005,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {2011,4214},
+	reborn = [{1,999,1725}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101006) -> #cfg_boss{
+	id     = 20101006,
+	name   = "狂暴斗鱼",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {5765,4417},
+	reborn = [{1,999,1725}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20101007) -> #cfg_boss{
+	id     = 20101007,
+	name   = "深海巨兽",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20101,
+	coord  = {3781,5342},
+	reborn = [{1,999,2760}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20102001) -> #cfg_boss{
+	id     = 20102001,
+	name   = "炎神怪力",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20102,
+	coord  = {5185,2382},
+	reborn = [{1,999,1725}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20102002) -> #cfg_boss{
+	id     = 20102002,
+	name   = "火焰行者",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20102,
+	coord  = {2214,2360},
+	reborn = [{1,999,1725}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20102003) -> #cfg_boss{
+	id     = 20102003,
+	name   = "海龙王子",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20102,
+	coord  = {3945,3386},
+	reborn = [{1,999,2760}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20102004) -> #cfg_boss{
+	id     = 20102004,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20102,
+	coord  = {2011,4214},
+	reborn = [{1,999,2760}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20102005) -> #cfg_boss{
+	id     = 20102005,
+	name   = "霜毒蜘蛛",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20102,
+	coord  = {5765,4417},
+	reborn = [{1,999,3900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20102006) -> #cfg_boss{
+	id     = 20102006,
+	name   = "深海巨兽",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20102,
+	coord  = {3781,5342},
+	reborn = [{1,999,3900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20103001) -> #cfg_boss{
+	id     = 20103001,
+	name   = "火焰暴君",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20103,
+	coord  = {5185,2382},
+	reborn = [{1,999,2760}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20103002) -> #cfg_boss{
+	id     = 20103002,
+	name   = "炼狱魔犬",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20103,
+	coord  = {2214,2360},
+	reborn = [{1,999,2760}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20103003) -> #cfg_boss{
+	id     = 20103003,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20103,
+	coord  = {3945,3386},
+	reborn = [{1,999,3900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20103004) -> #cfg_boss{
+	id     = 20103004,
+	name   = "狂暴斗鱼",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20103,
+	coord  = {2011,4214},
+	reborn = [{1,999,3900}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20103005) -> #cfg_boss{
+	id     = 20103005,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20103,
+	coord  = {5765,4417},
+	reborn = [{1,999,4680}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20103006) -> #cfg_boss{
+	id     = 20103006,
+	name   = "蓝龙领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 4,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20103,
+	coord  = {3781,5342},
+	reborn = [{1,999,4968}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104001) -> #cfg_boss{
+	id     = 20104001,
+	name   = "黑龙天照",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {4971,900},
+	reborn = [{1,999,4968}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104002) -> #cfg_boss{
+	id     = 20104002,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {5185,2382},
+	reborn = [{1,999,4968}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104003) -> #cfg_boss{
+	id     = 20104003,
+	name   = "鲨鱼杀手",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {2214,2360},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104004) -> #cfg_boss{
+	id     = 20104004,
+	name   = "深海游龙",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {3945,3386},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104005) -> #cfg_boss{
+	id     = 20104005,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {2011,4214},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104006) -> #cfg_boss{
+	id     = 20104006,
+	name   = "蓝龙领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {5765,4417},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20104007) -> #cfg_boss{
+	id     = 20104007,
+	name   = "黑龙天照",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 5,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20104,
+	coord  = {3781,5342},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105001) -> #cfg_boss{
+	id     = 20105001,
+	name   = "巨石领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {4971,900},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105002) -> #cfg_boss{
+	id     = 20105002,
+	name   = "熔岩蜘蛛",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {2214,2360},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105003) -> #cfg_boss{
+	id     = 20105003,
+	name   = "暴风龙",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {5185,2382},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105004) -> #cfg_boss{
+	id     = 20105004,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {3945,3386},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105005) -> #cfg_boss{
+	id     = 20105005,
+	name   = "守卫魔犬",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {2011,4214},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105006) -> #cfg_boss{
+	id     = 20105006,
+	name   = "心灵巨龙",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {5765,4417},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20105007) -> #cfg_boss{
+	id     = 20105007,
+	name   = "海龙王子",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 6,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20105,
+	coord  = {3781,5342},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106001) -> #cfg_boss{
+	id     = 20106001,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {4971,900},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106002) -> #cfg_boss{
+	id     = 20106002,
+	name   = "鲨鱼猎手",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {2214,2360},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106003) -> #cfg_boss{
+	id     = 20106003,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {5185,2382},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106004) -> #cfg_boss{
+	id     = 20106004,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {3945,3386},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106005) -> #cfg_boss{
+	id     = 20106005,
+	name   = "深渊领主",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {2011,4214},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106006) -> #cfg_boss{
+	id     = 20106006,
+	name   = "冰甲人马",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {5765,4417},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20106007) -> #cfg_boss{
+	id     = 20106007,
+	name   = "北方龙神",
+	kind   = 1,
+	type   = 2,
+	group  = 0,
+	floor  = 7,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20106,
+	coord  = {3781,5342},
+	reborn = [{1,999,5178}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201001) -> #cfg_boss{
+	id     = 20201001,
+	name   = "炼狱魔犬",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {2757,636},
+	reborn = [{1,399,1440},{400,419,1008},{420,9999,720}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201002) -> #cfg_boss{
+	id     = 20201002,
+	name   = "火焰行者",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {1266,3499},
+	reborn = [{1,399,2400},{400,419,1680},{420,9999,1200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201003) -> #cfg_boss{
+	id     = 20201003,
+	name   = "狂暴斗鱼",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {5474,1377},
+	reborn = [{1,399,2400},{400,419,1680},{420,9999,1200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201004) -> #cfg_boss{
+	id     = 20201004,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {4535,3984},
+	reborn = [{1,399,2400},{400,419,1680},{420,9999,1200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201005) -> #cfg_boss{
+	id     = 20201005,
+	name   = "霜毒蜘蛛",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {6718,3252},
+	reborn = [{1,399,3000},{400,419,2100},{420,9999,1500}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201006) -> #cfg_boss{
+	id     = 20201006,
+	name   = "鲨鱼杀手",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {1248,5905},
+	reborn = [{1,399,3000},{400,419,2100},{420,9999,1500}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201007) -> #cfg_boss{
+	id     = 20201007,
+	name   = "深海游龙",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {3590,7021},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20201008) -> #cfg_boss{
+	id     = 20201008,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20201,
+	coord  = {6609,5841},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202001) -> #cfg_boss{
+	id     = 20202001,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {2757,636},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202002) -> #cfg_boss{
+	id     = 20202002,
+	name   = "狂暴斗鱼",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {1266,3499},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202003) -> #cfg_boss{
+	id     = 20202003,
+	name   = "流光领主",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {5474,1377},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202004) -> #cfg_boss{
+	id     = 20202004,
+	name   = "蓝龙领主",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {4535,3984},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202005) -> #cfg_boss{
+	id     = 20202005,
+	name   = "黑龙天照",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {6718,3252},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202006) -> #cfg_boss{
+	id     = 20202006,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {1248,5905},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202007) -> #cfg_boss{
+	id     = 20202007,
+	name   = "蓝龙领主",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {3590,7021},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20202008) -> #cfg_boss{
+	id     = 20202008,
+	name   = "深海领主",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20202,
+	coord  = {6609,5841},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203001) -> #cfg_boss{
+	id     = 20203001,
+	name   = "熔岩蜘蛛",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {2757,636},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203002) -> #cfg_boss{
+	id     = 20203002,
+	name   = "暴风龙",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {5474,1377},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203003) -> #cfg_boss{
+	id     = 20203003,
+	name   = "烈焰魔人",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {1266,3499},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203004) -> #cfg_boss{
+	id     = 20203004,
+	name   = "守卫魔犬",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {6718,3252},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203005) -> #cfg_boss{
+	id     = 20203005,
+	name   = "心灵巨龙",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {4535,3984},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203006) -> #cfg_boss{
+	id     = 20203006,
+	name   = "海龙王子",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {1248,5905},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203007) -> #cfg_boss{
+	id     = 20203007,
+	name   = "鲨鱼猎手",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {6609,5841},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20203008) -> #cfg_boss{
+	id     = 20203008,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 3,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20203,
+	coord  = {3590,7021},
+	reborn = [{1,399,4200},{400,419,2940},{420,9999,2100}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301101) -> #cfg_boss{
+	id     = 20301101,
+	name   = "暗夜猫又",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301201) -> #cfg_boss{
+	id     = 20301201,
+	name   = "暗夜猫又",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301301) -> #cfg_boss{
+	id     = 20301301,
+	name   = "暗夜猫又",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301401) -> #cfg_boss{
+	id     = 20301401,
+	name   = "暗夜猫又",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301501) -> #cfg_boss{
+	id     = 20301501,
+	name   = "暗夜猫又",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301102) -> #cfg_boss{
+	id     = 20301102,
+	name   = "黑阿西巴",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301202) -> #cfg_boss{
+	id     = 20301202,
+	name   = "黑阿西巴",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301302) -> #cfg_boss{
+	id     = 20301302,
+	name   = "黑阿西巴",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301402) -> #cfg_boss{
+	id     = 20301402,
+	name   = "黑阿西巴",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301502) -> #cfg_boss{
+	id     = 20301502,
+	name   = "黑阿西巴",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301103) -> #cfg_boss{
+	id     = 20301103,
+	name   = "糖巫芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301203) -> #cfg_boss{
+	id     = 20301203,
+	name   = "糖巫芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301303) -> #cfg_boss{
+	id     = 20301303,
+	name   = "糖巫芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301403) -> #cfg_boss{
+	id     = 20301403,
+	name   = "糖巫芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301503) -> #cfg_boss{
+	id     = 20301503,
+	name   = "糖巫芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301104) -> #cfg_boss{
+	id     = 20301104,
+	name   = "闪光芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301204) -> #cfg_boss{
+	id     = 20301204,
+	name   = "闪光芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301304) -> #cfg_boss{
+	id     = 20301304,
+	name   = "闪光芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301404) -> #cfg_boss{
+	id     = 20301404,
+	name   = "闪光芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301504) -> #cfg_boss{
+	id     = 20301504,
+	name   = "闪光芭比",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301105) -> #cfg_boss{
+	id     = 20301105,
+	name   = "红莲杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301205) -> #cfg_boss{
+	id     = 20301205,
+	name   = "红莲杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301305) -> #cfg_boss{
+	id     = 20301305,
+	name   = "红莲杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301405) -> #cfg_boss{
+	id     = 20301405,
+	name   = "红莲杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301505) -> #cfg_boss{
+	id     = 20301505,
+	name   = "红莲杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301106) -> #cfg_boss{
+	id     = 20301106,
+	name   = "黑金杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301206) -> #cfg_boss{
+	id     = 20301206,
+	name   = "黑金杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301306) -> #cfg_boss{
+	id     = 20301306,
+	name   = "黑金杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301406) -> #cfg_boss{
+	id     = 20301406,
+	name   = "黑金杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301506) -> #cfg_boss{
+	id     = 20301506,
+	name   = "黑金杰洛",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301107) -> #cfg_boss{
+	id     = 20301107,
+	name   = "深海人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301207) -> #cfg_boss{
+	id     = 20301207,
+	name   = "深海人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301307) -> #cfg_boss{
+	id     = 20301307,
+	name   = "深海人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301407) -> #cfg_boss{
+	id     = 20301407,
+	name   = "深海人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301507) -> #cfg_boss{
+	id     = 20301507,
+	name   = "深海人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301108) -> #cfg_boss{
+	id     = 20301108,
+	name   = "摇滚人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20301,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301208) -> #cfg_boss{
+	id     = 20301208,
+	name   = "摇滚人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20301,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301308) -> #cfg_boss{
+	id     = 20301308,
+	name   = "摇滚人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20301,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301408) -> #cfg_boss{
+	id     = 20301408,
+	name   = "摇滚人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20301,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20301508) -> #cfg_boss{
+	id     = 20301508,
+	name   = "摇滚人鱼",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 1,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20301,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302101) -> #cfg_boss{
+	id     = 20302101,
+	name   = "机甲熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302201) -> #cfg_boss{
+	id     = 20302201,
+	name   = "机甲熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302301) -> #cfg_boss{
+	id     = 20302301,
+	name   = "机甲熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302401) -> #cfg_boss{
+	id     = 20302401,
+	name   = "机甲熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302501) -> #cfg_boss{
+	id     = 20302501,
+	name   = "机甲熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {4802,794},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302102) -> #cfg_boss{
+	id     = 20302102,
+	name   = "猩红熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302202) -> #cfg_boss{
+	id     = 20302202,
+	name   = "猩红熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302302) -> #cfg_boss{
+	id     = 20302302,
+	name   = "猩红熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302402) -> #cfg_boss{
+	id     = 20302402,
+	name   = "猩红熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302502) -> #cfg_boss{
+	id     = 20302502,
+	name   = "猩红熊妖",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {2255,2613},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302103) -> #cfg_boss{
+	id     = 20302103,
+	name   = "狂暴巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302203) -> #cfg_boss{
+	id     = 20302203,
+	name   = "狂暴巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302303) -> #cfg_boss{
+	id     = 20302303,
+	name   = "狂暴巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302403) -> #cfg_boss{
+	id     = 20302403,
+	name   = "狂暴巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302503) -> #cfg_boss{
+	id     = 20302503,
+	name   = "狂暴巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {4726,2780},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302104) -> #cfg_boss{
+	id     = 20302104,
+	name   = "夜光巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302204) -> #cfg_boss{
+	id     = 20302204,
+	name   = "夜光巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302304) -> #cfg_boss{
+	id     = 20302304,
+	name   = "夜光巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302404) -> #cfg_boss{
+	id     = 20302404,
+	name   = "夜光巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302504) -> #cfg_boss{
+	id     = 20302504,
+	name   = "夜光巨蟹",
+	kind   = 1,
+	type   = 4,
+	group  = 1,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {7166,2916},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302105) -> #cfg_boss{
+	id     = 20302105,
+	name   = "森林狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302205) -> #cfg_boss{
+	id     = 20302205,
+	name   = "森林狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302305) -> #cfg_boss{
+	id     = 20302305,
+	name   = "森林狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302405) -> #cfg_boss{
+	id     = 20302405,
+	name   = "森林狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302505) -> #cfg_boss{
+	id     = 20302505,
+	name   = "森林狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {633,4263},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302106) -> #cfg_boss{
+	id     = 20302106,
+	name   = "棕红狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302206) -> #cfg_boss{
+	id     = 20302206,
+	name   = "棕红狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302306) -> #cfg_boss{
+	id     = 20302306,
+	name   = "棕红狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302406) -> #cfg_boss{
+	id     = 20302406,
+	name   = "棕红狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302506) -> #cfg_boss{
+	id     = 20302506,
+	name   = "棕红狼人",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {4701,4778},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302107) -> #cfg_boss{
+	id     = 20302107,
+	name   = "巨镰心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302207) -> #cfg_boss{
+	id     = 20302207,
+	name   = "巨镰心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302307) -> #cfg_boss{
+	id     = 20302307,
+	name   = "巨镰心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302407) -> #cfg_boss{
+	id     = 20302407,
+	name   = "巨镰心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302507) -> #cfg_boss{
+	id     = 20302507,
+	name   = "巨镰心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {6529,6227},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302108) -> #cfg_boss{
+	id     = 20302108,
+	name   = "幽魂心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 2,
+	weak   = 0,
+	scene  = 20302,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302208) -> #cfg_boss{
+	id     = 20302208,
+	name   = "幽魂心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 3,
+	weak   = 3600,
+	scene  = 20302,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302308) -> #cfg_boss{
+	id     = 20302308,
+	name   = "幽魂心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 5,
+	weak   = 1800,
+	scene  = 20302,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302408) -> #cfg_boss{
+	id     = 20302408,
+	name   = "幽魂心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 6,
+	weak   = 960,
+	scene  = 20302,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20302508) -> #cfg_boss{
+	id     = 20302508,
+	name   = "幽魂心魔",
+	kind   = 1,
+	type   = 4,
+	group  = 2,
+	floor  = 2,
+	qual   = 7,
+	weak   = 540,
+	scene  = 20302,
+	coord  = {2702,6173},
+	reborn = [{1,999,30}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401201) -> #cfg_boss{
+	id     = 20401201,
+	name   = "潮之晶魄",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {{1089,623},{11136,397},{11590,5454},{12111,8555},{12380,6837},{12434,430},{1612,2068},{2564,523},{3379,10476},{5749,450},{7076,7681},{810,6133},{8398,197},{8441,10858},{878,8450}},
+	reborn = [{1,9999,3000}],
+	reward = [],
+	droplv = 100,
+	num    = 8
+};
+find(20401202) -> #cfg_boss{
+	id     = 20401202,
+	name   = "森之晶魄",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {{10209,4472},{10290,8188},{10405,10051},{10419,2305},{11430,6390},{11550,7087},{11587,1622},{11816,734},{1790,341},{1997,8673},{2000,4727},{2773,10276},{3327,1278},{3399,3234},{4952,5829},{5345,10645},{6368,7469},{678,3886},{7055,8762},{7438,661},{7580,10315},{7918,9548},{7936,7980},{8243,3418},{8744,4966},{8848,2518},{9312,3975},{944,1489}},
+	reborn = [{1,9999,90}],
+	reward = [],
+	droplv = 100,
+	num    = 20
+};
+find(20401100) -> #cfg_boss{
+	id     = 20401100,
+	name   = "幻之守卫",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {{10341,6047},{3196,5533},{3425,5854},{3579,451},{3709,5620},{3850,5922},{3863,617},{4029,5613},{4081,451},{4134,10683},{4209,10898},{4222,613},{4486,10694},{4486,478},{4493,10423},{4906,10448},{8155,10226},{8191,10608},{8537,10362},{8643,9991},{8826,3023},{8834,3384},{9165,3627},{9180,3164},{9204,2788},{9286,5790},{9297,10115},{9658,6272},{9841,5936},{9908,5643}},
+	reborn = [{1,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 30
+};
+find(20401001) -> #cfg_boss{
+	id     = 20401001,
+	name   = "神力巨蟹",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {1795,5727},
+	reborn = [{1,399,4800},{400,419,4080},{420,9999,3360}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401002) -> #cfg_boss{
+	id     = 20401002,
+	name   = "鲨鱼杀手",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {5231,6613},
+	reborn = [{1,399,4800},{400,419,4080},{420,9999,3360}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401003) -> #cfg_boss{
+	id     = 20401003,
+	name   = "霜毒蜘蛛",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {9202,7718},
+	reborn = [{1,399,6780},{400,419,5763},{420,9999,4746}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401004) -> #cfg_boss{
+	id     = 20401004,
+	name   = "炼狱魔犬",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {11105,3493},
+	reborn = [{1,399,6780},{400,419,5763},{420,9999,4746}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401005) -> #cfg_boss{
+	id     = 20401005,
+	name   = "火焰魔人",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {1346,2980},
+	reborn = [{1,399,6780},{400,419,5763},{420,9999,4746}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401006) -> #cfg_boss{
+	id     = 20401006,
+	name   = "深海游龙",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {10051,10577},
+	reborn = [{1,399,6780},{400,419,5763},{420,9999,4746}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401007) -> #cfg_boss{
+	id     = 20401007,
+	name   = "寒冰斧王",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {1271,10556},
+	reborn = [{1,399,7200},{400,419,6120},{420,9999,5040}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20401008) -> #cfg_boss{
+	id     = 20401008,
+	name   = "雪铠神将",
+	kind   = 1,
+	type   = 5,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20501,
+	coord  = {6329,11865},
+	reborn = [{1,399,7200},{400,419,6120},{420,9999,5040}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501201) -> #cfg_boss{
+	id     = 20501201,
+	name   = "光之晶魄",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {{1089,623},{11136,397},{11590,5454},{12111,8555},{12380,6837},{12434,430},{1612,2068},{2564,523},{3379,10476},{5749,450},{7076,7681},{810,6133},{8398,197},{8441,10858},{878,8450}},
+	reborn = [{1,9999,3000}],
+	reward = [],
+	droplv = 100,
+	num    = 8
+};
+find(20501202) -> #cfg_boss{
+	id     = 20501202,
+	name   = "森之晶魄",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {{10209,4472},{10290,8188},{10405,10051},{10419,2305},{11430,6390},{11550,7087},{11587,1622},{11816,734},{1790,341},{1997,8673},{2000,4727},{2773,10276},{3327,1278},{3399,3234},{4952,5829},{5345,10645},{6368,7469},{678,3886},{7055,8762},{7438,661},{7580,10315},{7918,9548},{7936,7980},{8243,3418},{8744,4966},{8848,2518},{9312,3975},{944,1489}},
+	reborn = [{1,9999,90}],
+	reward = [],
+	droplv = 100,
+	num    = 20
+};
+find(20501100) -> #cfg_boss{
+	id     = 20501100,
+	name   = "幻之守卫",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {{10341,6047},{3196,5533},{3425,5854},{3579,451},{3709,5620},{3850,5922},{3863,617},{4029,5613},{4081,451},{4134,10683},{4209,10898},{4222,613},{4486,10694},{4486,478},{4493,10423},{4906,10448},{8155,10226},{8191,10608},{8537,10362},{8643,9991},{8826,3023},{8834,3384},{9165,3627},{9180,3164},{9204,2788},{9286,5790},{9297,10115},{9658,6272},{9841,5936},{9908,5643}},
+	reborn = [{1,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 30
+};
+find(20501001) -> #cfg_boss{
+	id     = 20501001,
+	name   = "神力巨蟹",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {1810,5697},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501002) -> #cfg_boss{
+	id     = 20501002,
+	name   = "霜毒蜘蛛",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {5238,6598},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501003) -> #cfg_boss{
+	id     = 20501003,
+	name   = "炼狱魔犬",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {9208,7709},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501004) -> #cfg_boss{
+	id     = 20501004,
+	name   = "深海游龙",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {11112,3490},
+	reborn = [{1,399,6780},{400,419,3729},{420,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501005) -> #cfg_boss{
+	id     = 20501005,
+	name   = "寒冰斧王",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {3572,8969},
+	reborn = [{1,399,6780},{400,419,3729},{420,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501006) -> #cfg_boss{
+	id     = 20501006,
+	name   = "雪铠神将",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {1327,2981},
+	reborn = [{1,399,7200},{400,419,3960},{420,9999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501007) -> #cfg_boss{
+	id     = 20501007,
+	name   = "流光领主",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {10065,10586},
+	reborn = [{1,399,7200},{400,419,3960},{420,9999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501008) -> #cfg_boss{
+	id     = 20501008,
+	name   = "蓝龙领主",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {1110,10583},
+	reborn = [{1,399,7500},{400,419,4125},{420,9999,3750}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20501009) -> #cfg_boss{
+	id     = 20501009,
+	name   = "黑龙天照",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20511,
+	coord  = {6218,11816},
+	reborn = [{1,399,7500},{400,419,4125},{420,9999,3750}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502201) -> #cfg_boss{
+	id     = 20502201,
+	name   = "光之晶魄",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {{1089,623},{11136,397},{11590,5454},{12111,8555},{12380,6837},{12434,430},{1612,2068},{2564,523},{3379,10476},{5749,450},{7076,7681},{810,6133},{8398,197},{8441,10858},{878,8450}},
+	reborn = [{1,9999,3000}],
+	reward = [],
+	droplv = 100,
+	num    = 8
+};
+find(20502202) -> #cfg_boss{
+	id     = 20502202,
+	name   = "森之晶魄",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {{10209,4472},{10290,8188},{10405,10051},{10419,2305},{11430,6390},{11550,7087},{11587,1622},{11816,734},{1790,341},{1997,8673},{2000,4727},{2773,10276},{3327,1278},{3399,3234},{4952,5829},{5345,10645},{6368,7469},{678,3886},{7055,8762},{7438,661},{7580,10315},{7918,9548},{7936,7980},{8243,3418},{8744,4966},{8848,2518},{9312,3975},{944,1489}},
+	reborn = [{1,9999,90}],
+	reward = [],
+	droplv = 100,
+	num    = 20
+};
+find(20502100) -> #cfg_boss{
+	id     = 20502100,
+	name   = "幻之守卫",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {{10341,6047},{3196,5533},{3425,5854},{3579,451},{3709,5620},{3850,5922},{3863,617},{4029,5613},{4081,451},{4134,10683},{4209,10898},{4222,613},{4486,10694},{4486,478},{4493,10423},{4906,10448},{8155,10226},{8191,10608},{8537,10362},{8643,9991},{8826,3023},{8834,3384},{9165,3627},{9180,3164},{9204,2788},{9286,5790},{9297,10115},{9658,6272},{9841,5936},{9908,5643}},
+	reborn = [{1,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 30
+};
+find(20502001) -> #cfg_boss{
+	id     = 20502001,
+	name   = "熔岩蜘蛛",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {1281,2873},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502002) -> #cfg_boss{
+	id     = 20502002,
+	name   = "暴风龙",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {11164,3369},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502003) -> #cfg_boss{
+	id     = 20502003,
+	name   = "火焰暴君",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {1714,5662},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502004) -> #cfg_boss{
+	id     = 20502004,
+	name   = "守卫魔犬",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {5277,6405},
+	reborn = [{1,399,6780},{400,419,3729},{420,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502005) -> #cfg_boss{
+	id     = 20502005,
+	name   = "心灵巨龙",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {9150,7520},
+	reborn = [{1,399,6780},{400,419,3729},{420,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502006) -> #cfg_boss{
+	id     = 20502006,
+	name   = "流光领主",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {3511,8915},
+	reborn = [{1,399,7200},{400,419,3960},{420,9999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502007) -> #cfg_boss{
+	id     = 20502007,
+	name   = "神力巨蟹",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {10065,10586},
+	reborn = [{1,399,7200},{400,419,3960},{420,9999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502008) -> #cfg_boss{
+	id     = 20502008,
+	name   = "深海领主",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {1110,10583},
+	reborn = [{1,399,7500},{400,419,4125},{420,9999,3750}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20502009) -> #cfg_boss{
+	id     = 20502009,
+	name   = "雪铠神将",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20512,
+	coord  = {6218,11816},
+	reborn = [{1,399,7500},{400,419,4125},{420,9999,3750}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503201) -> #cfg_boss{
+	id     = 20503201,
+	name   = "光之晶魄",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {{1089,623},{11136,397},{11590,5454},{12111,8555},{12380,6837},{12434,430},{1612,2068},{2564,523},{3379,10476},{5749,450},{7076,7681},{810,6133},{8398,197},{8441,10858},{878,8450}},
+	reborn = [{1,9999,3000}],
+	reward = [],
+	droplv = 100,
+	num    = 8
+};
+find(20503202) -> #cfg_boss{
+	id     = 20503202,
+	name   = "森之晶魄",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {{10209,4472},{10290,8188},{10405,10051},{10419,2305},{11430,6390},{11550,7087},{11587,1622},{11816,734},{1790,341},{1997,8673},{2000,4727},{2773,10276},{3327,1278},{3399,3234},{4952,5829},{5345,10645},{6368,7469},{678,3886},{7055,8762},{7438,661},{7580,10315},{7918,9548},{7936,7980},{8243,3418},{8744,4966},{8848,2518},{9312,3975},{944,1489}},
+	reborn = [{1,9999,90}],
+	reward = [],
+	droplv = 100,
+	num    = 20
+};
+find(20503100) -> #cfg_boss{
+	id     = 20503100,
+	name   = "幻之守卫",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {{10341,6047},{3196,5533},{3425,5854},{3579,451},{3709,5620},{3850,5922},{3863,617},{4029,5613},{4081,451},{4134,10683},{4209,10898},{4222,613},{4486,10694},{4486,478},{4493,10423},{4906,10448},{8155,10226},{8191,10608},{8537,10362},{8643,9991},{8826,3023},{8834,3384},{9165,3627},{9180,3164},{9204,2788},{9286,5790},{9297,10115},{9658,6272},{9841,5936},{9908,5643}},
+	reborn = [{1,9999,1800}],
+	reward = [],
+	droplv = 100,
+	num    = 30
+};
+find(20503001) -> #cfg_boss{
+	id     = 20503001,
+	name   = "守卫魔犬",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {1281,2873},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503002) -> #cfg_boss{
+	id     = 20503002,
+	name   = "冰甲人马",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {11164,3369},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503003) -> #cfg_boss{
+	id     = 20503003,
+	name   = "神力巨蟹",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {1714,5662},
+	reborn = [{1,399,4800},{400,419,2640},{420,9999,2400}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503004) -> #cfg_boss{
+	id     = 20503004,
+	name   = "鲨鱼猎手",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {5277,6405},
+	reborn = [{1,399,6780},{400,419,3729},{420,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503005) -> #cfg_boss{
+	id     = 20503005,
+	name   = "海龙王子",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {9150,7520},
+	reborn = [{1,399,6780},{400,419,3729},{420,9999,3390}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503006) -> #cfg_boss{
+	id     = 20503006,
+	name   = "深海领主",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {3511,8915},
+	reborn = [{1,399,7200},{400,419,3960},{420,9999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503007) -> #cfg_boss{
+	id     = 20503007,
+	name   = "深渊领主",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {10065,10586},
+	reborn = [{1,399,7200},{400,419,3960},{420,9999,3600}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503008) -> #cfg_boss{
+	id     = 20503008,
+	name   = "心灵巨龙",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {1110,10583},
+	reborn = [{1,399,7500},{400,419,4125},{420,9999,3750}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20503009) -> #cfg_boss{
+	id     = 20503009,
+	name   = "北方龙神",
+	kind   = 2,
+	type   = 6,
+	group  = 0,
+	floor  = 3,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20513,
+	coord  = {6218,11816},
+	reborn = [{1,399,7500},{400,419,4125},{420,9999,3750}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(21001010) -> #cfg_boss{
+	id     = 21001010,
+	name   = "时空精粹宝箱",
+	kind   = 2,
+	type   = 8,
+	group  = 1,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{3016,3268},{6213,2987},{3772,1596},{7128,4367}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 12
+};
+find(21001011) -> #cfg_boss{
+	id     = 21001011,
+	name   = "时空普通宝箱",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{2064,363},{2662,229},{3882,2243},{6274,473},{7263,1560},{7910,693},{428,1596},{404,4171},{1783,3671},{2967,2316},{5017,2585},{4236,3207},{4712,986},{2161,2878},{8032,2597},{7421,3244},{7946,4232},{8776,5611},{6909,5196},{5847,5257},{7653,6344},{5273,4818},{6103,6124},{3089,5209},{977,6368},{1405,4550},{1990,4952},{880,6234},{4077,6148},{3101,3488}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 20
+};
+find(21001000) -> #cfg_boss{
+	id     = 21001000,
+	name   = "时空精英卫",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{3541,3061},{3456,2927},{3627,2951},{1236,1768},{1187,1634},{1346,1659},{2114,1195},{1992,1024},{2212,1061},{4468,1695},{4431,1585},{4602,1573},{5907,927},{5785,817},{5980,768},{7846,1610},{7993,1573},{7956,1707},{6834,3403},{6919,3525},{7078,3366},{2834,4110},{2736,3964},{2992,3976},{1846,5952},{1748,6110},{1651,5976},{6700,6366},{6822,6220},{6554,6269}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 30
+};
+find(20901011) -> #cfg_boss{
+	id     = 20901011,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4444,2609},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901012) -> #cfg_boss{
+	id     = 20901012,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4444,2609},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901013) -> #cfg_boss{
+	id     = 20901013,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4444,2609},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901014) -> #cfg_boss{
+	id     = 20901014,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4444,2609},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901015) -> #cfg_boss{
+	id     = 20901015,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901016) -> #cfg_boss{
+	id     = 20901016,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901017) -> #cfg_boss{
+	id     = 20901017,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901018) -> #cfg_boss{
+	id     = 20901018,
+	name   = "神武阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 1,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901001) -> #cfg_boss{
+	id     = 20901001,
+	name   = "海神异体",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{6249,2134},{5139,2292},{6238,1315},{3772,1596}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901002) -> #cfg_boss{
+	id     = 20901002,
+	name   = "长枪神守",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{1029,866},{1514,400},{2979,1450},{1258,2475}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901003) -> #cfg_boss{
+	id     = 20901003,
+	name   = "荣耀觉罗",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{8602,671},{8471,2048},{6238,1315},{3016,3268}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901004) -> #cfg_boss{
+	id     = 20901004,
+	name   = "镰斧幽兽",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{1172,3578},{1258,2475},{3016,3268},{3199,4696},{611,5135}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901005) -> #cfg_boss{
+	id     = 20901005,
+	name   = "流光天将",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{8407,3232},{8471,2048},{6213,2987},{7128,4367},{8715,4537},{5957,4708}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901006) -> #cfg_boss{
+	id     = 20901006,
+	name   = "重钝中将",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{5358,6232},{5957,4708},{4102,5794},{2930,6246},{7128,5904}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901007) -> #cfg_boss{
+	id     = 20901007,
+	name   = "冰蛛鬼母",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{2840,5460},{4102,5794},{2930,6246},{782,6307},{3199,4696},{611,5135}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20901008) -> #cfg_boss{
+	id     = 20901008,
+	name   = "双月天威",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 1,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20901,
+	coord  = {{8151,6061},{8715,4537},{7128,4367},{5957,4708},{7128,5904}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902031) -> #cfg_boss{
+	id     = 20902031,
+	name   = "时空琉璃宝箱",
+	kind   = 2,
+	type   = 8,
+	group  = 1,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{3016,3268},{6213,2987},{3772,1596},{7128,4367}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 12
+};
+find(20902032) -> #cfg_boss{
+	id     = 20902032,
+	name   = "时空基础宝箱",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{2064,363},{2662,229},{3882,2243},{6274,473},{7263,1560},{7910,693},{428,1596},{404,4171},{1783,3671},{2967,2316},{5017,2585},{4236,3207},{4712,986},{2161,2878},{8032,2597},{7421,3244},{7946,4232},{8776,5611},{6909,5196},{5847,5257},{7653,6344},{5273,4818},{6103,6124},{3089,5209},{977,6368},{1405,4550},{1990,4952},{880,6234},{4077,6148},{3101,3488}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 20
+};
+find(20902030) -> #cfg_boss{
+	id     = 20902030,
+	name   = "时空精英卫",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{3541,3061},{3456,2927},{3627,2951},{1390,1900},{1320,1710},{1510,1720},{2210,1370},{2220,1160},{2410,1270},{4468,1695},{4431,1585},{4602,1573},{5907,927},{5785,817},{5980,768},{7846,1610},{7993,1573},{7956,1707},{6834,3403},{6919,3525},{7078,3366},{2834,4110},{2736,3964},{2992,3976},{1846,5952},{1748,6110},{1651,5976},{6700,6366},{6822,6220},{6554,6269}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 30
+};
+find(20902011) -> #cfg_boss{
+	id     = 20902011,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4900,2640},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902012) -> #cfg_boss{
+	id     = 20902012,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4900,2640},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902013) -> #cfg_boss{
+	id     = 20902013,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4900,2640},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902014) -> #cfg_boss{
+	id     = 20902014,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{440,2158},{2381,2621},{3040,534},{4900,2640},{4566,510},{7092,632},{7299,2389}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902015) -> #cfg_boss{
+	id     = 20902015,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902016) -> #cfg_boss{
+	id     = 20902016,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902017) -> #cfg_boss{
+	id     = 20902017,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902018) -> #cfg_boss{
+	id     = 20902018,
+	name   = "天罚阎罗",
+	kind   = 2,
+	type   = 9,
+	group  = 0,
+	floor  = 2,
+	qual   = 6,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{3638,6331},{1453,5001},{6347,5196},{7763,4574},{4004,5184}},
+	reborn = [],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902001) -> #cfg_boss{
+	id     = 20902001,
+	name   = "重钝中将",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{1172,3578},{1258,2475},{3016,3268},{3199,4696},{611,5135}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902002) -> #cfg_boss{
+	id     = 20902002,
+	name   = "荣耀觉罗",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{6249,2134},{5139,2292},{6238,1315},{3772,1596}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902003) -> #cfg_boss{
+	id     = 20902003,
+	name   = "双月天威",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{1029,866},{1514,400},{2979,1450},{1258,2475}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902004) -> #cfg_boss{
+	id     = 20902004,
+	name   = "海神异体",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{8602,671},{8471,2048},{6238,1315},{3016,3268}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902005) -> #cfg_boss{
+	id     = 20902005,
+	name   = "流光天将",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{2840,5460},{4102,5794},{2930,6246},{782,6307},{3199,4696},{611,5135}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902006) -> #cfg_boss{
+	id     = 20902006,
+	name   = "冰蛛鬼母",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{8407,3232},{8471,2048},{6213,2987},{7128,4367},{8715,4537},{5957,4708}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902007) -> #cfg_boss{
+	id     = 20902007,
+	name   = "长枪神守",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{5358,6232},{5957,4708},{4102,5794},{2930,6246},{7128,5904}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(20902008) -> #cfg_boss{
+	id     = 20902008,
+	name   = "镰斧幽兽",
+	kind   = 2,
+	type   = 8,
+	group  = 0,
+	floor  = 2,
+	qual   = 0,
+	weak   = 0,
+	scene  = 20902,
+	coord  = {{8151,6061},{8715,4537},{7128,4367},{5957,4708},{7128,5904}},
+	reborn = [{1,9999,7200}],
+	reward = [],
+	droplv = 100,
+	num    = 1
+};
+find(_) -> undefined.
+
+all(1) -> [20003001,20003006,20100003,20302308,20001006,20105006,20203003,20301402,20301408,20302306,20006002,20003008,20101002,20105002,20301504,20302301,20302204,20401004,20002001,20302404,20401202,20301303,20007002,20302508,20006004,20006003,20006008,20100007,20101003,20202003,20302405,20000005,20301203,20301507,20007004,20201002,20006007,20003000,20006005,20302106,20102005,20301102,20302206,20302407,20005002,20005003,20102001,20103005,20201003,20201008,20301308,20401100,20004004,20301406,20007007,20100006,20301503,20301505,20301307,20000001,20004003,20100001,20202005,20301205,20302101,20302202,20002008,20103001,20301108,20302102,20007008,20104005,20302501,20302205,20302108,20401008,20103003,20202007,20202008,20301301,20102003,20201006,20007003,20101001,20101005,20005007,20004007,20005008,20007006,20301101,20001002,20302305,20302406,20302506,20001005,20106005,20302207,20102004,20000004,20003009,20103002,20106004,20201007,20301302,20401006,20000002,20401001,20106003,20401002,20006006,20301403,20301105,20203005,20301506,20106002,20002005,20103006,20302105,20001004,20007005,20104003,20105001,20302505,20302307,20002006,20203008,20103004,20100002,20102006,20106001,20302403,20004008,20104002,20201004,20202001,20003002,20202006,20301405,20001003,20005005,20101007,20104001,20301306,20003004,20101004,20302104,20007001,20100004,20104006,20301208,20005006,20002004,20101006,20000003,20302203,20302208,20301106,20004001,20105005,20203004,20301204,20001008,20302408,20203006,20006001,20301207,20002003,20201001,20401201,20001001,20302504,20003005,20203007,20401003,20002002,20301508,20302304,20104007,20100005,20301501,20301407,20000006,20105004,20301401,20301202,20301502,20301304,20105003,20005004,20202002,20203001,20302507,20401007,20003007,20201005,20202004,20302401,20106006,20004006,20005001,20301404,20401005,20004002,20102002,20301104,20301201,20106007,20301103,20301305,20003003,20302402,20302502,20004005,20302107,20002007,20301206,20301107,20302303,20001007,20302201,20302302,20203002,20302503,20302103,20104004,20105007];
+all(2) -> [20503201,20503100,20901018,20901006,20902001,20501202,20501002,20501006,20502009,20902032,20902017,20902005,20501004,20501005,20501007,20502100,20503006,20502004,20503002,20901012,20902008,20502002,20502006,20503004,20902003,20502201,20502001,20503003,20901011,20901013,20901005,20902014,20902006,20503008,20901017,20901002,20901003,20901004,20902004,20502003,21001010,20901007,20901008,21001011,20901016,20902030,20902015,20902016,20501201,20502202,20902011,20501100,20503009,20901014,20901001,20902018,20501001,20501003,20502005,20502007,20502008,20503202,20503001,20503007,20901015,20902013,20501009,20503005,20902031,20902012,20902002,20902007,20501008,21001000];
+all(_) -> [].
+
+
+
+next(20301101) -> 20301201;
+next(20301201) -> 20301301;
+next(20301301) -> 20301401;
+next(20301401) -> 20301501;
+next(20301102) -> 20301202;
+next(20301202) -> 20301302;
+next(20301302) -> 20301402;
+next(20301402) -> 20301502;
+next(20301103) -> 20301203;
+next(20301203) -> 20301303;
+next(20301303) -> 20301403;
+next(20301403) -> 20301503;
+next(20301104) -> 20301204;
+next(20301204) -> 20301304;
+next(20301304) -> 20301404;
+next(20301404) -> 20301504;
+next(20301105) -> 20301205;
+next(20301205) -> 20301305;
+next(20301305) -> 20301405;
+next(20301405) -> 20301505;
+next(20301106) -> 20301206;
+next(20301206) -> 20301306;
+next(20301306) -> 20301406;
+next(20301406) -> 20301506;
+next(20301107) -> 20301207;
+next(20301207) -> 20301307;
+next(20301307) -> 20301407;
+next(20301407) -> 20301507;
+next(20301108) -> 20301208;
+next(20301208) -> 20301308;
+next(20301308) -> 20301408;
+next(20301408) -> 20301508;
+next(20302101) -> 20302201;
+next(20302201) -> 20302301;
+next(20302301) -> 20302401;
+next(20302401) -> 20302501;
+next(20302102) -> 20302202;
+next(20302202) -> 20302302;
+next(20302302) -> 20302402;
+next(20302402) -> 20302502;
+next(20302103) -> 20302203;
+next(20302203) -> 20302303;
+next(20302303) -> 20302403;
+next(20302403) -> 20302503;
+next(20302104) -> 20302204;
+next(20302204) -> 20302304;
+next(20302304) -> 20302404;
+next(20302404) -> 20302504;
+next(20302105) -> 20302205;
+next(20302205) -> 20302305;
+next(20302305) -> 20302405;
+next(20302405) -> 20302505;
+next(20302106) -> 20302206;
+next(20302206) -> 20302306;
+next(20302306) -> 20302406;
+next(20302406) -> 20302506;
+next(20302107) -> 20302207;
+next(20302207) -> 20302307;
+next(20302307) -> 20302407;
+next(20302407) -> 20302507;
+next(20302108) -> 20302208;
+next(20302208) -> 20302308;
+next(20302308) -> 20302408;
+next(20302408) -> 20302508;
+next(_) -> 0.
+
+prev(20301201) -> 20301101;
+prev(20301301) -> 20301201;
+prev(20301401) -> 20301301;
+prev(20301501) -> 20301401;
+prev(20301202) -> 20301102;
+prev(20301302) -> 20301202;
+prev(20301402) -> 20301302;
+prev(20301502) -> 20301402;
+prev(20301203) -> 20301103;
+prev(20301303) -> 20301203;
+prev(20301403) -> 20301303;
+prev(20301503) -> 20301403;
+prev(20301204) -> 20301104;
+prev(20301304) -> 20301204;
+prev(20301404) -> 20301304;
+prev(20301504) -> 20301404;
+prev(20301205) -> 20301105;
+prev(20301305) -> 20301205;
+prev(20301405) -> 20301305;
+prev(20301505) -> 20301405;
+prev(20301206) -> 20301106;
+prev(20301306) -> 20301206;
+prev(20301406) -> 20301306;
+prev(20301506) -> 20301406;
+prev(20301207) -> 20301107;
+prev(20301307) -> 20301207;
+prev(20301407) -> 20301307;
+prev(20301507) -> 20301407;
+prev(20301208) -> 20301108;
+prev(20301308) -> 20301208;
+prev(20301408) -> 20301308;
+prev(20301508) -> 20301408;
+prev(20302201) -> 20302101;
+prev(20302301) -> 20302201;
+prev(20302401) -> 20302301;
+prev(20302501) -> 20302401;
+prev(20302202) -> 20302102;
+prev(20302302) -> 20302202;
+prev(20302402) -> 20302302;
+prev(20302502) -> 20302402;
+prev(20302203) -> 20302103;
+prev(20302303) -> 20302203;
+prev(20302403) -> 20302303;
+prev(20302503) -> 20302403;
+prev(20302204) -> 20302104;
+prev(20302304) -> 20302204;
+prev(20302404) -> 20302304;
+prev(20302504) -> 20302404;
+prev(20302205) -> 20302105;
+prev(20302305) -> 20302205;
+prev(20302405) -> 20302305;
+prev(20302505) -> 20302405;
+prev(20302206) -> 20302106;
+prev(20302306) -> 20302206;
+prev(20302406) -> 20302306;
+prev(20302506) -> 20302406;
+prev(20302207) -> 20302107;
+prev(20302307) -> 20302207;
+prev(20302407) -> 20302307;
+prev(20302507) -> 20302407;
+prev(20302208) -> 20302108;
+prev(20302308) -> 20302208;
+prev(20302408) -> 20302308;
+prev(20302508) -> 20302408;
+prev(_) -> 0.
+
+
+
+
+scene(1, 0) -> 20000;
+scene(1, 1) -> 20001;
+scene(1, 2) -> 20002;
+scene(1, 3) -> 20003;
+scene(1, 4) -> 20004;
+scene(1, 5) -> 20005;
+scene(1, 6) -> 20006;
+scene(1, 7) -> 20007;
+scene(2, 1) -> 20100;
+scene(2, 2) -> 20101;
+scene(2, 3) -> 20102;
+scene(2, 4) -> 20103;
+scene(2, 5) -> 20104;
+scene(2, 6) -> 20105;
+scene(2, 7) -> 20106;
+scene(3, 1) -> 20201;
+scene(3, 2) -> 20202;
+scene(3, 3) -> 20203;
+scene(4, 1) -> 20301;
+scene(4, 2) -> 20302;
+scene(5, 1) -> 20501;
+scene(6, 1) -> 20511;
+scene(6, 2) -> 20512;
+scene(6, 3) -> 20513;
+scene(8, 1) -> 20901;
+scene(9, 1) -> 20901;
+scene(8, 2) -> 20902;
+scene(9, 2) -> 20902;
+scene(_, _) -> undefined.
+
+
+
+kind(1) -> 1;
+kind(2) -> 1;
+kind(3) -> 1;
+kind(4) -> 1;
+kind(5) -> 1;
+kind(6) -> 2;
+kind(8) -> 2;
+kind(9) -> 2;
+kind(_) -> undefined.
+
+
+
+
+group(4, 1, 1) -> [20301201,20301501,20301202,20301203,20301303,20301403,20301503,20301101,20301104,20301301,20301102,20301502,20301304,20301404,20301504,20301401,20301402,20301103,20301204,20301302];
+group(4, 1, 2) -> [20301106,20301306,20301107,20301108,20301508,20301105,20301205,20301405,20301207,20301407,20301308,20301206,20301307,20301507,20301208,20301305,20301505,20301406,20301506,20301408];
+group(4, 2, 1) -> [20302101,20302103,20302503,20302401,20302303,20302102,20302302,20302402,20302203,20302403,20302104,20302201,20302501,20302404,20302502,20302204,20302304,20302504,20302301,20302202];
+group(4, 2, 2) -> [20302105,20302207,20302307,20302407,20302408,20302506,20302507,20302108,20302205,20302405,20302106,20302206,20302306,20302208,20302508,20302305,20302505,20302308,20302406,20302107];
+group(8, 1, 1) -> [21001010];
+group(8, 2, 1) -> [20902031];
+
+group(_, _, _) -> [].
+
+
+auto_care(140) -> [20000002];
+auto_care(165) -> [20000003];
+auto_care(175) -> [20000004,20001003];
+auto_care(190) -> [20000005,20000006,20001004];
+auto_care(200) -> [20001005];
+auto_care(215) -> [20001006];
+auto_care(220) -> [20001007];
+auto_care(230) -> [20001008];
+auto_care(235) -> [20002001];
+auto_care(240) -> [20002002];
+auto_care(255) -> [20002003];
+auto_care(280) -> [20002004];
+auto_care(285) -> [20002005];
+auto_care(290) -> [20002006];
+auto_care(345) -> [20002007];
+auto_care(400) -> [20002008];
+auto_care(260) -> [20003000];
+auto_care(300) -> [20003001];
+auto_care(305) -> [20003002];
+auto_care(310) -> [20003003];
+auto_care(315) -> [20003004];
+auto_care(350) -> [20003005];
+auto_care(355) -> [20003006];
+auto_care(405) -> [20003007];
+auto_care(410) -> [20003008];
+auto_care(430) -> [20003009];
+auto_care(445) -> [20004001];
+auto_care(450) -> [20004002];
+auto_care(455) -> [20004003];
+auto_care(460) -> [20004004];
+auto_care(500) -> [20004005];
+auto_care(505) -> [20004006];
+auto_care(510) -> [20004007];
+auto_care(520) -> [20004008];
+auto_care(545) -> [20005001];
+auto_care(555) -> [20005002];
+auto_care(560) -> [20005003];
+auto_care(570) -> [20005004];
+auto_care(595) -> [20005005];
+auto_care(605) -> [20005006];
+auto_care(610) -> [20005007];
+auto_care(620) -> [20005008];
+auto_care(645) -> [20006001];
+auto_care(655) -> [20006002];
+auto_care(660) -> [20006003];
+auto_care(670) -> [20006004];
+auto_care(700) -> [20006005];
+auto_care(705) -> [20006006];
+auto_care(710) -> [20006007];
+auto_care(720) -> [20006008];
+auto_care(750) -> [20007001];
+auto_care(775) -> [20007002];
+auto_care(795) -> [20007003];
+auto_care(825) -> [20007004];
+auto_care(855) -> [20007005];
+auto_care(900) -> [20007006];
+auto_care(925) -> [20007007];
+auto_care(950) -> [20007008];
+
+auto_care(_) -> [].
+
+
+auto_cancel() -> [{20005001, 999},{20006004, 999},{20007001, 999},{20001007, 240},{20003007, 445},{20004001, 460},{20004008, 999},{20005007, 999},{20007008, 999},{20000004, 215},{20001003, 215},{20002006, 350},{20004007, 999},{20001004, 220},{20002008, 430},{20000005, 220},{20002003, 290},{20007002, 999},{20007003, 999},{20003004, 355},{20005006, 999},{20002005, 345},{20004005, 520},{20006001, 999},{20007004, 999},{20007005, 999},{20003008, 450},{20003009, 455},{20005005, 999},{20006008, 999},{20001005, 230},{20002004, 345},{20003003, 355},{20003006, 410},{20007006, 999},{20006003, 999},{20002007, 400},{20005003, 999},{20005008, 999},{20002002, 285},{20003002, 355},{20004004, 510},{20005002, 999},{20000002, 190},{20001008, 255},{20003001, 350},{20004006, 999},{20004002, 500},{20005004, 999},{20006007, 999},{20000006, 230},{20001006, 235},{20003000, 300},{20003005, 405},{20000003, 200},{20006002, 999},{20006005, 999},{20006006, 999},{20002001, 280},{20004003, 505},{20007007, 999}].
+

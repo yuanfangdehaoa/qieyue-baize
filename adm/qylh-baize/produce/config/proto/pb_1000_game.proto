@@ -1,0 +1,172 @@
+syntax = "proto2";
+
+// GM指令
+message m_game_cheat_tos { //1000000
+	required string cmd = 1;
+}
+
+// 错误信息
+message m_game_error_toc { //1000001
+    required int32  errno = 1;
+    repeated string args  = 2;
+}
+
+// 心跳
+message m_game_heart_tos { //1000002
+}
+
+message m_game_heart_toc { //1000002
+}
+
+// 获取系统设置信息
+message m_game_setting_tos { //1000003
+}
+
+message m_game_setting_toc { //1000003
+	map<int32, int32> setting = 1;
+}
+
+// 进行系统设置
+message m_game_setup_tos { //1000004
+	map<int32, int32> setting = 1;
+}
+
+// 服务器时间
+message m_game_time_tos { //1000005
+
+}
+
+message m_game_time_toc { //1000005
+	required uint64  time = 1; // 服务器时间(毫秒)
+	required int32   tz   = 2; // 时区
+}
+
+// 系统通知
+message m_game_notify_toc { //1000006
+	required int32   msgno = 1;
+	repeated p_msgno args  = 2;
+}
+
+// 已开放的系统
+message m_game_syslist_tos { //1000007
+}
+
+message m_game_syslist_toc { //1000007
+	repeated string syslist = 1;
+}
+
+// 系统开放通知
+message m_game_sysopen_toc { //1000008
+	required string sysid = 1;
+}
+
+// 充值信息
+message m_game_payinfo_tos { //1000009
+	required int32 goods_id = 1;
+}
+
+message m_game_payinfo_toc { //1000009
+	required int32  goods_id = 1;
+	required string order_id = 2; // 订单id
+	required string pay_back = 3; // 回调url
+}
+
+// 充值成功
+message m_game_paysucc_toc { //1000010
+	map<int32, int32> gain      = 1;
+	required string   app_order = 2; // 自己的订单id
+	required string   sdk_order = 3; // sdk的订单id
+}
+
+// 前端时间
+message m_game_clienttime_tos { //1000011
+	required uint64  time = 1;
+}
+
+// 世界等级
+message m_game_worldlv_tos { //1000012
+}
+
+message m_game_worldlv_toc { //1000012
+	required int32 level = 1;
+}
+
+// 热更前端配置
+message m_game_hotconfig_toc { //1000013
+	required string config = 1; // 配置文件名
+}
+
+// 上线时获取跑马灯通知
+message m_game_marquee_tos { //1000014
+}
+
+message m_game_marquee_toc { //1000014
+	repeated p_marquee 	list = 1;
+}
+
+// 后台推送跑马灯的增删
+message m_game_marquee_update_toc { //1000015
+	optional p_marquee 	add = 1; //新增的
+	optional int32 		del = 2; //删除的ID
+}
+
+// 游戏挂起(前端调用摄像头等)
+message m_game_suspend_tos { //1000016
+
+}
+
+// 游戏唤醒
+message m_game_awake_tos { //1000017
+
+}
+
+// 充值列表
+message m_game_paylist_tos { //1000018
+
+}
+
+message m_game_paylist_toc { //1000018
+	repeated int32 paid = 1; // 已充值过的 goods_id
+}
+
+// 客户端错误
+message m_game_clienterror_tos { //1000019
+	required string error = 1;
+}
+
+// 新手地图资源
+message m_game_newbie_scene_tos { //1000020
+
+}
+
+message m_game_newbie_scene_toc { //1000020
+	required int32 res_id = 1;
+}
+
+// 充值次数
+message m_game_paytimes_tos { //1000021
+
+}
+
+message m_game_paytimes_toc { //1000021
+	map<int32,int32> times = 1; // key=GoodsID, val=Times
+}
+
+message p_marquee {
+	required int32 		id         = 1;
+	optional int32 		type 	   = 2; //广播类型（暂时无用，默认为0）
+	required int32 		start_time = 3;
+	required int32		end_time   = 4;
+	required string 	content    = 5;
+	required int32 		interval   = 6; //间隔s
+	map<string, int32> 	ext 	   = 7; //扩展参数
+}
+
+message p_msgno {
+	map<string,string> props = 1;
+	map<int32,int32>   items = 2;
+	map<int32,int32>   pitems = 3;  //key=cache_id, val=item_id
+}
+// props
+// key=general 通用字符串
+// key=panel   面板

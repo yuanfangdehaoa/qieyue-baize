@@ -152,6 +152,8 @@ handle(MsgID, Tos, GateSt) ->
 %%%-----------------------------------------------------------------------------
 check_login(GameChan, Account, Token, SDKArgs, IP) ->
     ?_check(game_entry:is_opened(), ?ERR_GAME_NOT_OPENED),
+    ?debug("Token ~p", [Token]),
+    ?debug("SDKArgs  ~ts", [jiffy:encode(SDKArgs)]),
     case Token == ut_str:md5(lists:concat([Account, ?GM_LOGIN])) of
         true  ->
             ?debug(
